@@ -253,15 +253,22 @@ async function searchImage(ev) {
 }
 
 // Readable text of a news article: paragraph contents only, which skips most menus and footers.
+// Some sites put the story in <div>s, not <p>s (e.g. Anime News Network), so the main block's full text comes first:
+// <article> or a content/body/meat div, else the page body without nav, header, footer and asides.
 async function articleText(url) {
-  const html = await (await fetch(url, { headers: UA, signal: AbortSignal.timeout(10000) })).text();
-  const paras = [...html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, "").matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
-    .map(m => decode(m[1])).filter(t => t.length > 30);
-  return paras.join("\n").slice(0, 3500);
+  const html = (await (await fetch(url, { headers: UA, signal: AbortSignal.timeout(10000) })).text())
+    .replace(/<(script|style|noscript|svg|nav|header|footer|aside|form)\b[\s\S]*?<\/\1>/gi, " ");
+  const paras = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)].map(m => decode(m[1])).filter(t => t.length > 30).join("\n");
+  const main = html.match(/<article\b[\s\S]*?<\/article>/i)?.[0]
+    || html.match(/<div[^>]+class="[^"]*\b(meat|article-body|article__body|entry-content|post-content|content-detail|news-content|detail)\b[^"]*"[\s\S]{0,60000}/i)?.[0]
+    || html.match(/<body\b[\s\S]*<\/body>/i)?.[0] || "";
+  const block = decode(main);
+  return (block.length > paras.length * 1.3 ? block : paras || block).slice(0, 3500);
 }
 
 const DESCRIBE = `You write event details for a Thai event calendar app, using ONLY the given news text. Never invent facts.
 Registration or ticket-sale periods are not the event date: put them in signup_th, and leave start/end null unless the event date is written.
+If a date is written without a year, use the first such date on or after the article's publish date.
 Reply with valid JSON only (no " inside string values):
 {"about_th":"3-4 Thai sentences: what the event is, who it is for, what you can do or see there",
 "highlights_th":["up to 5 short Thai bullet points: guests, activities, exhibitors, special items"],
@@ -272,10 +279,17 @@ Reply with valid JSON only (no " inside string values):
 // Richer details for the app's event page, from the article text (falls back to the headlines).
 async function describe(ev, key = null) {
   const urls = [...ev.sources.map(s => s.link).filter(l => !/news\.google\./.test(l)), ev.article].filter(Boolean);
-  let text = "";
-  for (const u of urls.slice(0, 2)) { try { text = await articleText(u); } catch {} if (text.length > 300) break; }
+  // Articles often write "May 30 and 31" without a year, so the model also gets each article's publish date
+  // (from the URL like …/2026-01-16/…, else the headline's date).
+  let text = "", published = null;
+  for (const u of urls.slice(0, 2)) {
+    try { text = await articleText(u); } catch {}
+    published = (u.match(/(20\d\d)[-/](\d\d)[-/](\d\d)/) || []).slice(1).join("-") || ev.sources.find(s => s.link === u)?.date || null;
+    if (text.length > 300) break;
+  }
   const context = `Event: ${ev.name} (${ev.start || "date unknown"}, ${[ev.venue, ev.city].filter(Boolean).join(", ")})\n` +
-    `Headlines:\n${ev.sources.slice(0, 5).map(s => "- " + s.title).join("\n")}\n\nArticle:\n${text || "(none)"}`;
+    `Headlines:\n${ev.sources.slice(0, 5).map(s => `- [published ${s.date}] ${s.title}`).join("\n")}\n\n` +
+    `Article (published ${published || ev.sources[0]?.date || "unknown"}):\n${text || "(none)"}`;
   const { text: out } = await extract([{ role: "system", content: DESCRIBE }, { role: "user", content: context }], ORDERS.describe, key);
   const d = parseJson(out);
   ev.about_th = d.about_th || null;
@@ -289,6 +303,7 @@ async function describe(ev, key = null) {
   ev.price_th = (d.price_th || ev.price_th || null)?.slice(0, 60) || null;
   if (d.ticket_url && /^https?:\/\//.test(d.ticket_url) && text.includes(d.ticket_url)) ev.official ??= d.ticket_url;
   ev.described = true;
+  ev.datesRead = true;
 }
 
 const raw = load(RAW, {});
@@ -613,7 +628,7 @@ if (noRegion.length) console.log(`[region] ${noRegion.filter(e => e.region).leng
 
 // Upcoming events first; past ones never need details.
 const MAX_DESCRIBE = Number(arg("max-describe", 40));
-const toDescribe = events.filter(e => !e.described && (!e.end || e.end >= today))
+const toDescribe = events.filter(e => (!e.described || (!e.start && !e.datesRead)) && (!e.end || e.end >= today))
   .sort((a, b) => (a.start ? 1 : 0) - (b.start ? 1 : 0)).slice(0, MAX_DESCRIBE);
 // Same parallel pattern as extraction: one worker per Nemotron key.
 let described = 0, describeStop = false;
