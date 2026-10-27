@@ -1,0 +1,9 @@
+{
+  "name": "event-calendar",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node pipeline/run.mjs",
+    "serve": "node serve.mjs"
+  }
+}

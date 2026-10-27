@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#120f24">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>EventRadar</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="logo">◉</span> Event<b>Radar</b></div>
+    <input id="search" type="search" placeholder="ค้นหางาน…" autocomplete="off">
+  </header>
+
+  <section id="filters">
+    <div class="chips" id="countryChips"></div>
+    <div class="chips" id="groupChips"></div>
+    <div class="chips sub" id="tagChips" hidden></div>
+  </section>
+
+  <main>
+    <section id="home" class="view">
+      <div class="section-head"><h2>เร็วๆ นี้</h2><small id="soonCount"></small></div>
+      <div id="soon" class="rail"></div>
+      <div class="section-head"><h2 id="monthTitle"></h2>
+        <div class="month-nav"><button id="prev" aria-label="เดือนก่อน">‹</button><button id="next" aria-label="เดือนถัดไป">›</button></div>
+      </div>
+      <div class="grid weekdays"><span>อา</span><span>จ</span><span>อ</span><span>พ</span><span>พฤ</span><span>ศ</span><span>ส</span></div>
+      <div class="grid" id="days"></div>
+      <div class="section-head"><h2 id="dayTitle"></h2><small id="clash"></small></div>
+      <div id="dayEvents" class="cards"></div>
+    </section>
+
+    <section id="list" class="view" hidden></section>
+
+    <section id="mine" class="view" hidden>
+      <div class="section-head"><h2>งานที่ติดตาม</h2><button id="exportIcs" class="pill">ส่งออกทั้งหมด (.ics)</button></div>
+      <p id="mineHint" class="empty"></p>
+      <div id="mineEvents" class="cards"></div>
+    </section>
+  </main>
+
+  <nav id="tabs">
+    <button data-view="home" class="on"><span>📅</span>ปฏิทิน</button>
+    <button data-view="list"><span>☰</span>ทั้งหมด</button>
+    <button data-view="mine"><span>★</span>ของฉัน<i id="mineBadge" hidden></i></button>
+  </nav>
+
+  <div id="sheet" hidden>
+    <div class="backdrop" data-close></div>
+    <article class="sheet-body" id="sheetBody"></article>
+  </div>
+
+  <footer id="status"></footer>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+# Runs the event pipeline every day and publishes the app to GitHub Pages.
+# Needs repo secret TENIXE_KEYS, and Settings → Pages → Source: GitHub Actions.
+name: daily-update
+on:
+  schedule:
+    - cron: "0 17,23,5,11 * * *" # 00:00, 06:00, 12:00, 18:00 Thai time
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["web/**"]
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch and extract events
+        if: github.event_name != 'push'
+        env:
+          TENIXE_KEYS: ${{ secrets.TENIXE_KEYS }}
+        run: node pipeline/run.mjs --window=1d --max-batches=30
+      - name: Save data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "eventradar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "data: daily update"
+          git push
+      - name: Build site
+        run: |
+          mkdir -p _site/data
+          cp -r web/* _site/
+          cp data/events.json _site/data/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
