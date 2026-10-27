@@ -94,14 +94,25 @@ function visible() {
 
 // News sites often block hotlinked images; load them through a free image proxy that also resizes.
 const proxied = (url, w) => `https://images.weserv.nl/?url=${encodeURIComponent(url)}&w=${w}&output=webp`;
+// No poster: a designed card (category colour, icon, event name) instead of an empty box.
+const placeholder = e => `<span class="ph"><i>${emoji(e)}</i><b>${esc(title(e))}</b></span>`;
 const img = (e, w = 400) => e.image
-  ? `<img src="${esc(proxied(e.image, w))}" data-orig="${esc(e.image)}" data-emoji="${emoji(e)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="imgFail(this)">`
-  : emoji(e);
-// Proxy failed → try the original URL once → give up and show the category emoji.
+  ? `<img src="${esc(proxied(e.image, w))}" data-orig="${esc(e.image)}" data-id="${e.id}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="imgFail(this)">`
+  : placeholder(e);
+// Proxy failed → try the original URL once → give up and show the placeholder card.
 function imgFail(el) {
-  if (el.dataset.orig && el.src !== el.dataset.orig) { el.src = el.dataset.orig; el.dataset.orig = ""; }
-  else el.replaceWith(document.createTextNode(el.dataset.emoji || "✨"));
+  if (el.dataset.orig && el.src !== el.dataset.orig) { el.src = el.dataset.orig; el.dataset.orig = ""; return; }
+  const e = state.events.find(x => x.id === el.dataset.id);
+  el.outerHTML = e ? placeholder(e) : "";
 }
+
+// Date changes and cancellations. Followed events are compared with what this phone saw last time.
+const statusBadge = e => e.status === "cancelled" ? `<span class="badge cancelled">ยกเลิก</span>`
+  : e.status === "postponed" ? `<span class="badge moved">เลื่อนวัน</span>` : "";
+const snapshot = e => `${e.start}|${e.end}|${e.status || ""}`;
+const seen = store.get("seen", {});
+const changedFollowed = () => state.events.filter(e => state.starred.has(e.id) && seen[e.id] && seen[e.id] !== snapshot(e));
+function markSeen(list) { for (const e of list) seen[e.id] = snapshot(e); store.set("seen", seen); }
 
 // Main screen: one row — the filter button, then quick single-pick groups. Detailed picks live in the filter sheet.
 const filterCount = () => (state.countries.size < Object.keys(COUNTRIES).length ? 1 : 0) + (state.offTags.size ? 1 : 0)
@@ -152,7 +163,7 @@ function card(e) {
       <h4>${esc(title(e))}</h4>
       <p class="meta">📅 ${dateText(e)}${e.price_th ? ` · 🎟️ ${esc(e.price_th)}` : ""}</p>
       <p class="meta">${COUNTRIES[e.country]}${regionName(e) ? ` · ${regionName(e)}` : ""}${place ? ` · ${esc(place)}` : ""}</p>
-      <div class="badges">${e.online ? `<span class="badge online">ออนไลน์</span>` : ""}${isNew(e) ? `<span class="badge new">ใหม่</span>` : ""}${e.tags.map(badge).join("")}</div>
+      <div class="badges">${statusBadge(e)}${e.online ? `<span class="badge online">ออนไลน์</span>` : ""}${isNew(e) ? `<span class="badge new">ใหม่</span>` : ""}${e.tags.map(badge).join("")}</div>
     </div>
     <button class="star ${state.starred.has(e.id) ? "on" : ""}" data-star="${e.id}" aria-label="ติดตาม">${state.starred.has(e.id) ? "★" : "☆"}</button>
   </div>`;
@@ -259,7 +270,10 @@ function renderMine() {
   const list = state.events.filter(e => state.starred.has(e.id));
   $("#mineHint").textContent = list.length ? "" : "ยังไม่ได้ติดตามงานไหน กด ☆ ที่งานที่สนใจเพื่อเก็บไว้ตรงนี้";
   $("#exportIcs").hidden = !list.some(e => e.start);
-  $("#mineEvents").innerHTML = list.map(card).join("");
+  const changed = changedFollowed();
+  $("#mineEvents").innerHTML = (changed.length ? `<div class="notice"><b>มีการเปลี่ยนแปลง ${changed.length} งาน</b>
+      <div class="cards">${changed.map(card).join("")}</div><button class="link" data-seen>รับทราบแล้ว</button></div>` : "")
+    + list.filter(e => !changed.includes(e)).map(card).join("");
 }
 
 // webcal:// subscribes in Apple Calendar directly; Google Calendar takes the same feed through its "add by URL" link.
@@ -295,9 +309,11 @@ function render() {
   document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("on", b.dataset.view === state.view));
   document.querySelectorAll(".view").forEach(v => (v.hidden = v.id !== state.view));
   $("#filters").hidden = state.view === "mine" || state.view === "settings";
-  const n = state.events.filter(e => state.starred.has(e.id)).length;
+  // The tab badge shows changes to followed events when there are any, else how many are followed.
+  const n = state.events.filter(e => state.starred.has(e.id)).length, c = changedFollowed().length;
   $("#mineBadge").hidden = !n;
-  $("#mineBadge").textContent = n;
+  $("#mineBadge").textContent = c ? "!" : n;
+  $("#mineBadge").classList.toggle("alert", !!c);
   chips();
   ({ home: renderHome, list: renderList, mine: renderMine, settings: renderSettings })[state.view]();
 }
@@ -324,11 +340,12 @@ function openSheet(id) {
       <button class="icon-btn share" data-share="${e.id}" aria-label="แชร์ให้เพื่อน">${icon("share")}</button>
       <button class="icon-btn close" data-close aria-label="ปิด">${icon("x")}</button></div>
     <div class="sheet-content">
-      <div class="badges">${e.online ? `<span class="badge online">ออนไลน์</span>` : ""}${isNew(e) ? `<span class="badge new">ใหม่</span>` : ""}${e.tags.map(t => badge(t).replace(">", `>${TAGS[t]?.icon || ""} `)).join("")}</div>
+      <div class="badges">${statusBadge(e)}${e.online ? `<span class="badge online">ออนไลน์</span>` : ""}${isNew(e) ? `<span class="badge new">ใหม่</span>` : ""}${e.tags.map(t => badge(t).replace(">", `>${TAGS[t]?.icon || ""} `)).join("")}</div>
       <h3 style="margin-top:10px">${esc(title(e))}</h3>
       ${e.name_th && e.name_th !== e.name ? `<p class="orig">${esc(e.name)}</p>` : ""}
       <div class="facts">
-        <div><span>${icon("calendar")}</span><p>${dateText(e)}</p></div>
+        <div><span>${icon("calendar")}</span><p>${e.status === "cancelled" ? `<s>${dateText(e)}</s> · <b class="warn">งานนี้ยกเลิกแล้ว</b>` : dateText(e)}${e.history?.length
+          ? `<br><small class="was">เดิมกำหนด ${e.history.map(h => h.start ? dateText(h) : "ไม่ระบุ").join(", ")} · เปลี่ยนเมื่อ ${fmt(e.changed)}</small>` : ""}</p></div>
         <div><span>${icon("pin")}</span><p>${esc(where(e) || "ยังไม่ระบุสถานที่")} · ${regionName(e) ? `${regionName(e)}, ` : ""}${COUNTRIES[e.country]}</p></div>
         ${e.hours ? `<div><span>${icon("clock")}</span><p>${esc(e.hours)}</p></div>` : ""}
         ${e.price_th ? `<div><span>${icon("ticket")}</span><p>ค่าเข้า: ${esc(e.price_th)}</p></div>` : ""}
@@ -479,6 +496,7 @@ document.addEventListener("click", ev => {
   const star = ev.target.closest("[data-star]");
   if (star) {
     toggle(state.starred, "starred", star.dataset.star);
+    markSeen(state.events.filter(e => e.id === star.dataset.star));
     render();
     if (!$("#sheet").hidden) openSheet(star.dataset.star);
     return;
@@ -489,6 +507,7 @@ document.addEventListener("click", ev => {
   if (!b) return;
   const inFilters = $("#sheetBody").dataset.kind === "filters" && !$("#sheet").hidden;
   if (b.dataset.filters !== undefined) return filterSheet();
+  if (b.dataset.seen !== undefined) { markSeen(changedFollowed()); return render(); }
   if (b.dataset.pref) { setPref(b.dataset.pref, b.dataset.val); return render(); }
   if (b.dataset.clearStars !== undefined) {
     if (confirm("ล้างงานที่ติดตามทั้งหมด?")) { state.starred.clear(); store.set("starred", []); render(); }
@@ -562,7 +581,11 @@ Promise.all([getJson("taxonomy.json", {}), getJson(`data/events.json?t=${Date.no
   state.events = events;
   const updated = events.reduce((m, e) => (e.updated > m ? e.updated : m), "");
   $("#status").textContent = events.length ? `${events.length} งาน · อัปเดตล่าสุด ${fmt(updated)}` : "ยังไม่มีข้อมูล";
+  // Followed events first seen on this phone become the baseline; later changes are reported once.
+  markSeen(state.events.filter(e => state.starred.has(e.id) && !seen[e.id]));
   render();
+  const c = changedFollowed().length;
+  if (c) toast(`งานที่คุณติดตามมีการเปลี่ยนแปลง ${c} งาน — ดูที่แท็บ "ของฉัน"`);
   openFromHash();
   addEventListener("hashchange", openFromHash);
 });

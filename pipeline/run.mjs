@@ -83,13 +83,15 @@ events, cosplay, fan meetings, concerts, festivals, stage shows, premieres, tech
 food/drink festivals, art exhibitions, markets, pop-ups, sports, temple/shrine festivals, fireworks, fairs.
 Also keep scheduled ONLINE events with a set date/time (online concerts, VTuber live streams/3D lives, online fan meetings,
 showcase streams) and mark them "online":true.
+If a headline says an event is postponed/rescheduled (延期, 日程変更, เลื่อน, 延期举办) give the NEW dates and status "postponed";
+if it is cancelled (中止, ยกเลิก, 取消) give status "cancelled".
 SKIP: product/game/anime/movie releases with no event, general news, and events that already ended before today.
 Several headlines about the same event → one entry listing all their indices. Use each headline's date to infer the year.
 Tags (pick 1-3): ${Object.entries(TAGS).map(([k, v]) => `${k}=${v}`).join(", ")}.
 Reply with valid JSON only. Never put the " character inside a string value (use 「」 or ' instead).
 {"events":[{"i":[0,3],"name":"official name (original language)","name_th":"Thai name","start":"YYYY-MM-DD or null",
 "end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null","country":"TH|JP|CN","tags":["anime"],
-"region":"region code or null","online":false,"price_th":"entry fee in Thai if stated (เข้าฟรี / 300 บาท / ¥2,000), else null",
+"region":"region code or null","online":false,"status":"scheduled|postponed|cancelled","price_th":"entry fee in Thai if stated (เข้าฟรี / 300 บาท / ¥2,000), else null",
 "summary_th":"one short Thai sentence"}]}
 Region codes: ${regionCodes()}.`;
 
@@ -141,6 +143,17 @@ function sameEvent(e, f) {
   return n && (similar(e.name, f.name) || similar(e.name_th, f.name_th) || similar(e.name, f.name_th) || similar(e.name_th, f.name));
 }
 
+// Record a date change or cancellation; the old dates are kept in history so the app can show "เดิมกำหนด …".
+const isDate = d => /^\d{4}-\d\d-\d\d$/.test(d || "");
+function reschedule(ev, f) {
+  if (f.status === "cancelled") { if (ev.status !== "cancelled") { ev.status = "cancelled"; ev.changed = today; } return; }
+  if (isDate(f.start) && f.start !== ev.start) {
+    (ev.history ||= []).push({ start: ev.start, end: ev.end, until: today });
+    ev.start = f.start; ev.end = isDate(f.end) ? f.end : f.start;
+    ev.status = "postponed"; ev.changed = today;
+  }
+}
+
 function merge(events, found, items) {
   let added = 0;
   for (const f of found) {
@@ -149,7 +162,13 @@ function merge(events, found, items) {
     const sources = (f.i || []).map(i => items[i]).filter(Boolean)
       .map(r => ({ title: r.title, link: r.link, source: r.source, date: r.date, image: r.image }));
     const tags = (f.tags || []).filter(t => TAGS[t]);
-    const ev = events.find(e => sameEvent(e, f));
+    // A postponed or cancelled event may come back under new dates: match it by name alone (same year), never for
+    // ordinary "scheduled" news, so recurring events with the same name (monthly markets) are not merged.
+    const changing = f.status === "postponed" || f.status === "cancelled";
+    const ev = events.find(e => sameEvent(e, f)) || (changing ? events.find(e => e.country === f.country
+      && !(years(e.name) && years(f.name) && years(e.name) !== years(f.name))
+      && (similar(e.name, f.name) || similar(e.name_th, f.name_th))) : null);
+    if (ev && changing) reschedule(ev, f);
     if (ev) {
       for (const k of ["start", "end", "venue", "city", "name_th", "summary_th"]) ev[k] ??= f[k] ?? null;
       ev.region ??= validRegion(ev.country, f.region);
@@ -214,6 +233,7 @@ const posterOk = url => url && !GENERIC_IMAGE.test(url) && !genericImages.has(ur
 // first thumbnail, or the og:image of the first articles found.
 async function searchImage(ev) {
   ev.imageTried = true;
+  ev.imageTriedAt = today;
   const cc = { TH: "&cc=TH", JP: "&cc=JP" }[ev.country] || "";
   try {
     const xml = await (await fetch(`https://www.bing.com/news/search?q=${encodeURIComponent(ev.name)}&format=rss${cc}`, { headers: UA })).text();
@@ -559,6 +579,9 @@ for (const e of events) {
   if (e.image && (!posterOk(e.image) || fromLogoSite)) { e.image = null; e.imageTried = false; e.imageFrom = null; }
   for (const s of e.sources) if (LOGO_SITES.test(s.link)) s.image = null;
 }
+// News with a picture often comes later: try again every 3 days.
+const retryBefore = new Date(Date.now() - 3 * 864e5).toISOString().slice(0, 10);
+for (const e of events) if (!e.image && e.imageTried && (e.imageTriedAt || "") < retryBefore) e.imageTried = false;
 const noImage = events.filter(e => !e.image && !e.imageTried);
 for (const ev of noImage) { await searchImage(ev); await sleep(400); }
 console.log(`[image search] ${noImage.length} events without poster: found ${noImage.filter(e => e.image).length}`);
@@ -611,7 +634,8 @@ function writeCalendars() {
   const write = (file, name, list) => {
     const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//EventRadar//TH", `X-WR-CALNAME:${name}`, "X-PUBLISHED-TTL:PT6H", "REFRESH-INTERVAL;VALUE=DURATION:PT6H"];
     for (const e of list) lines.push("BEGIN:VEVENT", `UID:${e.id}@eventradar`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${ymd(e.start)}`,
-      `DTEND;VALUE=DATE:${ymd(next(e.end || e.start))}`, `SUMMARY:${esc(e.name_th || e.name)}`, `LOCATION:${esc([e.venue, e.city].filter(Boolean).join(", "))}`,
+      `DTEND;VALUE=DATE:${ymd(next(e.end || e.start))}`, `STATUS:${e.status === "cancelled" ? "CANCELLED" : "CONFIRMED"}`,
+      `SUMMARY:${esc((e.status === "cancelled" ? "[ยกเลิก] " : e.status === "postponed" ? "[เลื่อนวัน] " : "") + (e.name_th || e.name))}`, `LOCATION:${esc([e.venue, e.city].filter(Boolean).join(", "))}`,
       `DESCRIPTION:${esc([e.price_th && "ค่าเข้า: " + e.price_th, e.summary_th, e.official || e.sources[0]?.link].filter(Boolean).join("\n"))}`, "END:VEVENT");
     lines.push("END:VCALENDAR");
     fs.writeFileSync(path.join(dir, file), lines.join("\r\n"));
