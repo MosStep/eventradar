@@ -299,7 +299,7 @@ function renderMine() {
   const changed = changedFollowed();
   const matched = state.events.filter(e => !state.starred.has(e.id) && (!e.end || e.end >= TODAY) && followMatch(e));
   const followBox = `<div class="setting follows"><h4>${icon("search")} ติดตามศิลปิน / IP / สถานที่</h4>
-      <p>พิมพ์คำที่สนใจ งานที่มีคำนี้ในชื่อ สถานที่ หรือรายละเอียดจะขึ้นตรงนี้เอง</p>
+      <p>พิมพ์คำที่สนใจ งานที่มีคำนี้ในชื่อ สถานที่ หรือรายละเอียดจะขึ้นตรงนี้เอง และระบบจะช่วยค้นหางานของคำนี้จากเว็บและเพจต่างๆ ให้ด้วย (ส่งแค่คำ ไม่มีข้อมูลส่วนตัว)</p>
       <form class="follow-form" data-follow-form><input name="w" placeholder="เช่น Hololive, Comiket, ศูนย์สิริกิติ์" autocomplete="off"><button class="pill">ติดตาม</button></form>
       <div class="wrap">${state.follows.map(w => `<button class="chip on" data-unfollow="${esc(w)}">${esc(w)} ✕</button>`).join("")}</div></div>`;
   $("#mineFollows").innerHTML = followBox + (matched.length ? `<div class="section-head"><h2>ตรงกับคำที่ติดตาม</h2><small>${matched.length} งาน</small></div>
@@ -309,10 +309,32 @@ function renderMine() {
     + list.filter(e => !changed.includes(e)).map(card).join("");
 }
 
-// Problems and takedown requests go to the repo's issues (a GitHub account is needed; see TODO.md for a form instead).
-const REPORT_URL = "https://github.com/MosStep/eventradar/issues/new";
-const reportLink = e => `${REPORT_URL}?title=${encodeURIComponent(`แจ้งข้อมูลผิด: ${title(e)}`)}&body=${encodeURIComponent(
-  `งาน: ${e.name}\nรหัส: ${e.id}\nลิงก์: ${location.origin}${location.pathname}#e=${e.id}\n\nข้อมูลที่ผิด (วันที่ / สถานที่ / ราคา / รูป / งานซ้ำ / อื่นๆ):\n\nข้อมูลที่ถูกต้อง หรือแหล่งอ้างอิง:\n`)}`;
+// Reports and followed words go to a Google Form straight from the app (no account, nothing personal is sent).
+// Each pipeline run reads the answers sheet, checks reports with AI, fixes or removes events, and adds followed words
+// to the web-search watch list.
+const FORM = "https://docs.google.com/forms/d/e/1FAIpQLScuivlT-u2dc9JFj3F0AhlvhysCwymALxVbbrDYBsOOhPv1Cw";
+const FORM_FIELDS = { kind: "entry.1328089119", detail: "entry.691050905", correct: "entry.1963664203", id: "entry.576375444" };
+const REPORT_URL = `${FORM}/viewform`; // the plain form, for anything the in-app sheet doesn't cover
+function sendForm(values) {
+  const body = new URLSearchParams(Object.entries(values).map(([k, v]) => [FORM_FIELDS[k], v]));
+  // no-cors: Google Forms accepts the post but the response can't be read — treat a sent request as delivered
+  return fetch(`${FORM}/formResponse`, { method: "POST", mode: "no-cors", body }).then(() => true, () => false);
+}
+const KIND = { wrong: "แจ้งข้อมูลผิด", remove: "ขอให้ลบ", watch: "ให้ระบบค้นหาคำนี้" };
+function reportSheet(id) {
+  const e = state.events.find(x => x.id === id);
+  if (!e) return;
+  showSheet(`<div class="sheet-content report"><span class="grab dark"></span>
+    <h3>แจ้งข้อมูล</h3><p class="orig">${esc(title(e))}</p>
+    <form data-report-form="${e.id}">
+      <div class="seg"><label><input type="radio" name="kind" value="wrong" checked> ข้อมูลผิด</label>
+        <label><input type="radio" name="kind" value="remove"> ขอให้ลบ</label></div>
+      <textarea name="detail" required placeholder="อะไรผิด เช่น วันที่จริงคือ 5–6 ธ.ค. / สถานที่ผิด / งานซ้ำกับ… / รูปไม่ใช่ของงานนี้"></textarea>
+      <textarea name="correct" placeholder="ข้อมูลที่ถูกต้อง หรือลิงก์อ้างอิง (ถ้ามี)"></textarea>
+      <button class="pill done">ส่งให้ระบบตรวจ</button>
+      <p class="hint">ระบบจะตรวจกับแหล่งข้อมูลและแก้ไขให้เองในรอบอัปเดตถัดไป ไม่ต้องใส่ข้อมูลส่วนตัว</p>
+    </form></div>`, "report");
+}
 
 // System status written by each pipeline run (data/status.json).
 async function loadStatus() {
@@ -484,7 +506,7 @@ function openSheet(id) {
       </div>
       <div class="sheet-links">
         ${e.venue ? `<button class="chip" data-follow-word="${esc(e.venue)}">${icon("pin")} ติดตามสถานที่นี้</button>` : ""}
-        <a class="chip" href="${reportLink(e)}" target="_blank" rel="noopener">แจ้งข้อมูลผิด</a>
+        <button class="chip" data-report="${e.id}">แจ้งข้อมูลผิด</button>
       </div>
       <div class="sources">ข่าวที่พูดถึงงานนี้ (${e.sources.filter(s => !s.dead).length})
         ${e.sources.filter(s => !s.dead).map(s => `<a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.title)} <small>· ${esc(s.source)}</small></a>`).join("")}
@@ -636,8 +658,12 @@ document.addEventListener("click", ev => {
   if (b.dataset.filters !== undefined) return filterSheet();
   if (b.dataset.near !== undefined) { state.near = !state.near; store.set("near", state.near); return render(); }
   if (b.dataset.unfollow) { state.follows = state.follows.filter(w => w !== b.dataset.unfollow); store.set("follows", state.follows); return render(); }
+  if (b.dataset.report) return reportSheet(b.dataset.report);
   if (b.dataset.followWord) {
-    if (!state.follows.includes(b.dataset.followWord)) { state.follows.push(b.dataset.followWord); store.set("follows", state.follows); }
+    if (!state.follows.includes(b.dataset.followWord)) {
+      state.follows.push(b.dataset.followWord); store.set("follows", state.follows);
+      sendForm({ kind: KIND.watch, detail: b.dataset.followWord });
+    }
     toast(`ติดตาม "${b.dataset.followWord}" แล้ว · ดูได้ที่แท็บของฉัน`); return;
   }
   if (b.dataset.gps !== undefined) {
@@ -710,11 +736,23 @@ $("#calBody").addEventListener("touchend", e => {
   touch = null;
   if (Math.abs(dx) > 70 && Math.abs(dx) > 2.5 * Math.abs(dy) && ms < 500) { stepCalendar(dx < 0 ? 1 : -1); render(); }
 });
-document.addEventListener("submit", ev => {
+document.addEventListener("submit", async ev => {
+  if (ev.target.matches("[data-report-form]")) {
+    ev.preventDefault();
+    const f = ev.target, id = f.dataset.reportForm;
+    f.querySelector("button").disabled = true;
+    const ok = await sendForm({ kind: KIND[f.kind.value], detail: f.detail.value.trim(), correct: f.correct.value.trim(), id });
+    closeSheet();
+    toast(ok ? "ส่งแล้ว ขอบคุณ! ระบบจะตรวจและแก้ไขในรอบอัปเดตถัดไป" : "ส่งไม่สำเร็จ ลองใหม่อีกครั้ง");
+    return;
+  }
   if (!ev.target.matches("[data-follow-form]")) return;
   ev.preventDefault();
   const w = ev.target.w.value.trim();
-  if (w && !state.follows.includes(w)) { state.follows.push(w); store.set("follows", state.follows); }
+  if (w && !state.follows.includes(w)) {
+    state.follows.push(w); store.set("follows", state.follows);
+    sendForm({ kind: KIND.watch, detail: w }); // the word also joins the system's web-search list
+  }
   render();
 });
 document.addEventListener("change", ev => {
