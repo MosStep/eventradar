@@ -7866,7 +7866,7 @@
    "expo"
   ],
   "summary_th": "งานนิทรรศการศึกษาร่วมสัมมนาเรื่องการเลือกโรงเรียนระหว่างประเทศกับผู้เชี่ยวชาญ",
-  "image": "http://n.sinaimg.cn/baby/transform/168/w415h553/20260915/b8c5-a10570029be37216951fccc8e5bfd0d1.png",
+  "image": "http://n.sinaimg.cn/baby/transform/168/w415h553/20261027/5db9-64c2f15e8b369379f1c4b4e72d5d05e5.png",
   "official": null,
   "sources": [
    {
@@ -7886,7 +7886,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sohu.com/a/1087941746_121797776",
-  "imageFrom": "https://edu.sina.com.cn/ischool/2026-09-15/doc-inirxaty3726484.shtml",
+  "imageFrom": "https://edu.sina.com.cn/ischool/2026-10-27/doc-iniwrzhv1367057.shtml",
   "imageHash": null,
   "regionTried": true,
   "priceTriedAt": "2026-10-27"
@@ -8479,7 +8479,7 @@
    "expo"
   ],
   "summary_th": "งานนิทรรศการเลือกโรงเรียนระดับนานาชาติช่วยเหลือผู้ปกครองวางแผนการศึกษาลูก",
-  "image": null,
+  "image": "http://www.bing.com/th?id=ONUT.6N-Lh_cTbOYxQoTmYtokBg&pid=News",
   "official": null,
   "sources": [
    {
@@ -8496,8 +8496,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sohu.com/a/1087941746_121797776",
-  "imageFrom": "https://www.sohu.com/a/1087941746_121797776",
-  "imageHash": null
+  "imageFrom": "https://edu.sina.com.cn/ischool/2026-10-27/doc-iniwrzhv1367057.shtml",
+  "imageHash": "cbc2d50f68a4b979"
  },
  {
   "id": "c39fc2c1cc01",
@@ -10330,6 +10330,40 @@
   "imageFrom": "https://www.afpbb.com/articles/-/3659337",
   "imageHash": "1735646b321a0b13",
   "priceTriedAt": "2026-10-27"
+ },
+ {
+  "id": "5f72d4029667",
+  "name": "北京·《踏歌行》 2026北京古风仙侠金曲ost演唱会",
+  "name_th": null,
+  "start": "2026-10-29",
+  "end": "2026-11-08",
+  "venue": "爱乐汇艺术空间",
+  "city": "北京市",
+  "country": "CN",
+  "region": null,
+  "online": false,
+  "price_th": "เริ่มต้น ¥153",
+  "tags": [
+   "concert"
+  ],
+  "summary_th": null,
+  "image": "https://i2.hdslb.com/bfs/openplatform/202610/ECpZLg621792565903_1792565903373.png",
+  "official": "https://show.bilibili.com/platform/detail.html?id=1006931",
+  "sources": [
+   {
+    "title": "北京·《踏歌行》 2026北京古风仙侠金曲ost演唱会",
+    "link": "https://show.bilibili.com/platform/detail.html?id=1006931",
+    "source": "bilibili会员购",
+    "date": "2026-10-27",
+    "image": "https://i2.hdslb.com/bfs/openplatform/202610/ECpZLg621792565903_1792565903373.png"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "imageOfficial": true,
+  "verified": true,
+  "enriched": true,
+  "imageHash": "0b67083f06fe4ced"
  },
  {
   "id": "11c8a00f77ca",
@@ -22473,7 +22507,7 @@
    "nightmarket"
   ],
   "summary_th": "งานวัดภูเขาทองจัดนาน 13 วัน 13 คืน เริ่มวันที่ 17 พฤศจิกายนนี้",
-  "image": "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa7Hb4Vy0NG88old6DPIOGsayiSP95HszX1okjokFE4ZSG8ENaE24.jpg",
+  "image": "https://www.thaipr.net/wp-content/uploads/2024/11/S__21643269_0-06312b06-e1731894347804.jpg",
   "official": null,
   "sources": [
    {
@@ -22528,7 +22562,7 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.thairath.co.th/news/local/bangkok/2968745",
-  "imageFrom": "https://www.thairath.co.th/news/local/bangkok/2968745",
+  "imageFrom": "https://www.thaipr.net/general/3545128",
   "price_th": "เข้าฟรี"
  },
  {
@@ -40131,7 +40165,7 @@
    "local"
   ],
   "summary_th": "งานประจำปีนมัสการองค์พระปฐมเจดีย์ ชวนไหว้พระคู่บ้านคู่เมืองและเที่ยวงานประเพณี",
-  "image": "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa7Hb4Vy0NG88old6DPIOGsayiSP95HszX1okjokFE4ZSG8ENaE24.jpg",
+  "image": "https://s359.kapook.com/r/1200/630/pagebuilder/25bea592-3c58-4186-a54f-00075a9e0153.jpg",
   "official": null,
   "sources": [
    {
@@ -40154,7 +40188,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.sanook.com/travel/1454290/",
-  "imageFrom": "https://www.thairath.co.th/news/local/bangkok/2968745",
+  "imageFrom": "https://travel.kapook.com/view304179.html",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -43133,7 +43167,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตกลางแจ้ง 2 วันของยุซุที่สนามนิสสัน ควบคู่กับการปล่อยอัลบั้มออลไทม์เบสต์",
-  "image": "https://contents.oricon.co.jp/upimg/news/2489000/2488779/20261022_165756_p_o_34499195.jpg",
+  "image": "https://cdn.mainichi.jp/vol1/2026/10/26/20261026orc00m200060000p/0c10.jpg?1",
   "official": null,
   "sources": [
    {
@@ -43149,7 +43183,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageFrom": "https://www.oricon.co.jp/news/2488779/full/",
+  "imageFrom": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
   "imageHash": null,
   "imageTriedAt": "2026-10-27"
  },
@@ -43279,7 +43313,7 @@
    "concert"
   ],
   "summary_th": "ยุซุกลับมาจัดคอนเสิร์ตที่สนามนิสสัน สเตเดียม 2 วันหลังผ่านไป 22 ปี",
-  "image": "https://contents.oricon.co.jp/upimg/news/2489000/2488779/20261022_165756_p_o_34499195.jpg",
+  "image": "http://www.bing.com/th?id=ONUT.8TbyF3gMJbju16b1YtjVFA&pid=News",
   "official": null,
   "sources": [
    {
@@ -43295,8 +43329,8 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageFrom": "https://www.oricon.co.jp/news/2488779/full/",
-  "imageHash": null,
+  "imageFrom": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
+  "imageHash": "57f8a024427815f1",
   "imageTriedAt": "2026-10-27"
  },
  {
