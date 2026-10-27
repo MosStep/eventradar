@@ -5618,7 +5618,7 @@
   "name_th": "นิทรรศการถ่ายภาพ 「เยิงดง จางจี้」",
   "start": "2026-10-27",
   "end": "2026-10-27",
-  "venue": null,
+  "venue": "武汉",
   "city": "武汉",
   "country": "CN",
   "region": "central",
@@ -5638,11 +5638,18 @@
     "source": "湖北日报传媒集团",
     "date": "2026-10-27",
     "image": null
+   },
+   {
+    "title": "聚焦2026长江文化艺术季丨3.2万投稿精选95件佳作 “影动长江”摄影展在汉开幕",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNYnZpcURGV3lfQWdCOW00Zl9lZWJyZHZ1MU41UGhCWTJ1c2lmZVkzdXVWQmZkdnlxNGtRc2R3UkJnMy1NS2FKNnhOR2RubFFLdXNvdHBKRkhsR1E?oc=5",
+    "source": "极目新闻",
+    "date": "2026-10-27",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://feng.ifeng.com/c/8xXHHhLmRYH",
@@ -9336,7 +9343,9 @@
    "26cffe97ab74",
    "5f5d91bf74bd",
    "07e08fa41cc8"
-  ]
+  ],
+  "online": false,
+  "price_th": null
  },
  {
   "id": "4993edf4658a",
@@ -9373,7 +9382,9 @@
    "316f65fe3cf8",
    "32e3bfec2ae4",
    "fa65eae911da"
-  ]
+  ],
+  "online": false,
+  "price_th": null
  },
  {
   "id": "e9fb7003bf29",
@@ -11078,7 +11089,8 @@
   "city": "Bangkok",
   "country": "TH",
   "tags": [
-   "concert"
+   "concert",
+   "idol"
   ],
   "summary_th": "คอนเสิร์ตฉลอง 20 ปี BIGBANG ที่ราชมังฯ ประกาศเพิ่มรอบที่ 2",
   "image": "https://www.thebangkokinsight.com/wp-content/uploads/2026/09/bigbanggg114.38.40.jpg",
@@ -11104,7 +11116,9 @@
    "92ccdae5dbc9",
    "9ff1dfd0ca0d",
    "af0728904734"
-  ]
+  ],
+  "online": false,
+  "price_th": null
  },
  {
   "id": "e6e42ea814d7",
@@ -17703,7 +17717,7 @@
   "country": "JP",
   "region": "kanto",
   "online": false,
-  "price_th": null,
+  "price_th": "¥3,000",
   "tags": [
    "motorshow",
    "carlaunch"
@@ -17725,11 +17739,25 @@
     "source": "くるまのニュース on MSN",
     "date": "2026-10-26",
     "image": null
+   },
+   {
+    "title": "「TOKYO AUTO SALON 2027」が2027年1月15日から幕張メッセで開催 チケット販売を開始、45回目の開催",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5zbzZhLWt2ckxyX0g5T01RSldyb2o0cTltcHJZMi1VWVdJY0swTGtIZkdGU2FiYjd1UUozQng1eDM1bzdTeWVCd3FmNTE1SEloY2RMZktRMTRIR1AxS0FIZHNsR2RNZw?oc=5",
+    "source": "株式会社MICE研究所",
+    "date": "2026-10-03",
+    "image": null
+   },
+   {
+    "title": "東京オートサロン2027のチケット発売！1月15～17日開催、一般入場券は3,000円",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZdmpCclNEeU4xRFZmcXdJZTNkeVpnbllhRFB2QzVuYjRBSTEwckR4ckdGM3pJVFdCYUxIZ2tWRV95S2VoX1NVU2QxV3pOZE5JaWc?oc=5",
+    "source": "カーナリズム",
+    "date": "2026-10-01",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "imageTried": true,
   "imageFrom": "https://news.infoseek.co.jp/article/kurumanews_1128830/",
   "article": "https://news.infoseek.co.jp/article/kurumanews_1128175/",
@@ -23581,7 +23609,7 @@
   "id": "96e2c4398038",
   "name": "ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～",
   "name_th": "ทัวร์คอนเสิร์ต Liella! 8th LoveLive! จาก Love Live! Superstar!!",
-  "start": null,
+  "start": "2027-03-01",
   "end": null,
   "venue": null,
   "city": null,
@@ -23608,7 +23636,9 @@
   "enriched": true,
   "region": null,
   "regionTried": true,
-  "imageHash": "2642d06b98c2e047"
+  "imageHash": "2642d06b98c2e047",
+  "online": false,
+  "price_th": null
  },
  {
   "id": "cfa6bb52e2b4",
@@ -25295,15 +25325,16 @@
   "id": "3bd2bc1f5792",
   "name": "MEGA J-FOOD FESTIVAL",
   "name_th": "เทศกาลอาหารญี่ปุ่น MEGA J-FOOD FESTIVAL",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": null,
+  "start": "2026-10-01",
+  "end": "2026-10-31",
+  "venue": "Mega Bangna",
+  "city": "Bangkok",
   "country": "TH",
-  "region": null,
+  "region": "bkk",
   "online": false,
   "tags": [
-   "food"
+   "food",
+   "festival"
   ],
   "summary_th": "งานเทศกาลอาหารญี่ปุ่นขนาดใหญ่ที่รวมเมนูอร่อยหลากหลาย",
   "image": "http://www.bing.com/th?id=ONUT.LjSVvDCd88yTX5HsQH-wbQ&pid=News",
@@ -25315,16 +25346,24 @@
     "source": "สำนักข่าวบางกอกทูเดย์",
     "date": "2026-10-17",
     "image": null
+   },
+   {
+    "title": "เมกาบางนา เปิดเทศกาลของคนรักกิน “MEGA FOODIVAL” รวมความอร่อยจากร้านดังทั้งศูนย์ฯ เสิร์ฟโปรสุดคุ้มตลอดเดือนตุลาคม",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE55WjVXckdHMDZKaHY5NVRyT2Y4U242X0kxZWJYNWFaQXM3Vmw0ODMxVS1tSk1oMm9tNGl1elNNS0d5RnVPOUhjekRTMA?oc=5",
+    "source": "ThaiPR.NET",
+    "date": "2026-09-29",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "imageTried": true,
   "article": "https://bangkok-today.com/%E0%B8%9B%E0%B8%B1%E0%B8%81%E0%B8%AB%E0%B8%A1%E0%B8%B8%E0%B8%94%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%A2-mega-j-food-festival/",
   "imageFrom": "https://bangkok-today.com/%E0%B8%9B%E0%B8%B1%E0%B8%81%E0%B8%AB%E0%B8%A1%E0%B8%B8%E0%B8%94%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%A2-mega-j-food-festival/",
   "regionTried": true,
-  "imageHash": "8c99ceda66a99f90"
+  "imageHash": "8c99ceda66a99f90",
+  "price_th": "เข้าฟรี"
  },
  {
   "id": "4bc7c0dabd35",
@@ -29860,8 +29899,8 @@
   "id": "80f2f6993bd3",
   "name": "東京マラソン2027",
   "name_th": "มาราธอนโตเกียว 2027",
-  "start": null,
-  "end": null,
+  "start": "2027-03-07",
+  "end": "2027-03-07",
   "venue": "東京各所",
   "city": "東京",
   "country": "JP",
@@ -29882,11 +29921,18 @@
     "source": "ストレートプレス",
     "date": "2026-10-17",
     "image": null
+   },
+   {
+    "title": "走ろう！鹿児島マラソン 大会HPエントリー開始",
+    "link": "https://www.yomiuri.co.jp/local/kagoshima/news/20260818-GYTNT00189/",
+    "source": "読売新聞",
+    "date": "2026-08-18",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "imageHash": "b1c8520ccdfcb6cb"
  },
  {
@@ -29999,5 +30045,1912 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.oricon.co.jp/pressrelease/3021947/",
   "imageFrom": "https://www.oricon.co.jp/pressrelease/3021947/"
+ },
+ {
+  "id": "ae3f25c4a65e",
+  "name": "广州市“穗创未来”创业服务巡展",
+  "name_th": "งานนิทรรศการบริการสตาร์ทอัพ \"Sui Chuang Weilai\" กวางโชว",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": "广州",
+  "country": "CN",
+  "region": "south",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo",
+   "startup"
+  ],
+  "summary_th": "งานนิทรรศการบริการสตาร์ทอัพเปิดตัวที่กวางโชว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "广州市“穗创未来”创业服务巡展启幕，华数云携获奖项目华数灵芯大模型参展",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CU3VRMktKWjF0Q1M4Y3duWFM0WjNvNWRPWmJiTnRQOU5oNHBLd3I5YnJDYjNBZGdhd3pBZ0YtWEQ1Z0NGUFc0TkF5aF9BeFZFd2JQQmV4RnpOdlhqX0I5d1paYUI1SFhGaGVOV3p3?oc=5",
+    "source": "中华网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "996434f18424",
+  "name": "第三届南京大学新科技校友发展大会暨首届AI创新创业大赛",
+  "name_th": "การประชุมวิชาการศิษย์เก่าวิชาเทคโนโลยีใหม่ ครั้งที่ 3 และการแข่งขันนวัตกรรม AI ครั้งแรก",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": "南京",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "ai",
+   "startup",
+   "devconf"
+  ],
+  "summary_th": "การประชุมวิชาการและแข่งขันนวัตกรรม AI ที่นานจิ้ง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "第三届南京大学新科技校友发展大会暨首届AI创新创业大赛举行",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15MzIyYjR1a2kxaVlOZEI1Zy1qUlg2bUwxT1VCdl9oa0hkc0h5bGl4eVNtWHlLZ3F1aXBzSFJ6a0NjQVBQM2JudlhOQ0RuVGgwRHRxY3dR?oc=5",
+    "source": "南京大学",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "7cbca099ecf9",
+  "name": "第二届观猹大会",
+  "name_th": "งานประชุม Guan Yao ครั้งที่ 2",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": "杭州",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "ai",
+   "expo"
+  ],
+  "summary_th": "งานแสดงผลิตภัณฑ์ AI และมอบรางวัล AI Product Golden Horse Award",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "百余AI产品亮相第二届观猹大会 为创造者与用户搭建桥梁",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HSE94WnJ6aE1ON0lic3M5VnNfRlBmaGpPRGJKdW9wbFNiWWpQWXdNUUZKa2ViWEQ2eDB2Z1J3dlpxZjkzTzlxTVo2Mm43Wk9MYV9FR3g3UlFPbU5iRGFrX2xmYl9WVTlBUmlIaDYyX1kyZDN0TGVN?oc=5",
+    "source": "中国经济网",
+    "date": "2026-10-27",
+    "image": null
+   },
+   {
+    "title": "百余 AI 产品亮相杭州，“AI 产品金马奖”揭晓，观猹大会成AI创新与口碑风向标",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Yb3JrWS1TaE1aek8wMGtPYjVKcnJQcVd1aUFaZGdQdTh0N0FSQ0dkcW5OekYtUnM3SGhsRW1IZUM1SGFYVVBmTw?oc=5",
+    "source": "品玩",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "69296259128a",
+  "name": "宇树生态大会",
+  "name_th": "งานประชุมระบบนิเวศ Unitree",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": null,
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "ai",
+   "gadget",
+   "expo"
+  ],
+  "summary_th": "งานประชุมระบบนิเวศหุ่นยนต์ Unitree แสดงเทคโนโลยีมือกล",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "灵心巧手亮相宇树生态大会，展示灵巧操作落地应用新探索",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9NNnJHLXdEYzlKd21NdkdxLUpHaXNFRTIyZjFUU0E4T19NZTVyY0RibER0YUw0RGlUNzEyelozT3htZU9kTnFCelVHcw?oc=5",
+    "source": "具身之家",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "1e2bf88c469d",
+  "name": "猛士X700发布会",
+  "name_th": "งานเปิดตัวรถ Mengshi X700",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": null,
+  "country": "CN",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "carlaunch"
+  ],
+  "summary_th": "งานเปิดตัวรถบรรทุกไฟฟ้า Mengshi X700 พร้อมกิจกรรมลองขับ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "【视频】猛士X700发布会竟能钓鱼喝咖啡？这操作头回见",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RXzhYNnhEQlFZN3pnTVVQbHlidzZSZlB5WUpZQUhTTDhnOXgzQkVPUS1YUTUtSU9Icnpnc3AxTU03WU1MelZ5UGlrbnQ0Vlo5TDFRaHdLRWI5dGM?oc=5",
+    "source": "汽车之家",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "390b4e78a5bf",
+  "name": "Kumamoto Semiconductor Venture Pitch 2026-2027",
+  "name_th": "คุมามอโต เซมิคอนดักเตอร์ เวนเจอร์ พิทช์ 2026-2027",
+  "start": "2027-02-17",
+  "end": "2027-02-17",
+  "venue": "熊本県",
+  "city": "熊本市",
+  "country": "JP",
+  "region": "kyushu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "startup"
+  ],
+  "summary_th": "งานเสนอแนวคิดธุรกิจเฉพาะด้านเซมิคอนดักเตอร์ รอบชิงวันที่ 17 ก.พ. 2570",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "熊本県が半導体特化のピッチイベント「Kumamoto Semiconductor Venture Pitch 2026-2027」を開催 本選は2027年2月17日、エントリーは10月30日まで",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMm1xRXBOWkpXWEpyVjFXeXVpUUppRG5Dd0lyN3NCajFCYTdiNzFxV3FtM3E5MHJEbTQ3TzJtQ0RQajFMR0tUZVR3LVZHTFdENXhNTmpxVGRzblo4OFlPSlVKWkNRWC00YmFXRGd6MmpWOFQwSElCZWlVR3c0M05obw?oc=5",
+    "source": "株式会社MICE研究所",
+    "date": "2026-10-04",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "1b188123ac23",
+  "name": "ミュージカル『十二国記』アリーナライブ",
+  "name_th": "มิวสิคัล จูนิ โค็คกี อารีนา ไลฟ์",
+  "start": "2027-07-01",
+  "end": null,
+  "venue": "アリーナ",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "stage",
+   "concert"
+  ],
+  "summary_th": "มิวสิคัล「จูนิ โค็คกี」จัดคอนเสิร์ตเวทีขนาดใหญ่ในฤดูร้อน 2570",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "（写真）ミュージカル『十二国記』、来夏アリーナライブ開催決定！ 柚香光「再び陽子として生き抜きたい」",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByRTRCdzVXZmZsZm9Db3cyeF94QW5IVmVTSkdyWGhqVUZCcTdQLXZOQ1JlczlkWUJXR21ScHpqUFF6TDRJci1pZDRoUFhWZXkyZ1BNT0R2NEczVV9WTUNHUzZ0dnA4QQ?oc=5",
+    "source": "クランクイン！",
+    "date": "2026-10-03",
+    "image": null
+   },
+   {
+    "title": "ミュージカル『十二国記』、来夏アリーナライブ開催決定！ 柚香光「再び陽子として生き抜きたい」（クランクイン！）",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EYVpwczl2azJLejAzWmtYMFZMbjdOSEJ1dmhKeG15bTZYTDRYMFY3dDdCc29INVVmYUZrUFBqRS01Tzlfb2pSV05xRTBfZGROOXBqcEY1Skp5cUpxbExEcEFxeVhRVEVmWVFkT1RkUUJTby1DYmEwUWotdGp0X1E?oc=5",
+    "source": "Yahoo!ニュース",
+    "date": "2026-09-30",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "enriched": false
+ },
+ {
+  "id": "21d78ac55901",
+  "name": "COMPUTEX 2027",
+  "name_th": "คอมพิวเท็กซ์ 2027",
+  "start": "2027-06-01",
+  "end": "2027-06-01",
+  "venue": "台北世界貿易センターホール1",
+  "city": "台北市",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo",
+   "ai"
+  ],
+  "summary_th": "งานแสดงเทคโนโลยีคอมพิวเตอร์และ AI ระดับโลกที่ไทเปตั้งแต่วันที่ 1 มิ.ย. 2570",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "「COMPUTEX 2027」が2027年6月1日から台北で開催決定 台北世界貿易センターホール1を全館開放、Physical AIが焦点に",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWX0l5MGpjS1FkNUpEb2ZlYW40eTl4amdiY3A4TE1yQUJKSENwWjRmc2hFc1ZoclJnNloyanNmRXEzZTRHYV9KMHZCNExBZDBnanJPS0UyS0pXWUk?oc=5",
+    "source": "株式会社MICE研究所",
+    "date": "2026-10-03",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "2cf2ba677a6a",
+  "name": "レトラ BIRTHDAY ONLINE LIVE 2026",
+  "name_th": "เรトラเบิร์ทเดย์ ออนไลน์ ไลฟ์ 2026",
+  "start": "2026-11-11",
+  "end": "2026-11-11",
+  "venue": "オンライン",
+  "city": null,
+  "country": "JP",
+  "region": null,
+  "online": true,
+  "price_th": null,
+  "tags": [
+   "vtuber",
+   "concert"
+  ],
+  "summary_th": "เวทีออนไลน์ฉลองวันเกิด VTuber เรトラ วันพุธที่ 11 พ.ย. 2569 พร้อมของที่ระลึก限定",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "【 #ヴイアラ】「レトラ BIRTHDAY ONLINE LIVE 2026」2026年11月11日(水)に 開催決定！限定グッズ付き現地ライブビューイングチケットの先行抽選申込受付中！",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ucHFqUllsazl3RnBzUFliVWRlSHRKT1RVVk9yaHZYdXJubVc2d1RMS28xTTkxeVNmaDd6bzdNRXdhNHllbUQ2Mm9ZaXdwY3JmZ3BocXozRQ?oc=5",
+    "source": "アイドルマスター",
+    "date": "2026-10-01",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "587bf0579347",
+  "name": "「トイ・ストーリー」「ズートピア」POP UP STORE",
+  "name_th": "ป๊อปอัป สtoire โทย สโตร์รี่ และ ズートピア",
+  "start": "2026-10-08",
+  "end": "2026-10-08",
+  "venue": "大丸梅田店",
+  "city": "大阪市",
+  "country": "JP",
+  "region": "kansai",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "market"
+  ],
+  "summary_th": "ร้านป๊อปอัปของเล่นเรื่อง โทย สโตร์รี่ และ ซูทออเปีย ที่ห้างดายมารู อูเมดา เริ่ม 8 ต.ค. 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "10月8日(木)より「トイ・ストーリー」「ズートピア」POP UP STOREが大丸梅田店で開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56Y2NXWkZfQzJ5U2VINXdwbWIteFZwNExKRlRXVFpXbHBmYlhRV0tLYzlNNV9XR21nNVpQaTItWk42NTYzdVVKTGFKc1pKRjJDMTBDWlViVFIzeVdUX1pxMExlNnpFUQ?oc=5",
+    "source": "Disney.jp",
+    "date": "2026-10-01",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "fb1759b5b05c",
+  "name": "งานวัดไร่ขิง 2569 ฉลองเจดีย์",
+  "name_th": "งานวัดไร่ขิง 2569 ฉลองเจดีย์",
+  "start": null,
+  "end": null,
+  "venue": "วัดไร่ขิง",
+  "city": "นครปฐม",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "price_th": "เข้าฟรี",
+  "tags": [
+   "local",
+   "festival"
+  ],
+  "summary_th": "งานวัดไร่ขิงฉลองเจดีย์ จัดกิจกรรมบุญ 9 วัน 9 คืน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "งานวัดไร่ขิง 2569 ฉลองเจดีย์ ชวนเที่ยวงานบุญ 9 วัน 9 คืน",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9JTjYwRU5HMHpzRkQzT1oyOFJpM1h1a3RzR3ZBSm1GRWU0WFE5ZV9xVEVtcHpvWjR6Mml5aDJDMWFLVXJWTlJTakxYSk9iR3FqYlp3?oc=5",
+    "source": "kapook.com",
+    "date": "2026-09-30",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "65b4ffcd6835",
+  "name": "นิทรรศการศิลปะสัมผัสได้ ยูโอบี",
+  "name_th": "นิทรรศการศิลปะสัมผัสได้ ยูโอบี",
+  "start": null,
+  "end": null,
+  "venue": "หอศิลปกรุงเทพฯ",
+  "city": "กรุงเทพมหานคร",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": "เข้าฟรี",
+  "tags": [
+   "art",
+   "museum"
+  ],
+  "summary_th": "นิทรรศการศิลปะสัมผัสได้เพื่อคนตาบอดที่หอศิลปกรุงเทพฯ โดยยูโอบี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ยูโอบี จัดนิทรรศการศิลปะสัมผัสได้ ให้คนตาบอดชมงานที่หอศิลปกรุงเทพฯ",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE50ZWxFckFiTlVkVDR3WURzUV9MSi1pOHFOR2JxM0kwTWNqSmtNdGZ0LUMyNjBES3UwTk94Y09qT054VmlacW10X1dYQ21oT09DbnFyZQ?oc=5",
+    "source": "ประชาชาติธุรกิจ",
+    "date": "2026-09-30",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "e29e98398fc1",
+  "name": "เทคโนโลยีชาวบ้าน NEXT MOVE",
+  "name_th": "เทคโนโลยีชาวบ้าน NEXT MOVE",
+  "start": "2026-10-30",
+  "end": "2026-10-30",
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo",
+   "startup"
+  ],
+  "summary_th": "งานแสดงเทคโนโลยีเกษตร NEXT MOVE จัดขึ้นวันที่ 30 ตุลาคม 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เกษตรยุคใหม่ต้อง “คิดเป็น ขายเป็น ปรับตัวเป็น” พบ 3 ไฮไลต์เด็ดในงาน เทคโนโลยีชาวบ้าน NEXT MOVE 30 ต.ค.นี้!",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HbmdkQ0Z4YklfTFk1SDFzMTFCYVlyaHNBUGRQV0hGRU9sUFJZWFFjeC1xaTFOZjA2amhGYW9OYjlnRHN2ZFQtRDJlT3J5WHc4dUE3bUhtUmsxNHVpRV9RRVZiRnh3NWM?oc=5",
+    "source": "ผู้จัดการออนไลน์",
+    "date": "2026-09-30",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "a0ecb3b9d4b7",
+  "name": "COFFEE CONNECT 2026",
+  "name_th": "COFFEE CONNECT 2026",
+  "start": null,
+  "end": null,
+  "venue": "เซ็นทรัลเวิลด์",
+  "city": "กรุงเทพมหานคร",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "cafe",
+   "festival"
+  ],
+  "summary_th": "เทศกาลกาแฟ COFFEE CONNECT 2026 ที่เซ็นทรัลเวิลด์",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“เซ็นทรัลเวิลด์” จัดเทศกาลกาแฟพิเศษ COFFEE CONNECT 2026 จัดเต็มกาแฟแบรนด์ดัง-กาแฟหาชิมยาก",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9pU2JHbkxWRlRIOUw3QUcwTUNTNnh1MkxjUkpsM0I4MWNoM2FNc0hmRzdqa2dMOVl6eVhTczRCbFF5TXdiTF9zU2JaeDlHQ2pxZl94MlZ3dC1RSTVraFE?oc=5",
+    "source": "ผู้จัดการออนไลน์",
+    "date": "2026-09-30",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "1fb57c651b8b",
+  "name": "铜梁黑鸡美食节",
+  "name_th": "เทศกาลอาหารไก่ดำทงลียง",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "铜梁区",
+  "city": "重庆",
+  "country": "CN",
+  "region": "southwest",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "food"
+  ],
+  "summary_th": "เทศกาลอาหารไก่ดำทงลียง開幕พร้อมศูนย์วิจัยอุตสาหกรรม",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "铜梁黑鸡美食节开幕产业研究中心同步开工",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yYVRST0FuTlQ4QmZiX05BMTRqSzY4RFhxYzV2WXRqcFFQTjBONjhvNi01THJ6dWlOam9RX1k3dy1CRmxZUTdqczZGVmRtUThxRk5yUlZn?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "54d4ada1ce84",
+  "name": "一会一展一节",
+  "name_th": "งานประชุม-นิทรรศการ-เทศกาลโซ่หมู鄭州",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "郑州",
+  "city": "郑州",
+  "country": "CN",
+  "region": "central",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo"
+  ],
+  "summary_th": "งานแสดงสินค้าและประชุมอุตสาหกรรมหมูจัดขึ้นที่鄭州",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“一会一展一节”落地郑州 构建猪肉全产业链交流平台",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdHh1VWdoVF9ENFNBRW9kcWphOXhOVVR3eXhWd3VwdWI4WUZxQXdwemo3SjhnckhiS3NsaU1aU05LZndueHdXT0FmdG9LbDQ5Y1lwSDVRUDNZb29IN3M3Z1NvM3lNQktFTHRkQl9KcDNMZ0RaWUFSd3l0ZF9hTVR2cHBZcE5zdzY5eHZv?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "3917f6e1cc61",
+  "name": "江声潮声相逢！嘉定这场艺术展",
+  "name_th": "นิทรรศการศิลปะ嘉定เชื่อมโยงวัฒนธรรมแม่น้ำยางซี",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "嘉定区",
+  "city": "上海",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "นิทรรศการศิลปะที่嘉定串聯長江文脈",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "江声潮声相逢！嘉定这场艺术展串联长江文脉",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdmc4UDdFU3doRzRuMGozMHdTZFJPcUtzbWROR1BCSXB2NWVrZTJsZXgxdFNmUlpHTHpmekRBTkNXWFhrVHNKdE44WldjLTVJOWI0OHpFbGNuS1JWSXczYktQRUlJUzNuT3hucC1tRVk2QU9KMHFjSGY3RGVlWjFlV3IxT251OE9qUTBnYQ?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "b591cc89bf88",
+  "name": "“笔阵双观——颉江泊、薛垲睿书法作品汇报展”",
+  "name_th": "นิทรรศการเขียนคalions颉江泊薛垲睿上海",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "上海",
+  "city": "上海",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "นิทรรศการคัลลิกราฟีของ颉江泊และ薛垲睿開幕上海",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“笔阵双观——颉江泊、薛垲睿书法作品汇报展”在上海开幕",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBIMHNhRkl2djc0bmNlcXZBaVZCUkdxTmlDVm5Lc1U1LWE5TzFLcWhYX3NCY1FnU3FCMi1JSXRMYnZOWUVPRjBIRkR3OGg?oc=5",
+    "source": "凤凰网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "bc4df68e4e42",
+  "name": "闽韵市集文旅共建活动",
+  "name_th": "ตลาดมินยูน์วัฒนธรรมท่องเที่ยวชุมชนล่องเฟ้ง",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "龙峰社区鼓楼区",
+  "city": "福州",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "market"
+  ],
+  "summary_th": "ตลาดมินยูน์กิจกรรมวัฒนธรรมท่องเที่ยวที่ชุมชนล่องเฟ้ง鼓樓",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "新时代“堡垒工程”▏龙峰社区开展“指尖非遗暖心同行”——闽韵市集文旅共建活动- 鼓楼",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aMlpFZ2MzM0ZwaHVtYV8yZlZ4d1BWb05mbDVDbGdUQ3dHdFVjSmxCUUZkSjJZaDF0RjFpdEJpdTBFZ3c4QzBNOW5mZVVEUldlMG9MLUJMck9PN2I3dlR6Zw?oc=5",
+    "source": "东南网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "ff3499bd320e",
+  "name": "青灯市集秋季",
+  "name_th": "ตลาดคิงเด็นฤดูใบไม้ร่วง",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "塘河畔",
+  "city": "杭州",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "market"
+  ],
+  "summary_th": "ตลาดคิงเด็นฤดูใบไม้ร่วง開幕ที่ริมแม่น้ำทางฮอพร้อมร้านค้าพันหรือกว่า",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“青灯有戏·世界同音”2026青灯市集秋季启幕 千余商家、28万余件作品汇聚塘河畔",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5acmNRN1IwT3B5c2hjN2FoSGZlYi1heGF0d1p2V1N4bFczOWdtVERaclhBYms4RHM3NXR1aDdDcy1QV3dmTUswRVRnckNxLVMxZC0zSXZnOGN2OWxCRlV2X3Itcndzd0FxZGNHRg?oc=5",
+    "source": "温州新闻",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "d7386239f4b7",
+  "name": "2026年福建省户外运动嘉年华",
+  "name_th": "เทศกาลกีฬาเกาะฟุกเกี้ยน2026",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "武夷山",
+  "city": "武夷山",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "outdoor"
+  ],
+  "summary_th": "เทศกาลกีฬาออกไกลจังหวัดฟูเจี้ยนจัดขึ้นที่武夷山",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "2026年福建省户外运动嘉年华在武夷山启幕",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaFhaVXdESEUzQmptUzJqV05fQ2ZtV3lmVVVzNWRyaEtiVmRhS2EzZE5nTm55R2VvZU5rNTJpNE1aNUo5S1RKbS0zVnNneW03QWNrTjhUVmttWThxY3pYWlFPWldkbmtqRkF4Njg0Nms5dzZOYjhBb3k0dDJyVHEwUFNHTG1RNmRELWpOMw?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "017e1f06a222",
+  "name": "2026年北京苹果嘉年华",
+  "name_th": "มหกรรมแอปเปิล北京2026",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "昌平区",
+  "city": "北京",
+  "country": "CN",
+  "region": "north",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "food"
+  ],
+  "summary_th": "มหกรรมแอปเปิล北京จัดที่ชางปิงจากสวนผลไม้สู่เวทีสร้างสรรค์",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "从果园到创意现场，2026年北京苹果嘉年华在昌平举行",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYzY2S28wbUY5M0VCclFsbnJIM2RqeGJMWEFBNThWM2FIblJrRjVwMU5UWHlHRlhlSU1VaV9pRFNILVY4U1l4eUk5WGhaWUh4NjBkRUNNVzdJTC1YeFU2YlVrUjU5Y3RzVE5pOWd5cFJROEFWeTJxTkdXaVF3Um9Sczh0S2czcllU?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "82eba4c9e284",
+  "name": "2026天津农机展",
+  "name_th": "งานแสดงสินค้าเครื่องเกษตรกร天津2026",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "天津",
+  "city": "天津",
+  "country": "CN",
+  "region": "north",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo"
+  ],
+  "summary_th": "งานแสดงสินค้าเครื่องเกษตรกร天津2026เปิดตัวเทคโนโลยีอบแห้งอัจฉริยะ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "新品首发·智烘赋能｜辰宇携成套烘干解决方案亮相2026天津农机展",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOE5WczhtSENuZ0FYdFh2cmk1ZG9QTkdOenhhVGVYaGU5bndLenVqaTJKdS1BYjlQdGtld2t1NjZKNzFwQzRWWnlUU242b2MxcnVBeE0yeVBqZXozWExJOEdBak4zRGNJeW1WMkkyUDdZYkU5QXR3SkdWYVpRMXlNeG5QRmFIemd1eW4wUg?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "04e6e2d3cca5",
+  "name": "The Night by Amazing Thailand",
+  "name_th": "The Night by Amazing Thailand",
+  "start": "2026-10-16",
+  "end": "2026-10-27",
+  "venue": "สถานที่ต่างๆ ในกรุงเทพฯ",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": "เข้าฟรี",
+  "tags": [
+   "festival",
+   "concert",
+   "nightmarket"
+  ],
+  "summary_th": "กิจกรรมสร้างบรรยากาศ Night Economy ดนตรีคอนเทมโพรารีผสมสุนทราภรณ์ 16-27 ต.ค. 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ททท. ลุย “อีเวนต์” ระดับโลก ปั๊มรายได้ท่องเที่ยว",
+    "link": "https://www.tnnthailand.com/wealth/economy/246392/",
+    "source": "TNN 24",
+    "date": "2026-09-09",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "9c112442de28",
+  "name": "งานลอยกระทง หนองบัวพระเจ้าหลวง",
+  "name_th": "งานลอยกระทง หนองบัวพระเจ้าหลวง",
+  "start": "2026-11-25",
+  "end": "2026-11-25",
+  "venue": "หนองบัวพระเจ้าหลวง",
+  "city": "ลำพูน",
+  "country": "TH",
+  "region": "north",
+  "online": false,
+  "price_th": "เข้าฟรี",
+  "tags": [
+   "festival",
+   "local"
+  ],
+  "summary_th": "งานลอยกระทงประจำปีที่หนองบัวพระเจ้าหลวง ถูกยกเลิกในปี 2569 เนื่องจากมีผู้แอบอ้างขายบัตร",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "หนองบัวพระเจ้าหลวง ทต.เชิงดอย ปีนี้ “ไม่จัดงานลอยกระทง”",
+    "link": "https://www.chiangmainews.co.th/social/4155113/",
+    "source": "chiangmainews",
+    "date": "2026-09-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "70f4182aea59",
+  "name": "OSAKA ART BOOK FAIR 2027",
+  "name_th": "โอซากะ อาร์ท บุ๊ค แฟร์ 2027",
+  "start": "2027-01-01",
+  "end": "2027-01-01",
+  "venue": "大阪市中央公会堂",
+  "city": "大阪",
+  "country": "JP",
+  "region": "kansai",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art",
+   "expo"
+  ],
+  "summary_th": "งานนิทรรศการหนังสือศิลปะครั้งแรกที่โอซากะจัดขึ้นที่หอประชุมกลางเมือง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "「OSAKA ART BOOK FAIR 2027」が中之島・大阪市中央公会堂で初開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40VDJTMEFNT1RkRDRVY1UzYkFMYTdqZ0tYLWYwcVNoV0M1enJQam1ucjl6eHdES0UwajBiM1VycDl2d2RQOGxhWWJYZzZqU3IzUlFhdzJ5SWdEQjhNdDBHSzVRUWctdldsQ1BZblp3?oc=5",
+    "source": "Qetic",
+    "date": "2026-10-01",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "48d25fdfa259",
+  "name": "オリジナルミュージカル『MY WAY!! MY WILL!!!』",
+  "name_th": "มิวสิคัลต้นฉบับ MY WAY!! MY WILL!!!",
+  "start": "2026-11-01",
+  "end": "2026-11-30",
+  "venue": null,
+  "city": "名古屋",
+  "country": "JP",
+  "region": "chubu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "stage",
+   "concert"
+  ],
+  "summary_th": "มิวสิคัลต้นฉบับพร้อมวงบิ๊กแบนด์สดจัดขึ้นที่นางอยะในพฤศจิกายน 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ビッグバンドの迫力ある生演奏で贈るオリジナルミュージカル『MY WAY!! MY WILL!!!』名古屋にて2026年11月開催決定",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02dmxiMV9lLXVxTTZJNEQ2bDQ5cTBuNnhFU3hSV29qMjI1UXl6aTJFYVpvTzZxeER4Y3ZodTBITWJlVWxlWkFGSXdSSkQ1a19PVTZxWFJEUjhEdXY4T2pLaDNyU3RNUzlKaVE?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-10-01",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "770b281b94c7",
+  "name": "モンスト『モンソニ！』朗読劇",
+  "name_th": "ละครอ่าน モンスト『モンソニ！』",
+  "start": "2027-02-01",
+  "end": "2027-02-28",
+  "venue": null,
+  "city": null,
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "stage",
+   "game"
+  ],
+  "summary_th": "ละครอ่านจากเกมมอนสเตอร์สไตรก์ เรื่อง Monsoni จัดขึ้นเดือนกุมภาพันธ์ 2570",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "モンスト『モンソニ！』朗読劇、2027年2月開催決定",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1ZeEVjMWM2eDd5V281ZTY0Q1NVc1JJeVR4YTVQVDdUSVJJRE1MNWcweUhRcEEzNFBxT0dqMmF0ZEZOck9tOXc?oc=5",
+    "source": "Koubo",
+    "date": "2026-10-01",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "7d51d450d701",
+  "name": "東京V戦（12/19）「クラブ創設35周年記念マッチ」",
+  "name_th": "การแข่งขันวอลเลย์บอลโตเกียว วี 19 ธันวาคม งานเฉลิมฉลอง 35 ปี",
+  "start": "2026-12-19",
+  "end": "2026-12-19",
+  "venue": "国立競技場",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "match"
+  ],
+  "summary_th": "แมทช์วอลเลย์บอลระลึกถึง 35 ปีคลับโตเกียว วี ที่สนามกีฬาแห่งชาติ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "【国立開催】東京V戦（12/19）「クラブ創設35周年記念マッチ」チケット発売のお知らせ",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ueTUyeGtXUW9pbnZqRmY4czh1NG9Sdkd2a29xTWc3eVJKZi1ibURFaHdxZFh0ZGl1VHRxN09zUUZ2bF9MN3VjREZFdlpMSmItOTI4NkMtX0ZhSjFfUWc?oc=5",
+    "source": "鹿島アントラーズ オフィシャルサイト",
+    "date": "2026-10-01",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "f97169ed6e37",
+  "name": "［次世代］ものづくり総合展（通称：MIX）",
+  "name_th": "นิทรรศการ綜合ものづくり MIX รุ่นใหม่",
+  "start": "2027-08-01",
+  "end": "2027-08-31",
+  "venue": null,
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "ai",
+   "expo",
+   "devconf"
+  ],
+  "summary_th": "นิทรรศการรวม AI หุ่นยนต์ ครึ่งตัวนำ รถยนต์ จัดขึ้นเดือนสิงหาคม 2570",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "［AI］［ロボット］［半導体］［自動車］ものづくりが交わる総合展示会『［次世代］ものづくり総合展（通称：MIX）』が27年8月に開催決定",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jaXJCSjNZRl9RR3BHYmpqeE40NGhPX3lLTEU5aHVnaW12dmxoVXJoUDlkdElPUlpESXUzMGF3NndDYlVkVVMyay1YaEswMFBrbl9IVk93T1R4Y3BrZ1VMQ21yYlM0VE8tS2c?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-09-30",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "562775dfa9c8",
+  "name": "渋谷でクロミの世界に浸る没入型イベント",
+  "name_th": "งานอิมเมอร์ซีฟโลกของครอมีที่ชิบuya",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "market"
+  ],
+  "summary_th": "กิจกรรมอิมเมอร์ซีฟเข้าโลกของตัวละครครอมีจากซานริโอยจัดที่ชิบuya",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "渋谷でクロミの世界に浸る没入型イベント開催決定",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBaNnNudEo5RVhUeWk1U1I4eHNWN1BGemF4UE5xdUlpeGlwVlZrbHVUZGtXNWhWazFUUktNMFpVS3lNb0RSRUE?oc=5",
+    "source": "Koubo",
+    "date": "2026-09-30",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "3c761786136e",
+  "name": "MINAMO『母の泥舟』出版記念サイン会",
+  "name_th": "งานเซ็นหนังสือ MINAMO『母の泥舟』",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "fanmeet",
+   "book"
+  ],
+  "summary_th": "งานเซ็นหนังสือและแฟนมีตของมินะโมะเฉลิมฉลองหนังสือใหม่",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "MINAMO『母の泥舟』出版記念サイン会開催決定",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1KSkpnX0dOa25IWEpTRDJtYU93QVhkNkVjdlRkZnUzQmxlRktmWGhsSFZDeUpSaGl6elBmZHBvWlhhVFdhblE?oc=5",
+    "source": "Koubo",
+    "date": "2026-09-30",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "75f74c328f95",
+  "name": "第6回名古屋モーターサイクルショー",
+  "name_th": "นิทรรศการมอเตอร์ไซค์นาโกยา ครั้งที่ 6",
+  "start": "2027-04-09",
+  "end": "2027-04-11",
+  "venue": "Aichi Sky Expo",
+  "city": "名古屋",
+  "country": "JP",
+  "region": "chubu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "motorshow",
+   "bike",
+   "expo"
+  ],
+  "summary_th": "โชว์มอเตอร์ไซค์นาโกยาครั้งที่ 6 จัดที่ไอจิ สกาย เอ็กซ์โป 9-11 เมษายน 2570",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "【開催決定！】2027年「第6回名古屋モーターサイクルショー」が4月9日〜11日に開催 Aichi Sky Expoを舞台に前回は4万5000人超が来場 (Webikeプラス)",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM0xnM3pibmtrbVVpM0UzdkgyTUlCMm1BU3d0OWFfYVc3b1hyc2cxNkJyak11WUo2V09Md1dHNklwNzU3QlR5QmxIVEgzWkVFLUtKYmh4SzRqWlpCX0FWV1R1aXRkek9fSlI2SGVaT2N4Ym9ia002UlpsMUdrUFdHRFF1WHdBUGIwS255OXhB?oc=5",
+    "source": "Yahoo!ニュース",
+    "date": "2026-09-29",
+    "image": null
+   },
+   {
+    "title": "春の中京ビッグイベントが早くも始動！「第6回 名古屋モーターサイクルショー」が2027年4月9日（金）〜11日（日）に開催決定だ！",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ISEF5dk1xampMSUhuZUhaa28wczFkdF9oZHJDQ0N3NXkxUS1KYjdIbXE0c05hV1NJVmU0dnZ5STZZTl8td3psdUNsdEpxcUM3RGJjaDFNVQ?oc=5",
+    "source": "ヤングマシン",
+    "date": "2026-09-28",
+    "image": null
+   },
+   {
+    "title": "【開催決定！】2027年「第6回名古屋モーターサイクルショー」が4月9日〜11日に開催 Aichi Sky Expoを舞台に前回は4万5000人超が来場",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYdFQ0a3JrSU1hdklyZlpDaEV3WkhLQi1zYWhkNjVWSzdzM1BCTWR3U3JvV2Jzellpc3AzWUVGSmhOUG8wb2pYRWNZX1pNeWRLUVE?oc=5",
+    "source": "Webikeプラス",
+    "date": "2026-09-28",
+    "image": null
+   },
+   {
+    "title": "最新バイクの魅力を体感！「第6回名古屋モーターサイクルショー」開催決定！2027年4月9日（金）～11日（日）Aichi Sky Expo",
+    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9sOXVUaTRua3pnZE96dmFxUEpFX1RBQnJZTXpoRjd3NEtNQjlkQmFjRHAwTU9sMGZFdFI0MW1VTGFfa1YtR3RWa1ZB?oc=5",
+    "source": "MOTA",
+    "date": "2026-09-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "enriched": false
+ },
+ {
+  "id": "4ef56ffe81b8",
+  "name": "革新艺术科技：共创纾心时光」学生公开作品展",
+  "name_th": "นิทรรศการผลงานนักศึกษา「革新艺术科技：共创纾心时光」",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "香港浸会大学",
+  "city": "香港",
+  "country": "CN",
+  "region": "south",
+  "online": false,
+  "price_th": "ฟรี",
+  "tags": [
+   "art",
+   "ai"
+  ],
+  "summary_th": "นิทรรศการศิลปะเทคโนโลยีของนักศึกษาที่สำรวจความเชื่อมโยงระหว่างอารมณ์และนวัตกรรม",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "浸大与香港资优教育学苑合办“革新艺术科技：共创纾心时光”学生公开作品展探索科技与情感连结",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVmxHNk9adTlNaXZIR3pOSkc0OW1nMUZ4d3pyTlEwM09VYzUtRW9zY0Y3NnR6WDVKb0M4OFVoX3doZVk3LUdJQWVFaU1obnpGVC1hanM2VFp5bHdfcWNXOUpZcmFhYWlVV0h6WU9hUHp5VzB0UE5uWm8zdGpJN1V3V0prLURMMlF3YzJ2VFBLQzBkWnZo?oc=5",
+    "source": "紫荆网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "53172eabea6f",
+  "name": "微博上海国际教育择校展",
+  "name_th": "งานนิทรรศการเลือกโรงเรียนระดับนานาชาติ微博上海",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "上海展览中心",
+  "city": "上海",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": "ฟรี",
+  "tags": [
+   "edu",
+   "expo"
+  ],
+  "summary_th": "งานนิทรรศการเลือกโรงเรียนระดับนานาชาติช่วยเหลือผู้ปกครองวางแผนการศึกษาลูก",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "微博上海国际教育择校展：在多元选择中，找到合适孩子的路",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tSHdVSElobTJzd1RfU0NSc3ZmY1Z1QjBOUmVOUEduQ3ZZM1R5b3g5ZEVqSk5RRGtwc3ZqSGhhTUZJRTRvWkg0NlBjaVJzTy1IbUZOUE0xMzFDcm5UMWpGOVV6MDBBMy1GYmNreHZCU0dQaWtmd19N?oc=5",
+    "source": "新浪教育",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "c39fc2c1cc01",
+  "name": "伊川县青少年科技节暨「做中学」成果展",
+  "name_th": "เทศกาลวิทยาศาสตร์เยาวชนจังหวัดอี้ชวนและนิทรรศการผลงานเรียนรู้จากการปฏิบัติ",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "伊川县文化中心",
+  "city": "伊川县",
+  "country": "CN",
+  "region": "central",
+  "online": false,
+  "price_th": "ฟรี",
+  "tags": [
+   "kids",
+   "expo",
+   "workshop"
+  ],
+  "summary_th": "เทศกาลวิทยาศาสตร์เยาวชนพร้อมนิทรรศการผลงานและกิจกรรมเวิร์กช็อป",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "伊川县青少年科技节暨“做中学”成果展启幕",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLUJJRTVMT3QtZ3JVdUpxYUt0QjU0ZmNoVHV6MC03VlRkOVhubGZ3U2gyQjZtUWJFa0dUaEk4R3JITFhvYzVvSUJsMWZ5NE5OUEFiOTRhazZoVklSMGdYM0pyNEVVX3F5MjVyZDdod1NfRjhqMEgzZ1VhZldvWkY1cy1hRFVCa3VvNFJ4b3Nmcw?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "ae66576172bf",
+  "name": "万里归衣——「赫士袍服」专题展",
+  "name_th": "นิทรรศการพิเศษชุดฮอสเสาร์ พิพิธภัณฑ์山大",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "山东大学博物馆",
+  "city": "济南",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": "ฟรี",
+  "tags": [
+   "museum",
+   "fashion"
+  ],
+  "summary_th": "พิพิธภัณฑ์山大จัดนิทรรศการชุดฮอสเสาร์แสดงประวัติศาสตร์การศึกษาตะวันตก-ตะวันออก",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "山东大学博物馆推出“万里归衣——‘赫士袍服’专题展” 见证山大一段中西教育交融共生历史",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVWtRLVZfUEo0NzFoWVB5Zzd1VkpROXVhOVFxb09Jc0VBd3E4WmFrM0V0VXJrS2xaSHJFZkVuNmRuelRkVGdMYWIyUkJjYm1ZbEJtYjhieXlnQnQwbXhkellEWXM1Z3JDNE1RQi1SNTYwY2s4Uk90NXJhTEJkTTVZYWJ6YWluS2xiSlY2WnBlUQ?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "67205f8e9321",
+  "name": "树仁大学历史博物馆开幕",
+  "name_th": "พิพิธภัณฑ์ประวัติศาสตร์มหาวิทยาลัยชูเยินเปิดตัว",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "树仁大学历史博物馆",
+  "city": "香港",
+  "country": "CN",
+  "region": "south",
+  "online": false,
+  "price_th": "ฟรี (ต้องจองล่วงหน้า)",
+  "tags": [
+   "museum"
+  ],
+  "summary_th": "พิพิธภัณฑ์ประวัติศาสตร์มหาวิทยาลัยชูเยินเปิดให้นักท่องเที่ยวจองเข้าชมฟรี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "树仁大学历史博物馆开幕 公众可预约参观珍贵展品中见证校史",
+    "link": "https://news.google.com/rss/articles/CBMivwNBVV95cUxPQ1FqeF9xT2ZMZUtVRXNvV2d1LVdKTGhNS0xTdE91dkFhLXhZMXNud05oTzg5V0MyTHVwbGxOQlI3TlV6WDZJNmZJVkw1UVU2WThRUGc5VTkxUzZoMWwtak5DbDFlRklWVXZYVUdXWDZwelBjRFZuVTNsUWFLZGpQUTlZU0dtQ1NSOU54VUJEOWNTdTZweUg1UERVNkw0OVlpRDhUeS1JTnZRNUZqSFU1TlV4R2VRY2dTU1kxeGFwQjdhbHJOcWlPYjZhczlMdExXSTFFLUp4ZDRUWFBmZlVHOHZZUzc0NFFQTm1UdVNvMlRfNzg4aUtMRDc2eDA3cXRBVDNVSHVTeXVrWGRiTGJlUXZpS1d6Mm9LdUhVTnBIZGtfMExnWlRGNTJ3bTBMbGVqWVFhd2hNdFZud3RXUW5EVEFuYVpaRlFpeTg2bkJYTGdOV0hRQTFtY185MkxrNDVNWnVvN0o3akV4VkZWX09ZWWxVQmQ2UlhTdGFHa1Jvbzh4OGtMZ2NKbFNPUUFCdmQ1OXFqal9zRzNndDdRZUJETzl3T1lEOVhndXUycUxTcWw2LW5NWkZTbmhNLU9Sd0U?oc=5",
+    "source": "香港01",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "0a17162a7b9a",
+  "name": "Narumiya Characters × 东京/京都赛马场",
+  "name_th": "นารูมิยะ แชร็คเตอร์ส × สนามแข่งม้าตะเกียว/โตเกียว",
+  "start": "2026-11-07",
+  "end": "2026-11-07",
+  "venue": "东京赛马场、京都赛马场",
+  "city": "东京、京都",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "kids",
+   "fashion",
+   "market"
+  ],
+  "summary_th": "กิจกรรมร่วมมือแบรนด์เสื้อผ้าเด็กกับสนามแข่งม้าตะเกียวและโตเกียวเริ่ม 7 พ.ย.",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "Narumiya Characters × 东京/京都赛马场 11月7日起举办!",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHFlRF9EdkZzbEZRUzQxVElLdldsQUtUR0lBeVc0bHlDSGUzbEc0M1RsVXhWcEtLeEVVWTNOY2pSS3VpaXlBQy1XQUFRZzZjb202Q1RacTN0NUU4X2huQzJFSC1TbW5uanlCU0RaVGEycGZzTFZGcGFwSWFzT3pyVEtxb1BCZl96TDBsY0pOQXRwVDg0LVHSAZ4BQVVfeXFMT0tzeWNfbGdaVTR3Y1M2c1B6R05GbE82azh5ZFJJQTV1NXBVSURwYU9nbXh2UC1rVU1oNEFFRUh6YTN4M190RERfMWQtWTFScUFXYWJXREtlSGhQc1h5U00xLUpZS3pDWElNeXJuUHp5YkJaSEowdW9IbVNNbHNkSVVWQTdsQ2o4QlNjQ1VaczFGQWJObWx5Q3dNUDQ0aEE?oc=5",
+    "source": "コラボカフェ",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "e192e22b6e86",
+  "name": "「动感亚洲」摄影展",
+  "name_th": "นิทรรศการถ่ายภาพ「ดองคัน ยาเซีย」",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "深圳美术馆",
+  "city": "深圳",
+  "country": "CN",
+  "region": "south",
+  "online": false,
+  "price_th": "ฟรี",
+  "tags": [
+   "photo",
+   "art"
+  ],
+  "summary_th": "นิทรรศการถ่ายภาพแข่งขันระดับเอเชียเฉลิมฉลองความหลากหลายทางวัฒนธรรม",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“动感亚洲”摄影展在深圳启幕",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByQ01vZ21QUl9wVlR1N3NfbkswRklBSXltcG1SdWxuV0pnLTFmdkd4dTBVdHpjVmFEY2xGNWFRRlJKRnMwTXdGUDJKdEkyVTdPUGhyOFBVaWMwSnBVWFdkMnowdWllVmstRUViQzBGU1FjMmhrTDV1ZjNNYkk?oc=5",
+    "source": "中国日报网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "bbcb952d957b",
+  "name": "第28届香港国际秋季灯饰展",
+  "name_th": "งานนิทรรศการโคมไฟฤดูใบไม้ร่วงฮ่องกง ครั้งที่ 28",
+  "start": "2026-10-27",
+  "end": "2026-10-30",
+  "venue": "香港会议展览中心",
+  "city": "香港",
+  "country": "CN",
+  "region": "south",
+  "online": false,
+  "price_th": "ฟรี (เฉพาะผู้ลงทะเบียนทางออนไลน์)",
+  "tags": [
+   "expo",
+   "home"
+  ],
+  "summary_th": "งานแสดงเทคโนโลยีแสงสว่างและโคมไฟอัจฉริยะระดับนานาชาติที่ฮ่องกง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "第28届香港国际秋季灯饰展开幕 展示智能照明设备",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zemExcFhLTmlTd2RCZUs5TWJEOVo3dDhjbngwODB6VmFRVFdrTF95THRmWHh1enpTXzJ3d2tYUnBHNUlVZ3RZZnZsbkhxSWp3ay1pQ1NYV3k1T2J3bVI3anlEcHdITWFmTUZJV1VCWEI?oc=5",
+    "source": "中国新闻网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "841c61797e7b",
+  "name": "Stage Play ‘Mueang’",
+  "name_th": "ละครเวที “เมือง”",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "กรุงเทพมหานคร",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "stage"
+  ],
+  "summary_th": "เมืองไทยสไมล์คลับจัดให้สมาชิกชมละครเวที “เมือง” พร้อมสิทธิพิเศษจากคะแนนสะสม",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เมืองไทยสไมล์คลับ ชวนสมาชิกเปิดประสบการณ์ชมละครเวที “เมือง ...",
+    "link": "https://www.pptvhd36.com/news/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C/282275",
+    "source": "pptvhd36",
+    "date": "2026-08-26",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "ccb0c7ff0661",
+  "name": "Southeast Asia’s Largest Coffee Festival",
+  "name_th": "เทศกาลกาแฟที่ใหญ่ที่สุดในเอเชียตะวันออกเฉียงใต้",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "กรุงเทพมหานคร",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "food",
+   "cafe",
+   "festival"
+  ],
+  "summary_th": "เทศกาลกาแฟระดับเอเชียตะวันออกเฉียงใต้กลับมาจัดอีกครั้งในปี 2026",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เทศกาลกาแฟที่ใหญ่ที่สุดในเอเชียตะวันออกเฉียงใต้ กลับมาอีก ...",
+    "link": "https://www.timeout.com/bangkok/th/news/thailand-coffee-fest-2026-082526",
+    "source": "Time Out",
+    "date": "2026-08-24",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "e228dce2ded1",
+  "name": "Photography Art Exhibition at Siam Takashimaya Iconsiam",
+  "name_th": "นิทรรศการศิลปะภาพถ่ายที่ สยาม ทาคาชิมายะ ไอคอนสยาม",
+  "start": null,
+  "end": null,
+  "venue": "สยาม ทาคาชิมายะ ณ ไอคอนสยาม",
+  "city": "กรุงเทพมหานคร",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art",
+   "photo"
+  ],
+  "summary_th": "สยาม ทาคาชิมายะ ณ ไอคอนสยาม จัดนิทรรศการศิลปะภาพถ่ายเปิดประสบการณ์ใหม่",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "สยาม ทาคาชิมายะ ณ ไอคอนสยาม ปักหมุดนิทรรศการศิลปะภาพถ่าย ...",
+    "link": "https://mgronline.com/stockmarket/detail/9690000079887",
+    "source": "mgronline",
+    "date": "2026-08-14",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "22cc306849f1",
+  "name": "Community Tourism Workshop: Local Life",
+  "name_th": "เวิร์กช็อปท่องเที่ยวชุมชน วิถีชาวบ้าน",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "กรุงเทพมหานคร",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "workshop",
+   "travel",
+   "local"
+  ],
+  "summary_th": "จัดเวิร์กช็อปส่งเสริมท่องเที่ยวชุมชนและวิถีชีวิตชาวบ้าน ให้ประสบการณ์ใหม่เหนือการเช็กอินคาเฟ่",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ชี้เป้าพิกัดท่องเที่ยวชุมชน วิถีชาวบ้าน ได้ทำเวิร์กช็อป งาน ...",
+    "link": "https://www.msn.com/th-th/lifestyle/lifestyle/%E0%B8%8A%E0%B8%B5%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B8%B4%E0%B8%81%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%96%E0%B8%B5%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99-%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%9B-%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%9F%E0%B8%95%E0%B9%8C-%E0%B9%81%E0%B8%96%E0%B8%A1%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%94%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%84%E0%B8%A3%E0%B9%88/ar-AA29isoX",
+    "source": "MSN",
+    "date": "2026-08-03",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "f504c2bd3cd8",
+  "name": "ジャンプフェスタ2027",
+  "name_th": "จัมพ์เฟสต้า 2027",
+  "start": "2027-12-19",
+  "end": "2027-12-20",
+  "venue": "幕張メッセ",
+  "city": "千葉",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "comic",
+   "expo"
+  ],
+  "summary_th": "เทศกาลมังงะและอนิเมะประจำปีของ Jump จัดที่ Makuhari Messe วันที่ 19-20 ธ.ค. 2570",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "「ジャンプフェスタ2027」12/19・20に幕張メッセにて開催決定",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10RDQ5WjBuMnNLWUtibkpXUW0zaGhQWkRUQUNzU2V5Y3I2S3hTaUpZczdMV2tjMmVSOXlubzRZODE0M2NoNTZ1YTFtWURKM2w1RkVCbWtZYmZ6LUJ4eUNWUU01a0c4dlE2dnRz?oc=5",
+    "source": "アニメイトタイムズ",
+    "date": "2026-09-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "1d40c28e3d04",
+  "name": "平城京 秋の散楽フェスタ2026",
+  "name_th": "เทศกาลฤดูใบไม้ร่วงเฮย์โจะคิโอ 2026",
+  "start": "2026-10-09",
+  "end": "2026-10-09",
+  "venue": "世界遺産・平城宮跡歴史公園",
+  "city": "奈良",
+  "country": "JP",
+  "region": "kansai",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "festival",
+   "concert",
+   "lights"
+  ],
+  "summary_th": "เทศกาลฤดูใบไม้ร่วงที่สวนประวัติศาสตร์มรดกโลกวังเฮย์โจะคิโอ มีคอนเสิร์ตและดอกไม้ไฟ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "世界遺産・平城宮跡歴史公園で開催！「平城京 秋の散楽フェスタ2026」が10月9日より開催決定！アーティスト「ずっと真夜中でいいのに。」との多彩なコラボ企画や大迫力の花火も実施",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xT1RndHpqaGZRUGl0ZlJJbzFublJUY1luR1B3cUNsSENaVVhSY1V5SkFQT2tSV2xaLWVaYW5KTXpGRVZKNjdyTHgwc0FjeUJmUGV6RWI1bklyOW9pYWVGZDJJRkhuelRfUXNsTGU2Yk9xdw?oc=5",
+    "source": "インサイド",
+    "date": "2026-09-28",
+    "image": null
+   },
+   {
+    "title": "世界遺産・平城宮跡歴史公園で開催！「平城京 秋の散楽フェスタ2026」が10月9日より開催決定！アーティスト「ずっと真夜中でいいのに。」との多彩なコラボ企画や大迫力の花火も実施 (2026年9月28日掲載)",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tQ0dTX0gzVEZ3LXk5MGtEOFlxd05GY21DY0ZkaUZRTW53bmNUR3h0cm5GRFo5V2UtT0ZlR25Yek45SVFQMjhGdFYtaklTZjJYSUhXeU04d052Mld2bmF3Nzl3?oc=5",
+    "source": "ライブドアニュース",
+    "date": "2026-09-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "2a06441dd6da",
+  "name": "日経創刊150周年スペシャル 関西リーダー列伝 ザ・フォーラム～未来のリーダーへ贈る あの日の決断～",
+  "name_th": "ฟอรัมผู้นำภูมิภาคคันไซ วาระพิเศษ 150 ปี นิเกอิ",
+  "start": "2026-11-26",
+  "end": "2026-11-26",
+  "venue": null,
+  "city": "大阪",
+  "country": "JP",
+  "region": "kansai",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "startup",
+   "edu"
+  ],
+  "summary_th": "งานฟอรัมผู้นำธุรกิจภูมิภาคคันไซ ระลึกถึง 150 ปี นิเกอิ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "【11/26開催決定】関西の有力企業リーダーが登壇！『日経創刊150周年スペシャル 関西リーダー列伝 ザ・フォーラム～未来のリーダーへ贈る あの日の決断～』",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWcklkUXByQ3RWUF9IZEVEVEtXSDU3cGNGQmlxR1FnM2I0QmxiaDBjaDcyQ1RpZWJkRjc2VnhuTmcyaW5JaFFYRlowOVFQYlMzaHA5R1BhOE1kWnVVMGF1alRVU3dxMUg4SGc?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-09-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "58fb4d459570",
+  "name": "WAKAYAMA LIGHTS 2026",
+  "name_th": "วาคายามา ไลท์ส 2026",
+  "start": null,
+  "end": null,
+  "venue": "和歌山城",
+  "city": "和歌山",
+  "country": "JP",
+  "region": "kansai",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "lights",
+   "festival"
+  ],
+  "summary_th": "โชว์โดรนแสงสีสันที่ปราสาทวากายามะ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "豊臣兄弟ゆかりの城・和歌山城を彩るドローンショー「WAKAYAMA LIGHTS 2026」の開催決定！！",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YeTRzNFVPOXlXY3BlNlJqTk1TbV91dWg1eEc3X0ZJYVJvQVFBWnhUQkk0anBiaTJXbVVuMmlaOGZmbUkwNkF2bEEyTjFRbW5BaWNRTUo1VVFRZEc3VldCNnpyai1Ja3Jvenc?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-09-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "745ab9e845ca",
+  "name": "ヒロアカウルトラエキスポ",
+  "name_th": "ฮิโรอาคา อルトラ เอ็กซ์โป",
+  "start": "2027-04-17",
+  "end": "2027-04-18",
+  "venue": "幕張メッセ",
+  "city": "千葉",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "expo",
+   "figure"
+  ],
+  "summary_th": "นิทรรศการใหญ่เฉลิมฉลอง 10 ปีอนิเมะ My Hero Academia ที่ มากุฮาริ เม็สเซะ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "史上最大イベント《ヒロアカウルトラエキスポ》が幕張メッセで2027 ...",
+    "link": "https://dengekionline.com/article/202609/88726",
+    "source": "電撃オンライン",
+    "date": "2026-09-19",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "02dffef054c9",
+  "name": "「BLEACH」完結記念イベント",
+  "name_th": "งานฉลองจบซีรีส์ BLEACH",
+  "start": null,
+  "end": null,
+  "venue": "幕張メッセ",
+  "city": "千葉",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "fanmeet"
+  ],
+  "summary_th": "งานระลึกถึงการจบของอนิเมะ BLEACH มีคาสต์์หลายคนร่วมงาน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "「BLEACH」完結記念イベントを幕張メッセで開催、2日間でキャスト15 ...",
+    "link": "https://natalie.mu/comic/news/690361",
+    "source": "ナタリー",
+    "date": "2026-09-19",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "c13d8e4d677c",
+  "name": "第6回川口花火大会",
+  "name_th": "เทศกาลพลุครั้งที่ 6 คาวากูชิ",
+  "start": "2026-11-14",
+  "end": "2026-11-14",
+  "venue": "川口市内",
+  "city": "川口市",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "festival",
+   "lights"
+  ],
+  "summary_th": "เทศกาลพลุคาวากูชิครั้งที่ 6 จัดขึ้นวันที่ 14 พ.ย. 2569 ยิงพลุ 11,100 ลูก",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "第6回川口花火大会 開催決定！",
+    "link": "https://www.kyodo.co.jp/pr/2026-07-07_4021182/",
+    "source": "株式会社共同通信社",
+    "date": "2026-07-07",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "722f0596558c",
+  "name": "CEDEC+KYUSHU 2026",
+  "name_th": "ซีเดค+คيوشู 2026",
+  "start": "2026-11-14",
+  "end": "2026-11-14",
+  "venue": "福岡市内",
+  "city": "福岡市",
+  "country": "JP",
+  "region": "kyushu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "game",
+   "devconf"
+  ],
+  "summary_th": "การประชุมนักพัฒนาเกมส์ระดับใหญ่ที่สุดในคيوشู จัดขึ้นวันที่ 14 พ.ย. 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "九州最大級のゲーム開発者向けカンファレンス「CEDEC+KYUSHU 2026」、11 ...",
+    "link": "https://gamemakers.jp/article/2026_06_10_139378/",
+    "source": "gamemakers",
+    "date": "2026-06-09",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "57d75de98f1d",
+  "name": "Indie Developers Conference 2026",
+  "name_th": "อินดี้ ดีเวลอปเปอร์ส คอนเฟอเรนซ์ 2026",
+  "start": "2026-11-28",
+  "end": "2026-11-28",
+  "venue": "esports 銀座 studio",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "game",
+   "devconf"
+  ],
+  "summary_th": "การประชุมนักพัฒนาเกมอินดี้จัดขึ้นวันที่ 28 พ.ย. 2569 ที่สตูดิโออีสปอร์ตซ์銀座",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "インディーゲーム開発者の知見集結イベント「Indie Developers Conference ...",
+    "link": "https://automaton-media.com/articles/newsjp/20260513-442776/",
+    "source": "automaton-media",
+    "date": "2026-05-13",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "9ac327ba2cef",
+  "name": "デュエル・マスターズ ファンフェスティバル 2027",
+  "name_th": "ดูเอล มาสเตอร์ส แฟนเฟสติวัล 2027",
+  "start": "2027-03-07",
+  "end": "2027-03-07",
+  "venue": "幕張メッセ",
+  "city": "千葉市",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "game",
+   "tcg"
+  ],
+  "summary_th": "งานแฟนเฟสติวัลการ์ดเกมดูเอล มาสเตอร์ส จัดขึ้นวันที่ 7 มี.ค. 2570 ที่幕張メッセ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "デュエル・マスターズ ファンフェスティバル 2027幕張【3/7・幕張メッセ】｜ドラゴンスター",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uNk5NWm02a0E3UXpVUTkxSjdDSVdkVFA1VVVUVE5WWENUbDVGemxoUDVzV1pTdEYzOG4yY05OMnBuWmxmazhicC1vSHFZWVdZMzYwa1JYc1d1UXZkZG95cDliV2JQdFRIX3UwMXhoOU9KYlZDZjdRckM1Yw?oc=5",
+    "source": "www.event-marketing.co.jp",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "7938906c8d4d",
+  "name": "Beyond2026",
+  "name_th": "Beyond2026",
+  "start": "2026-12-29",
+  "end": "2026-12-29",
+  "venue": "茨城県城里町",
+  "city": "城里町",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "run"
+  ],
+  "summary_th": "งานวิ่งมาราธอน Beyond2026 จัดขึ้นวันที่ 29 ธันวาคม 2569 ที่จังหวัดอิบารากิ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "マラソン大会【Beyond2026】が8月7日(金)19時よりエントリー開始|大会 ...",
+    "link": "https://www.tv-tokyo.co.jp/plus/external-pr/entry/202677.html",
+    "source": "BSテレ東",
+    "date": "2026-08-05",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "44847d0278bf",
+  "name": "上海环球港环球稻浪节",
+  "name_th": "เทศกาลสนามข้าวโกลบอลฮาร์เบอร์ ชั้งไฮ",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "上海环球港",
+  "city": "上海",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "festival",
+   "food"
+  ],
+  "summary_th": "เทศกาลสนามข้าวในห้างสรรพสินค้าโกลบอลฮาร์เบอร์เชิญชวนผู้คนชมวิวข้าวสุกในเมือง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "上海环球港环球稻浪节启幕，商圈稻田里共赏秋收图景",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQkNYQWQyZGktcTdveV9VUzZpTXBONV9BbkxsZ3ZoUU5oYmI4UDFoc1Q4d3NDMGg1QUtnWWU2eVA2dGVzWFdZR3NxTUFvWlBiNXVKUXkzVjFjaXpmSFRrUGJyY0ZQLXRwOFRmOGNkVlJhNmJBcTBDX1IzTGxzMmtPV2toUy0taldlb2FXWHdRZTg3SHFFVm5UXw?oc=5",
+    "source": "finance.sina.com.cn",
+    "date": "2026-10-27",
+    "image": null
+   },
+   {
+    "title": "稻浪入城，丰收可触！环球港“稻浪节”把田间农忙搬进市中心|上海市|上观新闻|丁佐宏|活动|都市_新浪新闻",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKaGJwVU9oUldjZk85Z3JMa3I4dEw2ZGRvTk10cVNoaWd5YUk5VFVlaDd0VldySmNfMjBXRUF1RFJzd0c4cW1nWldxUmVRajgwNkx0LUk5UjBBdkw4WDhHNHJYVjZzY2UybEk4dENrNzR4UjgtUWFXQ2lRcV9QQQ?oc=5",
+    "source": "finance.sina.com.cn",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "39bd8c52f537",
+  "name": "第九届河北时装周",
+  "name_th": "ฮ่องปี้เวค ครั้งที่ 9 จังหวัดฮ่องเปย์",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "雄安新区",
+  "city": "雄安",
+  "country": "CN",
+  "region": "north",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "fashion",
+   "design"
+  ],
+  "summary_th": "งานแสดงแฟชั่นระดับจังหวัดฮ่องปี้ครั้งที่ 9 เปิดตัวที่เขตใหม่ซียงอัน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "淀韵经纬织霓裳 冀秀雄安启新篇——第九届河北时装周在雄安新区盛大启幕",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UY1EyS2dYTFh0YUVNVmJlVGF1bG9VU2t0em45cEdXUEx6aHd0dVlSOUdrY0YxbU1uYkEwWHc2ekxwZmUxSjUwb3JULWJQdXdCX1VKckhUenBlWGQtTTlV?oc=5",
+    "source": "河北广播电视台",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "fb90a8d5de40",
+  "name": "2026长沙银博会",
+  "name_th": "มหกรรมเงินสลักช้างซาอี้ 2026",
+  "start": "2026-11-20",
+  "end": "2026-11-20",
+  "venue": null,
+  "city": "长沙",
+  "country": "CN",
+  "region": "central",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo",
+   "wellness"
+  ],
+  "summary_th": "มหกรรมสินค้าและบริการสำหรับผู้สูงอายุภาคกลางเปิดตัว 20 พ.ย. ที่กรุงช้างซาอี้",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "2026长沙银博会11月20日启幕 ​致力打造“中部银发经济第一展”",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Ic2JCdGFyMGFDUHF6SlBtS0ZtbFg3MHdadnZMTHl1UFFJakFkb2UwRGVrR3Q0RGE4eXpLM2dwaVFpUmZ2QVhPSUEyeHhzNzFQVjhENEZ1YnR6MUhWMWJV?oc=5",
+    "source": "新湖南",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "c4c6f1237ecf",
+  "name": "第28届龙港印博会",
+  "name_th": "งานแสดงพิมพ์ล่องกาง ครั้งที่ 28",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": "龙港",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo",
+   "design"
+  ],
+  "summary_th": "งานแสดงพิมพ์ครั้งที่ 28 เปิดตัวที่เมืองล่องกาง จิ้งเจียง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "第28届龙港印博会启幕 展市联动赋能“中国印刷城”升级",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvZG0zemRfdmNLTlh6NmZ2b3oxM1VsaUlzNzVMV0IxSGR1OUI5NWc3RzhRU1BLUHNfNDlqYS1zT3c0SlRsdHVqSGt4SmkyU2thSy1pd19ZU09ZajlKWi0zUVM0WGdJQQ?oc=5",
+    "source": "温州新闻",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
  }
 ]
