@@ -1,5 +1,5 @@
 // Daily pipeline: fetch news headlines → AI extracts offline events → poster/link enrichment → data/events.json.
-// Usage: node pipeline/run.mjs [--fetch-only | --tidy] [--window=7d] [--max-batches=40]
+// Usage: node pipeline/run.mjs [--fetch-only | --tidy | --no-fetch] [--window=7d] [--max-batches=40]
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -11,7 +11,8 @@ const RAW = path.join(ROOT, "data", "raw.json");
 const EVENTS = path.join(ROOT, "data", "events.json");
 const arg = (name, def) => process.argv.find(a => a.startsWith(`--${name}=`))?.split("=")[1] ?? def;
 const FETCH_ONLY = process.argv.includes("--fetch-only");
-const TIDY = process.argv.includes("--tidy"); // no fetch, no AI: only dedupe + enrich
+const TIDY = process.argv.includes("--tidy"); // no fetch, no extraction: only dedupe + enrich
+const NO_FETCH = TIDY || process.argv.includes("--no-fetch"); // work through already-fetched headlines only
 const WINDOW = arg("window", "7d");
 const MAX_BATCHES = Number(arg("max-batches", 40));
 const BATCH = 20;
@@ -73,7 +74,8 @@ Tags (pick 1-3): ${Object.entries(TAGS).map(([k, v]) => `${k}=${v}`).join(", ")}
 Reply with valid JSON only. Never put the " character inside a string value (use 「」 or ' instead).
 {"events":[{"i":[0,3],"name":"official name (original language)","name_th":"Thai name","start":"YYYY-MM-DD or null",
 "end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null","country":"TH|JP|CN","tags":["anime"],
-"region":"region code or null","online":false,"summary_th":"one short Thai sentence"}]}
+"region":"region code or null","online":false,"price_th":"entry fee in Thai if stated (เข้าฟรี / 300 บาท / ¥2,000), else null",
+"summary_th":"one short Thai sentence"}]}
 Region codes: ${regionCodes()}.`;
 
 function parseJson(text) {
@@ -137,13 +139,14 @@ function merge(events, found, items) {
       for (const k of ["start", "end", "venue", "city", "name_th", "summary_th"]) ev[k] ??= f[k] ?? null;
       ev.region ??= validRegion(ev.country, f.region);
       ev.online ??= f.online === true;
+      ev.price_th ??= f.price_th || null;
       ev.tags = [...new Set([...ev.tags, ...tags])];
       for (const s of sources) if (!ev.sources.some(x => x.link === s.link)) { ev.sources.push(s); ev.enriched = false; }
       ev.updated = today;
     } else {
       events.push({ id: crypto.createHash("sha1").update(f.country + norm(f.name) + (f.start || "")).digest("hex").slice(0, 12),
         name: f.name, name_th: f.name_th ?? null, start: f.start ?? null, end: f.end ?? f.start ?? null, venue: f.venue ?? null,
-        city: f.city ?? null, country: f.country, region: validRegion(f.country, f.region), online: f.online === true, tags, summary_th: f.summary_th ?? null, image: null, official: null,
+        city: f.city ?? null, country: f.country, region: validRegion(f.country, f.region), online: f.online === true, price_th: f.price_th || null, tags, summary_th: f.summary_th ?? null, image: null, official: null,
         sources, added: today, updated: today });
       added++;
     }
@@ -237,7 +240,7 @@ async function describe(ev) {
   ev.about_th = d.about_th || null;
   ev.highlights_th = Array.isArray(d.highlights_th) ? d.highlights_th.slice(0, 5) : [];
   ev.hours = d.hours || null;
-  ev.price_th = d.price_th || null;
+  ev.price_th = d.price_th || ev.price_th || null;
   if (d.ticket_url && /^https?:\/\//.test(d.ticket_url) && text.includes(d.ticket_url)) ev.official ??= d.ticket_url;
   ev.described = true;
 }
@@ -246,7 +249,7 @@ const raw = load(RAW, {});
 // Keep raw.json small: processed headlines older than 45 days are never needed again.
 const cutoff = new Date(Date.now() - 45 * 864e5).toISOString().slice(0, 10);
 for (const [id, r] of Object.entries(raw)) if (r.status !== "new" && r.date < cutoff) delete raw[id];
-if (!TIDY) console.log(`[fetch] window=${WINDOW}: ${await fetchHeadlines(raw)}`);
+if (!NO_FETCH) console.log(`[fetch] window=${WINDOW}: ${await fetchHeadlines(raw)}`);
 save(RAW, raw);
 if (FETCH_ONLY) process.exit(0);
 
@@ -268,8 +271,12 @@ async function extractBatch(items, label) {
 }
 
 const events = load(EVENTS, []);
-// Newest headlines first, and each country gets its own batch budget so China is not starved by Japan/Thailand.
-const pending = Object.values(raw).filter(r => r.status === "new").sort((a, b) => b.date.localeCompare(a.date));
+// Upcoming events first: headlines that announce something ahead (เตรียมจัด, 開催決定, 即将 …), then newest first.
+// Each country gets its own batch budget so China is not starved by Japan/Thailand.
+const AHEAD = /เตรียมจัด|จะจัด|เปิดจอง|เปิดขายบัตร|เปิดรับสมัคร|ประกาศจัด|พบกัน|開催決定|開催予定|予定|チケット|先行|エントリー|即将|将于|将举办|开票|报名|预售|upcoming|announce|tickets/i;
+const ahead = r => (AHEAD.test(r.title + r.desc) ? 1 : 0);
+const pending = Object.values(raw).filter(r => r.status === "new")
+  .sort((a, b) => ahead(b) - ahead(a) || b.date.localeCompare(a.date));
 let added = 0;
 for (const country of TIDY ? [] : Object.keys(COUNTRIES)) {
   const list = pending.filter(r => r.country === country);
@@ -324,7 +331,7 @@ async function fetchBilibili() {
   }
   console.log(`[bilibili] ${seen.size} listings, +${added} new events`);
 }
-if (!TIDY) await fetchBilibili();
+if (!NO_FETCH) await fetchBilibili();
 
 for (const e of events) if (e.official && NOT_OFFICIAL.test(e.official)) e.official = null;
 
