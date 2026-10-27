@@ -110,7 +110,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "c694d898590c7b88"
  },
  {
   "id": "a9118bbc9168",
@@ -143,7 +144,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "9c6d7814b4c445a8"
  },
  {
   "id": "bd7cfb500e47",
@@ -257,7 +259,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "45c0b22fbd8c0e39"
  },
  {
   "id": "835542df2698",
@@ -297,7 +300,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "b4aad34b728fd1a0"
  },
  {
   "id": "eea1b2e07d53",
@@ -330,7 +334,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "a78d435db054fb49"
  },
  {
   "id": "4b56c1278ee8",
@@ -468,7 +473,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "35517a5be760ea57"
  },
  {
   "id": "7762e66d4d41",
@@ -501,7 +507,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "c36277187054e29f"
  },
  {
   "id": "0f812afe8132",
@@ -534,7 +541,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "b77ac00480b8abc3"
  },
  {
   "id": "a2dc36b46119",
@@ -844,7 +852,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "7e039e090549fea6"
  },
  {
   "id": "bbff1e5d9864",
@@ -1308,7 +1317,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "863123495fd7f5df"
  },
  {
   "id": "69dd035fb601",
@@ -1341,7 +1351,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "d22e4fbc252e217c"
  },
  {
   "id": "ac8245e5c9f8",
@@ -1450,7 +1461,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "7b7bf0807b647d8d"
  },
  {
   "id": "a8d88d92f686",
@@ -1515,7 +1527,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "d41fe1d9fcdf784a"
  },
  {
   "id": "d8f6d61c7cf1",
@@ -1611,7 +1624,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "6e463d5c8729dbd4"
  },
  {
   "id": "587bf0579347",
@@ -1756,7 +1770,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "cebcecb2e8cdee10"
  },
  {
   "id": "b63891b1070e",
@@ -2054,7 +2069,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "e34ab35fc61be6bc"
  },
  {
   "id": "6be56bd8bdc7",
@@ -2608,7 +2624,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "d366442d67162293"
  },
  {
   "id": "3541c5c512e3",
@@ -4728,7 +4745,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "2a82d1a4b7ac46e6"
  },
  {
   "id": "780ed2a4d2fc",
@@ -4761,7 +4779,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "dbab4391a01748b5"
  },
  {
   "id": "d1bac7051861",
@@ -7843,7 +7862,7 @@
    "expo"
   ],
   "summary_th": "งานนิทรรศการศึกษาร่วมสัมมนาเรื่องการเลือกโรงเรียนระหว่างประเทศกับผู้เชี่ยวชาญ",
-  "image": "http://www.bing.com/th?id=ONUT.bAN8TVtTZMQ_4-YYPM-GqQ&pid=News",
+  "image": "https://q0.itc.cn/images01/20261015/be0b7dc1d4774c7e97494e83625fc503.png",
   "official": null,
   "sources": [
    {
@@ -7864,7 +7883,7 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sohu.com/a/1087941746_121797776",
   "imageFrom": "https://www.sohu.com/a/1087941746_121797776",
-  "imageHash": "10de8162db392b52",
+  "imageHash": null,
   "regionTried": true,
   "priceTriedAt": "2026-10-27"
  },
@@ -8243,7 +8262,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20260926A069SE00",
-  "imageFrom": "https://news.qq.com/rain/a/20260926A069SE00"
+  "imageFrom": "https://news.qq.com/rain/a/20260926A069SE00",
+  "imageHash": "5b8b85c0324bacb6"
  },
  {
   "id": "ff3499bd320e",
@@ -8458,7 +8478,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sohu.com/a/1087941746_121797776",
-  "imageFrom": "https://www.sohu.com/a/1087941746_121797776"
+  "imageFrom": "https://www.sohu.com/a/1087941746_121797776",
+  "imageHash": "ac815d486ff30052"
  },
  {
   "id": "c39fc2c1cc01",
@@ -8530,7 +8551,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20261013A05ETH00",
-  "imageFrom": "https://news.qq.com/rain/a/20261013A05ETH00"
+  "imageFrom": "https://news.qq.com/rain/a/20261013A05ETH00",
+  "imageHash": "f6874c9c481c71ca"
  },
  {
   "id": "67205f8e9321",
@@ -8600,7 +8622,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20251226A067UP00",
-  "imageFrom": "https://news.qq.com/rain/a/20251226A067UP00"
+  "imageFrom": "https://news.qq.com/rain/a/20251226A067UP00",
+  "imageHash": "fd7f7c062537ed31"
  },
  {
   "id": "bbcb952d957b",
@@ -8792,7 +8815,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://finance.sina.com.cn/tjhz/2026-08-18/doc-inintxxh8568957.shtml",
-  "imageFrom": "https://finance.sina.com.cn/tjhz/2026-08-18/doc-inintxxh8568957.shtml"
+  "imageFrom": "https://finance.sina.com.cn/tjhz/2026-08-18/doc-inintxxh8568957.shtml",
+  "imageHash": "ece47c7e0eb5b158"
  },
  {
   "id": "14c1d88d299d",
@@ -8864,7 +8888,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20260731A0A42600",
-  "imageFrom": "https://finance.sina.com.cn/jjxw/2026-09-06/doc-iniqwnkx0138630.shtml"
+  "imageFrom": "https://finance.sina.com.cn/jjxw/2026-09-06/doc-iniqwnkx0138630.shtml",
+  "imageHash": "fe01bfeda3cabca0"
  },
  {
   "id": "9f9d53d63cbf",
@@ -11035,7 +11060,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "b8a5abb06efc8ad1"
  },
  {
   "id": "624914c2b178",
@@ -11069,7 +11095,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "97d58739069fc134"
  },
  {
   "id": "7ec3b1825e83",
@@ -11102,7 +11129,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "492709b556c53d9d"
  },
  {
   "id": "32b0e72c209a",
@@ -11135,7 +11163,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "eb5bc75a2f025cf5"
  },
  {
   "id": "d359097cfd4c",
@@ -11168,7 +11197,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "ef3f356323f7a1bb"
  },
  {
   "id": "fa2776427d21",
@@ -11201,7 +11231,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "3fe784e8d946a285"
  },
  {
   "id": "ce49818406f3",
@@ -11234,7 +11265,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "dfb1c2af3d613307"
  },
  {
   "id": "81998934e550",
@@ -11267,7 +11299,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "41986efd6f4bdea4"
  },
  {
   "id": "50f6620e8ac2",
@@ -11300,7 +11333,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "22769014bff80147"
  },
  {
   "id": "e8a91c6e39c5",
@@ -11333,7 +11367,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "f406bf01b33b306f"
  },
  {
   "id": "447732680d9c",
@@ -12626,7 +12661,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": null
+  "imageHash": "c0a61d6d1183726e"
  },
  {
   "id": "014b3475ed33",
@@ -13994,7 +14029,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "5827a9a62668aac7"
  },
  {
   "id": "cb2a46f37436",
@@ -14027,7 +14063,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "473a5247e35d9f93"
  },
  {
   "id": "5a763190e11d",
@@ -14060,7 +14097,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "6e4b0cb065a16009"
  },
  {
   "id": "9b5439c22903",
@@ -14093,7 +14131,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "05a31ec1703b4394"
  },
  {
   "id": "2b18e8079108",
@@ -14127,7 +14166,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "848e8840a1faba6d"
  },
  {
   "id": "b7b562716c7e",
@@ -14161,7 +14201,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "a8299aa95a0f8b84"
  },
  {
   "id": "5a1e2ff607a1",
@@ -14195,7 +14236,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "ad14bcec8521fb53"
  },
  {
   "id": "3863804a2321",
@@ -14229,7 +14271,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "70bb634e9159ddb5"
  },
  {
   "id": "c20e72004af7",
@@ -14263,7 +14306,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "85dad5daefcdac9e"
  },
  {
   "id": "686fcdd23858",
@@ -14297,7 +14341,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "e25c0e9fd989a93b"
  },
  {
   "id": "f044264877e9",
@@ -14331,7 +14376,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "de66541ee49388a1"
  },
  {
   "id": "0b412b14ab05",
@@ -14365,7 +14411,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "601f8efa919fd2ac"
  },
  {
   "id": "aaaf11e9b57e",
@@ -14398,7 +14445,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "2229983ff4ede310"
  },
  {
   "id": "dc3edd208e0b",
@@ -14432,7 +14480,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "4f030f927422ea24"
  },
  {
   "id": "da77eee61ac0",
@@ -14465,7 +14514,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "fed1224b905a533f"
  },
  {
   "id": "b4ac3d848f79",
@@ -14498,7 +14548,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "f42fa047b46a85d4"
  },
  {
   "id": "61d97719527c",
@@ -14531,7 +14582,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "f9da79230cfe91f6"
  },
  {
   "id": "562ea0483617",
@@ -15020,7 +15072,7 @@
    "market"
   ],
   "summary_th": "ตลาดนัดที่สนามแข่งจักรยาน立川 เริ่มเดือนพฤศจิกายน พร้อมเทศกาลอาหารจีน",
-  "image": "http://www.bing.com/th?id=ONUT.1J1HxFtgWuDNIuVazekZug&pid=News",
+  "image": "https://img.topics.smt.news.goo.ne.jp/picture/eventbank/m_eventbank-10648295.jpg",
   "official": null,
   "sources": [
    {
@@ -15034,7 +15086,7 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "ce295326441fecb5",
+  "imageHash": null,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10648295",
@@ -15074,7 +15126,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000003918.000013972.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000003918.000013972.html"
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000003918.000013972.html",
+  "imageHash": "a704417bf32df3dd"
  },
  {
   "id": "3c238b32a46d",
@@ -15416,7 +15469,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "5808785781e00631"
  },
  {
   "id": "5ad2e547bebc",
@@ -15450,7 +15504,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "d8c627a90b95d8f6"
  },
  {
   "id": "e0ed88bb4597",
@@ -15484,7 +15539,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "b09bd2f9c806406b"
  },
  {
   "id": "16ded938d894",
@@ -15518,7 +15574,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "a26f8ef64bb66354"
  },
  {
   "id": "6af8648d1b1f",
@@ -15551,7 +15608,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "bc5486a862653274"
  },
  {
   "id": "a97de12ec4c2",
@@ -15584,7 +15642,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "c1ead0e472e42844"
  },
  {
   "id": "8218b648d354",
@@ -15624,7 +15683,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "863d98eefbdbe363"
  },
  {
   "id": "aa83f8b2c9a0",
@@ -15657,7 +15717,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "8d30395ee595cc2e"
  },
  {
   "id": "921405c7f527",
@@ -16265,7 +16326,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "c4b8facdce2ebae9"
  },
  {
   "id": "21baa989c57c",
@@ -17191,7 +17253,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "93193f788cbd03f2"
  },
  {
   "id": "20fe6ed6f4b8",
@@ -17224,7 +17287,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "1a275d090557d35d"
  },
  {
   "id": "611e2d4e5d43",
@@ -17642,7 +17706,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000391.000066361.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000391.000066361.html"
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000391.000066361.html",
+  "imageHash": "73136d08ed422786"
  },
  {
   "id": "a849649aaaf1",
@@ -18605,7 +18670,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "361f36b15215ea94"
  },
  {
   "id": "06031394cf78",
@@ -18638,7 +18704,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "08feec8f6d167f3e"
  },
  {
   "id": "7f5c00819257",
@@ -18672,7 +18739,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "59ce6d90762e5223"
  },
  {
   "id": "66f5ced46618",
@@ -18706,7 +18774,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "59b378556ff8c6ef"
  },
  {
   "id": "902f625d284b",
@@ -18739,7 +18808,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "f63048981ff33d9f"
  },
  {
   "id": "9cc0ae1720f7",
@@ -18773,7 +18843,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "cf9d1556953e051f"
  },
  {
   "id": "1b613774424b",
@@ -18807,7 +18878,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "adfce1aab1a08b3e"
  },
  {
   "id": "50fbbafe309b",
@@ -18841,7 +18913,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "200dab193076bcfc"
  },
  {
   "id": "feb5ddb68eae",
@@ -18875,7 +18948,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "23d34cc009730d6f"
  },
  {
   "id": "10a89d14f0b7",
@@ -18909,7 +18983,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "db62b0964587b443"
  },
  {
   "id": "6140c2197779",
@@ -18943,7 +19018,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "0deb042a2b2936b7"
  },
  {
   "id": "9c48e4c697a5",
@@ -18976,7 +19052,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "07d4a0f58565c6e1"
  },
  {
   "id": "b765c04debdb",
@@ -19009,7 +19086,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "176b192f727b7fd5"
  },
  {
   "id": "51f01332f392",
@@ -19043,7 +19121,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "f7f229f77f5c0348"
  },
  {
   "id": "64d891846f6f",
@@ -19076,7 +19155,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "b7c1141c7cfa1610"
  },
  {
   "id": "1e557803b060",
@@ -19109,7 +19189,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "6921d5e10682b938"
  },
  {
   "id": "a4181afa9cf9",
@@ -19142,7 +19223,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "61cfafdcfeb33e7b"
  },
  {
   "id": "5654cfc846bb",
@@ -19175,7 +19257,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "10ceef9362f8f082"
  },
  {
   "id": "a70b5029e1d0",
@@ -19208,7 +19291,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "af1ae7317162bc8e"
  },
  {
   "id": "e8e87a7e6c0f",
@@ -19249,7 +19333,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "ba6ebd76133ada98"
  },
  {
   "id": "dd5b8aea40b2",
@@ -19282,7 +19367,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "c9bee895848c7223"
  },
  {
   "id": "f39eb381569c",
@@ -19315,7 +19401,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "59997071b25c65b7"
  },
  {
   "id": "25caed183f9b",
@@ -19348,7 +19435,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "e8b4114f4bb90fdb"
  },
  {
   "id": "0ee9d0228f77",
@@ -19840,7 +19928,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "8226b001d12974d9"
  },
  {
   "id": "e172b50ff88a",
@@ -19873,7 +19962,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "a5685f82f2e7e18e"
  },
  {
   "id": "c36075e52c86",
@@ -19920,7 +20010,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "ac0b49871176a5f2"
  },
  {
   "id": "1257cb046a36",
@@ -19953,7 +20044,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "d5d30bf51c487d2f"
  },
  {
   "id": "9bcd057aed05",
@@ -19986,7 +20078,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "9990bef238768170"
  },
  {
   "id": "c030ae66659b",
@@ -21947,7 +22040,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "355fde270546f54d"
  },
  {
   "id": "6707b01257c7",
@@ -21980,7 +22074,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "871cd44a39370a4f"
  },
  {
   "id": "d5bda6f26360",
@@ -22314,7 +22409,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "b8ab47291db6b56a"
  },
  {
   "id": "2c2094b5c7b2",
@@ -23027,7 +23123,7 @@
    "edu"
   ],
   "summary_th": "สัมมนาเต็มวันกว่า 5 ชั่วโมงครึ่งว่าด้วยกลยุทธ์การลงทุนจากผู้เชี่ยวชาญตลาดและวิทยากรรับเชิญ",
-  "image": "http://www.bing.com/th?id=ONUT.G3K0SCL-FaaAPAv4S65Hng&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.BcL3hP6tLZGKtk1g7xPGvg&pid=News",
   "official": null,
   "sources": [
    {
@@ -23050,12 +23146,13 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.jiji.com/jc/article?k=000002398.000002734&g=prt",
-  "imageFrom": "https://www.jiji.com/jc/article?k=000002398.000002734&g=prt",
+  "imageFrom": "https://news.dellows.jp/894851/",
   "regionTried": true,
   "notDupWith": [
    "a417afbc14f4"
   ],
-  "imageHash": "6bb69a6446bf89d8"
+  "imageHash": "565214d4e55519b4",
+  "imageTriedAt": "2026-10-27"
  },
  {
   "id": "fb90a8d5de40",
@@ -24450,7 +24547,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "23c73fcace954640"
  },
  {
   "id": "8368655347cb",
@@ -24483,7 +24581,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "65b8b8bd0788314c"
  },
  {
   "id": "c40b2a076e03",
@@ -26209,7 +26308,8 @@
   "updated": "2026-10-27",
   "imageOfficial": true,
   "verified": true,
-  "enriched": true
+  "enriched": true,
+  "imageHash": "977dc0d1e789f25a"
  },
  {
   "id": "95f5d4fd18ac",
@@ -26625,7 +26725,7 @@
    "festival"
   ],
   "summary_th": "ตลาดนัดสนามแข่งจักรยาน立川 เดือนธันวาคม จัดเทศกาลโอกินาวา",
-  "image": "http://www.bing.com/th?id=ONUT.1J1HxFtgWuDNIuVazekZug&pid=News",
+  "image": "https://img.topics.smt.news.goo.ne.jp/picture/eventbank/m_eventbank-10648295.jpg",
   "official": null,
   "sources": [
    {
@@ -26642,7 +26742,7 @@
    "2e3f6c457bef"
   ],
   "enriched": true,
-  "imageHash": "ce295326441fecb5",
+  "imageHash": null,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10648295",
@@ -28857,7 +28957,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000310.000087317.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000310.000087317.html"
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000310.000087317.html",
+  "imageHash": "8f8837144f9a884c"
  },
  {
   "id": "20dba5fa8ef9",
@@ -29316,7 +29417,7 @@
    "game"
   ],
   "summary_th": "งานประชุมพัฒนาเกมอินดี้ 3 วันสำหรับนักศึกษา โดยใช้ตัวละครจาก holo Indie/ホロライブ ที่โรงเรียน Yokohama Digital Arts",
-  "image": "http://www.bing.com/th?id=ONUT.ZGdOxSsZNrDXUpxSU7GOrQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.jYyAOaL1YwRwmynY3d9ibg&pid=News",
   "official": null,
   "sources": [
    {
@@ -29382,9 +29483,10 @@
   "region": "kanto",
   "regionTried": true,
   "imageTried": true,
-  "imageFrom": "https://animeanime.jp/release/prtimes/20261027/322629.html",
+  "imageFrom": "https://www.sankei.com/pressrelease/prtimes/T5CSM72Y4VKCVJRNK7PTLC3FYI/",
   "article": "https://animeanime.jp/release/prtimes/20261027/322629.html",
-  "imageHash": "7fdd0d17f59dd74a"
+  "imageHash": "9ec8ae9ce4b93b56",
+  "imageTriedAt": "2026-10-27"
  },
  {
   "id": "301ca541fc98",
@@ -30108,7 +30210,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://qetic.jp/art-culture/osaka-art-book-fair-2027/479001/",
-  "imageFrom": "https://qetic.jp/art-culture/osaka-art-book-fair-2027/479001/"
+  "imageFrom": "https://qetic.jp/art-culture/osaka-art-book-fair-2027/479001/",
+  "imageHash": "1d3ee617bf3220e4"
  },
  {
   "id": "993c2f8f0a42",
@@ -32383,7 +32486,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.appbank.net/2026/10/02/game/3120359.php",
-  "imageFrom": "https://www.appbank.net/2026/10/02/game/3120359.php"
+  "imageFrom": "https://www.appbank.net/2026/10/02/game/3120359.php",
+  "imageHash": "ad45d26fa3d2e2af"
  },
  {
   "id": "fb6283563b69",
@@ -33491,7 +33595,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.excite.co.jp/news/article/saiganak_202607316756/",
-  "imageFrom": "https://www.excite.co.jp/news/article/saiganak_202607316756/"
+  "imageFrom": "https://www.excite.co.jp/news/article/saiganak_202607316756/",
+  "imageHash": "978cd0ae559fb0a8"
  },
  {
   "id": "5eacf6a6b5bb",
@@ -33682,7 +33787,8 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "imageHash": "9e8604f0b811857a"
  },
  {
   "id": "bd3637c82e23",
@@ -34041,7 +34147,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://mainichi.jp/articles/20260928/pr2/00m/020/477000c",
-  "imageFrom": "https://mainichi.jp/articles/20260928/pr2/00m/020/477000c"
+  "imageFrom": "https://mainichi.jp/articles/20260928/pr2/00m/020/477000c",
+  "imageHash": "960bcfb68a5f583c"
  },
  {
   "id": "485f6d0e9569",
@@ -34199,7 +34306,7 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": null,
+  "imageHash": "7a7af194a9fc3929",
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://natalie.mu/comic/news/692936",
@@ -34569,7 +34676,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.guru3d.com/story/amd-rdna-5-radeon-graphics-cards-unlikely-before-computex-2027-leaker-claims/",
-  "imageFrom": "https://www.guru3d.com/story/amd-rdna-5-radeon-graphics-cards-unlikely-before-computex-2027-leaker-claims/"
+  "imageFrom": "https://www.guru3d.com/story/amd-rdna-5-radeon-graphics-cards-unlikely-before-computex-2027-leaker-claims/",
+  "imageHash": "eb90bdcf1ee7e5fc"
  },
  {
   "id": "6d62a770c927",
@@ -34694,7 +34802,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.crank-in.net/stage/musical/191995/1",
-  "imageFrom": "https://www.crank-in.net/stage/musical/191995/1"
+  "imageFrom": "https://www.crank-in.net/stage/musical/191995/1",
+  "imageHash": "a939857c599b54d4"
  },
  {
   "id": "d6f12fbe4893",
@@ -34912,7 +35021,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000267.000078233.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000267.000078233.html"
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000267.000078233.html",
+  "imageHash": "fd816f9e7e12b22b"
  },
  {
   "id": "93875581f64d",
@@ -37498,7 +37608,7 @@
    "festival"
   ],
   "summary_th": "งานเทศกาลอาหารระดับนานาชาติที่รวมเชฟชื่อดังโลกและเชฟไทย จัดที่อนันตรา สยาม กรุงเทพฯ",
-  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
+  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
   "official": null,
   "sources": [
    {
@@ -37531,7 +37641,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/"
+  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675"
  },
  {
   "id": "4004aca86270",
@@ -37635,7 +37745,7 @@
    "art"
   ],
   "summary_th": "นิทรรศการศิลปะที่ผู้พิการทางการมองเห็นสัมผัสชมได้ จัดโดยธนาคารยูโอบี",
-  "image": "https://www.prachachat.net/wp-content/uploads/2026/09/S__7725135_0.jpg",
+  "image": "https://siamrath.co.th/assets/42c42e8b-9b35-43c7-aa88-7824a5738ed8?width=680&quality=80&format=webp",
   "official": null,
   "sources": [
    {
@@ -37651,7 +37761,7 @@
   "enriched": true,
   "region": "bkk",
   "regionTried": true,
-  "imageHash": "1678813ea24564d9",
+  "imageHash": null,
   "about_th": "นิทรรศการ UOB Please Touch ศิลปะสัมผัสได้ เป็นโครงการของธนาคารยูโอบี ประเทศไทย ที่นำภาพวาดรางวัลจากคอลเลกชัน UOB Painting of the Year มาแปลงเป็นงานนูนต่ำสามมิติ 10 ชิ้น เพื่อให้ผู้ที่มองไม่เห็นและผู้ชมทั่วไปสามารถรับรู้และตีความศิลปะผ่านการสัมผัสและการบรรยายเสียง ที่จัดแสดง ณ หอศิลปวัฒนธรรมแห่งกรุงเทพมหานคร (BACC)",
   "highlights_th": [
    "แปลงภาพวาดรางวัล UOB Painting of the Year 10 ชิ้น เป็นงานนูนต่ำสามมิติที่สัมผัสได้",
@@ -37664,7 +37774,11 @@
   "price_th": null,
   "described": true,
   "datesRead": true,
-  "dateTried": true
+  "dateTried": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-27",
+  "article": "https://www.prachachat.net/hilight-prachachat/news-92552",
+  "imageFrom": "https://siamrath.co.th/new-gen/1ca0583f-898e-46e1-ac8f-4110270b5b35"
  },
  {
   "id": "36092737c632",
@@ -37883,7 +37997,7 @@
    "fanmeet"
   ],
   "summary_th": "อีเวนต์ฉลองครบ 10 ปีของ Pripara ภาคผู้ชาย มีเพลงใหม่จาก WITH เปิดตัว",
-  "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/06/28/20260628dog00m200007000a/001.jpg",
+  "image": "https://image.news.livedoor.com/newsimage/stf/c/e/cefe7_1516_cf5bc697_de5ee761.png",
   "official": null,
   "sources": [
    {
@@ -37904,7 +38018,7 @@
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "article": "https://natalie.mu/comic/news/693078",
-  "imageFrom": "https://mantan-web.jp/article/20260628dog00m200007000a.html",
+  "imageFrom": "https://news.livedoor.com/article/detail/32562766/",
   "about_th": "งานนี้เป็นการเฉลิมฉลองครบรอบ 10 ปีของ 'ดานปุริ' (男プリ) จากอนิเมะ PriPara จัดขึ้นเพื่อแฟนคลับที่ชื่นชอบตัวละครชาย จะมีการเผยเพลงใหม่ของกลุ่ม WITH ผ่านภาพยนตร์พิเศษ และกิจกรรมอื่นๆ ที่เกี่ยวข้องกับซีรีส์",
   "highlights_th": [
    "เผยเพลงใหม่ของ WITH ผ่านภาพยนตร์พิเศษ",
@@ -38788,7 +38902,8 @@
   "imageHash": "1769066382a7ece3",
   "imageTriedAt": "2026-10-27",
   "article": "https://collabo-cafe.com/events/collabo/hasunosora-event-ishikawa-marche-2026/",
-  "imageFrom": "https://collabo-cafe.com/events/collabo/hasunosora-event-ishikawa-marche-2026/"
+  "imageFrom": "https://collabo-cafe.com/events/collabo/hasunosora-event-ishikawa-marche-2026/",
+  "dateTried": true
  },
  {
   "id": "0b0545f0cc41",
@@ -38825,7 +38940,8 @@
   "imageHash": "192857eef5ea42ee",
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sankei.com/pressrelease/prtimes/S43PHYMWKZINXKU4H2CFBJU4GE/",
-  "imageFrom": "https://www.sankei.com/pressrelease/prtimes/S43PHYMWKZINXKU4H2CFBJU4GE/"
+  "imageFrom": "https://www.sankei.com/pressrelease/prtimes/S43PHYMWKZINXKU4H2CFBJU4GE/",
+  "dateTried": true
  },
  {
   "id": "bc22dd0ccbca",
@@ -38858,7 +38974,8 @@
   "imageTried": true,
   "region": "kansai",
   "regionTried": true,
-  "imageHash": "2e8b923132fc3622"
+  "imageHash": "2e8b923132fc3622",
+  "dateTried": true
  },
  {
   "id": "a915978625ca",
@@ -38894,7 +39011,8 @@
   "imageHash": "36e17adf0facd975",
   "imageTriedAt": "2026-10-27",
   "article": "https://popscene.jp/news/062106",
-  "imageFrom": "https://popscene.jp/news/062106"
+  "imageFrom": "https://popscene.jp/news/062106",
+  "dateTried": true
  },
  {
   "id": "1dfcac6d16af",
@@ -38927,7 +39045,8 @@
   "region": null,
   "regionTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": null
+  "article": null,
+  "dateTried": true
  },
  {
   "id": "89a04b03e852",
@@ -38964,7 +39083,8 @@
   "imageHash": "fbf82b63dd73aae8",
   "imageTriedAt": "2026-10-27",
   "article": "https://animeanime.jp/article/2026/07/03/100648.html",
-  "imageFrom": "https://mantan-web.jp/prtimes/article/20261022prt00m200000643a.html"
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261022prt00m200000643a.html",
+  "dateTried": true
  },
  {
   "id": "2601b7b259ed",
@@ -39001,7 +39121,8 @@
   "imageHash": "f3cde31e575d9ec0",
   "imageTriedAt": "2026-10-27",
   "article": "https://natalie.mu/music/news/694579",
-  "imageFrom": "https://natalie.mu/music/news/694579"
+  "imageFrom": "https://natalie.mu/music/news/694579",
+  "dateTried": true
  },
  {
   "id": "cebad72677af",
@@ -39038,7 +39159,8 @@
   "imageHash": "14ad576615ed948e",
   "imageTriedAt": "2026-10-27",
   "article": "https://collabo-cafe.com/events/collabo/lovelive-hasunosora-popup-amnibus-store-white-2026/",
-  "imageFrom": "https://collabo-cafe.com/events/collabo/lovelive-hasunosora-popup-amnibus-store-white-2026/"
+  "imageFrom": "https://collabo-cafe.com/events/collabo/lovelive-hasunosora-popup-amnibus-store-white-2026/",
+  "dateTried": true
  },
  {
   "id": "b29edf43d417",
@@ -39072,7 +39194,8 @@
   "imageTried": true,
   "region": "kanto",
   "regionTried": true,
-  "imageHash": "eb5e9ad7c758be77"
+  "imageHash": "eb5e9ad7c758be77",
+  "dateTried": true
  },
  {
   "id": "7192953cefd0",
@@ -39109,7 +39232,8 @@
   "imageHash": "f99f13c38b37aaec",
   "imageTriedAt": "2026-10-27",
   "article": "https://www.wowkorea.jp/news/read/536096.html",
-  "imageFrom": "https://korepo.com/archives/1722017"
+  "imageFrom": "https://korepo.com/archives/1722017",
+  "dateTried": true
  },
  {
   "id": "674412d71661",
@@ -39141,7 +39265,8 @@
   "imageTried": true,
   "region": "kanto",
   "regionTried": true,
-  "imageHash": "8bcf180d6a6d44c0"
+  "imageHash": "8bcf180d6a6d44c0",
+  "dateTried": true
  },
  {
   "id": "60a22e76e9c0",
@@ -39174,7 +39299,8 @@
   "imageTried": true,
   "region": null,
   "regionTried": true,
-  "imageHash": "fd74254b2f48ec5b"
+  "imageHash": "fd74254b2f48ec5b",
+  "dateTried": true
  },
  {
   "id": "d7306c343d60",
@@ -39207,7 +39333,8 @@
   "imageTried": true,
   "region": "kanto",
   "regionTried": true,
-  "imageHash": "18bfbce24c2321d6"
+  "imageHash": "18bfbce24c2321d6",
+  "dateTried": true
  },
  {
   "id": "59038963b71e",
@@ -39244,7 +39371,8 @@
   "imageHash": "68b3d3c69f3aad51",
   "imageTriedAt": "2026-10-27",
   "article": "https://mantan-web.jp/prtimes/article/20261022prt00m200000299a.html",
-  "imageFrom": "https://mantan-web.jp/prtimes/article/20261022prt00m200000299a.html"
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261022prt00m200000299a.html",
+  "dateTried": true
  },
  {
   "id": "338aef0246fe",
@@ -39282,7 +39410,8 @@
   "imageHash": "9bde8c471596f3a6",
   "imageTriedAt": "2026-10-27",
   "article": "https://spice.eplus.jp/articles/349648",
-  "imageFrom": "https://utaten.com/news/index/69014"
+  "imageFrom": "https://utaten.com/news/index/69014",
+  "dateTried": true
  },
  {
   "id": "2994c843cafd",
@@ -39316,7 +39445,8 @@
   "imageTried": true,
   "region": null,
   "regionTried": true,
-  "imageHash": "6875f6b1f2f965b4"
+  "imageHash": "6875f6b1f2f965b4",
+  "dateTried": true
  },
  {
   "id": "ebeccf1c9976",
@@ -39353,7 +39483,8 @@
   "imageHash": "37035a184922b345",
   "imageTriedAt": "2026-10-27",
   "article": "https://mainichi.jp/articles/20261010/orc/00m/200/095000c",
-  "imageFrom": "https://www.oricon.co.jp/prof/990004965/article/"
+  "imageFrom": "https://www.oricon.co.jp/prof/990004965/article/",
+  "dateTried": true
  },
  {
   "id": "105ea4d4fa27",
@@ -39386,7 +39517,8 @@
   "imageTried": true,
   "region": "kanto",
   "regionTried": true,
-  "imageHash": "4a64648721da9b18"
+  "imageHash": "4a64648721da9b18",
+  "dateTried": true
  },
  {
   "id": "d094e1754e61",
@@ -39422,7 +39554,8 @@
   "imageTried": true,
   "article": "https://www.topnews.co.th/news/1493620",
   "imageFrom": "https://www.topnews.co.th/news/1493620",
-  "imageHash": "a09a0df17e29c0ef"
+  "imageHash": "a09a0df17e29c0ef",
+  "dateTried": true
  },
  {
   "id": "9bb2484b4dc1",
@@ -39456,7 +39589,8 @@
   "imageTried": true,
   "article": "https://www.talknewsonline.com/News/51499/",
   "imageFrom": "https://www.talknewsonline.com/News/51499/",
-  "imageHash": "17b5272e9868b876"
+  "imageHash": "17b5272e9868b876",
+  "dateTried": true
  },
  {
   "id": "0307673521ce",
@@ -39498,7 +39632,8 @@
   "imageTried": true,
   "article": "https://www.fm91bkk.com/newsarticle/58934",
   "imageFrom": "https://www.fm91bkk.com/newsarticle/58934",
-  "imageHash": "970c69b374f0a344"
+  "imageHash": "970c69b374f0a344",
+  "dateTried": true
  },
  {
   "id": "b34e2c0a7e73",
@@ -39529,7 +39664,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "78f0e7e2eec631e7"
+  "imageHash": "78f0e7e2eec631e7",
+  "dateTried": true
  },
  {
   "id": "40ff0073f90d",
@@ -39574,7 +39710,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.mitihoon.com/2026/10/20/687365/",
-  "imageFrom": "https://www.mitihoon.com/2026/10/20/687365/"
+  "imageFrom": "https://www.mitihoon.com/2026/10/20/687365/",
+  "dateTried": true
  },
  {
   "id": "ed195f3a1c62",
@@ -39608,7 +39745,8 @@
   "imageTried": true,
   "article": null,
   "regionTried": true,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "8079f961838a",
@@ -39643,7 +39781,8 @@
   "imageTried": true,
   "imageFrom": "https://www.timeout.com/bangkok/th/news/bantatthong-fair-032026",
   "article": "https://www.msn.com/th-th/news/other/%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2%E0%B8%AF%E0%B8%9B%E0%B8%A5%E0%B8%B8%E0%B8%81%E0%B8%AA%E0%B8%B5%E0%B8%AA%E0%B8%B1%E0%B8%99-%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A5-%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%97%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B8%AD%E0%B8%87-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%AE%E0%B8%8B%E0%B8%B5%E0%B8%8B%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%B5/ar-AA2g3Oy9",
-  "imageHash": "1a1589d1185f5bb9"
+  "imageHash": "1a1589d1185f5bb9",
+  "dateTried": true
  },
  {
   "id": "6d3007cc07ba",
@@ -39674,7 +39813,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "dfa51bc52ed3f991"
+  "imageHash": "dfa51bc52ed3f991",
+  "dateTried": true
  },
  {
   "id": "92ccdae5dbc9",
@@ -39710,7 +39850,8 @@
   "article": "https://www.pnj.com/story/opinion/contributors/2026/09/19/u-s-celebrates-250-years-of-liberty-not-license/91773290007/",
   "imageFrom": "https://www.yahoo.com/news/us/articles/iowa-state-fair-celebrates-america-005834288.html",
   "imageTriedAt": "2026-10-27",
-  "imageHash": "816ae2026dbfd7d4"
+  "imageHash": "816ae2026dbfd7d4",
+  "dateTried": true
  },
  {
   "id": "81bc7d357d09",
@@ -39746,7 +39887,8 @@
   "article": "https://www.khaosod.co.th/sports/game-esport/news_10449068",
   "imageFrom": "https://www.khaosod.co.th/sports/game-esport/news_10449068",
   "regionTried": true,
-  "imageHash": "17625e8fc4725d0c"
+  "imageHash": "17625e8fc4725d0c",
+  "dateTried": true
  },
  {
   "id": "e517adb9549e",
@@ -39778,7 +39920,8 @@
   "updated": "2026-10-27",
   "enriched": true,
   "regionTried": true,
-  "imageHash": "fe431dde2c54317a"
+  "imageHash": "fe431dde2c54317a",
+  "dateTried": true
  },
  {
   "id": "8f86ef91c977",
@@ -39814,7 +39957,8 @@
   "article": "https://www.msn.com/th-th/news/other/%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%87%E0%B8%B2%E0%B8%99-thai-local-rice-fest-2-%E0%B8%8A%E0%B8%B9%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B9%8C%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7-4-%E0%B8%A0%E0%B8%B2%E0%B8%84/ar-AA2fTinl",
   "imageFrom": "https://www.khaosod.co.th/pr-news/news_10447759",
   "regionTried": true,
-  "imageHash": "9ab0a65fe3f3f33a"
+  "imageHash": "9ab0a65fe3f3f33a",
+  "dateTried": true
  },
  {
   "id": "286efbcd39b6",
@@ -39902,7 +40046,7 @@
    "local"
   ],
   "summary_th": "งานประจำปีนมัสการองค์พระปฐมเจดีย์ ชวนไหว้พระคู่บ้านคู่เมืองและเที่ยวงานประเพณี",
-  "image": "https://s.isanook.com/tr/0/ud/290/1454290/watriking.jpg?ip/crop/w1200h700/q80/jpg",
+  "image": "http://www.bing.com/th?id=ONUT.lfoyt1qcIue_eQ5_hIzeSw&pid=News",
   "official": null,
   "sources": [
    {
@@ -39925,8 +40069,9 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.sanook.com/travel/1454290/",
-  "imageFrom": "https://www.sanook.com/travel/1454290/",
-  "imageHash": "d63a0dffcd557091"
+  "imageFrom": "https://www.thairath.co.th/news/local/bangkok/2968745",
+  "imageHash": "375a2a6604b8a26a",
+  "imageTriedAt": "2026-10-27"
  },
  {
   "id": "9db4f8eeebb2",
@@ -40157,7 +40302,7 @@
    "drink"
   ],
   "summary_th": "เทศกาลอาหารระดับนานาชาติที่โรงแรมอนันตรา สยาม รวมเชฟและร้านอาหารชื่อดัง",
-  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
+  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
   "official": null,
   "sources": [
    {
@@ -40173,7 +40318,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/",
+  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675",
   "imageHash": null,
   "imageTriedAt": "2026-10-27"
  },
@@ -41038,7 +41183,7 @@
   "imageTried": true,
   "article": "https://www.khaosod.co.th/pr-news/news_10438629",
   "imageFrom": "https://www.bangkokbiznews.com/corporate-moves/lifestyle/art-living/1213312",
-  "imageHash": null,
+  "imageHash": "998aee1a6aafc6a6",
   "imageTriedAt": "2026-10-27"
  },
  {
@@ -41246,7 +41391,7 @@
   "imageTried": true,
   "article": "https://www.msn.com/th-th/news/other/%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%AA%E0%B8%94-%E0%B8%97%E0%B8%B5%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%9E%E0%B8%9A-%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%8A%E0%B8%B2-%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AA%E0%B8%94%E0%B8%9F%E0%B8%A3%E0%B8%B5-%E0%B8%9F%E0%B8%B8%E0%B8%95%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%81%E0%B8%8A%E0%B8%A1%E0%B8%9B%E0%B9%8C%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2-u17/ar-AA2dLvjR",
   "imageFrom": "https://www.bangkokbiznews.com/news/sport/1255537",
-  "imageHash": null,
+  "imageHash": "a1103ccdf8b2cfcc",
   "imageTriedAt": "2026-10-27"
  },
  {
@@ -42875,7 +43020,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตกลางแจ้ง 2 วันของยุซุที่สนามนิสสัน ควบคู่กับการปล่อยอัลบั้มออลไทม์เบสต์",
-  "image": "https://contents.oricon.co.jp/upimg/news/2489000/2488779/20261022_165756_p_o_34499195.jpg",
+  "image": "https://e.usen.com/image/db8b08c30ae0b4a5ff6db22dd0767c83c52a59b4.jpg",
   "official": null,
   "sources": [
    {
@@ -42891,7 +43036,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageFrom": "https://www.oricon.co.jp/news/2488779/full/",
+  "imageFrom": "https://e.usen.com/news/news-release/30-2027-10-2027-5-22-2days.html",
   "imageHash": null,
   "imageTriedAt": "2026-10-27"
  },
@@ -43021,7 +43166,7 @@
    "concert"
   ],
   "summary_th": "ยุซุกลับมาจัดคอนเสิร์ตที่สนามนิสสัน สเตเดียม 2 วันหลังผ่านไป 22 ปี",
-  "image": "https://contents.oricon.co.jp/upimg/news/2489000/2488779/20261022_165756_p_o_34499195.jpg",
+  "image": "https://e.usen.com/image/db8b08c30ae0b4a5ff6db22dd0767c83c52a59b4.jpg",
   "official": null,
   "sources": [
    {
@@ -43037,7 +43182,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageFrom": "https://www.oricon.co.jp/news/2488779/full/",
+  "imageFrom": "https://e.usen.com/news/news-release/30-2027-10-2027-5-22-2days.html",
   "imageHash": null,
   "imageTriedAt": "2026-10-27"
  },
@@ -44724,7 +44869,7 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.thansettakij.com/sport/670648",
   "imageFrom": "https://kuenselonline.com/news/womens-u17-team-loses-4-0-to-thailand-in-asian-cup-qualifier-opener",
-  "imageHash": null
+  "imageHash": "469566bf2472de93"
  },
  {
   "id": "07e08fa41cc8",
@@ -44967,7 +45112,7 @@
    "festival"
   ],
   "summary_th": "งานวัดไร่ขิงฉลองเจดีย์ จัดกิจกรรมบุญ 9 วัน 9 คืน",
-  "image": "https://s.isanook.com/tr/0/ud/290/1454290/watriking.jpg?ip/crop/w1200h700/q80/jpg",
+  "image": "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa7HcHxvYn3cerDWmonvpOeXnsLiy50HCDzBunVD72RRmmJH5k2cD.jpg",
   "official": null,
   "sources": [
    {
@@ -44984,7 +45129,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sanook.com/travel/1454290/",
-  "imageFrom": "https://www.sanook.com/travel/1454290/"
+  "imageFrom": "https://www.thairath.co.th/scoop/interview/2964093",
+  "imageHash": null
  },
  {
   "id": "65b4ffcd6835",
@@ -45003,7 +45149,7 @@
    "museum"
   ],
   "summary_th": "นิทรรศการศิลปะสัมผัสได้เพื่อคนตาบอดที่หอศิลปกรุงเทพฯ โดยยูโอบี",
-  "image": "https://www.prachachat.net/wp-content/uploads/2026/09/S__7725135_0.jpg",
+  "image": "https://www.dailynews.co.th/wp-content/uploads/2026/09/New-Project-4.jpg",
   "official": null,
   "sources": [
    {
@@ -45020,7 +45166,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.prachachat.net/sd/news-2074357",
-  "imageFrom": "https://www.prachachat.net/sd/news-2074357"
+  "imageFrom": "https://www.dailynews.co.th/news/6220842/",
+  "imageHash": null
  },
  {
   "id": "a0ecb3b9d4b7",
@@ -45304,7 +45451,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000119.000115515.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000119.000115515.html"
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000119.000115515.html",
+  "imageHash": "7f610ebe6410f953"
  },
  {
   "id": "02dffef054c9",
@@ -45514,7 +45662,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000097.000061165.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000097.000061165.html"
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000097.000061165.html",
+  "imageHash": "9bc3ea4ab1e3186e"
  },
  {
   "id": "cf1d1ea4f462",
@@ -45570,7 +45719,7 @@
    "workshop"
   ],
   "summary_th": "งานสร้างเกมให้นักศึกษาที่โยคohama ดิจิทัล อาร์ทส คอลเลจ โดยร่วมกับ holo Indie",
-  "image": "http://www.bing.com/th?id=ONUT.ZGdOxSsZNrDXUpxSU7GOrQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.T35Qd2pxn9L8-yaZAM2Pfw&pid=News",
   "official": null,
   "sources": [
    {
@@ -45587,8 +45736,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://animeanime.jp/release/prtimes/20261027/322629.html",
-  "imageFrom": "https://animeanime.jp/release/prtimes/20261027/322629.html",
-  "imageHash": "7fdd0d17f59dd74a"
+  "imageFrom": "https://gamebiz.jp/news/434639",
+  "imageHash": "5c8af1e176493ed8"
  },
  {
   "id": "8155bdc92b52",
@@ -45699,7 +45848,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://mainichi.jp/articles/20261026/pls/00m/020/541000c",
-  "imageFrom": "https://mainichi.jp/articles/20261026/pls/00m/020/541000c"
+  "imageFrom": "https://mainichi.jp/articles/20261026/pls/00m/020/541000c",
+  "imageHash": "16a7f4fc0e4e1246"
  },
  {
   "id": "1094a3527066",
@@ -45718,7 +45868,7 @@
    "game"
   ],
   "summary_th": "มหาวิทยาลัย 帝京平成 จัดแข่ง VALORANT ในงาน四季祭 มี crow จาก ZETA DIVISION",
-  "image": "http://www.bing.com/th?id=ONUT.G3K0SCL-FaaAPAv4S65Hng&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.NJq3bIsAqMZop_u48UZF-Q&pid=News",
   "official": null,
   "sources": [
    {
@@ -45735,8 +45885,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.jiji.com/jc/article?k=000000005.000190175&g=prt",
-  "imageFrom": "https://www.jiji.com/jc/article?k=000000005.000190175&g=prt",
-  "imageHash": "6bb69a6446bf89d8"
+  "imageFrom": "https://www.appbank.net/2026/10/27/game/3144837.php",
+  "imageHash": "54eafe3b8f321c8c"
  },
  {
   "id": "05c8e79d31ba",
@@ -45783,6 +45933,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.thaipr.net/exhibition/3541747",
-  "imageFrom": "https://www.thaipr.net/exhibition/3541747"
+  "imageFrom": "https://www.thaipr.net/exhibition/3541747",
+  "imageHash": "56bf293b25ad7a60"
  }
 ]
