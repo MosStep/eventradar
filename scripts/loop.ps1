@@ -38,8 +38,10 @@ while ($true) {
   git push -q origin main 2>&1 | Out-Null
   # Watchdog: GitHub runs schedules best-effort. If no scheduled/manual run has finished in 6 hours, start one, so the
   # site keeps updating (and the e-mail alerts keep working) even when GitHub skips slots.
-  $last = gh run list -R MosStep/eventradar --workflow daily.yml --limit 10 --json event,status,updatedAt -q '[.[] | select(.event != "push" and .status == "completed")][0].updatedAt' 2>$null
-  if (-not $last -or ((Get-Date).ToUniversalTime() - [datetime]::Parse($last).ToUniversalTime()).TotalHours -gt 6) {
+  # A run that is queued or still going counts as alive, so the watchdog never piles up extra runs.
+  $busy = gh run list -R MosStep/eventradar --workflow daily.yml --limit 10 --json event,status -q '[.[] | select(.event != \"push\" and .status != \"completed\")] | length' 2>$null
+  $last = gh run list -R MosStep/eventradar --workflow daily.yml --limit 10 --json event,status,createdAt -q '[.[] | select(.event != \"push\")][0].createdAt' 2>$null
+  if ([int]$busy -eq 0 -and (-not $last -or ((Get-Date).ToUniversalTime() - [datetime]::Parse($last).ToUniversalTime()).TotalHours -gt 6)) {
     "    no GitHub run in 6h - starting one" | Tee-Object -Append $log
     gh workflow run daily.yml -R MosStep/eventradar --ref main 2>&1 | Out-Null
   }
