@@ -245,7 +245,7 @@ function openSheet(id) {
   const search = `https://www.google.com/search?q=${encodeURIComponent(`${e.name} ${e.start?.slice(0, 4) || ""}`)}`;
   const fresh = $("#sheet").hidden || $("#sheetBody").dataset.kind !== "event";
   showSheet(`
-    <div class="sheet-hero" style="--c:${color(e)}">${img(e, 800)}<span class="grab"></span>
+    <div class="sheet-hero" style="--c:${color(e)}" ${e.image ? `data-zoom="${e.id}"` : ""}>${img(e, 400)}<span class="grab"></span>
       <span class="when">${countdown(e)}</span>
       <button class="icon-btn share" data-share="${e.id}" aria-label="แชร์ให้เพื่อน">${icon("share")}</button>
       <button class="icon-btn close" data-close aria-label="ปิด">${icon("x")}</button></div>
@@ -274,6 +274,26 @@ function openSheet(id) {
       </div>
     </div>`, "event");
   if (fresh) $("#sheetBody").scrollTop = 0;
+  // The 400px poster is already cached from the list, so it shows at once; swap in a sharper one when it arrives.
+  const hero = $(".sheet-hero img");
+  if (hero && e.image) {
+    const hi = new Image();
+    hi.onload = () => { if (hero.isConnected) hero.src = hi.src; };
+    hi.src = proxied(e.image, 900);
+  }
+}
+
+// Tap the poster to see it full screen; tap again (or Esc) to close.
+function zoomPoster(id) {
+  const e = state.events.find(x => x.id === id);
+  if (!e?.image) return;
+  const v = Object.assign(document.createElement("div"), { className: "viewer" });
+  v.innerHTML = `<img src="${esc(proxied(e.image, 400))}" alt=""><button class="icon-btn close" aria-label="ปิด">${icon("x")}</button>`;
+  const full = new Image();
+  full.onload = () => { const i = v.querySelector("img"); if (i) i.src = full.src; };
+  full.src = proxied(e.image, 1600);
+  v.addEventListener("click", () => v.remove());
+  document.body.append(v);
 }
 
 function showSheet(html, kind) {
@@ -378,6 +398,8 @@ document.addEventListener("click", ev => {
   if (ev.target.closest("[data-close]")) return closeSheet();
   const sh = ev.target.closest("[data-share]");
   if (sh) return share(sh.dataset.share);
+  const zoom = ev.target.closest("[data-zoom]");
+  if (zoom && !ev.target.closest("button")) return zoomPoster(zoom.dataset.zoom);
   const cal = ev.target.closest("[data-addcal]");
   if (cal) return addToCalendar(state.events.find(e => e.id === cal.dataset.addcal));
   const star = ev.target.closest("[data-star]");
@@ -429,7 +451,11 @@ $("#days").addEventListener("touchend", e => {
   const dx = e.changedTouches[0].clientX - touchX;
   if (Math.abs(dx) > 50) { shiftMonth(dx < 0 ? 1 : -1); render(); }
 });
-document.addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
+document.addEventListener("keydown", e => {
+  if (e.key !== "Escape") return;
+  const v = $(".viewer");
+  v ? v.remove() : closeSheet();
+});
 $("#search").addEventListener("input", e => { state.q = e.target.value.trim(); render(); });
 
 document.querySelectorAll("[data-icon]").forEach(b => b.insertAdjacentHTML("afterbegin", icon(b.dataset.icon)));
