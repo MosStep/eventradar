@@ -34,7 +34,8 @@ function setPref(k, v) {
 }
 
 // Filled from taxonomy.json: groups → tags. TAGS[tag] = { name, group, color, icon }.
-let GROUPS = {}, TAGS = {};
+let GROUPS = {}, TAGS = {}, REGIONS = {};
+const regionName = e => REGIONS[e.country]?.[e.region] || "";
 const tagName = t => TAGS[t]?.name || t;
 const MONTHS = ["มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม"];
 const SHORT = ["ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."];
@@ -50,6 +51,7 @@ const state = {
   events: [],
   countries: new Set(store.get("countries", Object.keys(COUNTRIES))),
   offTags: new Set(store.get("offTags", [])), // stored as "off" so newly added tags start visible
+  offRegions: new Set(store.get("offRegions", [])), // "TH:north" style keys
   quick: store.get("quick", null), // one group picked from the main screen, or null for all
   starred: new Set(store.get("starred", [])),
   month: new Date(new Date().getFullYear(), new Date().getMonth(), 1),
@@ -79,7 +81,7 @@ function countdown(e) {
 
 function visible() {
   const q = state.q.toLowerCase();
-  return state.events.filter(e => state.countries.has(e.country)
+  return state.events.filter(e => state.countries.has(e.country) && !(e.region && state.offRegions.has(`${e.country}:${e.region}`))
     && e.tags.some(t => !state.offTags.has(t) && (!state.quick || TAGS[t]?.group === state.quick))
     && (!q || [e.name, e.name_th, e.venue, e.city].some(s => s?.toLowerCase().includes(q))));
 }
@@ -87,11 +89,16 @@ function visible() {
 // News sites often block hotlinked images; load them through a free image proxy that also resizes.
 const proxied = (url, w) => `https://images.weserv.nl/?url=${encodeURIComponent(url)}&w=${w}&output=webp`;
 const img = (e, w = 400) => e.image
-  ? `<img src="${esc(proxied(e.image, w))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${emoji(e)}'))">`
+  ? `<img src="${esc(proxied(e.image, w))}" data-orig="${esc(e.image)}" data-emoji="${emoji(e)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="imgFail(this)">`
   : emoji(e);
+// Proxy failed → try the original URL once → give up and show the category emoji.
+function imgFail(el) {
+  if (el.dataset.orig && el.src !== el.dataset.orig) { el.src = el.dataset.orig; el.dataset.orig = ""; }
+  else el.replaceWith(document.createTextNode(el.dataset.emoji || "✨"));
+}
 
 // Main screen: one row — the filter button, then quick single-pick groups. Detailed picks live in the filter sheet.
-const filterCount = () => (state.countries.size < Object.keys(COUNTRIES).length ? 1 : 0) + (state.offTags.size ? 1 : 0);
+const filterCount = () => (state.countries.size < Object.keys(COUNTRIES).length ? 1 : 0) + (state.offTags.size ? 1 : 0) + (state.offRegions.size ? 1 : 0);
 
 function chips() {
   const n = filterCount();
@@ -117,6 +124,11 @@ function filterSheet() {
     <span class="grab dark"></span>
     <div class="section-head"><h2>ตัวกรอง</h2><button class="link" data-reset>ล้างทั้งหมด</button></div>
     <h5>ประเทศ</h5><div class="wrap">${countries}</div>
+    ${[...state.countries].filter(c => REGIONS[c]).map(c => `<div class="fgroup">
+      <div class="fhead">${COUNTRIES[c]} · ภูมิภาค</div>
+      <div class="wrap">${Object.entries(REGIONS[c]).map(([r, name]) =>
+        `<button class="chip ${state.offRegions.has(`${c}:${r}`) ? "" : "on"}" data-region="${c}:${r}">${name}</button>`).join("")}</div>
+    </div>`).join("")}
     <h5>หมวดหมู่</h5>${groups}
     <button class="pill done" data-close>ดูผล ${count} งาน</button>
   </div>`, "filters");
@@ -130,7 +142,7 @@ function card(e) {
     <div>
       <h4>${esc(title(e))}</h4>
       <p class="meta">📅 ${dateText(e)}</p>
-      <p class="meta">${COUNTRIES[e.country]}${place ? ` · ${esc(place)}` : ""}</p>
+      <p class="meta">${COUNTRIES[e.country]}${regionName(e) ? ` · ${regionName(e)}` : ""}${place ? ` · ${esc(place)}` : ""}</p>
       <div class="badges">${isNew(e) ? `<span class="badge new">ใหม่</span>` : ""}${e.tags.map(badge).join("")}</div>
     </div>
     <button class="star ${state.starred.has(e.id) ? "on" : ""}" data-star="${e.id}" aria-label="ติดตาม">${state.starred.has(e.id) ? "★" : "☆"}</button>
@@ -238,7 +250,7 @@ function openSheet(id) {
       ${e.name_th && e.name_th !== e.name ? `<p class="orig">${esc(e.name)}</p>` : ""}
       <div class="facts">
         <div><span>${icon("calendar")}</span><p>${dateText(e)}</p></div>
-        <div><span>${icon("pin")}</span><p>${esc(where(e) || "ยังไม่ระบุสถานที่")} · ${COUNTRIES[e.country]}</p></div>
+        <div><span>${icon("pin")}</span><p>${esc(where(e) || "ยังไม่ระบุสถานที่")} · ${regionName(e) ? `${regionName(e)}, ` : ""}${COUNTRIES[e.country]}</p></div>
         ${e.hours ? `<div><span>${icon("clock")}</span><p>${esc(e.hours)}</p></div>` : ""}
         ${e.price_th ? `<div><span>${icon("ticket")}</span><p>${esc(e.price_th)}</p></div>` : ""}
       </div>
@@ -370,13 +382,14 @@ document.addEventListener("click", ev => {
   else if (b.dataset.quick !== undefined) { state.quick = b.dataset.quick || null; store.set("quick", state.quick); }
   else if (b.dataset.country) toggle(state.countries, "countries", b.dataset.country);
   else if (b.dataset.tag) toggle(state.offTags, "offTags", b.dataset.tag);
+  else if (b.dataset.region) toggle(state.offRegions, "offRegions", b.dataset.region);
   else if (b.dataset.groupAll) {
     const tags = Object.keys(GROUPS[b.dataset.groupAll].tags), allOn = tags.every(t => !state.offTags.has(t));
     tags.forEach(t => (allOn ? state.offTags.add(t) : state.offTags.delete(t)));
     store.set("offTags", [...state.offTags]);
   } else if (b.dataset.reset !== undefined) {
-    state.offTags.clear(); state.countries = new Set(Object.keys(COUNTRIES)); state.quick = null;
-    store.set("offTags", []); store.set("countries", [...state.countries]); store.set("quick", null);
+    state.offTags.clear(); state.offRegions.clear(); state.countries = new Set(Object.keys(COUNTRIES)); state.quick = null;
+    store.set("offTags", []); store.set("offRegions", []); store.set("countries", [...state.countries]); store.set("quick", null);
   }
   else if (b.dataset.day) state.day = b.dataset.day;
   else if (b.id === "prev" || b.id === "next") shiftMonth(b.id === "next" ? 1 : -1);
@@ -401,8 +414,9 @@ $("#search").addEventListener("input", e => { state.q = e.target.value.trim(); r
 document.querySelectorAll("[data-icon]").forEach(b => b.insertAdjacentHTML("afterbegin", icon(b.dataset.icon)));
 
 const getJson = (url, def) => fetch(url).then(r => (r.ok ? r.json() : def)).catch(() => def);
-Promise.all([getJson("taxonomy.json", {}), getJson(`data/events.json?t=${Date.now()}`, [])]).then(([taxonomy, events]) => {
+Promise.all([getJson("taxonomy.json", {}), getJson(`data/events.json?t=${Date.now()}`, []), getJson("regions.json", {})]).then(([taxonomy, events, regions]) => {
   GROUPS = taxonomy;
+  REGIONS = regions;
   for (const [g, x] of Object.entries(GROUPS))
     for (const [t, name] of Object.entries(x.tags)) TAGS[t] = { name, group: g, color: x.color, icon: x.icon };
   state.events = events;

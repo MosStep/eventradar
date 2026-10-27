@@ -56,6 +56,11 @@ async function fetchHeadlines(raw) {
   return `${added} new, ${skipped} skipped (no event words)`;
 }
 
+// Regions inside each country (web/regions.json), so the app can filter by ภาค / 地方 / 地区.
+const REGIONS = JSON.parse(fs.readFileSync(path.join(ROOT, "web", "regions.json"), "utf8"));
+function regionCodes() { return Object.entries(REGIONS).map(([c, r]) => `${c}=${Object.keys(r).join("|")}`).join("; "); }
+const validRegion = (country, r) => (r && REGIONS[country]?.[r] ? r : null);
+
 const PROMPT = `You extract real-world, IN-PERSON public events from news headlines (Thailand, Japan, China).
 Today is ${today}. Keep only events people can physically attend at a venue: conventions, exhibitions, expos, game shows,
 anime/comic/doujin events, cosplay events, fan meetings, concerts, festivals, premieres, tech/AI conferences, car launch
@@ -66,7 +71,8 @@ Tags (pick 1-3): ${Object.entries(TAGS).map(([k, v]) => `${k}=${v}`).join(", ")}
 Reply with valid JSON only. Never put the " character inside a string value (use 「」 or ' instead).
 {"events":[{"i":[0,3],"name":"official name (original language)","name_th":"Thai name","start":"YYYY-MM-DD or null",
 "end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null","country":"TH|JP|CN","tags":["anime"],
-"summary_th":"one short Thai sentence"}]}`;
+"region":"region code or null","summary_th":"one short Thai sentence"}]}
+Region codes: ${regionCodes()}.`;
 
 function parseJson(text) {
   const raw = text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1);
@@ -119,13 +125,14 @@ function merge(events, found, items) {
     const ev = events.find(e => sameEvent(e, f));
     if (ev) {
       for (const k of ["start", "end", "venue", "city", "name_th", "summary_th"]) ev[k] ??= f[k] ?? null;
+      ev.region ??= validRegion(ev.country, f.region);
       ev.tags = [...new Set([...ev.tags, ...tags])];
       for (const s of sources) if (!ev.sources.some(x => x.link === s.link)) { ev.sources.push(s); ev.enriched = false; }
       ev.updated = today;
     } else {
       events.push({ id: crypto.createHash("sha1").update(f.country + norm(f.name) + (f.start || "")).digest("hex").slice(0, 12),
         name: f.name, name_th: f.name_th ?? null, start: f.start ?? null, end: f.end ?? f.start ?? null, venue: f.venue ?? null,
-        city: f.city ?? null, country: f.country, tags, summary_th: f.summary_th ?? null, image: null, official: null,
+        city: f.city ?? null, country: f.country, region: validRegion(f.country, f.region), tags, summary_th: f.summary_th ?? null, image: null, official: null,
         sources, added: today, updated: today });
       added++;
     }
@@ -275,6 +282,23 @@ console.log(`[enrich] ${todo.length} events: ${todo.filter(e => e.image).length}
 const noImage = events.filter(e => !e.image && !e.imageTried);
 for (const ev of noImage) { await searchImage(ev); await sleep(400); }
 console.log(`[image search] ${noImage.length} events without poster: found ${noImage.filter(e => e.image).length}`);
+
+// Region for events that have none yet: one cheap call per 40 events (name, venue, city → region code).
+const noRegion = events.filter(e => !e.region && !e.regionTried);
+if (hasKeys()) for (let i = 0; i < noRegion.length; i += 40) {
+  const chunk = noRegion.slice(i, i + 40);
+  const prompt = `Give the region code of each event's location. Codes: ${regionCodes()}. Use null if unknown.
+Reply with valid JSON only: {"0":"kanto","1":null,...}`;
+  const lines = chunk.map((e, n) => `${n}. ${e.country} | ${e.venue || "-"} | ${e.city || "-"} | ${e.name}`).join("\n");
+  try {
+    const out = parseJson((await extract([{ role: "system", content: prompt }, { role: "user", content: lines }], ORDERS.describe)).text);
+    chunk.forEach((e, n) => { e.region = validRegion(e.country, out[n]); e.regionTried = true; });
+  } catch (e) {
+    if (e instanceof BillingStop) { console.error(e.message); break; }
+    console.warn(`[region] batch failed: ${e.message.slice(0, 120)}`);
+  }
+}
+if (noRegion.length) console.log(`[region] ${noRegion.filter(e => e.region).length}/${noRegion.length} events got a region`);
 
 // Upcoming events first; past ones never need details.
 const MAX_DESCRIBE = Number(arg("max-describe", 40));

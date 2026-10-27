@@ -27,7 +27,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "ad5851b949f5",
@@ -56,7 +58,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "554b14ba19f5",
@@ -100,7 +104,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "285597ca662d",
@@ -129,7 +135,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "7e95f71be433",
@@ -157,7 +165,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "6e1ec27bd604",
@@ -637,7 +647,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "6cc2bf0d3d28",
@@ -709,7 +721,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "central",
+  "regionTried": true
  },
  {
   "id": "4b5aee394dce",
@@ -745,7 +759,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "6ccfd5aaf01a",
@@ -782,7 +798,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "8a5065a64c89",
@@ -826,7 +844,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "297c88e6ebf0",
@@ -862,7 +882,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "5753029db9e5",
@@ -892,7 +914,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "e9b5a2b7126c",
@@ -955,7 +979,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "a03226b1a4a5",
@@ -1006,7 +1032,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "6a01174d67b9",
@@ -1529,7 +1557,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "29285fa5dd56",
@@ -1558,7 +1588,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "central",
+  "regionTried": true
  },
  {
   "id": "11c8a00f77ca",
@@ -1594,7 +1626,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "549b79e447d8",
@@ -1624,7 +1658,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "8457474a66d7",
@@ -1660,7 +1696,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "447732680d9c",
@@ -1689,7 +1727,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kyushu",
+  "regionTried": true
  },
  {
   "id": "2660330bdfb0",
@@ -1733,7 +1773,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "bd0fd405c5bc",
@@ -1762,7 +1804,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "562ea0483617",
@@ -1790,7 +1834,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "3b387db052a9",
@@ -1820,7 +1866,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "921405c7f527",
@@ -1850,7 +1898,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "northeast",
+  "regionTried": true
  },
  {
   "id": "a7cae3cabaff",
@@ -1880,7 +1930,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "111197e2a82c",
@@ -1936,7 +1988,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "dd3d70321b2f",
@@ -1965,7 +2019,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "42cde951350e",
@@ -1994,7 +2050,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "1fc74b78fc47",
@@ -2031,7 +2089,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "dbd96cfc869b",
@@ -2104,7 +2164,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "611e2d4e5d43",
@@ -2141,7 +2203,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "6e176485c1d3",
@@ -2171,7 +2235,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "983f889b0cb9",
@@ -2201,7 +2267,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "2c796db8cff7",
@@ -2230,7 +2298,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "chubu",
+  "regionTried": true
  },
  {
   "id": "0ee9d0228f77",
@@ -2259,7 +2329,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "35cb28f53754",
@@ -2288,7 +2360,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "c030ae66659b",
@@ -2317,7 +2391,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "bb0c8dd6d17c",
@@ -2354,7 +2430,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "57e0d5822026",
@@ -2383,7 +2461,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "20816d1a9753",
@@ -2413,7 +2493,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "9f2fcb730d35",
@@ -2443,7 +2525,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "9a02827fbd2d",
@@ -2472,7 +2556,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "44f969ea3765",
@@ -2502,7 +2588,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "d5bda6f26360",
@@ -2532,7 +2620,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "114a057aba5b",
@@ -2561,7 +2651,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "2c2094b5c7b2",
@@ -2591,7 +2683,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "4dbd1e261ffd",
@@ -2620,7 +2714,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "4cf873ceab0d",
@@ -2649,7 +2745,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "chugoku",
+  "regionTried": true
  },
  {
   "id": "04f02267269a",
@@ -2693,7 +2791,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "1618b8237490",
@@ -2729,7 +2829,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "bb7bb0c77dd3",
@@ -2759,7 +2861,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "south",
+  "regionTried": true
  },
  {
   "id": "1bf2cebae8fa",
@@ -2788,7 +2892,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "4379eab6996e",
@@ -2852,7 +2958,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "29e62ae4720e",
@@ -2880,7 +2988,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "c8e077944e15",
@@ -2910,7 +3020,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "da032af800f4",
@@ -2939,7 +3051,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "a09f4b058acf",
@@ -2968,7 +3082,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "9fc6343eb4c2",
@@ -2998,7 +3114,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "be4919a7d3dc",
@@ -3027,7 +3145,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "b3be29d0d09f",
@@ -3083,7 +3203,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "d713871e25ca",
@@ -3120,7 +3242,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "aaee9a13755c",
@@ -3171,7 +3295,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "95f5d4fd18ac",
@@ -3200,7 +3326,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "shikoku",
+  "regionTried": true
  },
  {
   "id": "6de14c21583b",
@@ -3229,7 +3357,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "af006fd1482f",
@@ -3316,7 +3446,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "central",
+  "regionTried": true
  },
  {
   "id": "3640592b4b3c",
@@ -3345,7 +3477,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kyushu",
+  "regionTried": true
  },
  {
   "id": "c251becb517b",
@@ -3417,7 +3551,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "5bb6b38cd204",
@@ -3445,7 +3581,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "3d2e6d98af96",
@@ -3475,7 +3613,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "3e548ecf4e5f",
@@ -3504,7 +3644,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "16302765708d",
@@ -3542,7 +3684,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "d8a88b63e49d",
@@ -3585,7 +3729,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "1c1e94f27fc6",
@@ -3635,7 +3781,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "0dbb2c9f7460",
@@ -3664,7 +3812,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "9dd7c7033e40",
@@ -3741,7 +3891,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "a2aabd464612",
@@ -3777,7 +3929,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "fe0c06b15557",
@@ -3807,7 +3961,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "7b36e16b3706",
@@ -3844,7 +4000,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "46fbf27cd570",
@@ -3874,7 +4032,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "c1cd76eca70b",
@@ -3903,7 +4063,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "chugoku",
+  "regionTried": true
  },
  {
   "id": "a3701c62c88a",
@@ -3932,7 +4094,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "d21196be08ec",
@@ -3960,7 +4124,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "41a28ae55b37",
@@ -3990,7 +4156,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "chubu",
+  "regionTried": true
  },
  {
   "id": "d5a618aae662",
@@ -4055,7 +4223,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "eb76d8c005c3",
@@ -4098,7 +4268,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "826818eb755f",
@@ -4126,7 +4298,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "bd3637c82e23",
@@ -4155,7 +4329,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "fbaef82d52c5",
@@ -4248,7 +4424,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "82f39c0c8fff",
@@ -4278,7 +4456,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "chugoku",
+  "regionTried": true
  },
  {
   "id": "41b3dd5a5d73",
@@ -4308,7 +4488,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "a18b8e0dd3f8",
@@ -4338,7 +4520,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "a14f1c1e1b1e",
@@ -4368,7 +4552,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "6d62a770c927",
@@ -4405,7 +4591,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "8f6344fb7f67",
@@ -4434,7 +4622,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "0ddffe89bd3d",
@@ -4470,7 +4660,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "738ac548e8a6",
@@ -4507,7 +4699,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "fb7d6e411b66",
@@ -4537,7 +4731,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "268c3aa228d8",
@@ -4573,7 +4769,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "c0f6d1492332",
@@ -4602,7 +4800,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "6240cb1f7292",
@@ -4630,7 +4830,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "42a51031a1a2",
@@ -4659,7 +4861,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "a7c8f6aef51c",
@@ -4688,7 +4892,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "ea1fa6c5cdfa",
@@ -4717,7 +4923,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "6b2af50effe8",
@@ -4746,7 +4954,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "2ae4d3c6d71c",
@@ -4775,7 +4985,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "south",
+  "regionTried": true
  },
  {
   "id": "d1d338d2a62e",
@@ -4804,7 +5016,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "14b1c5fbd8b4",
@@ -4833,7 +5047,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "5fa055d8c614",
@@ -4862,7 +5078,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "03e920a4dc71",
@@ -4891,7 +5109,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "d856cc16bd29",
@@ -4920,7 +5140,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "7e8a3f70dd9a",
@@ -4956,7 +5178,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "3be8c1dfe4e0",
@@ -4985,7 +5209,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "071790513874",
@@ -5015,7 +5241,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "8ebe1ba14fcb",
@@ -5044,7 +5272,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "0b608feeb52b",
@@ -5108,7 +5338,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "4b098968ba8a",
@@ -5138,7 +5370,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "a9f4548fb423",
@@ -5168,7 +5402,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "bd2f842311ef",
@@ -5197,7 +5433,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "469b742abfa9",
@@ -5226,7 +5464,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "e553c5b8da94",
@@ -5255,7 +5495,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "d36f034cb704",
@@ -5284,7 +5526,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "abc76c12438d",
@@ -5313,7 +5557,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "60cf3eb48c93",
@@ -5348,7 +5594,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "central",
+  "regionTried": true
  },
  {
   "id": "855297289386",
@@ -5377,7 +5625,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "465e1759f9e2",
@@ -5413,7 +5663,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "7442462a5b7d",
@@ -5442,7 +5694,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "d8f6d61c7cf1",
@@ -5471,7 +5725,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "da484df3ec35",
@@ -5500,7 +5756,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "2445869055d3",
@@ -5544,7 +5802,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "e18dbb005d28",
@@ -5581,7 +5841,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "e0c4c41bb1b6",
@@ -5610,7 +5872,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "3cba980f5377",
@@ -5654,7 +5918,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "b93967135dbf",
@@ -5684,7 +5950,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "f8ec56d4e24d",
@@ -5713,7 +5981,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "2c41a9326e3c",
@@ -5743,7 +6013,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "2786bbd161cf",
@@ -5779,7 +6051,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "1794a75efded",
@@ -5817,7 +6091,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "e86708df0983",
@@ -5846,7 +6122,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "a05cbb4767b0",
@@ -5876,7 +6154,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "62e62ac470a3",
@@ -5905,7 +6185,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "eb2f09ee328e",
@@ -5934,7 +6216,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "1ebb2c703224",
@@ -5963,7 +6247,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "4340464d5e5e",
@@ -5992,7 +6278,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "cbbdda5276d3",
@@ -6022,7 +6310,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "c715e8c0ae7c",
@@ -6051,7 +6341,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "2bb9a1468f20",
@@ -6080,7 +6372,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "9afa17f11024",
@@ -6109,7 +6403,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "32c634ee2584",
@@ -6138,7 +6434,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "97115ef8b79a",
@@ -6167,7 +6465,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "tohoku",
+  "regionTried": true
  },
  {
   "id": "5eacf6a6b5bb",
@@ -6196,7 +6496,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "ca4f26953cd4",
@@ -6225,7 +6527,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "38748550442d",
@@ -6255,7 +6559,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "4f0958cb8859",
@@ -6283,7 +6589,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "380f41a7172f",
@@ -6312,7 +6620,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "5d19948be256",
@@ -6349,7 +6659,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kyushu",
+  "regionTried": true
  },
  {
   "id": "1a3f2875e5da",
@@ -6378,7 +6690,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "38d75c137454",
@@ -6407,7 +6721,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "4d3ac9db9250",
@@ -6436,7 +6752,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "9b3e699fcccd",
@@ -6478,7 +6796,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "ce7b0601e508",
@@ -6515,7 +6835,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "3287682a6ee3",
@@ -6544,7 +6866,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "3579b642230b",
@@ -6573,7 +6897,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "73ac300181b1",
@@ -6630,7 +6956,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "d26d911ec9bc",
@@ -6659,7 +6987,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "d104b87e6737",
@@ -6697,7 +7027,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "dfc9f703d166",
@@ -6727,7 +7059,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "e1a8ab657610",
@@ -6756,7 +7090,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "d64337b5f8bb",
@@ -6785,7 +7121,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "4b56c1278ee8",
@@ -6814,7 +7152,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "4bf205ea7a87",
@@ -6843,7 +7183,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "east",
+  "regionTried": true
  },
  {
   "id": "2e9d311b10b3",
@@ -6873,7 +7215,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "a8248786993f",
@@ -6909,7 +7253,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "northeast",
+  "regionTried": true
  },
  {
   "id": "ff5df54adc68",
@@ -6939,7 +7285,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "9203d987e526",
@@ -6984,7 +7332,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "03df57a65ada",
@@ -7014,7 +7364,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "e5e0e9db84f3",
@@ -7042,7 +7394,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "c7f9ba3af535",
@@ -7070,7 +7424,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "9ba378dbf81e",
@@ -7098,7 +7454,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "fab5417eabc9",
@@ -7126,7 +7484,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "7a467c2921ca",
@@ -7154,7 +7514,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "f0914fed13f1",
@@ -7182,7 +7544,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "4993edf4658a",
@@ -7210,7 +7574,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "2d745b3e5845",
@@ -7238,7 +7604,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "9e434b810a9c",
@@ -7268,7 +7636,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "f6bedf21114d",
@@ -7298,7 +7668,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "central",
+  "regionTried": true
  },
  {
   "id": "e3f7a030f788",
@@ -7328,7 +7700,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "94bc3f37fa27",
@@ -7357,7 +7731,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "south",
+  "regionTried": true
  },
  {
   "id": "163c8b0a920f",
@@ -7407,7 +7783,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "16f34c97e1ed",
@@ -7436,7 +7814,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "e13b79c4056f",
@@ -7466,7 +7846,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "7e97fb0dc418",
@@ -7496,7 +7878,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "21c446e71779",
@@ -7525,7 +7909,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "e9fb7003bf29",
@@ -7554,7 +7940,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "south",
+  "regionTried": true
  },
  {
   "id": "4004aca86270",
@@ -7584,7 +7972,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "south",
+  "regionTried": true
  },
  {
   "id": "d5a573697e21",
@@ -7614,7 +8004,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "south",
+  "regionTried": true
  },
  {
   "id": "13a5197424fb",
@@ -7651,7 +8043,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "26cffe97ab74",
@@ -7681,7 +8075,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "1681be1cac83",
@@ -7711,7 +8107,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "412414facb81",
@@ -7739,7 +8137,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "6a5ecf8ab40c",
@@ -7767,7 +8167,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "fd6f579e459a",
@@ -7795,7 +8197,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "bd7cfb500e47",
@@ -7824,7 +8228,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "36092737c632",
@@ -7854,7 +8260,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "bkk",
+  "regionTried": true
  },
  {
   "id": "805be6fd7a0f",
@@ -7884,7 +8292,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "f5633498cf06",
@@ -7921,7 +8331,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "d4a2710bbc55",
@@ -7951,7 +8363,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "99a81790c9bf",
@@ -7988,7 +8402,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "9a36c37991be",
@@ -8018,7 +8434,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "46162e9cf1c2",
@@ -8048,7 +8466,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "68885b13d278",
@@ -8078,7 +8498,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "8581f9793cda",
@@ -8109,7 +8531,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "3171b47673e4",
@@ -8140,7 +8564,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "5983f6905eb8",
@@ -8170,7 +8596,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "tohoku",
+  "regionTried": true
  },
  {
   "id": "f146d440cc22",
@@ -8201,7 +8629,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "a065c1d416a7",
@@ -8239,7 +8669,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "183ae24e4632",
@@ -8277,7 +8709,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "d6ec950e60ed",
@@ -8307,7 +8741,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "fed7df443362",
@@ -8338,7 +8774,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "80463948d557",
@@ -8368,7 +8806,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "7e565e210322",
@@ -8397,7 +8837,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "12744db3435b",
@@ -8428,7 +8870,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "bd5ee46f0819",
@@ -8457,7 +8901,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "a87212de1627",
@@ -8487,7 +8933,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "66d00bc225da",
@@ -8517,7 +8965,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "a3d5e10056b3",
@@ -8547,7 +8997,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "69f542332a2c",
@@ -8576,7 +9028,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kyushu",
+  "regionTried": true
  },
  {
   "id": "af6389bf3f3e",
@@ -8606,7 +9060,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "079549bd879c",
@@ -8636,7 +9092,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "ba07384d7b12",
@@ -8667,7 +9125,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "3289e3104927",
@@ -8697,7 +9157,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "58e4e5ea65b4",
@@ -8727,7 +9189,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "3a0c65c61f36",
@@ -8757,7 +9221,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "97cf290b022f",
@@ -8787,7 +9253,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "563a658d7bd3",
@@ -8818,7 +9286,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "a2e9c58aa729",
@@ -8849,7 +9319,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "025e074faba6",
@@ -8878,7 +9350,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "8745fb301e73",
@@ -8908,7 +9382,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "chubu",
+  "regionTried": true
  },
  {
   "id": "ac22ec875547",
@@ -8938,7 +9414,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "185fca4ac938",
@@ -8974,7 +9452,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "96e2c4398038",
@@ -9004,7 +9484,9 @@
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true
+  "enriched": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "cfa6bb52e2b4",
@@ -9041,7 +9523,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "abfb0746c622",
@@ -9070,7 +9554,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "43c2ec3424d4",
@@ -9100,7 +9586,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "chubu",
+  "regionTried": true
  },
  {
   "id": "0b0545f0cc41",
@@ -9130,7 +9618,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "bc22dd0ccbca",
@@ -9160,7 +9650,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "a915978625ca",
@@ -9189,7 +9681,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "1dfcac6d16af",
@@ -9218,7 +9712,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "89a04b03e852",
@@ -9248,7 +9744,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "2601b7b259ed",
@@ -9278,7 +9776,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "cebad72677af",
@@ -9308,7 +9808,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "b29edf43d417",
@@ -9339,7 +9841,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "7192953cefd0",
@@ -9369,7 +9873,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "674412d71661",
@@ -9398,7 +9904,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "60a22e76e9c0",
@@ -9428,7 +9936,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "d7306c343d60",
@@ -9458,7 +9968,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  },
  {
   "id": "59038963b71e",
@@ -9488,7 +10000,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "hokkaido",
+  "regionTried": true
  },
  {
   "id": "338aef0246fe",
@@ -9519,7 +10033,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kansai",
+  "regionTried": true
  },
  {
   "id": "2994c843cafd",
@@ -9550,7 +10066,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "ebeccf1c9976",
@@ -9580,7 +10098,9 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": null,
+  "regionTried": true
  },
  {
   "id": "105ea4d4fa27",
@@ -9610,6 +10130,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageTried": true
+  "imageTried": true,
+  "region": "kanto",
+  "regionTried": true
  }
 ]
