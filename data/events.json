@@ -1392,7 +1392,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": null
+  "article": null,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "183ca99f75c3",
@@ -1428,7 +1429,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://note.com/duelmatrixaiblog/n/n1a95ba12178c?hl=en",
   "imageFrom": "https://note.com/duelmatrixaiblog/n/n1a95ba12178c?hl=en",
-  "imageHash": "8b53e0b4a743f73d"
+  "imageHash": "8b53e0b4a743f73d",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "8acd77e354a3",
@@ -5377,7 +5379,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.msn.cn/zh-cn/news/other/propellerads-%E5%B0%86%E4%BA%AE%E7%9B%B8%E4%B8%8A%E6%B5%B7-gtc-%E5%85%A8%E7%90%83%E6%B5%81%E9%87%8F%E5%A4%A7%E4%BC%9A-%E5%B9%B6%E4%B8%BE%E5%8A%9E%E4%B8%93%E5%B1%9E%E4%BA%A4%E6%B5%81%E4%BC%9A/ar-AA2g8qiG",
   "imageFrom": "https://www.msn.cn/zh-cn/news/other/propellerads-%E5%B0%86%E4%BA%AE%E7%9B%B8%E4%B8%8A%E6%B5%B7-gtc-%E5%85%A8%E7%90%83%E6%B5%81%E9%87%8F%E5%A4%A7%E4%BC%9A-%E5%B9%B6%E4%B8%BE%E5%8A%9E%E4%B8%93%E5%B1%9E%E4%BA%A4%E6%B5%81%E4%BC%9A/ar-AA2g8qiG",
-  "imageHash": "7dcf73c769e56c8a"
+  "imageHash": "7dcf73c769e56c8a",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "15199efd54d6",
@@ -5449,7 +5452,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20261022A02SH000",
   "imageFrom": "https://news.qq.com/rain/a/20261022A02SH000",
-  "imageHash": "770001b320ccbac0"
+  "imageHash": "770001b320ccbac0",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "297c88e6ebf0",
@@ -7922,7 +7926,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://tech.china.com/articles/20261027/202610271969984.html",
   "imageFrom": "https://tech.china.com/articles/20261027/202610271969984.html",
-  "imageHash": "8e6c40787b6f2354"
+  "imageHash": "8e6c40787b6f2354",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "996434f18424",
@@ -7958,7 +7963,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": null
+  "article": null,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "7cbca099ecf9",
@@ -8002,7 +8008,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.iheima.com/article-403478.html",
   "imageFrom": "https://news.qq.com/rain/a/20261016A0EFBV00",
-  "imageHash": "e9d6a7589c0b2091"
+  "imageHash": "e9d6a7589c0b2091",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "69296259128a",
@@ -8040,7 +8047,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.donews.com/article/detail/7331/108773.html",
   "imageFrom": "https://www.donews.com/article/detail/7331/108773.html",
-  "imageHash": "241e13dd12bb4118"
+  "imageHash": "241e13dd12bb4118",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "1e2bf88c469d",
@@ -8076,7 +8084,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20261027A0CR6T00",
   "imageFrom": "https://news.qq.com/rain/a/20261027A0CR6T00",
-  "imageHash": "cd586dc9b921c082"
+  "imageHash": "cd586dc9b921c082",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "1fb57c651b8b",
@@ -8112,7 +8121,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20261027A0C43R00",
   "imageFrom": "https://news.qq.com/rain/a/20261027A0C43R00",
-  "imageHash": "60970b37f78fb94e"
+  "imageHash": "60970b37f78fb94e",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "54d4ada1ce84",
@@ -8148,7 +8158,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sohu.com/a/1092743989_120099794",
   "imageFrom": "https://www.sohu.com/a/1092743989_120099794",
-  "imageHash": "63824af3024137a0"
+  "imageHash": "63824af3024137a0",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "3917f6e1cc61",
@@ -8184,7 +8195,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwrzhv1387280.shtml",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwrzhv1387280.shtml",
-  "imageHash": "dd2e684ca44ebc28"
+  "imageHash": "dd2e684ca44ebc28",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "b591cc89bf88",
@@ -8227,7 +8239,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sohu.com/a/1093349455_120244154",
   "imageFrom": "https://www.sohu.com/a/1093349455_120244154",
-  "imageHash": "17e057af875a8c3a"
+  "imageHash": "17e057af875a8c3a",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "bc4df68e4e42",
@@ -8263,7 +8276,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20260926A069SE00",
   "imageFrom": "https://news.qq.com/rain/a/20260926A069SE00",
-  "imageHash": "5b8b85c0324bacb6"
+  "imageHash": "5b8b85c0324bacb6",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "ff3499bd320e",
@@ -8299,7 +8313,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sohu.com/a/1093541541_121117454",
   "imageFrom": "https://www.sohu.com/a/1093541541_121117454",
-  "imageHash": "18198902659af9f3"
+  "imageHash": "18198902659af9f3",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "d7386239f4b7",
@@ -8335,7 +8350,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.msn.cn/zh-cn/news/other/2026%E5%B9%B4%E7%A6%8F%E5%BB%BA%E7%9C%81%E6%88%B7%E5%A4%96%E8%BF%90%E5%8A%A8%E5%98%89%E5%B9%B4%E5%8D%8E%E5%9C%A8%E6%AD%A6%E5%A4%B7%E5%B1%B1%E5%90%AF%E5%B9%95/ar-AA2g8YnV",
   "imageFrom": "https://www.msn.cn/zh-cn/news/other/2026%E5%B9%B4%E7%A6%8F%E5%BB%BA%E7%9C%81%E6%88%B7%E5%A4%96%E8%BF%90%E5%8A%A8%E5%98%89%E5%B9%B4%E5%8D%8E%E5%9C%A8%E6%AD%A6%E5%A4%B7%E5%B1%B1%E5%90%AF%E5%B9%95/ar-AA2g8YnV",
-  "imageHash": "721b316606c5c0d3"
+  "imageHash": "721b316606c5c0d3",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "017e1f06a222",
@@ -8371,7 +8387,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20261024A03AWC00",
   "imageFrom": "https://news.qq.com/rain/a/20261024A03AWC00",
-  "imageHash": "a80a99c9112412a5"
+  "imageHash": "a80a99c9112412a5",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "82eba4c9e284",
@@ -8407,7 +8424,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://finance.sina.cn/2026-10-27/detail-iniwsseq6971553.d.html?vt=4",
   "imageFrom": "https://finance.sina.cn/2026-10-27/detail-iniwsseq6971553.d.html?vt=4",
-  "imageHash": "6ec190292dd73fd1"
+  "imageHash": "6ec190292dd73fd1",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "4ef56ffe81b8",
@@ -8704,7 +8722,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwrqsv8880516.shtml",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwrqsv8880516.shtml",
-  "imageHash": "65daf5e6bf4c0006"
+  "imageHash": "65daf5e6bf4c0006",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "39bd8c52f537",
@@ -8741,7 +8760,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://finance.sina.com.cn/wm/2026-10-27/doc-iniwsses3729047.shtml",
   "imageFrom": "https://finance.sina.com.cn/wm/2026-10-27/doc-iniwsses3729047.shtml",
-  "imageHash": "b4c0634da21b0f8b"
+  "imageHash": "b4c0634da21b0f8b",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "c4c6f1237ecf",
@@ -8778,7 +8798,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20261027A0CKLS00",
   "imageFrom": "https://news.qq.com/rain/a/20261027A0CKLS00",
-  "imageHash": "0d84b421bb547a14"
+  "imageHash": "0d84b421bb547a14",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "0a9852acc60a",
@@ -8816,7 +8837,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://finance.sina.com.cn/tjhz/2026-08-18/doc-inintxxh8568957.shtml",
   "imageFrom": "https://finance.sina.com.cn/tjhz/2026-08-18/doc-inintxxh8568957.shtml",
-  "imageHash": "ece47c7e0eb5b158"
+  "imageHash": "ece47c7e0eb5b158",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "14c1d88d299d",
@@ -8852,7 +8874,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://finance.sina.cn/2026-10-27/detail-iniwsmwr1221614.d.html?vt=4",
   "imageFrom": "https://finance.sina.cn/2026-10-27/detail-iniwsmwr1221614.d.html?vt=4",
-  "imageHash": "8e2de95f4a2a9686"
+  "imageHash": "8e2de95f4a2a9686",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "11666999adb3",
@@ -8889,7 +8912,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20260731A0A42600",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-09-06/doc-iniqwnkx0138630.shtml",
-  "imageHash": "fe01bfeda3cabca0"
+  "imageHash": "fe01bfeda3cabca0",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "9f9d53d63cbf",
@@ -8927,7 +8951,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20261027A08MPD00",
   "imageFrom": "https://news.qq.com/rain/a/20261027A08MPD00",
-  "imageHash": "eb4d050045eb4db8"
+  "imageHash": "eb4d050045eb4db8",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "da3fae5bc0d3",
@@ -8971,7 +8996,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.asahi.com/articles/ASVBV1T3NVBVUKJH00CM.html",
   "imageFrom": "https://www.asahi.com/articles/ASVBV1T3NVBVUKJH00CM.html",
-  "imageHash": "21837182ae4a8123"
+  "imageHash": "21837182ae4a8123",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "6e6f2776bf6f",
@@ -9049,7 +9075,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": null
+  "article": null,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "a03226b1a4a5",
@@ -10303,7 +10330,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.afpbb.com/articles/-/3659337",
   "imageFrom": "https://www.afpbb.com/articles/-/3659337",
-  "imageHash": "1735646b321a0b13"
+  "imageHash": "1735646b321a0b13",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "11c8a00f77ca",
@@ -10808,7 +10836,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": "https://www.khaosod.co.th/technologychaoban/techno-news/article_347735"
+  "article": "https://www.khaosod.co.th/technologychaoban/techno-news/article_347735",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "b39bade35f59",
@@ -15127,7 +15156,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000003918.000013972.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000003918.000013972.html",
-  "imageHash": "a704417bf32df3dd"
+  "imageHash": "a704417bf32df3dd",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "3c238b32a46d",
@@ -16293,7 +16323,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.oricon.co.jp/pressrelease/3054936/",
   "imageFrom": "https://www.oricon.co.jp/pressrelease/3054936/",
-  "imageHash": "39908bf6f42aafd3"
+  "imageHash": "39908bf6f42aafd3",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "aa344a7a1fb4",
@@ -17707,7 +17738,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000391.000066361.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000391.000066361.html",
-  "imageHash": "73136d08ed422786"
+  "imageHash": "73136d08ed422786",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "a849649aaaf1",
@@ -20680,7 +20712,8 @@
   "imageTried": true,
   "article": "https://natalie.mu/comic/news/684215",
   "imageFrom": "https://www.jiji.com/jc/article?k=000000426.000128734&g=prt",
-  "imageHash": "7c7e5506fb8d8826"
+  "imageHash": "7c7e5506fb8d8826",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "08f221fc606c",
@@ -20720,7 +20753,8 @@
   "enriched": true,
   "imageTried": true,
   "article": null,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "9f2fcb730d35",
@@ -20757,7 +20791,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://collabo-cafe.com/events/collabo/girls-band-cry-gengaten-tenjikai-anime-tokyo-station-2026/",
-  "imageFrom": "https://animeanime.jp/release/prtimes/20261020/321037.html"
+  "imageFrom": "https://animeanime.jp/release/prtimes/20261020/321037.html",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "9a02827fbd2d",
@@ -20793,7 +20828,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://news.infoseek.co.jp/article/mynavi_3233112/",
-  "imageFrom": "https://news.infoseek.co.jp/article/mynavi_3233112/"
+  "imageFrom": "https://news.infoseek.co.jp/article/mynavi_3233112/",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "44f969ea3765",
@@ -20834,7 +20870,8 @@
    "cc1b403192c4",
    "80f2f6993bd3"
   ],
-  "imageHash": "0a4793cd3f3d876d"
+  "imageHash": "0a4793cd3f3d876d",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "02b102f1b2a1",
@@ -20885,7 +20922,8 @@
    "eb1dd780e32e",
    "40869cb343ff"
   ],
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "936d6f60c3ec",
@@ -20920,7 +20958,8 @@
    "e0c4c41bb1b6",
    "40ff0073f90d"
   ],
-  "imageHash": "f33cf2811ac751c8"
+  "imageHash": "f33cf2811ac751c8",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "5baedbfe5c0c",
@@ -20965,7 +21004,8 @@
    "9c648394ef15",
    "4fc37ecc5c20"
   ],
-  "imageHash": "d9663d5f575b29fb"
+  "imageHash": "d9663d5f575b29fb",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "0c0b25d1fd24",
@@ -37608,7 +37648,7 @@
    "festival"
   ],
   "summary_th": "งานเทศกาลอาหารระดับนานาชาติที่รวมเชฟชื่อดังโลกและเชฟไทย จัดที่อนันตรา สยาม กรุงเทพฯ",
-  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
+  "image": "http://www.bing.com/th?id=ONUT.94-b5DuRxRqwF5-T4PyHKg&pid=News",
   "official": null,
   "sources": [
    {
@@ -37624,7 +37664,7 @@
   "enriched": true,
   "region": "bkk",
   "regionTried": true,
-  "imageHash": null,
+  "imageHash": "f1c3e2d1c3da08c5",
   "about_th": "World Gourmet Festival 2026 เป็นเทศกาลอาหารนานาชาติครั้งที่ 26 ของโรงแรมอนันตรา สยาม กรุงเทพฯ ภายใต้ธีม The World of Flavours รวบรวมเชฟชื่อดังจากหลายประเทศและเชฟชั้นนำของไทย นำเสนอประสบการณ์อาหารผ่านมื้อพิเศษ การร่วมสร้างเมนูระหว่างเชฟ และกิจกรรมอาหารเครื่องดื่ม พร้อมทำสถิติข้าวเหนียวมะม่วงยาวที่สุดในโลก 101.15 เมตร",
   "highlights_th": [
    "เชฟระดับโลก: Julien Royer (Odette), Dave Pynt (Burnt Ends), Josiah Citrin (Mélisse), Álvaro Clavijo (El Chato), Georgiana Viou (L'Ami)",
