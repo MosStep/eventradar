@@ -2931,13 +2931,22 @@
     "source": "PR TIMES",
     "date": "2026-10-26",
     "image": null
+   },
+   {
+    "title": "LandScape、デビュー1周年。2026年11月15日（日）大塚FUTURE:にてワンマンLIVE「ONE by ONE」開催決定。6人とファンが、ひとつひとつ積み上げてきた1年の集大成がここに。",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uMVlqeHlOSHlKWWcyRkd5Z3R0OTMtdlF6QWlIbUtDRERnTWU5cUJhRFRjX2hHbFZPbm8zZjZMTktESy14ZHFscUZId29IYVNzNWhEN09nWWRkNWt6LXU4MkZ5T0hHR3A0anc?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-10-27",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "region": "kanto",
-  "regionTried": true
+  "regionTried": true,
+  "online": false,
+  "price_th": null
  },
  {
   "id": "2c2094b5c7b2",
@@ -3115,7 +3124,8 @@
   "country": "JP",
   "tags": [
    "anime",
-   "food"
+   "food",
+   "cafe"
   ],
   "summary_th": "คาเฟ่ป็อปอัปคอลแลบอนิเมะ Moriarty the Patriot เปิดที่ยูระคุโจและนาโกย่า",
   "image": "https://prcdn.freetls.fastly.net/release_image/48489/362/48489-362-25d844ba2458b9e8424a765ddd9ae1fe-1080x1350.png?width=536&quality=85%2C75&format=jpeg",
@@ -3134,13 +3144,22 @@
     "source": "PR TIMES",
     "date": "2026-10-27",
     "image": null
+   },
+   {
+    "title": "TVアニメ『憂国のモリアーティ』コラボカフェ at 洒落CAFEが有楽町＆名古屋にて開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDSUgtTFRtdElBQndGRS1hZWFUWG40VmRCaURnQUh1MEZoR05pS19KM3h6eXc4RXltd3BoTkk1REw1dEpVa256MWhMNDVybU9NMUZrc2dqNlI0enhGUXo2aEl5WXZ4VnBJR1k4WUpXR2xzMk55OUE?oc=5",
+    "source": "Mantan Web",
+    "date": "2026-10-27",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "region": "kanto",
-  "regionTried": true
+  "regionTried": true,
+  "online": false,
+  "price_th": null
  },
  {
   "id": "bb7bb0c77dd3",
@@ -3793,6 +3812,13 @@
     "source": "motorexpo.co.th",
     "date": "2026-10-05",
     "image": null
+   },
+   {
+    "title": "'ฟรีน สโรชา' เปิดประตูครั้งสำคัญ ประกาศคอนเสิร์ตเดี่ยวครั้งแรก",
+    "link": "https://www.komchadluek.net/entertainment/drama-series/619341",
+    "source": "komchadluek.net",
+    "date": "2026-07-02",
+    "image": null
    }
   ],
   "added": "2026-10-27",
@@ -3800,7 +3826,8 @@
   "enriched": false,
   "region": "central",
   "regionTried": true,
-  "online": false
+  "online": false,
+  "price_th": null
  },
  {
   "id": "3640592b4b3c",
@@ -13778,6 +13805,597 @@
     "link": "https://news.google.com/rss/articles/CBMi8gdBVV95cUxQSXJlWU5fNkFmeTJHcGhXYXBZbm5TMnk5S1lheFNRQWJzREZVcEJSTEpuelltSXBQYmJOWW1NYjBpZDlucGdLaENYU1BLME1idi1Bd2RuNkZkeWZfQWRxTHBPWDc3MnpjNWRaTkpNUm9YUlJIVFdjOVdmbW1jOEZBeWVrQ09heTIzRnZWcDBibHFBZmgyMUJWSE9ObkY5eXEyMGpFeDlvOG9iUU93V3ctZmFpa19IWUoxZFo1VXVad3NDMjJodHZvTWpiZjkwZVdPamY4ZTREeVl1dnR4X09GLWdaMzBpZ09HeHJzaTNOUVlyNVlrRlJsT1BWbmloTGtYb3VNaG5yN0R4YW5wcDFBRmtyVC12RnR2THFSTFJyMWFpX00tMWNhdnBGcHF3c3d0WjlVMy1haGpQbVNMOWpzSGxIRlpSdFpfUV85UTRETG1JdHVnbGIycHVvYUd6dVdiakVsa2xDLUtKOTM1SzhtVzMweXVZeWMteU1EQ1ktd1QyYTNhaWkzSWZHNjBNb1N4RXpfMlR1MmNIYU1qMW9rNkJvUTB4ODdyNlpXWUN5RjNwYlgzYzg1bnY2X2ktOVZja1Z6eGU0dUtsd1Ayazd1bHhHbVc1TGI2ZEJjc012YW92TjY5VWhTTXdhTmZUX0N5cXFWLUNGeHV2ZHE1LVczOUhRc0tQUDVjS2xoMTExWXZwQzNSMTJjcVlOaGptUTlvbFQza3FpNHRiN0RZbEJjTjJHTkpjTm9MUWRtNE1hbkVkRmZqU24yUnpBaE52d2UzVjhGbElCQzN3VFI4eGRrY2tfd0lhQ1dJaEI5UlBlMnR5Rk9CRVV1YkhoZnRhVUJybjFnRlF0RWJfTmVZMWVqWUdiYVo1RVdLSnd3a21mdFk0eG5PWGFmRXhLWU9Kcy1nZ0RqTVJueVF0M0dFWUI4Wm13Q0VqQjBEMWU0Y3ZnNGpDUXRURUdYSkc4WVRGYkVSRmV1ODZiYzQ0VVFwWTdmQmJpSFgwQ19FT18tUWFLYV95LWZBSjJhandXLUdmdjR4cWlXVFM4NVJfcUdWRTcwU00zZnV0eWVBS1BPOU1TQkpqaGJ5TnI2Si13QW5iMnZxaHkyZWtPdVdoeVF4RWUtbE9wUjFISnJnOHNHZEdnMjMtTGIzLU81RnB3SWFzd3RDd0d4eGo2YUJCdjVfdnVLYnhvSllQcmVDWTN6bHpja3hXZ1Fpb2FLNGROVmVNRGlsUzlzOHVoVDgtR19aQ2VoM2JhUGQzTWNhRjdxc041emR0VXNWMVpEUWxmZ0Jwb0ltZjlRcElYcXY3OWZzbWpLQThTb3lQY0ZyOHp0YmRTXzVCZw?oc=5",
     "source": "Facebook",
     "date": "2026-10-05",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "93f264552f07",
+  "name": "TCS Open House 2026",
+  "name_th": "TCS Open House 2026",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "โรงเรียนไทยคริสเตียน (Thai Christian School)",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "edu",
+   "kids"
+  ],
+  "summary_th": "โรงเรียนไทยคริสเตียนจัดบ้านเปิดต้อนรับครอบครัวสัมผัสประสบการณ์การเรียนรู้",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "โรงเรียนไทยคริสเตียน เปิดบ้านต้อนรับทุกครอบครัว สัมผัสประสบการณ์การเรียนรู้แห่งความสุข ในงาน TCS Open House 2026 (#3)",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01NUhhUV9mbjhocTVwVE5CMnFuQkdfSWlhM21xMXhObkYwNXdKRzhyTjdrU2xWeWhXMExuUkpQZEpJOVVTc01RSUJmeDdXclhxM25NNTlybXF6ZEdFUXJjaFYyQ3ZkU1hkNkhn?oc=5",
+    "source": "newswit",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "1ee51fb4d863",
+  "name": "TEEHENG GEN OF US 1st FANMEETING",
+  "name_th": "TEEHENG GEN OF US 1st FANMEETING",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "Unspecified hall in Bangkok",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "fanmeet",
+   "concert",
+   "idol"
+  ],
+  "summary_th": "แฟนมีติ้งของตี๋และเฮงพร้อมการแสดงร้องเล่นเต้นเต็มรูปแบบ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ความรักท่วมฮอลล์ “ตี๋&เฮง” ร้อง เล่น เต้น จัดเต็มทุกโมเมนต์ แฟนๆ ได้กรี๊ดสนั่น กับงาน ‘TEEHENG GEN OF US 1st FANMEETING’",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wMS1TcG9kWkNoTzRPN1poc1FuMFBCbE1ZMHBFTThiRTc5OWRUbmxhbDFUWkFzS3lwWmxpakczeFBrRFJRX1FxMWpLbEJBbTlCc1hYVDlB?oc=5",
+    "source": "สยามรัฐ",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "b14a00aedb1e",
+  "name": "CP Innovation Exposition 2026",
+  "name_th": "CP Innovation Exposition 2026",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "CP Innovation Exposition venue, Bangkok",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo",
+   "ai",
+   "startup"
+  ],
+  "summary_th": "งานแสดงนวัตกรรมและ AI ของกลุ่มซีพีกับผู้นำหญิง 3 ท่าน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "3 ผู้นำหญิงร่วมสร้างอนาคต ใช้ AI เปลี่ยนเกมธุรกิจ ในงาน CP Innovation Exposition 2026",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1DSU1WUXZzM3lVdGIwN1p0XzdKNW1qZ0o5ZGhBTlg0STRfSXB0dVBVblBFaGZMTHlCV1EwQnEwV3lwdGlGY0psUG80RmpBVzVYV3lB?oc=5",
+    "source": "เดลินิวส์",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "f6551d0cf565",
+  "name": "「写らナイんです POP UP SHOP in 紀伊國屋書店」",
+  "name_th": "ป๊อปอัปช็อป 「Utsuranain desu」 ที่紀伊國屋書店",
+  "start": null,
+  "end": null,
+  "venue": "Kinokuniya Bookstore",
+  "city": "Tokyo",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "market"
+  ],
+  "summary_th": "ป๊อปอัปช็อปสินค้าอนิเมะ/มังงะที่紀伊國屋書店",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "「写らナイんです POP UP SHOP in 紀伊國屋書店」が開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjckJqandvSXpSRUh1M0JyOHlKMnRwQkw1TDdHUXV3eWQzMFlTd1FkSlhOcFZlVlRwWDUtU0F5RUlMNTY3WDZSTmt1SEg0ZHMxeE80UWFHblFnd2taMmtpeV9wY2dtN2lJX0E?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "003397bb005c",
+  "name": "「30周年記念 大たまごっち展」",
+  "name_th": "นิทรรศการตะมากอตชิ 30 ปี ที่ฟุกุโอกะ",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Fukuoka",
+  "country": "JP",
+  "region": "kyushu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "expo"
+  ],
+  "summary_th": "นิทรรศการใหญ่เฉลิมฉลอง 30 ปี ตะมากอตชิจัดที่ฟุกุโอกะ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "「30周年記念 大たまごっち展」福岡で開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MM3pSZUNndm1tV0hYb1gzVVA3cmZmTEYzQ2hIY2JUeUl1dW5pS1pNa0VpY3AzUFNKNFZRVDlLUXlGWHJMV0Y1TjdvVWVJSXhHcFRNX0dRem1OVWttNHEwX1dWd1MwekZfQ3c?oc=5",
+    "source": "アニメ！アニメ！",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "ba5a79788275",
+  "name": "アニメ『千歳くんはラムネ瓶のなか』のフェア",
+  "name_th": "งานเฟร์อนิเมะ 『ชิโตเซะ-คุน ワ ラムネะ ビン ノ ナカ』 ที่เกมเมอร์ส",
+  "start": null,
+  "end": null,
+  "venue": "Gamers (秋葉原・なんば・金沢)",
+  "city": "Tokyo, Osaka, Kanazawa",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "market"
+  ],
+  "summary_th": "งานเฟร์สินค้าอนิเมะชิโตเซะ-คุนจัดที่สาขาเกมเมอร์ส 3 แห่ง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "アニメ『千歳くんはラムネ瓶のなか』のフェアが秋葉原・なんば・金沢のゲーマーズにて開催決定",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5NWWUtdUFxY2pxeTRJLXYza1gwUFRyYzlhSjBod21nX1RVdG9vNURwWlh6eHJmcU1TR04yMmZIaWlaQzE4VjRBS1gzUQ?oc=5",
+    "source": "ラノベニュースオンライン",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "ccce7304747c",
+  "name": "『風の白猿神 出版記念展』",
+  "name_th": "นิทรรศการ紀念เผยแพร่ 『ลมของเทพขาว』 ที่有楽町マルイ",
+  "start": null,
+  "end": null,
+  "venue": "Yurakucho Marui",
+  "city": "Tokyo",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "comic",
+   "art"
+  ],
+  "summary_th": "นิทรรศการเฉลิมฉลองการตีพิมพ์มังงะ『ลมของเทพขาว』ที่ยูราคูโช มารุอิ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "『風の白猿神 出版記念展』有楽町マルイにて開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpOXY4cXU0eUgza2p4RGJHSEVoTnNWTnMwalRSeWEteFZhdU1lbDNjcF9pcTZySVBveDJldlEzVHN0Nnl3bGxTLVRLXzZUUXk4Y3prQVBmT3d3U01RZmtHLVdCeF9ZQ2NhaEE?oc=5",
+    "source": "アニメ！アニメ！",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "88aa528ab6a7",
+  "name": "「名探偵コナン」名曲の数々×花火がエモい!!「ハイウェイの堕天使」の舞台・横浜で花火ショー",
+  "name_th": "โชว์ดอกไม้ไฟคอนัน เพลงดัง×ดอกไม้ไฟ ที่โยโคฮาม่า",
+  "start": null,
+  "end": null,
+  "venue": "Yokohama",
+  "city": "Yokohama",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "festival"
+  ],
+  "summary_th": "โชว์ดอกไม้ไฟร่วมกับเพลงดังจาก名探偵コナンจัดที่โยโคฮามา",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "「名探偵コナン」名曲の数々×花火がエモい!!「ハイウェイの堕天使」の舞台・横浜で花火ショー開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0Y1oxT1ZZT0xhLUl3NDBPWFVlMlM0Y054XzVZa3IwN3pZWjRaRC00bTI1UV9kUzdKTENVTmtPN21xZUM3MHlvRllvSFhGX1B3Z0ZQT2Vvd21LMHpPX0lfQlJ3?oc=5",
+    "source": "アニメ！アニメ！",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "9408a2614cf4",
+  "name": "黒帯単独ライブ「おもしろ関西人」",
+  "name_th": "คอนเสิร์ตเดี่ยวแบล็คเบลท์ 「คนกันไซน่าสนใจ」 ที่โตเกียวและออซาก้า",
+  "start": null,
+  "end": null,
+  "venue": "Tokyo & Osaka venues",
+  "city": "Tokyo, Osaka",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "comedy",
+   "concert"
+  ],
+  "summary_th": "การแสดงตลกและดนตรีของแบล็คเบลท์จัดที่โตเกียวและออซาก้า",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "黒帯単独ライブ「おもしろ関西人」東京・大阪にて開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE82c1RaUDlGbFdMQW5OcEw5YkEwdkJVTXZFOHpELXlBSk9sYzNtc1FiLW84T29BWmd3cWFuQ3F5VUVqN3JGSGZ0MQ?oc=5",
+    "source": "Fany Magazine",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "c0066c2fb6bd",
+  "name": "大黒摩季 デビュー35周年 インストアイベント",
+  "name_th": "อินสโตร์อีเวนต์ 35 ปี เดบิวต์ ของ มากิ โออิกี",
+  "start": null,
+  "end": null,
+  "venue": "In-store venue",
+  "city": "Tokyo",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert",
+   "fanmeet",
+   "idol"
+  ],
+  "summary_th": "อินสโตร์อีเวนต์พิเศษ 35 ปีของนักร้องมากิ โออิกี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "大黒摩季、デビュー35周年で“最初で最後の”インストアイベント開催決定「大黒摩季しかやれないインストアイベントを見せたい！」",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XQ1g1QmVSSms1Yy1SMFE2OGFDdHU4S3JINHJDV2NoZlY3MmFIWWNNZk4xQTRkeUd5ZjF5eUQzZUtha3djOTh6dXcwbm5wVURlNXJ6WmttdjI1bENxUnJ1R0hQbGt5WlFPbXpYSGxpMERSU1k5UmJsTGJDVQ?oc=5",
+    "source": "ニコニコニュース",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "22aa30ff334b",
+  "name": "Conton Candy 東名阪ワンマンツアー",
+  "name_th": "ทัวร์คอนเสิร์ต Conton Candy ทก.NG.โตเกียว-นาโกยา-ออซาก้า",
+  "start": null,
+  "end": null,
+  "venue": "Live houses in Tokyo, Nagoya, Osaka",
+  "city": "Tokyo, Nagoya, Osaka",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert"
+  ],
+  "summary_th": "ทัวร์คอนเสิร์ตของ Conton Candy ครอบคลุมโตเกียว นาโกยา และออซาก้า",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "Conton Candy、今度は最至近距離で。ライブハウスで向き合う東名阪ワンマンツアー開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96WWhpQmExLUNONnViZ3lkaEtFcXlfbXFuNXk4dWdpeWFiWkZEVjNzQ2NUZXA1RXpBM0JsT0JCZURpRU5tQ3h5eW1EMzg4aGQ1eWt5SDA5bnJsT3FDMFg1bDZEZVI?oc=5",
+    "source": "USENの音楽情報サイト",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "b980583ec248",
+  "name": "えるぱ！～Lions performers party 2027！～",
+  "name_th": "เอลพา！～Lions performers party 2027！～",
+  "start": "2027-01-16",
+  "end": "2027-01-16",
+  "venue": null,
+  "city": "埼玉県",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert",
+   "idol"
+  ],
+  "summary_th": "การแสดงเดี่ยวของพอร์ฟอร์มเมอร์สโมสรเบสบอล Saitama Seibu Lions จัดขึ้นวันที่ 16 มกราคม 2570",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "埼玉西武のパフォーマーが主役！単独公演『えるぱ！～Lions performers party 2027！～』が1月16日に開催決定",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5tdVBvNkI4LUFMcHVuTkN6SS1ZQk1GTU9qbUJlMGZ5YnB6QXFRazhMUG56cjJCUkFiRUR0blg0YUUwT29XdDA2clNLSGYtbmZ0ai1zRHFGRdIBUkFVX3lxTE53aXU1RUYtc2ZCa2R2Z3U2ZDdjOWE3R3Jqa19tem9FUHByVWUtTXRzUjYxalpiRUdzY2F5M1RuRFRxTDBHWUlGaGtrZnR0OGFTcHc?oc=5",
+    "source": "パ・リーグ.com",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "f919d117a139",
+  "name": "カキンツハルカLive Tour 2027 -AGAIN- 追加公演",
+  "name_th": "คาคินทซูฮารุกะ Live Tour 2027 -AGAIN- รอบเพิ่มเติม",
+  "start": "2027-02-21",
+  "end": "2027-02-21",
+  "venue": "SGC HALL ARIAKE",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert"
+  ],
+  "summary_th": "คอนเสิร์ตเพิ่มเติมรอบสุดท้ายของทัวร์ 'カキンツハルカLive Tour 2027 -AGAIN-' จัดที่ SGC HALL ARIAKE วันที่ 21 กุมภาพันธ์ 2570",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "「カキンツハルカLive Tour 2027 -AGAIN-」ツアーファイナルを飾る追加公演が2/21(日)「SGC HALL ARIAKE」にて開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFB1Q0dDRUUtekZfRDZkYWZjT25vRWJKTjN4OTRkMjRVY3dhdHd2LVYzVDNnbXJQbUlPdnNPLWhsRUExMTA?oc=5",
+    "source": "エンタメラッシュ",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "d4933e057382",
+  "name": "CL6th LDH紅白頂上決戦",
+  "name_th": "CL6th LDH โฮงบะขาว การตัดสินศึกยอดเยี่ยม",
+  "start": null,
+  "end": null,
+  "venue": "有明アリーナ",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert",
+   "festival",
+   "idol"
+  ],
+  "summary_th": "งานใหญ่ระลึก 6 ปีของแอป CL ของ LDH จัดที่有明アリーナ ในช่วงปลายปี 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "LDHコンテンツのデジタルコミュニケーションサービス「CL」、6周年を記念した年末大型イベント『CL6th LDH紅白頂上決戦』が有明アリーナにて開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBrQThkRHYxWnNrc0ptR2ZraFpFQkhWZk5qSTk1dkR2UUxRNXI3X3pQTEk4SklvWDBhbVJxbjJHM21yWDA?oc=5",
+    "source": "エンタメラッシュ",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "e6a1e4c70a97",
+  "name": "第4回GOLVI PREMIUM CUP 2026",
+  "name_th": "การแข่งขันโกล์ฟ GOLVI PREMIUM CUP ครั้งที่ 4 ปี 2026",
+  "start": "2026-12-02",
+  "end": "2026-12-02",
+  "venue": null,
+  "city": null,
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "match"
+  ],
+  "summary_th": "การแข่งขันโกล์ฟ GOLVI PREMIUM CUP ครั้งที่ 4 จัดขึ้นวันที่ 2 ธันวาคม 2569 รางวัลホールインワンรวม 3 ล้านเยน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "【ホールインワン賞総額300万円】第4回GOLVI PREMIUM CUP 2026 12月2日（水）開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94UmtfQnFUcmxybzZGLTNyaFEzTkJycnh0TEE3S0N2MVg2cTlnNnUzLWFRYnRiYUZFZV9OcWgzQ2JvaE8wQmlTbFFUMW5sLU9QQ01YZV9FOUtoaGo3QUZKSjRRTVl5NFB4d3J5WWJsNUMyQUZlSDBZVg?oc=5",
+    "source": "ニコニコニュース",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "34991d480b14",
+  "name": "Midnight Grand Orchestra RE:IGNITION Series 特別公演",
+  "name_th": "Midnight Grand Orchestra RE:IGNITION Series การแสดงพิเศษ",
+  "start": "2026-12-05",
+  "end": "2026-12-06",
+  "venue": "LaLa arena TOKYO-BAY",
+  "city": "千葉",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert",
+   "vtuber"
+  ],
+  "summary_th": "การแสดงพิเศษของ Midnight Grand Orchestra ภายใต้โปรเจกต์ RE:IGNITION Series จัดที่ LaLa arena TOKYO-BAY วันที่ 5-6 ธันวาคม 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "Midnight Grand Orchestra、新プロジェクト「RE:IGNITION Series」始動！12月5日・6日にLaLa arena TOKYO-BAYにて特別公演開催決定！",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VQWJKcGVfVHVzZHIzOVlPQ0l0djNZLWxqbExFWW1MWDdRUXdGcEF3VEdySFEtVGEwWjlaUDlhSVV2Vmo4YkQzc0dqcWpoTXZ6ZzJTY0NHQkdtZnE3MXZid3g4TGdZdw?oc=5",
+    "source": "Excite エキサイト",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "4f10e87e854e",
+  "name": "スタートアップHRフォーラム2027 Winter",
+  "name_th": "ฟอรั่ม HR สตาร์ทอัพ 2027 Winter",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "startup",
+   "devconf",
+   "edu"
+  ],
+  "summary_th": "ฟอรั่ม HR สำหรับสตาร์ทอัพ รุ่น Winter 2027 จัดขึ้นเร็วๆ นี้ เปิดรับสมัครผู้เข้าร่วม 近日中",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "【Recboo】スタートアップHRフォーラム2027 Winter開催決定！近日中に参加者募集を開始！",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92eGgydE40cGQ0bnFWdC1XemNSZ3ExVmptWHFFSzBONGU4TGlDRGZtSU9sREZCeGFUeEdndWc1T3EwVDcyQWZ5Z2tVelBtSktYRE1ZTHdMUV8ycDFNMDVGRGhORDV5cnZCVHc?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "f009c73a3932",
+  "name": "東京オートサロン2027",
+  "name_th": "โตเกียว ออโตซาลอน 2027",
+  "start": "2027-01-15",
+  "end": "2027-01-17",
+  "venue": "幕張メッセ",
+  "city": "千葉",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "motorshow",
+   "carlaunch",
+   "ev"
+  ],
+  "summary_th": "โตเกียว ออโตซาลอน 2027 จัดขึ้นวันที่ 15-17 มกราคม 2570 ที่ 幕張メッセ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“赤い”「ホンダエンブレム」も…「NSX トリビュート by イタル ...",
+    "link": "https://news.yahoo.co.jp/articles/1bb322ab69b9aac0f72015ea2f4405752ae3d754",
+    "source": "Yahoo!ニュース",
+    "date": "2026-10-27",
+    "image": "http://www.bing.com/th?id=ONUT.W9aA678l7WyfD0QkqNeEew&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "8d824c2c695b",
+  "name": "『めっちゃカメレオン』リアルかくれんぼイベント",
+  "name_th": "อีเวนต์ล่องหนซ่อนจริง 『หมากะเล่อนมาก』",
+  "start": null,
+  "end": null,
+  "venue": "イオンモール各店",
+  "city": null,
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": "เข้าฟรี",
+  "tags": [
+   "kids",
+   "market"
+  ],
+  "summary_th": "กิจกรรมล่องหนซ่อนจริงของตัวละคร『めっちゃカメレオン』จัดที่สาขาイオンモールทั่วประเทศ มีของรางวัลให้",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "『めっちゃカメレオン』棒人間たちがイオンモールに隠れてる…？ 壁紙やグッズなど当たるリアルかくれんぼイベントが開催決定",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrTEhya0Z2WVBGeUVoVmFNSVd0YnBCMHBTamI3NlNGSUpxZndyS0RjUndYYjFVYVhiamJIaUYzTWtZUnhCQzV3aDh3NFlHMkVXdGlyRGphU0FNRG1pd1llTXlFbllWeVpKMnc?oc=5",
+    "source": "インサイド",
+    "date": "2026-10-27",
     "image": null
    }
   ],
