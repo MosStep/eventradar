@@ -91,7 +91,7 @@ Tags (pick 1-3): ${Object.entries(TAGS).map(([k, v]) => `${k}=${v}`).join(", ")}
 Reply with valid JSON only. Never put the " character inside a string value (use 「」 or ' instead).
 {"events":[{"i":[0,3],"name":"official name (original language)","name_th":"Thai name","start":"YYYY-MM-DD or null",
 "end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null","country":"TH|JP|CN","tags":["anime"],
-"region":"region code or null","online":false,"status":"scheduled|postponed|cancelled","price_th":"entry fee in Thai if stated (เข้าฟรี / 300 บาท / ¥2,000), else null",
+"region":"region code or null","online":false,"status":"scheduled|postponed|cancelled","price_th":"short entry fee in Thai, max 40 characters (เข้าฟรี / 300 บาท / 500–2,500 บาท / ¥2,000), or null — only if stated",
 "summary_th":"one short Thai sentence"}]}
 Region codes: ${regionCodes()}.`;
 
@@ -264,21 +264,21 @@ const DESCRIBE = `You write event details for a Thai event calendar app, using O
 Reply with valid JSON only (no " inside string values):
 {"about_th":"3-4 Thai sentences: what the event is, who it is for, what you can do or see there",
 "highlights_th":["up to 5 short Thai bullet points: guests, activities, exhibitors, special items"],
-"hours":"opening hours or null","price_th":"ticket price / free entry in Thai, or null","ticket_url":"ticket/official URL found in the text, or null"}`;
+"hours":"opening hours or null","price_th":"short entry fee in Thai, max 40 characters (เข้าฟรี / 300 บาท / 500–2,500 บาท / ¥2,000), or null","ticket_url":"ticket/official URL found in the text, or null"}`;
 
 // Richer details for the app's event page, from the article text (falls back to the headlines).
-async function describe(ev) {
+async function describe(ev, key = null) {
   const urls = [...ev.sources.map(s => s.link).filter(l => !/news\.google\./.test(l)), ev.article].filter(Boolean);
   let text = "";
   for (const u of urls.slice(0, 2)) { try { text = await articleText(u); } catch {} if (text.length > 300) break; }
   const context = `Event: ${ev.name} (${ev.start || "date unknown"}, ${[ev.venue, ev.city].filter(Boolean).join(", ")})\n` +
     `Headlines:\n${ev.sources.slice(0, 5).map(s => "- " + s.title).join("\n")}\n\nArticle:\n${text || "(none)"}`;
-  const { text: out } = await extract([{ role: "system", content: DESCRIBE }, { role: "user", content: context }], ORDERS.describe);
+  const { text: out } = await extract([{ role: "system", content: DESCRIBE }, { role: "user", content: context }], ORDERS.describe, key);
   const d = parseJson(out);
   ev.about_th = d.about_th || null;
   ev.highlights_th = Array.isArray(d.highlights_th) ? d.highlights_th.slice(0, 5) : [];
   ev.hours = d.hours || null;
-  ev.price_th = d.price_th || ev.price_th || null;
+  ev.price_th = (d.price_th || ev.price_th || null)?.slice(0, 60) || null;
   if (d.ticket_url && /^https?:\/\//.test(d.ticket_url) && text.includes(d.ticket_url)) ev.official ??= d.ticket_url;
   ev.described = true;
 }
@@ -606,14 +606,19 @@ if (noRegion.length) console.log(`[region] ${noRegion.filter(e => e.region).leng
 // Upcoming events first; past ones never need details.
 const MAX_DESCRIBE = Number(arg("max-describe", 40));
 const toDescribe = events.filter(e => !e.described && (!e.end || e.end >= today)).slice(0, MAX_DESCRIBE);
-let described = 0;
-if (hasKeys()) for (const ev of toDescribe) {
-  try { await describe(ev); described++; } catch (e) {
-    if (e instanceof BillingStop) { console.error(e.message); break; }
-    console.warn(`[describe] ${ev.name}: ${e.message.slice(0, 120)}`);
+// Same parallel pattern as extraction: one worker per Nemotron key.
+let described = 0, describeStop = false;
+const describeQueue = [...toDescribe];
+if (hasKeys()) await Promise.all((nemotronKeys().length ? nemotronKeys() : [null]).map(async key => {
+  while (describeQueue.length && !describeStop) {
+    const ev = describeQueue.shift();
+    try { await describe(ev, key); described++; } catch (e) {
+      if (e instanceof BillingStop) { console.error(e.message); describeStop = true; break; }
+      console.warn(`[describe] ${ev.name}: ${e.message.slice(0, 120)}`);
+    }
+    if (described % 10 === 0) save(EVENTS, events);
   }
-  if (described % 10 === 0) save(EVENTS, events);
-}
+}));
 console.log(`[describe] ${described}/${toDescribe.length} events got details`);
 
 events.sort((a, b) => (a.start || "9999").localeCompare(b.start || "9999"));
