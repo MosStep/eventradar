@@ -54,6 +54,9 @@ const state = {
   offRegions: new Set(store.get("offRegions", [])), // "TH:north" style keys
   format: store.get("format", "all"), // all | offline | online
   quick: store.get("quick", null), // one group picked from the main screen, or null for all
+  calView: ["month", "week", "agenda"].includes(store.get("calView")) ? store.get("calView") : "month",
+  picker: false,
+  pickerYear: new Date().getFullYear(),
   starred: new Set(store.get("starred", [])),
   month: new Date(new Date().getFullYear(), new Date().getMonth(), 1),
   day: TODAY,
@@ -63,7 +66,8 @@ const state = {
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
-const fmt = d => { const [y, m, dd] = d.split("-").map(Number); return `${dd} ${SHORT[m - 1]} ${y + 543}`; };
+const yr = y => (prefs.era === "ce" ? y : y + 543); // พ.ศ. by default, ค.ศ. from Settings
+const fmt = d => { const [y, m, dd] = d.split("-").map(Number); return `${dd} ${SHORT[m - 1]} ${yr(y)}`; };
 const dateText = e => !e.start ? "ยังไม่ประกาศวัน" : e.end && e.end !== e.start ? `${fmt(e.start)} – ${fmt(e.end)}` : fmt(e.start);
 const daysUntil = d => Math.round((new Date(d + "T00:00:00") - new Date(TODAY + "T00:00:00")) / 864e5);
 const color = e => TAGS[e.tags[0]]?.color || "#7a5cff";
@@ -154,6 +158,67 @@ function card(e) {
   </div>`;
 }
 
+// ── Calendar views. Week start and year style come from Settings. ──
+const WD = ["อา", "จ", "อ", "พ", "พฤ", "ศ", "ส"];
+const weekStart = () => (prefs.weekStart === "mon" ? 1 : 0);
+const addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+const parse = s => new Date(s + "T00:00:00");
+const starredOn = (list, day) => list.some(e => state.starred.has(e.id) && onDay(e, day));
+
+function dayCell(list, d, extra = "") {
+  const day = iso(d), evs = list.filter(e => onDay(e, day));
+  const bars = evs.slice(0, 3).map(e => `<i style="background:${color(e)}"></i>`).join("");
+  return `<button class="day ${extra} ${day === TODAY ? "today" : ""} ${day === state.day ? "sel" : ""} ${starredOn(list, day) ? "fav" : ""}" data-day="${day}">
+    <b>${d.getDate()}</b><span class="bars">${bars}</span>${evs.length > 1 ? `<em class="n">${evs.length}</em>` : ""}</button>`;
+}
+const weekdayRow = () => `<div class="grid weekdays">${[0, 1, 2, 3, 4, 5, 6].map(i => `<span>${WD[(i + weekStart()) % 7]}</span>`).join("")}</div>`;
+
+function monthGrid(list) {
+  const m = state.month, lead = (m.getDay() - weekStart() + 7) % 7;
+  const first = addDays(m, -lead);
+  let html = "";
+  for (let i = 0; i < 42; i++) { const d = addDays(first, i); html += dayCell(list, d, d.getMonth() !== m.getMonth() ? "out" : ""); }
+  return `${weekdayRow()}<div class="grid swipe">${html}</div>`;
+}
+
+function weekStrip(list) {
+  const sel = parse(state.day), start = addDays(sel, -((sel.getDay() - weekStart() + 7) % 7));
+  return `${weekdayRow()}<div class="grid swipe week">${[0, 1, 2, 3, 4, 5, 6].map(i => dayCell(list, addDays(start, i))).join("")}</div>`;
+}
+
+// Agenda: the next 45 days from the selected day, one header per day that has events.
+function agenda(list) {
+  let html = "", shown = 0;
+  for (let i = 0; i < 45 && shown < 80; i++) {
+    const d = addDays(parse(state.day), i), day = iso(d), evs = list.filter(e => onDay(e, day));
+    if (!evs.length) continue;
+    shown += evs.length;
+    html += `<div class="agenda-day ${day === TODAY ? "is-today" : ""}"><div class="ad-date"><b>${d.getDate()}</b><span>${WD[d.getDay()]} · ${SHORT[d.getMonth()]}</span></div>
+      <div class="cards">${evs.map(card).join("")}</div></div>`;
+  }
+  return html || `<p class="empty">ไม่มีงานใน 45 วันนี้ตามตัวกรองที่เลือก</p>`;
+}
+
+// Month/year picker opens inline under the title (never over the content).
+function renderPicker() {
+  $("#picker").hidden = !state.picker;
+  if (!state.picker) return;
+  const y = state.pickerYear;
+  $("#picker").innerHTML = `<div class="picker-year"><button data-pyear="-1" aria-label="ปีก่อน">‹</button><b>${yr(y)}</b><button data-pyear="1" aria-label="ปีถัดไป">›</button></div>
+    <div class="picker-months">${MONTHS.map((n, i) => {
+      const count = visible().filter(e => e.start && e.start.slice(0, 7) <= `${y}-${String(i + 1).padStart(2, "0")}` && (e.end || e.start).slice(0, 7) >= `${y}-${String(i + 1).padStart(2, "0")}`).length;
+      const cur = y === state.month.getFullYear() && i === state.month.getMonth();
+      return `<button class="${cur ? "on" : ""}" data-pmonth="${i}">${SHORT[i]}${count ? `<small>${count}</small>` : ""}</button>`;
+    }).join("")}</div>`;
+}
+
+function stepCalendar(dir) {
+  if (state.calView === "month") return shiftMonth(dir);
+  const d = addDays(parse(state.day), dir * (state.calView === "week" ? 7 : 14));
+  state.day = iso(d);
+  state.month = new Date(d.getFullYear(), d.getMonth(), 1);
+}
+
 function renderHome() {
   const list = visible();
   const soon = list.filter(e => e.start && (e.end || e.start) >= TODAY && daysUntil(e.start) <= 30).slice(0, 12);
@@ -163,18 +228,15 @@ function renderHome() {
       <div class="txt"><h4>${esc(title(e))}</h4><p>${COUNTRIES[e.country]} · ${e.start ? fmt(e.start) : ""}</p></div>
     </button>`).join("") : `<p class="empty">ยังไม่มีงานใน 30 วันข้างหน้าตามตัวกรองนี้</p>`;
 
-  const m = state.month;
-  $("#monthTitle").textContent = `${MONTHS[m.getMonth()]} ${m.getFullYear() + 543}`;
-  const first = new Date(m.getFullYear(), m.getMonth(), 1 - m.getDay());
-  let html = "";
-  for (let i = 0; i < 42; i++) {
-    const d = new Date(first.getFullYear(), first.getMonth(), first.getDate() + i), day = iso(d);
-    const evs = list.filter(e => onDay(e, day));
-    const bars = evs.slice(0, 3).map(e => `<i style="background:${color(e)}"></i>`).join("");
-    html += `<button class="day ${d.getMonth() !== m.getMonth() ? "out" : ""} ${day === TODAY ? "today" : ""} ${day === state.day ? "sel" : ""}" data-day="${day}">
-      <b>${d.getDate()}</b><span class="bars">${bars}</span>${evs.length > 1 ? `<em class="n">${evs.length}</em>` : ""}</button>`;
-  }
-  $("#days").innerHTML = html;
+  const m = state.month, view = state.calView;
+  $("#monthTitle").innerHTML = `${MONTHS[m.getMonth()]} ${yr(m.getFullYear())} <span class="caret">▾</span>`;
+  $("#monthTitle").setAttribute("aria-expanded", state.picker);
+  $("#calViews").innerHTML = [["month", "เดือน"], ["week", "สัปดาห์"], ["agenda", "กำหนดการ"]].map(([v, l]) =>
+    `<button class="${view === v ? "on" : ""}" data-calview="${v}">${l}</button>`).join("");
+  renderPicker();
+  $("#dayBlock").hidden = view === "agenda";
+  $("#calBody").innerHTML = view === "month" ? monthGrid(list) : view === "week" ? weekStrip(list) : agenda(list);
+  if (view === "agenda") return;
 
   const evs = list.filter(e => onDay(e, state.day));
   $("#dayTitle").textContent = state.day === TODAY ? "วันนี้" : fmt(state.day);
@@ -188,7 +250,7 @@ function renderList() {
   for (const e of list) (groups[e.start ? (e.start < TODAY ? TODAY : e.start).slice(0, 7) : "nodate"] ||= []).push(e);
   const keys = Object.keys(groups).sort();
   $("#list").innerHTML = keys.length ? keys.map(k => {
-    const t = k === "nodate" ? "ยังไม่ประกาศวัน" : `${MONTHS[Number(k.slice(5)) - 1]} ${Number(k.slice(0, 4)) + 543}`;
+    const t = k === "nodate" ? "ยังไม่ประกาศวัน" : `${MONTHS[Number(k.slice(5)) - 1]} ${yr(Number(k.slice(0, 4)))}`;
     return `<div class="section-head"><h2>${t}</h2><small>${groups[k].length} งาน</small></div><div class="cards">${groups[k].map(card).join("")}</div>`;
   }).join("") : `<p class="empty">ไม่มีงานตามตัวกรองที่เลือก</p>`;
 }
@@ -208,6 +270,8 @@ function renderSettings() {
     <div class="setting"><h4>${icon("moon")} ธีม</h4>${seg("theme", [["", "ตามเครื่อง", "auto"], ["light", "สว่าง", "sun"], ["dark", "มืด", "moon"]])}</div>
     <div class="setting"><h4>${icon("sparkle")} สีหลัก</h4><div class="swatches">${accents.map(([v, c]) =>
       `<button class="${(prefs.accent || "") === v ? "on" : ""}" style="background:${c}" data-pref="accent" data-val="${v}" aria-label="สี ${c}"></button>`).join("")}</div></div>
+    <div class="setting"><h4>${icon("calendar")} ปฏิทิน</h4><p>วันแรกของสัปดาห์</p>${seg("weekStart", [["", "อาทิตย์"], ["mon", "จันทร์"]])}
+      <p style="margin-top:12px">รูปแบบปี</p>${seg("era", [["", "พ.ศ."], ["ce", "ค.ศ."]])}</div>
     <div class="setting"><h4>${icon("type")} ขนาดตัวอักษร</h4>${seg("size", [["", "ปกติ"], ["large", "ใหญ่"]])}</div>
     <div class="setting"><h4>${icon("sparkle")} แอนิเมชัน</h4>${seg("motion", [["", "เปิด"], ["off", "ลดการเคลื่อนไหว"]])}</div>
     <div class="setting"><h4>${icon("star")} ข้อมูลของฉัน</h4>
@@ -434,8 +498,20 @@ document.addEventListener("click", ev => {
     state.offTags.clear(); state.offRegions.clear(); state.countries = new Set(Object.keys(COUNTRIES)); state.quick = null; state.format = "all";
     store.set("offTags", []); store.set("offRegions", []); store.set("format", "all"); store.set("countries", [...state.countries]); store.set("quick", null);
   }
-  else if (b.dataset.day) state.day = b.dataset.day;
-  else if (b.id === "prev" || b.id === "next") shiftMonth(b.id === "next" ? 1 : -1);
+  else if (b.dataset.day) {
+    state.day = b.dataset.day;
+    const d = parse(state.day);
+    if (state.calView === "month" && d.getMonth() !== state.month.getMonth()) state.month = new Date(d.getFullYear(), d.getMonth(), 1);
+  }
+  else if (b.dataset.calview) { state.calView = b.dataset.calview; state.picker = false; store.set("calView", state.calView); }
+  else if (b.id === "monthTitle") { state.picker = !state.picker; state.pickerYear = state.month.getFullYear(); }
+  else if (b.dataset.pyear) state.pickerYear += Number(b.dataset.pyear);
+  else if (b.dataset.pmonth) {
+    state.month = new Date(state.pickerYear, Number(b.dataset.pmonth), 1);
+    state.day = iso(state.month); state.picker = false;
+  }
+  else if (b.id === "today") { state.day = TODAY; state.month = new Date(new Date().getFullYear(), new Date().getMonth(), 1); state.picker = false; }
+  else if (b.id === "prev" || b.id === "next") stepCalendar(b.id === "next" ? 1 : -1);
   else if (b.id === "exportIcs") return exportIcs();
   else return;
   render();
@@ -445,11 +521,17 @@ document.addEventListener("click", ev => {
 function shiftMonth(n) { state.month = new Date(state.month.getFullYear(), state.month.getMonth() + n, 1); }
 
 // Swipe the month grid left/right to change month.
-let touchX = null;
-$("#days").addEventListener("touchstart", e => (touchX = e.touches[0].clientX), { passive: true });
-$("#days").addEventListener("touchend", e => {
-  const dx = e.changedTouches[0].clientX - touchX;
-  if (Math.abs(dx) > 50) { shiftMonth(dx < 0 ? 1 : -1); render(); }
+// Only a quick, clearly sideways swipe on the grid changes month/week. Scrolling the page up or down (even at a slant)
+// must never move the calendar, so the gesture has to be mostly horizontal and short.
+let touch = null;
+$("#calBody").addEventListener("touchstart", e => {
+  touch = e.target.closest(".swipe") ? { x: e.touches[0].clientX, y: e.touches[0].clientY, t: Date.now() } : null;
+}, { passive: true });
+$("#calBody").addEventListener("touchend", e => {
+  if (!touch) return;
+  const dx = e.changedTouches[0].clientX - touch.x, dy = e.changedTouches[0].clientY - touch.y, ms = Date.now() - touch.t;
+  touch = null;
+  if (Math.abs(dx) > 70 && Math.abs(dx) > 2.5 * Math.abs(dy) && ms < 500) { stepCalendar(dx < 0 ? 1 : -1); render(); }
 });
 document.addEventListener("keydown", e => {
   if (e.key !== "Escape") return;

@@ -32,13 +32,17 @@
     <section id="home" class="view">
       <div class="section-head"><h2>เร็วๆ นี้</h2><small id="soonCount"></small></div>
       <div id="soon" class="rail"></div>
-      <div class="section-head"><h2 id="monthTitle"></h2>
-        <div class="month-nav"><button id="prev" aria-label="เดือนก่อน">‹</button><button id="next" aria-label="เดือนถัดไป">›</button></div>
+      <div class="cal-head">
+        <button id="monthTitle" class="month-btn" aria-expanded="false"></button>
+        <div class="month-nav"><button id="today" class="today-btn">วันนี้</button><button id="prev" aria-label="ก่อนหน้า">‹</button><button id="next" aria-label="ถัดไป">›</button></div>
       </div>
-      <div class="grid weekdays"><span>อา</span><span>จ</span><span>อ</span><span>พ</span><span>พฤ</span><span>ศ</span><span>ส</span></div>
-      <div class="grid" id="days"></div>
-      <div class="section-head"><h2 id="dayTitle"></h2><small id="clash"></small></div>
-      <div id="dayEvents" class="cards"></div>
+      <div id="picker" class="picker" hidden></div>
+      <div class="seg cal-views" id="calViews"></div>
+      <div id="calBody"></div>
+      <div id="dayBlock">
+        <div class="section-head"><h2 id="dayTitle"></h2><small id="clash"></small></div>
+        <div id="dayEvents" class="cards"></div>
+      </div>
     </section>
 
     <section id="list" class="view" hidden></section>

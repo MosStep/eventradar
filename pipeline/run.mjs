@@ -44,7 +44,7 @@ async function fetchHeadlines(raw) {
               if (raw[id]) { if (!raw[id].tags.includes(t)) raw[id].tags.push(t); continue; }
               const desc = url.includes("news.google") ? "" : tag(item, "description").slice(0, 200);
               const ok = EVENT_WORDS.test(title + desc);
-              raw[id] = { id, country, tags: [t], title, desc, source, link: unwrap(tag(item, "link")), image: tag(item, "News:Image") || null,
+              raw[id] = { id, country, tags: [t], title, desc, source, link: unwrap(tag(item, "link")), image: LOGO_SITES.test(unwrap(tag(item, "link"))) ? null : tag(item, "News:Image") || null,
                 date: new Date(tag(item, "pubDate")).toISOString().slice(0, 10), status: ok ? "new" : "skip" };
               ok ? added++ : skipped++;
             }
@@ -188,7 +188,10 @@ const ogImage = html => (html.match(/<meta[^>]+property=["']og:image["'][^>]+con
   || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i))?.[1];
 
 // A news site's default share image (its logo) is not a poster. Caught by name, or by being used for several events.
-const GENERIC_IMAGE = /logo|ogp?[_-]?default|default[_-]?(og|ogp|image|share)|noimage|no[_-]image|placeholder|common\/images|\/ogp\.(png|jpg)|share\.(png|jpg)|s\.yimg\.jp\/images\/news/i;
+// Sites whose article thumbnails are their logo (Bing renders the site, not the event), or that sign image URLs
+// with a short expiry (exp=…) so the poster disappears within hours.
+const LOGO_SITES = /news\.yahoo\.co\.jp|yahoo\.com|msn\.com/i;
+const GENERIC_IMAGE = /[?&]exp=\d+|logo|ogp?[_-]?default|default[_-]?(og|ogp|image|share)|noimage|no[_-]image|placeholder|common\/images|\/ogp\.(png|jpg)|share\.(png|jpg)|s\.yimg\.jp\/images\/news/i;
 const genericImages = new Set();
 const posterOk = url => url && !GENERIC_IMAGE.test(url) && !genericImages.has(url);
 
@@ -201,14 +204,14 @@ async function searchImage(ev) {
     const xml = await (await fetch(`https://www.bing.com/news/search?q=${encodeURIComponent(ev.name)}&format=rss${cc}`, { headers: UA })).text();
     const items = xml.split("<item>").slice(1, 5);
     ev.article ??= items[0] ? unwrap(tag(items[0], "link")) : null; // used later for the event description
-    const withThumb = items.find(i => posterOk(tag(i, "News:Image")));
-    if (withThumb) return (ev.image = tag(withThumb, "News:Image"));
+    const withThumb = items.find(i => posterOk(tag(i, "News:Image")) && !LOGO_SITES.test(unwrap(tag(i, "link"))));
+    if (withThumb) { ev.imageFrom = unwrap(tag(withThumb, "link")); return (ev.image = tag(withThumb, "News:Image")); }
     // A dead or logo-only article is skipped and the next one tried.
     for (const i of items) {
       const link = unwrap(tag(i, "link"));
       try {
         const og = ogImage((await (await fetch(link, { headers: UA, signal: AbortSignal.timeout(10000) })).text()).slice(0, 300000));
-        if (og && posterOk(new URL(decode(og), link).href)) return (ev.image = new URL(decode(og), link).href);
+        if (og && posterOk(new URL(decode(og), link).href)) { ev.imageFrom = link; return (ev.image = new URL(decode(og), link).href); }
       } catch {}
     }
   } catch {}
@@ -450,7 +453,11 @@ console.log(`[enrich] ${todo.length} events: ${todo.filter(e => e.image).length}
 const imageUse = new Map();
 for (const e of events) if (e.image) imageUse.set(e.image, (imageUse.get(e.image) || 0) + 1);
 for (const [url, n] of imageUse) if (n >= 3) genericImages.add(url);
-for (const e of events) if (e.image && !posterOk(e.image)) { e.image = null; e.imageTried = false; }
+for (const e of events) {
+  const fromLogoSite = LOGO_SITES.test(e.imageFrom || "") || e.sources.some(s => s.image === e.image && LOGO_SITES.test(s.link));
+  if (e.image && (!posterOk(e.image) || fromLogoSite)) { e.image = null; e.imageTried = false; e.imageFrom = null; }
+  for (const s of e.sources) if (LOGO_SITES.test(s.link)) s.image = null;
+}
 const noImage = events.filter(e => !e.image && !e.imageTried);
 for (const ev of noImage) { await searchImage(ev); await sleep(400); }
 console.log(`[image search] ${noImage.length} events without poster: found ${noImage.filter(e => e.image).length}`);
