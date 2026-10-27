@@ -352,16 +352,32 @@ for (let i = events.length - 1; i > 0; i--) {
 // Same event under very different names (e.g. "งานหนังสือ 2569" vs "มหกรรมหนังสือระดับชาติ ครั้งที่ 31").
 // Only pairs with the same dates (±1 day) and the same venue or city are asked about, and the model must be sure:
 // big venues host several different events on the same days.
+// Looser name match than similar(): shares at least 40% of character pairs. Only used to pick pairs for the AI to judge.
+function similarLoose(a, b) {
+  a = norm(a); b = norm(b);
+  if (a.length < 4 || b.length < 4) return false;
+  const grams = s => new Set(Array.from({ length: s.length - 1 }, (_, i) => s.slice(i, i + 2)));
+  const ga = grams(a), gb = grams(b);
+  let hit = 0;
+  for (const g of ga) if (gb.has(g)) hit++;
+  return hit / Math.min(ga.size, gb.size) >= 0.4;
+}
 const dayGap = (a, b) => Math.abs(new Date(a) - new Date(b)) / 864e5;
 function dupCandidates() {
   const pairs = [];
-  const dated = events.filter(e => e.start && !e.notDup);
+  const asked = (a, b) => (a.notDupWith || []).includes(b.id) || (b.notDupWith || []).includes(a.id);
+  const dated = events.filter(e => e.start);
   for (let i = 0; i < dated.length; i++) for (let j = i + 1; j < dated.length; j++) {
     const a = dated[i], b = dated[j];
     if (a.country !== b.country || dayGap(a.start, b.start) > 1 || dayGap(a.end || a.start, b.end || b.start) > 1) continue;
     const place = (a.venue && b.venue && similar(a.venue, b.venue)) || (a.city && b.city && norm(a.city) === norm(b.city));
-    if (place && !(a.notDupWith || []).includes(b.id)) pairs.push([a, b]);
+    if (place && !asked(a, b)) pairs.push([a, b]);
   }
+  // An undated entry is often a vaguer report of a dated one: pair it with dated events whose name looks alike.
+  const looseName = (a, b) => [[a.name, b.name], [a.name_th, b.name_th], [a.name, b.name_th], [a.name_th, b.name]]
+    .some(([x, y]) => x && y && similarLoose(x, y));
+  for (const u of events.filter(e => !e.start))
+    for (const d of dated) if (u.country === d.country && !asked(u, d) && looseName(u, d)) pairs.push([d, u]);
   return pairs;
 }
 async function aiDedupe() {
