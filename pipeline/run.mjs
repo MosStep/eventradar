@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { COUNTRIES, TAGS, EVENT_WORDS, feeds } from "./sources.mjs";
-import { extract, BillingStop } from "./tenixe.mjs";
+import { extract, hasKeys, ORDERS, BillingStop } from "./tenixe.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw.json");
@@ -144,9 +144,8 @@ async function enrich(ev) {
     try {
       const res = await fetch(s.link, { headers: UA, signal: AbortSignal.timeout(10000) });
       const html = (await res.text()).slice(0, 600000);
-      const og = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i)
-        || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
-      if (og && !ev.image) ev.image = new URL(decode(og[1]), s.link).href;
+      const og = ogImage(html);
+      if (og && !ev.image) ev.image = new URL(decode(og), s.link).href;
       if (!ev.official) {
         const host = new URL(s.link).hostname.replace(/^www\./, "");
         const words = (ev.name.toLowerCase().match(/[a-z0-9]{4,}/g) || []).filter(w => !/2026|2027|event|show|festival/.test(w));
@@ -162,6 +161,61 @@ async function enrich(ev) {
   }
   ev.image ??= ev.sources.find(s => s.image)?.image ?? null;
   ev.enriched = true;
+}
+
+const ogImage = html => (html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i)
+  || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i))?.[1];
+
+// No poster from the event's own news (e.g. Google-only links): search Bing News by event name and take the
+// first thumbnail, or the og:image of the first articles found.
+async function searchImage(ev) {
+  ev.imageTried = true;
+  const cc = { TH: "&cc=TH", JP: "&cc=JP" }[ev.country] || "";
+  try {
+    const xml = await (await fetch(`https://www.bing.com/news/search?q=${encodeURIComponent(ev.name)}&format=rss${cc}`, { headers: UA })).text();
+    const items = xml.split("<item>").slice(1, 5);
+    ev.article ??= items[0] ? unwrap(tag(items[0], "link")) : null; // used later for the event description
+    const withThumb = items.find(i => tag(i, "News:Image"));
+    if (withThumb) return (ev.image = tag(withThumb, "News:Image"));
+    for (const i of items) {
+      const link = unwrap(tag(i, "link"));
+      try {
+        const og = ogImage((await (await fetch(link, { headers: UA, signal: AbortSignal.timeout(10000) })).text()).slice(0, 300000));
+        if (og) return (ev.image = new URL(decode(og), link).href);
+      } catch {}
+    }
+  } catch {}
+}
+
+// Readable text of a news article: paragraph contents only, which skips most menus and footers.
+async function articleText(url) {
+  const html = await (await fetch(url, { headers: UA, signal: AbortSignal.timeout(10000) })).text();
+  const paras = [...html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, "").matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map(m => decode(m[1])).filter(t => t.length > 30);
+  return paras.join("\n").slice(0, 3500);
+}
+
+const DESCRIBE = `You write event details for a Thai event calendar app, using ONLY the given news text. Never invent facts.
+Reply with valid JSON only (no " inside string values):
+{"about_th":"3-4 Thai sentences: what the event is, who it is for, what you can do or see there",
+"highlights_th":["up to 5 short Thai bullet points: guests, activities, exhibitors, special items"],
+"hours":"opening hours or null","price_th":"ticket price / free entry in Thai, or null","ticket_url":"ticket/official URL found in the text, or null"}`;
+
+// Richer details for the app's event page, from the article text (falls back to the headlines).
+async function describe(ev) {
+  const urls = [...ev.sources.map(s => s.link).filter(l => !/news\.google\./.test(l)), ev.article].filter(Boolean);
+  let text = "";
+  for (const u of urls.slice(0, 2)) { try { text = await articleText(u); } catch {} if (text.length > 300) break; }
+  const context = `Event: ${ev.name} (${ev.start || "date unknown"}, ${[ev.venue, ev.city].filter(Boolean).join(", ")})\n` +
+    `Headlines:\n${ev.sources.slice(0, 5).map(s => "- " + s.title).join("\n")}\n\nArticle:\n${text || "(none)"}`;
+  const { text: out } = await extract([{ role: "system", content: DESCRIBE }, { role: "user", content: context }], ORDERS.describe);
+  const d = parseJson(out);
+  ev.about_th = d.about_th || null;
+  ev.highlights_th = Array.isArray(d.highlights_th) ? d.highlights_th.slice(0, 5) : [];
+  ev.hours = d.hours || null;
+  ev.price_th = d.price_th || null;
+  if (d.ticket_url && /^https?:\/\//.test(d.ticket_url) && text.includes(d.ticket_url)) ev.official ??= d.ticket_url;
+  ev.described = true;
 }
 
 const raw = load(RAW, {});
@@ -218,6 +272,22 @@ for (let i = events.length - 1; i > 0; i--) {
 const todo = events.filter(e => !e.enriched);
 for (const ev of todo) await enrich(ev);
 console.log(`[enrich] ${todo.length} events: ${todo.filter(e => e.image).length} with poster, ${todo.filter(e => e.official).length} with official link`);
+const noImage = events.filter(e => !e.image && !e.imageTried);
+for (const ev of noImage) { await searchImage(ev); await sleep(400); }
+console.log(`[image search] ${noImage.length} events without poster: found ${noImage.filter(e => e.image).length}`);
+
+// Upcoming events first; past ones never need details.
+const MAX_DESCRIBE = Number(arg("max-describe", 40));
+const toDescribe = events.filter(e => !e.described && (!e.end || e.end >= today)).slice(0, MAX_DESCRIBE);
+let described = 0;
+if (hasKeys()) for (const ev of toDescribe) {
+  try { await describe(ev); described++; } catch (e) {
+    if (e instanceof BillingStop) { console.error(e.message); break; }
+    console.warn(`[describe] ${ev.name}: ${e.message.slice(0, 120)}`);
+  }
+  if (described % 10 === 0) save(EVENTS, events);
+}
+console.log(`[describe] ${described}/${toDescribe.length} events got details`);
 
 events.sort((a, b) => (a.start || "9999").localeCompare(b.start || "9999"));
 save(EVENTS, events);

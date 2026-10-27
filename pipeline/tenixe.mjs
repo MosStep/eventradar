@@ -1,15 +1,22 @@
 // Minimal Tenixe client: streaming chat, per-call key fallback, billing stop.
 // Keys come from env TENIXE_KEYS="key1,key2,..." — never write them into files.
 const BASE_URL = "https://api.tenixe.com/api/v1";
-const keys = () => (process.env.TENIXE_KEYS || "").split(",").map(k => k.trim()).filter(Boolean);
+const list = name => (process.env[name] || "").split(",").map(k => k.trim()).filter(Boolean);
+// TENIXE_NEMOTRON_KEYS: keys where nemotron-3-ultra is unlimited. They are never used for other (billed) models.
+const keysFor = model => (model === "nemotron-3-ultra" ? [...list("TENIXE_NEMOTRON_KEYS"), ...list("TENIXE_KEYS")] : list("TENIXE_KEYS"));
+export const hasKeys = () => list("TENIXE_KEYS").length + list("TENIXE_NEMOTRON_KEYS").length > 0;
 
 export class BillingStop extends Error {}
 
 // Haiku does the work; reasoning models need a large max_tokens or they return nothing.
 // EXTRACT_MODELS="nemotron-3-ultra,claude-haiku-5-5" changes the order.
 const MAX_TOKENS = { "claude-haiku-5-5": 4000, "deepseek-v4-flash": 24000, "nemotron-3-ultra": 8000 };
-export const EXTRACTORS = (process.env.EXTRACT_MODELS || "claude-haiku-5-5,deepseek-v4-flash,nemotron-3-ultra")
-  .split(",").map(model => ({ model, maxTokens: MAX_TOKENS[model] ?? 8000 }));
+// Spotting events among headlines needs judgement → Haiku first. Rewriting article text is easy → unlimited Nemotron first.
+export const ORDERS = {
+  extract: process.env.EXTRACT_MODELS || "claude-haiku-5-5,nemotron-3-ultra,deepseek-v4-flash",
+  describe: process.env.DESCRIBE_MODELS || "nemotron-3-ultra,claude-haiku-5-5",
+};
+const models = order => order.split(",").map(model => ({ model, maxTokens: MAX_TOKENS[model] ?? 8000 }));
 
 async function chatOnce(key, model, messages, maxTokens) {
   const res = await fetch(`${BASE_URL}/chat/completions`, {
@@ -41,11 +48,11 @@ async function chatOnce(key, model, messages, maxTokens) {
 const sleep = s => new Promise(r => setTimeout(r, s * 1000));
 
 /** Tries each extractor model on each key until one answers. Billing errors stop the run. */
-export async function extract(messages) {
-  if (!keys().length) throw new Error("No keys: set TENIXE_KEYS");
+export async function extract(messages, order = ORDERS.extract) {
+  if (!hasKeys()) throw new Error("No keys: set TENIXE_KEYS or TENIXE_NEMOTRON_KEYS");
   let last;
-  for (const { model, maxTokens } of EXTRACTORS) {
-    for (const key of keys()) {
+  for (const { model, maxTokens } of models(order)) {
+    for (const key of keysFor(model)) {
       for (let attempt = 1; attempt <= 3; attempt++) {
         try {
           return { model, text: await chatOnce(key, model, messages, maxTokens) };

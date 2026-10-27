@@ -50,8 +50,10 @@ function visible() {
     && (!q || [e.name, e.name_th, e.venue, e.city].some(s => s?.toLowerCase().includes(q))));
 }
 
-const img = (e, cls = "") => e.image
-  ? `<img src="${esc(e.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" class="${cls}" onerror="this.replaceWith(document.createTextNode('${emoji(e)}'))">`
+// News sites often block hotlinked images; load them through a free image proxy that also resizes.
+const proxied = (url, w) => `https://images.weserv.nl/?url=${encodeURIComponent(url)}&w=${w}&output=webp`;
+const img = (e, w = 400) => e.image
+  ? `<img src="${esc(proxied(e.image, w))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${emoji(e)}'))">`
   : emoji(e);
 
 function chips() {
@@ -160,7 +162,8 @@ function openSheet(id) {
   const news = e.sources[0]?.link;
   const search = `https://www.google.com/search?q=${encodeURIComponent(`${e.name} ${e.start?.slice(0, 4) || ""}`)}`;
   $("#sheetBody").innerHTML = `
-    <div class="sheet-hero" style="--c:${color(e)}">${img(e)}<span class="grab"></span></div>
+    <div class="sheet-hero" style="--c:${color(e)}">${img(e, 800)}<span class="grab"></span>
+      <button class="close" data-close aria-label="ปิด">✕</button></div>
     <div class="sheet-content">
       <div class="badges">${isNew(e) ? `<span class="badge new">ใหม่</span>` : ""}${e.tags.map(t => badge(t).replace(">", `>${TAGS[t]?.icon || ""} `)).join("")}</div>
       <h3 style="margin-top:10px">${esc(title(e))}</h3>
@@ -169,9 +172,14 @@ function openSheet(id) {
         <div><span>📅</span><p>${dateText(e)} · <b>${countdown(e)}</b></p></div>
         <div><span>📍</span><p>${esc(where(e) || "ยังไม่ระบุสถานที่")} · ${COUNTRIES[e.country]}</p></div>
       </div>
-      ${e.summary_th ? `<p class="summary">${esc(e.summary_th)}</p>` : ""}
+      ${e.hours || e.price_th ? `<div class="facts">
+        ${e.hours ? `<div><span>🕒</span><p>${esc(e.hours)}</p></div>` : ""}
+        ${e.price_th ? `<div><span>🎟️</span><p>${esc(e.price_th)}</p></div>` : ""}</div>` : ""}
+      ${e.about_th || e.summary_th ? `<h5>งานนี้คืออะไร</h5><p class="summary">${esc(e.about_th || e.summary_th)}</p>` : ""}
+      ${e.highlights_th?.length ? `<h5>ไฮไลต์</h5><ul class="highlights">${e.highlights_th.map(h => `<li>${esc(h)}</li>`).join("")}</ul>` : ""}
       <div class="actions">
         <button class="primary" data-star="${e.id}">${state.starred.has(e.id) ? "★ ติดตามอยู่" : "☆ ติดตามงานนี้"}</button>
+        <button data-share="${e.id}">📤 แชร์ให้เพื่อน</button>
         ${e.official ? `<a href="${esc(e.official)}" target="_blank" rel="noopener">🔗 เว็บไซต์งาน</a>` : ""}
         ${news ? `<a href="${esc(news)}" target="_blank" rel="noopener">📰 อ่านข่าว</a>` : ""}
         <a href="${search}" target="_blank" rel="noopener">🔍 ค้นหางานนี้</a>
@@ -182,9 +190,55 @@ function openSheet(id) {
         ${e.sources.map(s => `<a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.title)} <small>· ${esc(s.source)}</small></a>`).join("")}
       </div>
     </div>`;
+  if ($("#sheet").hidden) history.pushState({ sheet: id }, ""); // phone back button closes the sheet
   $("#sheet").hidden = false;
+  document.body.classList.add("lock");
   $("#sheetBody").scrollTop = 0;
 }
+
+// Share link opens the app straight on this event: …/eventradar/#e=<id>
+async function share(id) {
+  const e = state.events.find(x => x.id === id);
+  const url = `${location.origin}${location.pathname}#e=${id}`;
+  const text = `${title(e)} · ${dateText(e)}${where(e) ? ` · ${where(e)}` : ""}`;
+  try {
+    if (navigator.share) return await navigator.share({ title: title(e), text, url });
+    await navigator.clipboard.writeText(`${text}\n${url}`);
+    toast("คัดลอกลิงก์แล้ว ส่งให้เพื่อนได้เลย");
+  } catch {}
+}
+
+function toast(msg) {
+  const t = Object.assign(document.createElement("div"), { className: "toast", textContent: msg });
+  document.body.append(t);
+  setTimeout(() => t.remove(), 2200);
+}
+
+function closeSheet() {
+  if ($("#sheet").hidden) return;
+  $("#sheet").hidden = true;
+  document.body.classList.remove("lock");
+  $("#sheetBody").style.transform = "";
+  if (history.state?.sheet) history.back();
+}
+addEventListener("popstate", () => { if (!$("#sheet").hidden) { history.replaceState(null, ""); closeSheet(); } });
+
+// Drag the sheet down (from its top, when not scrolled) to close it.
+let dragY = null;
+$("#sheetBody").addEventListener("touchstart", e => { dragY = $("#sheetBody").scrollTop <= 0 ? e.touches[0].clientY : null; }, { passive: true });
+$("#sheetBody").addEventListener("touchmove", e => {
+  if (dragY === null) return;
+  const dy = e.touches[0].clientY - dragY;
+  if (dy > 0) { e.preventDefault(); $("#sheetBody").style.transform = `translate(-50%, ${dy}px)`; }
+}, { passive: false });
+$("#sheetBody").addEventListener("touchend", e => {
+  if (dragY === null) return;
+  const dy = e.changedTouches[0].clientY - dragY;
+  dragY = null;
+  $("#sheetBody").style.transition = "transform .2s";
+  if (dy > 90) closeSheet(); else $("#sheetBody").style.transform = "";
+  setTimeout(() => ($("#sheetBody").style.transition = ""), 220);
+});
 
 function exportIcs() {
   const txt = s => String(s || "").replace(/[\\,;]/g, m => "\\" + m).replace(/\n/g, "\\n");
@@ -204,7 +258,9 @@ function toggle(set, key, value) { set.has(value) ? set.delete(value) : set.add(
 
 document.addEventListener("click", ev => {
   if (ev.target.closest("a")) return;
-  if (ev.target.closest("[data-close]")) { $("#sheet").hidden = true; return; }
+  if (ev.target.closest("[data-close]")) return closeSheet();
+  const sh = ev.target.closest("[data-share]");
+  if (sh) return share(sh.dataset.share);
   const star = ev.target.closest("[data-star]");
   if (star) {
     toggle(state.starred, "starred", star.dataset.star);
@@ -241,7 +297,7 @@ $("#days").addEventListener("touchend", e => {
   const dx = e.changedTouches[0].clientX - touchX;
   if (Math.abs(dx) > 50) { shiftMonth(dx < 0 ? 1 : -1); render(); }
 });
-document.addEventListener("keydown", e => { if (e.key === "Escape") $("#sheet").hidden = true; });
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
 $("#search").addEventListener("input", e => { state.q = e.target.value.trim(); render(); });
 
 const getJson = (url, def) => fetch(url).then(r => (r.ok ? r.json() : def)).catch(() => def);
@@ -253,4 +309,6 @@ Promise.all([getJson("taxonomy.json", {}), getJson("data/events.json", [])]).the
   const updated = events.reduce((m, e) => (e.updated > m ? e.updated : m), "");
   $("#status").textContent = events.length ? `${events.length} งาน · อัปเดตล่าสุด ${fmt(updated)}` : "ยังไม่มีข้อมูล";
   render();
+  const shared = location.hash.match(/^#e=(\w+)/)?.[1];
+  if (shared) { history.replaceState(null, "", location.pathname); openSheet(shared); }
 });

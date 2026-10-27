@@ -105,6 +105,10 @@ header { display: flex; align-items: center; gap: 12px; padding: 14px 0 6px; }
 @keyframes up { from { transform: translate(-50%, 100%); } }
 @keyframes fade { from { opacity: 0; } }
 .sheet-hero { --c: var(--accent); height: 200px; position: relative; background: linear-gradient(135deg, var(--c), color-mix(in srgb, var(--c) 25%, #000)); display: grid; place-items: center; font-size: 56px; }
+body.lock { overflow: hidden; }
+.sheet-body { overscroll-behavior: contain; }
+.sheet-hero { overflow: hidden; }
+.close { position: absolute; top: 12px; right: 12px; width: 36px; height: 36px; border-radius: 50%; border: 0; background: rgba(0,0,0,.55); color: #fff; font-size: 16px; backdrop-filter: blur(6px); }
 .sheet-hero .grab { position: absolute; top: 8px; left: 50%; width: 40px; height: 4px; margin-left: -20px; border-radius: 2px; background: rgba(255,255,255,.7); }
 .sheet-content { padding: 16px 18px 24px; }
 .sheet-content h3 { font-family: var(--display); font-weight: 500; font-size: 20px; margin: 0; line-height: 1.35; }
@@ -114,6 +118,9 @@ header { display: flex; align-items: center; gap: 12px; padding: 14px 0 6px; }
 .facts span { flex: none; width: 22px; text-align: center; }
 .facts p { margin: 0; }
 .summary { font-size: 14px; line-height: 1.6; margin: 0 0 14px; }
+.sheet-content h5 { font-family: var(--display); font-weight: 500; font-size: 14px; color: var(--accent); margin: 16px 0 6px; }
+.highlights { margin: 0 0 14px; padding-left: 20px; font-size: 14px; line-height: 1.6; }
+.toast { position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%); background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 13px; z-index: 20; animation: fade .2s; }
 .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .actions a, .actions button { display: flex; align-items: center; justify-content: center; gap: 6px; text-decoration: none; color: var(--text); background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 11px 8px; font-size: 13.5px; }
 .actions .primary { grid-column: 1 / -1; background: linear-gradient(90deg, var(--accent), var(--accent2)); color: #fff; border: 0; font-weight: 500; }
