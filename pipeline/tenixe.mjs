@@ -6,7 +6,9 @@ const list = name => (process.env[name] || "").split(",").map(k => k.trim()).fil
 const keysFor = model => (model === "nemotron-3-ultra" ? [...list("TENIXE_NEMOTRON_KEYS"), ...list("TENIXE_KEYS")] : list("TENIXE_KEYS"));
 export const hasKeys = () => list("TENIXE_KEYS").length + list("TENIXE_NEMOTRON_KEYS").length > 0;
 // Keys that can run Nemotron, one stream each — the number of batches that can run at the same time.
-export const nemotronKeys = () => [...new Set(keysFor("nemotron-3-ultra"))];
+// Keys that ran out of quota for a model are skipped for the rest of the run (daily keys reset at 13:00 Thai time).
+const exhausted = new Set(); // "model|key"
+export const nemotronKeys = () => [...new Set(keysFor("nemotron-3-ultra"))].filter(k => !exhausted.has(`nemotron-3-ultra|${k}`));
 
 export class BillingStop extends Error {}
 
@@ -60,7 +62,7 @@ export async function extract(messages, order = ORDERS.extract, preferKey = null
   if (!hasKeys()) throw new Error("No keys: set TENIXE_KEYS or TENIXE_NEMOTRON_KEYS");
   let last;
   for (const { model, maxTokens } of models(order)) {
-    const ks = keysFor(model);
+    const ks = keysFor(model).filter(k => !exhausted.has(`${model}|${k}`));
     for (const key of preferKey && ks.includes(preferKey) ? [preferKey, ...ks.filter(k => k !== preferKey)] : ks) {
       // A busy key (the other runner is using the same one-stream Nemotron key) is waited for, up to ~2 minutes,
       // before falling back to keys whose quota may already be spent.
@@ -75,7 +77,8 @@ export async function extract(messages, order = ORDERS.extract, preferKey = null
           if (/unpaid|add credits|wallet/i.test(e.message)) stats.billing = true;
           if (/unpaid|add credits|wallet/i.test(e.message)) throw new BillingStop(`billing stop on key ${key.slice(0, 8)}: ${e.message.slice(0, 200)}`);
           if (/concurrent_streams_exceeded/i.test(e.message) && busy < 20) { busy++; attempt--; await sleep(6); continue; }
-          if (/^(402|429)|quota|rate.?limit|insufficient/i.test(e.message)) break; // next key
+          if (/quota|insufficient/i.test(e.message)) { exhausted.add(`${model}|${key}`); break; } // skip this key from now on
+          if (/^(402|429)|rate.?limit/i.test(e.message)) break; // next key
           if (/UNAVAILABLE|empty completion|upstream_timeout|^5\d\d/i.test(e.message)) { await sleep(20); continue; }
           break; // other errors: try next key
         }
