@@ -1,7 +1,8 @@
 {
   "name": "EventRadar",
   "short_name": "EventRadar",
-  "start_url": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#14121f",
   "theme_color": "#14121f",
