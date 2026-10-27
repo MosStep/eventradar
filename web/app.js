@@ -348,7 +348,7 @@ function openSheet(id) {
           ? `<br><small class="was">เดิมกำหนด ${e.history.map(h => h.start ? dateText(h) : "ไม่ระบุ").join(", ")} · เปลี่ยนเมื่อ ${fmt(e.changed)}</small>` : ""}</p></div>
         <div><span>${icon("pin")}</span><p>${esc(where(e) || "ยังไม่ระบุสถานที่")} · ${regionName(e) ? `${regionName(e)}, ` : ""}${COUNTRIES[e.country]}</p></div>
         ${e.hours ? `<div><span>${icon("clock")}</span><p>${esc(e.hours)}</p></div>` : ""}
-        ${e.price_th ? `<div><span>${icon("ticket")}</span><p>ค่าเข้า: ${esc(e.price_th)}</p></div>` : ""}
+        ${e.price_th ? `<div><span>${icon("ticket")}</span><p>ค่าเข้า: ${esc(e.price_th)}${e.priceSource ? ` <a class="src-link" href="${esc(e.priceSource)}" target="_blank" rel="noopener">ที่มา</a>` : ""}</p></div>` : ""}
       </div>
       ${e.about_th || e.summary_th ? `<h5>งานนี้คืออะไร</h5><p class="summary">${esc(e.about_th || e.summary_th)}</p>` : ""}
       ${e.highlights_th?.length ? `<h5>ไฮไลต์</h5><ul class="highlights">${e.highlights_th.map(h => `<li>${esc(h)}</li>`).join("")}</ul>` : ""}

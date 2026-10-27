@@ -82,6 +82,7 @@ header { display: flex; align-items: center; gap: 12px; padding: 14px 0 6px; }
 .badge.moved { background: #f59e0b; color: #1a1630; }
 .warn { color: #e5484d; }
 .was { color: var(--muted); }
+.src-link { font-size: 12px; color: var(--accent); margin-left: 4px; }
 .notice { background: color-mix(in srgb, #f59e0b 14%, var(--panel)); border: 1px solid #f59e0b; border-radius: 14px; padding: 12px; margin-bottom: 14px; }
 .notice > b { display: block; margin-bottom: 8px; }
 #mineBadge.alert { background: #f59e0b; color: #1a1630; }

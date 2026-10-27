@@ -621,6 +621,51 @@ if (hasKeys()) await Promise.all((nemotronKeys().length ? nemotronKeys() : [null
 }));
 console.log(`[describe] ${described}/${toDescribe.length} events got details`);
 
+// Ticket price by web search, the way a person would google it: DuckDuckGo's HTML results (no key needed), then the
+// model reads the snippets plus the top pages and returns a price only if it is clearly for this event and edition.
+const MAX_PRICE = Number(arg("max-price", 40));
+const PRICE_WORD = { TH: "ราคาบัตร", JP: "チケット 料金", CN: "票价" };
+const PRICE_PROMPT = `You read web search results about one event. Give its ticket price / entry fee ONLY if a result clearly states it
+for this exact event and edition (same year). Never guess. Reply with valid JSON only:
+{"price_th":"short Thai, max 40 characters, e.g. เข้าฟรี / เริ่มต้น 200 บาท / 500–2,500 บาท / ¥2,000","source":"URL of the result that states it"}
+or {"price_th":null,"source":null}`;
+async function webSearch(q) {
+  const html = await (await fetch(`https://html.duckduckgo.com/html/?q=${encodeURIComponent(q)}`, { headers: UA, signal: AbortSignal.timeout(15000) })).text();
+  return [...html.matchAll(/class="result__a" href="([^"]+)"[^>]*>([\s\S]*?)<\/a>[\s\S]*?class="result__snippet"[^>]*>([\s\S]*?)<\/a>/g)].slice(0, 8)
+    .map(m => ({ url: decodeURIComponent((m[1].match(/uddg=([^&]+)/) || [])[1] || m[1]), title: decode(m[2]), snippet: decode(m[3]) }));
+}
+async function findPrice(ev, key) {
+  ev.priceTriedAt = today;
+  const results = await webSearch(`${ev.name} ${(ev.start || "").slice(0, 4)} ${PRICE_WORD[ev.country] || "ticket price"}`);
+  if (!results.length) return false;
+  let pages = "";
+  for (const r of results.filter(r => !/facebook\.com|x\.com|twitter\.com|instagram\.com|tiktok\.com|youtube\.com/.test(r.url)).slice(0, 2)) {
+    try { pages += `\n\nPage ${r.url}:\n${(await articleText(r.url)).slice(0, 1200)}`; } catch {}
+  }
+  const body = `Event: ${ev.name} (${ev.start || "?"}, ${[ev.venue, ev.city].filter(Boolean).join(", ")})\n\nResults:\n` +
+    results.map(r => `- ${r.title} | ${r.url}\n  ${r.snippet}`).join("\n") + pages;
+  const d = parseJson((await extract([{ role: "system", content: PRICE_PROMPT }, { role: "user", content: body }], ORDERS.describe, key)).text);
+  if (!d.price_th) return false;
+  ev.price_th = String(d.price_th).slice(0, 60);
+  ev.priceSource = /^https?:\/\//.test(d.source || "") ? d.source : null;
+  return true;
+}
+const priceRetry = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
+const priceQueue = events.filter(e => !e.price_th && e.start && e.end >= today && !e.online && (e.priceTriedAt || "") < priceRetry).slice(0, MAX_PRICE);
+let priced = 0;
+if (hasKeys() && priceQueue.length) {
+  const total = priceQueue.length;
+  await Promise.all((nemotronKeys().length ? nemotronKeys() : [null]).map(async (key, n) => {
+    await sleep(n * 700); // stagger the searches a little
+    while (priceQueue.length) {
+      const ev = priceQueue.shift();
+      try { if (await findPrice(ev, key)) priced++; } catch (e) { if (e instanceof BillingStop) break; }
+      await sleep(1200);
+    }
+  }));
+  console.log(`[price] ${total} events searched: found ${priced}`);
+}
+
 events.sort((a, b) => (a.start || "9999").localeCompare(b.start || "9999"));
 save(EVENTS, events);
 writeCalendars();
