@@ -1,25 +1,25 @@
 {
- "finishedAt": "2026-10-27T23:39:54.863Z",
- "runner": "github",
- "total": 1098,
- "upcoming": 1047,
+ "finishedAt": "2026-10-27T23:58:35.281Z",
+ "runner": "local",
+ "total": 1092,
+ "upcoming": 1041,
  "added": 0,
- "pending": 5523,
- "withDate": 75,
+ "pending": 5392,
+ "withDate": 76,
  "withImage": 91,
  "withPrice": 42,
  "ai": {
-  "calls": 1375,
-  "failed": 1375,
+  "calls": 759,
+  "failed": 759,
   "quota": [
-   "txc_bd70",
+   "txc_9fec",
    "txc_a9b5",
-   "txc_9fec"
+   "txc_bd70"
   ],
   "billing": false,
   "keys": 4
  },
  "problems": [
-  "เรียก AI ล้มเหลว 1375/1375 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+  "เรียก AI ล้มเหลว 759/759 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
  ]
 }

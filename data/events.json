@@ -40313,7 +40313,7 @@
    "local"
   ],
   "summary_th": "งานประจำปีนมัสการองค์พระปฐมเจดีย์ ชวนไหว้พระคู่บ้านคู่เมืองและเที่ยวงานประเพณี",
-  "image": "https://s.isanook.com/tr/0/ud/290/1454290/watriking.jpg?ip/crop/w1200h700/q80/jpg",
+  "image": "https://s359.kapook.com/r/1200/630/pagebuilder/25bea592-3c58-4186-a54f-00075a9e0153.jpg",
   "official": null,
   "sources": [
    {
@@ -40336,8 +40336,8 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.sanook.com/travel/1454290/",
-  "imageFrom": "https://www.sanook.com/travel/1454290/",
-  "imageHash": null,
+  "imageFrom": "https://travel.kapook.com/view304179.html",
+  "imageHash": "6a37fe6b3e77603b",
   "imageTriedAt": "2026-10-27",
   "dateTried": true
  },
@@ -43335,7 +43335,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตกลางแจ้ง 2 วันของยุซุที่สนามนิสสัน ควบคู่กับการปล่อยอัลบั้มออลไทม์เบสต์",
-  "image": "https://cdn.mainichi.jp/vol1/2026/10/26/20261026orc00m200060000p/0c10.jpg?1",
+  "image": "http://www.bing.com/th?id=ONUT.CPYK_qzBj2T-Ba6ck07cIw&pid=News",
   "official": null,
   "sources": [
    {
@@ -43351,8 +43351,8 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageFrom": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageHash": null,
+  "imageFrom": "https://www.oricon.co.jp/news/2488779/full/",
+  "imageHash": "27d1f1909df6a75c",
   "imageTriedAt": "2026-10-27",
   "dateTried": true
  },
@@ -43485,7 +43485,7 @@
    "concert"
   ],
   "summary_th": "ยุซุกลับมาจัดคอนเสิร์ตที่สนามนิสสัน สเตเดียม 2 วันหลังผ่านไป 22 ปี",
-  "image": "https://cdn.mainichi.jp/vol1/2026/10/26/20261026orc00m200060000p/0c10.jpg?1",
+  "image": "https://e.usen.com/image/db8b08c30ae0b4a5ff6db22dd0767c83c52a59b4.jpg",
   "official": null,
   "sources": [
    {
@@ -43501,7 +43501,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageFrom": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
+  "imageFrom": "https://e.usen.com/news/news-release/30-2027-10-2027-5-22-2days.html",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -45729,73 +45729,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.livedoor.com/article/detail/32658397/",
   "imageFrom": "https://news.livedoor.com/article/detail/32658397/",
-  "imageHash": "54f54c5e8f480d59"
- },
- {
-  "id": "0ab4e342ef2e",
-  "name": "นิทรรศการพิเศษปอร์เช่: เรื่องราวประวัติศาสตร์มอเตอร์สปอร์ต",
-  "name_th": "นิทรรศการพิเศษปอร์เช่: เรื่องราวประวัติศาสตร์มอเตอร์สปอร์ต",
-  "start": null,
-  "end": "2027-01-17",
-  "venue": null,
-  "city": "กรุงเทพฯ",
-  "country": "TH",
-  "region": "bkk",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "motorshow",
-   "expo"
-  ],
-  "summary_th": "นิทรรศการรถยนต์ปอร์เช่กว่า 30 คัน ตั้งแต่ปี 1951 จนถึงปัจจุบัน เปิดให้เข้าชมจนถึง 17 มกราคม 2027",
-  "image": "https://www.thaipr.net/wp-content/uploads/2026/07/S26_0517.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "ปอร์เช่ถ่ายทอดเรื่องราวแห่งประวัติศาสตร์มอเตอร์สปอร์ตผ่าน ...",
-    "link": "https://www.thaipr.net/auto/3737419",
-    "source": "thaipr.net",
-    "date": "2026-07-03",
-    "image": null
-   }
-  ],
-  "added": "2026-10-27",
-  "updated": "2026-10-27",
-  "enriched": true,
-  "imageHash": "5f99d5bf22daf9e3"
- },
- {
-  "id": "e0488afed84e",
-  "name": "บุรีรัมย์ มาราธอน 2027 พรีเซนเต็ด บาย น้ำแร่ธรรมชาติตราช้าง",
-  "name_th": "บุรีรัมย์ มาราธอน 2027 พรีเซนเต็ด บาย น้ำแร่ธรรมชาติตราช้าง",
-  "start": null,
-  "end": null,
-  "venue": "บุรีรัมย์",
-  "city": "บุรีรัมย์",
-  "country": "TH",
-  "region": "northeast",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "run",
-   "outdoor"
-  ],
-  "summary_th": "มาราธอนไนท์รันประจำปีที่บุรีรัมย์ ปี 2027 เปิดรับสมัครแล้ว",
-  "image": "https://static.naewna.com/uploads/news/source/979154.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "ตามคาด! นักวิ่งแห่สมัคร On-site บุรีรัมย์ มาราธอน 2027 เต็มโควตา เตรียม ...",
-    "link": "https://www.naewna.com/relation/979154",
-    "source": "naewna",
-    "date": "2026-07-23",
-    "image": null
-   }
-  ],
-  "added": "2026-10-27",
-  "updated": "2026-10-27",
-  "enriched": true,
-  "imageHash": "f721e86b7fd66cd2"
+  "imageHash": "54f54c5e8f480d59",
+  "dateTried": true
  },
  {
   "id": "67b0efb4ad79",
@@ -45830,7 +45765,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": null
+  "article": null,
+  "dateTried": true
  },
  {
   "id": "24817308b8cc",
@@ -45865,7 +45801,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": null
+  "article": null,
+  "dateTried": true
  },
  {
   "id": "b8a1fdd646e7",
@@ -45903,7 +45840,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000097.000061165.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000097.000061165.html",
-  "imageHash": "9bc3ea4ab1e3186e"
+  "imageHash": "9bc3ea4ab1e3186e",
+  "dateTried": true
  },
  {
   "id": "cf1d1ea4f462",
@@ -45939,7 +45877,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": null
+  "article": null,
+  "dateTried": true
  },
  {
   "id": "3d59d778ebf6",
@@ -45977,7 +45916,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://animeanime.jp/release/prtimes/20261027/322629.html",
   "imageFrom": "https://animeanime.jp/release/prtimes/20261027/322629.html",
-  "imageHash": "33dbfae59ed2903e"
+  "imageHash": "33dbfae59ed2903e",
+  "dateTried": true
  },
  {
   "id": "8155bdc92b52",
@@ -46014,7 +45954,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://mantan-web.jp/prtimes/article/20261023prt00m200000630a.html",
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261023prt00m200000630a.html",
-  "imageHash": "a588820686c7610c"
+  "imageHash": "a588820686c7610c",
+  "dateTried": true
  },
  {
   "id": "81e8dfe0348a",
@@ -46052,7 +45993,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.jiji.com/jc/article?k=000000192.000109030&g=prt",
   "imageFrom": "https://animeanime.jp/release/prtimes/20261026/322292.html",
-  "imageHash": "70ff1d2cd09c0376"
+  "imageHash": "70ff1d2cd09c0376",
+  "dateTried": true
  },
  {
   "id": "a24d34183013",
@@ -46089,7 +46031,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://mainichi.jp/articles/20261026/pls/00m/020/541000c",
   "imageFrom": "https://mainichi.jp/articles/20261026/pls/00m/020/541000c",
-  "imageHash": "16a7f4fc0e4e1246"
+  "imageHash": "16a7f4fc0e4e1246",
+  "dateTried": true
  },
  {
   "id": "1094a3527066",
@@ -46126,7 +46069,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.jiji.com/jc/article?k=000000005.000190175&g=prt",
   "imageFrom": "https://www.sankei.com/pressrelease/prtimes/DDIUJUKJ4NOWZDN2FZGQ3ENUBY/",
-  "imageHash": "bfe178893f31f895"
+  "imageHash": "bfe178893f31f895",
+  "dateTried": true
  },
  {
   "id": "05c8e79d31ba",
@@ -46174,6 +46118,7 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.thaipr.net/exhibition/3541747",
   "imageFrom": "https://www.thaipr.net/exhibition/3541747",
-  "imageHash": "56bf293b25ad7a60"
+  "imageHash": "56bf293b25ad7a60",
+  "dateTried": true
  }
 ]
