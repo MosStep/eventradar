@@ -261,9 +261,12 @@ async function articleText(url) {
 }
 
 const DESCRIBE = `You write event details for a Thai event calendar app, using ONLY the given news text. Never invent facts.
+Registration or ticket-sale periods are not the event date: put them in signup_th, and leave start/end null unless the event date is written.
 Reply with valid JSON only (no " inside string values):
 {"about_th":"3-4 Thai sentences: what the event is, who it is for, what you can do or see there",
 "highlights_th":["up to 5 short Thai bullet points: guests, activities, exhibitors, special items"],
+"start":"YYYY-MM-DD the EVENT itself starts, or null","end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null",
+"signup_th":"registration / ticket-sale period in Thai if the text gives one (NOT the event date), or null",
 "hours":"opening hours or null","price_th":"short entry fee in Thai, max 40 characters (เข้าฟรี / 300 บาท / 500–2,500 บาท / ¥2,000), or null","ticket_url":"ticket/official URL found in the text, or null"}`;
 
 // Richer details for the app's event page, from the article text (falls back to the headlines).
@@ -278,6 +281,11 @@ async function describe(ev, key = null) {
   ev.about_th = d.about_th || null;
   ev.highlights_th = Array.isArray(d.highlights_th) ? d.highlights_th.slice(0, 5) : [];
   ev.hours = d.hours || null;
+  if (!ev.start && isDate(d.start)) { ev.start = d.start; ev.end = isDate(d.end) ? d.end : d.start; ev.datedFrom = "article"; }
+  ev.venue ??= d.venue || null;
+  ev.city ??= d.city || null;
+  if (d.signup_th) ev.signup_th = String(d.signup_th).slice(0, 80);
+  if ((d.venue || d.city) && !ev.region) ev.regionTried = false; // place just became known: ask for the region again
   ev.price_th = (d.price_th || ev.price_th || null)?.slice(0, 60) || null;
   if (d.ticket_url && /^https?:\/\//.test(d.ticket_url) && text.includes(d.ticket_url)) ev.official ??= d.ticket_url;
   ev.described = true;
@@ -605,7 +613,8 @@ if (noRegion.length) console.log(`[region] ${noRegion.filter(e => e.region).leng
 
 // Upcoming events first; past ones never need details.
 const MAX_DESCRIBE = Number(arg("max-describe", 40));
-const toDescribe = events.filter(e => !e.described && (!e.end || e.end >= today)).slice(0, MAX_DESCRIBE);
+const toDescribe = events.filter(e => !e.described && (!e.end || e.end >= today))
+  .sort((a, b) => (a.start ? 1 : 0) - (b.start ? 1 : 0)).slice(0, MAX_DESCRIBE);
 // Same parallel pattern as extraction: one worker per Nemotron key.
 let described = 0, describeStop = false;
 const describeQueue = [...toDescribe];
