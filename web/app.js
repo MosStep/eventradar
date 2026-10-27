@@ -208,6 +208,13 @@ async function share(id) {
   } catch {}
 }
 
+function openFromHash() {
+  const id = location.hash.match(/^#e=(\w+)/)?.[1];
+  if (!id) return;
+  history.replaceState(null, "", location.pathname);
+  openSheet(id);
+}
+
 function toast(msg) {
   const t = Object.assign(document.createElement("div"), { className: "toast", textContent: msg });
   document.body.append(t);
@@ -309,6 +316,6 @@ Promise.all([getJson("taxonomy.json", {}), getJson("data/events.json", [])]).the
   const updated = events.reduce((m, e) => (e.updated > m ? e.updated : m), "");
   $("#status").textContent = events.length ? `${events.length} งาน · อัปเดตล่าสุด ${fmt(updated)}` : "ยังไม่มีข้อมูล";
   render();
-  const shared = location.hash.match(/^#e=(\w+)/)?.[1];
-  if (shared) { history.replaceState(null, "", location.pathname); openSheet(shared); }
+  openFromHash();
+  addEventListener("hashchange", openFromHash);
 });
