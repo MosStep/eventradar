@@ -11,7 +11,12 @@
   <link rel="apple-touch-icon" href="icon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=__V__">
+  <script>
+    // Apply saved look before first paint so the theme never flashes.
+    try { const p = JSON.parse(localStorage.getItem("prefs")) || {};
+      for (const k of ["theme", "accent", "size", "motion"]) if (p[k]) document.documentElement.dataset[k] = p[k]; } catch {}
+  </script>
 </head>
 <body>
   <header>
@@ -20,9 +25,7 @@
   </header>
 
   <section id="filters">
-    <div class="chips" id="countryChips"></div>
-    <div class="chips" id="groupChips"></div>
-    <div class="chips sub" id="tagChips" hidden></div>
+    <div class="chips" id="quick"></div>
   </section>
 
   <main>
@@ -45,12 +48,15 @@
       <p id="mineHint" class="empty"></p>
       <div id="mineEvents" class="cards"></div>
     </section>
+
+    <section id="settings" class="view" hidden></section>
   </main>
 
   <nav id="tabs">
-    <button data-view="home" class="on"><span>📅</span>ปฏิทิน</button>
-    <button data-view="list"><span>☰</span>ทั้งหมด</button>
-    <button data-view="mine"><span>★</span>ของฉัน<i id="mineBadge" hidden></i></button>
+    <button data-view="home" class="on" data-icon="calendar">ปฏิทิน</button>
+    <button data-view="list" data-icon="list">ทั้งหมด</button>
+    <button data-view="mine" data-icon="star">ของฉัน<i id="mineBadge" hidden></i></button>
+    <button data-view="settings" data-icon="settings" aria-label="ตั้งค่า"></button>
   </nav>
 
   <div id="sheet" hidden>
@@ -59,6 +65,6 @@
   </div>
 
   <footer id="status"></footer>
-  <script src="app.js"></script>
+  <script src="app.js?v=__V__"></script>
 </body>
 </html>
