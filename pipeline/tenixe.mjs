@@ -62,7 +62,9 @@ export async function extract(messages, order = ORDERS.extract, preferKey = null
   for (const { model, maxTokens } of models(order)) {
     const ks = keysFor(model);
     for (const key of preferKey && ks.includes(preferKey) ? [preferKey, ...ks.filter(k => k !== preferKey)] : ks) {
-      for (let attempt = 1; attempt <= 3; attempt++) {
+      // A busy key (the other runner is using the same one-stream Nemotron key) is waited for, up to ~2 minutes,
+      // before falling back to keys whose quota may already be spent.
+      for (let attempt = 1, busy = 0; attempt <= 3; attempt++) {
         try {
           stats.calls++;
           return { model, text: await chatOnce(key, model, messages, maxTokens) };
@@ -72,7 +74,7 @@ export async function extract(messages, order = ORDERS.extract, preferKey = null
           if (/quota/i.test(e.message)) stats.quota.add(key.slice(0, 8));
           if (/unpaid|add credits|wallet/i.test(e.message)) stats.billing = true;
           if (/unpaid|add credits|wallet/i.test(e.message)) throw new BillingStop(`billing stop on key ${key.slice(0, 8)}: ${e.message.slice(0, 200)}`);
-          if (/concurrent_streams_exceeded/i.test(e.message)) { await sleep(6); continue; }
+          if (/concurrent_streams_exceeded/i.test(e.message) && busy < 20) { busy++; attempt--; await sleep(6); continue; }
           if (/^(402|429)|quota|rate.?limit|insufficient/i.test(e.message)) break; // next key
           if (/UNAVAILABLE|empty completion|upstream_timeout|^5\d\d/i.test(e.message)) { await sleep(20); continue; }
           break; // other errors: try next key
