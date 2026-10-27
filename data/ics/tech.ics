@@ -6,182 +6,302 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:297c88e6ebf0@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261102
+STATUS:CONFIRMED
 SUMMARY:งาน XPENG Certified Used Car EXPO รถ EV มือสองไมล์น้อย
 LOCATION:สยามพารากอน\, Bangkok
 DESCRIPTION:งานรวมรถยนต์ไฟฟ้า XPENG มือสองไมล์น้อยในราคาพิเศษ พร้อมโปรโมชันที่สยามพารากอน 27 ต.ค.-1 พ.ย. 2569\nhttps://www.tech-hangout.com/xpeng-ev-expo-special-deals/
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: งาน XPENG Certified Used Car EXPO รถ EV มือสองไมล์น้อย
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5753029db9e5@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
+STATUS:CONFIRMED
 SUMMARY:กิจกรรม OJ CLUB – LIVE YOUR WAY ของ OMODA & JAECOO
 LOCATION:
 DESCRIPTION:กิจกรรมพบปะเจ้าของรถ OMODA & JAECOO ชูไลฟ์สไตล์ Pet-Friendly และสเปซท้ายรถ JAECOO 5 EV\nhttps://news.google.com/rss/articles/CBMieEFVX3lxTE9MNTZlRWZPVThmQzZRUXU2VVJnYzc0YmZ0TkFJbFo2RExxUUlzVG5IZUNwVWlMU2hSMC1JSVBMeEYzb0wzU3NqZWt2bm5yVXpabVhjMFVsVHg4OXdsT3ZHOHRTbC1GcWZuNFFLSTl5ZWdzdVEyRWxDbA?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: กิจกรรม OJ CLUB – LIVE YOUR WAY ของ OMODA & JAECOO
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6b11950b2fa8@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
+STATUS:CONFIRMED
 SUMMARY:มิลเลนเนียม ออโต้ จัดแสดง BMW รถหรู 250 คันจากภารกิจระดับโลก
 LOCATION:โชว์รูม มิลเลนเนียม ออโต้ หรือสถานที่จัดงาน\, กรุงเทพมหานคร
 DESCRIPTION:งานจัดแสดงรถ BMW รุ่นหรูและพิเศษ 250 คัน จากภารกิจระดับโลก โดยมิลเลนเนียม ออโต้\nhttps://news.google.com/rss/articles/CBMiVkFVX3lxTE4wVk1qS3ZiSlVOMkRIVnE4Sk1mNkdWQldvazB0UWJIOTZWcmNDcDdTOW1DUXdrOEw0Sms3NlpfMV8zQU9Od0J0V3N5Q2JXMW50MEdPM3V3?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: มิลเลนเนียม ออโต้ จัดแสดง BMW รถหรู 250 คันจากภารกิจระดับโลก
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5fcd007f4c32@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
+STATUS:CONFIRMED
 SUMMARY:เปิดตัว Xpeng Mona L05 ในจีน
 LOCATION:
 DESCRIPTION:Xpeng Mona L05 จะเปิดตัวทางการในจีนวันที่ 29 ต.ค. นี้ หลังเริ่มส่งออกไป 65 ประเทศแล้ว\nhttps://news.google.com/rss/articles/CBMickFVX3lxTE1WclZHV2NaVmtmWUVHZUpPQllvSmlpb1FNX3E5czJoYW1wVFhMVnI5YjZIN0ktbGdyeWpsRURySTMxLTNwOHRhTm9iMUg4SlB5RU5tay1LZDh3TEVYUmFnTGloOGU4LTl4U1prRFNaZ1NZQQ?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: เปิดตัว Xpeng Mona L05 ในจีน
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:165d09ccf750@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
+STATUS:CONFIRMED
 SUMMARY:งานมอเตอร์โชว์นานาชาติอู่ฮั่นครั้งที่ 26
 LOCATION:Wuhan
 DESCRIPTION:งานมอเตอร์โชว์นานาชาติอู่ฮั่น เปิดวันที่ 30 ต.ค. 2026 พร้อมแจกคูปองส่วนลด 22 ล้านหยวน\nhttps://news.google.com/rss/articles/CBMijAFBVV95cUxNRTBmelFIQXlRWDFZMmhWbmJHNjBFa0dILWNJellGWW1QU1VERlFxODNXblhjdHBqdG5rTUpGa1RpWEY2eEpndzNpNTA1S09qTmUwTk9BdW1zN1hCRVVaMEwzalptZWJ0N1RFR25lckZCUkJYVWQtN3BSd3FHZ3dHenJHMWpmQUJnbGNuRg?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: งานมอเตอร์โชว์นานาชาติอู่ฮั่นครั้งที่ 26
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:daae9ee484c9@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
+STATUS:CONFIRMED
 SUMMARY:เปิดตัวรถยนต์ไฟฟ้า Leapmotor B03X ในไทย
 LOCATION:
 DESCRIPTION:Leapmotor เตรียมเปิดตัวรถยนต์ไฟฟ้ารุ่น B03X ในประเทศไทยวันที่ 31 ตุลาคม 2569\nhttps://news.google.com/rss/articles/CBMiZkFVX3lxTE9SSlpZSDVSRGRJTGJEMTVVNVZKaVJYdXI4d1U1SVhpYVdnQ19taDF4VktIT3M2TXpSVDZRa0YyUzlhQ0RRYm4yODJZekdJNGR2T0dZS3pJc25RNFk5M3ZDTnRaa0g0Zw?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: เปิดตัวรถยนต์ไฟฟ้า Leapmotor B03X ในไทย
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2cac7858fc16@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261201
+STATUS:CONFIRMED
 SUMMARY:DronTech Asia 2026 งานเทคโนโลยีโดรน
 LOCATION:
 DESCRIPTION:งานแสดงเทคโนโลยีโดรนที่รวมกว่า 150 บริษัทไทยและต่างประเทศ จัดในเดือนพฤศจิกายนนี้\nhttps://news.google.com/rss/articles/CBMiV0FVX3lxTE1PajhmTGxaYm9sX2pfTGRxX1RiQW9QTVBqOUU5T0wyRzZpM21JU3o2U1VxWGFqZDlvb3dOOC1XSU9MQkdWZlRZalFDQWg1eGxMUnZOVjM3RQ?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: DronTech Asia 2026 งานเทคโนโลยีโดรน
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:227057c53a1a@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261106
+STATUS:CONFIRMED
 SUMMARY:การประชุมสุดยอดอินเทอร์เน็ตโลก อู่เจิ้น 2026
 LOCATION:Wuzhen
 DESCRIPTION:การประชุมสุดยอดอินเทอร์เน็ตโลก ณ อู่เจิ้น จัดวันที่ 2-5 พ.ย. 2026 เน้นเทคโนโลยีและ AI\nhttps://news.google.com/rss/articles/CBMiZkFVX3lxTE9kV2lGd3Rra0Jabk9NWkZyODRpUnlxNFhEbXl4dzVTbXRZYjZXNVBqbjJnMUtEM3NGbWNuV01tcGJTN3Y0dTJPSUk3WVJOQzhBSzVIZEVtY0JZRk9wbVRuSzNRM2U0QQ?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: การประชุมสุดยอดอินเทอร์เน็ตโลก อู่เจิ้น 2026
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dd3d70321b2f@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
+STATUS:CONFIRMED
 SUMMARY:งาน Krungsri Tech Day 2026
 LOCATION:สามย่านมิตรทาวน์ฮอลล์\, Bangkok
 DESCRIPTION:งานเทคโนโลยีฟรีของกรุงศรี ว่าด้วย AI พร้อมให้ลองของจริง จัดวันพุธที่ 4 พฤศจิกายน 2569 ที่สามย่านมิตรทาวน์ฮอลล์\nhttps://krungsritechday2026.techsauce.co/%20?utm_source=beartai&utm_medium=social&utm_campaign=krungsri_tech_day_2026&utm_content=pre_post
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: งาน Krungsri Tech Day 2026
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:21baa989c57c@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
+STATUS:CONFIRMED
 SUMMARY:งานแสดงสินค้านำเข้านานาชาติจีนครั้งที่ 9 (CIIE)
 LOCATION:国家会展中心（上海）\, Shanghai
 DESCRIPTION:งานแสดงสินค้านำเข้านานาชาติจีนครั้งที่ 9 จัดที่เซี่ยงไฮ้ เริ่ม 5 พ.ย.\nhttps://news.google.com/rss/articles/CBMidkFVX3lxTE41UDl5VHlEUWtsaW5QZlJmLWpaT0lMVTdVYm9naVd3bHdiUE9HNWRsY2lFeWxqVE15MEY2T3BNVFlfLWtvWlByWkhMQWc5dzQ4b1V5Q2k4QVY2YjNUVUkzWVZyMGFzdVdRaHdtZE1qa2cyMkxKcUE?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: งานแสดงสินค้านำเข้านานาชาติจีนครั้งที่ 9 (CIIE)
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1063eed8fb06@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261110
+STATUS:CONFIRMED
 SUMMARY:งานแสดงรถยนต์นานาชาติคุนหมิง 2026
 LOCATION:滇池国际会展中心\, 昆明
 DESCRIPTION:งานมอเตอร์โชว์นานาชาติที่คุนหมิง จัดระหว่างวันที่ 5-9 พฤศจิกายน 2026 ที่ศูนย์แสดงสินค้าทะเลสาบเตียนฉือ\nhttps://news.google.com/rss/articles/CBMiZkFVX3lxTE1zRUNkaFZpYl96QjB0MXlCdjRSMTRNTC1sUWNYeUhTdHJhaWZBYlhpcFVvSzlXMUtnQ0xDU1FMek5pejVCNnhPVFo1R3M3Z0lsWTJRVkZVd2NWeDNrOGpyLXlKQV9uUQ?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: งานแสดงรถยนต์นานาชาติคุนหมิง 2026
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eb51e27c7d0d@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261121
+STATUS:CONFIRMED
 SUMMARY:งานแสดงสินค้า Back Office AI Agent EXPO (งานสัปดาห์ฝ่ายบุคคลและบัญชี ครั้งที่ 11 โอซากา)
 LOCATION:インテックス大阪\, 大阪市
 DESCRIPTION:งานแสดงสินค้าเกี่ยวกับ AI และระบบงานสำนักงาน จัดที่อินเท็กซ์โอซากา 3 วัน พร้อมเซมินาร์กว่า 60 หัวข้อ\nhttps://www.office-expo.jp/hub/ja-jp/press.html
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: งานแสดงสินค้า Back Office AI Agent EXPO (งานสัปดาห์ฝ่ายบุคคลและบัญชี ครั้งที่ 11 โอซากา)
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bb7bb0c77dd3@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261121
+STATUS:CONFIRMED
 SUMMARY:งาน HKTDC Entrepreneur Day 2026 (Eday)
 LOCATION:Hong Kong Convention and Exhibition Centre\, Hong Kong
 DESCRIPTION:งานสำหรับผู้ประกอบการและสตาร์ทอัพ จัดที่ศูนย์การประชุมและนิทรรศการฮ่องกง ระหว่างวันที่ 19-20 พฤศจิกายน 2569\nhttps://news.google.com/rss/articles/CBMifEFVX3lxTE5LbVdYQ1ItWElmYU9kRVhEal9FRUdaWUNKQXJrRFVsWUtRaGRLQ0FkbHBIS0gyZFg4OW9XX2VweEFjUm5BN0RPRmlJLVhFRl8yVGtjR05oMEpMcEQ0UzhzYWhSaXZfbHFESDlOVGxFZ1lEcUphb1BSeW5RRXg?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: งาน HKTDC Entrepreneur Day 2026 (Eday)
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3ccd18971309@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261122
+STATUS:CONFIRMED
 SUMMARY:การประชุมโลกอัจฉริยะการผลิต 2026
 LOCATION:南京國際博覽中心\, 南京
 DESCRIPTION:การประชุมเทคโนโลยี AI และการผลิตอัจฉริยะ 19-21 พ.ย. 2569 ที่นานกิง\nhttps://news.google.com/rss/articles/CBMidkFVX3lxTE1KNkVGRTZuUEpEQUNpdmNiUUZESzhHTzdZdk1NcVE0aHNzRzBKaDM3Tnd6ZnhqbFVQb2gwUDdqUE42WWlaa1BwYnVOVmI1YzdCQ21QZW1wQXJodktPbXo0N1VPYkhabnBhVm5wTnVJdmhac2JBbWc?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: การประชุมโลกอัจฉริยะการผลิต 2026
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1bf2cebae8fa@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
+STATUS:CONFIRMED
 SUMMARY:งานเปิดตัวแบรนด์ Voyah และ MPV Dream ในไทย
 LOCATION:
 DESCRIPTION:เอไอ โมบิลิตี้ เตรียมเปิดตัวแบรนด์รถยนต์หรู Voyah และ MPV Dream อย่างเป็นทางการในไทย วันที่ 20 พ.ย. 2569\nhttps://www.autospinn.com/2026/10/voyah-mpv-dream-153069
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: งานเปิดตัวแบรนด์ Voyah และ MPV Dream ในไทย
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:be4919a7d3dc@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
+STATUS:CONFIRMED
 SUMMARY:งานสัมมนา NTT DATA Ignite Thailand 2026
 LOCATION:BITEC\, Bangkok
 DESCRIPTION:งานสัมมนาสำหรับผู้บริหารและนักพัฒนาด้าน IT อัปเดตเทรนด์ AI ล่าสุด จัดวันที่ 24 พ.ย. 2026 ที่ BITEC\nhttps://tracking-mktg.nttdata.com/NTT-DATA-Ignite-Thailand-2026
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: งานสัมมนา NTT DATA Ignite Thailand 2026
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:af006fd1482f@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261214
+STATUS:CONFIRMED
 SUMMARY:มหกรรมยานยนต์ 2026 (Motor Expo 2026) ครั้งที่ 43
 LOCATION:IMPACT Arena เมืองทองธานี\, Nonthaburi
 DESCRIPTION:งานมหกรรมยานยนต์ครั้งที่ 43 จัดแสดงรถยนต์ใหม่และรถไฟฟ้าจากหลายค่าย ระหว่าง 2-13 ธ.ค. 2569\nhttps://www.sanook.com/auto/99487/
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: มหกรรมยานยนต์ 2026 (Motor Expo 2026) ครั้งที่ 43
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f009c73a3932@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270118
+STATUS:CONFIRMED
 SUMMARY:Tokyo Auto Salon 2027 งานโชว์รถแต่งรถยนต์
 LOCATION:幕張メッセ\, Chiba
 DESCRIPTION:งานแสดงรถแต่งและคัสตอมคาร์ใหญ่ที่สุดของญี่ปุ่น จัดวันที่ 15-17 มกราคม 2027 ที่หาดมากุฮาริ\nhttps://news.yahoo.co.jp/articles/1bb322ab69b9aac0f72015ea2f4405752ae3d754
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: Tokyo Auto Salon 2027 งานโชว์รถแต่งรถยนต์
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4807e54ffc14@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
+STATUS:CONFIRMED
 SUMMARY:งานฟอรั่ม HR สำหรับสตาร์ทอัพ 2027 Winter
 LOCATION:渋谷スクランブルスクエア\, Tokyo
 DESCRIPTION:ฟอรั่มด้าน HR สำหรับสตาร์ทอัพ จัดที่ Shibuya Scramble Square ใกล้สถานีชิบูยา\nhttps://recboo.com/
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: งานฟอรั่ม HR สำหรับสตาร์ทอัพ 2027 Winter
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:82f39c0c8fff@eventradar
-DTSTAMP:20261027T134342Z
+DTSTAMP:20261027T144707Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
+STATUS:CONFIRMED
 SUMMARY:แฟนมีตติ้ง Mazda Rotary 60th
 LOCATION:三次自動車試験場\, 三次
 DESCRIPTION:แฟนมีตติ้งฉลองครบรอบ 60 ปีของเครื่องยนต์โรตารี่ของ Mazda จัดที่สนามทดสอบรถยนต์มิโยชิ\nhttps://news.google.com/rss/articles/CBMiVEFVX3lxTE0tTXdUeTB1bWxqUVJOQnR6TFZXNVEyT0hISVRjYXBKRTZaNDY2MGlaXzZkc1ZpcjB4TzFNV3hQbldtakxLQllzSHh4R2NUeHNGUzRVTQ?oc=5
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:พรุ่งนี้: แฟนมีตติ้ง Mazda Rotary 60th
+END:VALARM
 END:VEVENT
 END:VCALENDAR
