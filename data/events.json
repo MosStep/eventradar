@@ -2072,7 +2072,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": "e34ab35fc61be6bc"
+  "imageHash": null
  },
  {
   "id": "6be56bd8bdc7",
@@ -3191,7 +3191,7 @@
    "market"
   ],
   "summary_th": null,
-  "image": "https://i2.hdslb.com/bfs/openplatform/202610/H8ZxJu3A1791858104_1791858104209.jpg",
+  "image": "https://i1.hdslb.com/bfs/openplatform/202610/yoAgvENd1791873390_1791873390358.jpg",
   "official": "https://show.bilibili.com/platform/detail.html?id=1006686",
   "sources": [
    {
@@ -7866,7 +7866,7 @@
    "expo"
   ],
   "summary_th": "งานนิทรรศการศึกษาร่วมสัมมนาเรื่องการเลือกโรงเรียนระหว่างประเทศกับผู้เชี่ยวชาญ",
-  "image": "https://q0.itc.cn/images01/20261015/be0b7dc1d4774c7e97494e83625fc503.png",
+  "image": "http://www.bing.com/th?id=ONUT.6N-Lh_cTbOYxQoTmYtokBg&pid=News",
   "official": null,
   "sources": [
    {
@@ -7886,8 +7886,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sohu.com/a/1087941746_121797776",
-  "imageFrom": "https://www.sohu.com/a/1087941746_121797776",
-  "imageHash": null,
+  "imageFrom": "https://edu.sina.com.cn/ischool/2026-10-27/doc-iniwrzhv1367057.shtml",
+  "imageHash": "cbc2d50f68a4b979",
   "regionTried": true,
   "priceTriedAt": "2026-10-27"
  },
@@ -8837,8 +8837,7 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://finance.sina.com.cn/tjhz/2026-08-18/doc-inintxxh8568957.shtml",
   "imageFrom": "https://finance.sina.com.cn/tjhz/2026-08-18/doc-inintxxh8568957.shtml",
-  "imageHash": "ece47c7e0eb5b158",
-  "priceTriedAt": "2026-10-27"
+  "imageHash": "ece47c7e0eb5b158"
  },
  {
   "id": "14c1d88d299d",
@@ -8912,8 +8911,7 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20260731A0A42600",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-09-06/doc-iniqwnkx0138630.shtml",
-  "imageHash": "fe01bfeda3cabca0",
-  "priceTriedAt": "2026-10-27"
+  "imageHash": "fe01bfeda3cabca0"
  },
  {
   "id": "9f9d53d63cbf",
@@ -15156,8 +15154,7 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000003918.000013972.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000003918.000013972.html",
-  "imageHash": "a704417bf32df3dd",
-  "priceTriedAt": "2026-10-27"
+  "imageHash": "a704417bf32df3dd"
  },
  {
   "id": "3c238b32a46d",
@@ -15748,7 +15745,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": "8d30395ee595cc2e"
+  "imageHash": null
  },
  {
   "id": "921405c7f527",
@@ -16358,7 +16355,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": "c4b8facdce2ebae9"
+  "imageHash": null
  },
  {
   "id": "21baa989c57c",
@@ -17738,8 +17735,7 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000391.000066361.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000391.000066361.html",
-  "imageHash": "73136d08ed422786",
-  "priceTriedAt": "2026-10-27"
+  "imageHash": "73136d08ed422786"
  },
  {
   "id": "a849649aaaf1",
@@ -19256,7 +19252,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": "61cfafdcfeb33e7b"
+  "imageHash": null
  },
  {
   "id": "5654cfc846bb",
@@ -20043,7 +20039,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": "ac0b49871176a5f2"
+  "imageHash": null
  },
  {
   "id": "1257cb046a36",
@@ -29457,7 +29453,7 @@
    "game"
   ],
   "summary_th": "งานประชุมพัฒนาเกมอินดี้ 3 วันสำหรับนักศึกษา โดยใช้ตัวละครจาก holo Indie/ホロライブ ที่โรงเรียน Yokohama Digital Arts",
-  "image": "http://www.bing.com/th?id=ONUT.jYyAOaL1YwRwmynY3d9ibg&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.j_9XcDPw-3edeUyV123KNw&pid=News",
   "official": null,
   "sources": [
    {
@@ -29523,9 +29519,9 @@
   "region": "kanto",
   "regionTried": true,
   "imageTried": true,
-  "imageFrom": "https://www.sankei.com/pressrelease/prtimes/T5CSM72Y4VKCVJRNK7PTLC3FYI/",
+  "imageFrom": "https://www.jiji.com/jc/article?k=000000090.000044572&g=prt",
   "article": "https://animeanime.jp/release/prtimes/20261027/322629.html",
-  "imageHash": "9ec8ae9ce4b93b56",
+  "imageHash": "53f3fa291c8aa27e",
   "imageTriedAt": "2026-10-27"
  },
  {
@@ -34699,7 +34695,7 @@
    "ai"
   ],
   "summary_th": "งานแสดงเทคโนโลยีคอมพิวเตอร์และ AI ระดับโลกที่ไทเปตั้งแต่วันที่ 1 มิ.ย. 2570",
-  "image": "https://www.guru3d.com/data/publish/228/ef49ec488950ac5010ff22832272ad9d88ca42/2026_10_08_16_28_15_guru3d.webp",
+  "image": "https://www.club386.com/wp-content/uploads/2026/10/amd-rdna-5-delay.jpg",
   "official": null,
   "sources": [
    {
@@ -34716,8 +34712,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.guru3d.com/story/amd-rdna-5-radeon-graphics-cards-unlikely-before-computex-2027-leaker-claims/",
-  "imageFrom": "https://www.guru3d.com/story/amd-rdna-5-radeon-graphics-cards-unlikely-before-computex-2027-leaker-claims/",
-  "imageHash": "eb90bdcf1ee7e5fc"
+  "imageFrom": "https://www.club386.com/no-chance-next-gen-amd-radeon-gpu-before-june-2027/",
+  "imageHash": null
  },
  {
   "id": "6d62a770c927",
@@ -37648,7 +37644,7 @@
    "festival"
   ],
   "summary_th": "งานเทศกาลอาหารระดับนานาชาติที่รวมเชฟชื่อดังโลกและเชฟไทย จัดที่อนันตรา สยาม กรุงเทพฯ",
-  "image": "http://www.bing.com/th?id=ONUT.94-b5DuRxRqwF5-T4PyHKg&pid=News",
+  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
   "official": null,
   "sources": [
    {
@@ -37785,7 +37781,7 @@
    "art"
   ],
   "summary_th": "นิทรรศการศิลปะที่ผู้พิการทางการมองเห็นสัมผัสชมได้ จัดโดยธนาคารยูโอบี",
-  "image": "https://siamrath.co.th/assets/42c42e8b-9b35-43c7-aa88-7824a5738ed8?width=680&quality=80&format=webp",
+  "image": "https://www.prachachat.net/wp-content/uploads/2017/12/Photo_2-1024x683.jpg",
   "official": null,
   "sources": [
    {
@@ -37818,7 +37814,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.prachachat.net/hilight-prachachat/news-92552",
-  "imageFrom": "https://siamrath.co.th/new-gen/1ca0583f-898e-46e1-ac8f-4110270b5b35"
+  "imageFrom": "https://www.prachachat.net/hilight-prachachat/news-92552"
  },
  {
   "id": "36092737c632",
@@ -45152,7 +45148,7 @@
    "festival"
   ],
   "summary_th": "งานวัดไร่ขิงฉลองเจดีย์ จัดกิจกรรมบุญ 9 วัน 9 คืน",
-  "image": "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa7HcHxvYn3cerDWmonvpOeXnsLiy50HCDzBunVD72RRmmJH5k2cD.jpg",
+  "image": "https://thethaiger.com/th/wp-content/uploads/2026/08/wat-rai-Khing-2569.jpg",
   "official": null,
   "sources": [
    {
@@ -45169,7 +45165,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sanook.com/travel/1454290/",
-  "imageFrom": "https://www.thairath.co.th/scoop/interview/2964093",
+  "imageFrom": "https://thethaiger.com/th/news/1600333/",
   "imageHash": null
  },
  {
@@ -45207,7 +45203,7 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.prachachat.net/sd/news-2074357",
   "imageFrom": "https://www.dailynews.co.th/news/6220842/",
-  "imageHash": null
+  "imageHash": "d70cc146f4d16964"
  },
  {
   "id": "a0ecb3b9d4b7",
@@ -45759,7 +45755,7 @@
    "workshop"
   ],
   "summary_th": "งานสร้างเกมให้นักศึกษาที่โยคohama ดิจิทัล อาร์ทส คอลเลจ โดยร่วมกับ holo Indie",
-  "image": "http://www.bing.com/th?id=ONUT.T35Qd2pxn9L8-yaZAM2Pfw&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.jsYY_GTuQ418X-c-7wOn_w&pid=News",
   "official": null,
   "sources": [
    {
@@ -45776,8 +45772,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://animeanime.jp/release/prtimes/20261027/322629.html",
-  "imageFrom": "https://gamebiz.jp/news/434639",
-  "imageHash": "5c8af1e176493ed8"
+  "imageFrom": "https://animeanime.jp/release/prtimes/20261027/322629.html",
+  "imageHash": "33dbfae59ed2903e"
  },
  {
   "id": "8155bdc92b52",
@@ -45908,7 +45904,7 @@
    "game"
   ],
   "summary_th": "มหาวิทยาลัย 帝京平成 จัดแข่ง VALORANT ในงาน四季祭 มี crow จาก ZETA DIVISION",
-  "image": "http://www.bing.com/th?id=ONUT.NJq3bIsAqMZop_u48UZF-Q&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.wKVcsi-emVmFluFLJ920ug&pid=News",
   "official": null,
   "sources": [
    {
@@ -45925,8 +45921,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.jiji.com/jc/article?k=000000005.000190175&g=prt",
-  "imageFrom": "https://www.appbank.net/2026/10/27/game/3144837.php",
-  "imageHash": "54eafe3b8f321c8c"
+  "imageFrom": "https://www.sankei.com/pressrelease/prtimes/DDIUJUKJ4NOWZDN2FZGQ3ENUBY/",
+  "imageHash": "bfe178893f31f895"
  },
  {
   "id": "05c8e79d31ba",

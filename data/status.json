@@ -1,16 +1,16 @@
 {
- "finishedAt": "2026-10-27T19:20:47.854Z",
- "runner": "local",
+ "finishedAt": "2026-10-27T19:51:35.081Z",
+ "runner": "github",
  "total": 1098,
  "upcoming": 1047,
  "added": 0,
- "pending": 5216,
+ "pending": 5365,
  "withDate": 75,
  "withImage": 91,
  "withPrice": 42,
  "ai": {
-  "calls": 1406,
-  "failed": 1406,
+  "calls": 1549,
+  "failed": 1549,
   "quota": [
    "txc_bd70",
    "txc_a9b5",
@@ -20,6 +20,6 @@
   "keys": 4
  },
  "problems": [
-  "เรียก AI ล้มเหลว 1406/1406 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+  "เรียก AI ล้มเหลว 1549/1549 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
  ]
 }
