@@ -325,6 +325,7 @@ async function fetchBilibili() {
     if (ev) {
       ev.image ??= source.image;
       ev.official ??= source.link;
+      ev.verified = true; // structured listing, no AI guesswork
       if (x.price_low) ev.price_th ??= x.isFree ? "เข้าฟรี" : `เริ่มต้น ¥${(x.price_low / 100).toFixed(0)}`;
     }
     added += events.length - before;
@@ -401,6 +402,46 @@ if (hasKeys()) for (let i = 0; i < noThai.length; i += 30) {
     chunk.forEach((e, n) => { if (typeof out[n] === "string" && out[n].trim()) e.name_th = out[n].trim(); });
   } catch (e) { if (e instanceof BillingStop) break; }
 }
+
+// Second opinion: Nemotron does the bulk extraction, Haiku re-checks each new upcoming event against its headlines
+// and fixes or drops it. Events that came from structured listings (Bilibili) are already trusted.
+const MAX_VERIFY = Number(arg("max-verify", 30));
+const VERIFY = `You check events extracted by another model. For each numbered event, compare it with its source headlines.
+Today is ${today}. An event must be a real public event with a date (in person, or a scheduled online event like an online
+concert or VTuber stream). Reply with valid JSON only, one entry per number:
+{"0":{"ok":true},"1":{"ok":true,"fix":{"start":"YYYY-MM-DD","end":"YYYY-MM-DD","tags":["anime"],"online":false,"price_th":"...","name_th":"..."}},
+"2":{"ok":false,"reason":"not an event"}}
+Only include fields in "fix" that are clearly wrong. Use ok:false only if it is not an event, already ended, or a duplicate entry.
+Allowed tags: ${Object.keys(TAGS).join(", ")}.`;
+async function verify() {
+  const todoVerify = events.filter(e => !e.verified && (!e.end || e.end >= today)).slice(0, MAX_VERIFY);
+  let fixed = 0, dropped = 0, checked = 0;
+  for (let i = 0; i < todoVerify.length; i += 10) {
+    const chunk = todoVerify.slice(i, i + 10);
+    const body = chunk.map((e, n) => `${n}. ${e.name} | ${e.start || "?"}–${e.end || "?"} | ${[e.venue, e.city].filter(Boolean).join(", ") || "-"} | tags=${e.tags.join(",")} | online=${!!e.online} | price=${e.price_th || "-"}\n` +
+      e.sources.slice(0, 3).map(s => `   - [${s.date}] ${s.title}`).join("\n")).join("\n");
+    let out;
+    try { out = parseJson((await extract([{ role: "system", content: VERIFY }, { role: "user", content: body }], ORDERS.verify)).text); }
+    catch (e) { console.warn(`[verify] stopped: ${e.message.slice(0, 120)}`); break; } // Haiku quota out: try again next run
+    chunk.forEach((e, n) => {
+      const r = out[n];
+      if (!r) return;
+      checked++;
+      if (r.ok === false) { events.splice(events.indexOf(e), 1); dropped++; return; }
+      const f = r.fix || {};
+      if (/^\d{4}-\d\d-\d\d$/.test(f.start || "")) e.start = f.start;
+      if (/^\d{4}-\d\d-\d\d$/.test(f.end || "")) e.end = f.end;
+      if (Array.isArray(f.tags) && f.tags.some(t => TAGS[t])) e.tags = f.tags.filter(t => TAGS[t]);
+      if (typeof f.online === "boolean") e.online = f.online;
+      if (f.price_th) e.price_th = f.price_th;
+      if (f.name_th) e.name_th = f.name_th;
+      if (Object.keys(f).length) fixed++;
+      e.verified = true;
+    });
+  }
+  if (todoVerify.length) console.log(`[verify] checked ${checked}: fixed ${fixed}, dropped ${dropped}`);
+}
+if (hasKeys()) await verify();
 
 const todo = events.filter(e => !e.enriched);
 for (const ev of todo) await enrich(ev);

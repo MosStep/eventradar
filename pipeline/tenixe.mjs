@@ -15,6 +15,7 @@ const MAX_TOKENS = { "claude-haiku-5-5": 4000, "deepseek-v4-flash": 24000, "nemo
 export const ORDERS = {
   extract: process.env.EXTRACT_MODELS || "claude-haiku-5-5,nemotron-3-ultra,deepseek-v4-flash",
   describe: process.env.DESCRIBE_MODELS || "nemotron-3-ultra,claude-haiku-5-5",
+  verify: process.env.VERIFY_MODELS || "claude-haiku-5-5", // the second opinion must come from a different model
 };
 const models = order => order.split(",").map(model => ({ model, maxTokens: MAX_TOKENS[model] ?? 8000 }));
 
