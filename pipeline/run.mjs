@@ -199,9 +199,14 @@ async function searchImage(ev) {
   try {
     const xml = await (await fetch(`https://www.bing.com/news/search?q=${encodeURIComponent(ev.name)}&format=rss${cc}`, { headers: UA })).text();
     const items = xml.split("<item>").slice(1, 5);
-    ev.article ??= items[0] ? unwrap(tag(items[0], "link")) : null; // used later for the event description
-    const withThumb = items.find(i => posterOk(tag(i, "News:Image")) && !LOGO_SITES.test(unwrap(tag(i, "link"))));
-    if (withThumb) { ev.imageFrom = unwrap(tag(withThumb, "link")); return (ev.image = tag(withThumb, "News:Image")); }
+    // a direct article for the description and the app's "อ่านข่าว" — never a Yahoo/MSN page (they disappear)
+    ev.article ??= items.map(i => unwrap(tag(i, "link"))).find(l => !LOGO_SITES.test(l)) || null;
+    for (const i of items.filter(i => posterOk(tag(i, "News:Image")) && !LOGO_SITES.test(unwrap(tag(i, "link"))))) {
+      const h = await imageHash(tag(i, "News:Image"));
+      if (!h || h === "dead" || logoHashes.has(h)) continue;
+      ev.imageFrom = unwrap(tag(i, "link")); ev.imageHash = h;
+      return (ev.image = tag(i, "News:Image"));
+    }
     // A dead or logo-only article is skipped and the next one tried.
     for (const i of items) {
       const link = unwrap(tag(i, "link"));
@@ -232,7 +237,7 @@ Reply with valid JSON only (no " inside string values):
 
 // Richer details for the app's event page, from the article text (falls back to the headlines).
 async function describe(ev, key = null) {
-  const urls = [...ev.sources.map(s => s.link).filter(l => !/news\.google\./.test(l)), ev.article].filter(Boolean);
+  const urls = [...ev.sources.filter(s => !s.dead).map(s => s.link).filter(l => !/news\.google\./.test(l)), ev.article].filter(Boolean);
   // Articles often write "May 30 and 31" without a year, so the model also gets each article's publish date
   // (from the URL like …/2026-01-16/…, else the headline's date).
   let text = "", published = null;
@@ -537,6 +542,37 @@ if (hasKeys()) await verify();
 const todo = events.filter(e => !e.enriched);
 for (const ev of todo) await enrich(ev);
 console.log(`[enrich] ${todo.length} events: ${todo.filter(e => e.image).length} with poster, ${todo.filter(e => e.official).length} with official link`);
+// Same picture on several different events = a site logo, even when the URLs differ (Bing gives every copy of a
+// Yahoo logo its own thumbnail URL). Hash the image bytes once per URL, remember logo hashes across runs.
+const LOGO_FILE = path.join(ROOT, "data", "logo-hashes.json");
+const logoHashes = new Set(load(LOGO_FILE, []));
+async function imageHash(url) {
+  try {
+    const res = await fetch(url, { headers: UA, signal: AbortSignal.timeout(10000) });
+    if (!res.ok) return "dead";
+    return crypto.createHash("sha1").update(Buffer.from(await res.arrayBuffer())).digest("hex").slice(0, 16);
+  } catch { return null; }
+}
+{
+  const need = events.filter(e => e.image && !e.imageHash && (!e.end || e.end >= today)).slice(0, 300);
+  for (let i = 0; i < need.length; i += 8)
+    await Promise.all(need.slice(i, i + 8).map(async e => { e.imageHash = await imageHash(e.image); }));
+  const byHash = new Map();
+  for (const e of events) if (e.imageHash && e.imageHash !== "dead") (byHash.get(e.imageHash) || byHash.set(e.imageHash, new Set()).get(e.imageHash)).add(norm(e.name));
+  for (const [h, names] of byHash) if (names.size >= 2) logoHashes.add(h);
+  let cleared = 0;
+  // Bing re-encodes each copy, so a Yahoo logo can still slip through the hash check. Bing thumbnails picked before
+  // the source site was recorded (no imageFrom) are searched once more with the logo-site filter in place.
+  for (const e of events) if (e.image && /bing\.com\/th/.test(e.image) && !e.imageFrom && !e.imageRechecked && !e.imageOfficial) {
+    e.imageRechecked = true; e.image = null; e.imageHash = null; e.imageTried = false; cleared++;
+  }
+  for (const e of events) if (e.image && !e.imageOfficial && (logoHashes.has(e.imageHash) || e.imageHash === "dead")) {
+    genericImages.add(e.image); e.image = null; e.imageHash = null; e.imageTried = false; cleared++;
+  }
+  save(LOGO_FILE, [...logoHashes]);
+  if (cleared) console.log(`[images] cleared ${cleared} logo/dead posters (${logoHashes.size} known logo images)`);
+}
+
 // Same image on several different events = a site logo. Drop it everywhere and search again.
 const imageUse = new Map();
 for (const e of events) if (e.image) imageUse.set(e.image, (imageUse.get(e.image) || 0) + 1);
@@ -636,6 +672,24 @@ if (hasKeys() && priceQueue.length) {
 
 events.sort((a, b) => (a.start || "9999").localeCompare(b.start || "9999"));
 save(EVENTS, events);
+// News links die (Yahoo Japan returns 403 after a few days). Check upcoming events' links every 3 days; the app
+// opens the first working, non-Yahoo link, and the details step skips dead pages.
+{
+  const recheck = new Date(Date.now() - 3 * 864e5).toISOString().slice(0, 10);
+  const todo = events.filter(e => !e.end || e.end >= today).flatMap(e => e.sources)
+    .filter(s => !/news\.google\./.test(s.link) && (s.checked || "") < recheck).slice(0, 250);
+  for (let i = 0; i < todo.length; i += 8) await Promise.all(todo.slice(i, i + 8).map(async src => {
+    try {
+      const res = await fetch(src.link, { headers: UA, redirect: "follow", signal: AbortSignal.timeout(10000) });
+      src.dead = res.status >= 400; res.body?.cancel?.();
+    } catch { src.dead = true; }
+    src.checked = today;
+  }));
+  // working, non-Yahoo links first so "อ่านข่าว" opens a page that loads
+  for (const e of events) e.sources.sort((a, b) => (a.dead ? 2 : 0) + (LOGO_SITES.test(a.link) ? 1 : 0) - ((b.dead ? 2 : 0) + (LOGO_SITES.test(b.link) ? 1 : 0)));
+  if (todo.length) console.log(`[links] checked ${todo.length}: ${todo.filter(s => s.dead).length} dead`);
+}
+
 writeCalendars();
 writeSharePages();
 writeStatus();

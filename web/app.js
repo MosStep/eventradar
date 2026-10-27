@@ -450,7 +450,9 @@ function googleCal(e) {
 function openSheet(id) {
   const e = state.events.find(x => x.id === id);
   if (!e) return;
-  const news = e.sources[0]?.link;
+  // A working direct article first; Google News links only redirect (often to a Yahoo page that is gone), so the
+  // article the pipeline found by searching comes before them.
+  const news = (e.sources.find(s => !s.dead && !/news\.google\./.test(s.link)) || {}).link || e.article || (e.sources.find(s => !s.dead) || {}).link;
   const search = `https://www.google.com/search?q=${encodeURIComponent(`${e.name} ${e.start?.slice(0, 4) || ""}`)}`;
   const fresh = $("#sheet").hidden || $("#sheetBody").dataset.kind !== "event";
   showSheet(`
@@ -484,8 +486,8 @@ function openSheet(id) {
         ${e.venue ? `<button class="chip" data-follow-word="${esc(e.venue)}">${icon("pin")} ติดตามสถานที่นี้</button>` : ""}
         <a class="chip" href="${reportLink(e)}" target="_blank" rel="noopener">แจ้งข้อมูลผิด</a>
       </div>
-      <div class="sources">ข่าวที่พูดถึงงานนี้ (${e.sources.length})
-        ${e.sources.map(s => `<a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.title)} <small>· ${esc(s.source)}</small></a>`).join("")}
+      <div class="sources">ข่าวที่พูดถึงงานนี้ (${e.sources.filter(s => !s.dead).length})
+        ${e.sources.filter(s => !s.dead).map(s => `<a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.title)} <small>· ${esc(s.source)}</small></a>`).join("")}
       </div>
     </div>`, "event");
   if (fresh) $("#sheetBody").scrollTop = 0;
