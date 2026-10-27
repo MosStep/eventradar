@@ -52,6 +52,7 @@ const state = {
   countries: new Set(store.get("countries", Object.keys(COUNTRIES))),
   offTags: new Set(store.get("offTags", [])), // stored as "off" so newly added tags start visible
   offRegions: new Set(store.get("offRegions", [])), // "TH:north" style keys
+  format: store.get("format", "all"), // all | offline | online
   quick: store.get("quick", null), // one group picked from the main screen, or null for all
   starred: new Set(store.get("starred", [])),
   month: new Date(new Date().getFullYear(), new Date().getMonth(), 1),
@@ -82,6 +83,7 @@ function countdown(e) {
 function visible() {
   const q = state.q.toLowerCase();
   return state.events.filter(e => state.countries.has(e.country) && !(e.region && state.offRegions.has(`${e.country}:${e.region}`))
+    && (state.format === "all" || (state.format === "online") === !!e.online)
     && e.tags.some(t => !state.offTags.has(t) && (!state.quick || TAGS[t]?.group === state.quick))
     && (!q || [e.name, e.name_th, e.venue, e.city].some(s => s?.toLowerCase().includes(q))));
 }
@@ -98,7 +100,8 @@ function imgFail(el) {
 }
 
 // Main screen: one row — the filter button, then quick single-pick groups. Detailed picks live in the filter sheet.
-const filterCount = () => (state.countries.size < Object.keys(COUNTRIES).length ? 1 : 0) + (state.offTags.size ? 1 : 0) + (state.offRegions.size ? 1 : 0);
+const filterCount = () => (state.countries.size < Object.keys(COUNTRIES).length ? 1 : 0) + (state.offTags.size ? 1 : 0)
+  + (state.offRegions.size ? 1 : 0) + (state.format !== "all" ? 1 : 0);
 
 function chips() {
   const n = filterCount();
@@ -123,6 +126,8 @@ function filterSheet() {
   showSheet(`<div class="sheet-content filters">
     <span class="grab dark"></span>
     <div class="section-head"><h2>ตัวกรอง</h2><button class="link" data-reset>ล้างทั้งหมด</button></div>
+    <h5>รูปแบบงาน</h5><div class="seg">${[["all", "ทั้งหมด"], ["offline", "ไปร่วมงาน"], ["online", "ออนไลน์"]].map(([v, l]) =>
+      `<button class="${state.format === v ? "on" : ""}" data-format="${v}">${l}</button>`).join("")}</div>
     <h5>ประเทศ</h5><div class="wrap">${countries}</div>
     ${[...state.countries].filter(c => REGIONS[c]).map(c => `<div class="fgroup">
       <div class="fhead">${COUNTRIES[c]} · ภูมิภาค</div>
@@ -143,7 +148,7 @@ function card(e) {
       <h4>${esc(title(e))}</h4>
       <p class="meta">📅 ${dateText(e)}</p>
       <p class="meta">${COUNTRIES[e.country]}${regionName(e) ? ` · ${regionName(e)}` : ""}${place ? ` · ${esc(place)}` : ""}</p>
-      <div class="badges">${isNew(e) ? `<span class="badge new">ใหม่</span>` : ""}${e.tags.map(badge).join("")}</div>
+      <div class="badges">${e.online ? `<span class="badge online">ออนไลน์</span>` : ""}${isNew(e) ? `<span class="badge new">ใหม่</span>` : ""}${e.tags.map(badge).join("")}</div>
     </div>
     <button class="star ${state.starred.has(e.id) ? "on" : ""}" data-star="${e.id}" aria-label="ติดตาม">${state.starred.has(e.id) ? "★" : "☆"}</button>
   </div>`;
@@ -245,7 +250,7 @@ function openSheet(id) {
       <button class="icon-btn share" data-share="${e.id}" aria-label="แชร์ให้เพื่อน">${icon("share")}</button>
       <button class="icon-btn close" data-close aria-label="ปิด">${icon("x")}</button></div>
     <div class="sheet-content">
-      <div class="badges">${isNew(e) ? `<span class="badge new">ใหม่</span>` : ""}${e.tags.map(t => badge(t).replace(">", `>${TAGS[t]?.icon || ""} `)).join("")}</div>
+      <div class="badges">${e.online ? `<span class="badge online">ออนไลน์</span>` : ""}${isNew(e) ? `<span class="badge new">ใหม่</span>` : ""}${e.tags.map(t => badge(t).replace(">", `>${TAGS[t]?.icon || ""} `)).join("")}</div>
       <h3 style="margin-top:10px">${esc(title(e))}</h3>
       ${e.name_th && e.name_th !== e.name ? `<p class="orig">${esc(e.name)}</p>` : ""}
       <div class="facts">
@@ -262,7 +267,7 @@ function openSheet(id) {
         ${news ? `<a href="${esc(news)}" target="_blank" rel="noopener">${icon("news")} อ่านข่าว</a>` : ""}
         <a href="${search}" target="_blank" rel="noopener">${icon("search")} ค้นหางานนี้</a>
         ${where(e) ? `<a href="https://www.google.com/maps/search/${encodeURIComponent(where(e))}" target="_blank" rel="noopener">${icon("map")} แผนที่</a>` : ""}
-        ${e.start ? `<a href="${googleCal(e)}" target="_blank" rel="noopener">${icon("calplus")} ลงปฏิทิน</a>` : ""}
+        ${e.start ? `<button data-addcal="${e.id}">${icon("calplus")} ลงปฏิทิน</button>` : ""}
       </div>
       <div class="sources">ข่าวที่พูดถึงงานนี้ (${e.sources.length})
         ${e.sources.map(s => `<a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.title)} <small>· ${esc(s.source)}</small></a>`).join("")}
@@ -339,16 +344,29 @@ $("#sheetBody").addEventListener("touchend", e => {
   setTimeout(() => ($("#sheetBody").style.transition = ""), 220);
 });
 
-function exportIcs() {
+function ics(list) {
   const txt = s => String(s || "").replace(/[\\,;]/g, m => "\\" + m).replace(/\n/g, "\\n");
   const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//EventRadar//TH"];
-  for (const e of state.events.filter(e => state.starred.has(e.id) && e.start)) {
+  for (const e of list.filter(e => e.start)) {
     lines.push("BEGIN:VEVENT", `UID:${e.id}@eventradar`, `DTSTART;VALUE=DATE:${ymd(e.start)}`, `DTEND;VALUE=DATE:${ymd(nextDay(e.end || e.start))}`,
       `SUMMARY:${txt(title(e))}`, `LOCATION:${txt(where(e))}`, `DESCRIPTION:${txt([e.summary_th, e.official || e.sources[0]?.link].filter(Boolean).join("\n"))}`, "END:VEVENT");
   }
   lines.push("END:VCALENDAR");
+  return lines.join("\r\n");
+}
+
+// iPhone/iPad/Mac: opening an .ics shows Apple Calendar's "Add" card. Everything else: Google Calendar's prefilled event.
+const isApple = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent);
+function addToCalendar(e) {
+  if (!isApple) return window.open(googleCal(e), "_blank", "noopener");
+  location.href = `data:text/calendar;charset=utf-8,${encodeURIComponent(ics([e]))}`;
+}
+
+function exportIcs() {
+  const list = state.events.filter(e => state.starred.has(e.id));
+  if (isApple) { location.href = `data:text/calendar;charset=utf-8,${encodeURIComponent(ics(list))}`; return; }
   const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([lines.join("\r\n")], { type: "text/calendar" }));
+  a.href = URL.createObjectURL(new Blob([ics(list)], { type: "text/calendar" }));
   a.download = "eventradar.ics";
   a.click();
 }
@@ -360,6 +378,8 @@ document.addEventListener("click", ev => {
   if (ev.target.closest("[data-close]")) return closeSheet();
   const sh = ev.target.closest("[data-share]");
   if (sh) return share(sh.dataset.share);
+  const cal = ev.target.closest("[data-addcal]");
+  if (cal) return addToCalendar(state.events.find(e => e.id === cal.dataset.addcal));
   const star = ev.target.closest("[data-star]");
   if (star) {
     toggle(state.starred, "starred", star.dataset.star);
@@ -383,13 +403,14 @@ document.addEventListener("click", ev => {
   else if (b.dataset.country) toggle(state.countries, "countries", b.dataset.country);
   else if (b.dataset.tag) toggle(state.offTags, "offTags", b.dataset.tag);
   else if (b.dataset.region) toggle(state.offRegions, "offRegions", b.dataset.region);
+  else if (b.dataset.format) { state.format = b.dataset.format; store.set("format", state.format); }
   else if (b.dataset.groupAll) {
     const tags = Object.keys(GROUPS[b.dataset.groupAll].tags), allOn = tags.every(t => !state.offTags.has(t));
     tags.forEach(t => (allOn ? state.offTags.add(t) : state.offTags.delete(t)));
     store.set("offTags", [...state.offTags]);
   } else if (b.dataset.reset !== undefined) {
-    state.offTags.clear(); state.offRegions.clear(); state.countries = new Set(Object.keys(COUNTRIES)); state.quick = null;
-    store.set("offTags", []); store.set("offRegions", []); store.set("countries", [...state.countries]); store.set("quick", null);
+    state.offTags.clear(); state.offRegions.clear(); state.countries = new Set(Object.keys(COUNTRIES)); state.quick = null; state.format = "all";
+    store.set("offTags", []); store.set("offRegions", []); store.set("format", "all"); store.set("countries", [...state.countries]); store.set("quick", null);
   }
   else if (b.dataset.day) state.day = b.dataset.day;
   else if (b.id === "prev" || b.id === "next") shiftMonth(b.id === "next" ? 1 : -1);
@@ -417,6 +438,7 @@ const getJson = (url, def) => fetch(url).then(r => (r.ok ? r.json() : def)).catc
 Promise.all([getJson("taxonomy.json", {}), getJson(`data/events.json?t=${Date.now()}`, []), getJson("regions.json", {})]).then(([taxonomy, events, regions]) => {
   GROUPS = taxonomy;
   REGIONS = regions;
+  if (state.quick && !GROUPS[state.quick]) state.quick = null; // group ids changed since it was saved
   for (const [g, x] of Object.entries(GROUPS))
     for (const [t, name] of Object.entries(x.tags)) TAGS[t] = { name, group: g, color: x.color, icon: x.icon };
   state.events = events;

@@ -61,6 +61,10 @@ header { display: flex; align-items: center; gap: 12px; padding: 14px 0 6px; }
 .poster:active { transform: scale(.97); }
 .poster .img { height: 110px; position: relative; display: grid; place-items: center; font-size: 40px; background: linear-gradient(135deg, var(--c), color-mix(in srgb, var(--c) 30%, #000)); }
 .poster img, .card .thumb img, .sheet-hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* Pin images to their frame so tall or odd-sized posters never spill out of the card */
+.poster .img, .sheet-hero { overflow: hidden; }
+.poster .img img, .sheet-hero img { position: absolute; inset: 0; }
+.badge.online { background: #2e7bf6; color: #fff; }
 .poster .count { position: absolute; left: 8px; bottom: 8px; background: rgba(0,0,0,.65); color: #fff; font-size: 11px; padding: 3px 8px; border-radius: 999px; backdrop-filter: blur(6px); }
 .poster .txt { padding: 8px 10px 10px; }
 .poster h4 { margin: 0; font-size: 13px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.7em; }

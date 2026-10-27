@@ -61,17 +61,19 @@ const REGIONS = JSON.parse(fs.readFileSync(path.join(ROOT, "web", "regions.json"
 function regionCodes() { return Object.entries(REGIONS).map(([c, r]) => `${c}=${Object.keys(r).join("|")}`).join("; "); }
 const validRegion = (country, r) => (r && REGIONS[country]?.[r] ? r : null);
 
-const PROMPT = `You extract real-world, IN-PERSON public events from news headlines (Thailand, Japan, China).
-Today is ${today}. Keep only events people can physically attend at a venue: conventions, exhibitions, expos, game shows,
-anime/comic/doujin events, cosplay events, fan meetings, concerts, festivals, premieres, tech/AI conferences, car launch
-events, motor shows, food festivals, art exhibitions, fairs, pop-ups. SKIP: online/livestream-only events, product/game/anime/
-movie releases without a public venue event, sales, general news, and events that already ended before today.
+const PROMPT = `You extract public EVENTS from news headlines (Thailand, Japan, China).
+Today is ${today}. Keep events people can attend at a venue: conventions, exhibitions, expos, game shows, anime/comic/doujin
+events, cosplay, fan meetings, concerts, festivals, stage shows, premieres, tech/AI conferences, car launches, motor shows,
+food/drink festivals, art exhibitions, markets, pop-ups, sports, temple/shrine festivals, fireworks, fairs.
+Also keep scheduled ONLINE events with a set date/time (online concerts, VTuber live streams/3D lives, online fan meetings,
+showcase streams) and mark them "online":true.
+SKIP: product/game/anime/movie releases with no event, general news, and events that already ended before today.
 Several headlines about the same event → one entry listing all their indices. Use each headline's date to infer the year.
 Tags (pick 1-3): ${Object.entries(TAGS).map(([k, v]) => `${k}=${v}`).join(", ")}.
 Reply with valid JSON only. Never put the " character inside a string value (use 「」 or ' instead).
 {"events":[{"i":[0,3],"name":"official name (original language)","name_th":"Thai name","start":"YYYY-MM-DD or null",
 "end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null","country":"TH|JP|CN","tags":["anime"],
-"region":"region code or null","summary_th":"one short Thai sentence"}]}
+"region":"region code or null","online":false,"summary_th":"one short Thai sentence"}]}
 Region codes: ${regionCodes()}.`;
 
 function parseJson(text) {
@@ -110,9 +112,17 @@ function similar(a, b) {
   return (2 * hit) / (a.length + b.length - 2) >= 0.6;
 }
 
-const near = (a, b) => !a || !b || Math.abs(new Date(a) - new Date(b)) <= 3 * 864e5;
-const sameEvent = (e, f) => e.country === f.country && near(e.start, f.start)
-  && (similar(e.name, f.name) || similar(e.name_th, f.name_th) || similar(e.name, f.name_th) || similar(e.name_th, f.name));
+// One missing date may match (a later headline adds it); two missing dates only match on the exact name.
+const near = (a, b) => (!a && !b ? null : !a || !b || Math.abs(new Date(a) - new Date(b)) <= 3 * 864e5);
+// Different editions (Comic Con 2026 vs 2027) must not merge.
+const years = s => (String(s || "").match(/20\d\d/g) || []).join();
+function sameEvent(e, f) {
+  if (e.country !== f.country) return false;
+  if (years(e.name) && years(f.name) && years(e.name) !== years(f.name)) return false;
+  const n = near(e.start, f.start);
+  if (n === null) return norm(e.name) === norm(f.name);
+  return n && (similar(e.name, f.name) || similar(e.name_th, f.name_th) || similar(e.name, f.name_th) || similar(e.name_th, f.name));
+}
 
 function merge(events, found, items) {
   let added = 0;
@@ -126,13 +136,14 @@ function merge(events, found, items) {
     if (ev) {
       for (const k of ["start", "end", "venue", "city", "name_th", "summary_th"]) ev[k] ??= f[k] ?? null;
       ev.region ??= validRegion(ev.country, f.region);
+      ev.online ??= f.online === true;
       ev.tags = [...new Set([...ev.tags, ...tags])];
       for (const s of sources) if (!ev.sources.some(x => x.link === s.link)) { ev.sources.push(s); ev.enriched = false; }
       ev.updated = today;
     } else {
       events.push({ id: crypto.createHash("sha1").update(f.country + norm(f.name) + (f.start || "")).digest("hex").slice(0, 12),
         name: f.name, name_th: f.name_th ?? null, start: f.start ?? null, end: f.end ?? f.start ?? null, venue: f.venue ?? null,
-        city: f.city ?? null, country: f.country, region: validRegion(f.country, f.region), tags, summary_th: f.summary_th ?? null, image: null, official: null,
+        city: f.city ?? null, country: f.country, region: validRegion(f.country, f.region), online: f.online === true, tags, summary_th: f.summary_th ?? null, image: null, official: null,
         sources, added: today, updated: today });
       added++;
     }
@@ -152,7 +163,7 @@ async function enrich(ev) {
       const res = await fetch(s.link, { headers: UA, signal: AbortSignal.timeout(10000) });
       const html = (await res.text()).slice(0, 600000);
       const og = ogImage(html);
-      if (og && !ev.image) ev.image = new URL(decode(og), s.link).href;
+      if (og && !ev.image && posterOk(new URL(decode(og), s.link).href)) ev.image = new URL(decode(og), s.link).href;
       if (!ev.official) {
         const host = new URL(s.link).hostname.replace(/^www\./, "");
         const words = (ev.name.toLowerCase().match(/[a-z0-9]{4,}/g) || []).filter(w => !/2026|2027|event|show|festival/.test(w));
@@ -166,12 +177,17 @@ async function enrich(ev) {
     } catch {}
     if (ev.image && ev.official) break;
   }
-  ev.image ??= ev.sources.find(s => s.image)?.image ?? null;
+  ev.image ??= ev.sources.find(s => s.image && posterOk(s.image))?.image ?? null;
   ev.enriched = true;
 }
 
 const ogImage = html => (html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i)
   || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i))?.[1];
+
+// A news site's default share image (its logo) is not a poster. Caught by name, or by being used for several events.
+const GENERIC_IMAGE = /logo|ogp?[_-]?default|default[_-]?(og|ogp|image|share)|noimage|no[_-]image|placeholder|common\/images|\/ogp\.(png|jpg)|share\.(png|jpg)|s\.yimg\.jp\/images\/news/i;
+const genericImages = new Set();
+const posterOk = url => url && !GENERIC_IMAGE.test(url) && !genericImages.has(url);
 
 // No poster from the event's own news (e.g. Google-only links): search Bing News by event name and take the
 // first thumbnail, or the og:image of the first articles found.
@@ -182,13 +198,14 @@ async function searchImage(ev) {
     const xml = await (await fetch(`https://www.bing.com/news/search?q=${encodeURIComponent(ev.name)}&format=rss${cc}`, { headers: UA })).text();
     const items = xml.split("<item>").slice(1, 5);
     ev.article ??= items[0] ? unwrap(tag(items[0], "link")) : null; // used later for the event description
-    const withThumb = items.find(i => tag(i, "News:Image"));
+    const withThumb = items.find(i => posterOk(tag(i, "News:Image")));
     if (withThumb) return (ev.image = tag(withThumb, "News:Image"));
+    // A dead or logo-only article is skipped and the next one tried.
     for (const i of items) {
       const link = unwrap(tag(i, "link"));
       try {
         const og = ogImage((await (await fetch(link, { headers: UA, signal: AbortSignal.timeout(10000) })).text()).slice(0, 300000));
-        if (og) return (ev.image = new URL(decode(og), link).href);
+        if (og && posterOk(new URL(decode(og), link).href)) return (ev.image = new URL(decode(og), link).href);
       } catch {}
     }
   } catch {}
@@ -226,6 +243,9 @@ async function describe(ev) {
 }
 
 const raw = load(RAW, {});
+// Keep raw.json small: processed headlines older than 45 days are never needed again.
+const cutoff = new Date(Date.now() - 45 * 864e5).toISOString().slice(0, 10);
+for (const [id, r] of Object.entries(raw)) if (r.status !== "new" && r.date < cutoff) delete raw[id];
 if (!TIDY) console.log(`[fetch] window=${WINDOW}: ${await fetchHeadlines(raw)}`);
 save(RAW, raw);
 if (FETCH_ONLY) process.exit(0);
@@ -248,11 +268,12 @@ async function extractBatch(items, label) {
 }
 
 const events = load(EVENTS, []);
-const pending = Object.values(raw).filter(r => r.status === "new");
-let batches = 0, added = 0;
+// Newest headlines first, and each country gets its own batch budget so China is not starved by Japan/Thailand.
+const pending = Object.values(raw).filter(r => r.status === "new").sort((a, b) => b.date.localeCompare(a.date));
+let added = 0;
 for (const country of TIDY ? [] : Object.keys(COUNTRIES)) {
   const list = pending.filter(r => r.country === country);
-  for (let i = 0; i < list.length && batches < MAX_BATCHES; i += BATCH, batches++) {
+  for (let i = 0, batches = 0; i < list.length && batches < MAX_BATCHES; i += BATCH, batches++) {
     try {
       added += await extractBatch(list.slice(i, i + BATCH), `${country} batch ${i / BATCH + 1}`);
     } catch (e) {
@@ -263,6 +284,47 @@ for (const country of TIDY ? [] : Object.keys(COUNTRIES)) {
     save(EVENTS, events);
   }
 }
+
+// China: Bilibili's ticket site (会员购) lists conventions, doujin events and IP exhibitions with exact dates,
+// venue and the official poster — structured data, so no AI needed except for the Thai name.
+const BILI_TAGS = [[/漫展/, ["anime", "comic"]], [/同人/, ["comic"]], [/演唱会|live/i, ["concert"]], [/音乐节/, ["festival"]],
+  [/电竞/, ["esports"]], [/游戏/, ["game"]], [/话剧|音乐剧|舞台/, ["stage"]], [/脱口秀/, ["comedy"]], [/餐厅|咖啡|快闪|谷子/, ["market"]],
+  [/展/, ["art"]]];
+async function fetchBilibili() {
+  const seen = new Map();
+  for (let page = 1; page <= 20; page++) {
+    let result = [];
+    try {
+      const url = `https://show.bilibili.com/api/ticket/project/listV2?version=134&page=${page}&pagesize=20&area=-1&filter=&platform=web&p_type=${encodeURIComponent("全部类型")}`;
+      result = (await (await fetch(url, { headers: UA })).json()).data?.result || [];
+    } catch { break; }
+    const before = seen.size;
+    for (const x of result) seen.set(x.id, x);
+    if (seen.size === before) break; // the feed starts repeating
+    await sleep(500);
+  }
+  let added = 0;
+  for (const x of seen.values()) {
+    if (!x.start_time || (x.end_time || x.start_time) < today) continue;
+    const label = `${x.third_category_name || ""} ${x.project_name}`;
+    const f = { name: x.project_name, start: x.start_time.slice(0, 10), end: (x.end_time || x.start_time).slice(0, 10),
+      venue: x.venue_name || null, city: x.city || null, country: "CN",
+      tags: BILI_TAGS.find(([re]) => re.test(label))?.[1] || ["anime"] };
+    const source = { title: x.project_name, link: `https://show.bilibili.com/platform/detail.html?id=${x.id}`,
+      source: "bilibili会员购", date: today, image: x.cover ? `https:${x.cover.replace(/^https?:/, "")}` : null };
+    const before = events.length;
+    merge(events, [{ ...f, i: [0] }], [source]);
+    const ev = events.find(e => e.sources.some(s => s.link === source.link));
+    if (ev) {
+      ev.image ??= source.image;
+      ev.official ??= source.link;
+      if (x.price_low) ev.price_th ??= x.isFree ? "เข้าฟรี" : `เริ่มต้น ¥${(x.price_low / 100).toFixed(0)}`;
+    }
+    added += events.length - before;
+  }
+  console.log(`[bilibili] ${seen.size} listings, +${added} new events`);
+}
+if (!TIDY) await fetchBilibili();
 
 for (const e of events) if (e.official && NOT_OFFICIAL.test(e.official)) e.official = null;
 
@@ -276,9 +338,71 @@ for (let i = events.length - 1; i > 0; i--) {
   for (const s of dup.sources) if (!keep.sources.some(x => x.link === s.link)) keep.sources.push(s);
 }
 
+// Same event under very different names (e.g. "งานหนังสือ 2569" vs "มหกรรมหนังสือระดับชาติ ครั้งที่ 31").
+// Only pairs with the same dates (±1 day) and the same venue or city are asked about, and the model must be sure:
+// big venues host several different events on the same days.
+const dayGap = (a, b) => Math.abs(new Date(a) - new Date(b)) / 864e5;
+function dupCandidates() {
+  const pairs = [];
+  const dated = events.filter(e => e.start && !e.notDup);
+  for (let i = 0; i < dated.length; i++) for (let j = i + 1; j < dated.length; j++) {
+    const a = dated[i], b = dated[j];
+    if (a.country !== b.country || dayGap(a.start, b.start) > 1 || dayGap(a.end || a.start, b.end || b.start) > 1) continue;
+    const place = (a.venue && b.venue && similar(a.venue, b.venue)) || (a.city && b.city && norm(a.city) === norm(b.city));
+    if (place && !(a.notDupWith || []).includes(b.id)) pairs.push([a, b]);
+  }
+  return pairs;
+}
+async function aiDedupe() {
+  const pairs = dupCandidates();
+  let merged = 0;
+  const DEDUPE = `For each numbered pair, answer true ONLY if both entries are certainly the SAME event (same edition), just
+named differently or in different languages. Different events at the same venue on the same days are false. If unsure, false.
+Reply with valid JSON only: {"0":true,"1":false,...}`;
+  for (let i = 0; i < pairs.length; i += 15) {
+    const chunk = pairs.slice(i, i + 15);
+    const desc = e => `${e.name}${e.name_th ? ` / ${e.name_th}` : ""} | ${e.start}–${e.end || e.start} | ${[e.venue, e.city].filter(Boolean).join(", ")} | ${e.tags.join(",")}`;
+    try {
+      const out = parseJson((await extract([{ role: "system", content: DEDUPE },
+        { role: "user", content: chunk.map(([a, b], n) => `${n}. A: ${desc(a)}\n   B: ${desc(b)}`).join("\n") }])).text);
+      chunk.forEach(([a, b], n) => {
+        if (out[n] === true && events.includes(a) && events.includes(b)) {
+          for (const k of ["end", "venue", "city", "name_th", "summary_th", "image", "official", "region"]) a[k] ??= b[k];
+          a.tags = [...new Set([...a.tags, ...b.tags])];
+          for (const s of b.sources) if (!a.sources.some(x => x.link === s.link)) a.sources.push(s);
+          events.splice(events.indexOf(b), 1);
+          merged++;
+        } else (a.notDupWith ||= []).push(b.id); // don't ask about this pair again
+      });
+    } catch (e) {
+      if (e instanceof BillingStop) { console.error(e.message); break; }
+      console.warn(`[dedupe] batch failed: ${e.message.slice(0, 120)}`);
+    }
+  }
+  console.log(`[dedupe] ${pairs.length} candidate pairs, merged ${merged}`);
+}
+if (hasKeys()) await aiDedupe();
+
+// Thai names for events that came without one (e.g. Bilibili listings).
+const noThai = events.filter(e => !e.name_th && (!e.end || e.end >= today));
+if (hasKeys()) for (let i = 0; i < noThai.length; i += 30) {
+  const chunk = noThai.slice(i, i + 30);
+  try {
+    const out = parseJson((await extract([{ role: "system", content:
+      'Translate each event name into natural Thai (keep brand/IP names in their usual Thai or English form). Reply with valid JSON only: {"0":"...","1":"..."}' },
+      { role: "user", content: chunk.map((e, n) => `${n}. ${e.name}`).join("\n") }], ORDERS.describe)).text);
+    chunk.forEach((e, n) => { if (typeof out[n] === "string" && out[n].trim()) e.name_th = out[n].trim(); });
+  } catch (e) { if (e instanceof BillingStop) break; }
+}
+
 const todo = events.filter(e => !e.enriched);
 for (const ev of todo) await enrich(ev);
 console.log(`[enrich] ${todo.length} events: ${todo.filter(e => e.image).length} with poster, ${todo.filter(e => e.official).length} with official link`);
+// Same image on several different events = a site logo. Drop it everywhere and search again.
+const imageUse = new Map();
+for (const e of events) if (e.image) imageUse.set(e.image, (imageUse.get(e.image) || 0) + 1);
+for (const [url, n] of imageUse) if (n >= 3) genericImages.add(url);
+for (const e of events) if (e.image && !posterOk(e.image)) { e.image = null; e.imageTried = false; }
 const noImage = events.filter(e => !e.image && !e.imageTried);
 for (const ev of noImage) { await searchImage(ev); await sleep(400); }
 console.log(`[image search] ${noImage.length} events without poster: found ${noImage.filter(e => e.image).length}`);
