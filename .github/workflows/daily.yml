@@ -21,6 +21,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     environment:
       name: github-pages
     steps:
@@ -30,10 +31,11 @@ jobs:
           node-version: 22
       - name: Fetch and extract events
         if: github.event_name != 'push'
+        continue-on-error: true # a failed run must not stop the site from deploying
         env:
           TENIXE_KEYS: ${{ secrets.TENIXE_KEYS }}
           TENIXE_NEMOTRON_KEYS: ${{ secrets.TENIXE_NEMOTRON_KEYS }}
-        run: node pipeline/run.mjs --window=1d --max-batches=30
+        run: node pipeline/run.mjs --window=1d --max-batches=5 --max-describe=10 --max-verify=20
       - name: Save data
         if: github.event_name != 'push'
         run: |
