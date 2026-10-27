@@ -1,0 +1,322 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventRadar//TH
+X-WR-CALNAME:EventRadar · ศิลปะ/ดีไซน์
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:26195b5cbe01@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261101
+SUMMARY:MONSTERVERSE ฮาโลวีนที่เซ็นทรัล เอ็มบาสซี
+LOCATION:Central Embassy\, Bangkok
+DESCRIPTION:กิจกรรมฮาโลวีนสร้างสรรค์ที่เซ็นทรัล เอ็มบาสซี มีเวิร์กช็อป DIY ให้ร่วมสนุกตลอดเทศกาล\nhttps://mgronline.com/travel/detail/9690000102968
+END:VEVENT
+BEGIN:VEVENT
+UID:e9b5a2b7126c@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261031
+SUMMARY:นิทรรศการ Muse: Beyond Human
+LOCATION:Dib26 สุขุมวิท 26\, กรุงเทพฯ
+DESCRIPTION:ค่าเข้า: เข้าชมฟรีตลอด 4 วัน\nนิทรรศการเข้าชมฟรี จัดแสดงผลงานจริงของ Picasso และ Matisse มูลค่ากว่า 200 ล้านบาท\nhttps://www.bltbangkok.com/lifestyle/50206/
+END:VEVENT
+BEGIN:VEVENT
+UID:d91c7f176b0d@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261103
+SUMMARY:สัปดาห์การดำเนินการด้านสภาพภูมิอากาศกรุงเทพฯ 2026
+LOCATION:สถานที่ต่างๆ ในกรุงเทพมหานคร\, กรุงเทพมหานคร
+DESCRIPTION:ค่าเข้า: เข้าฟรี\nงานสัปดาห์ส่งเสริมการดำเนินการด้านสภาพภูมิอากาศ โดยองค์กรพิทักษ์สัตว์แห่งโลก\nhttps://news.google.com/rss/articles/CBMiS0FVX3lxTE05Z2YwQmJ6SlAzdjJfOVBOX0hhOGx0X0ZQRWF0bHM2VndiVWdsbGVLdmdWTmtHb3g0LU14cE9XclB4cEZnZ1VScFJlQQ?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:9a9c815bcac5@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:ซีอีดี ไทยครีเอทีฟ : 4 ศิลปินไทยบนเวที
+LOCATION:สำนักงานหรือสาขา SE-ED (รายละเอียดเพิ่มเติม)\, กรุงเทพมหานคร
+DESCRIPTION:เวทีแชร์มุมมองจากศิลปินไทย 4 คน เกี่ยวกับการสร้างตัวตนและโอกาสของครีเอเตอร์ไทย\nhttps://news.google.com/rss/articles/CBMia0FVX3lxTFB2MU9OUnExRUdObkVTODJZTWI4QnA4VWoya2Q0eENmVUlIbFJwY3hJMTBOZ0JncWNjUlg5TmJwdnZhZ3BHSEFSR3ozWlJnTkkxOW1kXzd0Zm8xWFQ2ay1veGtoSy02QUZNaU5N?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:77b768efac59@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:นิทรรศการเปิดตัวครั้งแรกของหัวหน้าวงบอยแบนด์อันดับ 1 โลก
+LOCATION:สถานที่จัดนิทรรศการ (ยังไม่ระบุชื่อ)\, กรุงเทพมหานคร
+DESCRIPTION:นิทรรศการศิลปะของผู้นำวงบอยแบนด์อันดับหนึ่งของโลก เปิดตัวครั้งแรกในประเทศไทย\nhttps://news.google.com/rss/articles/CBMilwFBVV95cUxPMGJXQVVnMERYQ29zWjlEcUlzdkZOTzJZZDlwNXVwa2xuREwtSXF2OWlqU19fRzJnamJNRHNKSHh0RktqQnJKcENDZkYyNHNZQUhLbWZDMnQ3VzN1eWNjalJKazJfSDNqMDBXUXZWcTZoYk5VblplbGNJS2FHUXRDSFUxZ1NPU2RnOG8yNEJUQlM2T3dDTTNV?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:268dbb959a9b@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:แดคคี 2026 เปิดตัวพื้นที่ศิลปะอันเป็นเอกลักษณ์
+LOCATION:DACC (Digital Art Creative Center หรือที่เกี่ยวข้อง)\, กรุงเทพมหานคร
+DESCRIPTION:การเปิดตัวพื้นที่ศิลปะใหม่ของ DACC 2026 แสดงผลงานและพื้นที่สร้างสรรค์\nhttps://news.google.com/rss/articles/CBMihgFBVV95cUxOOTZPdTJmNkFIaFNuS0NsVGt0eEF0MnpfZ3R5ZExNaW5Fb1pRMDhFbjA0Qll1VVgtaldNQ1hFQVBuYVUwMDh0MzdFbEx4V3c0TjQxcEV6WGdkLVVETHBKMV9WeWJBN3Z6MFdNQjZHRzRGTDZtVWlqR1FzY1RDWTJIR0hpTlRmUQ?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:5d3ef9c82b78@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:นิทรรศการ JOURNAL × Bloc B. กลิ่น–ทุกก้าว–งานศิลปะ
+LOCATION:JOURNAL Gallery\, Bangkok
+DESCRIPTION:นิทรรศการศิลปะจากทรงวาดสู่ความทรงจำบทใหม่ โดย JOURNAL × Bloc B.\nhttps://news.google.com/rss/articles/CBMiZEFVX3lxTE9takVZX3VXN0RlSXlwV0VjYkxhNmFzdUh5R25CMkNBTGJ0MmhUODVjNktPZnZHVUI3QnczVzJJd2gxNmU5R19lT2c0anhaa0pBZjdZYnFhNXBGbFFjZ0h3OC13MVg?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:860c38a999e1@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:TOKYO GAKKI EXPO 2026
+LOCATION:พิพิธภัณฑ์วิทยาศาสตร์\, Tokyo
+DESCRIPTION:ค่าเข้า: ผู้ใหญ่ 3\,000 เยน (ล่วงหน้า 2\,500 เยน) นักเรียนมัธยมต้นหรือต่ำกว่า เข้าฟรี / เวทีพิเศษ 6\,000 เยน (รวมเข้าชมนิทรรศการ)\nงานแสดงเครื่องดนตรีและงานคราฟต์ จัดวันที่ 31 ตุลาคม – 1 พฤศจิกายน 2026 ที่พิพิธภัณฑ์วิทยาศาสตร์ในโตเกียว\nhttps://tokyogakkiexpo.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:0a7791bca7e7@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:ปักกิ่ง · ครั้งที่ 3 ชิมะอีดีซี ชอว์เคส (นิทรรศการแลกเปลี่ยนของเล่น ชิมะอีดีซี)
+LOCATION:北京首钢会展中心\, 北京市
+DESCRIPTION:ค่าเข้า: เริ่มต้น ¥168\nhttps://show.bilibili.com/platform/detail.html?id=1006670
+END:VEVENT
+BEGIN:VEVENT
+UID:78bac47da6e8@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:นิทรรศการ 'เมืองที่อันตรายนิดหน่อย' ที่อิเคะบุคุโระ PARCO
+LOCATION:池袋PARCO\, Tokyo
+DESCRIPTION:นิทรรศการธีมเมืองที่อันตรายเล็กน้อยจัดที่ห้าง PARCO อิเคะบุคุโระ เริ่ม 6 พฤศจิกายน 2026\nhttps://news.google.com/rss/articles/CBMimAFBVV95cUxQWi1CUmFMYjRGYTJ2TERUNXRKZzNFTE1oSXExTVNIOWVsaWotUTJwS190bGdnRndHOWpkLWhycndPZ0RiQ3pFYWRlcEw5UXoyMXVsdnNETDA1aWdZcjFWc2xPang3Tk5KZDY5RmgwRFdZeVpjejhWUzNLcDRvVTJPT2ZMamhjSWNETHlvTjVQMjBUZW9JaHVFTNIBoAFBVV95cUxPRWNHcE1YRlJqelc2b0N4T3pCeUJBZ2JTZEEydkRKcFdFTlJjNkRDS2JZWk5NSEFtSmZZdWhnamdMdGtrRUJzWlZUZVF2dWpxTl9UUWZtSWFwclNvUXJkTGllTFVMQzVPUFNyZGtDaUtvVThtUlItRktVQnNLc1RtY2p2MDBrWk1VWXRXRHdXZG9DMmZlRXdJYmdYSWtaY2lY?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:30d3cf8d3ea8@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:นิทรรศการ 15 ปี มังงะเด็กสาวโนซากิ-คุน
+LOCATION:埼玉、新宿\, Saitama\, Tokyo
+DESCRIPTION:นิทรรศการ 15 ปี มังงะเด็กสาวโนซากิ-คุน จัดต่อเนื่องที่ไซตามะและชินจูกุ เริ่ม 13 พ.ย. 2569\nhttps://news.google.com/rss/articles/CBMirgFBVV95cUxNOHIxWk8yY3d1Y2pzZGJFbWdpc1JIR1d1SVV6cWlBNzZadl9jY1ZLYzZiNkVSeEFsS0Jod2JNVnNzZkRxa2xUOEltVWlkNF9uTWkxaDFjTWttZWgtR0lUOEVZa1c4VVlvZGNnTFBOS2lyVUVRSWh4Q0dCUnJzOHZhODdqcFJZS01BTkgxN1RWaUV2NDgzMk9hdHp6RlB2UXB0MG9TeERoSWtMSnpERUE?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:9f2fcb730d35@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:นิทรรศการพิเศษ Girls Band Cry
+LOCATION:
+DESCRIPTION:นิทรรศการพิเศษของอนิเมะ Girls Band Cry เริ่ม 14 พ.ย. มีอะคริลิกสแตนด์ขนาดเท่าตัวจริงและมุมทดลองเล่นเกม\nhttps://news.google.com/rss/articles/CBMiVEFVX3lxTE9GZ3RQQmxFVGU1QlhBZV8wQmFkd18tUDNSbzhuaWZBNWJwYnh2Q3RZcDVfQ08xLU9haDE5V2NTSk5EUFMwYVJkb3RyOEFOZ1Q2Y2NHMw?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:7d2c16b230bf@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:นิทรรศการพิเศษ GalCura ที่อนิเมะโตเกียวสเตชั่น
+LOCATION:アニメ東京ステーション\, 東京
+DESCRIPTION:นิทรรศการพิเศษผลงาน GalCura ที่อนิเมะโตเกียวสเตชั่น เริ่ม 14 พฤศจิกายน 2026\nhttps://news.google.com/rss/articles/CBMiqgFBVV95cUxNZWVYWjkxd1VPSlhjTUI1T2dhbDJrNlFrd3R1V2VMTWFRcG84eHJJSl9JNjc0eUdtdEJJU0ZyVlVaWTBMU2JZZXc4bHUwM2tMSVZWcnctOFYxd1pGZ2VLakNwOURZZHJXNGg5bG4tSlprc25tY2tkMzZkMERGZlFsWEtmT0VEaUpDcFpDRzhPMDctcEV3dm91MlBxa2tXY1hhLXVudWpEbVhXUQ?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:8e8b9d8985be@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:ป๊อปอัปนิทรรศการ 拍不出来
+LOCATION:紀伊國屋書店新宿店\, Tokyo
+DESCRIPTION:ป๊อปอัปนิทรรศการ 拍不出来 ที่ร้านคิโนะคุนิยะ สาขาชินจูกุ ตั้งแต่ 18 พ.ย. 2026\nhttps://news.google.com/rss/articles/CBMisAFBVV95cUxNMGR1TmFsbGkwbkhGYmgyb2h0Q3h1VVpuR2tUOFBKVzFiVHJQX0RuM0JwalEtSDJ1MHVsX3h3QXpPQy01N1kxOV9sdnNUeHUteDIwWTFpa1VCaDg4S012ZDJZNUdrQjNnR3J0anBtSWtMVXo1cFFnSG0tbHZfRy1oNXJ1SUtrZzJXNVlOVkxRQy1Rc2RGblBNcmRtLXNjWXFiWVVwMWJrTGZfanJPbkh4Qw?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:c8e077944e15@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:นิทรรศการ Kamen Rider 55 ปี
+LOCATION:
+DESCRIPTION:นิทรรศการฉลองครบ 55 ปีคาเมนไรเดอร์ เปิดให้เข้าชมตั้งแต่ 21 พ.ย. 2026\nhttps://news.google.com/rss/articles/CBMia0FVX3lxTE5iQl9TNWVHekZIeU1SbVFZWm5xODNTWEpyVy1OTUlrSi10MW9CNjJUNFZhb3o1UnRXSjd5MHlPS2kwUDV0Mk14Mzl6RGE4X3JIdnR3cV9VUzBRNHllejlkTVlkSGR0d3VOY1RR?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:b9ccde0118b8@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:นิทรรศการ Limbus Company ภาค Hell
+LOCATION:福冈三越\, Fukuoka
+DESCRIPTION:นิทรรศการ Limbus Company ภาคนรก ที่ห้างมิตสึโคชิ ฟุกุโอกะ เริ่ม 21 พ.ย.\nhttps://news.google.com/rss/articles/CBMilwFBVV95cUxOUEdUZmJKSmJJMkM1SnBZRXpKX3lHSUkyakhjODhhd0V0cjZOZW9Kd2dmTWpPSl9XQlNUZ2U4UzhRLXc3RDZiZ2Q1WVRac1NiNzRLc1BnVHJuRHoxb1NvTkMxUU1sY3VVUkMzVDRsVVFXbzltN3FZai0zMm41WGlEeXNrTnYxQ2lLVzZueWZvT1Z0T3E2TVFv0gGfAUFVX3lxTE11MFdfUjJJeTVBbEpKb3VldzZxeklfRnBoMlRxQ2pPRkJkSnJQYU1SVVpXY3JqcUctWFc4Q3V4dGw4X3V5R0RqZkM2d29aajFJWE44X1Jya1U1MGNORXFxdHNDRU81UVhTby1PMFVfVDhyM0tJaEc2WnVOS2IyeXJOM25UTGtYYVBKc1NUREpOLW5JU2dMamNJVmhUM0pRaw?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:e56b0fa39e3b@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:นิทรรศการภาพถ่าย 'Beautiful Him' โดยฮิระตะ คาซึนาริ
+LOCATION:麻布台Hills (Azabudai Hills)\, Tokyo
+DESCRIPTION:นิทรรศการภาพถ่ายของช่างภาพ Hirata Kazunari ที่ Azabudai Hills เริ่ม 21 พฤศจิกายน\nhttps://news.google.com/rss/articles/CBMiqgFBVV95cUxOU09PU0Rhak5pNHFiSnFTTFNSNGVCaGNueEdiNHhjX2N5LWVpVE9BcTBvUVhxYXJKdC1HY1lTUU1SV09Zcy1iVXJnSjVhY3FxZDdHeDlSNVlfYkhVOG5NV1YtUjN5ZnA5U2JXUENwRVk4YmxZal9YaXk3QzNheWdZWnlISG92Vl9acjJqb1JfYkE5SF9aTUg1VnMwNm1SRHJUdTM3MmlQUjVEQdIBsgFBVV95cUxOdXpSWXg0bndBZldLQkZxelJnUjNvM0g2T25XdjN3QVJvNDhfTlFJd1NPbjVRa1AtWkNhbF9jWnE0bGdXdVFrY1o4c0JURUQwbjVlZXBrQXduYWdIRnRyM2YzUmFaczZBSkRoeGlVN2NFUkVBcWFGd0YtWVFpRW5JZndGS190RlRSX01YZHNmVlZYdk9CSDJ1NFVydnBzME83MmctNXNJc3FzWFpYMFpMX2p3?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:e7f80f9f3d9a@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:นิทรรศการเครื่องแต่งกายคอนเสิร์ต 10 ปี อันสเต
+LOCATION:涩谷 Collabo Cafe\, Tokyo
+DESCRIPTION:นิทรรศการเครื่องแต่งกายระลึกถึง 10 ปีของอันสเต จัดที่ชิบุยะ เริ่ม 28 พ.ย. 2569\nhttps://news.google.com/rss/articles/CBMipgFBVV95cUxPUFBxY0NvVTZaZHd2MVI0eXJDNjZqaUhlakZrRUpocjk2WWppODFtS1JLeDZ6VE9RQUw2SjVxSy04Zkx3NjJhaXVBVUZXdVZLN3hGUU5YcWd2d2RnQm05LWktOHpfTUJ2YnJKODFMN2d3RzhIdXd0NVF5WTk2UHZwQjJManp6MkZFUjJYd0hDTVZ1M3pWTUFrRE5CaHRsR0p3NWlINHBB?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:bac40c94553b@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:นิทรรศการระลึกถึง 15 ปี แดงงันรอนปะ
+LOCATION:名古屋\, Nagoya
+DESCRIPTION:นิทรรศการระลึกถึง 15 ปี แดงงันรอนปะ จัดที่นาโกลย่า เริ่ม 28 พ.ย. 2569\nhttps://news.google.com/rss/articles/CBMioAFBVV95cUxQRHVUcGRRR18tYWtRc2Ywdk1BUFpGUHpacjZ1MTZCNmdMcUxSeXE3WVMyZ1RBd1VmVjRlSzMyYkdGOHphZjdMc2E1NG9OVFdOcF8yUDdOMXlmbk8xNFFLSENrTnhvUXhfTGQ2MG95Y3dMRElYV3JkQndXUHVteE5zOVhkNjVFZWpPU1A0TmtyQXBheDlsQktkZW02bmxUUUZN0gGoAUFVX3lxTE51bHIwcEsxeTQ1VUU1ZkFYMXhMamJ5dUxvSG1PbkRyeTFNSElvNnNQSnVzdXNST0l6VklJSlNiYm1zWFRoYkVaVzZNanhOSGF0MktTR3F3RUozUE5zc3g4TnQxRUxJbzdfUW5HN3BVMVp5bnB2WldQVjRaU1V5OUFvbExVWnRxei02bmYxOURJTEk4YmZGMnJFX2pRQjlhU25MTXdfNjIwSA?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:57ad69d83217@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+SUMMARY:นิทรรศการภาพถ่ายของ髙石あかり
+LOCATION:池袋PARCO\, Tokyo
+DESCRIPTION:นิทรรศการภาพถ่ายของนักแสดง髙石あかり จัดที่ PARCO อิเคบุคุโระ ในเดือนธันวาคม พร้อมขายหนังสือภาพชุดที่ 2 ล่วงหน้า\nhttps://news.google.com/rss/articles/CBMiRkFVX3lxTE52dVFZZVZCTmpUNkxTc2lwa0tzR2tNSHZ6akstZy1ldUlQb19lY3V3NHZnUWZXTk5ET0R3Ui1LdXhGLVFqd3c?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:e7f0771e13e6@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261222
+SUMMARY:MELT IN AKARI TAKAISHI
+LOCATION:PARCO FACTORY\, 池袋PARCO本館7階\, 東京
+DESCRIPTION:นิทรรศการภาพถ่ายของนักแสดงอะการิ ทากาอิชิ ที่ PARCO FACTORY ไอคิบุเกโระ วันที่ 4-21 ธ.ค. 2569\nhttps://www.oricon.co.jp/news/2488138/full/
+END:VEVENT
+BEGIN:VEVENT
+UID:3e548ecf4e5f@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:ASTOROID CHRISTMAS STUDIO เวิร์กช็อปวาดสีฟิกเกอร์
+LOCATION:Tokyo
+DESCRIPTION:กิจกรรมเวิร์กช็อปให้ผู้เข้าร่วมระบายสีฟิกเกอร์ ASTOROID ในโตเกียววันที่ 6 ธันวาคม 2026\nhttps://niewmedia.com/news/2610astoroid/
+END:VEVENT
+BEGIN:VEVENT
+UID:ed2a57168137@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:นิทรรศการ Dr.STONE
+LOCATION:池袋阳光城\, Tokyo
+DESCRIPTION:นิทรรศการอนิเมะ Dr.STONE จัดที่ซันชייןซิตี้ อิเกบูคุโระ เริ่ม 10 ธ.ค. 2569\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxPalliY2gwUWdsaFBCeEROcjUyNUxwQkZjR0paSXVDb3dqdnMzUEdua1RjN2R6N0tvYWhYeGFKbU4tUzlfSGo4SHNlMmJfM1hFSkFYa2NJRWVURUtTWXBRYVJHNXNWWjVqZHFnbkl6Z0ZGdV9OX1h3ei1GOGEyTy1wam5TeUE1MW5VWlNpenc4UXZEek50T1N0U20tZHZzS2N5OS1n0gGrAUFVX3lxTE9xak42b2pJMTBLd1VMMkM2S2VuU21KYldaU0V1Q2M4dXR0Ml9VUlQwTlpDV05ucjAzMEVkaHhoU1NHVHFJQ25BNUNEemw2TW5OSllnZXdaanZKeTNyWDFTLVNjeTY3Vk9tVE8zQ05UU2w1dnhxal9nSEZxbzJOVzRTeGt5VU9RUEpXVFZSbXhWaGVPQ3R1U0l0TU5hV0Y4Ri1LTFgxY3JqZU5rdw?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:3e26f7425fa5@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:นิทรรศการธีม Preppy style จาก指尖と恋恋 ที่ Animate
+LOCATION:Animate
+DESCRIPTION:นิทรรศการธีม Preppy style จากผลงาน指尖と恋恋 ที่ Animate เริ่ม 11 ธันวาคม 2026\nhttps://news.google.com/rss/articles/CBMijwFBVV95cUxNMjNIOVlPU0FoSXEwblJJOGhkX2xKcDZQTEs4ZXdNTzFjbWhWX3BYRVV4OHM3QlhLRlhKV3pkN2IzbHFiYTBLY19zbzB1UlJlcTRQd1ByNy1BT2U1MHh5Z1o3cndlTTU3cnlvZHM0emRUdzluWUdCTzFJMGszUHdCc1dIX1hiT3dxd21teXhJUQ?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:8706e0a9df05@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:นิทรรศการภาพต้นฉบับยูกีโฮะของคาซึกิ ทาคาฮาชิ และคาเฟ่ธีม
+LOCATION:东京京桥\, Tokyo
+DESCRIPTION:นิทรรศการภาพต้นฉบับยูกีโฮะและคาเฟ่ธีมร่วมฉลอง จัดที่กิโอชิ เริ่ม 12 ธ.ค. 2569\nhttps://news.google.com/rss/articles/CBMipAFBVV95cUxPeHBrUEFhNnc4Y2Etb2ozNnpOektKNEJBQ3lxTTNkS0VaQjdSMUdObUlpQXR1WVQ1VGJUWDZpMzVFN1l1eFRhTTVEZkREVlowY2VNYkZOMXY1ZTZ0em9SUkdvMlZtRFVvQ3gwcjVUOGFzOE9qclJIOXhuY2NSTkdBcUxqZFR5cDZzVjRFRDU1aVhWUG0tY0kwbnhqdDB2YndOZVlCTQ?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:d7a3f494f4ff@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:นิทรรศการฉลอง 30 ปีอนิเมะ ตective Conan
+LOCATION:名古屋·金山\, 名古屋
+DESCRIPTION:นิทรรศการฉลอง 30 ปีอนิเมะ ตective Conan ที่นาโกย่า เขตคานายามะ\nhttps://news.google.com/rss/articles/CBMipAFBVV95cUxNaFlidGVSUGplNUx1M1lkN2g2c3JBYUtZSlJFNmRpRXpJRTU3dXJ4bE5tbnZJVTJwam9IY0Mza1RaN1A0bXZ6UjVOVFZJLW01MmZ3WFJBNjJHNG41TEstUVk1R0ZvMS10dEdZRkc0V1BGZWtULXNXYTJWcE5CWUFySndjdXJUR0x0VlU5YlBpcXFtS1dFY05SNWwtNlMzVmd0RFh3bw?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:f38fd2ae2b57@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:นิทรรศการภาพต้นฉบับ Cinderella Gray จากเกมม้าสาว
+LOCATION:Tokyo
+DESCRIPTION:นิทรรศการภาพต้นฉบับของ Cinderella Gray เปิดที่อิเคบุคุโระ เริ่ม 19 ธ.ค. 2026 และขายบัตรล่วงหน้าตั้งแต่ 26 ต.ค.\nhttps://news.google.com/rss/articles/CBMirAFBVV95cUxNQUVRdUJzd3VBTlRRYWt5QktIYS1KYkhxRDRqVGFnZ1pUZ0s4MzJ0NjVSRDJQazYxN29QLU5VcEI2anV4VTRhbm1JTVNGUGF2LVgweUEtNnFHN0o3V1ZlN3J0bFRvYy01d3MyZlhySUF4dE1GMlJUbjNDcmR3VDdEVFVUY3VVbEIyOTh6SGEwc2VQR0k3Z1BkZ2UwM3p6b1BhVExVakdZc1RQR3ZP?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:84c4e962a144@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:นิทรรศการภาพต้นฉบับ Singre
+LOCATION:Tokyo
+DESCRIPTION:นิทรรศการภาพต้นฉบับ Singre เปิด 19 ธ.ค. 2026 พร้อมเปิดตัวภาพหลักอย่างเป็นทางการ\nhttps://news.google.com/rss/articles/CBMirgFBVV95cUxPM1k2WGxFcGQzTUFYVnVCMTQxb2dWWUZHS01FY1hhSkllaVZvdGg1blV5V1piQ2pHN3RIZk9oUW5keGlTZERUcjNJZmcxOEpnMFExejgtTG5uanNvWWJIcWVBVXhGdXk4ZkFKVUJGWlhNNjJNQVJJTV9wM2pINmQ0dXVjZWhZS2k4MnEwbVRnMFMyTl84d1FyRmx1NGdDZjU3SkZ5amZ3M3NMb1U5X2c?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:3caa5010aa16@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:นิทรรศการโมโต ฮาคิโอะ - ความฝันดูยุโรป
+LOCATION:京都府大山崎町\, 大山崎
+DESCRIPTION:นิทรรศการผลงานโมโต ฮาคิโอะ มังงะการ์ตูนดังจัดที่กรุงเกียวโต โอะยามาซากิ\nhttps://news.google.com/rss/articles/CBMijgFBVV95cUxNN2xYNE12TUxCeUxaQzduQnozVjhsSldRMmxKdy1CNVVzTFpDc3NuYjRuamdvdV9wQ2pmamtzc2pGY1YtTFRqTlF1aVFXRm9nT0RHWkFvc0FPYXprRlJRLWc2UUxUNm9FNmtSUEtEdG4tWDZlaEtoVHVjWWVyZnU0LTRONUx4c2pfLVE3dmtR0gGWAUFVX3lxTE5nUkpVNGRlTjdIUTNjMjdUa3RnTUM0SEVPTl93ZnQtRk12NlBYYjgtQmQ5RnVDc2c2cjhhcXJLVmxaODZmaXpjNGlXcUJCUjZ6VmkwQlJBUE92TmJzWVJ4aFZHVGVTa1ptbkhNQ3dUb0ZHSWVmMm5FVjFQS1BBUmFiLTFvdGlfWnhQNFFBYUstOF9rVXF4Zw?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:3a915711949e@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:สัมมนาชิมวิสกี้พิเศษ
+LOCATION:ウイスキー文化研究所\, 東京
+DESCRIPTION:สัมมนาชิมวิสกี้หายาก 7 ขวด จัดโดยสถาบันวัฒนธรรมวิสกี้ วันที่ 25 ธันวาคม 2569\nhttps://prtimes.jp/main/html/rd/p/000000374.000119996.html
+END:VEVENT
+BEGIN:VEVENT
+UID:d111ea94a891@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:นิทรรศการ名偵探光之美少女!
+LOCATION:大阪高岛屋店\, 大阪
+DESCRIPTION:นิทรรศการ『名偵探光之美少女!』จัดที่โอซากะทาคาชิมาเยะ\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxOVUgyVXluVFlkR3dGcThFQ2o2OFVEa1V0bzVoaFJBYnNUcmJoYjBBWWtfd29EbXI4VHRxZHN6NUZSMllpRzVBc1U3cnVnRTgwRUJVa3g0RThIQTNsYnppa08td2oyVHNTTjRkLXZvVWExZjZobC04RlItNDc2bFVkWmlLV2ZCQVFPUWhaUmVLYnFJUXV4MVRMT1UwUnNxOWRYZGc?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:3f187395243a@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270331
+SUMMARY:นิทรรศการ 恐怖心展 และ 記憶汚染展 จัดพร้อมกันที่นาโกย่า
+LOCATION:金山南ビル美術館棟（旧名古屋ボストン美術館）\, Nagoya
+DESCRIPTION:นิทรรศการสองงานที่มีผู้เข้าชมสะสมกว่า 277\,000 คน จัดพร้อมกันที่นาโกย่า\nhttps://news.google.com/rss/articles/CBMidkFVX3lxTE5Sa0VGQ3VIdHZleFpmdnRkVzNZYlVNUHYzemxWSVdjRUlsUHdsMWRmS2NnUmlPbG1EQWRXdU1hYm5paE5hMG1UTFI3LTM1MEgxZFRudllSVjdiRXpGV3Q0aFdxZno0X2NGa3U2MHVQUG9EN21TTUE?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:0ebe5443c292@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:นิทรรศการภาพต้นฉบับฉลอง 15 ปี หอยุกิโน ไรเต็ทสึ
+LOCATION:天王洲\, 东京
+DESCRIPTION:นิทรรศการฉลอง 15 ปีอนิเมะ/มังงะ หอยุกิโน ไรเต็ทสึ ที่เทลโนซุ โตเกียว\nhttps://news.google.com/rss/articles/CBMiqwFBVV95cUxPVjV5M0pSVW00SXFxbm1jejVIOENoWThWX0pCUmpUM0pHYlY3S0tCeEtoV18wMXpPcGJOLTl1dWZ1TC1UekJGUE1zTTVQYTJjNUlGb042TlZWWjVmbThEeTVXWktxYzBHdlBaZmFEMEtxaWJYai1CdWM2UE5xdnhRZEVjSEVjeGozVjY3dGp6WEJycTNycE1uOWZTYlhnd3M4VWR5bC1KeDZua2PSAbMBQVVfeXFMUElWNHpEQnB1blhhNEcwNzk1Vjd4MlUySHA4bVB3RDAwN3p6a3pya3duR09INi1RVVhDV010MzV0aFVMellwRG9XUDV6SGpaNVRBaXMxdzlZT3RxQkxjX0xFYkNrcjh6c1ZyNzc5LWpmejdGd1V5c2xacjN2X1A0V200eFNXT0doQm9hNkhVV2VDTUc1NkpOMDU3MUdMSVJoNFNmaEJuNS1FbGxnSVdvTDhZZm8?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:3696350e16b1@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:นิทรรศการโปสเตอร์และกิจกรรมจับรางวัล Diamond no Ace
+LOCATION:Animate
+DESCRIPTION:นิทรรศการโปสเตอร์อนิเมะ Diamond no Ace และกิจกรรมจับรางวัลที่ร้าน Animate เริ่มวันที่ 2 มีนาคม 2027\nhttps://news.google.com/rss/articles/CBMimAFBVV95cUxNbks0aDFZZ0tRRGV3eVVYSWRpZkFPYWVZZ0ZVVmJoWVNjczBRbWNaamg1UzIwM09aQUxSdTVSNkR6M19IRHFCRHY5d0F6SmppbmFXM1gwaUZQUjBNY0ctcnV6STFqWDVFQTFZdG15RnE4QXpMSW4wc1l6bjQ2blY3Qm5zZXZ1VURVdXhSd0lBeVVuZmhtdmF0Tg?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:46162e9cf1c2@eventradar
+DTSTAMP:20261027T134342Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:นิทรรศการ Date A Live
+LOCATION:池袋\, Tokyo
+DESCRIPTION:นิทรรศการแฟนอนิเมะ Date A Live จัดแสดงผลงานและกิจกรรมในสถานที่จริง\nhttps://news.google.com/rss/articles/CBMiakFVX3lxTE83ekdGTGNsY01TS0hvd0JOMWdRa05Fby1PR01vLWtpWjVPNTJZdmZJbjZBWG5OS1M4SHVzNUJ0U3pocjFkbXBtZjJlRUxyblEyQ1hQaUJCTzl6RVJVd1A0S2llT0FTQnZlaUE?oc=5
+END:VEVENT
+END:VCALENDAR
