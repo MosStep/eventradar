@@ -3,8 +3,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
-import { COUNTRIES, TAGS, EVENT_WORDS, feeds } from "./sources.mjs";
-import { extract, hasKeys, ORDERS, BillingStop } from "./tenixe.mjs";
+import { COUNTRIES, TAGS, TAXONOMY, EVENT_WORDS, feeds } from "./sources.mjs";
+import { extract, hasKeys, nemotronKeys, ORDERS, BillingStop } from "./tenixe.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw.json");
@@ -29,29 +29,44 @@ const tag = (xml, name) => { const m = xml.match(new RegExp(`<${name}[^>]*>([\\s
 // Bing wraps links in a click tracker; the real article URL is its url= parameter.
 const unwrap = link => { try { return new URL(link).searchParams.get("url") || link; } catch { return link; } };
 
+// Press-release feeds straight from organisers: exact dates and real event images, unlike news headlines.
+const EXTRA_FEEDS = { JP: [["https://prtimes.jp/index.rdf", "PR TIMES"]] };
+
+// Reads one RSS 2.0 / RSS 1.0 (RDF) feed into raw headlines. Returns [added, skipped].
+async function readFeed(raw, country, t, url, sourceName = "") {
+  let added = 0, skipped = 0;
+  const xml = await (await fetch(url, { headers: UA })).text();
+  for (const item of xml.split(/<item[\s>]/).slice(1)) {
+    const source = tag(item, "source") || tag(item, "News:Source") || sourceName;
+    const title = tag(item, "title").replace(` - ${source}`, "");
+    const id = crypto.createHash("sha1").update(country + title).digest("hex").slice(0, 12);
+    if (raw[id]) { if (!raw[id].tags.includes(t)) raw[id].tags.push(t); continue; }
+    const desc = url.includes("news.google") ? "" : tag(item, "description").slice(0, 200);
+    const ok = EVENT_WORDS.test(title + desc);
+    const link = unwrap(tag(item, "link"));
+    const when = new Date(tag(item, "pubDate") || tag(item, "dc:date"));
+    raw[id] = { id, country, tags: [t], title, desc, source, link, image: LOGO_SITES.test(link) ? null : tag(item, "News:Image") || null,
+      date: (isNaN(when) ? new Date() : when).toISOString().slice(0, 10), status: ok ? "new" : "skip" };
+    ok ? added++ : skipped++;
+  }
+  return [added, skipped];
+}
+
 async function fetchHeadlines(raw) {
   let added = 0, skipped = 0;
   for (const [country, c] of Object.entries(COUNTRIES)) {
     for (const [t, queries] of Object.entries(c.queries)) {
       for (const q of queries) {
         for (const url of feeds(country, q, WINDOW)) {
-          try {
-            const xml = await (await fetch(url, { headers: UA })).text();
-            for (const item of xml.split("<item>").slice(1)) {
-              const source = tag(item, "source") || tag(item, "News:Source");
-              const title = tag(item, "title").replace(` - ${source}`, "");
-              const id = crypto.createHash("sha1").update(country + title).digest("hex").slice(0, 12);
-              if (raw[id]) { if (!raw[id].tags.includes(t)) raw[id].tags.push(t); continue; }
-              const desc = url.includes("news.google") ? "" : tag(item, "description").slice(0, 200);
-              const ok = EVENT_WORDS.test(title + desc);
-              raw[id] = { id, country, tags: [t], title, desc, source, link: unwrap(tag(item, "link")), image: LOGO_SITES.test(unwrap(tag(item, "link"))) ? null : tag(item, "News:Image") || null,
-                date: new Date(tag(item, "pubDate")).toISOString().slice(0, 10), status: ok ? "new" : "skip" };
-              ok ? added++ : skipped++;
-            }
-          } catch (e) { console.warn(`[fetch] ${country}/${q}: ${e.message}`); }
+          try { const [a, s] = await readFeed(raw, country, t, url); added += a; skipped += s; }
+          catch (e) { console.warn(`[fetch] ${country}/${q}: ${e.message}`); }
           await sleep(url.includes("news.google") ? 1500 : 500);
         }
       }
+    }
+    for (const [url, name] of EXTRA_FEEDS[country] || []) {
+      try { const [a, s] = await readFeed(raw, country, "expo", url, name); added += a; skipped += s; }
+      catch (e) { console.warn(`[fetch] ${name}: ${e.message}`); }
     }
   }
   return `${added} new, ${skipped} skipped (no event words)`;
@@ -257,15 +272,15 @@ save(RAW, raw);
 if (FETCH_ONLY) process.exit(0);
 
 // Broken JSON usually comes from one odd headline; retry as two halves so the rest still gets through.
-async function extractBatch(items, label) {
+async function extractBatch(items, label, key = null) {
   const user = items.map((r, n) => `${n}. [${r.date}] ${r.title}${r.desc ? ` — ${r.desc}` : ""}`).join("\n");
-  const { model, text } = await extract([{ role: "system", content: PROMPT }, { role: "user", content: user }]);
+  const { model, text } = await extract([{ role: "system", content: PROMPT }, { role: "user", content: user }], ORDERS.extract, key);
   let found;
   try { found = parseJson(text).events || []; } catch (e) {
     if (items.length < 4) { for (const r of items) r.status = "failed"; throw e; }
     const half = Math.ceil(items.length / 2);
     console.warn(`[extract] ${label}: bad JSON, retrying as two halves`);
-    return (await extractBatch(items.slice(0, half), `${label}a`)) + (await extractBatch(items.slice(half), `${label}b`));
+    return (await extractBatch(items.slice(0, half), `${label}a`, key)) + (await extractBatch(items.slice(half), `${label}b`, key));
   }
   const n = merge(events, found, items);
   for (const r of items) r.status = "done";
@@ -280,20 +295,27 @@ const AHEAD = /เตรียมจัด|จะจัด|เปิดจอง
 const ahead = r => (AHEAD.test(r.title + r.desc) ? 1 : 0);
 const pending = Object.values(raw).filter(r => r.status === "new")
   .sort((a, b) => ahead(b) - ahead(a) || b.date.localeCompare(a.date));
-let added = 0;
+// Batches are queued country by country (interleaved), then run in parallel: one worker per Nemotron key.
+let added = 0, stop = false;
+const jobs = [];
 for (const country of TIDY ? [] : Object.keys(COUNTRIES)) {
   const list = pending.filter(r => r.country === country);
-  for (let i = 0, batches = 0; i < list.length && batches < MAX_BATCHES; i += BATCH, batches++) {
-    try {
-      added += await extractBatch(list.slice(i, i + BATCH), `${country} batch ${i / BATCH + 1}`);
-    } catch (e) {
-      if (e instanceof BillingStop) { console.error(e.message); break; }
+  for (let i = 0, b = 0; i < list.length && b < MAX_BATCHES; i += BATCH, b++) jobs.push([b, country, list.slice(i, i + BATCH)]);
+}
+jobs.sort((x, y) => x[0] - y[0]);
+const workerKeys = ORDERS.extract.startsWith("nemotron") && nemotronKeys().length ? nemotronKeys() : [null];
+await Promise.all(workerKeys.map(async key => {
+  while (jobs.length && !stop) {
+    const [b, country, items] = jobs.shift();
+    try { added += await extractBatch(items, `${country} batch ${b + 1}`, key); }
+    catch (e) {
+      if (e instanceof BillingStop) { console.error(e.message); stop = true; break; }
       console.warn(`[extract] ${country} batch failed: ${e.message.slice(0, 200)}`);
     }
     save(RAW, raw);
     save(EVENTS, events);
   }
-}
+}));
 
 // China: Bilibili's ticket site (会员购) lists conventions, doujin events and IP exhibitions with exact dates,
 // venue and the official poster — structured data, so no AI needed except for the Thai name.
@@ -336,6 +358,69 @@ async function fetchBilibili() {
   console.log(`[bilibili] ${seen.size} listings, +${added} new events`);
 }
 if (!NO_FETCH) await fetchBilibili();
+
+// Thailand: Eventpop's public feed (featured events only — the full search needs a private API; see TODO.md).
+const POP_TAGS = { concert: ["concert"], festival: ["festival"], exhibition: ["art"], sport: ["match"], sports: ["match"],
+  workshop: ["workshop"], fanmeeting: ["fanmeet"], fan_meeting: ["fanmeet"], conference: ["expo"], seminar: ["expo"], theater: ["stage"] };
+async function fetchEventpop() {
+  let list = [];
+  try { list = (await (await fetch("https://www.eventpop.me/api/v1/events?page=1&per_page=100", { headers: UA })).json()).events || []; }
+  catch (e) { console.warn(`[eventpop] ${e.message}`); return; }
+  let added = 0;
+  for (const x of list) {
+    const start = x.start_at?.slice(0, 10), end = (x.end_at || x.start_at)?.slice(0, 10);
+    if (!start || end < today || (x.event_venue?.country && x.event_venue.country !== "Thailand")) continue;
+    const place = (x.location_name || "").split(",").map(s => s.trim()).filter(Boolean);
+    const types = (x.event_types || []).map(t => String(t.name).toLowerCase());
+    const f = { name: x.title.trim(), start, end, venue: place[0] || null, city: place.length > 2 ? place[place.length - 2] : null, country: "TH",
+      tags: types.flatMap(t => POP_TAGS[t] || []).filter((t, i, a) => a.indexOf(t) === i) };
+    if (!f.tags.length) f.tags = ["expo"];
+    const source = { title: f.name, link: `https://www.eventpop.me/e/${x.id}`, source: "Eventpop", date: today,
+      image: x.posters?.large || x.covers?.cover || null };
+    const before = events.length;
+    merge(events, [{ ...f, i: [0] }], [source]);
+    const ev = events.find(e => e.sources.some(s => s.link === source.link));
+    if (ev) { ev.image ??= source.image; ev.official ??= source.link; ev.verified = true; }
+    added += events.length - before;
+  }
+  console.log(`[eventpop] ${list.length} listings, +${added} new events`);
+}
+if (!NO_FETCH) await fetchEventpop();
+
+// Undated events never show on the calendar. Look the event up by name and let the model read a date only if it is
+// written there; drop events that are still undated and whose news is over 60 days old.
+const MAX_DATES = Number(arg("max-dates", 30));
+const DATE_PROMPT = `From the text, give the event's date(s) ONLY if they are written for this exact event. Never guess.
+Today is ${today}. Reply with valid JSON only: {"start":"YYYY-MM-DD or null","end":"YYYY-MM-DD or null","venue":"or null","city":"or null"}`;
+async function fillDates() {
+  const old = new Date(Date.now() - 60 * 864e5).toISOString().slice(0, 10);
+  const undated = events.filter(e => !e.start && !e.dateTried).slice(0, MAX_DATES);
+  let found = 0, dropped = 0;
+  for (const ev of undated) {
+    ev.dateTried = true;
+    let text = "";
+    try {
+      const cc = { TH: "&cc=TH", JP: "&cc=JP" }[ev.country] || "";
+      const xml = await (await fetch(`https://www.bing.com/news/search?q=${encodeURIComponent(ev.name)}&format=rss${cc}`, { headers: UA })).text();
+      text = xml.split("<item>").slice(1, 6).map(i => `- ${tag(i, "title")} — ${tag(i, "description")}`).join("\n");
+      const first = ev.sources.map(s => s.link).find(l => !/news\.google\./.test(l));
+      if (first) text += `\n\nArticle:\n${(await articleText(first)).slice(0, 1500)}`;
+    } catch {}
+    try {
+      const d = parseJson((await extract([{ role: "system", content: DATE_PROMPT },
+        { role: "user", content: `Event: ${ev.name}\n${ev.sources.slice(0, 3).map(s => `- ${s.title}`).join("\n")}\n${text}` }], ORDERS.describe)).text);
+      if (/^\d{4}-\d\d-\d\d$/.test(d.start || "")) {
+        ev.start = d.start; ev.end = /^\d{4}-\d\d-\d\d$/.test(d.end || "") ? d.end : d.start;
+        ev.venue ??= d.venue || null; ev.city ??= d.city || null;
+        found++;
+      }
+    } catch (e) { if (e instanceof BillingStop) break; }
+    if (!ev.start && ev.sources.every(s => s.date < old)) { events.splice(events.indexOf(ev), 1); dropped++; }
+    await sleep(300);
+  }
+  if (undated.length) console.log(`[dates] ${undated.length} undated checked: found ${found}, dropped ${dropped} stale`);
+}
+if (hasKeys()) await fillDates();
 
 for (const e of events) if (e.official && NOT_OFFICIAL.test(e.official)) e.official = null;
 
@@ -510,4 +595,28 @@ console.log(`[describe] ${described}/${toDescribe.length} events got details`);
 
 events.sort((a, b) => (a.start || "9999").localeCompare(b.start || "9999"));
 save(EVENTS, events);
+writeCalendars();
 console.log(`[done] +${added} new events, ${events.length} total, ${Object.values(raw).filter(r => r.status === "new").length} headlines still pending`);
+
+// Subscribable calendars (webcal): one for everything and one per category group. Phones re-download them on their own,
+// so new events appear in the user's calendar app without tapping anything.
+function writeCalendars() {
+  const dir = path.join(ROOT, "data", "ics");
+  fs.mkdirSync(dir, { recursive: true });
+  const esc = s => String(s || "").replace(/[\\,;]/g, m => "\\" + m).replace(/\n/g, "\\n");
+  const ymd = s => s.replaceAll("-", "");
+  const next = s => { const d = new Date(s + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + 1); return d.toISOString().slice(0, 10); };
+  const stamp = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
+  const upcoming = events.filter(e => e.start && (e.end || e.start) >= today);
+  const write = (file, name, list) => {
+    const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//EventRadar//TH", `X-WR-CALNAME:${name}`, "X-PUBLISHED-TTL:PT6H", "REFRESH-INTERVAL;VALUE=DURATION:PT6H"];
+    for (const e of list) lines.push("BEGIN:VEVENT", `UID:${e.id}@eventradar`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${ymd(e.start)}`,
+      `DTEND;VALUE=DATE:${ymd(next(e.end || e.start))}`, `SUMMARY:${esc(e.name_th || e.name)}`, `LOCATION:${esc([e.venue, e.city].filter(Boolean).join(", "))}`,
+      `DESCRIPTION:${esc([e.price_th && "ค่าเข้า: " + e.price_th, e.summary_th, e.official || e.sources[0]?.link].filter(Boolean).join("\n"))}`, "END:VEVENT");
+    lines.push("END:VCALENDAR");
+    fs.writeFileSync(path.join(dir, file), lines.join("\r\n"));
+  };
+  write("all.ics", "EventRadar · ทุกงาน", upcoming);
+  for (const [g, x] of Object.entries(TAXONOMY))
+    write(`${g}.ics`, `EventRadar · ${x.name}`, upcoming.filter(e => e.tags.some(t => x.tags[t])));
+}

@@ -262,6 +262,12 @@ function renderMine() {
   $("#mineEvents").innerHTML = list.map(card).join("");
 }
 
+// webcal:// subscribes in Apple Calendar directly; Google Calendar takes the same feed through its "add by URL" link.
+function subscribeUrl(group) {
+  const feed = new URL(`data/ics/${group}.ics`, location.href).href.replace(/^https?:/, "webcal:");
+  return isApple ? feed : `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(feed)}`;
+}
+
 function renderSettings() {
   const seg = (k, opts) => `<div class="seg">${opts.map(([v, label, ic]) =>
     `<button class="${(prefs[k] || "") === v ? "on" : ""}" data-pref="${k}" data-val="${v}">${ic ? icon(ic) : ""}${label}</button>`).join("")}</div>`;
@@ -274,6 +280,10 @@ function renderSettings() {
       <p style="margin-top:12px">รูปแบบปี</p>${seg("era", [["", "พ.ศ."], ["ce", "ค.ศ."]])}</div>
     <div class="setting"><h4>${icon("type")} ขนาดตัวอักษร</h4>${seg("size", [["", "ปกติ"], ["large", "ใหญ่"]])}</div>
     <div class="setting"><h4>${icon("sparkle")} แอนิเมชัน</h4>${seg("motion", [["", "เปิด"], ["off", "ลดการเคลื่อนไหว"]])}</div>
+    <div class="setting"><h4>${icon("calplus")} สมัครรับปฏิทิน</h4>
+      <p>เพิ่มครั้งเดียว แล้วงานใหม่จะเข้าปฏิทินในมือถือเอง (อัปเดตทุกไม่กี่ชั่วโมง)</p>
+      <div class="subs">${[["all", "✨ ทุกงาน"], ...Object.entries(GROUPS).map(([g, x]) => [g, `${x.icon} ${x.name}`])].map(([g, label]) =>
+        `<a class="chip" href="${esc(subscribeUrl(g))}" ${isApple ? "" : 'target="_blank" rel="noopener"'}>${label}</a>`).join("")}</div></div>
     <div class="setting"><h4>${icon("star")} ข้อมูลของฉัน</h4>
       <p>งานที่ติดตามและการตั้งค่าเก็บไว้ในเครื่องนี้เท่านั้น ไม่ต้องสมัครสมาชิก</p>
       <button class="danger" data-clear-stars>ล้างงานที่ติดตามทั้งหมด</button></div>

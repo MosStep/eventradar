@@ -50,6 +50,7 @@ jobs:
           mkdir -p _site/data
           cp -r web/* _site/
           cp data/events.json _site/data/
+          cp -r data/ics _site/data/ 2>/dev/null || true
           sed -i "s/__V__/${GITHUB_SHA::7}/g" _site/index.html # cache-bust app.js and style.css
       - uses: actions/upload-pages-artifact@v3
         with:

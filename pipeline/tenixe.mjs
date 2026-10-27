@@ -5,6 +5,8 @@ const list = name => (process.env[name] || "").split(",").map(k => k.trim()).fil
 // TENIXE_NEMOTRON_KEYS: keys where nemotron-3-ultra is unlimited. They are never used for other (billed) models.
 const keysFor = model => (model === "nemotron-3-ultra" ? [...list("TENIXE_NEMOTRON_KEYS"), ...list("TENIXE_KEYS")] : list("TENIXE_KEYS"));
 export const hasKeys = () => list("TENIXE_KEYS").length + list("TENIXE_NEMOTRON_KEYS").length > 0;
+// Keys that can run Nemotron, one stream each — the number of batches that can run at the same time.
+export const nemotronKeys = () => [...new Set(keysFor("nemotron-3-ultra"))];
 
 export class BillingStop extends Error {}
 
@@ -49,11 +51,13 @@ async function chatOnce(key, model, messages, maxTokens) {
 const sleep = s => new Promise(r => setTimeout(r, s * 1000));
 
 /** Tries each extractor model on each key until one answers. Billing errors stop the run. */
-export async function extract(messages, order = ORDERS.extract) {
+// preferKey: try this key first (parallel workers each own one key; the others are still a fallback).
+export async function extract(messages, order = ORDERS.extract, preferKey = null) {
   if (!hasKeys()) throw new Error("No keys: set TENIXE_KEYS or TENIXE_NEMOTRON_KEYS");
   let last;
   for (const { model, maxTokens } of models(order)) {
-    for (const key of keysFor(model)) {
+    const ks = keysFor(model);
+    for (const key of preferKey && ks.includes(preferKey) ? [preferKey, ...ks.filter(k => k !== preferKey)] : ks) {
       for (let attempt = 1; attempt <= 3; attempt++) {
         try {
           return { model, text: await chatOnce(key, model, messages, maxTokens) };
