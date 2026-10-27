@@ -3,7 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
-import { COUNTRIES, TAGS, TAXONOMY, EVENT_WORDS, NOT_EVENT_WORDS, PRTIMES_EVENT, feeds } from "./sources.mjs";
+import { COUNTRIES, TAGS, TAXONOMY, EVENT_WORDS, NOT_EVENT_WORDS, PRTIMES_EVENT, WATCH_DEFAULT, OFFICIAL_PAGES, feeds } from "./sources.mjs";
 import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText } from "./lib.mjs";
 import { extract, hasKeys, nemotronKeys, keyStats, ORDERS, BillingStop } from "./tenixe.mjs";
 
@@ -361,6 +361,85 @@ async function fetchBilibili() {
   console.log(`[bilibili] ${seen.size} listings, +${added} new events`);
 }
 if (!NO_FETCH) await fetchBilibili();
+
+// Watch-list web search: for each watched word (card games, IPs, artists, venues users follow), search the whole web —
+// shop and organiser Facebook pages included — and let the model pick out upcoming events from the results.
+// Rotates through the list a few words per run so searches stay polite.
+const MAX_WATCH = Number(arg("max-watch", 6));
+const WATCH_FILE = path.join(ROOT, "data", "watch.json");
+async function watchSearch() {
+  const extra = load(WATCH_FILE, []);
+  const list = [...WATCH_DEFAULT, ...extra.map(w => (typeof w === "string" ? { q: w, country: "TH" } : w))];
+  if (!list.length || !hasKeys()) return;
+  const state = load(path.join(ROOT, "data", "watch-state.json"), { next: 0 });
+  const picked = Array.from({ length: Math.min(MAX_WATCH, list.length) }, (_, i) => list[(state.next + i) % list.length]);
+  state.next = (state.next + picked.length) % list.length;
+  save(path.join(ROOT, "data", "watch-state.json"), state);
+  let found = 0;
+  for (const w of picked) {
+    const year = new Date().getFullYear();
+    const results = [];
+    for (const q of [`${w.q} ${year}`, `${w.q} facebook event`]) {
+      try { results.push(...await webSearch(q)); } catch {}
+      await sleep(1500);
+    }
+    const seen = new Set();
+    const items = results.filter(r => !seen.has(r.url) && seen.add(r.url)).slice(0, 14)
+      .map(r => ({ title: r.title, desc: r.snippet.slice(0, 220), link: r.url, source: new URL(r.url).hostname.replace(/^www\./, ""), date: today }));
+    if (!items.length) continue;
+    const user = `Watched topic: ${w.q} (country ${w.country}). These are web search results (news, shop pages, Facebook posts):\n` +
+      items.map((r, n) => `${n}. ${r.title} — ${r.desc} [${r.source}]`).join("\n");
+    try {
+      const out = parseJson((await extract([{ role: "system", content: PROMPT }, { role: "user", content: user }])).text);
+      const before = events.length;
+      merge(events, (out.events || []).map(f => ({ ...f, country: f.country || w.country })), items);
+      found += events.length - before;
+    } catch (e) { if (e instanceof BillingStop) break; }
+  }
+  console.log(`[watch] searched ${picked.map(w => w.q).join(", ")}: +${found} new events`);
+}
+if (!NO_FETCH || process.argv.includes("--watch")) await watchSearch();
+
+// Official event pages of card games and organisers: the model lists the dated, attendable events on each page
+// (tournaments, championships, release events, fan events) for Thailand, Japan or China.
+const OFFICIAL_PROMPT = `This is the text of an organiser's official page. Today is ${today}.
+List upcoming events on it that people in Thailand, Japan or China can attend in person on specific dates: tournaments,
+championships, leagues with set dates, release/launch events, fan events, fairs. SKIP month-long "shop event" programmes
+without a specific date, online-only events, events in other countries, and events that have ended.
+Use the same JSON format as before ("i" may be []).`;
+const SEEN_FILE = path.join(ROOT, "data", "official-seen.json");
+async function officialPages() {
+  let found = 0;
+  const seenLinks = new Set(load(SEEN_FILE, []));
+  const pages = [];
+  for (const p of OFFICIAL_PAGES) {
+    let html = "";
+    try { html = await (await fetch(p.url, { headers: UA, signal: AbortSignal.timeout(15000) })).text(); } catch { continue; }
+    pages.push({ ...p, html });
+    // newest article links (highest number last in the URL) that were not read before, up to 6 per page and run
+    if (p.follow) for (const link of [...new Set(html.match(p.follow) || [])].sort((a, b) => (parseInt(b.match(/\d+(?=\/?$)/)) || 0) - (parseInt(a.match(/\d+(?=\/?$)/)) || 0))
+      .filter(l => !seenLinks.has(l)).slice(0, 6)) {
+      try { pages.push({ ...p, url: link, name: `${p.name} article`, html: await (await fetch(link, { headers: UA, signal: AbortSignal.timeout(15000) })).text() }); seenLinks.add(link); } catch {}
+      await sleep(400);
+    }
+  }
+  save(SEEN_FILE, [...seenLinks]);
+  for (const p of pages) {
+    const text = extractText(p.html);
+    if (text.length < 200) continue;
+    try {
+      const out = parseJson((await extract([{ role: "system", content: PROMPT + "\n\n" + OFFICIAL_PROMPT },
+        { role: "user", content: `Page: ${p.name} (${p.url}), default country ${p.country}\n\n${text}` }])).text);
+      const item = { title: p.name, link: p.url, source: p.name, date: today };
+      const before = events.length;
+      merge(events, (out.events || []).map(f => ({ ...f, i: [0], country: f.country || p.country,
+        tags: [...new Set([...(f.tags || []), ...p.tags])] })), [item]);
+      found += events.length - before;
+    } catch (e) { if (e instanceof BillingStop) break; console.warn(`[official] ${p.name}: ${e.message.slice(0, 100)}`); }
+  }
+  console.log(`[official] ${OFFICIAL_PAGES.length} pages: +${found} new events`);
+}
+if (!NO_FETCH || process.argv.includes("--watch")) await officialPages();
 
 // Thailand: Eventpop's public feed (featured events only — the full search needs a private API; see TODO.md).
 const POP_TAGS = { concert: ["concert"], festival: ["festival"], exhibition: ["art"], sport: ["match"], sports: ["match"],

@@ -1,7 +1,7 @@
 {
   "pop": { "name": "ป๊อปคัลเจอร์", "icon": "🌸", "color": "#ff5c9a", "tags": {
     "anime": "อนิเมะ", "game": "เกม", "esports": "อีสปอร์ต", "cosplay": "คอสเพลย์", "comic": "การ์ตูน/โดจิน",
-    "figure": "ฟิกเกอร์/อาร์ตทอย", "vtuber": "VTuber", "boardgame": "บอร์ดเกม/การ์ดเกม" } },
+    "figure": "ฟิกเกอร์/อาร์ตทอย", "vtuber": "VTuber", "tcg": "การ์ดเกม/TCG", "boardgame": "บอร์ดเกม" } },
   "ent": { "name": "ดนตรี/ศิลปิน", "icon": "🎤", "color": "#ff6bd6", "tags": {
     "concert": "คอนเสิร์ต", "festival": "มิวสิกเฟสติวัล", "fanmeet": "แฟนมีต", "idol": "ไอดอล",
     "stage": "ละครเวที/มิวสิคัล", "comedy": "สแตนด์อัพคอมเมดี้", "movie": "หนัง/เทศกาลภาพยนตร์" } },

@@ -3,7 +3,9 @@
 name: daily-update
 on:
   schedule:
-    - cron: "0 17,23,5,11 * * *" # 00:00, 06:00, 12:00, 18:00 Thai time
+    # Every 3 hours at :23 — GitHub runs schedules best-effort and often drops/delays the busy :00 slot,
+    # so off-peak minutes and more frequent runs keep updates flowing even when one is skipped.
+    - cron: "23 */3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
