@@ -3,8 +3,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
-import { COUNTRIES, TAGS, TAXONOMY, EVENT_WORDS, feeds } from "./sources.mjs";
-import { extract, hasKeys, nemotronKeys, ORDERS, BillingStop } from "./tenixe.mjs";
+import { COUNTRIES, TAGS, TAXONOMY, EVENT_WORDS, NOT_EVENT_WORDS, PRTIMES_EVENT, feeds } from "./sources.mjs";
+import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText } from "./lib.mjs";
+import { extract, hasKeys, nemotronKeys, keyStats, ORDERS, BillingStop } from "./tenixe.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw.json");
@@ -23,11 +24,6 @@ const load = (f, def) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8
 const save = (f, v) => { fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, JSON.stringify(v, null, 1)); };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-const decode = s => s.replace(/<!\[CDATA\[|\]\]>/g, "").replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&lt;/g, "<")
-  .replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim();
-const tag = (xml, name) => { const m = xml.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`)); return m ? decode(m[1]) : ""; };
-// Bing wraps links in a click tracker; the real article URL is its url= parameter.
-const unwrap = link => { try { return new URL(link).searchParams.get("url") || link; } catch { return link; } };
 
 // Press-release feeds straight from organisers: exact dates and real event images, unlike news headlines.
 const EXTRA_FEEDS = { JP: [["https://prtimes.jp/index.rdf", "PR TIMES"]] };
@@ -42,7 +38,8 @@ async function readFeed(raw, country, t, url, sourceName = "") {
     const id = crypto.createHash("sha1").update(country + title).digest("hex").slice(0, 12);
     if (raw[id]) { if (!raw[id].tags.includes(t)) raw[id].tags.push(t); continue; }
     const desc = url.includes("news.google") ? "" : tag(item, "description").slice(0, 200);
-    const ok = EVENT_WORDS.test(title + desc);
+    const ok = EVENT_WORDS.test(title + desc) && !NOT_EVENT_WORDS.test(title)
+      && (sourceName !== "PR TIMES" || PRTIMES_EVENT.test(title));
     const link = unwrap(tag(item, "link"));
     const when = new Date(tag(item, "pubDate") || tag(item, "dc:date"));
     raw[id] = { id, country, tags: [t], title, desc, source, link, image: LOGO_SITES.test(link) ? null : tag(item, "News:Image") || null,
@@ -69,6 +66,7 @@ async function fetchHeadlines(raw) {
       catch (e) { console.warn(`[fetch] ${name}: ${e.message}`); }
     }
   }
+  fetchedCount = added + skipped;
   return `${added} new, ${skipped} skipped (no event words)`;
 }
 
@@ -95,46 +93,10 @@ Reply with valid JSON only. Never put the " character inside a string value (use
 "summary_th":"one short Thai sentence"}]}
 Region codes: ${regionCodes()}.`;
 
-function parseJson(text) {
-  const raw = text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1);
-  try { return JSON.parse(raw); } catch { return JSON.parse(repairQuotes(raw)); }
-}
 
-// Models sometimes leave a bare " inside a string value (e.g. quoted event titles). Inside a string, a quote that is
-// not followed by , : } ] is content, so escape it.
-function repairQuotes(s) {
-  let out = "", inStr = false;
-  for (let i = 0; i < s.length; i++) {
-    const c = s[i];
-    if (c === "\\" && inStr) { out += c + s[++i]; continue; }
-    if (c === '"') {
-      if (!inStr) inStr = true;
-      else if (/^\s*[,:}\]]/.test(s.slice(i + 1, i + 20))) inStr = false;
-      else { out += '\\"'; continue; }
-    }
-    out += c;
-  }
-  return out;
-}
 
-const norm = s => (s || "").toLowerCase().normalize("NFKC").replace(/[^\p{L}\p{N}]/gu, "");
 
-// Same event reported under slightly different names: compare character bigrams (Dice) of name and Thai name.
-function similar(a, b) {
-  a = norm(a); b = norm(b);
-  if (!a || !b) return false;
-  if (a === b || (Math.min(a.length, b.length) >= 6 && (a.includes(b) || b.includes(a)))) return true;
-  const grams = s => { const m = new Map(); for (let i = 0; i < s.length - 1; i++) m.set(s.slice(i, i + 2), (m.get(s.slice(i, i + 2)) || 0) + 1); return m; };
-  const ga = grams(a), gb = grams(b);
-  let hit = 0;
-  for (const [g, n] of ga) hit += Math.min(n, gb.get(g) || 0);
-  return (2 * hit) / (a.length + b.length - 2) >= 0.6;
-}
 
-// One missing date may match (a later headline adds it); two missing dates only match on the exact name.
-const near = (a, b) => (!a && !b ? null : !a || !b || Math.abs(new Date(a) - new Date(b)) <= 3 * 864e5);
-// Different editions (Comic Con 2026 vs 2027) must not merge.
-const years = s => (String(s || "").match(/20\d\d/g) || []).join();
 function sameEvent(e, f) {
   if (e.country !== f.country) return false;
   if (years(e.name) && years(f.name) && years(e.name) !== years(f.name)) return false;
@@ -143,8 +105,6 @@ function sameEvent(e, f) {
   return n && (similar(e.name, f.name) || similar(e.name_th, f.name_th) || similar(e.name, f.name_th) || similar(e.name_th, f.name));
 }
 
-// Record a date change or cancellation; the old dates are kept in history so the app can show "เดิมกำหนด …".
-const isDate = d => /^\d{4}-\d\d-\d\d$/.test(d || "");
 function reschedule(ev, f) {
   if (f.status === "cancelled") { if (ev.status !== "cancelled") { ev.status = "cancelled"; ev.changed = today; } return; }
   if (isDate(f.start) && f.start !== ev.start) {
@@ -194,7 +154,8 @@ const OFFICIAL_TEXT = /公式|official|เว็บไซต์|รายละ�
 const NOT_OFFICIAL = /facebook\.com|twitter\.com|\/\/(www\.)?x\.com|instagram\.com|youtube\.com|tiktok\.com|line\.me|google\.|bing\.|apple\.com|javascript:/i;
 
 async function enrich(ev) {
-  for (const s of ev.sources) {
+  const official = s => (/prtimes\.jp|eventpop\.me|bilibili\.com/.test(s.link) ? 0 : 1);
+  for (const s of [...ev.sources].sort((a, b) => official(a) - official(b))) {
     if (/news\.google\./.test(s.link)) continue;
     try {
       const res = await fetch(s.link, { headers: UA, signal: AbortSignal.timeout(10000) });
@@ -256,14 +217,7 @@ async function searchImage(ev) {
 // Some sites put the story in <div>s, not <p>s (e.g. Anime News Network), so the main block's full text comes first:
 // <article> or a content/body/meat div, else the page body without nav, header, footer and asides.
 async function articleText(url) {
-  const html = (await (await fetch(url, { headers: UA, signal: AbortSignal.timeout(10000) })).text())
-    .replace(/<(script|style|noscript|svg|nav|header|footer|aside|form)\b[\s\S]*?<\/\1>/gi, " ");
-  const paras = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)].map(m => decode(m[1])).filter(t => t.length > 30).join("\n");
-  const main = html.match(/<article\b[\s\S]*?<\/article>/i)?.[0]
-    || html.match(/<div[^>]+class="[^"]*\b(meat|article-body|article__body|entry-content|post-content|content-detail|news-content|detail)\b[^"]*"[\s\S]{0,60000}/i)?.[0]
-    || html.match(/<body\b[\s\S]*<\/body>/i)?.[0] || "";
-  const block = decode(main);
-  return (block.length > paras.length * 1.3 ? block : paras || block).slice(0, 3500);
+  return extractText(await (await fetch(url, { headers: UA, signal: AbortSignal.timeout(10000) })).text());
 }
 
 const DESCRIBE = `You write event details for a Thai event calendar app, using ONLY the given news text. Never invent facts.
@@ -310,6 +264,7 @@ const raw = load(RAW, {});
 // Keep raw.json small: processed headlines older than 45 days are never needed again.
 const cutoff = new Date(Date.now() - 45 * 864e5).toISOString().slice(0, 10);
 for (const [id, r] of Object.entries(raw)) if (r.status !== "new" && r.date < cutoff) delete raw[id];
+let fetchedCount = 0;
 if (!NO_FETCH) console.log(`[fetch] window=${WINDOW}: ${await fetchHeadlines(raw)}`);
 save(RAW, raw);
 if (FETCH_ONLY) process.exit(0);
@@ -391,7 +346,7 @@ async function fetchBilibili() {
     merge(events, [{ ...f, i: [0] }], [source]);
     const ev = events.find(e => e.sources.some(s => s.link === source.link));
     if (ev) {
-      ev.image ??= source.image;
+      if (source.image) { ev.image = source.image; ev.imageOfficial = true; } // ticket-site poster beats a news photo
       ev.official ??= source.link;
       ev.verified = true; // structured listing, no AI guesswork
       if (x.price_low) ev.price_th ??= x.isFree ? "เข้าฟรี" : `เริ่มต้น ¥${(x.price_low / 100).toFixed(0)}`;
@@ -423,7 +378,7 @@ async function fetchEventpop() {
     const before = events.length;
     merge(events, [{ ...f, i: [0] }], [source]);
     const ev = events.find(e => e.sources.some(s => s.link === source.link));
-    if (ev) { ev.image ??= source.image; ev.official ??= source.link; ev.verified = true; }
+    if (ev) { if (source.image) { ev.image = source.image; ev.imageOfficial = true; } ev.official ??= source.link; ev.verified = true; }
     added += events.length - before;
   }
   console.log(`[eventpop] ${list.length} listings, +${added} new events`);
@@ -477,20 +432,6 @@ for (let i = events.length - 1; i > 0; i--) {
   for (const s of dup.sources) if (!keep.sources.some(x => x.link === s.link)) keep.sources.push(s);
 }
 
-// Same event under very different names (e.g. "งานหนังสือ 2569" vs "มหกรรมหนังสือระดับชาติ ครั้งที่ 31").
-// Only pairs with the same dates (±1 day) and the same venue or city are asked about, and the model must be sure:
-// big venues host several different events on the same days.
-// Looser name match than similar(): shares at least 40% of character pairs. Only used to pick pairs for the AI to judge.
-function similarLoose(a, b) {
-  a = norm(a); b = norm(b);
-  if (a.length < 4 || b.length < 4) return false;
-  const grams = s => new Set(Array.from({ length: s.length - 1 }, (_, i) => s.slice(i, i + 2)));
-  const ga = grams(a), gb = grams(b);
-  let hit = 0;
-  for (const g of ga) if (gb.has(g)) hit++;
-  return hit / Math.min(ga.size, gb.size) >= 0.4;
-}
-const dayGap = (a, b) => Math.abs(new Date(a) - new Date(b)) / 864e5;
 function dupCandidates() {
   const pairs = [];
   const asked = (a, b) => (a.notDupWith || []).includes(b.id) || (b.notDupWith || []).includes(a.id);
@@ -561,7 +502,10 @@ concert or VTuber stream). Reply with valid JSON only, one entry per number:
 Only include fields in "fix" that are clearly wrong. Use ok:false only if it is not an event, already ended, or a duplicate entry.
 Allowed tags: ${Object.keys(TAGS).join(", ")}.`;
 async function verify() {
-  const todoVerify = events.filter(e => !e.verified && (!e.end || e.end >= today)).slice(0, MAX_VERIFY);
+  const risk = e => (e.sources.length < 2 ? 2 : 0) + (!e.venue ? 1 : 0) + (!e.start ? 1 : 0)
+    + (e.start && e.sources[0]?.date && Math.abs(new Date(e.start) - new Date(e.sources[0].date)) > 200 * 864e5 ? 2 : 0)
+    + (e.start && e.start <= new Date(Date.now() + 30 * 864e5).toISOString().slice(0, 10) ? 1 : 0); // soon = matters more
+  const todoVerify = events.filter(e => !e.verified && (!e.end || e.end >= today)).sort((a, b) => risk(b) - risk(a)).slice(0, MAX_VERIFY);
   let fixed = 0, dropped = 0, checked = 0;
   for (let i = 0; i < todoVerify.length; i += 10) {
     const chunk = todoVerify.slice(i, i + 10);
@@ -693,6 +637,8 @@ if (hasKeys() && priceQueue.length) {
 events.sort((a, b) => (a.start || "9999").localeCompare(b.start || "9999"));
 save(EVENTS, events);
 writeCalendars();
+writeSharePages();
+writeStatus();
 console.log(`[done] +${added} new events, ${events.length} total, ${Object.values(raw).filter(r => r.status === "new").length} headlines still pending`);
 
 // Subscribable calendars (webcal): one for everything and one per category group. Phones re-download them on their own,
@@ -710,11 +656,52 @@ function writeCalendars() {
     for (const e of list) lines.push("BEGIN:VEVENT", `UID:${e.id}@eventradar`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${ymd(e.start)}`,
       `DTEND;VALUE=DATE:${ymd(next(e.end || e.start))}`, `STATUS:${e.status === "cancelled" ? "CANCELLED" : "CONFIRMED"}`,
       `SUMMARY:${esc((e.status === "cancelled" ? "[ยกเลิก] " : e.status === "postponed" ? "[เลื่อนวัน] " : "") + (e.name_th || e.name))}`, `LOCATION:${esc([e.venue, e.city].filter(Boolean).join(", "))}`,
-      `DESCRIPTION:${esc([e.price_th && "ค่าเข้า: " + e.price_th, e.summary_th, e.official || e.sources[0]?.link].filter(Boolean).join("\n"))}`, "END:VEVENT");
+      `DESCRIPTION:${esc([e.price_th && "ค่าเข้า: " + e.price_th, e.summary_th, e.official || e.sources[0]?.link].filter(Boolean).join("\n"))}`,
+      "BEGIN:VALARM", "TRIGGER:-PT15H", "ACTION:DISPLAY", `DESCRIPTION:พรุ่งนี้: ${esc(e.name_th || e.name)}`, "END:VALARM", "END:VEVENT");
     lines.push("END:VCALENDAR");
     fs.writeFileSync(path.join(dir, file), lines.join("\r\n"));
   };
   write("all.ics", "EventRadar · ทุกงาน", upcoming);
   for (const [g, x] of Object.entries(TAXONOMY))
     write(`${g}.ics`, `EventRadar · ${x.name}`, upcoming.filter(e => e.tags.some(t => x.tags[t])));
+}
+
+// What the app's "สถานะระบบ" shows, and what the GitHub workflow turns into an e-mail (issue) when something is wrong.
+function writeStatus() {
+  const up = events.filter(e => !e.end || e.end >= today);
+  const pct = f => (up.length ? Math.round((100 * up.filter(f).length) / up.length) : 0);
+  const problems = [];
+  if (!NO_FETCH && fetchedCount === 0) problems.push("ดึงข่าวไม่ได้เลยในรอบนี้ (แหล่งข่าวอาจบล็อกหรือเน็ตมีปัญหา)");
+  const ks = keyStats();
+  if (ks.billing) problems.push("คีย์ AI ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe");
+  if (ks.calls > 5 && ks.failed / ks.calls > 0.5) problems.push(`เรียก AI ล้มเหลว ${ks.failed}/${ks.calls} ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)`);
+  if (ks.quota.length && ks.quota.length >= ks.keys) problems.push("ทุกคีย์ขึ้นว่าโควตาหมด — รอรีเซ็ตบ่ายโมง หรือเพิ่มคีย์ใหม่");
+  const status = { finishedAt: new Date().toISOString(), runner: process.env.GITHUB_ACTIONS ? "github" : "local",
+    total: events.length, upcoming: up.length, added, pending: Object.values(raw).filter(r => r.status === "new").length,
+    withDate: pct(e => e.start), withImage: pct(e => e.image), withPrice: pct(e => e.price_th), ai: ks, problems };
+  save(path.join(ROOT, "data", "status.json"), status);
+  if (problems.length) console.log(`[status] problems: ${problems.join(" | ")}`);
+}
+
+// One tiny HTML page per upcoming event with Open Graph tags, so a link shared in LINE/Facebook shows the poster,
+// name and date. The page sends people on to the app (../#e=<id>).
+function writeSharePages() {
+  const dir = path.join(ROOT, "data", "e");
+  fs.rmSync(dir, { recursive: true, force: true });
+  fs.mkdirSync(dir, { recursive: true });
+  const h = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  const TH_MONTH = ["ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."];
+  const d = s => { const [y, m, dd] = s.split("-").map(Number); return `${dd} ${TH_MONTH[m - 1]} ${y + 543}`; };
+  for (const e of events.filter(e => !e.end || e.end >= today)) {
+    const when = e.start ? (e.end && e.end !== e.start ? `${d(e.start)} – ${d(e.end)}` : d(e.start)) : "รอประกาศวัน";
+    const desc = [when, [e.venue, e.city].filter(Boolean).join(", "), e.price_th && `ค่าเข้า ${e.price_th}`].filter(Boolean).join(" · ");
+    const image = e.image ? `https://images.weserv.nl/?url=${encodeURIComponent(e.image)}&w=1200&h=630&fit=cover&output=jpg` : "";
+    fs.writeFileSync(path.join(dir, `${e.id}.html`), `<!doctype html><html lang="th"><head><meta charset="utf-8">
+<title>${h(e.name_th || e.name)} · EventRadar</title>
+<meta property="og:title" content="${h(e.name_th || e.name)}"><meta property="og:description" content="${h(desc)}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="EventRadar">
+${image ? `<meta property="og:image" content="${h(image)}"><meta name="twitter:card" content="summary_large_image">` : ""}
+<meta http-equiv="refresh" content="0; url=../../#e=${e.id}"><script>location.replace("../../#e=${e.id}")</script>
+</head><body><a href="../../#e=${e.id}">เปิดใน EventRadar</a></body></html>`);
+  }
 }

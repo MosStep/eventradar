@@ -62,6 +62,8 @@ const state = {
   day: TODAY,
   view: ["home", "list", "mine", "settings"].includes(store.get("view")) ? store.get("view") : "home",
   q: "",
+  near: store.get("near", false), // "ใกล้ฉัน": only events in the user's own region
+  follows: store.get("follows", []), // words followed: artist, IP, venue…
 };
 
 const $ = s => document.querySelector(s);
@@ -84,12 +86,32 @@ function countdown(e) {
   return n === 1 ? "พรุ่งนี้!" : `อีก ${n} วัน`;
 }
 
+// Region centres (lat, lng) used to turn a GPS position into a region.
+const REGION_CENTRES = {
+  "TH:bkk": [13.75, 100.5], "TH:central": [14.5, 100.4], "TH:north": [18.8, 99.0], "TH:northeast": [15.5, 103.5],
+  "TH:east": [13.0, 101.5], "TH:west": [13.5, 99.3], "TH:south": [8.0, 99.5],
+  "JP:hokkaido": [43.1, 141.4], "JP:tohoku": [38.3, 140.9], "JP:kanto": [35.7, 139.7], "JP:chubu": [35.2, 137.0],
+  "JP:kansai": [34.7, 135.5], "JP:chugoku": [34.4, 132.5], "JP:shikoku": [33.8, 133.5], "JP:kyushu": [33.0, 130.7],
+  "CN:north": [39.9, 116.4], "CN:northeast": [43.8, 125.3], "CN:east": [31.2, 121.5], "CN:south": [23.1, 113.3],
+  "CN:central": [30.6, 114.3], "CN:southwest": [30.6, 104.1], "CN:northwest": [34.3, 108.9],
+};
+function nearestRegion(lat, lng) {
+  let best = null, dist = Infinity;
+  for (const [k, [a, b]] of Object.entries(REGION_CENTRES)) { const d = (a - lat) ** 2 + (b - lng) ** 2; if (d < dist) { dist = d; best = k; } }
+  return best;
+}
+const home = () => prefs.home || ""; // "TH:north"
+const followMatch = e => state.follows.find(w => [e.name, e.name_th, e.venue, e.city, e.summary_th, e.about_th]
+  .some(t => t && t.toLowerCase().includes(w.toLowerCase())));
+
 function visible() {
   const q = state.q.toLowerCase();
+  const [hc, hr] = home().split(":");
   return state.events.filter(e => state.countries.has(e.country) && !(e.region && state.offRegions.has(`${e.country}:${e.region}`))
     && (state.format === "all" || (state.format === "online") === !!e.online)
     && e.tags.some(t => !state.offTags.has(t) && (!state.quick || TAGS[t]?.group === state.quick))
-    && (!q || [e.name, e.name_th, e.venue, e.city].some(s => s?.toLowerCase().includes(q))));
+    && (!state.near || !hc || (e.country === hc && (!hr || e.region === hr)))
+    && (!q || [e.name, e.name_th, e.venue, e.city, e.summary_th].some(s => s?.toLowerCase().includes(q))));
 }
 
 // News sites often block hotlinked images; load them through a free image proxy that also resizes.
@@ -121,6 +143,7 @@ const filterCount = () => (state.countries.size < Object.keys(COUNTRIES).length 
 function chips() {
   const n = filterCount();
   $("#quick").innerHTML = `<button class="chip filter ${n ? "on" : ""}" data-filters>${icon("sliders")} ตัวกรอง${n ? ` <b>${n}</b>` : ""}</button>` +
+    (home() ? `<button class="chip ${state.near ? "on" : ""}" data-near>📍 ใกล้ฉัน</button>` : "") +
     `<button class="chip ${!state.quick ? "on" : ""}" data-quick="">ทั้งหมด</button>` +
     Object.entries(GROUPS).map(([g, x]) =>
       `<button class="chip ${state.quick === g ? "on" : ""}" style="--c:${x.color}" data-quick="${g}">${x.icon} ${x.name}</button>`).join("");
@@ -260,8 +283,11 @@ function renderList() {
   const groups = {};
   for (const e of list) (groups[e.start ? (e.start < TODAY ? TODAY : e.start).slice(0, 7) : "nodate"] ||= []).push(e);
   const keys = Object.keys(groups).sort();
+  // Events without a date are kept out of the way: a collapsed section at the very end.
   $("#list").innerHTML = keys.length ? keys.map(k => {
-    const t = k === "nodate" ? "ยังไม่ประกาศวัน" : `${MONTHS[Number(k.slice(5)) - 1]} ${yr(Number(k.slice(0, 4)))}`;
+    if (k === "nodate") return `<details class="undated"><summary>รอประกาศวัน <small>${groups[k].length} งาน · ยังไม่มีวันที่ในข่าว</small></summary>
+      <div class="cards">${groups[k].map(card).join("")}</div></details>`;
+    const t = `${MONTHS[Number(k.slice(5)) - 1]} ${yr(Number(k.slice(0, 4)))}`;
     return `<div class="section-head"><h2>${t}</h2><small>${groups[k].length} งาน</small></div><div class="cards">${groups[k].map(card).join("")}</div>`;
   }).join("") : `<p class="empty">ไม่มีงานตามตัวกรองที่เลือก</p>`;
 }
@@ -271,9 +297,89 @@ function renderMine() {
   $("#mineHint").textContent = list.length ? "" : "ยังไม่ได้ติดตามงานไหน กด ☆ ที่งานที่สนใจเพื่อเก็บไว้ตรงนี้";
   $("#exportIcs").hidden = !list.some(e => e.start);
   const changed = changedFollowed();
+  const matched = state.events.filter(e => !state.starred.has(e.id) && (!e.end || e.end >= TODAY) && followMatch(e));
+  const followBox = `<div class="setting follows"><h4>${icon("search")} ติดตามศิลปิน / IP / สถานที่</h4>
+      <p>พิมพ์คำที่สนใจ งานที่มีคำนี้ในชื่อ สถานที่ หรือรายละเอียดจะขึ้นตรงนี้เอง</p>
+      <form class="follow-form" data-follow-form><input name="w" placeholder="เช่น Hololive, Comiket, ศูนย์สิริกิติ์" autocomplete="off"><button class="pill">ติดตาม</button></form>
+      <div class="wrap">${state.follows.map(w => `<button class="chip on" data-unfollow="${esc(w)}">${esc(w)} ✕</button>`).join("")}</div></div>`;
+  $("#mineFollows").innerHTML = followBox + (matched.length ? `<div class="section-head"><h2>ตรงกับคำที่ติดตาม</h2><small>${matched.length} งาน</small></div>
+      <div class="cards">${matched.slice(0, 40).map(card).join("")}</div>` : "");
   $("#mineEvents").innerHTML = (changed.length ? `<div class="notice"><b>มีการเปลี่ยนแปลง ${changed.length} งาน</b>
       <div class="cards">${changed.map(card).join("")}</div><button class="link" data-seen>รับทราบแล้ว</button></div>` : "")
     + list.filter(e => !changed.includes(e)).map(card).join("");
+}
+
+// Problems and takedown requests go to the repo's issues (a GitHub account is needed; see TODO.md for a form instead).
+const REPORT_URL = "https://github.com/MosStep/eventradar/issues/new";
+const reportLink = e => `${REPORT_URL}?title=${encodeURIComponent(`แจ้งข้อมูลผิด: ${title(e)}`)}&body=${encodeURIComponent(
+  `งาน: ${e.name}\nรหัส: ${e.id}\nลิงก์: ${location.origin}${location.pathname}#e=${e.id}\n\nข้อมูลที่ผิด (วันที่ / สถานที่ / ราคา / รูป / งานซ้ำ / อื่นๆ):\n\nข้อมูลที่ถูกต้อง หรือแหล่งอ้างอิง:\n`)}`;
+
+// System status written by each pipeline run (data/status.json).
+async function loadStatus() {
+  const st = await getJson(`data/status.json?t=${Date.now()}`, null);
+  const box = $("#statusBox");
+  if (!box) return;
+  if (!st) { box.querySelector("p").textContent = "ยังไม่มีข้อมูลสถานะ"; return; }
+  const ago = Math.round((Date.now() - new Date(st.finishedAt)) / 60000);
+  const when = ago < 60 ? `${ago} นาทีที่แล้ว` : ago < 1440 ? `${Math.round(ago / 60)} ชั่วโมงที่แล้ว` : `${Math.round(ago / 1440)} วันที่แล้ว`;
+  box.innerHTML = `<h4>${icon("auto")} สถานะระบบ <span class="dot ${st.problems?.length ? "bad" : "ok"}"></span></h4>
+    <p>อัปเดตล่าสุด ${when} (${st.runner === "github" ? "อัตโนมัติบน GitHub" : "เครื่องของผู้ดูแล"})</p>
+    <ul class="stat">
+      <li><b>${st.total}</b> งานทั้งหมด · <b>${st.upcoming}</b> งานที่กำลังจะมาถึง</li>
+      <li>รอบล่าสุดเพิ่ม <b>${st.added}</b> งาน · ข่าวรอคัด <b>${st.pending}</b></li>
+      <li>มีวันที่ ${st.withDate}% · มีรูป ${st.withImage}% · มีค่าเข้า ${st.withPrice}%</li>
+    </ul>
+    ${st.problems?.length ? `<p class="warn">${st.problems.map(esc).join("<br>")}</p>` : "<p>ทุกอย่างทำงานปกติ</p>"}`;
+}
+
+// Backup / move to a new phone: followed events and words travel in a link (#import=…), no account needed.
+function backupLink() {
+  const data = btoa(unescape(encodeURIComponent(JSON.stringify({ s: [...state.starred], f: state.follows }))));
+  return `${location.origin}${location.pathname}#import=${data}`;
+}
+function importFromHash() {
+  const m = location.hash.match(/^#import=(.+)$/);
+  if (!m) return false;
+  history.replaceState(null, "", location.pathname);
+  try {
+    const d = JSON.parse(decodeURIComponent(escape(atob(m[1]))));
+    (d.s || []).forEach(id => state.starred.add(id));
+    state.follows = [...new Set([...state.follows, ...(d.f || [])])];
+    store.set("starred", [...state.starred]); store.set("follows", state.follows);
+    markSeen(state.events.filter(e => state.starred.has(e.id)));
+    toast(`นำเข้าแล้ว: งานที่ติดตาม ${(d.s || []).length} งาน · คำที่ติดตาม ${(d.f || []).length} คำ`);
+  } catch { toast("ลิงก์สำรองไม่ถูกต้อง"); }
+  return true;
+}
+
+// First visit only: pick interests and (optionally) home region. Anyone with saved settings never sees it.
+function maybeOnboard() {
+  const used = ["starred", "offTags", "view", "prefs", "follows", "countries"].some(k => { try { return localStorage.getItem(k) !== null; } catch { return true; } });
+  if (store.get("onboarded", false) || used) { store.set("onboarded", true); return; }
+  const picked = new Set();
+  const v = Object.assign(document.createElement("div"), { className: "onboard" });
+  const draw = () => {
+    v.innerHTML = `<div class="onboard-card"><h2>ยินดีต้อนรับสู่ EventRadar</h2>
+      <p>รวมงานอีเวนต์ในไทย ญี่ปุ่น และจีน อัปเดตเองวันละ 4 รอบ · กด ☆ เพื่อติดตามงาน · สมัครรับปฏิทินได้ที่หน้าตั้งค่า</p>
+      <h5>สนใจหมวดไหน (เลือกได้หลายหมวด)</h5>
+      <div class="wrap">${Object.entries(GROUPS).map(([g, x]) => `<button class="chip ${picked.has(g) ? "on" : ""}" style="--c:${x.color}" data-pick="${g}">${x.icon} ${x.name}</button>`).join("")}</div>
+      <button class="pill done" data-onboard-done>${picked.size ? `เริ่มเลย (${picked.size} หมวด)` : "ดูทุกหมวด"}</button>
+      <button class="link" data-onboard-done>ข้ามไปก่อน</button></div>`;
+  };
+  v.addEventListener("click", ev => {
+    const p = ev.target.closest("[data-pick]");
+    if (p) { picked.has(p.dataset.pick) ? picked.delete(p.dataset.pick) : picked.add(p.dataset.pick); draw(); return; }
+    if (!ev.target.closest("[data-onboard-done]")) return;
+    if (picked.size) {
+      for (const [g, x] of Object.entries(GROUPS)) if (!picked.has(g)) Object.keys(x.tags).forEach(t => state.offTags.add(t));
+      store.set("offTags", [...state.offTags]);
+    }
+    store.set("onboarded", true);
+    v.remove();
+    render();
+  });
+  draw();
+  document.body.append(v);
 }
 
 // webcal:// subscribes in Apple Calendar directly; Google Calendar takes the same feed through its "add by URL" link.
@@ -298,11 +404,24 @@ function renderSettings() {
       <p>เพิ่มครั้งเดียว แล้วงานใหม่จะเข้าปฏิทินในมือถือเอง (อัปเดตทุกไม่กี่ชั่วโมง)</p>
       <div class="subs">${[["all", "✨ ทุกงาน"], ...Object.entries(GROUPS).map(([g, x]) => [g, `${x.icon} ${x.name}`])].map(([g, label]) =>
         `<a class="chip" href="${esc(subscribeUrl(g))}" ${isApple ? "" : 'target="_blank" rel="noopener"'}>${label}</a>`).join("")}</div></div>
+    <div class="setting"><h4>${icon("pin")} ตำแหน่งของฉัน</h4>
+      <p>ใช้กับปุ่ม "📍 ใกล้ฉัน" บนหน้าแรก</p>
+      <select class="select" data-home>${["", ...Object.keys(REGION_CENTRES)].map(k =>
+        `<option value="${k}" ${home() === k ? "selected" : ""}>${k ? `${COUNTRIES[k.split(":")[0]]} · ${REGIONS[k.split(":")[0]]?.[k.split(":")[1]] || ""}` : "ไม่ระบุ"}</option>`).join("")}</select>
+      <button class="pill gps" data-gps>${icon("pin")} ใช้ตำแหน่งปัจจุบัน (GPS)</button></div>
     <div class="setting"><h4>${icon("star")} ข้อมูลของฉัน</h4>
-      <p>งานที่ติดตามและการตั้งค่าเก็บไว้ในเครื่องนี้เท่านั้น ไม่ต้องสมัครสมาชิก</p>
-      <button class="danger" data-clear-stars>ล้างงานที่ติดตามทั้งหมด</button></div>
-    <p class="empty">ข้อมูลงานอัปเดตอัตโนมัติวันละ 4 รอบ จากข่าวในไทย ญี่ปุ่น และจีน</p>
+      <p>งานที่ติดตามและการตั้งค่าเก็บไว้ในเครื่องนี้เท่านั้น ไม่ต้องสมัครสมาชิก ถ้าจะย้ายไปเครื่องใหม่ ให้กดสำรองแล้วเปิดลิงก์ในเครื่องใหม่</p>
+      <button class="pill" data-backup>สำรอง / ย้ายเครื่อง</button>
+      <button class="danger" data-clear-stars style="margin-top:8px">ล้างงานที่ติดตามทั้งหมด</button></div>
+    <div class="setting" id="statusBox"><h4>${icon("auto")} สถานะระบบ</h4><p>กำลังโหลด…</p></div>
+    <div class="setting about"><h4>${icon("sparkle")} เกี่ยวกับ EventRadar</h4>
+      <p>โปรเจกต์ส่วนตัว ไม่แสวงหากำไร รวมงานอีเวนต์จากข่าวและเว็บขายบัตรในไทย ญี่ปุ่น และจีน โดยใช้ AI ช่วยคัดและสรุป
+      ข้อมูลอาจคลาดเคลื่อนได้ โปรดตรวจสอบกับผู้จัดงานก่อนเดินทาง</p>
+      <p>รูปภาพและข่าวเป็นลิขสิทธิ์ของเว็บต้นทาง ทุกงานมีลิงก์กลับไปยังแหล่งที่มา ถ้าเป็นเจ้าของเนื้อหาและต้องการให้ลบ
+      หรือพบข้อมูลผิด แจ้งได้ที่ <a href="${REPORT_URL}" target="_blank" rel="noopener">แจ้งปัญหา / ขอให้ลบ</a></p>
+      <p>แหล่งข้อมูล: Bing News, Google News, PR TIMES, Eventpop, bilibili会员购 · รูปผ่าน images.weserv.nl</p></div>
   </div>`;
+  loadStatus();
 }
 
 function render() {
@@ -361,6 +480,10 @@ function openSheet(id) {
         ${where(e) ? `<a href="https://www.google.com/maps/search/${encodeURIComponent(where(e))}" target="_blank" rel="noopener">${icon("map")} แผนที่</a>` : ""}
         ${e.start ? `<button data-addcal="${e.id}">${icon("calplus")} ลงปฏิทิน</button>` : ""}
       </div>
+      <div class="sheet-links">
+        ${e.venue ? `<button class="chip" data-follow-word="${esc(e.venue)}">${icon("pin")} ติดตามสถานที่นี้</button>` : ""}
+        <a class="chip" href="${reportLink(e)}" target="_blank" rel="noopener">แจ้งข้อมูลผิด</a>
+      </div>
       <div class="sources">ข่าวที่พูดถึงงานนี้ (${e.sources.length})
         ${e.sources.map(s => `<a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.title)} <small>· ${esc(s.source)}</small></a>`).join("")}
       </div>
@@ -403,7 +526,8 @@ function showSheet(html, kind) {
 // Share link opens the app straight on this event: …/eventradar/#e=<id>
 async function share(id) {
   const e = state.events.find(x => x.id === id);
-  const url = `${location.origin}${location.pathname}#e=${id}`;
+  // The share page carries the poster/name preview for LINE and Facebook, then opens the app on this event.
+  const url = `${location.origin}${location.pathname}data/e/${id}.html`;
   const text = `${title(e)} · ${dateText(e)}${where(e) ? ` · ${where(e)}` : ""}`;
   try {
     if (navigator.share) return await navigator.share({ title: title(e), text, url });
@@ -508,6 +632,27 @@ document.addEventListener("click", ev => {
   if (!b) return;
   const inFilters = $("#sheetBody").dataset.kind === "filters" && !$("#sheet").hidden;
   if (b.dataset.filters !== undefined) return filterSheet();
+  if (b.dataset.near !== undefined) { state.near = !state.near; store.set("near", state.near); return render(); }
+  if (b.dataset.unfollow) { state.follows = state.follows.filter(w => w !== b.dataset.unfollow); store.set("follows", state.follows); return render(); }
+  if (b.dataset.followWord) {
+    if (!state.follows.includes(b.dataset.followWord)) { state.follows.push(b.dataset.followWord); store.set("follows", state.follows); }
+    toast(`ติดตาม "${b.dataset.followWord}" แล้ว · ดูได้ที่แท็บของฉัน`); return;
+  }
+  if (b.dataset.gps !== undefined) {
+    if (!navigator.geolocation) return toast("เครื่องนี้ใช้ GPS ไม่ได้");
+    navigator.geolocation.getCurrentPosition(p => {
+      const k = nearestRegion(p.coords.latitude, p.coords.longitude);
+      setPref("home", k); state.near = true; store.set("near", true);
+      toast(`ตั้งตำแหน่งเป็น ${REGIONS[k.split(":")[0]]?.[k.split(":")[1]] || k}`); render();
+    }, () => toast("ไม่ได้รับอนุญาตให้ใช้ตำแหน่ง"), { timeout: 10000 });
+    return;
+  }
+  if (b.dataset.backup !== undefined) {
+    const url = backupLink();
+    if (navigator.share) navigator.share({ title: "สำรองรายการติดตาม EventRadar", url }).catch(() => {});
+    else navigator.clipboard?.writeText(url).then(() => toast("คัดลอกลิงก์สำรองแล้ว เปิดลิงก์นี้ในเครื่องใหม่"));
+    return;
+  }
   if (b.dataset.seen !== undefined) { markSeen(changedFollowed()); return render(); }
   if (b.dataset.pref) { setPref(b.dataset.pref, b.dataset.val); return render(); }
   if (b.dataset.clearStars !== undefined) {
@@ -563,6 +708,20 @@ $("#calBody").addEventListener("touchend", e => {
   touch = null;
   if (Math.abs(dx) > 70 && Math.abs(dx) > 2.5 * Math.abs(dy) && ms < 500) { stepCalendar(dx < 0 ? 1 : -1); render(); }
 });
+document.addEventListener("submit", ev => {
+  if (!ev.target.matches("[data-follow-form]")) return;
+  ev.preventDefault();
+  const w = ev.target.w.value.trim();
+  if (w && !state.follows.includes(w)) { state.follows.push(w); store.set("follows", state.follows); }
+  render();
+});
+document.addEventListener("change", ev => {
+  if (!ev.target.matches("[data-home]")) return;
+  setPref("home", ev.target.value);
+  if (!ev.target.value) { state.near = false; store.set("near", false); }
+  render();
+});
+
 document.addEventListener("keydown", e => {
   if (e.key !== "Escape") return;
   const v = $(".viewer");
@@ -587,6 +746,7 @@ Promise.all([getJson("taxonomy.json", {}), getJson(`data/events.json?t=${Date.no
   render();
   const c = changedFollowed().length;
   if (c) toast(`งานที่คุณติดตามมีการเปลี่ยนแปลง ${c} งาน — ดูที่แท็บ "ของฉัน"`);
-  openFromHash();
-  addEventListener("hashchange", openFromHash);
+  if (!importFromHash()) openFromHash();
+  addEventListener("hashchange", () => importFromHash() || openFromHash());
+  maybeOnboard();
 });

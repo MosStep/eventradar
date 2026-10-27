@@ -1,0 +1,19 @@
+# Friday evening LINE digest of the coming week's events. Needs repo secret LINE_CHANNEL_TOKEN (see TODO.md).
+name: weekly-line
+on:
+  schedule:
+    - cron: "0 11 * * 5" # Friday 18:00 Thai time
+  workflow_dispatch:
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Send digest
+        env:
+          LINE_CHANNEL_TOKEN: ${{ secrets.LINE_CHANNEL_TOKEN }}
+        run: node scripts/line-digest.mjs

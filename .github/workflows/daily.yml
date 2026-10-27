@@ -15,6 +15,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write
   pages: write
   id-token: write
 
@@ -29,13 +30,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Tests
+        id: tests
+        continue-on-error: true
+        run: node --test tests/*.test.mjs
       - name: Fetch and extract events
+        id: pipeline
         if: github.event_name != 'push'
         continue-on-error: true # a failed run must not stop the site from deploying
         env:
           TENIXE_KEYS: ${{ secrets.TENIXE_KEYS }}
           TENIXE_NEMOTRON_KEYS: ${{ secrets.TENIXE_NEMOTRON_KEYS }}
-        run: node pipeline/run.mjs --window=1d --max-batches=5 --max-describe=10 --max-verify=20
+        run: node pipeline/run.mjs --window=1d --max-batches=5 --max-describe=10 --max-verify=20 --max-price=20
       - name: Save data
         if: github.event_name != 'push'
         run: |
@@ -45,12 +51,21 @@ jobs:
           git diff --cached --quiet || git commit -m "data: daily update"
           git pull --rebase -X theirs || git rebase --abort
           git push
+      # Problems become a GitHub issue, which GitHub e-mails to the repo owner. One open issue at a time, updated in place.
+      - name: Report problems
+        if: always() && github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PIPELINE: ${{ steps.pipeline.outcome }}
+          TESTS: ${{ steps.tests.outcome }}
+        run: node scripts/report.mjs
       - name: Build site
         run: |
           mkdir -p _site/data
           cp -r web/* _site/
           cp data/events.json _site/data/
-          cp -r data/ics _site/data/ 2>/dev/null || true
+          cp -r data/ics data/e _site/data/ 2>/dev/null || true
+          cp data/status.json _site/data/ 2>/dev/null || true
           sed -i "s/__V__/${GITHUB_SHA::7}/g" _site/index.html # cache-bust app.js and style.css
       - uses: actions/upload-pages-artifact@v3
         with:

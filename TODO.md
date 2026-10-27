@@ -1,50 +1,64 @@
-# EventRadar — สิ่งที่ยังไม่ได้ทำ
+# EventRadar — สิ่งที่ยังไม่ได้ทำ และสิ่งที่เจ้าของต้องตั้งค่าเอง
 
-รายการนี้คืองานที่ยังทำไม่ได้หรือยังไม่ได้เริ่ม พร้อมบอกว่าติดอะไรและต้องทำอย่างไร
+## ต้องตั้งค่าเอง (ระบบความปลอดภัยไม่ให้ AI ทำแทน)
 
-## แหล่งข้อมูล
+### 1. ให้รอบดึงงานบนคอมเปิดเองทุกครั้งที่เปิดคอม (Windows Task Scheduler)
+ใส่คีย์ไว้ในตัวแปรของผู้ใช้ Windows ครั้งเดียว (ค่าเก็บในเครื่องนี้ ไม่ได้อยู่ในไฟล์โปรเจกต์) แล้วสร้างงานตั้งเวลา
+เปิด PowerShell แล้วรันทีละบรรทัด:
+```powershell
+setx TENIXE_NEMOTRON_KEYS "txc_คีย์รายเดือน"
+setx TENIXE_KEYS "txc_คีย์หลัก,txc_คีย์ฟรี1,txc_คีย์ฟรี2"
+$a = New-ScheduledTaskAction -Execute "powershell.exe" -Argument '-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "D:\calender\scripts\loop.ps1"' -WorkingDirectory "D:\calender"
+$t = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME
+$s = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -ExecutionTimeLimit ([TimeSpan]::Zero) -RestartCount 3 -RestartInterval (New-TimeSpan -Minutes 5)
+Register-ScheduledTask -TaskName "EventRadar loop" -Action $a -Trigger $t -Settings $s
+Start-ScheduledTask -TaskName "EventRadar loop"
+```
+- ดู log ได้ที่ `%LOCALAPPDATA%\EventRadar\loop.log`
+- ถ้าจะหยุดถาวร: `Unregister-ScheduledTask -TaskName "EventRadar loop"`
+- สคริปต์กันไม่ให้มีรอบดึงงานซ้อนกันสองชุดอยู่แล้ว
+
+### 2. สรุปงานประจำสัปดาห์ทาง LINE (ทุกวันศุกร์ 18:00)
+1. สมัคร LINE Official Account ที่ https://manager.line.biz (ฟรี แพ็กเกจฟรีส่งได้ราว 300 ข้อความต่อเดือน นับตามจำนวนคนที่ได้รับ)
+2. ใน LINE Official Account Manager → ตั้งค่า → Messaging API → เปิดใช้งาน
+3. ไปที่ https://developers.line.biz → เลือก channel → แท็บ Messaging API → กด Issue ที่ "Channel access token (long-lived)"
+4. ไปที่ https://github.com/MosStep/eventradar/settings/secrets/actions → New repository secret → ชื่อ `LINE_CHANNEL_TOKEN` → วาง token
+5. ให้เพื่อนแอด LINE OA นั้น — ทุกวันศุกร์ระบบจะส่งการ์ดงาน 7 วันข้างหน้า (สูงสุด 10 งาน) ให้ทุกคน
+6. ทดสอบได้ทันทีที่ https://github.com/MosStep/eventradar/actions/workflows/weekly-line.yml → Run workflow
+
+### 3. เปลี่ยนคีย์ AI เมื่อระบบแจ้งว่าคีย์มีปัญหา
+เมื่อรอบอัตโนมัติพบปัญหา (ดึงข่าวไม่ได้, คีย์หมดโควตา, ค้างชำระ, ชุดทดสอบไม่ผ่าน) ระบบจะเปิด issue ใน GitHub ซึ่ง GitHub
+จะส่งอีเมลหาเจ้าของ repo เอง ในอีเมลมีลิงก์ไปที่หน้าใส่คีย์ใหม่:
+https://github.com/MosStep/eventradar/settings/secrets/actions
+(ไม่ทำช่องกรอกคีย์ในหน้าเว็บ เพราะเว็บเป็นสาธารณะ ใครก็กรอกได้ — หน้า Secrets ของ GitHub คือช่องกรอกที่ปลอดภัย)
+
+## แหล่งข้อมูลที่ยังไม่ได้ทำ
 
 ### Eventpop (ไทย) — ได้แค่ 9 งาน
-- **สถานะ**: ใช้ `https://www.eventpop.me/api/v1/events` อยู่ แต่ endpoint นี้ส่งมาเฉพาะงานแนะนำ ไม่มีช่องค้นหาหรือแบ่งหน้า (ลองใส่ `q`, `keyword`, `category`, `page` แล้ว ไม่ได้ผลทุกตัว)
-- **ต้องทำ**: ดึงจากหน้าเว็บ `https://www.eventpop.me/explore` หรือหน้าหมวดหมู่ด้วยเบราว์เซอร์จำลอง (Playwright) เพราะหน้าเว็บโหลดรายการงานผ่าน JavaScript หรือขอ API จาก Eventpop โดยตรง
-- **ต้องระวัง**: ต้องอ่านข้อตกลงการใช้งานของ Eventpop ก่อน และไม่ควรดึงถี่เกินวันละ 4 รอบ
+- endpoint สาธารณะ `https://www.eventpop.me/api/v1/events` ส่งมาเฉพาะงานแนะนำ ไม่มีค้นหา/แบ่งหน้า
+- ต้องใช้เบราว์เซอร์จำลอง (Playwright) ดึงหน้า `https://www.eventpop.me/explore` — ทำได้บน GitHub Actions แต่ต้องอ่านข้อตกลงการใช้งานของ Eventpop ก่อน
 
 ### Ticketmelon, ThaiTicketMajor (ไทย)
-- **สถานะ**: ยังไม่ได้เริ่ม เว็บเปิดได้ (HTTP 200) แต่ยังไม่ได้หาว่ามี JSON ให้ดึงไหม
-- **ต้องทำ**: เปิดหน้ารายการงานใน DevTools แล้วดูแท็บ Network ว่าเว็บเรียก API ตัวไหน ถ้าไม่มีก็ต้องใช้ Playwright เหมือน Eventpop
+- ยังไม่ได้เริ่ม ต้องเปิดหน้ารายการงานใน DevTools ดูแท็บ Network ว่าเรียก API ตัวไหน ถ้าไม่มีต้องใช้ Playwright
+
+### otabase.net
+- เว็บรวมงานอีเวนต์ป๊อปคัลเจอร์ที่มีวันที่ สถานที่ และราคาบัตร (เจอตอนค้นราคา) — น่าจะเป็นแหล่งที่ดีมาก ยังไม่ได้ตรวจว่ามีงานกี่งาน/ดึงได้ไหม
 
 ### allcpp.cn, 秀动 showstart, 喵特 nyato (จีน)
-- **สถานะ**: ยังไม่ได้เริ่ม ตอนนี้ใช้ Bilibili 会员购 แทน ซึ่งให้มาราว 100 งาน
-- **ต้องทำ**:
-  - showstart: ใช้ route ของ RSSHub `/showstart/event/:cityCode/:showStyle?` (ต้องตั้ง RSSHub ไว้ที่ไหนสักที่ หรือใช้ instance สาธารณะ)
-  - allcpp: ไม่มี API สาธารณะ ต้องดึงหน้า `https://www.allcpp.cn/` ด้วย Playwright
-- **ต้องระวัง**: เว็บจีนบางเว็บบล็อก IP ที่มาจากต่างประเทศ (เซิร์ฟเวอร์ของ GitHub Actions อยู่ในสหรัฐฯ)
+- ตอนนี้ใช้ Bilibili 会员购 ซึ่งได้ราว 20 งานต่อครั้ง (รายการวนซ้ำหลังหน้าแรกๆ)
+- showstart: ใช้ RSSHub `/showstart/event/:cityCode/:showStyle?` · allcpp: ต้องใช้ Playwright
+- เว็บจีนบางเว็บบล็อก IP ต่างประเทศ (GitHub Actions อยู่สหรัฐฯ)
 
 ### Walkerplus, connpass (ญี่ปุ่น)
-- **สถานะ**: ยังไม่ได้เริ่ม ตอนนี้ใช้ PR TIMES (RSS) แทน
-- **ต้องทำ**: connpass มี API สาธารณะสำหรับงานสายเทค (`https://connpass.com/api/v2/events/`) แต่เวอร์ชัน 2 ต้องขอ API key ส่วน Walkerplus ต้องดึงจากหน้าเว็บ
+- connpass API v2 ต้องขอ API key · Walkerplus ต้องดึงจากหน้าเว็บ
 
-## ฟีเจอร์
-
-### ลิงก์แชร์มีรูปตัวอย่างใน LINE / Facebook
-- **ปัญหา**: เว็บนี้เป็นหน้าเดียว (`#e=<id>`) ตอน LINE มาดึงตัวอย่างลิงก์ จะไม่รู้ว่าลิงก์นั้นเป็นงานไหน
-- **ต้องทำ**: ให้ pipeline สร้างไฟล์ `e/<id>.html` แยกทีละงาน ใส่แท็ก `og:title`, `og:image`, `og:description` แล้วให้ไฟล์นั้นพาไปที่ `../#e=<id>` ต่อเอง และเปลี่ยนปุ่มแชร์ในแอปให้แชร์ลิงก์ `e/<id>.html` แทน
-
-### แจ้งเตือนงานใหม่ทาง LINE / Telegram
-- **ต้องทำ**: สร้างบอท Telegram (ฟรี) หรือ LINE OA (มีโควตาข้อความฟรีต่อเดือน) แล้วให้ GitHub Actions ส่งรายการ "งานใหม่วันนี้" ทุกเย็น
-- **ต้องการจากเจ้าของ**: token ของบอท ซึ่งต้องเก็บใน GitHub Secrets เท่านั้น
-
-### ปุ่ม "แจ้งข้อมูลผิด"
-- **ต้องทำ**: ลิงก์ไปที่ Google Form หรือ GitHub Issue ที่กรอกชื่องานไว้ให้แล้ว
-- **ต้องการจากเจ้าของ**: เลือกว่าจะใช้ Google Form หรือ GitHub Issue
-
-### เปิดดูได้ตอนไม่มีเน็ต
-- **ต้องทำ**: เพิ่ม service worker ที่เก็บไฟล์แอปกับ `events.json` ไว้ในเครื่อง (งานเล็ก)
-
-### เครดิตและการแจ้งลบ
-- **ต้องทำ**: เพิ่มหน้า "เกี่ยวกับ" ที่บอกว่าเป็นโปรเจกต์ไม่แสวงกำไร รูปและข่าวเป็นของเว็บต้นทาง และใส่ช่องทางติดต่อสำหรับแจ้งลบ
+## ฟีเจอร์ที่ยังไม่ได้ทำ
+- **แจ้งข้อมูลผิดโดยไม่ต้องมีบัญชี GitHub**: ตอนนี้ปุ่มพาไปเปิด issue ใน GitHub (ต้องมีบัญชี) ถ้าอยากให้ทุกคนแจ้งได้ ให้สร้าง Google Form แล้วบอก AI ให้เปลี่ยน `REPORT_URL` ใน `web/app.js`
+- **เปิดดูได้ตอนไม่มีเน็ต**: เพิ่ม service worker เก็บไฟล์แอปกับ `events.json` (งานเล็ก)
+- **แจ้งเตือน push ตอนปิดแอป**: ต้องมีเซิร์ฟเวอร์ push หรือใช้ LINE (ดูข้อ 2 ด้านบน)
+- **ระบบล็อกอิน/ซิงก์ข้ามเครื่อง**: ตอนนี้ใช้ "สำรอง / ย้ายเครื่อง" (ลิงก์) แทน
 
 ## ข้อจำกัดที่ควรรู้
-- **รอบดึงงานบนคอมเครื่องนี้**: ต้องเปิดคอมไว้ ถ้าปิดคอม รอบจะหยุด แต่ GitHub ยังรันเองวันละ 4 รอบ
-- **คุณภาพข้อมูล**: Nemotron คัดงานเป็นหลัก แล้วให้ Haiku ตรวจซ้ำได้รอบละไม่เกิน 20–30 งาน งานที่ยังไม่ได้ตรวจอาจมีจุดผิด
-- **ค่าเข้า**: แสดงเฉพาะงานที่ข่าวหรือเว็บขายบัตรบอกราคาไว้ ระบบไม่เดาราคาเอง
+- **คุณภาพข้อมูล**: Nemotron คัดงาน แล้ว Haiku ตรวจซ้ำรอบละ 20 งาน เรียงจากงานเสี่ยงที่สุดก่อน (มาจากข่าวเดียว ไม่มีสถานที่ วันที่ห่างจากวันข่าวมาก ใกล้วันจัด) งานที่ยังไม่ได้ตรวจอาจมีจุดผิด
+- **ค่าเข้า**: มาจากข่าว เว็บขายบัตร หรือการค้นเว็บ (DuckDuckGo) — ไม่เดาเอง และมีลิงก์ "ที่มา"
+- **การค้นราคา**: DuckDuckGo อาจบล็อกถ้าค้นถี่ ระบบเว้นระยะไว้แล้ว

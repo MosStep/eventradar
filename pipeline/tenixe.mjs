@@ -10,6 +10,10 @@ export const nemotronKeys = () => [...new Set(keysFor("nemotron-3-ultra"))];
 
 export class BillingStop extends Error {}
 
+const stats = { calls: 0, failed: 0, quota: new Set(), billing: false };
+export const keyStats = () => ({ calls: stats.calls, failed: stats.failed, quota: [...stats.quota], billing: stats.billing,
+  keys: new Set([...list("TENIXE_KEYS"), ...list("TENIXE_NEMOTRON_KEYS")]).size });
+
 // Haiku does the work; reasoning models need a large max_tokens or they return nothing.
 // EXTRACT_MODELS="nemotron-3-ultra,claude-haiku-5-5" changes the order.
 const MAX_TOKENS = { "claude-haiku-5-5": 4000, "deepseek-v4-flash": 24000, "nemotron-3-ultra": 8000 };
@@ -60,9 +64,13 @@ export async function extract(messages, order = ORDERS.extract, preferKey = null
     for (const key of preferKey && ks.includes(preferKey) ? [preferKey, ...ks.filter(k => k !== preferKey)] : ks) {
       for (let attempt = 1; attempt <= 3; attempt++) {
         try {
+          stats.calls++;
           return { model, text: await chatOnce(key, model, messages, maxTokens) };
         } catch (e) {
           last = e;
+          stats.failed++;
+          if (/quota/i.test(e.message)) stats.quota.add(key.slice(0, 8));
+          if (/unpaid|add credits|wallet/i.test(e.message)) stats.billing = true;
           if (/unpaid|add credits|wallet/i.test(e.message)) throw new BillingStop(`billing stop on key ${key.slice(0, 8)}: ${e.message.slice(0, 200)}`);
           if (/concurrent_streams_exceeded/i.test(e.message)) { await sleep(6); continue; }
           if (/^(402|429)|quota|rate.?limit|insufficient/i.test(e.message)) break; // next key

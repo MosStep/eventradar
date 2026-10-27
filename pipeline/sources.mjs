@@ -89,3 +89,9 @@ export function feeds(country, query, window = "7d") {
 
 // Headlines without any of these words are rarely events; skipping them saves AI credits.
 export const EVENT_WORDS = /งาน|จัด|เทศกาล|แฟนมีต|คอนเสิร์ต|โชว์|มหกรรม|นิทรรศการ|เปิดตัว|สัมมนา|แข่งขัน|fest|expo|show|con\b|conference|convention|summit|live|launch|開催|イベント|フェス|展|ライブ|即売会|ファンミ|発表会|大会|举办|举行|漫展|节|见面会|演唱会|开幕|启幕|发布会|大会|博览会/i;
+
+// Headlines with these are almost never public events even when an event word appears (checked before the AI).
+// Kept narrow on purpose: a missed event costs more than a few wasted tokens.
+export const NOT_EVENT_WORDS = /รีวิว|รวมโค้ด|โค้ดฟรี|แจกโค้ด|ผลการแข่งขัน|ผลบอล|ราคาทอง|หุ้น|ดูดวง|ทำนาย|รับสมัครงาน|攻略|ガチャ|ギフトコード|決算|株価|人事|求人|おみくじ|股价|财报|招聘|攻略|兑换码|review|walkthrough|stock price|earnings|patch notes/i;
+// PR TIMES carries every kind of press release; keep only ones that read like an event.
+export const PRTIMES_EVENT = /開催|イベント|フェス|展示会|展覧会|ライブ|ポップアップ|コラボカフェ|体験会|上映会|即売会|ファンミ|マルシェ|祭/;
