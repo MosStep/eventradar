@@ -2072,7 +2072,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": null
+  "imageHash": "e34ab35fc61be6bc"
  },
  {
   "id": "6be56bd8bdc7",
@@ -7886,8 +7886,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sohu.com/a/1087941746_121797776",
-  "imageFrom": "https://edu.sina.com.cn/ischool/2026-10-27/doc-iniwrzhv1367057.shtml",
-  "imageHash": null,
+  "imageFrom": "https://edu.sina.com.cn/ischool/2026-09-15/doc-inirxaty3726484.shtml",
+  "imageHash": "0cbcd6cabb6fe206",
   "regionTried": true,
   "priceTriedAt": "2026-10-27"
  },
@@ -8837,7 +8837,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://finance.sina.com.cn/tjhz/2026-08-18/doc-inintxxh8568957.shtml",
   "imageFrom": "https://finance.sina.com.cn/tjhz/2026-08-18/doc-inintxxh8568957.shtml",
-  "imageHash": "ece47c7e0eb5b158"
+  "imageHash": "ece47c7e0eb5b158",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "14c1d88d299d",
@@ -8911,7 +8912,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://news.qq.com/rain/a/20260731A0A42600",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-09-06/doc-iniqwnkx0138630.shtml",
-  "imageHash": "fe01bfeda3cabca0"
+  "imageHash": "fe01bfeda3cabca0",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "9f9d53d63cbf",
@@ -15188,7 +15190,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000003918.000013972.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000003918.000013972.html",
-  "imageHash": "a704417bf32df3dd"
+  "imageHash": "a704417bf32df3dd",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "3c238b32a46d",
@@ -15779,7 +15782,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": null
+  "imageHash": "8d30395ee595cc2e"
  },
  {
   "id": "921405c7f527",
@@ -16389,7 +16392,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": null
+  "imageHash": "c4b8facdce2ebae9"
  },
  {
   "id": "21baa989c57c",
@@ -17769,7 +17772,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000391.000066361.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000391.000066361.html",
-  "imageHash": "73136d08ed422786"
+  "imageHash": "73136d08ed422786",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "a849649aaaf1",
@@ -19286,7 +19290,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": null
+  "imageHash": "61cfafdcfeb33e7b"
  },
  {
   "id": "5654cfc846bb",
@@ -20073,7 +20077,7 @@
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
-  "imageHash": null
+  "imageHash": "ac0b49871176a5f2"
  },
  {
   "id": "1257cb046a36",
@@ -25330,7 +25334,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sankei.com/article/20261019-WQDA4P3X35IHPBF3VSAGDZ237E/?outputType=theme_oriconnews",
   "imageFrom": "https://www.sankei.com/article/20261019-WQDA4P3X35IHPBF3VSAGDZ237E/?outputType=theme_oriconnews",
-  "dateTried": true
+  "dateTried": true,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "db3d01ce2b88",
@@ -25418,7 +25423,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10651679",
   "imageFrom": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10651679",
-  "imageHash": "a3a60dbe5c1c13a7"
+  "imageHash": "a3a60dbe5c1c13a7",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "09fa221fbb3b",
@@ -25457,7 +25463,8 @@
    "58bf00aa5a1a",
    "a4d567fca64a"
   ],
-  "imageHash": "e8b62ada6c6498c5"
+  "imageHash": "e8b62ada6c6498c5",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "c76640e7d9d3",
@@ -25497,7 +25504,8 @@
   "enriched": true,
   "imageTried": true,
   "article": null,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "26cffe97ab74",
@@ -25547,7 +25555,8 @@
   "datedFrom": "article",
   "price_th": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "d713871e25ca",
@@ -25598,7 +25607,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.naewna.com/n/entertainment/88051/",
-  "imageFrom": "https://www.naewna.com/n/entertainment/88051/"
+  "imageFrom": "https://www.naewna.com/n/entertainment/88051/",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "aaee9a13755c",
@@ -25677,7 +25687,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://mantan-web.jp/prtimes/article/20261014prt00m200000993a.html",
-  "imageFrom": "https://mantan-web.jp/prtimes/article/20261014prt00m200000993a.html"
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261014prt00m200000993a.html",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "4cda4571111e",
@@ -25722,7 +25733,8 @@
    "2e3f6c457bef",
    "ce7b0601e508"
   ],
-  "imageHash": "920b4ced00d06289"
+  "imageHash": "920b4ced00d06289",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "e7f80f9f3d9a",
@@ -25763,7 +25775,8 @@
   "enriched": true,
   "imageTried": true,
   "article": null,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "bac40c94553b",
@@ -25798,7 +25811,8 @@
   "enriched": true,
   "imageTried": true,
   "article": null,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "fab5417eabc9",
@@ -25836,7 +25850,8 @@
    "9ff1dfd0ca0d",
    "af0728904734",
    "72096a376a3a"
-  ]
+  ],
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "57d75de98f1d",
@@ -25869,7 +25884,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "e2a8d5cb559f1c49"
+  "imageHash": "e2a8d5cb559f1c49",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "2d69fc55ba2b",
@@ -26451,7 +26467,8 @@
   "imageTried": true,
   "region": "shikoku",
   "regionTried": true,
-  "imageHash": "bb8b1c9aa1bf6af4"
+  "imageHash": "bb8b1c9aa1bf6af4",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "ce7b0601e508",
@@ -26690,7 +26707,8 @@
    "4295827c88b9",
    "fa65eae911da"
   ],
-  "imageHash": "d696d7559887c95a"
+  "imageHash": "d696d7559887c95a",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "f432a11bdf40",
@@ -26723,7 +26741,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "e6df19bb51c5d4c7"
+  "imageHash": "e6df19bb51c5d4c7",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "57ad69d83217",
@@ -26764,7 +26783,8 @@
    "4bc7c0dabd35",
    "e80e71366f60"
   ],
-  "imageHash": "3c175a0d2aed9f28"
+  "imageHash": "3c175a0d2aed9f28",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "26013decaf6d",
@@ -26815,7 +26835,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sohu.com/a/1093493640_161795",
   "imageFrom": "https://www.sohu.com/a/1093493640_161795",
-  "imageHash": "2334db871e73fe6d"
+  "imageHash": "2334db871e73fe6d",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "d44578653c89",
@@ -27040,7 +27061,8 @@
    "5f5d91bf74bd",
    "07e08fa41cc8"
   ],
-  "imageHash": "9902ddb6da1e5bed"
+  "imageHash": "9902ddb6da1e5bed",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "e6a1e4c70a97",
@@ -27079,7 +27101,8 @@
   "notDupWith": [
    "338aef0246fe"
   ],
-  "imageHash": "a86e03dbbf044715"
+  "imageHash": "a86e03dbbf044715",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "f0914fed13f1",
@@ -27115,7 +27138,8 @@
   "notDupWith": [
    "d1d338d2a62e",
    "32e3bfec2ae4"
-  ]
+  ],
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "e7f0771e13e6",
@@ -27165,7 +27189,8 @@
    "a05cbb4767b0"
   ],
   "enriched": true,
-  "imageHash": "eb5f74251f2d266c"
+  "imageHash": "eb5f74251f2d266c",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "3640592b4b3c",
@@ -27200,7 +27225,8 @@
   "notDupWith": [
    "5d19948be256"
   ],
-  "imageHash": "401816719d493352"
+  "imageHash": "401816719d493352",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "b1874355568d",
@@ -27246,7 +27272,8 @@
    "72096a376a3a",
    "a4d567fca64a"
   ],
-  "imageHash": "e61719af6d5331b1"
+  "imageHash": "e61719af6d5331b1",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "34991d480b14",
@@ -27288,7 +27315,8 @@
   "imageTried": true,
   "article": "https://realsound.jp/2026/10/post-2564154.html",
   "imageFrom": "https://realsound.jp/2026/10/post-2564154.html",
-  "imageHash": "2909a1a5c74e0d95"
+  "imageHash": "2909a1a5c74e0d95",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "68885b13d278",
@@ -27339,7 +27367,8 @@
   "signup_th": "ขายบัตรล่วงหน้าสมาชิก FC 3 ตุลาคม 2569 12:00 น. ขายบัตรทั่วไป 10 ตุลาคม 2569 12:",
   "price_th": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "c44212b763f9",
@@ -27835,7 +27864,8 @@
    "bd7cfb500e47",
    "c750eee245f2"
   ],
-  "imageHash": "6290693c63cc6d86"
+  "imageHash": "6290693c63cc6d86",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "5bb6b38cd204",
@@ -27874,7 +27904,8 @@
    "73ac300181b1",
    "511e4e0cbb89"
   ],
-  "imageHash": "caebccaa64cdae1e"
+  "imageHash": "caebccaa64cdae1e",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "3d2e6d98af96",
@@ -27916,7 +27947,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://korepo.com/archives/1724535",
-  "imageFrom": "https://korepo.com/archives/1724535"
+  "imageFrom": "https://korepo.com/archives/1724535",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "3e548ecf4e5f",
@@ -27952,7 +27984,8 @@
    "2bb9a1468f20",
    "d26d911ec9bc"
   ],
-  "imageHash": "50abdf54e94dc284"
+  "imageHash": "50abdf54e94dc284",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "294d20b7e826",
@@ -27988,7 +28021,8 @@
   "imageTried": true,
   "imageFrom": "https://www.cdjournal.com/main/news/yanagiya-mutsumithe-rat-bones/130657",
   "article": "https://www.cdjournal.com/main/news/yanagiya-mutsumithe-rat-bones/130657",
-  "imageHash": "51f167bfbdc1866d"
+  "imageHash": "51f167bfbdc1866d",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "d26d911ec9bc",
@@ -28034,7 +28068,8 @@
    "ead365b7fdf6",
    "511e4e0cbb89",
    "80f2f6993bd3"
-  ]
+  ],
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "e5192d219156",
@@ -28070,7 +28105,8 @@
   "article": "https://www.jiji.com/jc/article?k=000000184.000122420&g=prt",
   "imageFrom": "https://news.livedoor.com/pr_topics/detail/32669411/",
   "regionTried": true,
-  "imageHash": "2c4ea74d1e0aa08c"
+  "imageHash": "2c4ea74d1e0aa08c",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "ed2a57168137",
@@ -28125,7 +28161,8 @@
   "imageTried": true,
   "article": "https://news.ameba.jp/entry/20261026-1153612/",
   "imageFrom": "https://news.ameba.jp/entry/20261026-1153612/",
-  "imageHash": "a3dca2571e11c40a"
+  "imageHash": "a3dca2571e11c40a",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "f079488f4609",
@@ -28164,7 +28201,8 @@
   "notDupWith": [
    "fdf00e2539ef"
   ],
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "ba7811c32948",
@@ -28199,7 +28237,8 @@
   "enriched": true,
   "imageTried": true,
   "article": null,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "3e26f7425fa5",
@@ -28235,7 +28274,8 @@
   "imageTried": true,
   "article": null,
   "regionTried": true,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "8e7b5a254dcc",
@@ -34794,7 +34834,7 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.guru3d.com/story/amd-rdna-5-radeon-graphics-cards-unlikely-before-computex-2027-leaker-claims/",
   "imageFrom": "https://www.club386.com/no-chance-next-gen-amd-radeon-gpu-before-june-2027/",
-  "imageHash": null
+  "imageHash": "1d39f6b8378727e1"
  },
  {
   "id": "6d62a770c927",
@@ -37725,7 +37765,7 @@
    "festival"
   ],
   "summary_th": "งานเทศกาลอาหารระดับนานาชาติที่รวมเชฟชื่อดังโลกและเชฟไทย จัดที่อนันตรา สยาม กรุงเทพฯ",
-  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
+  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
   "official": null,
   "sources": [
    {
@@ -37758,7 +37798,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/"
+  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675"
  },
  {
   "id": "4004aca86270",
@@ -38114,7 +38154,7 @@
    "fanmeet"
   ],
   "summary_th": "อีเวนต์ฉลองครบ 10 ปีของ Pripara ภาคผู้ชาย มีเพลงใหม่จาก WITH เปิดตัว",
-  "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/06/28/20260628dog00m200007000a/001.jpg",
+  "image": "https://image.news.livedoor.com/newsimage/stf/c/e/cefe7_1516_cf5bc697_de5ee761.png",
   "official": null,
   "sources": [
    {
@@ -38135,7 +38175,7 @@
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "article": "https://natalie.mu/comic/news/693078",
-  "imageFrom": "https://mantan-web.jp/article/20260628dog00m200007000a.html",
+  "imageFrom": "https://news.livedoor.com/article/detail/32562766/",
   "about_th": "งานนี้เป็นการเฉลิมฉลองครบรอบ 10 ปีของ 'ดานปุริ' (男プリ) จากอนิเมะ PriPara จัดขึ้นเพื่อแฟนคลับที่ชื่นชอบตัวละครชาย จะมีการเผยเพลงใหม่ของกลุ่ม WITH ผ่านภาพยนตร์พิเศษ และกิจกรรมอื่นๆ ที่เกี่ยวข้องกับซีรีส์",
   "highlights_th": [
    "เผยเพลงใหม่ของ WITH ผ่านภาพยนตร์พิเศษ",
@@ -40165,7 +40205,7 @@
    "local"
   ],
   "summary_th": "งานประจำปีนมัสการองค์พระปฐมเจดีย์ ชวนไหว้พระคู่บ้านคู่เมืองและเที่ยวงานประเพณี",
-  "image": "https://s359.kapook.com/r/1200/630/pagebuilder/25bea592-3c58-4186-a54f-00075a9e0153.jpg",
+  "image": "https://s.isanook.com/tr/0/ud/290/1454290/watriking.jpg?ip/crop/w1200h700/q80/jpg",
   "official": null,
   "sources": [
    {
@@ -40188,7 +40228,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.sanook.com/travel/1454290/",
-  "imageFrom": "https://travel.kapook.com/view304179.html",
+  "imageFrom": "https://www.sanook.com/travel/1454290/",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -40428,7 +40468,7 @@
    "drink"
   ],
   "summary_th": "เทศกาลอาหารระดับนานาชาติที่โรงแรมอนันตรา สยาม รวมเชฟและร้านอาหารชื่อดัง",
-  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
+  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
   "official": null,
   "sources": [
    {
@@ -40444,7 +40484,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/",
+  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -41226,7 +41266,8 @@
   "imageTried": true,
   "article": "https://www.newsweek.com/prince-william-vibing-prince-harry-concert-viral-tiktok-1779135",
   "imageFrom": "https://www.express.co.uk/life-style/life/1737469/prince-william-dancing-concert-for-diana-kate-middleton-break-up-exclusive",
-  "imageHash": "2ce664c35942615b"
+  "imageHash": "2ce664c35942615b",
+  "dateTried": true
  },
  {
   "id": "973d9469274c",
@@ -41261,7 +41302,8 @@
   "imageTried": true,
   "article": "https://markets.businessinsider.com/news/stocks/hong-kong-tourism-board-presents-hong-kong-wine-dine-festival-and-hong-kong-gourmet-month-under-the-theme-taste-the-world-s-best-1036659965",
   "imageFrom": "https://markets.businessinsider.com/news/stocks/hong-kong-tourism-board-presents-hong-kong-wine-dine-festival-and-hong-kong-gourmet-month-under-the-theme-taste-the-world-s-best-1036659965",
-  "imageHash": "2bb7201dd615ea61"
+  "imageHash": "2bb7201dd615ea61",
+  "dateTried": true
  },
  {
   "id": "78d18efd9845",
@@ -41296,7 +41338,8 @@
   "imageTried": true,
   "article": "https://www.timeout.com/bangkok/th/news/red-cross-fair-101226",
   "imageFrom": "https://www.timeout.com/bangkok/th/news/red-cross-fair-101226",
-  "imageHash": "b8f9cf1b222729f4"
+  "imageHash": "b8f9cf1b222729f4",
+  "dateTried": true
  },
  {
   "id": "4ed8d09632a7",
@@ -41331,7 +41374,8 @@
   "article": "https://www.khaosod.co.th/pr-news/news_10438629",
   "imageFrom": "https://www.bangkokbiznews.com/corporate-moves/lifestyle/art-living/1213312",
   "imageHash": "998aee1a6aafc6a6",
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "3806f5f8e223",
@@ -41366,7 +41410,8 @@
   "imageTried": true,
   "article": "https://www.thaipr.net/general/3767849",
   "imageFrom": "https://www.thaipr.net/general/3767849",
-  "imageHash": "c64bcf46c2c39d5e"
+  "imageHash": "c64bcf46c2c39d5e",
+  "dateTried": true
  },
  {
   "id": "c584c6deed43",
@@ -41398,7 +41443,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "568a00f87a7b3852"
+  "imageHash": "568a00f87a7b3852",
+  "dateTried": true
  },
  {
   "id": "4fc37ecc5c20",
@@ -41433,7 +41479,8 @@
   "imageTried": true,
   "article": "https://www.newswit.com/th/ienqxrnklw04dbkyvkd9lczpv8rjs07a",
   "imageFrom": "https://www.newswit.com/th/ienqxrnklw04dbkyvkd9lczpv8rjs07a",
-  "imageHash": "95295b238985f37b"
+  "imageHash": "95295b238985f37b",
+  "dateTried": true
  },
  {
   "id": "5dc232ad9afb",
@@ -41468,7 +41515,8 @@
   "article": "https://www.bangkokpost.com/life/social-and-lifestyle/3343625/pages-of-inspiration",
   "imageFrom": "https://www.bangkokpost.com/life/social-and-lifestyle/3343625/pages-of-inspiration",
   "regionTried": true,
-  "imageHash": "e4b50b2bbc3fcba7"
+  "imageHash": "e4b50b2bbc3fcba7",
+  "dateTried": true
  },
  {
   "id": "ba7070b9c8ac",
@@ -41504,7 +41552,8 @@
   "article": "https://www.seub.or.th/bloging/event/2026-247/",
   "imageFrom": "https://www.seub.or.th/bloging/event/2026-247/",
   "regionTried": true,
-  "imageHash": "4c180551a2402d33"
+  "imageHash": "4c180551a2402d33",
+  "dateTried": true
  },
  {
   "id": "4bf815cab157",
@@ -41539,7 +41588,8 @@
   "article": "https://www.msn.com/th-th/news/other/%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%AA%E0%B8%94-%E0%B8%97%E0%B8%B5%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%9E%E0%B8%9A-%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%8A%E0%B8%B2-%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AA%E0%B8%94%E0%B8%9F%E0%B8%A3%E0%B8%B5-%E0%B8%9F%E0%B8%B8%E0%B8%95%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%81%E0%B8%8A%E0%B8%A1%E0%B8%9B%E0%B9%8C%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2-u17/ar-AA2dLvjR",
   "imageFrom": "https://www.bangkokbiznews.com/news/sport/1255537",
   "imageHash": "a1103ccdf8b2cfcc",
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "cff2da645944",
@@ -41575,7 +41625,8 @@
   "regionTried": true,
   "imageTriedAt": "2026-10-27",
   "imageFrom": "https://praew.com/lifestyle/news/558615.html",
-  "imageHash": "5a169964593ab0cf"
+  "imageHash": "5a169964593ab0cf",
+  "dateTried": true
  },
  {
   "id": "b97a7364de87",
@@ -41610,7 +41661,8 @@
   "imageTried": true,
   "article": null,
   "regionTried": true,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "4eb6a904f854",
@@ -41644,7 +41696,8 @@
   "imageTried": true,
   "article": "https://www.banmuang.co.th/news/auto/493573",
   "imageFrom": "https://www.banmuang.co.th/news/auto/493573",
-  "imageHash": "d31b01af54d52e54"
+  "imageHash": "d31b01af54d52e54",
+  "dateTried": true
  },
  {
   "id": "2a048c23a790",
@@ -41679,7 +41732,8 @@
   "imageTried": true,
   "article": "https://www.thaipr.net/exhibition/3412311",
   "imageFrom": "https://www.dailynews.co.th/news/6180377/",
-  "imageHash": "21d078ae7343f8d8"
+  "imageHash": "21d078ae7343f8d8",
+  "dateTried": true
  },
  {
   "id": "11a48ec72c1b",
@@ -41716,7 +41770,8 @@
   "article": "https://www.dailynews.co.th/news/6292760/",
   "imageFrom": "https://www.dailynews.co.th/news/6292760/",
   "regionTried": true,
-  "imageHash": "c25005624864cf9f"
+  "imageHash": "c25005624864cf9f",
+  "dateTried": true
  },
  {
   "id": "4295827c88b9",
@@ -41733,7 +41788,7 @@
    "food"
   ],
   "summary_th": "เทศกาลอาหารระดับโลกที่โรงแรมอนันตรา สยาม กรุงเทพฯ ยังไม่ระบุวันจัดงาน",
-  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
+  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
   "official": null,
   "sources": [
    {
@@ -41756,9 +41811,10 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/",
+  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675",
   "imageHash": null,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "7413be51323e",
@@ -41791,7 +41847,8 @@
   "enriched": true,
   "imageTried": true,
   "article": null,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "f8a50f77f06a",
@@ -41825,7 +41882,8 @@
   "imageTried": true,
   "article": "https://note.com/ai_idol_zena/n/nc6ef86bd2af7?hl=en",
   "imageFrom": "https://note.com/ai_idol_zena/n/nc6ef86bd2af7?hl=en",
-  "imageHash": "1f422560a691b47e"
+  "imageHash": "1f422560a691b47e",
+  "dateTried": true
  },
  {
   "id": "feaa27f00bcf",
@@ -41860,7 +41918,8 @@
   "imageTried": true,
   "article": "https://www.khaosod.co.th/entertainment/news_10425519",
   "imageFrom": "https://www.khaosod.co.th/entertainment/news_10425519",
-  "imageHash": "9b98aea24715f9d7"
+  "imageHash": "9b98aea24715f9d7",
+  "dateTried": true
  },
  {
   "id": "a9a37706387c",
@@ -41896,40 +41955,8 @@
   "article": "https://www.nationthailand.com/pr-news/40071219",
   "imageFrom": "https://www.sanook.com/news/9910114/",
   "imageHash": "d76235877f2a1901",
-  "imageTriedAt": "2026-10-27"
- },
- {
-  "id": "fa65eae911da",
-  "name": "Anime Festival Asia Bangkok",
-  "name_th": "Anime Festival Asia Bangkok",
-  "start": null,
-  "end": null,
-  "venue": "ศูนย์การประชุมแห่งชาติสิริกิติ์",
-  "city": "กรุงเทพฯ",
-  "country": "TH",
-  "region": "bkk",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "anime",
-   "cosplay"
-  ],
-  "summary_th": "งานอนิเมะ Anime Festival Asia จะกลับมาจัดในไทยอีกครั้งที่ศูนย์สิริกิติ์ ยังไม่ระบุวันที่แน่นอนในข่าว",
-  "image": "https://www.animenewsnetwork.com/thumbnails/crop600x315gK7/cms/news.9/233142/afath.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "Anime Festival Asia Returns to Thailand in May After 9 Years",
-    "link": "https://www.animenewsnetwork.com/news/2026-01-16/anime-festival-asia-returns-to-thailand-in-may-after-9-years/.233142",
-    "source": "Anime News Network",
-    "date": "2026-05-30",
-    "image": null
-   }
-  ],
-  "added": "2026-10-27",
-  "updated": "2026-10-27",
-  "enriched": true,
-  "imageHash": "e808adcdacfa129d"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "836bcafa6cd6",
@@ -41972,7 +41999,8 @@
   "article": "https://www.khaosod.co.th/sports/news_10451459",
   "imageFrom": "https://www.dailynews.co.th/news/6307180/",
   "regionTried": true,
-  "imageHash": "afe3573ed2e236fa"
+  "imageHash": "afe3573ed2e236fa",
+  "dateTried": true
  },
  {
   "id": "a67d6e7fe089",
@@ -42008,7 +42036,8 @@
   "article": "https://www.thaipost.net/public-relations-news/1091409/",
   "imageFrom": "https://www.thaipost.net/public-relations-news/1091409/",
   "regionTried": true,
-  "imageHash": "79c2ab0a5480b164"
+  "imageHash": "79c2ab0a5480b164",
+  "dateTried": true
  },
  {
   "id": "d5a51ce56e23",
@@ -42045,7 +42074,8 @@
   "article": "https://www.naewna.com/n/women/134879/",
   "imageFrom": "https://siamrath.co.th/technology/331379",
   "regionTried": true,
-  "imageHash": "abe9e7d608ced3eb"
+  "imageHash": "abe9e7d608ced3eb",
+  "dateTried": true
  },
  {
   "id": "98c8e66368d0",
@@ -42080,7 +42110,8 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.ryt9.com/s/prg/12852383",
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "af0728904734",
@@ -42116,7 +42147,8 @@
   "imageTried": true,
   "article": "https://www.thairath.co.th/news/local/2968606",
   "imageFrom": "https://www.thairath.co.th/news/local/2968606",
-  "imageHash": "c625eda2e6f20e96"
+  "imageHash": "c625eda2e6f20e96",
+  "dateTried": true
  },
  {
   "id": "477c723069e5",
@@ -42151,7 +42183,8 @@
   "imageTried": true,
   "article": "https://www.manilatimes.net/2026/10/14/tmt-newswire/pr-newswire/telecoms-world-asia-2026-returns-to-bangkok-as-asias-telco-industry-confronts-its-next-defining-challenge/2445731",
   "imageFrom": "https://www.communicationstoday.co.in/telecoms-world-asia-2026-to-focus-on-turning-network-scale-into-profit/",
-  "imageHash": "d8d5cbd0ef797bf5"
+  "imageHash": "d8d5cbd0ef797bf5",
+  "dateTried": true
  },
  {
   "id": "72096a376a3a",
@@ -42186,7 +42219,8 @@
   "imageTried": true,
   "article": null,
   "regionTried": true,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "5f94b69b3014",
@@ -42223,7 +42257,8 @@
   "article": "https://ev.iphonemod.net/gwm-tank-off-road-academy-4-tank-her-power/",
   "imageFrom": "https://ev.iphonemod.net/gwm-tank-off-road-academy-4-tank-her-power/",
   "regionTried": true,
-  "imageHash": "87384cae1773286b"
+  "imageHash": "87384cae1773286b",
+  "dateTried": true
  },
  {
   "id": "5f5d91bf74bd",
@@ -42260,7 +42295,8 @@
   "article": "https://vietnamnews.vn/sports/1726928/revved-up-for-record-breaking-vietnam-offroad-cup.html",
   "imageFrom": "https://vov.vn/o-to-xe-may/giai-dua-xe-dia-hinh-pvoil-voc-2026-duoc-thang-hang-len-cap-quoc-gia-post1341197.vov",
   "regionTried": true,
-  "imageHash": "5dcd24c0ea55c6b2"
+  "imageHash": "5dcd24c0ea55c6b2",
+  "dateTried": true
  },
  {
   "id": "3619329c102a",
@@ -43167,7 +43203,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตกลางแจ้ง 2 วันของยุซุที่สนามนิสสัน ควบคู่กับการปล่อยอัลบั้มออลไทม์เบสต์",
-  "image": "https://cdn.mainichi.jp/vol1/2026/10/26/20261026orc00m200060000p/0c10.jpg?1",
+  "image": "https://e.usen.com/image/db8b08c30ae0b4a5ff6db22dd0767c83c52a59b4.jpg",
   "official": null,
   "sources": [
    {
@@ -43183,7 +43219,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageFrom": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
+  "imageFrom": "https://e.usen.com/news/news-release/30-2027-10-2027-5-22-2days.html",
   "imageHash": null,
   "imageTriedAt": "2026-10-27"
  },
@@ -43313,7 +43349,7 @@
    "concert"
   ],
   "summary_th": "ยุซุกลับมาจัดคอนเสิร์ตที่สนามนิสสัน สเตเดียม 2 วันหลังผ่านไป 22 ปี",
-  "image": "http://www.bing.com/th?id=ONUT.8TbyF3gMJbju16b1YtjVFA&pid=News",
+  "image": "https://e.usen.com/image/db8b08c30ae0b4a5ff6db22dd0767c83c52a59b4.jpg",
   "official": null,
   "sources": [
    {
@@ -43329,8 +43365,8 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageFrom": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageHash": "57f8a024427815f1",
+  "imageFrom": "https://e.usen.com/news/news-release/30-2027-10-2027-5-22-2days.html",
+  "imageHash": null,
   "imageTriedAt": "2026-10-27"
  },
  {
