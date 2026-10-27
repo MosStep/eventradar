@@ -1,23 +1,25 @@
 {
- "finishedAt": "2026-10-27T16:08:36.855Z",
+ "finishedAt": "2026-10-27T17:40:14.883Z",
  "runner": "local",
- "total": 658,
- "upcoming": 610,
- "added": 17,
- "pending": 4932,
- "withDate": 60,
+ "total": 743,
+ "upcoming": 690,
+ "added": 10,
+ "pending": 4472,
+ "withDate": 64,
  "withImage": 86,
  "withPrice": 12,
  "ai": {
-  "calls": 160,
-  "failed": 49,
+  "calls": 633,
+  "failed": 599,
   "quota": [
+   "txc_a9b5",
    "txc_9fec",
-   "txc_bd70",
-   "txc_a9b5"
+   "txc_bd70"
   ],
   "billing": false,
   "keys": 4
  },
- "problems": []
+ "problems": [
+  "เรียก AI ล้มเหลว 599/633 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+ ]
 }
