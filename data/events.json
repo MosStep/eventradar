@@ -149,7 +149,8 @@
   "city": "Bangkok",
   "country": "TH",
   "tags": [
-   "expo"
+   "expo",
+   "book"
   ],
   "summary_th": "งานหนังสือ 2569 จัดที่ศูนย์สิริกิติ์ วันที่ 23 ต.ค. - 1 พ.ย. 2569 เปิดทุกวัน 10.00-21.00 น.",
   "image": "http://www.bing.com/th?id=ONUT.VA7JEO3m1ziNFUcMTfFeEg&pid=News",
@@ -161,13 +162,21 @@
     "source": "ไทยรัฐ on MSN",
     "date": "2026-10-22",
     "image": "http://www.bing.com/th?id=ONUT.VA7JEO3m1ziNFUcMTfFeEg&pid=News"
+   },
+   {
+    "title": "สายอ่านเตรียมเปย์! งานหนังสือ 2569 กลับมาแล้ว 23 ต.ค. นี้",
+    "link": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxQVFVSZklnZlp5aHdSTWFORmZNd1ltdEJwY1FMTzdLOEg1OFA5bDZlSXNROURYd1NfWTc4cWdCNDZpS3F0T29CZHA2bzlvOWdpWEkzdUhVQ2NNY3dqYTJfRkxhdTNoMERlMUZMa3BNN3JESGM5M3NzQXJYVHNFcS1NVDdrbWxvQ19xYThpZjdmZjZFYzRDUzNBeEZxZ2lPUnJhRVIxTWhfenhtTWl0QVJZd0Z5M0oxMHlsY0U2LWpydHRyZWllek9nbkFBMkU4SVFrT3RMRWpKS3hieG5FMnhyVktBWVY0eldRXzRISzdJbkxUWllFTDVpWFhQamxvQjd5QnpyNTJGMG1uaUkzcmlURUJMWFVHTnVHU3h4M3FGNi1CXy1lREVYVC1ZTExRZzA1aEtzVkJXdEdCQktycHoteTg2MTVJdF81LTBiYzBZOFFISWs0TDJJUzVGNjhVbDNIMDBWbWI1NWxaYy15Vm50YXNkTE1VMTB0U0dLSzF3aW9wZVpYRU16YjR3d0Z1M2V2YmZ1VmVNZDE5MkJKbkhzb2xwYUJsaHQxZ09KN05pSC1qdWM5M1h2MlBUOF9sRVFSS3NmbzlpRWVaeW0wT3pEQW1ydHBoNEJqdzRMOVpiRl9tcGJSUTc4RXNuYzNhQ0c0VHRhMHF0WXJxWklJSUVlWEUyZFZrNGg2NGxsMk1GUlAzS3NKUkFScGVPYUJTLVdSVG05MTZ6SlN2clFuc2RQZjhNczNHT2tGWFdad1pobUVEU0Q1Z0Nld1dCcXRDRDJmZE5OQWFwRQ?oc=5",
+    "source": "ททบ. 5",
+    "date": "2026-10-16",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "region": "bkk",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "6e1ec27bd604",
@@ -643,13 +652,35 @@
     "source": "bangkokbiznews",
     "date": "2026-10-23",
     "image": null
+   },
+   {
+    "title": "3 วันทะลุครึ่งล้าน! เช็กอิน ‘มหกรรมหนังสือฯ’ วันละ 1.6 แสนคน Gen Z รุมช้อปเติมกองดอง",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44SHIyMXNjX2c5dERkUWhvZU5IRHpTVy1veUZXRElyVk90ZXRNcy1uVlJicVk0ZXl3d0VTb1dWTHJReWlwcFFrVjNxZWp2MkdIbjkwOEpzNDhXSktaRlBPUUN6SDVyb00?oc=5",
+    "source": "Matichon Online",
+    "date": "2026-10-27",
+    "image": null
+   },
+   {
+    "title": "สศร.จับมือ PUBAT เปิดนิทรรศการโชว์ผลงานวรรณกรรมร่วมสมัย ในมหกรรมหนังสือระดับชาติ ครั้งที่ 31",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrMERJVDA0cXV5MWkwcHI0bnZ0djFaeUtYaWV1OEd3THduN19LeEZ2YWNXQ1BsbEFNWTIwSlphNWw2aVVRcWtoUmhPQnQ1d3ZuT0hyRngtNUlzRGhXUmZsaDBESXkwX3J6VFk3dUdB?oc=5",
+    "source": "Head Topics",
+    "date": "2026-10-23",
+    "image": null
+   },
+   {
+    "title": "🎀“โบว์” กัญญารัตน์ เผยการอ่านช่วยลดความกดดันจากเกมการแข่งขันได้ พร้อมเชิญชวนเยาวชนที่รักการอ่านร่วมงาน“มหกรรมหนังสือระดับชาติครั้งที่ 31” 🎀“โบว์” กัญญารัตน์ ขุนเมือง มิดเดิลบล็อก ทีมชาติไทยวัย 24 ปี เผยหนังสือที่ตนชื่นชอบ คือหนังสือฮีลใจและหนังสือแนวทางใช้ชีวิต ช่วยจัดระ",
+    "link": "https://news.google.com/rss/articles/CBMipghBVV95cUxQb1g4MTgxYXFOcTJfcFBheHQxMVljMWpGbEg0cE4zMDExWDYxSFFCdTRBYTlCdGhPbzM2ODRIaktpMmQ0Q0E4Nll1bWh3X09LbnJrSWxRRS1sdmp1VDQtNW5LdklOWnRjZlFxM1Z1bkl6VXBHcHpwQ0pJYjVURFA1VUsxNEg4VUlSLXZVMUJUWmNiRUNmd0lzRzYzdUdKQlZjcEFZUDhSOFQtVUR5SG9od3Y2TERSaWYwX0VwczdPTHVwVUxoRURhNXQtMHBUNnFwbzMxVDdGR0w2TVBjbkpaOTNZSHdiajdWbFpYeDhaV2lDRjlHdGNXRk5ocS1lRGZqZG5XNWFHTTZ3LW5JTkFHeUg0alRuaUw3b05keDNRWjVMandqSTRtNm9zdDR0RmpxWGx1azBSUFozcDV0cldKbmktYWRvbWk4ekhmQkhnOVdYWWRvVWtTb2ZxWEhGRHhzRXpibXpYOHlhelBIdHFGX3JpMEtKeFNOQlE2RUZzLTBEdDNTUEplSFZndEk3eklBdmgyZGM4YTNzM0VQQVZDd2Z3Z2M0TWdnS0tydXZwTWJ0R0pQZTV3RFlpY1pnUlpFdzlhVEVHOFk4OHY5ei1keG9xaHRUbnZ5TUM5c24tNFh4MWdkUndlMWtEaklpeWg1WmNha0J3QV9JdU5sX2JtMElrb25oakF1dmVQTnBEU3RsMGo1S24zdEwzbTEzc3ctZzNhVzQ1NjM2Mm5iNXQtaEF4SGdyOThnTVkyOUZlckJpTzhCZFNqUmVndVBpUkw3X29CVHp3M2JWdi1JTlFndHdoRkg5VmdfTVFiV1dCd1lJUWFPLXZPN3ZoOHZZd2w0WGdYak9xekdaQ180b3VQMUdLMm5QUERDVjlSOEp0Yk9xeUJneGhBV01ZOUc4OGk0YjAtenY5NjFKYjVsaUVUeHdYYWFlWkFMSy14LUUwRmF2YkxzOVM0R051R2I5TDRqWmJPRWplRlhMNllXaklacmdOcTlROUVock1MdWJtN1BXcURMMkNvWVBRUThia3g0ZkxLbEx4Z2MyTlJTdm5rVm1pemxra3VRcGxMbFp1eUZFMW12bzhwM2JBS1hlVldwQUpsaFl1NkJha21zckxkcHFwYklHSEV2MUF1ci1ZWUtKYkRnZ2tEOHJSZTVmV3FWQTRBYXBxM2p2UVFwR056d0UzVFVFUVlIakxlNHFqek1iZlY5dXltMnB6ZlpKVlpPcGY4aDJ5cllWbUlVVUl6U01aMHFCeTRmWjNSUFVkc1lCSGNqOHd4YW9NOV9VLVkzYS1LSGd2TUlsZGNRX1REOFR5dTFZa0FGLURGMWxzSWxESWN3ckhZZWtvaFFMX1RfWnpiMV9NeXFfUG1MOVBYbzZ2a1pkLVBMQk85TjVyMDlkSEdnTEE?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-07",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "region": "bkk",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "6cc2bf0d3d28",
@@ -662,7 +693,8 @@
   "country": "TH",
   "tags": [
    "expo",
-   "market"
+   "market",
+   "home"
   ],
   "summary_th": "งานบ้านและสวนแฟร์ 2026 มีโปรโมชันโซลาร์รูฟท็อปจาก GULF1 ช่วงวันที่ 23 ต.ค. ถึง 1 พ.ย. 2569",
   "image": "http://www.bing.com/th?id=ONUT.WCTUZL3hx-dNYPejCh1fZw&pid=News",
@@ -716,14 +748,64 @@
     "source": "Head Topics",
     "date": "2026-10-24",
     "image": null
+   },
+   {
+    "title": "GULF1 ยกทัพโซลาร์บ้านบุกบ้านและสวนแฟร์ 2026 จัดเต็มโซลูชันพลังงาน ...",
+    "link": "https://www.msn.com/th-th/money/news/gulf1-%E0%B8%A2%E0%B8%81%E0%B8%97%E0%B8%B1%E0%B8%9E%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%81%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B9%81%E0%B8%9F%E0%B8%A3%E0%B9%8C-2026-%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A1%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B9%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9-5-%E0%B8%95%E0%B9%88%E0%B8%AD/ar-AA2g1aah",
+    "source": "มติชน on MSN",
+    "date": "2026-10-24",
+    "image": "http://www.bing.com/th?id=ONUT.WCTUZL3hx-dNYPejCh1fZw&pid=News"
+   },
+   {
+    "title": "ตอบทุกโจทย์ ตรงทุกใจ คนอยากติดโซลาร์บ้าน กับ ‘วันอาทิตย์ by GULF1’",
+    "link": "https://spacebar.th/business/now-available-wan-athit-by-gulf1-all-in-one-residential-solar-solution",
+    "source": "spacebar",
+    "date": "2026-10-24",
+    "image": null
+   },
+   {
+    "title": "เริ่มแล้ว! ‘วันอาทิตย์ by GULF1’ ยกโซลูชันโซลาร์บ้านครบวงจร",
+    "link": "https://www.banmuang.co.th/news/economy/495442",
+    "source": "บ้านเมือง",
+    "date": "2026-10-24",
+    "image": "http://www.bing.com/th?id=ONUT.zJJse_MOfqJ3iT2iMILY2A&pid=News"
+   },
+   {
+    "title": "“วันอาทิตย์ by GULF1” ขนโซลาร์บุกงาน “บ้านและสวนแฟร์ 2026” จัดโปรคุ้ม 5 ต่อ",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MWE9HN3hGTldKZk54cVhMbUNVakhVVUpiSVA1aHk2Y2NrWUJPbUNlZlExV0J0VEFGYkRqVzFjbS1MbU05ZmNFUQ?oc=5",
+    "source": "ข่าวหุ้นธุรกิจออนไลน์",
+    "date": "2026-10-24",
+    "image": null
+   },
+   {
+    "title": "GULF1 ยกทัพโซลาร์บ้านบุกบ้านและสวนแฟร์ 2026 จัดเต็มโซลูชันพลังงาน พร้อมโปรโมชันพิเศษ 5 ต่อ",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnaEtlcmZ6U3dWWF9PUjBZZkpKMHl0MzRhMGxlbVFvZS1zcEh4T1ctTDRfMGlodkRWNUI3UFVPYmo5cWNiaTdHY09ER1Y4MXNJb3NQaUg5RUpOLVE?oc=5",
+    "source": "Matichon Online",
+    "date": "2026-10-24",
+    "image": null
+   },
+   {
+    "title": "‘วันอาทิตย์ by GULF1 ’ ชวนสัมผัสโซลาร์บ้านครบวงจร ชูคอนเซ็ปต์ ‘คุณเลือกได้ เราคัดมาให้แล้ว’ พร้อมขนโปรเด็ด ‘ติดโซลาร์คุ้ม 5 ต่อ’ ลุยงาน ‘บ้านและสวนแฟร์ 2026’ วันที่ 23 ต.ค. – 1 พ.ย. 2569 | ชี้ชัดทุกการลงทุน - มิติหุ้น",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YWTkwVUR4eGpIUDI3RWNoeGg5QldsdE0zSXVsRTJYZjNlRG1GeXNxdzAzcVhaN2dmQlVYQXZmd3VMemZESDR5eG85MEQ4VHdQWkZZWTBn?oc=5",
+    "source": "มิติหุ้น",
+    "date": "2026-10-21",
+    "image": null
+   },
+   {
+    "title": "DRT โชว์ไฮไลต์ในงาน ‘บ้านและสวนแฟร์ Living Festival 2026’",
+    "link": "https://www.mitihoon.com/2026/10/21/687588/",
+    "source": "มิติหุ้น",
+    "date": "2026-10-21",
+    "image": "http://www.bing.com/th?id=ONUT.-hSsmdTdMMuTzlBk6_pfhw&pid=News"
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "imageTried": true,
   "region": "central",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "4b5aee394dce",
@@ -731,11 +813,12 @@
   "name_th": "วันอาทิตย์ by GULF1 ในงานบ้านและสวนแฟร์",
   "start": "2026-10-24",
   "end": "2026-11-01",
-  "venue": null,
-  "city": null,
+  "venue": "งานบ้านและสวนแฟร์",
+  "city": "กรุงเทพฯ",
   "country": "TH",
   "tags": [
-   "expo"
+   "expo",
+   "home"
   ],
   "summary_th": "บูธโซลูชันโซลาร์เซลล์บ้านครบวงจรในงานบ้านและสวนแฟร์ พร้อมกิจกรรม Solar Fit Check ถึงวันที่ 1 พฤศจิกายน 2569",
   "image": null,
@@ -754,14 +837,22 @@
     "source": "ผู้จัดการออนไลน์",
     "date": "2026-10-26",
     "image": null
+   },
+   {
+    "title": "เริ่มแล้ว! ‘วันอาทิตย์ by GULF1’ ยกโซลูชันโซลาร์บ้านครบวงจร บุกงานบ้านและสวนแฟร์ วันนี้ - 1 พ.ย. 69",
+    "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOUXBNV0RlTjdGdDhGc2w1RU1fcGdaMUItbkFQSVVySUxjckFoMGdLNWpiMlM4Rk9BN19wT25kTHJrTXJtUms0MEFEZDBxY1ZsVkZ3elFBbUxJM1dJRThQWGxISEl0U2hPZjNUeWlDMkF0eXVjSlRVbHk2dDJER2RtZFhNTVo1UEhTQnlBNVBpQWZHczN5UWZkNFQ1UDEtMm1HSkNqRENCQVQ4dkpmVGdybUExTFpyWTRINUdVellFYUs5N2dleE9hejZaejhfenNyUWFpS3YyZlhxcERfYzlOMlNiU2NoWnVaaV9oM0VlZ0JZNjVfamtIQ084VjdPS215WVQ0dkFSanVRM3NiWUtZblN2V3ZBQmVVak10dGl0eG5JSTBhTUhtRUtWa3VldTNxSlVhazBqY3ZqRzg?oc=5",
+    "source": "Energy News Center",
+    "date": "2026-10-25",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "imageTried": true,
-  "region": null,
-  "regionTried": true
+  "region": "bkk",
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "6ccfd5aaf01a",
@@ -809,11 +900,13 @@
   "start": "2026-10-26",
   "end": "2026-10-26",
   "venue": null,
-  "city": null,
+  "city": "Wenshan",
   "country": "CN",
   "tags": [
    "festival",
-   "travel"
+   "travel",
+   "nature",
+   "local"
   ],
   "summary_th": "เทศกาลดอกบัควีทประจำปี 2026 เปิดงานอย่างเป็นทางการในพื้นที่ภูมิประเทศหินปูน",
   "image": null,
@@ -839,14 +932,29 @@
     "source": "Vietnam.vn",
     "date": "2026-10-26",
     "image": null
+   },
+   {
+    "title": "เมืองตวนกวางเตรียมเป็นเจ้าภาพจัดงานเทศกาลดอกบัควีท ปี 2026",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMmJ5OTM0bkJLM2xSRnJwMmpJbWlUUmlINmxHSUUzQnNUQ0tRY2NlemRKQThiblloZjNzRGstSVk2S0ppZkkySy1PM1VWd1h6MnRlQkxWRjhqWmlQTWZKYkg4b2pNUTFvU1JZcDhkSzBVcjBKb2RNRUs1ZmFYTnUyTm9GOFpwQQ?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-23",
+    "image": null
+   },
+   {
+    "title": "เทศกาลดอกบัควีทเปิดฉากขึ้นภายใต้ธีม \"เสียงสะท้อนจากดินแดนหินผา\"",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQWxjOXdOZ1V1N25QZ2xiUXZjdEMxeDI3eDJqb3BpcklGUHJ6cVZyLS1UaC1fT2hBU1dkeGNzNm9vQUoxSDQ3UnZTazFnbWcwU1RJQ3lhWEVkN21EektPcG5SLTE4aXZPZWJTQ0x0eElieGYxMEVFeHgtcEVJT01qNmlRQnJEYkxaTHlqamFmbFM2UHpIQ0xsWjhqZmtyR2M?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-23",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "imageTried": true,
-  "region": null,
-  "regionTried": true
+  "region": "southwest",
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "297c88e6ebf0",
@@ -975,13 +1083,21 @@
     "source": "แนวหน้า",
     "date": "2026-10-26",
     "image": null
+   },
+   {
+    "title": "“Muse: Beyond Human” พาสำรวจความหมายเบื้องหลังผลงานศิลป์ผ่านแนวคิดที่หลากหลาย",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HT2l6dk85WVY0cU1USXpuckpvSmt4SDhGVTRpM2M3VHMzMFhuVjhvQ1JMYTd1N2szdjQ1WTFFUDA1SmYzdjdHSTU3V0cyNHBsRlpjdFd3OUZ4dHBf?oc=5",
+    "source": "thepeople",
+    "date": "2026-10-27",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "region": "bkk",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "a03226b1a4a5",
@@ -995,7 +1111,8 @@
   "tags": [
    "food",
    "festival",
-   "concert"
+   "concert",
+   "drink"
   ],
   "summary_th": "เทศกาลอาหาร เครื่องดื่ม และคอนเสิร์ตฟรีสไตล์เยอรมันที่วัน แบงค็อก ตั้งแต่ 28 ต.ค. ถึง 1 พ.ย. 2569",
   "image": "https://media.timeout.com/images/106460855/image.jpg",
@@ -1028,13 +1145,21 @@
     "source": "Marketeer Online",
     "date": "2026-10-22",
     "image": null
+   },
+   {
+    "title": "วัน แบงค็อก จัดใหญ่ รวมอาหาร 34 ร้าน ดึงคนร่วมงาน ONE OKTOBERFEST",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9HbUJPRDNNdG1SZWo0dUZYUEk5UVJsNE0tUElTQUEtQ0NkTWFrM0I5VUZ3QjFkcUk0NzA3T29yc3NqVmo2WVVHSkU4T2hPcVRyZGswMzByUjA4SmdUZU5hRExQMGtOcnRIeGYzTmJNMHcwZ21ianFWVk9ld3JYdw?oc=5",
+    "source": "LINE TODAY",
+    "date": "2026-10-19",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "region": "bkk",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "6a01174d67b9",
@@ -1553,13 +1678,154 @@
     "source": "Online Station",
     "date": "2026-10-22",
     "image": null
+   },
+   {
+    "title": "ดาวอังคารเรียกพลแล้ว! พบกับ FEARSFROMARS ที่งาน gamescom asia x Thailand Game Show 2026 !",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyWmVDTWJURmYzOTIteGQ4U3RhQThJeXhEZDBPRUpQd1N5bGJrZ1ZhWmVEUk56TVhFT3VBakp6N05LRHV6c3B4Nnk4TUg1Y2pQc2Z2a3BDX0RMWkNidldmMXM3dmQ?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-27",
+    "image": null
+   },
+   {
+    "title": "Lost and Found Co. ประกาศมาร่วมแจมสร้างสีสันในงาน gamescom asia x Thailand Game Show 2026 พร้อมเผยภาพโปรโมตสุดงาม!",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQTXdhSVBnR3NSQW1CMVJiSGZUMnYtdTBILTQ5Ml9YU25WaTdzT2dPdzhVYUljMGp2X1BGZmd5cE45NUViVWNKbVdTd0pCZHhVMl81TjFiNXN0TlNHMVozSEMyMm4?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-27",
+    "image": null
+   },
+   {
+    "title": "Lost and Found Co. ประกาศมาร่วมแจมสร้างสีสันในงาน gamescom asia x Thailand Game Show 2026 พร้อมเผย ...",
+    "link": "https://www.online-station.net/pc-console-game/1002503",
+    "source": "Online Station",
+    "date": "2026-10-26",
+    "image": "http://www.bing.com/th?id=ONUT.ePACd3KKBQVVRa4z0XYr3Q&pid=News"
+   },
+   {
+    "title": "RICHMAN SHOP จัดเต็มแบบขั้นสุด ที่งาน gamescom asia x Thailand Game Show 2026 ด้วยกิจกรรมมากมายภายในบูธ",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vT29EVGlQQ09YQWRWWWgyQUc5dldBN29vZEdVaEtET29LNWhmMjFWV0UzSDlIWUR2ajduMTNrNm1Hb1lPaGpJUkRIUnhFM2w5UU16UE1zM2xCU1lTblpWS2dVUVo?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-19",
+    "image": null
+   },
+   {
+    "title": "John Romero ก้าวรับรางวัล Lifetime Achievement Award จากงาน gamescom asia x Thailand Game Show",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kX21iNGxMdjVQVWJkOFBXai1vcGthTTlNaVM0ekRnZmc4UHVEZUt4QXV2ZDZDbWZ0MnRoN3VQNmtYVDNmRks3eDlkNXp2QzlaRVJHTmRZTks1YzZlOTRIMFltNlE?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-19",
+    "image": null
+   },
+   {
+    "title": "SEGA Asia และ Atlus SEA ยกประสบการณ์สุดพิเศษจาก SEGA ATLUS มาให้แฟนเกมชาวไทยได้สัมผัสกันที่งาน gamescom asia x Thailand Game Show 2026!",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ITW45dS1xelRDSkhWYW9DdjdnR012SjFkZnFya09qWXBTUzBnN1VrZ250ekxrSkRhendsV2U0cW5adTBPeldCRXVSbXJBczAzbXpJZEFRT3VLVDVfTFlnUTJwN3g?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-19",
+    "image": null
+   },
+   {
+    "title": "“Muay Thai Xtreme” เกมต่อยมวยฉบับเข้มข้นถึงเส้น เตรียมจัดทัวร์นาเมนต์ในงาน gamescom asia x TGS ปีนี้",
+    "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQQU91M2FuNTZCaTc2aTNwSFFiM09Tdm95azE1TUJ0a3FTNFhKTkVaNy1ESXhwTnY4XzJDNzdKYWdhdWRBRlhPOHNuOHBhYWlSZWIzQjFPZGk0ekhXbHVEUnlNdExaWkFWSmwyd3MyOUhOdHZyOU8yY1FSbW9qajR0c3VEOHFONFVGWmhOaWp4c1BQbUJ2LXpWUDhpYkNVVFFMVEtIME83WjczLWNueHpmSHByZ0V2UUoyVEdDWHUxcHloLXpLbWZuck1PWmtvZ0VCN1A4UDBNZ3pjZjVYRG81YmYzd3hNN0FhU180QkduMVFmZkY2WS1BdXptc1ZDTGVLLWNXdU9YX2dqQUFSWVJBbzM4ZGN6TjdaZl91Y3lObTBRUjJYYkkzaXNaRkNndzZJZG1NYXpLTQ?oc=5",
+    "source": "GamingDose",
+    "date": "2026-10-18",
+    "image": null
+   },
+   {
+    "title": "เตรียมพบกับเหล่าแขกรับเชิญพิเศษที่จะมาร่วมสร้างสีสันและความสนุกภายในงาน gamescom asia x Thailand Game Show 2026 พร้อม BEARHOUSE",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VcHdPQ0RIbzJxZTJJdkY2MWVJRXVFMllRMS1DRHp5cTNmTEFxZEEyTG9HS1FFZWZ0cl9oMk9XNWhaRnczT2djMXhhbmJ3Z25NUWtoVFhyZzBxLWZGOWhVRC1qazM?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-18",
+    "image": null
+   },
+   {
+    "title": "เหล่าแฟนๆ เตรียมตัวเตรียมใจให้พร้อม มาพบกับแขกรับเชิญสุดพิเศษแบบใกล้ชิดที่ gamescom asia x Thailand Game Show 2026!",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLX0lfaFBhMTVIV1FCdURnT1paQl9pOHlfM1ZRRUxFd0ljdW8tU0MwV0pOaTNVWF9LaHJYWHg1RkZWc25QZWdlZlhOUlBFalpGeGN0TGJ4SExjUTBPYUlFanVEWDc?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-17",
+    "image": null
+   },
+   {
+    "title": "OS ON STAGE: SPORTS BATTLE! ศึกนี้มีฮาแน่นอน! เตรียมมาชมศึกกีฬาสุดป่วนกันได้ที่ gamescom asia x Thailand Game Show 2026",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0VExCMXl5bjhzVHYwanhucXQzQmhxLXliMXdXNS1fZ214cjNobUhtYllCVTRWMmZCVjJlbEsxYVdPY18tZXhZOWd4dFExa01OdDBveUItRGdIVDQ2YkRKNWRkWkI?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-17",
+    "image": null
+   },
+   {
+    "title": "สายเกมเมอร์ห้ามพลาด! กับ \"เต่าเหยียบโลก\" ได้ที่งาน gamescom asia x Thailand Game Show 2026 ได้ที่ บูธ F5 !",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtcDNmWURtTTJ1MXAzLTlPQ3p1QUJJazViXy1fUTlUUm1aY1FKek1ZYTJnSnlQOEdsME1FaHdnT3dqa05jbjZuUUZSNW5wUERTYXh5OHdFRHI1VzAtWVoxTkVn?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-17",
+    "image": null
+   },
+   {
+    "title": "ประกาศรายชื่อ 8 เซียนที่จะปะทะกันในศึก Zone Zean Game x MARVEL TŌKON: FIGHTING SOULS ในงาน gamescom asia x Thailand Game Show 2026",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5fMXRBOFZubzNFUmdiMXRTN1dhdHAxRmRZd1BVQVFnenUySzAzZVhpLXVyNTB0LVJkWlNjV2tsVTg5OWRmLVFOU05QUTY0RDZhV2F6OW1NbVFldExNNEtRUHhTU2M?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-16",
+    "image": null
+   },
+   {
+    "title": "ZONE ZEAN GAME 2026 ปิดรับสมัครแล้ว! เตรียมมาระเบิดความเดือดกันที่สนามจริงในงาน gamescom asia x Thailand Game Show",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5GZ1lldFhubWI4X3RhMkRISjNwOFdaTVl4WlVpYkxMVFVJMmRxNG5IdnRtX0VYeW53cjFUdTQxNjgtdkR2N0s1RVZHS0VvYUpsNm5Md1Q2QkZQRGs3WXlhWVZENkY?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-15",
+    "image": null
+   },
+   {
+    "title": "Capcom เผยแขกรับเชิญและแคมเปญพิเศษในงาน gamescom asia x TGS2026",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CUmVxTmhLWkJQYVh1cUcxRDlnRmdJN2x6UzRNMEhUdGE1UzhXSGJDMG50OGtHMzlQQmNndWRwLUJLWDlwczZxeWZpWC10M0VqbzQzVkdZRVV5MDg?oc=5",
+    "source": "ผู้จัดการออนไลน์",
+    "date": "2026-10-14",
+    "image": null
+   },
+   {
+    "title": "อร่อยพร้อมเสิร์ฟกับนิสชินที่บูธ H3 ! ในงาน gamescom asia x Thailand Game Show 2026",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GV0ExcVU1RjJjd2EyQ3JZTGt5Ymt6OV9nc2VOYnpLTXdobDZwUmxuTmRqNmhsNWNlZmxCRGs0bFZ3ZlBUQ3R2cXhXS3lDNWU3UmhlN1N2T2hoQ2pmX25DSW5R?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-14",
+    "image": null
+   },
+   {
+    "title": "Capcom ชวนมาส่อง! กำหนดการบนเวที Main Stage และแขกรับเชิญสุดพิเศษจากทีมผู้พัฒนาที่จะมาพบปะเหล่าแฟน ๆ ในงาน gamescom Asia x Thailand Game Show 2026!",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9HeU5FUWZCUEFNeWlLd01BenV1Y2xJRi1VU2FtcnJKOVJFX2p3VnpHeU5YT3JoSVFacmtjaFlDUXl2eGFvRmw5bFB4ZmxmYUVZRWE1R21ycjlGemlMby1sekpTdno?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-14",
+    "image": null
+   },
+   {
+    "title": "Bandai Namco Entertainment Asia, BANDAI CARD GAMES และ The Gundam Base Thailand ยกทัพเข้าร่วมงาน gamescom asia x Thailand Game Show 2026",
+    "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNYlZ4d0tQLTF4amRkc2dWUHAxMUVxOXZaZjFHZk5FZ2F5VEdQYzQ0eEtpaWs3dkQ2MjdlSjZQdXlTVGpudWxCYnRtbF9aYTN2Wk5KUEs0QjNsUnBrM0pEdXZQT2VLd2puenJGc1ZCdXJYOF9IS21GX29oTExqOGE5N2ZGNUFQQjJ4QW1oMTdkaHB2QlByZEsxUk5Cb1Utc1dJYVowUWU5d3A3WnAzM1NzYWRzeWtaU3YwUnhSWWRxRm80cWJCaFRPSTY3NGlzdzFTVnN1VGRuYmMxQlBZTkN4Q0ZCeVpmSzhIRU1zV3JtNDY4S3BvT3pFSGNvTFQ0dVNqZ3h4emdFbGxfM2RXYjJ0bXMwcUg5azY5X1UyRDVB?oc=5",
+    "source": "Thisisgame Thailand",
+    "date": "2026-10-12",
+    "image": null
+   },
+   {
+    "title": "\"Bandai Namco\" ยกทัพ 8 เกมบุกงาน GCAxTGS2026 พร้อมพบ 2 ผู้สร้างเกมดัง",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2R1hIZG1FWWhodnNXVmpucmxyYU42RFZkVmZmdnRFWUtoWFlYMXE5UzctajU0c3BBUlBZSlEyVUZLYUxCTzh0d0dLN1B5VTB4VlVjV1A2Zkp6azg?oc=5",
+    "source": "ผู้จัดการออนไลน์",
+    "date": "2026-10-12",
+    "image": null
+   },
+   {
+    "title": "\"Naoki Hamaguchi\" ผู้กำกับ FF7 REVELATION และ \"Kazutoki Kono\" ผู้กำกับซีรีส์ ACE COMBAT เตรียมมาพบแฟน ๆ ในงาน gamescom asia x Thailand Game Show 2026",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zdnFSNk5GdldMZnhkZWljajJQNWRsV0Q4TVA1NjBEZXJyTDVwaDRGbmtVWllPUVh3M3hSTWZHNVdHWDVZcVZJd1hrMVFvRktEdjgzUkRNOUFZOVVhaUYwZVJKVGE?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-12",
+    "image": null
+   },
+   {
+    "title": "ผู้กำกับ FF7 Revelation และ Ace Combat 8 จะมาพบปะแฟน ๆ ในงาน gamescom Asia x TGS ปีนี้",
+    "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxONU9CdTlRNldpejN5ZVYzT2Y5R3FfNC1WU2RYdmlkcmFjdzBKSUNDazJILTBTZ0lJWEppUmh3eXp3RjZxQ3lXUUt6NjRkX0lYdmQyNXlfbnR0czc3bWcwYTI1R1ZzMzZ6OEZTTzhNNExCT2tWUUpubnhZcGZLUUl3YWJxNmxPRUF2b0ZIcWpkQUJwcU1LSUVlYWR3WFlXMy0ySGwyUXFNZ28wa1h6UC1jeW5Jem51RE5iTll0aTl6d202c1JwUjFWMHJoYVpscmlTQWVJbE9LVElycXk2azBhSk1vaHdTTEx1dlJ3S3Z4VjlzZDZmYTBNcVlrSVB6YWZFTHRwcWxBQTRZM0t1aFltdzdwbUFBaURsblgwSDZqT0NaOV9SUzVqUDRjZUY1QVgzUjBIWU9hcURNckp2N19fR2FnZE9LQkc0?oc=5",
+    "source": "GamingDose",
+    "date": "2026-10-11",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "region": "bkk",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "29285fa5dd56",
@@ -1571,7 +1837,8 @@
   "city": "นนทบุรี",
   "country": "TH",
   "tags": [
-   "expo"
+   "expo",
+   "market"
   ],
   "summary_th": "งานจับคู่ทางการค้าสินค้า OTOP ของกรมการพัฒนาชุมชน ที่เซ็นทรัล เวสต์เกต ระหว่าง 29 ต.ค. ถึง 2 พ.ย. 2569",
   "image": "http://www.bing.com/th?id=ONUT.WXmtnjV0wOMGAHyZ3rjzTQ&pid=News",
@@ -1583,14 +1850,22 @@
     "source": "Matichon Online",
     "date": "2026-10-27",
     "image": null
+   },
+   {
+    "title": "กรมการพัฒนาชุมชน จัดงาน \"OTOP Trader Connect\" รวบรวมสินค้า OTOP จากผู้ประกอบการชุมชนกว่า 40 บูธ",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JRzljbG9HRmZuZ0VublFPOWVLRjYxNnlwTktmbFBVMFdxcG1zc3U3YmNWWV9RMi1XV3hFOFNST3BHWjI2aWpzX3dHMjZrSlM4aTBBU2lJRUJfQ2pzcVZwbF8tU2dxbVB1UGppS1hR?oc=5",
+    "source": "Head Topics",
+    "date": "2026-10-27",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "imageTried": true,
   "region": "central",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "11c8a00f77ca",
@@ -2476,7 +2751,8 @@
   "country": "TH",
   "tags": [
    "festival",
-   "travel"
+   "travel",
+   "lights"
   ],
   "summary_th": "เทศกาลไฟแสงสีเสียงริมแม่น้ำเจ้าพระยา มีพลุและการแสดงอลังการ ตั้งแต่ 13 พฤศจิกายนถึง 13 ธันวาคม",
   "image": "http://www.bing.com/th?id=ONUT.X53y0WKr4iOtHQvzmUA1BA&pid=News",
@@ -2488,14 +2764,22 @@
     "source": "Thansettakij",
     "date": "2026-10-22",
     "image": null
+   },
+   {
+    "title": "วิจิตรเจ้าพระยา 2569 ททท.จัดเต็ม พลุอลังการ เทศกาลไฟ แสงสีเสียง วันที่ 13 พ.ย.-13 ธ.ค.นี้",
+    "link": "https://www.msn.com/th-th/news/other/%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B2-2569-%E0%B8%97%E0%B8%97%E0%B8%97%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A1-%E0%B8%9E%E0%B8%A5%E0%B8%B8%E0%B8%AD%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3-%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A5%E0%B9%84%E0%B8%9F-%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87-%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-13-%E0%B8%9E%E0%B8%A2-13-%E0%B8%98%E0%B8%84%E0%B8%99%E0%B8%B5%E0%B9%89/ar-AA2fOOvz",
+    "source": "ฐานเศรษฐกิจ on MSN",
+    "date": "2026-10-22",
+    "image": "http://www.bing.com/th?id=ONUT.X53y0WKr4iOtHQvzmUA1BA&pid=News"
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "imageTried": true,
   "region": "bkk",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "9f2fcb730d35",
@@ -2666,7 +2950,10 @@
   "country": "TH",
   "tags": [
    "festival",
-   "travel"
+   "travel",
+   "local",
+   "lights",
+   "nightmarket"
   ],
   "summary_th": "งานวัดภูเขาทองจัดนาน 13 วัน 13 คืน เริ่มวันที่ 17 พฤศจิกายนนี้",
   "image": "http://www.bing.com/th?id=ONUT.7RdtUfUciFzBJndTaTKQEg&pid=News",
@@ -2678,14 +2965,36 @@
     "source": "Thansettakij",
     "date": "2026-10-23",
     "image": null
+   },
+   {
+    "title": "ชวนเที่ยว งานวัดภูเขาทอง 2569 จัด 13 วัน 13 คืน เริ่ม 17 พ.ย.",
+    "link": "https://www.msn.com/th-th/travel/outdoor-activities/%E0%B8%8A%E0%B8%A7%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7-%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%97%E0%B8%AD%E0%B8%87-2569-%E0%B8%88%E0%B8%B1%E0%B8%94-13-%E0%B8%A7%E0%B8%B1%E0%B8%99-13-%E0%B8%84%E0%B8%B7%E0%B8%99-%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1-17-%E0%B8%9E-%E0%B8%A2/ar-AA2fUos7",
+    "source": "ฐานเศรษฐกิจ on MSN",
+    "date": "2026-10-22",
+    "image": "http://www.bing.com/th?id=ONUT.c555AheYzVhOjUNFIOem4Q&pid=News"
+   },
+   {
+    "title": "งานวัดภูเขาทอง 2569 เที่ยวงานบุญใหญ่ ชมสีสันงานวัดยามค่ำคืน",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wN2NKdUd5Nm9FRFp6NndOWm5icG9rM29Nc2ZsekowWmhmV1Z4QkVDdmhja0Q5UDRwTnUxM2lHUkIzc2U1VkFKRkFTdXdkdjExSGhF?oc=5",
+    "source": "kapook.com",
+    "date": "2026-10-19",
+    "image": null
+   },
+   {
+    "title": "อัลบั้มภาพ งานวัดภูเขาทอง 2569 เที่ยวงานบุญใหญ่ ชมสีสันงานวัดยามค่ำคืน",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBaSlljWWd0Rk9aWXhaTzlHWWR6T09WeDlGS1E4SEJla21ycVhQVlZkTEFVU0V0T2t1LUdMZkh4Zmlmb3RpSktWRmhDemtobDFkQmc?oc=5",
+    "source": "kapook.com",
+    "date": "2026-10-19",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "imageTried": true,
   "region": "bkk",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "4dbd1e261ffd",
@@ -3442,13 +3751,56 @@
     "source": "motorexpo.co.th",
     "date": "2026-10-21",
     "image": null
+   },
+   {
+    "title": "Grand Opening Ceremony The 41st Thailand International Motor Expo 2024 Motor Expo 2026",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMFpUUGFYbTNNbWVfbnI3bE9MS1NXZl9rQy13ZUN0WHd2MnNPeGpnX0FNdmZvRXljVzJOU2VLaW1tS1plZVdoWm50LVFxMHdnekMyb3lDbnY2bll0S01MNnJ3WEYxdkFYTFNHVDN3bVhNU1VYSzBsUkRCbmdLaWtKNDVOd3dSSDEwUHJ3Zmk4NkdSeEhxcXBralNZVU5qeThyMFJJWjJOd0ZQU3BYbEE?oc=5",
+    "source": "motorexpo.co.th",
+    "date": "2026-10-19",
+    "image": null
+   },
+   {
+    "title": "แห่ชมงาน Motor Expo 2023 Motor Expo 2026",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdHh3WmhVaS1GeVpva2dXUFEzQ290dnhqUmFtNExSU2V3NjdOQ3dhWHFFUTdaNUUzOXJkbEF5bWxvYTRZdDJ4MTU1VTg4YUdhVjkzd29IRDk5cWRVajF5TXJfUWlOQ2JXQ2RHLTJmY2M1TmhQS0ZydDFuOGx4QWIta09JZXZFbHJWWVBsMUMwSFhpbGpaekE?oc=5",
+    "source": "motorexpo.co.th",
+    "date": "2026-10-16",
+    "image": null
+   },
+   {
+    "title": "Motor Expo 2026 ประชุมผู้สร้างสรรค์งาน",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZmNFcnN5RkV2U0xNeUt5d2VBejk2UVFIc2xvWGZDdjlhaG1adGdHMkhpSHkzZjZQTkNNYm55WkdtVmh5Ml8tT2I3WmtyeDVrZ0s3b0dFNkhOcjJMUDJjSklhSWh6eUlTVjhDMzB4Uk1FdzdVbWtHeDFUcHQtcDZjOTFKRFF6NW9wbjlFVGpyLUxzQQ?oc=5",
+    "source": "motorexpo.co.th",
+    "date": "2026-10-09",
+    "image": null
+   },
+   {
+    "title": "มหาอำนาจค่ายรถ ยกทัพจัดหนักบุก MOTOR EXPO 2026",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSHhRREtSbTNET1lnVi1rS2tKeGU2b1J6OUlYSGZ4c1RvckRXS3FJcF8yVkVoVGIzSzFReG55VEZhc1JVZ19ER0pMQ1FlRkthQ3RtVTRfREhXT1hHS2lXYnhSemp3NFZSQW5COWNrZVN6cjBXWVgzbDZxMDV3eVd6aA?oc=5",
+    "source": "Car2Day",
+    "date": "2026-10-07",
+    "image": null
+   },
+   {
+    "title": "สมาคมรถโบราณ ร่วมงานพระนครคีรี-เมืองเพชร ครั้งที่ 38 Motor Expo 2026",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSGRNeTNhVTQ5WXhSdU1CV1ZHWFV6RkVTVEZ2RHV6eFRnUWpKYnlMN2J5anBiWVRYcXYteDhGSFk1NUdKOTEzeDhldjNEY0xJTU8zOEZocEJCZ3VCMThLdk54T25PWktpUXNweXhRaDV0RkFMT1N6MXVkR09CNGEzNFllc0V3Ml9HRjJJR09ZbFRGSkEyZkFIc1hrTQ?oc=5",
+    "source": "motorexpo.co.th",
+    "date": "2026-10-06",
+    "image": null
+   },
+   {
+    "title": "Motor Expo 2026 ประกาศแจกรถ 3 คัน บิกไบค์ 1 คัน",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0cWJpakFsLUpnV25ZakthSFlvdGZKVFROZjRLZ2N3OTJiZDBSeGVsUVhIMHFaRElTTWZkWnR2MDB2WUxoV2ZTUUdPZEQ5QQ?oc=5",
+    "source": "motorexpo.co.th",
+    "date": "2026-10-05",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "region": "central",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "3640592b4b3c",
@@ -7223,14 +7575,15 @@
   "id": "a8248786993f",
   "name": "Udon Thani World Horticultural Expo 2026 (มหกรรมพืชสวนโลกอุดรธานี 2569)",
   "name_th": "มหกรรมพืชสวนโลกอุดรธานี 2569",
-  "start": null,
+  "start": "2026-11-02",
   "end": null,
   "venue": "หนองแด",
   "city": "Udon Thani",
   "country": "TH",
   "tags": [
    "expo",
-   "travel"
+   "travel",
+   "nature"
   ],
   "summary_th": "มหกรรมพืชสวนโลกที่พลิกพื้นที่หนองแดให้เป็นแลนด์มาร์กระดับโลก เป็นงานแสดงพืชพรรณและเกษตรกรรมสมัยใหม่ของภาคอีสาน",
   "image": "https://resource.nationtv.tv/uploads/images/md/2026/10/rRXeWB7pxR3Wj9hVIdeA.webp",
@@ -7249,13 +7602,21 @@
     "source": "เนชั่นทีวี",
     "date": "2026-10-26",
     "image": "http://www.bing.com/th?id=ONUT.-NSlOHz9l-ol5zbtMzr8Cw&pid=News"
+   },
+   {
+    "title": "นายกฯ ขอบคุณทุกฝ่ายช่วยน้ำท่วม สั่งเยียวยาทันทีไม่ต้องรอ น้ำลด พร้อมเปิดงานพืชสวนโลก 2 พ.ย. ที่อุดรธานี",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUM3VQSWJ1Q2ptQTBId3dMWjlWM3VsNHlzbGpmdmJHRE9sS2RVMndJRnp5Mldtbm05UlpaVzU0ZlZhT0lNZDdMdmJHOHZMQzRjZEF0MmJ1TWk0YkhoS2xVZ01PS2hpWUlFREhvVVdR?oc=5",
+    "source": "Head Topics",
+    "date": "2026-10-14",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-27",
-  "enriched": true,
+  "enriched": false,
   "region": "northeast",
-  "regionTried": true
+  "regionTried": true,
+  "online": false
  },
  {
   "id": "ff5df54adc68",
@@ -10133,5 +10494,3294 @@
   "imageTried": true,
   "region": "kanto",
   "regionTried": true
+ },
+ {
+  "id": "cbf41b78600e",
+  "name": "งานประเพณีลากพระ ตักบาตรเทโว ประจำปี 2569 จ.สงขลา",
+  "name_th": "งานประเพณีลากพระ ตักบาตรเทโว สงขลา 2569",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Songkhla",
+  "country": "TH",
+  "region": "south",
+  "online": false,
+  "tags": [
+   "local"
+  ],
+  "summary_th": "ประเพณีลากพระและตักบาตรเทโวที่จังหวัดสงขลา ส่งเสริมวัฒนธรรมและการท่องเที่ยว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "\"ผู้ว่าฯสงขลา\" ร่วม \"อบจ.\" จัดงานประเพณีลากพระ ตักบาตรเทโว ประจำปี 2569 ส่งเสริมวัฒนธรรม-ท่องเที่ยว มุ่งผลักดันสู่เมืองมรดกโลก",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vY2R4TjcwVzNwaTdmRktfSHFKTmp5dlFTR29JQjJkbUJFYlJKb2l3XzRLRGlyM0MzQVRfVWtXcXF2MVZTSVdZMnprbkhyVzg?oc=5",
+    "source": "topnews.co.th",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "59ce865956a0",
+  "name": "งานประเพณีออกพรรษา บั้งไฟพญานาคโลก ประจำปี 2569",
+  "name_th": "งานประเพณีออกพรรษา บั้งไฟพญานาคโลก 2569",
+  "start": "2026-10-26",
+  "end": null,
+  "venue": "ลานนาคาเบิกฟ้า",
+  "city": "Nong Khai",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "local",
+   "lights",
+   "festival"
+  ],
+  "summary_th": "งานประเพณีออกพรรษาและขบวนบั้งไฟพญานาคที่หนองคาย มีมายมิ้นท์ นางสาวไทย 2569 ร่วมรำนำขบวน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "🇹🇭✨ “มายมิ้นท์ จิราภรณ์” นางสาวไทย 2569 ร่วมรำนำขบวนงานประเพณีออกพรรษา บั้งไฟพญานาคโลก ประจำปี 2569 จ.หนองคาย อีกหนึ่งบทบาทอันน่าภาคภูมิใจของ “มายมิ้นท์ จิราภรณ์ ศาลาแดง” นางสาวไทย 2569 ร่วมรำนำขบวนในงานประเพณีออกพรรษา บั้งไฟพญานาคโลก ประจำปี 2",
+    "link": "https://news.google.com/rss/articles/CBMiywdBVV95cUxNSlpfY1JrWndxMFhMbWEwb1hyQUF5WWlHRlY2R09SZFJFZkEyRzM4dWhsNnhhOWJaQVhSbmk2dDdlNldoNGNOWHJrN1JpcnltV1luWEZEVmEtcFNYZEZGSE1CSVRqSWVTdmpodnZfeDEwSXM3aG9JeEFVWEdKSkNOOWg4MW5MQUtFTkl6WW82R0hwc2dyRVVkNnpuZS12YUV1bW1PMlg5azNyX3B4M2hObTZESGRKR25FVWRqR3pha2RPM2tDZlZrcjV1OWZva1FSbV9EbXdsWmg1aWhuU1lWM20zNTdDdjlzMXhyTkoxLXdaTjVmcHpWU2NRVlY5Z2NqTmJrempZN1pnYm9QV1FCMEJfU0w1VVBMNkpCSkMwTVZmVGFLdW55M1lNRmJvaWQ2cTk2MXdNT1dUcWU0WFdoNnVwWkY3djZpbjc1UlhtNXFNSmJrZjF4TkVOeXE1cGgySFBxUkNsbkxMb0owTXFLVEg3eDZTeWVaMkFxTWhhY2VhcWxsSHdCRWw2VFlXYVpLUldwU2MyalhaQ1VWWmU0aVdMbE45dHRzQXY3MnNnX19wRVhYU2QyLVNyS0RqTWdDbzV6M2NGa1ZwX0pWUENtblVHMGxJczlwZ2d2M1dRdGdEc054TTQtRmI5c3lBRjdDS2dUOXpXVTdhWjE3bXA2VmxTd3o5eGpJZXgzcUs5ZHVNdGY1Zkc3VnJTV0JVM09yWXdYT1ZHcEl5Um9mc2VKVUlBU2VGOXNyaHJWSjNWOUFLNjZBQ2Y1aTgzV3VqdlBvVFA0c3UwdTdsYnBSUUxlWUhPRTNveDJpVGtWVFFtTFBWTTJOX1hqaHVHbEljbXBiMTdEQU9RaUdnWEdaWUxibEt5Q00tSTVPcEF0SE1VTXpNbDczMkd0bXllXzlucWZnb0h5ZU9nUmpuS1o4OE1qOFBhOUpOSXdfakZvdldDcUo2RVM1dzhuRGNwci12TU93Q2FpYThWTEpzVVFiV2V6NjZOMU9YZTFrbDdfOXdHamxXNGNydGdTRW5zU0hiZTRRdzZhU01yZEE3Ml80cjI0YWFUaWpUcEhaUmJWa1E3SzRvakxnNHFnc0VTQW8wdG0yRVpUcmh2TF9MNVBXN2NyRlJLV3ItbnRoSDRKd1Q0RHhoSHVzaVU2bTg2RlNfMGdaR1dZUk1GVHNYcFVLYkQwbEFyY2VIaXRMeDNRNS1ndHg4MkZaM3EwUjZab1dBanRfLXhRVWIyMXVOc052X2FUNEw0b0dKMlNSUUQ1bGdia1ZLc0NWckF2UXp0QQ?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-27",
+    "image": null
+   },
+   {
+    "title": "งานบั้งไฟพญานาคโลก 2569 หนองคายพร้อมรับนักท่องเที่ยว เฝ้าชม ...",
+    "link": "https://www.thairath.co.th/news/local/localbusiness/2968330",
+    "source": "ไทยรัฐ",
+    "date": "2026-10-26",
+    "image": "http://www.bing.com/th?id=ONUT.HJPPAorpKsdmHMtbKaNFNw&pid=News"
+   },
+   {
+    "title": "หนองคายคึกคัก! เปิดงานเทศกาลออกพรรษา บวงสรวงพญานาค พร้อมลุ้น ...",
+    "link": "https://77kaoded.news/26/10/2026/travel/toktikbeta/75696/",
+    "source": "77kaoded",
+    "date": "2026-10-26",
+    "image": "http://www.bing.com/th?id=ONUT.GHC_5bL5Lkx20dKDZKQy4w&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "enriched": false
+ },
+ {
+  "id": "617a2b480761",
+  "name": "งานประเพณีตักบาตรเทโว เขาช่องกระจก",
+  "name_th": "งานประเพณีตักบาตรเทโว เขาช่องกระจก",
+  "start": null,
+  "end": null,
+  "venue": "เขาช่องกระจก",
+  "city": "Prachuap Khiri Khan",
+  "country": "TH",
+  "region": "west",
+  "online": false,
+  "tags": [
+   "local"
+  ],
+  "summary_th": "งานตักบาตรเทโวที่เขาช่องกระจก จังหวัดประจวบคีรีขันธ์ สืบสานวัฒนธรรมและส่งเสริมการท่องเที่ยว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ประจวบฯ จัดงานประเพณีตักบาตรเทโว เขาช่องกระจก สืบสานวัฒนธรรมไทย ส่งเสริมการท่องเที่ยว",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nMDdhZy1EWWc4aWlxaUhJTXpJU0xWZnhmNUhjbGRoZFBvV0lWakxsSUF5STdfbUdRSW4wV3UxeTdxdkNWZllfa21jTS1iQVNiN181Mg?oc=5",
+    "source": "ทอล์คนิวส์ ออนไลน์",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "d094e1754e61",
+  "name": "งานประเพณีไหว้เจ้าปึงเถ่ากงม่า แสดงงิ้ว และมหกรรมอาหารนานาชาติ ประจำปี 2569",
+  "name_th": "งานไหว้เจ้าปึงเถ่ากงม่า งิ้ว และมหกรรมอาหารนานาชาติ 2569",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Maha Sarakham",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "local",
+   "food",
+   "stage"
+  ],
+  "summary_th": "งานไหว้เจ้าปึงเถ่ากงม่า มีการแสดงงิ้วและมหกรรมอาหารนานาชาติที่มหาสารคาม",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "สมาคมชาวจังหวัดมหาสารคาม แถลงข่าวเตรียมจัดงานประเพณีไหว้เจ้าปึงเถ่ากงม่า แสดงงิ้ว และมหกรรมอาหารนานาชาติ ประจำปี 2569",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UY3lPenZWTE1kLWF5YXVDNGhjbENKVlhKaGRYbUhYYWNxZnQxWktzR19uTE1zVTA1emY1SHJBbjgxUjRLdjdURFIzTWM2WkFrWWNvYQ?oc=5",
+    "source": "ทอล์คนิวส์ ออนไลน์",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "9bb2484b4dc1",
+  "name": "วันพระพุทธเจ้าเปิดโลก วัดไผ่ล้อม",
+  "name_th": "วันพระพุทธเจ้าเปิดโลก วัดไผ่ล้อม",
+  "start": null,
+  "end": null,
+  "venue": "วัดไผ่ล้อม",
+  "city": "Uttaradit",
+  "country": "TH",
+  "region": "north",
+  "online": false,
+  "tags": [
+   "local"
+  ],
+  "summary_th": "งานบุญวันพระพุทธเจ้าเปิดโลกที่วัดไผ่ล้อม อุตรดิตถ์ มีขบวนแห่เปรต 4 หัวตามประเพณีโบราณ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "อุตรดิตถ์-พุทธศาสนิกชนนับพันร่วมงาน \"วันพระพุทธเจ้าเปิดโลก\" วัดไผ่ล้อม ฟื้นประเพณีโบราณ ตื่นตาขบวนแห่ \"เปรต 4 หัว\"",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEd2lWUmNndmI4Zjh2ZVpLVGZDQkVTSTdGa3JlNXpYT3BuZlZiUVRhbmVUWWNoU1dfSEE0VEVkWC1ET2xPLTQ1blA4azM2OWM?oc=5",
+    "source": "www.topnews.co.th",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "4e9797964436",
+  "name": "งานประเพณีชักพระ นราธิวาส",
+  "name_th": "งานประเพณีชักพระ จังหวัดนราธิวาส",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": "นราธิวาส",
+  "country": "TH",
+  "region": "south",
+  "online": false,
+  "tags": [
+   "local"
+  ],
+  "summary_th": "ผู้ว่าฯ นราธิวาสเปิดงานประเพณีชักพระ มีเรือพระเข้าร่วม 10 ลำ สะท้อนวิถีพหุวัฒนธรรมของเมืองนรา",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ผู้ว่าฯ นราธิวาส เปิดงานประเพณีชักพระ เรือพระเข้าร่วม 10 ลำ สืบสานวัฒนธรรมท้องถิ่น สะท้อนวิถีพหุวัฒนธรรมเมืองนรา",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FUVh1dTl5NlNQeEQ0UDRxTWY4XzZmeEU4aFE4SV9CZWFDNFE3V2RfV0xFNmdCVVZVXzNIQ1YxRF9mbXpRRlNlYlVaMFBtUTE1YUlmQw?oc=5",
+    "source": "ทอล์คนิวส์ ออนไลน์",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "14e31363f540",
+  "name": "งานตักบาตรเทศกาลออกหว่า อำเภอแม่สะเรียง",
+  "name_th": "งานตักบาตรออกหว่า อำเภอแม่สะเรียง",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": "แม่สะเรียง",
+  "country": "TH",
+  "region": "north",
+  "online": false,
+  "tags": [
+   "local"
+  ],
+  "summary_th": "ผู้ว่าฯ แม่ฮ่องสอนร่วมทำบุญตักบาตรเนื่องในเทศกาลออกพรรษา เริ่มตั้งแต่เวลา 04.00 น.",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ผู้ว่าราชการจังหวัดแม่ฮ่องสอน ร่วมทำบุญตักบาตรเนื่องในเทศกาล ออกหว่าออกพรรษาอำเภอแม่สะเรียง สุดพิเศษไม่เหมือนที่ไหน เริ่มตักบาตรตั้งแต่เวลา 4 นาฬิกา",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wOVpwa0ZIUjZGSnlHWWdQSWkxTUJwUThqOEM4TTVBZHpVQVRyUkR2NWxNWHhWWU05MFVpNUoteGJSaXVjTVVvemFWQ1YySnBsa0lSMA?oc=5",
+    "source": "ทอล์คนิวส์ ออนไลน์",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "02b102f1b2a1",
+  "name": "Thai PBS Kids Festival",
+  "name_th": "งาน Thai PBS Kids Festival",
+  "start": "2026-11-14",
+  "end": "2026-11-14",
+  "venue": null,
+  "city": "นครราชสีมา",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "kids",
+   "festival"
+  ],
+  "summary_th": "งานเทศกาลสำหรับเด็กและครอบครัวของไทยพีบีเอส จัดที่โคราชในวันที่ 14 พ.ย. 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ไทยพีบีเอส จัดงาน “Thai PBS Kids Festival” ที่โคราช 14 พ.ย. นี้",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3YlVCZDJ6Ym5uUUF6dldrc0xxZFRWeU5QaEtRRkItNnF3aFJPWnYtekwwTFlnZDlndnNJR2tWbTRJaUxWV0QwdVhoWWZmdUlOS21TbjVqYllNVWc?oc=5",
+    "source": "Thai PBS",
+    "date": "2026-10-26",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "0307673521ce",
+  "name": "งานพระสมุทรเจดีย์ 2569",
+  "name_th": "งานพระสมุทรเจดีย์ 2569",
+  "start": null,
+  "end": null,
+  "venue": "วัดพระสมุทรเจดีย์",
+  "city": "สมุทรปราการ",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "tags": [
+   "local",
+   "food"
+  ],
+  "summary_th": "งานบุญประจำปีที่ปากน้ำ สมุทรปราการ มีกิจกรรมทำบุญและอาหารอร่อย (ยังไม่ระบุวันจัดงานในข่าว)",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "งานพระสมุทรเจดีย์ 2569 เที่ยวงานบุญใหญ่ปากน้ำ อิ่มบุญ อิ่มอร่อย",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAyNmZ4NXoybFAwM3FQdjAxQ2R5VTkzeGY4d3BHeGE1TnhrSGJJdXNpZ3ZrSHU0ZzlPTnR6VUFMNy1vYmZ4UHd1ZTBqRGV2WU9IZDgw?oc=5",
+    "source": "kapook.com",
+    "date": "2026-10-26",
+    "image": null
+   },
+   {
+    "title": "อัลบั้มภาพ งานพระสมุทรเจดีย์ 2569 เที่ยวงานบุญใหญ่ปากน้ำ อิ่มบุญ อิ่มอร่อย",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kbXJWQ0YwRUVOTFNHMlBLR24wNEM0Y1dzdXdBMWZVanNrNm9ZYzJQT2xhS2QwZEZZeERJSnU0VkZtb1o2NkNDajZpUTlpRWtMTTNpNkUzTGZMbmEt?oc=5",
+    "source": "kapook.com",
+    "date": "2026-10-19",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "enriched": false
+ },
+ {
+  "id": "a686cc3ce349",
+  "name": "นิทรรศการภาพถ่าย แหล่งมรดกโลกของเวียดนาม",
+  "name_th": "นิทรรศการภาพถ่ายแหล่งมรดกโลกของเวียดนาม",
+  "start": "2026-10-26",
+  "end": "2026-10-26",
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "art",
+   "photo",
+   "museum"
+  ],
+  "summary_th": "นิทรรศการภาพถ่ายกว่า 100 ภาพแหล่งมรดกโลกของเวียดนาม เปิดงานแล้วเมื่อ 26 ต.ค. 2569 (ยังไม่ระบุสถานที่ในข่าว)",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "นิทรรศการภาพถ่าย 100 ภาพที่จัดแสดงแหล่งมรดกโลกของเวียดนาม",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRUlNTVlPX0J0N0Z2ZUx3Z1BFNXoxeUk4ZTE0ZVMtUEVDdC1ISzhsMkJWcXV3Qk1GOXItcC0xaEw0UDkzZENlNFhteTU1WG1sN1EzaGZnSkxWUlNDdTd1c2dMMG1UWmRiZXd4bFhDeFQyS2JJQllhU1ppU2IzUUdvVk1PN0EyOUR2RHc4Vm5qeU1mcnUxSU1JWS1n?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-26",
+    "image": null
+   },
+   {
+    "title": "พิธีเปิดนิทรรศการภาพถ่าย \"แหล่งมรดกโลกของเวียดนาม\"",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSlpZOG5FSlJTTUxzUWh5cDFTeUN0MHZLc19LQ2Vaem53T19aYU52b3Z6ZnJ3WjZFdXp1dXpsbWE1bDZFejZLd2tkX0ZzeFZlU19KbHlOT0U1X08yNUdrdUVJR0pqdnd6dFZRVVRTOElIR0FiNDJwMllwZnFlU0ZXWnVIYXQ5SThT?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-26",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "26195b5cbe01",
+  "name": "MONSTERVERSE Halloween at Central Embassy",
+  "name_th": "MONSTERVERSE ฮาโลวีนที่เซ็นทรัล เอ็มบาสซี",
+  "start": "2026-10-26",
+  "end": "2026-10-31",
+  "venue": "Central Embassy",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "workshop",
+   "kids"
+  ],
+  "summary_th": "กิจกรรมฮาโลวีนสร้างสรรค์ที่เซ็นทรัล เอ็มบาสซี มีเวิร์กช็อป DIY ให้ร่วมสนุกตลอดเทศกาล",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“เซ็นทรัล เอ็มบาสซี” พาท่องโลก “MONSTERVERSE” ฮาโลวีนสุดสร้างสรรค์ ...",
+    "link": "https://mgronline.com/travel/detail/9690000102968",
+    "source": "ผู้จัดการออนไลน์",
+    "date": "2026-10-26",
+    "image": "http://www.bing.com/th?id=ONUT.D1kDOgHCj7oGEzIhl5bBwA&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "b34e2c0a7e73",
+  "name": "Thai PBS King Bridge Run 2026",
+  "name_th": "ไทย พีบีเอส คิงบริดจ์ รัน 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "run"
+  ],
+  "summary_th": "งานวิ่งเชื่อมสองสะพาน มีผู้สมัครเกือบ 5 พันคน ยังเปิดรับสมัครอยู่ในช่วงท้าย",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เปิดรับโค้งสุดท้าย! เกือบ 5 พันคนแห่สมัคร ‘วิ่งเชื่อมสองสะพาน’",
+    "link": "https://www.dailynews.co.th/news/6309322/",
+    "source": "เดลินิวส์",
+    "date": "2026-10-26",
+    "image": "http://www.bing.com/th?id=ONUT.gKlY-6oSD5EXQut5VVX_OQ&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "936d6f60c3ec",
+  "name": "King's Cup Football 2026 Sisaket Round",
+  "name_th": "ศึกฟุตบอลคิงส์คัพ 2026 รอบตัดเชือกที่ศรีสะเกษ",
+  "start": "2026-11-14",
+  "end": "2026-11-14",
+  "venue": "Sisaket Stadium",
+  "city": "Sisaket",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "match"
+  ],
+  "summary_th": "การแข่งขันฟุตบอลคิงส์คัพรอบตัดเชือกที่สนามศรีสะเกษ วันที่ 14 พฤศจิกายนนี้",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "อัปเกรดขั้นสุดท้าย! ศรีสะเกษสั่งโรยทรายเนี๊ยบ ปรับพื้นสนาม ...",
+    "link": "https://www.siamsport.co.th/football-thailand/thai-national/111258/",
+    "source": "SIAMSPORT",
+    "date": "2026-10-26",
+    "image": "http://www.bing.com/th?id=ONUT.ODlnvyouzi52l2lIQjoyqQ&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "cf0f00697286",
+  "name": "7HD Sports Championship 2026",
+  "name_th": "แชมป์กีฬา 7HD 2026",
+  "start": "2026-10-26",
+  "end": "2026-12-06",
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "match"
+  ],
+  "summary_th": "การแข่งขันกีฬาชิงแชมป์ 7HD 2026 มีโปรแกรมแข่งขันและถ่ายทอดสดตั้งแต่วันนี้ถึง 6 ธันวาคม 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "💪🏻 #โรงเรียนบ้านโคกวิทยาคม น้อง ๆ จากจังหวัดอุตรดิตถ์✨ ได้มาเช็คอินที่แชมป์กีฬา 7HD 2026 แล้ว⚽️ ปีนี้พวกเราทำดีที่สุดแล้ว ปีหน้าจะกลับมาอีกแน่นอน 💗 🗓️ร่วมเชียร์กันยาว ๆ ตั้งแต่วันนี้ – 6 ธันวาคม 2569 📲ติดตามโปรแกรมแข่งขัน ตารางถ่ายทอดสด และคลิปย้อนหลังได้ที่ : https://w",
+    "link": "https://news.google.com/rss/articles/CBMiuwdBVV95cUxNX1N4QlRaNl9BNUU0VVBubjVmcy1HaXlyR0Y1aUpWdmFuUEFNZk1XZmdYdENOY0t2OUdldGtmVHlzRzNDbndIajliRzd1U3JLUnV5NnFWUzhNNS1zMllaNmF1MW1FUDdUcElxMEZlWEN5VWdSSWcyWjU2eldzS2lmSFJlR1ZpeWprYjVIWlRMNW84Y01qeEJRVWdDNGhpZ2ViVWhpcXhCd0ZKaTZRZUVtU1QwUmp3Uks2aTZ0clh6cHc5VWxyVmNEU3VWMWNId3RnUU5EZ1had2hhbGNWOE1qOUtDUzQyOVdCM19NeDRnekJJTzEyM2VTZHU0S1pXNTFHMjdTbVlUMmYtZmR1VTZYRF9rQ0w5RWl3SV9yeWlCc2w0Ul92dU15bDVqZnVWZkREUXNiZTdUNlpJQm1SWXNSWVhNOGhVOE5MeWU5MmJGVUVGdHFEcG9pQTdmN1Jjc1R0LVpKcVcyMmpuRXVHUF9TdlJralQybHBqMDFucnFzbm1pSVo4Mmo2cExRUEdiR05XUm5faDltV1A3ZVV2enloNk5obndpVDdxeXpiWWk2dW9YZmRndkhnV1lISzY2b19qZGFiLWFrN1A1VFNVdFpTRjBOcENiUVRFTGh2UXNOa0xZOXFPVE9iVnVBclV3SWJqN19jcUtUVEZKWHBZSDRzWkE2QnFyTDdhaUU0aDFPOFUwcVZWRmVxNGllWmR4WjdhVzhDbW1Ed0hIWjZSSWEyTnU3QnE5Vnk3ZC1vX0kzX2JmMHNMRVZVdktQTE05WHM5alRuUllxaGFCYWdtOGZMSmRWWWlnY1oyMlV1eFM1SFd6SklRczR4b3lZczVCc0I4MzFBZDRiRjlubzN6WlJlUld5X1l6MmNDRndYYndjTTA5MmpNRDk2aEkzMFo1NGZBUm1ETmNnN3ZRTTJZdjF4azYzQllPUGlMQXk1SDhmMFk5R0VEdEZwelZWYmxuaWNlcEQxY0tZbnY5emdLRzktUG5IYl9xZUlHcG9Kal9uTVU2TkdDTGRBUEtHdF9HVGV5aHI4QVN5QUxEdFVCd2tIZWk1NFJOaC1CeWdvb2tJamFEenQ0bmh5X2VQcWYyVTdtTmI1aHZiX0N3UkxHRS1ZZ2N4WW0tUmlLWnpMLVVZNzlZSFpRWEpJUkl6b2NqYnVLQ0dhNExZM0ZYVjg5RXRFZ1NzT0NNM0V6X21sRzhYclV3UGdUMFJfdDVIcUw1WmtBckdpendJb1B3Z3VlQTNlc21BRmFjY1BJS1VF?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-26",
+    "image": null
+   },
+   {
+    "title": "📸🥳รวมภาพกองเชียร์สุดคึกคัก ส่งเสียงเชียร์กันสนั่น ติดขอบสนามในรอบคัดเลือก กับศึก “ฟุตบอลนักเรียน 7 คน แชมป์กีฬา 7HD 2026”⚽️❤️‍🔥 🗓️มาร่วมส่งแรงใจ เชียร์น้อง ๆ ทุกโรงเรียนกันยาว ๆ ตั้งแต่วันนี้ – 6 ธันวาคม 2569 📲ติดตามโปรแกรมแข่งขัน ตารางถ่ายทอดสด และคลิปย้อนหลังได้",
+    "link": "https://news.google.com/rss/articles/CBMi-wdBVV95cUxOeTJIWE9QeVg2aHRHMUtPdU1LNHZiWUtERFItUWdVbFBLOUM4bzloRzF0aGJydEM2YVZZZVdJSndPX3dQYTZNdjl4eDFBZVJpMGRqdC1BUHJJSHlKSllZRVJ3cFVvWTNnczJRRENnbGdtY3ZxZGgwbEU5WmZGTUR4QVBIRUFsdmxIa1NaR25hUGttempKeDQtbFhrbWwzeE84T2ZqTF9PWnNEazhBOWtZcjVJYWo3QVJ2ZWdxR09XaklnSlY0LTZtRDZpcm9kTnE3UXFxVmwzVDNXZ1NkSVBXbnQzTUgzZWVKTFV6WVRnOTZMZm05OXRFZTM3bVVFZnVJU2N3NWRzdHRocHlHblh4cjJyTGZWUVdCV2tzQWQwcjc1ZzAtVTM1NXVkSlpRaTJQbHZNQThKZzQ2U00tbEFUdmkyaURBWmgyUkM5RGhTOGlkT1FXQjduU29XUHZPTktGRllfbnVPZHlNMHpmX2lERlBSaVMzVE41MTZLOVkzVGxNbzlJVEZMaFdPbmJuS3N4RDFseUlGVXNXdndndHcyMkJLUmZjeXFjZVh6SV9lMmRITlU5T0s1UElyRzNkcENyQ2NLMmo4SXZ0SzVGZExGNlVYR1hqeEJDeVlpNkNUNzd3WmRza2pKb3NLdmZ5R0szUWhwR2VpM2ZPNWh6aDdoWE03enJmQWhoV3VMcGtDZmpvdU9Bc3RZLUZZekRlTmpUMjZSTkE2ektIR0ZFNG9fQzYtOEVaeE44bjBlZUo0OXJWaXhWbno5Z0R3dEg1TU5ocXBqNFlZdzlvTkxfQ0toYmdsOFJZdjMwb3B0TEZnT1lUWW1HdlhSZVFZbVA4U0Yxbzl0VUlqZnlPZEVVemgwMTA5dlZudGI2UDdsVmh1dVc1eWJGako1M2YtWjlrQUN4SnMxNnZaMVhMVThNeWJ0d3ZzbFFoU0E4aTBNQW4wY2hqM3ZUcUg5SFR3YWZLQzRCdGw5NmR6OEpHcWdwd3Jha3lfckc4QVFlZm94S1E4UVhZb2hKejFlUVhRR1ZzeUYxRjZkM3dqWTVQS3gtMmhYNm9odUlaU0Fua05iVC0wcXRuamtRVHZBWHdNNjBHTW1KYldzQl9BcUItYi1jbGhhS3MxRDJnRnM1aXBaVmRkR3RyN1g2ZHpqTGlVX2xESGpUODBELTFyd1dnbzFTWEltMzJDYjc5ajlYM1d1QXFrNjVpektEWFZLSk9DMTlxV2ktZFVDanJUWF80TVl4d0J3ZXhRdlM3VWhqdmw1R1NJNTlZalAxNGV0UUtvZHRCZW5mamNsYm9fYmRMUG15NjNoa1lGODh5aVB1blRBazVCbGlWRndwZnZESURmaw?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-26",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "enriched": false
+ },
+ {
+  "id": "48f0e20c3ec7",
+  "name": "AFC Beach Soccer Asian Cup 2026",
+  "name_th": "เอเอฟซี บีชซอกเกอร์ เอเชียนคัพ 2026",
+  "start": "2026-11-18",
+  "end": "2026-11-28",
+  "venue": "ชายหาดบ้านน้ำเค็ม อำเภอตะกั่วป่า",
+  "city": "พังงา",
+  "country": "TH",
+  "region": "south",
+  "online": false,
+  "tags": [
+   "match"
+  ],
+  "summary_th": "ศึกฟุตบอลชายหาดระดับทวีปเอเชีย จัดที่ชายหาดบ้านน้ำเค็ม จังหวัดพังงา ในเดือนพฤศจิกายน 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "#BeachSoccer | ฟุตบอลชายหาดเวียดนามซ้อมเข้ม พร้อมท้าทาย - สร้างประวัติศาสตร์ AFC Beach Soccer Asian Cup 2026 ที่จังหวัดพังงา เดือน พ.ย. นี้ เวียดนามเป็นอีกหนึ่งชาติที่เข้าร่วมการแข่งขันศึก AFC Beach Soccer Asian Cup 2026 ณ ชายหาดบ้านน้ำเค็ม อำเภอตะกั่วป่า จังหวัด",
+    "link": "https://news.google.com/rss/articles/CBMiwgZBVV95cUxQRUVpdEh0MVNuLU5aMXFpdEZQdlJjVlhrQ05zWXprY0UyWGJvVmVDVGVDX0tfQUVUblRTVFhYV0VFbDRESW45anV4Z3FHaUh6YjJIdVZkdlhTV0hJM19zamJtYWlISW9fSVJobEhPS2xsdnhnYXVTRWVZWTBIaGljajRsRzY1WXhxVndtbVBzemVQYVdsMkU3QmlHMDVucXR1VkxJYWdOOVh6enppSTBnVXlfSUpFSGlvN3Awek9xa2VyYTk0dzNocWR3UU5oS0NpSi1KcER4dzFFeWRoQ291TFhJZG45elhiQnphREpacmFuOUFBR0ZQdHBUdVJjZ3h6OVlkNXZ0NzJPN0VnVzZGYUFTV3pQRjdESS1PWmoyWDRFSHBDVnFyZDZubHVSMFlYM2dKRmI5YmxZUThacGJFRUcydGFCRTRwcVhGdnBfVjk1MTlvVUxpNXd6SkhSLXdfTVUyTjFhS3hWdUUwVnllSE5Vc0ZVODZTTFRQbGlTTDBLeEk4VUNOYmM2bWVXeTZvSnUzVXdfby0wTHpOQnl0RjQ5WnRGRTdKMktGWW5hVTVoQVMxeVdlMkxiNHVicUkzeEoyNUtXck5XWU9XQ2JUY1VfcHdfLWlvOFF5dXJ4Zlhla3RvWUV1eFQtOGpsQzdYb09GVWRtelhMcEphQkNrRUsyODJiS094TzdOdmNuMU9Cc25lMXh3Zm9qcHRKVm5yVnBncmJ3NGhFU3BmRTlaWThCX0lwTVZEZzNCU2lzMWxtTU01RS1pa1dxMkl2NEVwVUFvVktzZjdDZVRvLUZwNFA2YUg1aDd1V3BlZTR4LWEtczBTeFVtQUk2b2hFZkFpbVhMblQybVFhMFQzOWRYLWdNLWpfamd6bE1JVlI4Y1ZhVUREenI1Q21lRFJPcE1wRnFud0ZSVVR0NXpDaVo3U0dTVTJCOG1wQjN5aU9xaDMxR3l2ejNfbVBSU19iMmRGYXAtMUU1djhRUm9pTzVOTGJiZXBVVkEyZGpRTXZieEZDeGFQemdNek1xN3Fha1VmdS1GdlhqX1FOWHZ6TG54VzNLX3gzNnRhZDNnbGRVTUstUzRqR0RhQUhMRnlwTDdqN3c?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-26",
+    "image": null
+   },
+   {
+    "title": "“นายก” ส.ธุรกิจท่องเที่ยวพังงา พร้อมจัดแข่งขัน ฟุตบอลชายหาด ...",
+    "link": "https://bangkok-today.com/%e0%b8%99%e0%b8%b2%e0%b8%a2%e0%b8%81-%e0%b8%aa-%e0%b8%98%e0%b8%b8%e0%b8%a3%e0%b8%81%e0%b8%b4%e0%b8%88%e0%b8%97%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b9%80%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%a7/",
+    "source": "บางกอก ทูเดย์",
+    "date": "2026-10-15",
+    "image": "http://www.bing.com/th?id=ONUT.ZsJPqxEyvoBFLd2HcrVuAw&pid=News"
+   },
+   {
+    "title": "เลิศศักดิ์ เผยประชาชนพังงาสุดตื่นตัว พร้อมจัดฟุตบอลชายหาดชิงแชมป์เอเชีย 2026",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTdDJnaVVmNkVjOGFzT2t5clZJSjc0RzEwNnJQanJlTmRyQlczeGpoaDhTQlhZODhLa1EzLW56M2ZfQVJ1X2RCVFA2dmFTS2N5MmxubUpFTE4yUQ?oc=5",
+    "source": "ข่าวสด",
+    "date": "2026-10-15",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "enriched": false
+ },
+ {
+  "id": "40ff0073f90d",
+  "name": "Living Festival 2026",
+  "name_th": "งานบ้านและสวนแฟร์ Living Festival 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "home",
+   "expo"
+  ],
+  "summary_th": "งานบ้านและสวนแฟร์ที่มีการเปิดตัวฝ้าและระแนงไวนิลรุ่นใหม่จากตราภูเขา",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "\"ตราภูเขา\" ขยายพอร์ตวัสดุไวนิลเพื่อบ้านเย็นจากหลังคาหลักของ ...",
+    "link": "https://www.newswit.com/th/ieo1ivwa8lokrvii982m9vv3kjzi4hw3",
+    "source": "newswit",
+    "date": "2026-10-26",
+    "image": "http://www.bing.com/th?id=ONUT.74Cwf0XYlPhruBfUgd8GtQ&pid=News"
+   },
+   {
+    "title": "“ตราภูเขา” ขยายพอร์ตวัสดุไวนิลเพื่อบ้านเย็นจากหลังคาหลักของบ้าน สู่การเปิดตัวฝ้าและระแนงไวนิลรุ่นใหม่ ในงานบ้านและสวนแฟร์ Living Festival 2026",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54WHo4ZVBKc2luSGFLaWJtWlpxQl9XYXlIUHd6N01zUkxIMzZzS1pnZHRTMEFsQzF0d2tzdW1jeGpleGZXRXhWZDk4SDNzSE54d1k4?oc=5",
+    "source": "Positioningmag",
+    "date": "2026-10-26",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "ed195f3a1c62",
+  "name": "TUEBA 2026 Scientific Research Seminar",
+  "name_th": "งานสัมมนาวิจัยทางวิทยาศาสตร์สำหรับนักศึกษา TUEBA 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "edu"
+  ],
+  "summary_th": "งานสัมมนาวิจัยทางวิทยาศาสตร์สำหรับนักศึกษา หัวข้อการวิจัย AI และข้อมูล",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เตรียมตัวให้พร้อมสำหรับงานสัมมนาวิจัยทางวิทยาศาสตร์สำหรับนักศึกษา TUEBA 2026: “การวิจัยทางวิทยาศาสตร์นั้นง่ายหรือยาก? – ปลดปล่อยความคิดสร้างสรรค์ เชี่ยวชาญ AI และข้อมูล”",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZm4xMEFGaTJCRmRvUGpMemVSb2pQd2d1UVk0ZDU2Tkh5WUltaFh1YnhGajh2U2RIbk9nb0dlT0pKbHJLRm9aOU9kTHdLTzZUalNhUFh6SHF5aVRYdE51TmdKRW9qOWNDM19RdlA5dFJzQ0h1VG80aFlNc2lZb08xSXkwSHdvaVFQb0VlSHlGa0JJcDVDYlk1TjJIV0xXU0RwVlR0Y0FwdFlheHEwRzlJeFZrWkJZYUJSb2pGeUtlRG5VVnBYVElfNi1tUHZaRmR2dzFUYzdxVEl5UHpNd1h1MUhYMDFTOTd0T0VV?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-25",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "8079f961838a",
+  "name": "งานวัดบรรทัดทอง",
+  "name_th": "งานวัดบรรทัดทอง",
+  "start": null,
+  "end": null,
+  "venue": "บรรทัดทอง",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "local",
+   "food"
+  ],
+  "summary_th": "งานเทศกาลอาหารและกิจกรรมในย่านบรรทัดทองรับไฮซีซั่นส่งท้ายปี 3 เดือน 3 เทศกาล",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "จุฬาฯปลุกสีสัน ทำเล 'บรรทัดทอง'รับไฮซีซั่นกระตุ้นเศรษฐกิจย่านส่งท้ายปี",
+    "link": "https://www.msn.com/th-th/news/other/%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2%E0%B8%AF%E0%B8%9B%E0%B8%A5%E0%B8%B8%E0%B8%81%E0%B8%AA%E0%B8%B5%E0%B8%AA%E0%B8%B1%E0%B8%99-%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A5-%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%97%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B8%AD%E0%B8%87-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%AE%E0%B8%8B%E0%B8%B5%E0%B8%8B%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%B5/ar-AA2g3Oy9",
+    "source": "ฐานเศรษฐกิจ on MSN",
+    "date": "2026-10-25",
+    "image": "http://www.bing.com/th?id=ONUT.-3NaBVBwfw74gMjfceBsaw&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "d1bac7051861",
+  "name": "ประเพณีรับบัว ครั้งที่ 89",
+  "name_th": "ประเพณีรับบัว ครั้งที่ 89",
+  "start": "2026-10-25",
+  "end": "2026-10-25",
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "local"
+  ],
+  "summary_th": "ประเพณีรับบัวครั้งที่ 89 มีขบวนเรือทางน้ำสักการะหลวงพ่อโตจำลอง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เปิดงานประเพณีรับบัว ครั้งที่ 89 คึกคักมีนักท่องเที่ยวร่วมขบวนเรือทางน้ำสักการะหลวงพ่อโตจำลอง",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NbmM4dnBybXdmMXVsS2V1VU9pV0lNcnlqTF9Qa2tUM1RhX2tSNE1odHA2Mk1PSmg1YUt4VW9JZHZ2TFFGMmhoamxxRnpXeTlnTUJBTmpUNXFXcTI4WDlIa3FzOFI2cDB1Zi1ROVZR?oc=5",
+    "source": "Head Topics",
+    "date": "2026-10-25",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "20a1453aba6d",
+  "name": "งานไหลเรือไฟนครพนม 2569",
+  "name_th": "งานประเพณีไหลเรือไฟนครพนม 2569",
+  "start": "2026-10-25",
+  "end": "2026-10-25",
+  "venue": "ลำน้ำโขง",
+  "city": "Nakhon Phanom",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "local",
+   "lights"
+  ],
+  "summary_th": "งานประเพณีไหลเรือไฟริมแม่น้ำโขง มีเรือไฟฟ้าและโชว์โดรน 800 ลำ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "งานไหลเรือไฟนครพนม 2569 คึกคัก ททท. โชว์เรือไฟฟ้า-โดรน 800 ลำ",
+    "link": "https://www.banmuang.co.th/news/region/495458",
+    "source": "บ้านเมือง",
+    "date": "2026-10-25",
+    "image": "http://www.bing.com/th?id=ONUT.-m3TJ3i3IHDiJK61MlXeeg&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "6d3007cc07ba",
+  "name": "งานวิ่งควายชลบุรี",
+  "name_th": "งานวิ่งควายชลบุรี",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Chonburi",
+  "country": "TH",
+  "region": "east",
+  "online": false,
+  "tags": [
+   "local"
+  ],
+  "summary_th": "งานวิ่งควายประจำปีในชลบุรี มีควายยักษ์ดาวเด่นน้ำหนัก 1,360 กก.",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ฮือฮา \"เจ้าทองหล่อ\" ควายยักษ์ งานวิ่งควายชลบุรี 5 ล้านก็ไม่ขาย",
+    "link": "https://www.tnews.co.th/social/social-news/662259",
+    "source": "ทีนิวส์",
+    "date": "2026-10-25",
+    "image": "http://www.bing.com/th?id=ONUT.QVLf6EmFCpCDSdjW9IuWEQ&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "606a93369eb9",
+  "name": "งานประเพณีวิ่งควาย ครั้งที่ 155 ชลบุรี",
+  "name_th": "งานประเพณีวิ่งควาย ครั้งที่ 155 จังหวัดชลบุรี",
+  "start": "2026-10-25",
+  "end": "2026-10-25",
+  "venue": null,
+  "city": "ชลบุรี",
+  "country": "TH",
+  "region": "east",
+  "online": false,
+  "tags": [
+   "local",
+   "festival"
+  ],
+  "summary_th": "งานประเพณีวิ่งควายประจำปี 2569 ที่ชลบุรี มีนักท่องเที่ยวแห่ชมจำนวนมาก",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ชลบุรีคึกคัก! เปิดงานประเพณีวิ่งควาย 2569 “หนึ่งเดียวในไทย หนึ่งเดียวในโลก” สืบสานวัฒนธรรมกว่า 100 ปี",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Bb042bEotSWJFZlFRS2JtUUlNUXJRcVloT016QTEweVJnXzdKUU1wMWdqQjAzMEFXTHNnTnZmMzlXTE1ZVGZqbTdKMk4yaGF5dVFyY2pYczNHSS02?oc=5",
+    "source": "MGR Online",
+    "date": "2026-10-25",
+    "image": null
+   },
+   {
+    "title": "เปิดยิ่งใหญ่ \"งานประเพณีวิ่งควาย\" ครั้งที่ 155 หนึ่งเดียวในโลก นักท่องเที่ยวแห่ชมแน่น",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mMklFY3Z0MF9Xc0ZMX015d0VacXlwRWFXWnRxZVpOVzNXbjhzb1hINzJEOVpjMTBHMFdXTXhCb21oeEp1WTN6cE1mWkJOT0ZmeWs4c0JXcVlTSWhpcExsLVprNnIyTWk1TEVz?oc=5",
+    "source": "Thairath.co.th",
+    "date": "2026-10-25",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "844f728e881e",
+  "name": "งานประเพณีไหลเรือไฟนครพนม 2569",
+  "name_th": "งานประเพณีไหลเรือไฟนครพนม 2569",
+  "start": "2026-10-16",
+  "end": "2026-10-27",
+  "venue": "ศาลากลางจังหวัดนครพนม และริมฝั่งแม่น้ำโขง ถนนสุนทรวิจิตร",
+  "city": "นครพนม",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "local",
+   "festival",
+   "lights"
+  ],
+  "summary_th": "ประเพณีไหลเรือไฟริมแม่น้ำโขง จัดระหว่าง 16–27 ตุลาคม 2569 ที่จังหวัดนครพนม",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "FM91 Trafficpro. . EP.2 พาชมเบื้องหลัง ไหลเรือไฟนครพนม 2569 งานประเพณีไหลเรือไฟจังหวัดนครพนม ประจำปี 2569 ร่วมสัมผัสมนต์เสน่ห์แห่งประเพณีลุ่มน้ำโขง ระหว่างวันที่ 16–27 ตุลาคม 2569 รวม 12 วัน 12 คืน ณ ศาลากลางจังหวัดนครพนม และริมฝั่งแม่น้ำโขง ถนนสุนทรวิจิตร ไฮไล",
+    "link": "https://news.google.com/rss/articles/CBMiswdBVV95cUxNQVhZaThzMWM3Nml6NExvYU1pRWUxVnhwY1h1ck1vS3FtTjQzOE5OZndMRTgzeVBrOF9DVk5EQjdFTE1ta0tuRDdEa3o4RWl2ZGZQWXhRYVpQZWxzdWFibmVZOXFnUFpwUDVnb0wtaUk4MG9ZR1FrWlBxR3JxYTExaTZqZ1BObHBMSF9HMk16WEVyV0s3bjhHOGZlU3BrSmdybm1lbV9hdEdjd1V5YXJmWHVhMnZHY1dSdDdtYXVlVnlNNDZMRVdzcGNhNG82a1hpTW1lbkl3MDNNS0pIOFVlSlI2WUw3VUVqbHN6S0M0d2RtckFNSUVKYTNRWUNMSjl5dkxZRTU4TDZIbURSS0p0M0R6YUdidnpCTVkwY1Bnd2I4amlzaENOZ3FhS3hGWGZBb2xZLW1yQmVfOWFkVS16ZTY1a2xWX0t2c2szY1ZCYjdxLU42aTc5TDc4NV9mdnRWWDFucWpLRkpNWXFnZXk4d0hBOWlzSXVMNXgzRU9vSVZlZjFoOGIxQ0pCaFpGU0NvdEZyNHVGaElmUkVnUU0wdW1RS0Y5a3Y4Vll0NUJya1IwUmNBRHI1RGIydDRoZEpJRzJQTHNvZlVyYjU1dTdRbGtwemNicUI1eXVNNEZyVmxQdUlILXllRG5PUFFIdHZIRWpwbmJfelVfVENYZVZLNEd5eXdfNC10bEFpSW9LODBhbmtSOFBWbnNpUWdRZzNYUmdxQ3N0eThyLUpmREU2cVZJR0otV2VGT1F0MzVzMHhpc3VDcG5GU3dZTUlwbnN2SlB1R2RoUzQxZHF5eGVTSm15RklrTW1pQjZCZktoR01keDU5R0dJdDhITFd0TjFIMDdTM2ZNZFJRQjZURTcxNUUzUWZYcHQxdE1MZEtvM3pfakk1NXFELWxBSGxPSHQwb0RmYjBtRXpuSUNkUk1kUUhJQ2JFX0FxZW1ENUpFY0pqa09qV3pFMnZOYldMZGlPNkRyQnlyU0hCcEVGMjdzN1lyUjhEZkFiZ29TR3l0MUJQc2tHbHdNSTlEdkFWTjZXZEg3bTJCbm1vQi1Hb19Nb0Y3Nkh1RmNtdHE1TU0tT1J6LWFoc3h3NC04eWxoNjF0U21pR3lsa3ozUGt3SW5DNHF6U2dQVzZZNHFnR3VDUjBMdnlpdVN6NERULUhqTlA2aURyV2ZQOG5FTk9pbjg5b0syZUlTZ1BDU0g3bjNLbkJjSFlqRkhoc1NNdWR0NUZYMHNwa3hsNWpybTdkcE5xZ2Ffcw?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-25",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "8d067c573474",
+  "name": "Bouncetopia by Kiztopia",
+  "name_th": "Bouncetopia by Kiztopia สวนสนุกเป่าลมในร่มสาขาแรกในกรุงเทพฯ",
+  "start": "2026-10-25",
+  "end": "2026-10-25",
+  "venue": null,
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "kids",
+   "themepark"
+  ],
+  "summary_th": "สวนสนุกเป่าลมในร่มระดับพรีเมียมจากสิงคโปร์ เปิดสาขาแรกในกรุงเทพฯ บนพื้นที่กว่า 1,100 ตร.ม. ภายใต้ Happitat",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "Happitat เปิด Bouncetopia แห่งแรกในกรุงเทพฯ ชูแลนด์มาร์กใหม่สำหรับครอบครัว",
+    "link": "https://www.kaohoon.com/pr/874697",
+    "source": "ข่าวหุ้นธุรกิจออนไลน์",
+    "date": "2026-10-25",
+    "image": "http://www.bing.com/th?id=ONUT.JJLyRmdpHcP9r-3_183S0Q&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "92ccdae5dbc9",
+  "name": "American Fair 250 Years of Liberty",
+  "name_th": "งาน American Fair ฉลอง 250 ปีแห่งเสรีภาพ",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "festival",
+   "national"
+  ],
+  "summary_th": "งานส่งท้ายเทศกาล 250 ปีแห่งเสรีภาพของสถานทูตสหรัฐฯ ในกรุงเทพฯ มีเน่เน่ร่วมงาน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "สถานทูตสหรัฐส่งท้ายเทศกาล 250 ปีแห่งเสรีภาพ ดึง “เนเน่” ร่วม “American Fair” กรุงเทพฯ",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iZ3lTQ3BPeE42T1NSX01VYURqUjA0UnpqNkdRQk5oZWF0SmdmUFVYaFdhcjhLQVN2SEpoUjlXZ0xFUnZyYUNnYzVUVTFLalR3ZGxtZTVOWWpjRFdtRlNFX0p6SjBPa3lJVGpxVkZn?oc=5",
+    "source": "Head Topics",
+    "date": "2026-10-24",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "81bc7d357d09",
+  "name": "Pokémon GAME ON! Thailand Premier Ball League 2026-27",
+  "name_th": "Pokémon GAME ON! เปิดศึก Thailand Premier Ball League 2026-27",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "game",
+   "esports"
+  ],
+  "summary_th": "การแข่งขันโปเกมอนระดับประเทศ Thailand Premier Ball League ฤดูกาล 2026-27 พร้อมกิจกรรมแฟนโปเกมอน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "Pokémon GAME ON! เปิดศึก Thailand Premier Ball League 2026–27 แฟนโปเกมอนแห่ร่วมงานคึกคัก",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5SWnkwak5VWnRJYkxyNmFfQkhzSEVxbDgxZ3pGQ0xvWkJ6Z2w4WWNjQTF0RHJjZXNMakwtQXk5M3lVc1k0Z01RRVFFNGl1ZGIt?oc=5",
+    "source": "สยามรัฐ",
+    "date": "2026-10-24",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "e517adb9549e",
+  "name": "รักแห่งสยาม เดอะมิวสิคัล",
+  "name_th": "รักแห่งสยาม เดอะมิวสิคัล",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "stage"
+  ],
+  "summary_th": "ละครเวทีมิวสิคัล รักแห่งสยาม บัตรขายหมดทั้ง 17 รอบการแสดงแล้ว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“รักแห่งสยาม เดอะมิวสิคัล” มาแรงสุด! บัตรหมดแล้วทุกรอบการแสดง!",
+    "link": "https://www.daradaily.com/news/165922/read",
+    "source": "daradaily",
+    "date": "2026-10-24",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "8f86ef91c977",
+  "name": "Thai Local Rice Fest #2",
+  "name_th": "เทศกาลข้าวท้องถิ่นไทย ครั้งที่ 2",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "food",
+   "national"
+  ],
+  "summary_th": "งานของกรมการข้าวที่ชูข้าวอัตลักษณ์ 4 ภาค และเมนูอาหารสร้างสรรค์",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "กรมการข้าว จัดงาน “Thai Local Rice Fest #2” ชูอัตลักษณ์ข้าว 4 ภาค ต่อยอดสู่เมนูอาหารสร้างสรรค์",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FSkQ2VlVpbWNWYW9wTWh5NHN1a0FsYzVkZFItZDlHTE1wbkZHRkV5SEVLX3VXWGxpX3F2aEJTSEU3ejlMYXg3a0Voc3AzWkRYaUtV?oc=5",
+    "source": "เดลินิวส์",
+    "date": "2026-10-23",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "75c4aae473f7",
+  "name": "งานประเพณีรับบัว 2569 วัดบางพลีใหญ่ใน",
+  "name_th": "งานประเพณีรับบัว 2569 วัดบางพลีใหญ่ใน",
+  "start": "2026-10-19",
+  "end": "2026-10-27",
+  "venue": "วัดบางพลีใหญ่ใน",
+  "city": "บางพลี สมุทรปราการ",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "tags": [
+   "local"
+  ],
+  "summary_th": "ประเพณีรับบัวที่วัดบางพลีใหญ่ใน จัดระหว่าง 19-27 ตุลาคม 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "23 ต.ค. 69 เวลา 20.00 น. หลั่งไหลเข้ามาไม่ขาดสาย! งานประเพณีรับบัว 2569 วัดบางพลีใหญ่ใน อ.บางพลี จ.สมุทรปราการ ระหว่างวันที่ 19 - 27 ต.ค. 69 #วัดบางพลีใหญ่ใน #ประเพณีรับบัว #ข่าวสวพFM91 Cr. ที่นี่สมุทรปราการ",
+    "link": "https://news.google.com/rss/articles/CBMi0wZBVV95cUxQVXREcTdTMWFCVXpmZFBISkFHZFYySmhCX0sySlFySzRvVl9rdXpjbHJtLS0yU3VTVnA0djNreWFKc0xrNDJEY3BzSFZlak9iUVB1X1JRY0NMb19tUFdtZ0JKN3FIUnVYVms5RC1mR2ZqeE5zSzV1eUJJUmNVNF9wQmNxdERhaTBRRFI1bURlS1V1dmpOU29rTll6QVh6cGx6TVlYWHRGYXJBOEhxX1lYbll4MnljV2FpbndIS2hlcUh5REY0TzdMaVhBYUUxM29NeHU5SU9zRHNDUmFwQXU2UW1vSE1NdnhwS1JkRVRSRUdkTW5Ea2paVVc2ZFRtQXBNMVpPdXpXZHJMSW9RMmtuMlh1dEtuU3lpZnhTUW1EOHRSVjhxSjI5WUozZTFMRS1IeWEtajJQbEJtdF9ieW9lU0g3amoyMUN5dmZVZVFkZkJRdzh3UHo0VnlGOUZsVTNDRU52UV9kR2Nwdi1QQkd0NVRZMVpTNkNiRTdRVEs5NXVycVJJMi02aTgwallMdU5FVGZNRDRqOERYV3VUeHhxckF1RzFfZlhGbnotREJESDZkalBnbmFvR1BmOC1pbTZ2N09TS0lvQ19HTXJnbm1ZLXMyRmdsdE5IcGY5ZFo1UDFLRzJzU25WZ1FxX0tsSHJ0MDRNUWhZLTdEY0RTMVUxTXRiekF6dkxrSWluUXVRcXZWOGhidHlPcVJCeER2ckhzeDRkdkFxT0lHSW1DVEt6blJuTFBXOHlaWDRGMm12cnNBT2dXQnQ1NGhjN0FhT2VRMnYyVHB1clJpNUtrMUNmSUx4U3Y1M1ZxX1d6NndKS2o0SVpRM1ZLYXZ3NVFHNkRGNy1VOXB1dkxnZ0NLcGJaM25yczBxOUFEd0gyUXdkYVNOcUVXWDFXMlZoTXVlVlV1Z19SbzhyQzA5Q094Mlg1UGhUZElHR1dsbVZ0eG1mVFhBeDc3OEJ2eVNUc0hUdGZ4cUxQcWR2STktMW9uZW9MdlAtcVdWeDB5cl9xeE9uWUR2V2NISGY3WjdyM3EtZ0NUM18ycV9jQ0llaW1jRGJhdDIwYXVVVzdaLXp3QkVjNEpjWWRqQTA2Wmt0RkpxbXpqNE9tVjJXVDhnREs2MVZDUUgxdw?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-23",
+    "image": null
+   },
+   {
+    "title": "อำเภอบางพลี จังหวัดสมุทรปราการ จัดแถลงข่าวงานประเพณีรับบัว ประจำปี 2569 สืบสานอัตลักษณ์ท้องถิ่น ประเพณีหนึ่งเดียวในโลก แห่งเดียวในประเทศไทย",
+    "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOeHpLV1VvT0t6aVJSVVJ1N1BEcmlTN2V2X3N5Ulk4Sk5YdmFXUHNGZWNlaHppOWthVnRoV2lRZzIzdTZYWDV6VnRERWhlVG03bHlLYno5S083aXUxNkJIZm0weW0zTGhzYlNEbnVyQ3JrdWhkY3J2YjBmWkk2dy1mZUNIREpKbFYzQjRZZ0xBYUt1Sko4Y1JSX1RCS083U1hXNjJ0ejZ0bVpJUDRSM1pyVmF0ZnpIUlVyeHNKYXpwN19EYUlVbUV6eWVFWTJ4MDB2eFc3OGJSU05Pd0V3Qm94b3Z5eVNQTmdwd0ZheVBLcGVveGtBR3FLQUNLcEV5UTlfMnljOVBJazFyLWxXQ2pELU9DN3JqcjkxWmJ6N2NwZ2JoTEh0cWdHakI3b1VmdGZmVlFDSG8yQ2tPTVVIdFpQYkFaUW9sTV9MYTA2UjVfdWZrUQ?oc=5",
+    "source": "prakannews.com",
+    "date": "2026-10-16",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "enriched": false
+ },
+ {
+  "id": "ac43ba84e2f3",
+  "name": "งานปิดทองหลวงพ่อโต วัดปราโมทย์ สมุทรสงคราม",
+  "name_th": "งานปิดทองหลวงพ่อโต วัดปราโมทย์ สมุทรสงคราม",
+  "start": "2026-10-23",
+  "end": "2026-10-27",
+  "venue": "วัดปราโมทย์",
+  "city": "สมุทรสงคราม",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "tags": [
+   "local"
+  ],
+  "summary_th": "งานประเพณีปิดทองหลวงพ่อโตที่จัดยิ่งใหญ่ 5 วัน 5 คืน สืบสานมากกว่าร้อยปี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ผู้ว่าฯ สมุทรสงคราม ประธานพิธีเปิดป้ายงานปิดทองหลวงพ่อโต วัดปราโมทย์ จัดยิ่งใหญ่ 5 วัน 5 คืน สืบสานประเพณีกว่าร้อยปี",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcEQyMTJoeXFGVTlfN0M1cUtOS2JoMTVNQlNxeFJfd3JfOXRMbmxYUHdMRG5iZGdzaE1PNllTWEs0WmJWT2QyQUhLQnd4bFBoSDZrbFA3eFVOUlFVcWFtMGM2ejM3SmY1UG1CNURwUkhwY1VmUW5fZm1HYnFFLWJjX1E3WXM?oc=5",
+    "source": "สำนักงานประชาสัมพันธ์จังหวัดสมุทรสงคราม",
+    "date": "2026-10-23",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "286efbcd39b6",
+  "name": "Ricoh GR 30th Anniversary Exhibition",
+  "name_th": "นิทรรศการฉลอง 30 ปี Ricoh GR",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "JP",
+  "region": null,
+  "online": false,
+  "tags": [
+   "photo",
+   "expo"
+  ],
+  "summary_th": "นิทรรศการฉลองครบ 30 ปี Ricoh GR มีช่างภาพ 60 คนร่วมแสดงผลงาน พร้อมเปิดตัว GR IV รุ่นลิมิเต็ด",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ฉลอง 30 ปี Ricoh GR จัดนิทรรศการใหญ่ ดึง 60 ช่างภาพร่วมโชว์มุมมอง พร้อมเปิดตัว GR IV รุ่นลิมิเต็ด",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1lUjJRRzFCcHJjNzBrR28wZndJTnlPbGlFbmZEVGw4Z3M2a2VkUzN1WjM1Y25SRlBQZ3JqMjNkVi1RSDR2azQ1ZzQzNU42dw?oc=5",
+    "source": "BT beartai",
+    "date": "2026-10-23",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "58bf00aa5a1a",
+  "name": "Phaya Nak Fireball Festival (บุญบั้งไฟพญานาค)",
+  "name_th": "เทศกาลบุญบั้งไฟพญานาค",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Nong Khai",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "local",
+   "festival",
+   "lights"
+  ],
+  "summary_th": "เทศกาลบุญบั้งไฟพญานาคในจังหวัดหนองคาย ที่มีการจุดบั้งไฟขึ้นฟ้าตามความเชื่อเรื่องพญานาค",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ยิ่งใหญ่ ! เทศกาลบุญบั้งไฟพญานาค",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oSzFPXzlPV0NnV092Zlp6T2xQWVNZWDF5SnpmU0RCQk5tZ2RpQlZydEJkMmJYQWYxeC1ENXZFZ2VTSnlYTVBIOEs0RQ?oc=5",
+    "source": "ช่อง 7",
+    "date": "2026-10-23",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "fa650ab219e7",
+  "name": "Spooky Boo Halloween Installation",
+  "name_th": "ผียักษ์ Spooky Boo ลานเซ็นทรัลเวิลด์",
+  "start": null,
+  "end": null,
+  "venue": "ลานหน้าเซ็นทรัลเวิลด์",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "festival",
+   "lights"
+  ],
+  "summary_th": "ผียักษ์สีขาวสูง 40 เมตรกลับมาที่ลานเซ็นทรัลเวิลด์ ต้อนรับเทศกาลฮาโลวีน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ใกล้ฮาโลวีน ผียักษ์ก็มา ‘Spooky Boo’ สูง 40 เมตร คืนลานเซ็นทรัลเวิลด์ เติมความหลอนปนคิวท์กลางกรุง วันนี้ (22 ตุลาคม) ช่าวภาพข่าว The Standard สำรวจบรรยากาศต้อนรับเทศกาลฮาโลวีนที่เริ่มมีสีสัน เมื่อลานหน้าเซ็นทรัลเวิลด์ต้อนรับการกลับมาของ ‘Spooky Boo’ ผียักษ์สีขาวสูง 40 เมต",
+    "link": "https://news.google.com/rss/articles/CBMi5gZBVV95cUxNcjRJZmdaaHgxb3oyYm1Obi1jRHhMMENFYVVDeUdRRm1fSW02SE9IcG04cEpQNGNLb1lNUWRTQVdlZThMVTMzVzRSLUZER1F6b1Njb0tLUHBaZXNyZzZXTkd2LWVpdms3RXJaT25PaDBkWGpjTHJGU1ZzY05PdDdLSGNOVDZCZEFkQzBtcXNyQmdGbS16anhfLUswUVRPdU1URGlBTnhZTElud3p4ZmtrMS1FbFROT3M1NGtvWWNCMmlVMkpEQWJYVXBEcHV5NnJ6ZUJVdXd6bGxMUV9vOVZaUTN6VUIyQUYtZm5aVUlYUFg2a3BIVlozbHNYbmdTVnpobVdBYzlmYkxtZ2ZRLXNFVDNQcHdKNlJjYWFkRFlJRzBBYk9pTWpqak5faVZVMlNFQXlXanVfUE45aVE1SC1IMURROFV5Rm1zRXlnallkaUwwYUk5Q1NDQ3BBRmg1UnRXWDNXc1liRTJ5a3RlLTlzbHNFRmcwWDZ5QjNNRTh0ZXoxNy1ZOENCcEFvQWYwZjdQUHRNNzd0VUdRZXJGdnY5dFd2NFZwX0p0RW8tdko2M0YzaFhkaGhEWXdDd2MwMXI5bDNxQlkyOEtkNmpkTGo3b0VfQ0xrS2JFbEhpWEVyR2o3VlRzdjlQZjZBaVhIdENGUER0T2dRX3JfSDVsY2FfM2tOUjU3TUdYTnFZTUlmTnF1cVBDbFFDZ2k1YnhzeWtscEYyaEtxM1JyNHlHeUw4MWxPVWstbFVWSDN1eXRoZ2hudm81RDI1VHhDNTFFSkZlQlJ6d0I5cEYxOFlOZ3JOMExkQ0V1UVRWS2wwSFhvdUQzU1VBeGJnZFdaYU5pbGVlZkVhQy00UGJ6X3QzUW9LLThNSWdXOGpxWEsyYlA3Y2dhREVlM2toa01iakRHbVl5TWxQamduZXBoR3hyWDl1WDIzdV9fb3YwR085SFM3QmNkZXRsVmx0Y1RWbGFvcnBLT01lNTdzZFZRMWlJMHRkR3IxNURJbUp3MHFfbFpid056MFVWZ3ZxNzJmdGxPNmtXZldacDZYM1E3UzI3RG1NQURSMkdEQVVTXzFGQ3JkSk84Tjd4LXRzdnFScGV0bkN1STFmdTRJWVdremZPQkEwZC1KWlhmeWZTZE5ZWkZkTUk3WXp1MkE?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-22",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "e7fa66a27633",
+  "name": "SC Home Expo ครั้งที่ 50",
+  "name_th": "มหกรรมบ้าน SC ครั้งที่ 50",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "expo",
+   "home"
+  ],
+  "summary_th": "มหกรรมบ้านครั้งที่ 50 ของ SC ดีลลดราคาสูงสุด 10 ล้านบาท พร้อมลุ้นทอง 1 ล้านบาท",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "SC บุกมหกรรมบ้านฯ ครั้งที่ 50 ระเบิดดีลใหญ่ “ดีลดีบุกโลก โปรแรงแซงทุกดาว” ลดสูงสุด 10 ล้าน ลุ้นทอง 1 ล้านบาท",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VLUE2TERReWFrYXNPYnJxZjN6cnpOZ2VMYkhmTEtnVTdkS0l4TFRVd2RoN25nWTVOeVFkeDZPbC16dFJvT0FyY01NTjJjRlNqZ0ZxbEtxUXBCaEk?oc=5",
+    "source": "banmuang.co.th",
+    "date": "2026-10-22",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "dddf95e95f10",
+  "name": "Ok Phansa Bang Fai Phaya Nak Festival 2026",
+  "name_th": "งานเทศกาลออกพรรษาบั้งไฟพญานาค หนองคาย 2569",
+  "start": "2026-10-22",
+  "end": "2026-10-27",
+  "venue": "ริมแม่น้ำโขง",
+  "city": "Nong Khai",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "local",
+   "festival",
+   "lights"
+  ],
+  "summary_th": "งานออกพรรษาบั้งไฟพญานาคที่หนองคาย มีขบวนแห่และพิธีบวงสรวงพญานาคร่วมกับมิสแกรนด์ไทยแลนด์ 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“หนิง ปัทมา”มิสแกรนด์69ร่วมรำบวงสรวงเปิดงานออกพรรษาบั้งไฟ ...",
+    "link": "https://mgronline.com/local/detail/9690000102193",
+    "source": "ผู้จัดการออนไลน์",
+    "date": "2026-10-22",
+    "image": "http://www.bing.com/th?id=ONUT.VAlA4RKhx3mpBSwHLDaZiw&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "0d8b87cf7103",
+  "name": "งานนมัสการองค์พระปฐมเจดีย์ 2569",
+  "name_th": "งานองค์พระปฐมเจดีย์ 2569",
+  "start": null,
+  "end": null,
+  "venue": "องค์พระปฐมเจดีย์",
+  "city": "นครปฐม",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "tags": [
+   "local"
+  ],
+  "summary_th": "งานประจำปีนมัสการองค์พระปฐมเจดีย์ ชวนไหว้พระคู่บ้านคู่เมืองและเที่ยวงานประเพณี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "งานองค์พระปฐมเจดีย์ 2569 ชวนไหว้พระคู่บ้านคู่เมือง เที่ยวงานประจำปี",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE53R3NleEgtSzhMdE00VEt2ZHVMMlRvZEwwMFBqWndJakNTTlBzdHNINDY0cU1QRVZQdUJ5UktEcTR6UmNfamNqa192VndoZDJnVUVz?oc=5",
+    "source": "kapook.com",
+    "date": "2026-10-21",
+    "image": null
+   },
+   {
+    "title": "อัลบั้มภาพ งานองค์พระปฐมเจดีย์ 2569 ชวนไหว้พระคู่บ้านคู่เมือง เที่ยวงานประจำปี",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zR2Y0Q0k0dWFZcERLeDNyMTk1WjB6R1VHOWkzNkU3WFVIdm9iam82Q0pjNDRwNWhDYUJfYkpXSTA2di1UMmFjSWVGZm5CeC1qZEE?oc=5",
+    "source": "kapook.com",
+    "date": "2026-10-21",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "99d9cedaa4fd",
+  "name": "เทศกาลลอยกระทง 2569",
+  "name_th": "เทศกาลลอยกระทง 2569",
+  "start": "2026-11-24",
+  "end": "2026-11-24",
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "national",
+   "lights"
+  ],
+  "summary_th": "เทศกาลลอยกระทงทั่วประเทศในคืนวันเพ็ญเดือน 12 พร้อมชมบรรยากาศไฟประดับและแม่น้ำลำคลอง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "งานลอยกระทง 2569 รวมพิกัดเที่ยวทั่วไทย สัมผัสเสน่ห์คืนวันเพ็ญ",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrdVJ3cjU1SWF5c0I1eFRnWmNDSjc2andkSGZKRkE0aTdCTm9kd1lreE16RzdCVzcwUlFNaG8zVTQ4TU4wbFV6TV9pajZSczRxdmRN?oc=5",
+    "source": "kapook.com",
+    "date": "2026-10-21",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "bb36cfbccf7f",
+  "name": "ไหลเรือไฟนครพนมประจำปี 2569 / โขงอเมซิ่ง Amazing Mekong",
+  "name_th": "งานไหลเรือไฟนครพนมปี 69 และโขงอเมซิ่ง (เรือประดับไฟ-โดรนโชว์ 800 ลำ)",
+  "start": null,
+  "end": null,
+  "venue": "ลำน้ำโขง",
+  "city": "นครพนม",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "festival",
+   "lights",
+   "local"
+  ],
+  "summary_th": "งานไหลเรือไฟนครพนมปีนี้มีคอนเสิร์ตและโชว์เรือประดับไฟกับโดรนกว่า 800 ลำบนลำน้ำโขง จัดเต็มหลายคืน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "งานไหลเรือไฟนครพนมประจำปี 69 คึกคัก แม่นกน้อยเปิดคอนเสิร์ตเสียงอีสานปีที่ 52",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKOEJFTldLZzRHNHBMSm1idWFESWwxUkJkRTRQQXJvdVBTT1Y5dG9Qb19XYmFZOVQ4dEZLZk1BeUl4N09LVDk3OTlYejd5YmhWbkY5OXVIVFdRZw?oc=5",
+    "source": "แนวหน้า",
+    "date": "2026-10-21",
+    "image": null
+   },
+   {
+    "title": "ททท. จัดเต็ม \"โขงอเมซิ่ง Amazing Mekong\" เรือประดับไฟฟ้าโดรนโชว์ 800 ลำ",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE90WjQ5M3B1VFVwbV81THhRYTZEU3IxVkp6Z3FZdHI5Mm1fMVM1TFYwbUZJdUZuZ3FyTVk4TjRXZTc3amFpOVRuMjlLNFNCVWtsTzR6OHdRdjZ0YkFXVWdwNEgyYkktdw?oc=5",
+    "source": "ข่าวสด",
+    "date": "2026-10-21",
+    "image": null
+   },
+   {
+    "title": "ททท. เนรมิตลำน้ำโขงสุดตระการตา! “โขงอเมซิ่ง Amazing Mekong” เรือประดับไฟฟ้า–โดรน 800 ลำ จัดเต็ม 3 คืน ยกระดับไหลเรือไฟนครพนมสู่ Signature Festival",
+    "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNM3E0WHhHZDlmSjF0eHFYOFFwQl9DN0FBVXV2Mm5keTFIajlDRDBXOTlXU0N4Wk1RR09FQXhMWjVhY0ZWQXB3WWFLQ3pSRHgwcllRTUVaN1dHWW9hc0xXWC1nUzZCT3poWkVNcF84QWs1aHpjVXRLNnRCTUo1WmEwZWM1bVpKR2FQa0NoZE5tMDBONXBfSXMxMjEtaXVuXzZqakRURXBvY0s1MGRGLWphdW95S2d3cHhVOWlka2ZRandITFdjaHF6V0RLVjRKd3gxeTkzRUd0cUxrM2hLOUpRSEQ3b1BTRmFrRENtSmd5T2xtcXNNS1FOZ1ROb01oMk1LRmFwZVE3TlNFWHM2VEVEZXR2bjVLbzYyY0s0cW9nNlNZZXpMT24tNHVtTWxZQVNFSzFpbktMYjJZcXcyUVllaDVmTngwVjdFQUE?oc=5",
+    "source": "สำนักข่าวบางกอกทูเดย์",
+    "date": "2026-10-21",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "9db4f8eeebb2",
+  "name": "งานประเพณีแห่ปราสาทผึ้งและแข่งขันเรือยาวชิงถ้วยพระราชทาน",
+  "name_th": "งานประเพณีแห่ปราสาทผึ้งและแข่งเรือยาวสกลนคร",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "สกลนคร",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "local",
+   "festival"
+  ],
+  "summary_th": "สกลนครจัดประเพณีแห่ปราสาทผึ้งและการแข่งขันเรือยาวชิงถ้วยพระราชทาน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "‘สกลนคร’ ชวนเที่ยวงานประเพณีแห่ปราสาทผึ้ง-แข่งขันเรือยาว ชิงถ้วยพระราชทานฯ",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmdUsyTGo5X3o5eDc4VUpjU3JqYkUzSXdVTU9NR3ZTU3FfLVJ1NUZUR2ZrWFlLODNZRjdQOGRfYkhYMEI5Nk13Y2l3Nk1qS1JOb2Yw?oc=5",
+    "source": "เดลินิวส์",
+    "date": "2026-10-21",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "6a3a26bea44c",
+  "name": "หนัดกินผัก แฟร์ 2026",
+  "name_th": "หนัดกินผัก แฟร์ 2026",
+  "start": "2026-12-19",
+  "end": "2026-12-20",
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "festival",
+   "food"
+  ],
+  "summary_th": "เทศกาลดนตรีและสินค้าเกษตรร่วมสมัยจัดวันที่ 19-20 ธ.ค. 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "‘หนัดกินผัก แฟร์ 2026’ เทศกาลดนตรีและสินค้าเกษตรร่วมสมัย ชวนมาเติมวิตามินให้ชีวิต 19-20 ธ.ค. นี้",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FTVV2X1JSNnpYd1JEQ0VjOWJnYWx0cjJtaUNYRHhGMUw0NEkxTUlUMC1BV2FLQ0Z3VjB3bHg0b3ZkUUJOZnQ4aThDUklreW5rUlhUX0JFNWpnX1c3N0VUdnlIdUg5ZENHVXYxZUo3QjFXZHpOVWJobA?oc=5",
+    "source": "Time Out Worldwide",
+    "date": "2026-10-21",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "5baedbfe5c0c",
+  "name": "The Hua Hin Expo 2026",
+  "name_th": "เดอะหัวหินเอ็กซ์โป 2026",
+  "start": "2026-11-14",
+  "end": "2026-11-15",
+  "venue": null,
+  "city": "หัวหิน",
+  "country": "TH",
+  "region": "west",
+  "online": false,
+  "tags": [
+   "expo",
+   "sale"
+  ],
+  "summary_th": "มหกรรมสินค้าใหญ่ที่หัวหิน จัดวันที่ 14-15 พ.ย. 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "‘The Hua Hin Expo 2026’ มหกรรมสินค้าใหญ่เมืองหัวหิน 14-15 พ.ย.นี้",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16ZHliQXNJY1RKcXF4UW9YN2JFQWtaRFRTQTBEZTNENEpxUVNMVXNaOFJ3QUNUeGpUT0JFa2RhRVpMQkUzZGd6bUV6QkVaRlhFdG1QX1lXSVM?oc=5",
+    "source": "banmuang.co.th",
+    "date": "2026-10-21",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "1b8f335cf95c",
+  "name": "เทศกาลดอกบัควีทครั้งที่ 12",
+  "name_th": "เทศกาลดอกบัควีทครั้งที่ 12",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "nature",
+   "festival"
+  ],
+  "summary_th": "เทศกาลชมดอกบัควีทครั้งที่ 12 ยังไม่ระบุวันที่และสถานที่ชัดเจน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เทศกาลดอกบัควีทครั้งที่ 12",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fenhUTmVHZjU4Q0RaQzVacjFYS2NDU0ZVV3RTQW9JZEtBZDRWNnRXdzJYcTlKamJ2QUNhYVVvTnpwV3pnR3RaNk51dTE4YUpnYi1VTmtQNTFVNkFEc3pUUmdTYklrdnFsV3pnOHl3OXo0b2p5OWg3aA?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-21",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "fcda7158bdcf",
+  "name": "Thailand Mobile Expo",
+  "name_th": "Thailand Mobile Expo",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "gadget",
+   "expo",
+   "sale"
+  ],
+  "summary_th": "งานแสดงสมาร์ทโฟนที่มีรุ่นประหยัดราคา 3,000-5,000 บาท ให้เลือกชม",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ส่องสมาร์ทโฟนรุ่นประหยัด สเปกคุ้ม ราคา 3,000 - 5,000 บาท ในงาน Thailand Mobile Expo",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1oeEs4amNyWi14aW9JZWxTWHlibDNXeldXeVNfZXBnb2prT29IT0VVTWlXSzFGYjNmaS1hbUEtazVDLWs1WUFENzRHODg?oc=5",
+    "source": "Siamphone",
+    "date": "2026-10-20",
+    "image": null
+   },
+   {
+    "title": "รับอั่งเปากันล่วงหน้า ด้วยโปรโมชั่นสุดเฮง จากงาน Thailand Mobile Expo 2013",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBUenFXVE9rZ3lpQ2l0RUxMbkxwbW5RT2ZKRmhNZW1xZ0lQdzJqVHc2VGdQd0tLUFkyQmlYcEM4aVNHc21taUxjLUZ6VEs?oc=5",
+    "source": "Siamphone",
+    "date": "2026-10-09",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "enriched": false
+ },
+ {
+  "id": "c1e7ec4cbf0c",
+  "name": "โขงอเมซิ่ง Amazing Mekong",
+  "name_th": "โขงอเมซิ่ง Amazing Mekong",
+  "start": null,
+  "end": null,
+  "venue": "ลำน้ำโขง",
+  "city": "นครพนม",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "lights",
+   "festival"
+  ],
+  "summary_th": "เรือประดับไฟฟ้าและโดรนโชว์ 800 ลำ จัด 3 คืนติดต่อกันเหนือแม่น้ำโขง ควบคู่ไหลเรือไฟนครพนม",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ททท. จัดเต็มโขงอเมซิ่ง ตระการตาเหนือลำน้ำโขง 3 คืนติด ยกระดับ ...",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10445530",
+    "source": "ข่าวสด",
+    "date": "2026-10-20",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "09fa221fbb3b",
+  "name": "เทศกาลพลุนานาชาติพัทยา 2569",
+  "name_th": "เทศกาลพลุนานาชาติพัทยา 2569",
+  "start": "2026-11-27",
+  "end": "2026-11-28",
+  "venue": null,
+  "city": "พัทยา",
+  "country": "TH",
+  "region": "east",
+  "online": false,
+  "tags": [
+   "lights",
+   "festival"
+  ],
+  "summary_th": "เทศกาลดอกไม้ไฟนานาชาติ จัดวันที่ 27-28 พ.ย. 2569 ที่พัทยา",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ปักหมุดรอได้เลย \"เทศกาลพลุนานาชาติพัทยา 2569\" เตรียมเนรมิตท้องฟ้าสุดอลังการ 27-28 พ.ย. นี้",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5saFVWLUNjbzdGSFdkak5hcDMzdjZrb0RCNEdlU0Z5dW1rVWxXV3JMQW96dmRYSnNRU1dxTm9VS2tWSHVXSEJlN2dZd2hqTjUyZDNQaVRjdTBOTjlBMlJMQw?oc=5",
+    "source": "Thairath.co.th",
+    "date": "2026-10-20",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "cc562a8b4eb6",
+  "name": "เทศกาลคริสต์มาส 2026 ที่ Grand Magic Hotel",
+  "name_th": "เทศกาลคริสต์มาส 2026 ที่ Grand Magic Hotel",
+  "start": null,
+  "end": null,
+  "venue": "Grand Magic Hotel",
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "festival",
+   "kids"
+  ],
+  "summary_th": "เทศกาลคริสต์มาสพร้อมบุฟเฟต์และกิจกรรมสำหรับครอบครัว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เทศกาลคริสต์มาส 2026 ที่ Grand Magic Hotel : บุฟเฟต์และกิจกรรมสำหรับครอบครัว",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOUQ0SWNSSk01ZTRHY3pBNnZQck41ZXNGNUtYTmIySnAxNDJvX25OalVCYnRVcGw5SXhHV3NoUHFWeVNQR0RuTDI5a1JMWmI3N29nM0RJVGloZ3JqUHdzcEJqRWJiZHdSalJza3UyUHU3R3dFVGxuX0dkN0JIZmZxM3FKSjZfc3VfbEQ0OF82YWJBa2JsTDBwT0g4OW5JS3hQMnJLOEdPSDJCbURXYndRRUQ2d0w1WGR0aHM4blF0dDJwY2RsbE5QMG1FeWRleDJVYm1Qc3VEMVk2alk?oc=5",
+    "source": "Sortir à Paris",
+    "date": "2026-10-20",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "3af27c386784",
+  "name": "กรุงเทพธุรกิจ CEO GOLF 2026",
+  "name_th": "กรุงเทพธุรกิจ CEO GOLF 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "match"
+  ],
+  "summary_th": "การแข่งขันกอล์ฟสำหรับ CEO และผู้บริหารระดับสูง พร้อมกิจกรรมเครือข่ายธุรกิจ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "กรุงเทพธุรกิจ CEO GOLF 2026 IS BACK. กลับมาอีกครั้งกับกิจกรรมสุดเอ็กซ์คลูซีฟ ที่รวบรวม CEO และผู้บริหารระดับสูงจากหลากหลายวงการไว้ในสนามเดียวกัน 🏌️‍♂️ หนึ่งวันของการแข่งขัน 💬 บทสนทนาระหว่างผู้นำ 🤝 และโอกาสใหม่ที่อาจพาธุรกิจไปได้ไกลกว่าเดิม เพราะเกมที่สำคัญ ไม่",
+    "link": "https://news.google.com/rss/articles/CBMivAZBVV95cUxPdF9yNU1YYVRWUjRERnFlRE52aWtudkJqYV9oSWlOOU9kQ3phNHRJVS03TVhzLWUyZlI0cXJXZXVrYTdwUGtySXEyeTNwcTh6TkFyYkRGcDdEb3pMak03Q3FwRnFmM0NKZUtEUC1XNllITG5SUDRwQ1JReXgwYzduUmZWT201T25xZ0hGVHJxaHBZb0ZkZy1zYVk0Y3Z2UkxyQjB6M0Q3WjNfRUh2LVA3dm91cW8tcV8wRFgwYXVFRm10OWhHQXdzSHd5a2p5TzRfNmdmWkdzaUdtalQzNWVacUdrbGtLZ1hQQkotcjViZFR1SXZRS2pzNUZPb3U5SUpENmVVMEhiTGM4YTdQb08zejE4ZV9aMGxRaFdWTU9nYkt6SklZOGFIWl8td0pNVGlFdnNyZ280anB1Q0NXbnJTSzBxdm43VTZVSVJzZ0h4OG1SMTUzU0JlWXNhT2Y3ZkxfVmxXa2ZYMXBxTUtRdEppcG1KT2VmQ09DT2VIOUJwWG0wZlV4akdlakg3czhqS3ZxR0JDOXN2a0lGd2tJLWJrQjNXci1lb0cyTGhhU1dRMU5wU0IzUkx4N3V6UUFpNldPNk1pUDBiUlNjQmpHN1AwaHF6MXktS2QtaWNYd0lUVEhGUkFrajJHdUJkdU54Xzhmd1VKTW5RTkNaVU0xNkZaaTI2RlNPZ1V4Q1gtbWlUcWZTbTJLemRRT19udUpDLWdScjVjbVJfU19kWjk5ZUJsdGRHaWFxWVdkX2ZTSDdSbkRKc3A1UDlZRFRlaDJ3eVFtT3cxNTFYNU5ac1ZuRzI3NTRpcFNwT2p2RXI5Q0hnUDNKNmtCSVlVTEYxMUZ0Z1R6WGdQbzFPWklPb0hKRUhrRjBuVW5sYjdJa0xPQ1VpLUw4Q2dkNEk4dDZJNjZaeXZfYzBHX3hYbmE2clZQZUJaNUlJMjhfNk9KTVB2TnFGandyRm1lSnpMdGZLNHdLNGY4VHBvNlpwTDlzVkRwVlotclJGRDFVek40TWhsODM3VUdsX2t3M2VQTXhxOUFKb0U4Z2lSekxDeDZQUWFJMk1qalZNUVZVLVRWaHpTQ0xrejFWTUppOFhQM0g4c1Y?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-19",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "f9c9ef47dc40",
+  "name": "งานรับบัวบางพลี 2569",
+  "name_th": "งานรับบัวบางพลี 2569",
+  "start": "2026-10-19",
+  "end": "2026-10-27",
+  "venue": "วัดบางพลีใหญ่ใน",
+  "city": "Samut Prakan",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "tags": [
+   "local",
+   "festival"
+  ],
+  "summary_th": "งานประเพณีรับบัวที่มีเพียงแห่งเดียวในโลก จัดถึงวันที่ 27 ต.ค. นี้",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "หนึ่งเดียวในโลก! งานรับบัวบางพลี 2569 เริ่มแล้ว 19–27 ต.ค.",
+    "link": "https://news.google.com/rss/articles/CBMizgRBVV95cUxPUEQ5UG5sWVB6dUpzeEhpUFJ5eFRSQTRRWnNGYWhTRllfcjRwdzF6RVpTYWhqT2FwMHdQTmNDX3hTVExHY1pjV0Fpb0RFMXFxbWlBbXVJMGtaRUtTbTA0NmNPMW56NlRCd1dBTXdaNkk5RzY5MUpudlBrd2JSQm1hUXBwU01ucFBCVnFUMFpOTFNXRWNSM1AxMVRNaVpHVVhLQ2hUSHA4dVRnbi1HS1lBNmwyS0NOVzl3SUU0a3h0aGxySjdCRW9UVTBnN3NmQXFwNTlJdUhwRDZTMGtrMWxxZHlrTFB4YkU1NUc5cEszbzFFUnNvd0d3a1J5Q2JVQUIwbGk3NUtvVzZNYk12ck5tSU42WGV3N0NUd0pqTEktSnJ6V2s0MEo4eDhQcDA0ZFJrN0hKSm1VZzRQaWxkMEhZNW5SaWpOR0J1eTdkSmVYNTlPbHVjcHBITzJaUk9teXlrdnlaeU5Ld1Y1aHlfdnV1U0NlOEJOQ18zNlBYSUIzaC1BRkd3SDdjcGlUR1NEMVk3aVVkMkR5enZ5MVBBTGRDTlRrWkVyWTc0NG5lNlphd1BwYmNMdWNSalFlenIwXzV2VzFFcDBLV1g2M29xVE1PWGpXcDl5bVZCVGRPU2ZNdDZCMElDSjA3ZFhSY0ZBOHBxUDBZWDNMaVRWeHJfM2tSM1h0WkFoTmx5WERGN1BRMndBN2xNTnRNVWd0cExmZVlYc3J4UW9FeUpKZWhrR2Q1NVVGTXN0dnFlTkI5STJsN1B0OUVoaXQyWVM2VEhCZw?oc=5",
+    "source": "ททบ. 5",
+    "date": "2026-10-19",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "a9816dfe8fdd",
+  "name": "ประเพณีกิ๋นสลากหลวงจังหวัดแพร่ 2569",
+  "name_th": "ประเพณีกิ๋นสลากหลวงจังหวัดแพร่ 2569",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "แพร่",
+  "country": "TH",
+  "region": "north",
+  "online": false,
+  "tags": [
+   "local",
+   "national"
+  ],
+  "summary_th": "ประเพณีกิ๋นสลากหลวงประจำปีของจังหวัดแพร่ เตรียมจัดงานตามประเพณีท้องถิ่น",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เตรียมความพร้อมจัดงาน “ประเพณีกิ๋นสลากหลวงจังหวัดแพร่” ประจำ ...",
+    "link": "https://www.chiangmainews.co.th/news/4188788/",
+    "source": "เชียงใหม่นิวส์",
+    "date": "2026-10-19",
+    "image": "http://www.bing.com/th?id=ONUT.njeKTs67EQILbx2SZHethQ&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "11239a314348",
+  "name": "World Gourmet Festival 2026: The World of Flavours",
+  "name_th": "เทศกาลอาหาร World Gourmet Festival 2026",
+  "start": null,
+  "end": null,
+  "venue": "โรงแรมอนันตรา สยาม",
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "food",
+   "drink"
+  ],
+  "summary_th": "เทศกาลอาหารระดับนานาชาติที่โรงแรมอนันตรา สยาม รวมเชฟและร้านอาหารชื่อดัง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "นับถอยหลังสู่ World Gourmet Festival 2026: The World of Flavours ณ โรงแรมอนันตรา สยาม กรุงเทพฯ",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoY3RVTWZacWYxS1hiRmUyZXNBLUVJMmZ0cUd3V2czNlpiR0gtOEhtSWxGeklnWUw1NHpVSnpKWE5yM2VLT0hmY3Y3RkdZNDhsUk5haW83SERvWHkwc1ZwTk10SQ?oc=5",
+    "source": "แนวหน้า",
+    "date": "2026-10-19",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "c750eee245f2",
+  "name": "Dib26",
+  "name_th": "Dib26 นิทรรศการผลงานปิกัสโซและมาติส",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "art",
+   "museum"
+  ],
+  "summary_th": "นิทรรศการจัดแสดงผลงานของปิกัสโซและมาติสมูลค่ากว่า 200 ล้านบาท เข้าชมฟรี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "สัมผัสผลงาน Picasso และ Matisse มูลค่ากว่า 200 ล้านฟรี! ที่ Dib26",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMGdtRzVVeS04bm5GUjNCdFRSX0lJYW05WXlHNk96dnRObERJMlN1ZHhEdHJEQ0hoTFlBVVpTM08tMmMwa2dyelFBZjJjNkQ1TnRqelRUVVlkUF9GNE1rUnlqX2hMeTFfNjVVMklLd2ptUzBVTTV0dXNtaldvM2pUN0RSbzlPQ1FWM19OODhtd01PWUpjTUI2MXI2S1hNM2M?oc=5",
+    "source": "Time Out Worldwide",
+    "date": "2026-10-19",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "62741c2cdb99",
+  "name": "ศิลป์ : ทรัพย์ นิทรรศการศิลปะเยาวชน",
+  "name_th": "นิทรรศการศิลปะเยาวชน ศิลป์ : ทรัพย์",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "art",
+   "kids"
+  ],
+  "summary_th": "นิทรรศการศิลปะของเยาวชนภายใต้แนวคิดรู้ใช้ รู้ค่า และการพัฒนา",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "อนุทิน ชาญวีรกูล ชมนิทรรศการศิลปะเยาวชน 'ศิลป์ : ทรัพย์' รู้ใช้ รู้ค่า พัฒนา",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0VkdnODNoZEgwM0JzRE1tR1E3WUE1WFgzSkNRSHJCcE4tM2EwQ1U0czRaY1NHXzZFY2J2QTZkVTRRNndRWmZKRml5OHc1WF9pODJMVXhjSmFDejEtd0dPMUkxMG1PYS16YXc?oc=5",
+    "source": "bangkokbiznews",
+    "date": "2026-10-19",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "32e3bfec2ae4",
+  "name": "Bangkok Raw",
+  "name_th": "Bangkok Raw นิทรรศการภาพถ่ายนู้ดเชิงศิลป์",
+  "start": null,
+  "end": null,
+  "venue": "Old Town Gallery",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "art",
+   "photo"
+  ],
+  "summary_th": "นิทรรศการภาพถ่ายนู้ดเชิงศิลป์ของอาแล็ง กาลเลอโบ ที่อุทิศทั้งชั้นของ Old Town Gallery ชวนมองความงามและความเปราะบางของเรือนร่าง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ภาพถ่ายนู้ดเชิงศิลป์ ณ มหานครกรุงเทพฯ การเบิกทางสู่ผัสสะและ ...",
+    "link": "https://www.timeout.com/bangkok/th/news/bangkok-raw-at-old-town-gallery-102026",
+    "source": "Time Out",
+    "date": "2026-10-19",
+    "image": null
+   },
+   {
+    "title": "เมื่อเรือนร่างมนุษย์กลายเป็นงานศิลปะที่ชวนให้มองต่าง",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSU1ROE9Bakt2NUNzanI0RFkyQXJXdlBFdklQOF9mY0dUQWpKV1lBRUktamdZZjBXTURtYVh3Qkd6QmlmM1NUeHBVZWZ1bE9mU3ZUTFdvV085QmQ0c19RQmlrM25MaTV5NkNiX1RZME9hNU5FZnZLWkh6VVZOcXV4Z0ZMZzE?oc=5",
+    "source": "Time Out Worldwide",
+    "date": "2026-10-19",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "005eef57023e",
+  "name": "Dhammakaya Pagoda Autumn Festival 2026 Photo and Art Exhibition",
+  "name_th": "นิทรรศการภาพถ่ายและศิลปะในงานเทศกาลฤดูใบไม้ร่วงเจดีย์แก้ว ปี 2026",
+  "start": null,
+  "end": null,
+  "venue": "Dhammakaya Pagoda",
+  "city": "Pathum Thani",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "tags": [
+   "local",
+   "art",
+   "photo"
+  ],
+  "summary_th": "นิทรรศการภาพถ่ายและศิลปะภายในงานเทศกาลฤดูใบไม้ร่วงที่เจดีย์แก้ว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "นิทรรศการภาพถ่ายและศิลปะในงานเทศกาลฤดูใบไม้ร่วงเจดีย์แก้ว ปี 2026",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLVpPYU05VGxXNlFRbzg1aWRGZlY0SUU2VHBnajFiTVkxTjg0QmJCb0k0eng5VV8xQ1RyaUptczcxa2FMcHdLcEpPcl9hdmZjcEN2NG4xQXJFakI2VWo0TFE3NlhMQ3N5dmtEVnRuTFVwMk9BZWVXamtkYl9vZ3ZFb2RMQkJ0MkRjZ3d4TGp3c3hlYWMxTFE?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-19",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "f0cdd02a8bb7",
+  "name": "Loy Krathong Festival Sukhothai",
+  "name_th": "งานประเพณีลอยกระทงสุโขทัย",
+  "start": null,
+  "end": null,
+  "venue": "Sukhothai Historical Park",
+  "city": "Sukhothai",
+  "country": "TH",
+  "region": "north",
+  "online": false,
+  "tags": [
+   "local",
+   "lights",
+   "national"
+  ],
+  "summary_th": "งานประเพณีลอยกระทงที่สุโขทัยพร้อมการแสดงพลุ ซึ่ง อบจ.สุโขทัยกำลังหารือแนวทางจัดแสดง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "อบจ.สุโขทัย หารือแนวทางการจัดแสดงพลุในงานประเพณีลอยกระทง เผา ...",
+    "link": "https://www.banmuang.co.th/news/region/494761",
+    "source": "บ้านเมือง",
+    "date": "2026-10-19",
+    "image": "http://www.bing.com/th?id=ONUT.rRHHzQHk6PheI2J3DtreAA&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "40bb0f4a562a",
+  "name": "Princess's Cup Thailand 2026",
+  "name_th": "Princess's Cup Thailand 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "pet",
+   "match"
+  ],
+  "summary_th": "งานแข่งม้าและโชว์สุนัขสำหรับคนรักสัตว์",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "สวรรค์ของคนรักสัตว์! Princess’s Cup Thailand 2026 จัดเต็มทั้งแข่งม้าและโชว์น้องหมา",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1oQVRfblNxYi1UaTFpOW5sMGZQNkdkTVk2QWtxOU5iVTZ4azRfOHlBdUFIbXZFSWdZQ3FpaUwwcjJnQTIzVmE2TDN6a29sOGJ5U18yWVJVMnJDQ0NOaGhDdlhnUXFVazlsNkZQSW5HSll2VkFTWjZB?oc=5",
+    "source": "Time Out Worldwide",
+    "date": "2026-10-18",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "9f944494bdc4",
+  "name": "Law Chula Fest 2026",
+  "name_th": "Law Chula Fest 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "edu"
+  ],
+  "summary_th": "งานนิทรรศการด้านนิติศาสตร์ประจำปี 2569 ของคณะนิติศาสตร์จุฬาฯ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "Law Chula Fest 2026 งานนิตินิทรรศน์ ประจำปี2569",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZX2ZieTVzVGRIQTJfSzEwcVdkRkc4WHZiOUxlTUh0cjlSY0xTSmVUNm1OMklCSFlvQkl5ZFlqRWxsbl8yRHc5Ym43U0REWk0wdThn?oc=5",
+    "source": "Dek-D.com",
+    "date": "2026-10-18",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "3bd2bc1f5792",
+  "name": "MEGA J-FOOD FESTIVAL",
+  "name_th": "เทศกาลอาหารญี่ปุ่น MEGA J-FOOD FESTIVAL",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "food"
+  ],
+  "summary_th": "งานเทศกาลอาหารญี่ปุ่นขนาดใหญ่ที่รวมเมนูอร่อยหลากหลาย",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ปักหมุดความอร่อย “MEGA J-FOOD FESTIVAL”",
+    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOcmN5QlkzS0V3bkQ4bUprekQyVjk4MWl4bzE5OS1UQXRmcUNObG9LTlhKWC1vc0s4ZzZWTDd3Q19pMTFWVFFCOFEzdGs0UW1ac1gweE1FeDdGRmVxdDhmekMxMmR6N1NLX1ZNRGxDQzQ1UkFlaE5lcXBNM3JvYU0wM0tLeC1xMlBuOEU3bnNYWWx4Zm1pTEFyOF9qdGlhVTJlZ095ZGRaWHpqMVhvQ09oYlRJbEVmTXFlZHdnMUhOTXg2d1E0MFlOSnBYd0VhQ3pEbGxST3JKUXFFZVY4Vm9JVlNJZXZfcEVwZnYwMVlRbmx4aEVuLUtwdnllT1ZDelg4YTdtTUN0MVU3eW5RYlY0Mi01Y3RPNXVQZDlhaw?oc=5",
+    "source": "สำนักข่าวบางกอกทูเดย์",
+    "date": "2026-10-17",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "4bc7c0dabd35",
+  "name": "Craig McDean Photo Exhibition: Ducati 750 Supersport",
+  "name_th": "นิทรรศการภาพถ่ายของ Craig McDean ฉลองตำนาน Ducati 750 Supersport",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Tokyo",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "tags": [
+   "photo",
+   "art",
+   "bike"
+  ],
+  "summary_th": "นิทรรศการภาพถ่ายในโตเกียวที่เฉลิมฉลองตำนานมอเตอร์ไซค์ Ducati 750 Supersport",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "นิทรรศการภาพถ่ายใหม่ในโตเกียว Craig McDean เฉลิมฉลองตำนานมอเตอร์ไซค์ ‘Ducati 750 Supersport’",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaU5FOGJ2dnVETEVZakF5SnV2Z1dtZUxlTWZCanQyLTlxVXRFdWtBM2E3M1JRQTNzT2tXM3ZQNndCd1JLOE5hdEVITkstdUpPTGhka0F5Y2tzRkVSdkpzdi01WTZfVkpLTnJKTnd4MExmbHBDeDRVLVFmdnE2UGV3alZNVHVNd2xMZWcwNjhJMko?oc=5",
+    "source": "Hypebeast",
+    "date": "2026-10-17",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "d9f39b2667f3",
+  "name": "Hilgay Hilai Music Light Art Festival at Lumphini Park",
+  "name_th": "งานศิลปะแสงสีและดนตรี ฮิลกาย ฮิลใจ ที่สวนลุมพินี",
+  "start": null,
+  "end": null,
+  "venue": "สวนลุมพินี",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "festival",
+   "lights",
+   "art",
+   "concert"
+  ],
+  "summary_th": "ททท. จัดงานศิลปะแสงสีและคอนเสิร์ตที่มีศิลปินกว่า 46 คนที่สวนลุมพินี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ททท.เนรมิต 'สวนลุมพินี' จัดงานศิลปะแสงสี ดนตรี ฮิลกาย ฮิลใจ คอนเสิร์ต 46 ศิลปินสุดปัง",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JVkRsaWIwaUVrNmFhRGxkZnk0NzdOTmwxbkhKNVlxT3pNMV9aTTZpWkVmcVd3LVBtRGdvYkJ2LVRBTS1Ec0RsTWNzeHNhOVMxcENqNVREdXJXSlptR2EtbFhEMTlTUQ?oc=5",
+    "source": "Thansettakij",
+    "date": "2026-10-17",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "1e7ca6d4853e",
+  "name": "SWK OLD TOWN, NEW FEELING",
+  "name_th": "SWK OLD TOWN, NEW FEELING เมืองเก่าสวรรคโลก",
+  "start": null,
+  "end": null,
+  "venue": "เมืองเก่าสวรรคโลก",
+  "city": "Sukhothai",
+  "country": "TH",
+  "region": "north",
+  "online": false,
+  "tags": [
+   "festival",
+   "lights",
+   "art",
+   "concert"
+  ],
+  "summary_th": "งานเปิดเมืองเก่าสวรรคโลกจัดแสงสี ศิลปะ และคอนเสิร์ตเป็นเวลา 5 วัน 5 คืน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เช็กอินสุโขทัย! งาน “SWK OLD TOWN, NEW FEELING” เปิดเมืองเก่าสวรรคโลก จัดเต็มแสงสี ศิลปะ คอนเสิร์ต 5 วัน 5 คืน",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ISFRDaDdZQ1BEZV9hVGpXQmtuUUV4SFNlSEFDZ2hPMW5rUHAtc3ROYzdCV1hfb25OZHp0WXo0TEE4d2ZqMGw5R1hOa2xISmkxNTVmMFB2Zw?oc=5",
+    "source": "Meta8News",
+    "date": "2026-10-17",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "eb1dd780e32e",
+  "name": "DIAGE Festival 2026",
+  "name_th": "DIAGE Festival 2026 ที่ Cloud 11",
+  "start": null,
+  "end": null,
+  "venue": "Cloud 11",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "festival"
+  ],
+  "summary_th": "งานเทศกาล DIAGE Festival 2026 ย้ายจัดที่ Cloud 11",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "DIAGE Festival 2026 ย้ายบ้านสู่ Cloud 11",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1sb1VOX0M4RVNuUmhRd2xzZ1REWF9fMC1Ca2pNS0l0VFhnRkdJREZKX0JxWEZncGVsb3dBZHlmeE5xQWY2THMxSHI0OVZmTnRtQlN5LWZGQWlZNHN4VE5oUHBtUFlNX1ZJM05QNDhBVzdiNFpvSjFPZUdhSHk?oc=5",
+    "source": "Time Out Worldwide",
+    "date": "2026-10-16",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "cea8369edd9e",
+  "name": "NATION FORUM 2027: THAILAND'S AGENDA",
+  "name_th": "เวที NATION FORUM 2027: THAILAND'S AGENDA",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "ai",
+   "startup",
+   "edu"
+  ],
+  "summary_th": "เวทีเสวนาอนาคตประเทศไทยด้าน AI หุ่นยนต์ และควอนตัม ในหัวข้อ The Intelligence Economy",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เลิกกลัวการตกงาน แต่ให้กลัวคนที่ใช้ AI เป็นมายกระดับศักยภาพตัวคุณและธุรกิจให้ก้าวทันโลก ในงาน NATION FORUM 2027: THAILAND’S AGENDA เวทีที่จะพาทุกคนไปเจาะลึกอนาคตกับ “THE INTELLIGENCE ECONOMY | AI, Robotics & Quantum เปลี่ยนเทคโนโลยีสู่พลังเศรษฐ",
+    "link": "https://news.google.com/rss/articles/CBMi_AdBVV95cUxOV3pIczlrMWZYNlhMaDEzZDVWMUpINlVCNklEMnh4Um9xaGpnTjIwZDVCSkJsWWFvTjM3cmp5eEliUkZNZkZIdG5LVXUzQlJ6U3NKNmtNdmxFN1NmOWxSQ3B4cFpoWkdnenlEU3Z1akF0ZkpfbnkwalZhUUlwUURDU2tLd2Y2WmZmVXhwS21KcXFCek5KVVFtbHpnd25EZXpxdEZEOVEtOXVrek52R0pCYXp6Yjg2dEpKX1gzLWVxUE9IcmE0SnF1QTQ1UDNwMmpmLXZHLWk1elZfT3ZEY0Z0UFl6TlR1bzN2ZGVYMklNeFFBc1ZHdFZTajBGTDhuUHhTaGZyTkMxUmJQaEtwcVB0TUhWamVMSkNkT0wxLUVFeDV2cF90RDF3YXhLd3Z2czlpS3N3UVlHTkN3OXNMaU9DWk1Jb0FFa19DNEE4VVpMNlk0bUloLVc2VUFsbXpaMGd5SWxJaGRacTE3Q1lWSjdNaVpNelFzMVpWeV9ELVJZS0k0d19jM1o3V2FPdWtWd2h0Y3FjZzM1ajU0NC1lUHE0UVVQYnNzTjRNM0FDQXdoV0JyVEJ5ZnJTaHVGZ0NSSmVvalZpNkpURzdSdEUxVDFOR2FFSXlzS1lrNlpRWE9KVGFUMDhuM2I2VHZ4WTBFSlNDNGhKN29sYnFSNlo0cXhLbnBLT1A3UVdPdzNFTURHQ1FpNXVqOE9KU1lvaHlSYzRwWkxPN1BEdHh4NERFdDNXZTVyMktfekZMYy1sWTNJWWVTaVRFRGdjZFA3WGFVMWFRTDJiTWctYlpVVklNTVRTQUl3ODU2blRibG1VOF9zd1FUTXZtRWNBZ3BYdjZoYVUzRDRVVnZjNkUyb3djM1dyejFiUTB0TURCMmJtUDdaaEFaNVJjWmV2b1I4UmFHREZ3MXA5TUxFMWVGLTBiUTlzQ2YwRnhzRS15ZUxHdnlTeDNzcGM4R2o1VjdZaU5OQVBHdUpsbzVKTTBvQmxXd0NWZjF3aTBKTDJtYUlNSm1LcEZ6bUZQSlNHSW5SOVpTSVgyd1IwbDdaMFp0TlZsYmhldWh1bUtNZHFUeVNlTmdvRFppcjBJT0Y0VW1LbnFpY05BRGNFd1VnMndWSzFGTnVWeWxCY2RoZ2tnVERXem0xLWYtUTFNV2hlZFFkRkhHLU9VNWFobDB2Z3d1Z2J4NVFfWnA0dmhxdFBDQ2E2dW4ydERjX1NCeHpwSnlhd3ZRLV9TY0tQY01JcmM5ZXFtaGVUWkFBVGFzTHlyeElfSzJwUVZNNWEtbEVpcnpsa1VYb3B2cEIybXBseUhHbWdYVFR5ejV5bENKUWN2S0N4LWpoQUZOeUxFRDFkRy1DS1E?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-16",
+    "image": null
+   },
+   {
+    "title": "ยกระดับศักยภาพตัวคุณและธุรกิจให้ก้าวทันโลก ในงาน NATION FORUM 2027: THAILAND’S AGENDA เวทีที่จะพาทุกคนไปเจาะลึกอนาคตกับ “THE INTELLIGENCE ECONOMY | AI, Robotics & Quantum เปลี่ยนเทคโนโลยีสู่พลังเศรษฐกิจไทย” . พบกับ 🔹รศ.ดร.วรพล พงษ์เพ็ชร Ch",
+    "link": "https://news.google.com/rss/articles/CBMi0gVBVV95cUxOaHRFNkZoRDRfYmVVVWtlQ1AteGttRFBUVW9xUHZFNlVCdnhNVEQ2ZWpvQ3Y1Vk5SVHJYZlJtM3VnX2hzYzVRS0pMSWlLdWpPWVRzSFhqX3lXOGlKUlRiLWVhUmtmeHpJOTkwNlZTSWtJbThSTU0tNzVYd1BfWEFfU09RWkxWbTdZaHJtY0hJR1RMOWZtY1prMWVsZU92RFB1UHNaUEVpZU9UZmhERG8wV3pCV0tleGlid21qS09KZ0lLQUdneW1pbm55YWxnWU1JUEpobnZ2dFpjR1hWcVl5aWdFVmR4VTg4RmpDR0FLbGRnMnBWN3R2M21aLUlDWGJtbjEtSmxBaDFFWm1JUEFtZVh4djI5ZHJJZWdFeXFSOHB5NEp5ak03aC1OQU10U2ZJUjJiWW84LUdFZVVxNWdLNnQyQmQ5OFlZUWFWVDNpYUpOUmpFTXhIcV9jdDlxX1kxTTR1dlR6NG03VWdGc3gyak9YdVB4SEhHOW5pMGxhZnpXOUUyZUd1NmllLXRfVmZSNGhKSnhYTDRXSDM5TFJQYjFlU0s4Z1BQTGZlU0RWUEhPNDJDNnFhMU5rRlFFQm5ja2RMT25RNVZvSEZvcDBRalRZQnpQQUY3SFBMX0Q3SlJxUk1iSGg2SWVNWm4yN0FVREQ5QVNJZUg2Y2stNWJtTUh0RERzSHdYV19SM3RidFNYbkFFMzZzMldWZkJ5SFFYUnY2UXpCQllLOHAxOG8zSzFydURLNFNEYWhxQjhkamU4VXcyZWxGVG5POWZPUjdBZnh1Y3luXzRVekV3eWcwLXctQ1l6ck8zc2NqSE5TQXpWTEVjUjgxNmVYRGprTUZhbkw0XzVnSGlfR1RyaGk3am9hRzNCVDg0WEJBWDh4WTVNVG9GZEpNTHE5V3gtZWlZUi1oYlVKOFE1YVlCaDl2SUhIREFHR2tVQUV2cmpqR05yZw?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-15",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "enriched": false
+ },
+ {
+  "id": "22b15ccde8dc",
+  "name": "สตรีทฟู้ด@วังน้อย",
+  "name_th": "สตรีทฟู้ด@วังน้อย",
+  "start": null,
+  "end": null,
+  "venue": "วังน้อย",
+  "city": "พระนครศรีอยุธยา",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "tags": [
+   "food",
+   "nightmarket"
+  ],
+  "summary_th": "เทศกาลอาหารให้ช้อป ชิม ชม ที่วังน้อย",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เชิญชวน ช้อป ชิม ชม เทศกาลอาหาร “สตรีทฟู้ด@วังน้อย”",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zd292aDlSVXZ1RFVxOGVxOUZlaGZESGNjZ3VyWkRtaUVDOTBPR3dNYjFVS1h4NktwXzV2UTBTZDFCd0V5QjdGNzRnaS1PTnc?oc=5",
+    "source": "www.topnews.co.th",
+    "date": "2026-10-16",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "c159f5cc178a",
+  "name": "Pranburi Food & Music Festival",
+  "name_th": "เทศกาลอาหารและดนตรีปราณบุรี",
+  "start": null,
+  "end": null,
+  "venue": "ปราณบุรี",
+  "city": "ประจวบคีรีขันธ์",
+  "country": "TH",
+  "region": "south",
+  "online": false,
+  "tags": [
+   "food",
+   "festival"
+  ],
+  "summary_th": "เทศกาลอาหารและดนตรีที่เปิดงานแล้วในปราณบุรี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เปิดฉากแล้ว! งานเทศกาลอาหารและดนตรีปราณบุรี Pranburi Food & Music Festival",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13RldhRmkzZWRLQ0hfd19QMmd3bDN2dlhXM3NpMzZibXRiXzV3UjJMeVNVQ3BhNnoyTmJ1eTUyZzEwMUFzODM4M3VzTUplNXBURGJQdTJiS2M?oc=5",
+    "source": "banmuang.co.th",
+    "date": "2026-10-16",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "70c3fd14de16",
+  "name": "Different Kyomachibori Art Fair 2026",
+  "name_th": "Different Kyomachibori Art Fair 2026",
+  "start": null,
+  "end": null,
+  "venue": "Kyomachibori, voco Osaka Central",
+  "city": "Osaka",
+  "country": "JP",
+  "region": "kansai",
+  "online": false,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "งานแฟร์ศิลปะในย่านเกียวมาจิโบริ โอซาก้า โดยโรงแรม voco Osaka Central เป็นสถานที่จัดแสดงนิทรรศการครั้งแรก",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "voco Osaka Central เข้าร่วมงาน Different Kyomachibori Art Fair 2026 เป็นครั้งแรกในฐานะสถานที่จัดแสดงนิทรรศการ",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdXprMEstUnpLOXlkOGI5SUhMa1pVM2llRjhZbnA1aEhKZDA4SVVDLWcyNllwVkl2SGZ3c3F0NDdxb2NsV0dkNW9IMk4wMnY0eURnMWdUNGx0LXJmcUszemw2WnpwOGs2QjdVMk1femdyZEZNT0ZmRzZLSk5ma3cwck9zUldNaFdmTDJlUU5SeTQ0WmFtbEYtR1RfbGRmbDJ5ak9z?oc=5",
+    "source": "www.haveagood-holiday.com",
+    "date": "2026-10-16",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "0da08588ca65",
+  "name": "นิทรรศการคิดถึงสมเด็จย่า ครั้งที่ 29",
+  "name_th": "นิทรรศการคิดถึงสมเด็จย่า ครั้งที่ 29",
+  "start": null,
+  "end": null,
+  "venue": "ICONSIAM",
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "art",
+   "museum"
+  ],
+  "summary_th": "นิทรรศการย้อนรอยพระราชปณิธานแห่งการให้ พร้อมงานคราฟต์และกิจกรรมวัฒนธรรมล้านนา ที่ไอคอนสยาม",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ไอคอนสยาม จัดนิทรรศการ ‘คิดถึง...สมเด็จย่า’ ครั้งที่ 29 ย้อนรอยพระราชปณิธานแห่งการให้ ชูคุณค่าดอยตุงผ่านงานคราฟต์และกิจกรรมวัฒนธรรมล้านนา",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQbHB3QzY5QmpTa3N3QkN1YVlLaldMRFlkMGF6dUVqZUZmMFFfeEVrSnlULWxDcVBjT2FmRGpoNjdBMWZXdkpkRWE1d1ZhNm9FN3h4R2hZN1kyZw?oc=5",
+    "source": "ไทยโพสต์",
+    "date": "2026-10-16",
+    "image": null
+   },
+   {
+    "title": "นิทรรศการคิดถึงสมเด็จย่า ครั้งที่ 29 ย้อนรอยพระราชปณิธานแห่งการให้",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CdWhTODZxcWVBUVF6SWxNNjNQd1JCbWY3TnpDdTExNjEyZG1JMzFmT0hWVDRaOElwVFJTWHBYdGVuNlBoc3dvU3lUM0xpemV0b0ZKWEpYaG53YkRjc0tGcHJXdlhaeVI1d0wydDZR?oc=5",
+    "source": "Head Topics",
+    "date": "2026-10-16",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "860c38a999e1",
+  "name": "TOKYO GAKKI EXPO 2026",
+  "name_th": "TOKYO GAKKI EXPO 2026",
+  "start": "2026-10-31",
+  "end": "2026-11-01",
+  "venue": "พิพิธภัณฑ์วิทยาศาสตร์",
+  "city": "Tokyo",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "tags": [
+   "expo",
+   "workshop"
+  ],
+  "summary_th": "งานแสดงเครื่องดนตรีและงานคราฟต์ จัดวันที่ 31 ตุลาคม – 1 พฤศจิกายน 2026 ที่พิพิธภัณฑ์วิทยาศาสตร์ในโตเกียว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "TOKYO GAKKI EXPO 2026 เตรียมจัดงานวันที่ 31 ตุลาคม และ 1 พฤศจิกายนนี้ ณ พิพิธภัณฑ์วิทยาศาสตร์ในโตเกียว",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmMEoyaVVJQ2pZLVJNLW55RU1uWklNZEE3MkxhSDRxb293QnZobG83R3lZeXFjX1JQTkIyTEtITmFlWk1aNndoSFo1enhLbjVpdUVHLURCUmVCT01xWUJJcTlVaEYwWFIydjQ1QzZFcVNRWEc4bnc?oc=5",
+    "source": "www.haveagood-holiday.com",
+    "date": "2026-10-16",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "9c648394ef15",
+  "name": "Run For The Frontline 2026",
+  "name_th": "งานวิ่ง Run For The Frontline 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "run"
+  ],
+  "summary_th": "งานวิ่งส่งกำลังใจให้เจ้าหน้าที่ผู้ปฏิบัติงานในพื้นที่แนวหน้า วันที่จัดยังไม่ระบุในข่าว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "🪖 ทุกก้าวของเรา คือกำลังใจของเขา! ร่วมวิ่งส่งพลังใจให้แนวหน้าไปด้วยกัน เปิดประสบการณ์การวิ่งที่มีความหมายมากกว่าเดิม กับงาน Run For The Frontline 2026 🏃‍♂️ มาร่วมแสดงพลังบวกและส่งต่อกำลังใจให้พี่ๆ เจ้าหน้าที่ผู้ปฏิบัติงานในพื้นที่แนวหน้า ผ่านทุกย่างก้าวของคุณในงานนี้! 📍ข้",
+    "link": "https://news.google.com/rss/articles/CBMiighBVV95cUxNRUFWcTBnVWNibVN4S3l3Zk94R3hYZWhjTXdYSGVVUmYwWUR2dHBxSkEzOFg1amhFNXItd3hZMWhGS19INDJDbGxvOHEzSjN2d0t5NUlUUllLMDZ4RWp0Q2tDMXNKRm40aUtiVkVvT0lrakp0RTZWN1V3dXRsUjFuYkF2QV80QU5HcWI5bzNEYTdISVBkM3pxVUZWUk9PTlVkN2o3VWhKM04zMEFzb1NPMzhHQTVhTDcxTEVuQlFaRjJMZzBqVVdqc2ZPa0x1eENZY29YbVl6blZhMHBxTC03YXdpN2tiMnM5eTlLZjJzWjNpdTBpbHpsVjd3SDNUNFhZbWtKYmtQTWFzdWl5NlJrc2V0dzVQMUNCaE5SS0pELUpZRXFaRmNRcUFtd0p1RW01QWZIVFQxN1VLaHptT3dnalNfQXhQNGF5WjZGdW1nVzFHMWpXVVlqc3JGM3BGd000clNFWFZBTG44TFFFV0MyUGV1ZWxkNHVZRVlWUlpTMk53dG9DWTZIZ3JJMklNc3B1cy0xelV5OE5yb0ZhcVliVmFJTU9QaXM5R0pVRW1TQ0ZBcUpiSUc3d3p4TkljaHZOaHhTSlAtWVFmWW9vejA5ejNhbE1FVVdpRjB5dHF4bVhtTnBLcnB2ZEdXMHlqQk1EQXV6eWZvTUwtaU93XzNLSTN4Y2xkS19mSDg0aTFHbWJRSWVvRmdITXptSUR3OGVfVjdJU1V6d2RUZzhiYzNlR05JUUVIbF82UFNBYTJCZHJYb2pja2FpVVhiWVpyY0dnbFVibFBIN212RUlrNVpOS0p0T0REeTNsS1h3cnpIUjhWMFl4WnlkcUoyOFFPTmJkQ1lia01HSUFlcmNXdzdPSDR6aGxkY0RERmNVR3lBbnhfQTVHR2EwS2FxWi1rY2t0SjRQUFhiR2ZGbS1VTFk2dGNBNjNLREpybGpTRVVEdUJ0WmE1bmgwVUdQZTBKbzFIRFJwUjhzWFloODlobU5lUU5LYVRiT1lQQXdNS250ZDZPLXl3RDlQVWw2R3FHVVh3VEo2YWZUT3ptenBkNHFfeVMwbnBVV0ROV2JPbGFSOTRBTXhEdVkzY25vajI5T0VKWEtaQ3FLWlE4Vjh5amRWWWI3RWJKSHlHS1doY3VNbDk5Mm04aFlNYWZBN19DWHJIdjRSN3NqbDN0Q3huUEpQZkNSbWdIUG5BWHlOc09sUUJvYURwckpud09BenplVkZWWG5BWHRUZHZBR2VBZUE1dkpVWXlpOGdCT3hkREZwb3dhMnFiaVIwN05IWks3Z0kzTWNhdndqVXBvYmtUb1BCREpWNXJwRGFLMGloOElmaTRVa1d2SkU3OUNsMUx5QmVTSzVFV3BwX2ZvUQ?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-16",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "531c3b03c62c",
+  "name": "พิธีเปิดการแข่งขันฟุตบอลถ้วยเกียไล ประจำปี 2026",
+  "name_th": "การแข่งขันฟุตบอลถ้วยเกียไล ประจำปี 2026",
+  "start": "2026-10-16",
+  "end": "2026-10-16",
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "match"
+  ],
+  "summary_th": "พิธีเปิดการแข่งขันฟุตบอลถ้วยเกียไลประจำปี 2026 จัดขึ้นเมื่อวันที่ 16 ตุลาคม 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "พิธีเปิดการแข่งขันฟุตบอลถ้วยเกียไล ประจำปี 2026",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwNXdkVnRUMi1PRkVZSVVSSjlqb1ZMa293SXhqSHZZbEZET20zdWdhb3MzbkJYbUhIdXY2SzNxUWM2aklrOWUxZHJUT3VHekNwcFV1ZFJvN3lkVzdMM1ZfV29mZGx6bWVHWnNkLUxkcG5PUQ?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-16",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "498ad8a0e51d",
+  "name": "GI Market Roadshow 2026",
+  "name_th": "GI Market Roadshow 2026 ที่เชียงใหม่",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Chiang Mai",
+  "country": "TH",
+  "region": "north",
+  "online": false,
+  "tags": [
+   "market",
+   "expo"
+  ],
+  "summary_th": "กรมทรัพย์สินทางปัญญาจัดงานยกขบวนสินค้า GI มาที่เชียงใหม่",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "DIP จัดงาน ‘GI Market Roadshow 2026’ ยกขบวนสินค้า GI บุกเมืองเชียงใหม่",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yUUxRWDBiS1dxZTZ1SEdKSVdZdE9HeXMzSDdubTdJZWgtSG9waXNONmJicExoOFAtbk15bDhrSG5GWjdodHloU1htMTA4VmVqTU54SEpnMkRBc3c?oc=5",
+    "source": "แนวหน้า",
+    "date": "2026-10-15",
+    "image": null
+   },
+   {
+    "title": "กรมทรัพย์ทางปัญญาจับมือ สสว.จัดงาน“GI Market Roadshow 2026”คัดสรรสินค้าGIคุณภาพดีทั่วไทยบุกตลาดเชียงใหม่",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zSWJoWFVKZFpNcnUxWEFSTnhaNmE2RFliNEN1MFp5bW1vX09iQlI1Qk5LLU00TGtpSFB3MTZIdWp4VW5hVlBCZlpWTW9nWVE4V3JFUmVIVVdXS0x2?oc=5",
+    "source": "ผู้จัดการออนไลน์",
+    "date": "2026-10-14",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27",
+  "enriched": false
+ },
+ {
+  "id": "6d96c3b130dc",
+  "name": "MSC x Lenovo AI Seminar",
+  "name_th": "สัมมนา AI ของ MSC ร่วมกับ Lenovo",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "ai",
+   "startup"
+  ],
+  "summary_th": "MSC ร่วมกับ Lenovo จัดสัมมนาเรื่องการใช้ AI ขับเคลื่อนอุตสาหกรรมไดกิ้น",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "MSC ผนึก Lenovo สัมมนา AI ขับเคลื่อนไดกิ้นสู่ภาคอุตสาหกรรม",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUN2tVYzdUY3Y5MEx3VkNDaUc3QWNPcW9DZWdlU0h0OWFqbmdkZmo1YTZ0YnpsQVVTV0toX0dmcGw0UEVsYTdSSkk2bHlaZm1vcmpjUWNlUC1jZm8yeU5yTDZTZW9KRUhOTnc?oc=5",
+    "source": "homeday.co.th",
+    "date": "2026-10-15",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "68786922218f",
+  "name": "ประเพณีลอยกระทง เผาเทียน เล่นไฟ จังหวัดสุโขทัย ประจำปี 2569",
+  "name_th": "ประเพณีลอยกระทง เผาเทียน เล่นไฟ จังหวัดสุโขทัย ประจำปี 2569",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "สุโขทัย",
+  "country": "TH",
+  "region": "north",
+  "online": false,
+  "tags": [
+   "festival",
+   "local"
+  ],
+  "summary_th": "งานประเพณีลอยกระทง เผาเทียน และเล่นไฟ ที่เมืองมรดกโลกสุโขทัย จัดช่วงเทศกาลลอยกระทงปลายปี 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ศธจ.สุโขทัย ร่วมแต่งชุดไทยต้อนรับนักท่องเที่ยว! โปรโมตงานประเพณี \"ลอยกระทง เผาเทียน เล่นไฟ จังหวัดสุโขทัย ประจำปี 2569\" ณ เมืองมรดกโลก",
+    "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPZU5qR2pwRUlXU1R1UGVTekx0V19CYjlDYlVhcER6WjBIeWpFRU1fWWN1LWVfRENiQmNKVjQ0b01uODd2eVNmVThWaGpXTllybmwtSWVWOHEyb2V2aU1ub3pibEc2cmxqaFlSNTBnZ1dmYjU2bE0wYkdkVnc2N0dpMTN2bDF2VkdXTG5iU0NHV3otako4SEY2T3A0YWVKa0xGODlRUzRfQVJKVFpPNVZjVFpXRkRyZHdaREFqYjJ0WTNZYWVFZmlocENQMjhhM1RVV3BqZGNpd2dJVVFRNTAtTUh6VGJ6NndQd21JTTlOMzRBdGZMRElpNlFpLXEtYXpOYnpQU3U3WVRyaXFXMDhXeTdWVE8yQ3NTUm1wWDJzZHJzYVNyQjBOUTJ3RmI2YklhRnVnR09UT1N6em1jUllIQ3JYNzB5QQ?oc=5",
+    "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
+    "date": "2026-10-15",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "c9a140ed63ce",
+  "name": "Bon Appetit A Taste of France",
+  "name_th": "Bon Appetit A Taste of France",
+  "start": null,
+  "end": null,
+  "venue": "บิ๊กซี (สาขาที่ร่วมจัดงาน)",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "food",
+   "festival"
+  ],
+  "summary_th": "บิ๊กซีร่วมกับสถานเอกอัครราชทูตฝรั่งเศสจัดเทศกาลอาหารและของกินฝรั่งเศส",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "บิ๊กซี ผนึกกำลังสถานเอกอัครราชทูตฝรั่งเศส จัดงาน “Bon Appetit A Taste of France”",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUbGFscl8xRUVsWGZGeGdVR2ZESGtPd19pZ1JlUHdrN0NoTzRVMXVydzJoSXNoV1ZIZ1gwSzlQd2V5bEFDSi1iQjEzdnFwOGQyVGRV?oc=5",
+    "source": "เดลินิวส์",
+    "date": "2026-10-14",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "9ff1dfd0ca0d",
+  "name": "William concert",
+  "name_th": "คอนเสิร์ตเอส ศุภ คู่ วิลเลี่ยม",
+  "start": null,
+  "end": null,
+  "venue": "อิมแพ็ค อารีนา",
+  "city": "Nonthaburi",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "concert"
+  ],
+  "summary_th": "คอนเสิร์ตใหญ่ของเอส ศุภ คู่วิลเลี่ยม ย้ายสเกลขึ้นจัดที่อิมแพ็ค",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“เอส ศุภ” ปลื้มคอนเสิร์ตใหญ่คู่ “วิลเลี่ยม” ย้ายสเกลขึ้นอิมแพ็ค พร้อมย้ำขออยู่เคียงข้างฝ่าดราม่า",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MLUJrU094MlFhcG1haFRiWG1TNXQtZlluNUdxM1czV00zQWhtSjVoS190SmxuTC13UzlDb1RTRmVoTGFFNU04c2ZMVkw4dEVDZlNqOW5nMERjdzdGRnhoNDZB?oc=5",
+    "source": "TrueID",
+    "date": "2026-10-14",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "f949632d41ac",
+  "name": "Thai Queer Book Fair",
+  "name_th": "งานหนังสือเควียร์ไทย ครั้งที่ 1",
+  "start": "2026-10-24",
+  "end": "2026-10-24",
+  "venue": "TK Park",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "book"
+  ],
+  "summary_th": "งานหนังสือเควียร์ครั้งแรกของไทยจัดที่ TK Park วันที่ 24 ตุลาคมนี้",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "สายอ่านเตรียมลุย! Thai Queer Book Fair งานหนังสือเควียร์ครั้งแรกของไทย บุก TK Park 24 ต.ค. นี้",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPel9vbHduVGlnQVdDXzZiQkZZNEZsSDlRZEl5cXA5cnZRVWFnNDFmNXNoZnZubHRDeXdMMldybGt6bmtqQ0JMRl9hSGdwdGlzajBVQjk5d2FzV2FENVRVRTg2bHlrV3l6emtBQ2dsZElWZTNCUDd2N3FOUktFUm1WSEZTVDg?oc=5",
+    "source": "Time Out Worldwide",
+    "date": "2026-10-14",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "316f65fe3cf8",
+  "name": "Pumpkin Farm Halloween 2026 at The Crystal",
+  "name_th": "ฟาร์มฟักทองผีสิง ฮาโลวีน 2569 เดอะ คริสตัล",
+  "start": null,
+  "end": null,
+  "venue": "เดอะ คริสตัล (The Crystal)",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "kids",
+   "festival"
+  ],
+  "summary_th": "เดอะ คริสตัล ในเครืออัลไล จัดฟาร์มฟักทองผีสิงและกิจกรรมต้อนรับฮาโลวีนปี 2569 สำหรับครอบครัว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ALLY ปล่อยความสนุกต้อนรับ Halloween 2026 เปิดฟาร์มฟักทองผีสิงเอาใจครอบครัว",
+    "link": "https://www.ryt9.com/s/prg/12849917",
+    "source": "RYT9",
+    "date": "2026-10-14",
+    "image": "http://www.bing.com/th?id=ONUT.icU7sADZ_rfpiaGxhy6qRg&pid=News"
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "973d9469274c",
+  "name": "Hong Kong Wine and Dine Festival 2026",
+  "name_th": "เทศกาล Hong Kong Wine and Dine Festival 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Hong Kong",
+  "country": "CN",
+  "region": "south",
+  "online": false,
+  "tags": [
+   "food",
+   "drink"
+  ],
+  "summary_th": "เทศกาลไวน์และอาหารในฮ่องกง ปีนี้ขยายเวลาเปิดงานและเพิ่มจำนวนบูธกว่าร้อยละ 10",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "งานเทศกาล Hong Kong Wine and Dine Festival ประจำปี 2569 ขยายเวลาเปิดงานและเพิ่มจำนวนบูธมากขึ้นกว่าร้อยละ 10",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UbnpFbjE4LTh3dEFMSUxuRldfZkhjY0M5WWZ6NGppekZ3cmxrbWlnVUYtYzBkVDNCUHk5Y2lLZ0NicUZjaVFWWnB6SVBmcXQ3NS1IYUtuMDZlbUR0UzBtSkVR?oc=5",
+    "source": "กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
+    "date": "2026-10-13",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "216170f7deac",
+  "name": "Hashigo-zake in TOKYO DOME CITY 2026 AUTUMN",
+  "name_th": "งานตระเวนดื่ม Hashigo-zake in TOKYO DOME CITY 2026 AUTUMN",
+  "start": "2026-10-30",
+  "end": "2026-11-03",
+  "venue": "TOKYO DOME CITY",
+  "city": "Tokyo",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "tags": [
+   "drink",
+   "food"
+  ],
+  "summary_th": "งานตระเวนดื่มที่โตเกียวโดมซิตี้ กลับมาจัดอีกครั้งตั้งแต่ 30 ตุลาคมถึง 3 พฤศจิกายนนี้",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "โตเกียวโดมซิตี้จัดงานตระเวนดื่ม \"Hashigo-zake in TOKYO DOME CITY 2026 AUTUMN\" กลับมาอีกครั้ง 30 ตุลาคม - 3 พฤศจิกายนนี้",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcjVOWXNxdWs1NkZ3bnVqZGZQV1pUTnhjSE9EdEpPT2tQTGdXSjBYdXRoVWt4OU5sbkU3LW5xNkhBZ2c3MEZHYkhlaDFscW5JamlVckg5UmZoSmR0RXBQMzFaUGlMOWlOTkdZMVdHLWdwUEhVazBZV0p1Q05mV1lpR1Q3YU1KYmo3SnhjRERmTQ?oc=5",
+    "source": "www.haveagood-holiday.com",
+    "date": "2026-10-13",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "78d18efd9845",
+  "name": "งานกาชาด 2570 (สวนลุมพินี)",
+  "name_th": "งานกาชาด 2570 สวนลุมพินี",
+  "start": null,
+  "end": null,
+  "venue": "สวนลุมพินี",
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "local",
+   "festival"
+  ],
+  "summary_th": "งานกาชาดประจำปี 2570 จัดที่สวนลุมพินี มีให้เที่ยวชมฟรี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ปักหมุดเที่ยวงานกาชาด 2570 ณ สวนลุมพินี เข้าฟรี!",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52bWY1N0xVS3hDVmQ0MGVGNFZ1clNYVE5GdnVJdklBV2N1Uk5idkJIUUxPLUJiWWFvRzIwOXdHczl3dWlkWVpLTldSMnhPc24xOEZGcVB1d3Q4TGpQaEx6R0N6X19PUURaeG1WZFp3?oc=5",
+    "source": "Time Out Worldwide",
+    "date": "2026-10-12",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "4ed8d09632a7",
+  "name": "Bangkok Art Biennale 2026",
+  "name_th": "บางกอก อาร์ต เบียนนาเล่ 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "งานศิลปะนานาชาติ บางกอก อาร์ต เบียนนาเล่ 2026 ชูแนวคิด นางฟ้า ผจญมาร มีผลงานกว่า 200 ชิ้นจาก 72 ศิลปิน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "'บางกอก อาร์ต เบียนนาเล่ 2026' ปักหมุดกรุงเทพฯ สู่มหานครศิลปะระดับโลก ชูแนวคิด 'นางฟ้า ผจญมาร' ถ่ายทอดกว่า 200 ผลงานจาก 72 ศิลปิน 29 สัญชาติ",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rczl4cXdMQVB1X3ExVGFja3UtRDJuRlE0U0M5dTNHS3dvcHJ2c1JQRUxSTUFhMzJsRm5mUTVDQXp0am5SdE1XQWJqblFDWDBRYmdZV2FFN1gzTXFJUFNpbWVFdmY?oc=5",
+    "source": "แนวหน้า",
+    "date": "2026-10-12",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "3806f5f8e223",
+  "name": "DP TCGFEST 2026",
+  "name_th": "DP TCGFEST 2026 การ์ดเกมชิงเงินรางวัล",
+  "start": null,
+  "end": null,
+  "venue": "Paradise Park",
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "boardgame",
+   "game"
+  ],
+  "summary_th": "งานแข่งการ์ดเกม DP TCGFEST 2026 ชิงเงินรางวัลกว่า 50,000 บาท",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เปิดศึกการ์ดเกม! พาราไดซ์ พาร์ค ชวนร่วมเชียร์ DP TCGFEST 2026 ชิงเงินรางวัลกว่า 50,000 บาท",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13enV0YmhfTG1RaE50ZUE3My1vbzlyVUNuSGtuUWk3WmhRdkJoVmZPTW5lWGhsRXZnMVh1MFBJVDU2WWpJY2NsN1dtMWtuNlhESUVEbjNB?oc=5",
+    "source": "มิติหุ้น",
+    "date": "2026-10-12",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "c584c6deed43",
+  "name": "ตลาดดอนเจดีย์สตรีทฟู้ด ฉลอง 1 ปี",
+  "name_th": "ดอนเจดีย์สตรีทฟู้ด ฉลองครบ 1 ปี",
+  "start": null,
+  "end": null,
+  "venue": "ตลาดดอนเจดีย์สตรีทฟู้ด",
+  "city": "สุพรรณบุรี",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "tags": [
+   "nightmarket",
+   "festival"
+  ],
+  "summary_th": "ตลาดดอนเจดีย์สตรีทฟู้ดฉลองครบ 1 ปี มีอาหารกว่า 200 เมนู พร้อมการแสดงเพลงอีแซว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "สุพรรณบุรีคึกคัก! ดอนเจดีย์สตรีทฟู้ดฉลอง 1 ปี รวมของอร่อยกว่า 200 ...",
+    "link": "https://siamrath.co.th/regional/328237",
+    "source": "สยามรัฐ",
+    "date": "2026-10-12",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "4fc37ecc5c20",
+  "name": "Money Expo 2026 Udonthani ครั้งที่ 13",
+  "name_th": "งาน Money Expo 2026 อุดรธานี ครั้งที่ 13",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "อุดรธานี",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "expo",
+   "edu"
+  ],
+  "summary_th": "งานแสดงสินค้าและบริการทางการเงิน จัดโดย ธ.ก.ส. ที่จังหวัดอุดรธานี (ยังไม่ระบุวันที่ในข่าว)",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ธ.ก.ส. ร่วมเปิดงาน “Money Expo 2026 Udonthani” ครั้งที่ 13",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lQThUWjM0c2NYVXI3QWZPOWRPX1dKYlhzZFRDaGFLNllBZ0xmR2pLVUZBVDF0d1FuMW1DLXFqRG02SWRBdlJ3a2NMenlEMTFZeWZIdUNR?oc=5",
+    "source": "LINE TODAY",
+    "date": "2026-10-10",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "5dc232ad9afb",
+  "name": "Thailand Book Fair (PUBAT)",
+  "name_th": "มหกรรมหนังสือ สมาคมผู้จัดพิมพ์และผู้จำหน่ายหนังสือแห่งประเทศไทย",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "book"
+  ],
+  "summary_th": "มหกรรมหนังสือที่ PUBAT จัดขึ้น แสดงให้เห็นว่าหนังสือเล่มยังได้รับความนิยมแม้ e-book จะมาแรง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "PUBAT ชี้ e-book แรง หนังสือเล่มยังรุ่ง จัดใหญ่ “มหกรรมหนังสือฯ”",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85UFpkLWtFV21hcVV4T0ljMVlKVGw4bjZGbTJqUWJkLVYwRmRCT0lia2Jid2gwSFRyR3lWX3QwRHdvSjE3bmZNZDg1TWtmR1p6YW5Ua2Fycw?oc=5",
+    "source": "Thansettakij",
+    "date": "2026-10-10",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "b63891b1070e",
+  "name": "มหกรรมในความทรงจำ",
+  "name_th": "มหกรรมในความทรงจำ ฉลอง 1 ทศวรรษพิพิธภัณฑ์เกษตร",
+  "start": "2026-10-10",
+  "end": "2026-10-10",
+  "venue": "พิพิธภัณฑ์เกษตร",
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "museum",
+   "art"
+  ],
+  "summary_th": "นิทรรศการเปิดฉลอง 1 ทศวรรษพิพิธภัณฑ์เกษตร สืบสานพระราชปณิธานเกษตรไทย",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "พิพิธภัณฑ์เกษตรฯ เปิดยิ่งใหญ่ “มหกรรมในความทรงจำ” ฉลอง 1 ทศวรรษ สืบสานพระราชปณิธานเกษตรไทย",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAtejFHNnpBMEpTRHFZbkRIVlpmTkdlOWg5bEIwZGJrdS1Kbk5WeFNqR1lSNEk0U0U4QU9DeWdiX053ZUVqVHNrN19BX09uLWRkWkJV?oc=5",
+    "source": "สยามรัฐ",
+    "date": "2026-10-10",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "ba7070b9c8ac",
+  "name": "The SixNature: Wildlife Photojournalism 30 Years of Journey Through the Wild",
+  "name_th": "นิทรรศการภาพถ่ายสัตว์ป่าและธรรมชาติ The SixNature",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "photo",
+   "art"
+  ],
+  "summary_th": "นิทรรศการภาพถ่ายสัตว์ป่าและธรรมชาติ ฉลองการเดินทางถ่ายภาพ 30 ปี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "นิทรรศการภาพถ่ายสัตว์ป่าและธรรมชาติ The SixNature : Wildlife Photojournalism 30 Years of Journey Through the Wild",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15Sy1TYk14QlRVSWZ2N3VhQnlxa3E5amxEc1dlQjhEWUdsTnRBNHNCNG14TVc3aGlyY0d0WW9ueFpkdXEyMUU4Zk12TnhUX0g0cHBJNlBoMGhwUQ?oc=5",
+    "source": "มูลนิธิสืบนาคะเสถียร",
+    "date": "2026-10-10",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "4bf815cab157",
+  "name": "AFC U17 Women's Asian Cup 2027 Qualifiers: Thailand vs Lebanon",
+  "name_th": "ฟุตบอลหญิงทีมชาติไทย U17 พบ เลบานอน รอบคัดเลือก AFC U17 Women's Asian Cup 2027",
+  "start": null,
+  "end": null,
+  "venue": "Inter Banbueng",
+  "city": "ชลบุรี",
+  "country": "TH",
+  "region": "east",
+  "online": false,
+  "tags": [
+   "match"
+  ],
+  "summary_th": "ทีมฟุตบอลหญิงทีมชาติไทย U17 ลงแข่งนัดที่สามรอบแบ่งกลุ่มพบเลบานอนในศึกคัดเลือกเอเอฟซี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ฟุตบอลหญิงทีมชาติไทย U17🇹🇭 เดินทางถึงสนาม Inter Banbueng จังหวัดชลบุรี เตรียมลงฝึกซ้อมครั้งสุดท้าย ก่อนดวลเลบานอน ศึก 𝗔𝗙𝗖 𝗨𝟭𝟳 𝗪𝗼𝗺𝗲𝗻’𝘀 𝗔𝘀𝗶𝗮𝗻 𝗖𝘂𝗽 𝟮𝟬𝟮𝟳 𝗤𝘂𝗮𝗹𝗶𝗳𝗶𝗲𝗿𝘀 รอบแบ่งกลุ่ม นัดที่สาม โปรแกรมการแข่งขันนัดต่อไปของ ฟุตบอลหญิงรุ่นอายุไม่เกิน 17 ปี",
+    "link": "https://news.google.com/rss/articles/CBMi2wZBVV95cUxNcGU3dm9ZWG50MjFxQVN0bk5zTUdZZy1oYkpfOG9ydUptREN3TU1WRTRyZzRFbTJSeE5jdThvaGJDYXNKSzdPZkt3WGFodmZ6ZXk3VThDdjh6VmZIT0cyVVNVTGM5cGFyZFZLdGtkOTRnLUhNYnE5SG5QUUFOM1ZDQ0NwcURiNmcwMlphcmRnSm1leVNWQzdFUUp3cnY2VjlZSm1ISlJsekhyaTRYQTVkems2NzN0SUlZNzljWkY4eFZ2ZWtCbkJObVBfdXNDaXhCYXc0NllPQlFSNTFOOWZLMGFrUXlVUkNqbUtZOGFmUDhqZENHS2d1aDFWYjdHQ0tMUnhMTmdJaFgzczVKazRNQk9Kc3dmVi1TUXk2cmhZZVFhQmxNQVBZUU5xdlBURGRURUZKWm1lcTU5REg3S1dWVjR5Z3JRa2dxQ2VIWUFCXzdDWUp2VlpOUVFudjRLOGxVaTVRSU14SG56cDA5Uk51MnNuZDJNUG5fRUVVYVRBaUNkWlAwcG1BVG5FUS1kY3NMZU41VThOSmFndHNJc2Z5Tk91blpQNkpSTFFja01ZTnhPOWJfVm5fZ2hYeU5HWHR3VEtTa25JWEpZTXNmM2VncTFrS0NXY01jM3M3ZUZ4c0V0RVpsTnVzR0RZeDRaRHBOQ1JmXzZ5M2ZXR0NmY0x0SnV1Vk8tU203VVZJZm91X0dtMlpXZVoxMXB6LVVzckNpUW5ER3hSUk1rbHVRVm5WQWhrVnFxSTdIcDdudlM1MC1zcHNDSWFTNEJldzlqZlV0SFNHa3JCQU5xTmUzVUprbEdudmpZLTU5a3JRV2NOazVOTm1kTWk0aWNSdnhsajB2TzZqY1F4QjZaRUlCZGgxQ0JjbExCbTBnZ3FzNk1NcHpmd1NqaHJ2ZHRWRWtwMUdKNWlXWGlYN0RJWDg5WnhWQ2NuQ1dBd19sTldTSzBBellHcXhxcWxhcXBZM2hqSGFFQl9aWUc0alhPWXhraFdlUE5zNWxyZjJrVXBUX0tSR0R6WTQ2b1Z2SThtal9MQndaUTR2Sk9UeFlDZ1ZrSlFzODRTWS05NXVDSVIzNmdldFc0NXlqdlBKek9LcHp4TlVtaUlLTUt5eURTaGRTR1JXVTRSQlVZNEkwdHg0?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-10",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "cff2da645944",
+  "name": "Toiletpaper x Purra",
+  "name_th": "นิทรรศการศิลปะ Toiletpaper x Purra",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "นิทรรศการศิลปะจาก Toiletpaper เทคโอเวอร์ทรงวาดร่วมกับศิลปิน Purra (ยังไม่ระบุวันที่และสถานที่ในข่าว)",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "Toiletpaper เทคโอเวอร์ทรงวาดจัดนิทรรศการศิลปะสุดจัดจ้านกับ Purra ที่ไม่ควรพลาด!",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CQjRiNExtNUtTaGRGdDRxTTZWcUxnclFwT21sTS1XQkh0djdrcW9TWFBvbXl2RXdRZXlHM0NHdjYtbnBPTFJVdUkyeEFXcW9rbzlJU29ISGl6ejFJcl9MLU5sNUlmOWtuekpoQXFud3VmbTFz0gF6QVVfeXFMUGtJRjJnWHNyWENPZklvNVFwSWxWc1JJQkNya1FwYlN5ZjFHNG5sTi05MU56UWhCM3FtMktBTkN3N3ZMSmx6TzBNNUFnc1pWVkppeGlKaHMzc1pBWkkwUGxOVURyN0taSFBYcFpfbmktRTc2SDJuY3pXZnc?oc=5",
+    "source": "Lifestyle Asia",
+    "date": "2026-10-09",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "b97a7364de87",
+  "name": "Sanrio Fair at Central Department Store",
+  "name_th": "งานแฟร์ซานริโอ ห้างเซ็นทรัล",
+  "start": null,
+  "end": null,
+  "venue": "ห้างเซ็นทรัล",
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "market",
+   "kids"
+  ],
+  "summary_th": "งานแฟร์ตัวละครซานริโอที่ห้างเซ็นทรัล ชวนแฟน ๆ มาเช็กอิน (ยังไม่ระบุวันที่ในข่าว)",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "CRC : ห้างเซ็นทรัล ชวนคนรักซานริโอเช็กอินงานแฟร์สุดคิวต์แห่งปี",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vN1JnQ2hIRjlrdndfZ3oxd1htNVZ5SmlOak1IaHM2bjVSOVlQN2NkT0ZPazZtTlhYMnhRZHhtOVBtRDQ3YmRzckdHRVlZOXo0WHVGUmRR?oc=5",
+    "source": "มิติหุ้น",
+    "date": "2026-10-09",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "4cda4571111e",
+  "name": "SANGENJAYA 2026",
+  "name_th": "เทศกาลซังเก็นจายะ 2026",
+  "start": "2026-11-28",
+  "end": "2026-11-29",
+  "venue": "พื้นที่และถนนทั่วซังเก็นจายะ",
+  "city": "Tokyo",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "tags": [
+   "festival",
+   "market"
+  ],
+  "summary_th": "เทศกาลในย่านซังเก็นจายะ โตเกียว จัดในวันที่ 28-29 พฤศจิกายน 2569 พร้อมกิจกรรมตลอดถนนและพื้นที่โดยรอบ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เทศกาล SANGENJAYA 2026 เตรียมเนรมิตพื้นที่และถนนทั่วซังเก็นจายะให้คึกคักในวันที่ 28 และ 29 พฤศจิกายนนี้",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiN0NVSDdWd3N2Zjhka2NiaDJILVg5YS1CWjROLW54VHNvZmlsTkVHR1NvT2oyQmctV1Q3N1o5anBuZlI4MHgxNEZnbk55ZVYycjFFZVQxZHBNWWtyRVhpUXNpR3VjY3EtanlydGIyZ0dncXpsUldMaDdkQ2szd28?oc=5",
+    "source": "www.haveagood-holiday.com",
+    "date": "2026-10-09",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "4eb6a904f854",
+  "name": "Vintage Car Show at ICONSIAM",
+  "name_th": "Vintage Car Show at ICONSIAM",
+  "start": null,
+  "end": null,
+  "venue": "ICONSIAM",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "motorshow"
+  ],
+  "summary_th": "นิทรรศการรถยนต์โบราณที่ไอคอนสยาม กรุงเทพฯ (ยังไม่ระบุวันที่ในข่าว)",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เตรียมสัมผัสตำนานรถโบราณ Vintage Car Show at ICONSIAM",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtY2V0aDF0TXZ4eUdZYTF2VWo3a0syY1pCSUtqb0VhLVBJYUYxOVZHdU1UM05jMC0tTDdTZV9aUFpkWWNSNl8xSkZESzJJQmZrTlE?oc=5",
+    "source": "autoinfo.co.th",
+    "date": "2026-10-08",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "2a048c23a790",
+  "name": "มหัศจรรย์งานช้างสุรินทร์ ประจำปี 2569",
+  "name_th": "มหัศจรรย์งานช้างสุรินทร์ ประจำปี 2569",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Surin",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "festival",
+   "national"
+  ],
+  "summary_th": "งานประจำปีจังหวัดสุรินทร์ มีการประชุมคณะกรรมการเตรียมจัดงานแล้ว (ยังไม่ระบุวันจัดงานในข่าว)",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "จังหวัดสุรินทร์ประชุมคณะกรรมการจัดงาน “มหัศจรรย์งานช้างสุรินทร์ ประจำปี 2569” ครั้งที่ 1/2569",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9aeENYMjAzNEhTM3ZKOFluNk5Hek5PLUJxYkpBeHBsMkpOZm5aa1FVYmNkdzFZUlJEY1dmQ0xZRFk5TDZQN3c0MlE2bzlURDNZdE9HQkMzX2JzN1FqdVdfcDkxd3FpQ1ViT2c1OWZQVk5jRlFrbnU4?oc=5",
+    "source": "สำนักงานประชาสัมพันธ์จังหวัดสุรินทร์",
+    "date": "2026-10-08",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "44e02c991994",
+  "name": "International Garden Expo, Yokohama 2027",
+  "name_th": "งานมหกรรมพืชสวนโลก โยโกฮามา 2027",
+  "start": "2027-03-19",
+  "end": "2027-09-26",
+  "venue": "Yokohama",
+  "city": "Yokohama",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "tags": [
+   "expo",
+   "home"
+  ],
+  "summary_th": "ไทยเตรียมจัดแสดงศักยภาพด้านการเกษตรในงานมหกรรมพืชสวนโลกที่โยโกฮามา",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ไทยเตรียมโชว์ศักยภาพเกษตรไทยแหล่งอาหารของโลก ในงานมหกรรมพืชสวนโลก 2570 ที่โยโกฮามา",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wZWxCQ3hoLVRiai04VnQ0WXdWZ0c3ekNpcFlLTTRxQlZ1THRFQVpGOGoxd0Z6MVdKQWpOeW9WZHZwSnliN2hGRFZ3S3FCd0ZWWFBvRTVpakdpX1k?oc=5",
+    "source": "Matichon Online",
+    "date": "2026-10-08",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "3daa22e91cd4",
+  "name": "งานสัปดาห์หนังสือกรุงเทพฯ 2569",
+  "name_th": "งานสัปดาห์หนังสือกรุงเทพฯ 2569",
+  "start": "2026-10-23",
+  "end": "2026-11-01",
+  "venue": "ศูนย์การประชุมแห่งชาติสิริกิติ์",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "book"
+  ],
+  "summary_th": "งานสัปดาห์หนังสือที่ศูนย์ฯ สิริกิติ์ ตั้งแต่ 23 ตุลาคม ถึง 1 พฤศจิกายน 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ปักหมุด! งานสัปดาห์หนังสือ 23 ต.ค. - 1 พ.ย. 69 @ศูนย์ฯสิริกิติ์",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wdG9YT04zVmRTYXFsV21CV2lickJHYXc4YjJWWUlDMGpzaVRQT0tSRUVjLWlUUnFoVFRMa045d3BvS0ZvWms3TXlEeHpzSzBN?oc=5",
+    "source": "Dek-D.com",
+    "date": "2026-10-08",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "b1874355568d",
+  "name": "ONCE AGAIN",
+  "name_th": "ONCE AGAIN เทศกาลดนตรีเพลงที่ไม่เคยลืม",
+  "start": "2026-12-05",
+  "end": "2026-12-05",
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "festival",
+   "concert"
+  ],
+  "summary_th": "เทศกาลดนตรีที่ชวนร้องเพลงฮิตในความทรงจำ มี 7 ศิลปินตัวท็อปร่วมแสดง จัดวันที่ 5 ธ.ค. นี้",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“ONCE AGAIN” ครั้งแรกของเทศกาลดนตรีที่จะพาทุกคนย้อนสู่ “เพลงที่ไม่เคยลืม” ขนทัพ 7 ศิลปินตัวท็อป ชวนทุกคนร้องเพลงฮิตในความทรงจำด้วยกัน 5 ธ.ค.นี้",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IbVotM25nTGM3MTR1aS1SWnBzOVQyVnU2aVlEQ3FBRnhXLTFYSGlMdjhMUzY1ZjV0TXRhTUhUVm14dXFveDhfQ2IwNnFWVVR1R3dMdFFTQ3B3dDJvamwwZnZWSHp2SzQ?oc=5",
+    "source": "ผู้จัดการออนไลน์",
+    "date": "2026-10-07",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "11a48ec72c1b",
+  "name": "Sea x OpenAI Regional Codex Hackathon",
+  "name_th": "แฮกกาธอน Regional Codex โดย Sea และ OpenAI",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "ai",
+   "devconf",
+   "startup"
+  ],
+  "summary_th": "แฮกกาธอนสร้างโซลูชัน AI สำหรับนักพัฒนา นักศึกษา และสตาร์ทอัพ เปิดรับสมัครแล้ว ยังไม่ระบุวันจัดงาน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "Sea และ OpenAI ยกเวที Regional Codex Hackathon มาสู่ประเทศไทย เปิดรับสมัครแล้ววันนี้! ชวนนักพัฒนา นักศึกษา สตาร์ทอัพ และคนสายเทค ร่วมปล่อยของ ปั้นโซลูชัน AI เพื่อใช้งานจริง",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB3TkFWTURnaFJPeDBFSTNfNmJleUJGaUJyQ2NIWXA3Mm14QTZwenhwWHBYQkFWd2x1SHJrZ2FzWDVwZVVQM0c3TA?oc=5",
+    "source": "ThaiPR.NET",
+    "date": "2026-10-07",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "4295827c88b9",
+  "name": "World Gourmet Festival 2026",
+  "name_th": "เทศกาลอาหารระดับโลก World Gourmet Festival 2026",
+  "start": null,
+  "end": null,
+  "venue": "Anantara Siam Bangkok Hotel",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "tags": [
+   "food"
+  ],
+  "summary_th": "เทศกาลอาหารระดับโลกที่โรงแรมอนันตรา สยาม กรุงเทพฯ ยังไม่ระบุวันจัดงาน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ตอกย้ำความยิ่งใหญ่กับเทศกาลอาหารระดับโลก World Gourmet Festival 2026 ณ โรงแรมอนันตรา สยาม กรุงเทพฯ",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSlZMR1lUNkJGQmo3Y1ZaSnhpTDhxWWJfendnNGVYV2I4eUZiWWM5aGVDRkh3RmtzMFAtV092Uk5tZF9QWDJndEV4SFpRNXlrWkprOUhUOEt4ZFZCNzdzTjY0bllpT1lGRUJtZGNnVUI4UnBuNEdoZFRfazFla1ZJR0o5VWJLb0E?oc=5",
+    "source": "GQThailand",
+    "date": "2026-10-07",
+    "image": null
+   },
+   {
+    "title": "อนันตรา สยาม กรุงเทพฯ เฉลิมฉลองโลกแห่งความอร่อย ในงาน World Gourmet Festival 2026",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX0lncFZDVWxSdTlIbUxRc0JjSHF2MXNNNm1KLWNKR2p5bWE1MmV1bHJSSEk0bEowVzBBQ2kzT0xRNDVSemtTSlRPY3YzaFNNUldHNTdYbm4zNWpWakxTUUM0OVlaUG1EOHVuckZlSE9TZFZIeGZ1T2Yza2ZOUmZfX2ZuMFNwMHN6bVlnbnFEeHZ4RXp6N1J3cWNWZWfSAaIBQVVfeXFMTWxvUE1jbGxBMHJiMVc5Q0JlelNaZ0RIckl5LUpsMm5YQV9KYnNoR3cybE1neWh4VGJ2LVl2aWlxd3RtQmhzRU1uQzJRamRfRGRyQVlYTnREWG5rbEtvemNSTVhfZmhveGk0YWJYVzU3Tm1OXzMxc0UxeW52NU12QkNDTnZoSXFQVjdKOURZdW5iSFhWeGlzNEtVYTB1Yl91TW5B?oc=5",
+    "source": "HELLO! Magazine Thailand",
+    "date": "2026-10-07",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "2cac7858fc16",
+  "name": "DronTech Asia 2026",
+  "name_th": "DronTech Asia 2026 งานเทคโนโลยีโดรน",
+  "start": "2026-11-01",
+  "end": "2026-11-30",
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "expo",
+   "ai",
+   "gadget"
+  ],
+  "summary_th": "งานแสดงเทคโนโลยีโดรนที่รวมกว่า 150 บริษัทไทยและต่างประเทศ จัดในเดือนพฤศจิกายนนี้",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“จีเอ็มแอล” ชี้อุตสาหกรรมโดรนถึงจุดเปลี่ยน สู่ยุค AI–ซอฟต์แวร์–ระบบอัจฉริยะ เตรียมจัด DronTech Asia 2026 พฤศจิกายนนี้ รวมกว่า 150 บริษัทไทย–ต่างประเทศ",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PajhmTGxaYm9sX2pfTGRxX1RiQW9QTVBqOUU5T0wyRzZpM21JU3o2U1VxWGFqZDlvb3dOOC1XSU9MQkdWZlRZalFDQWg1eGxMUnZOVjM3RQ?oc=5",
+    "source": "ThaiPR.NET",
+    "date": "2026-10-07",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "754712d00c59",
+  "name": "มหาอำนาจ เฟสติวัล 2",
+  "name_th": "มหาอำนาจ เฟสติวัล 2",
+  "start": "2027-01-09",
+  "end": "2027-01-10",
+  "venue": null,
+  "city": "อำนาจเจริญ",
+  "country": "TH",
+  "region": "northeast",
+  "online": false,
+  "tags": [
+   "concert",
+   "festival"
+  ],
+  "summary_th": "เทศกาลดนตรีที่เบิ้ล ปทุมราชจัดที่อำนาจเจริญ มีศิลปิน 22 คนขึ้นแสดงในวันที่ 9-10 มกราคม 2570",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เปิดไลน์อัพ 'มหาอำนาจ เฟสติวัล 2' จัดเต็ม 22 ศิลปิน กระจายรายได้สู่ชุมชน",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NUTJSRXNBckRWYUZYUkRlR2F2c19NOVI3MElOR3ZtLTNDYXF4R1E5QXJRazAzc3FVTWY1NGRHNERZQnFFU3NDN3lwMkwzLVJZOGJBUUtodXhYNUVi?oc=5",
+    "source": "komchadluek",
+    "date": "2026-10-06",
+    "image": null
+   },
+   {
+    "title": "#แวดวงคนดนตรี ￼ “มหาอำนาจ เฟสติวัล 2” กลับมาใหญ่กว่าเดิม! “เบิ้ล ปทุมราช” ขนทัพ 22 ศิลปิน เนรมิต “ถนนแห่งไฟและแฟนตาซี” ปักหมุดอำนาจเจริญ 9-10 มกราคม 2570 : : หลังจากประเดิมความสำเร็จกับเทศกาลดนตรีครั้งใหญ่ในบ้านเกิดเมื่อปีที่ผ่านมา ล่าสุด “เบิ้ล ปทุมราช” ขอเดินหน้าสา",
+    "link": "https://news.google.com/rss/articles/CBMirwdBVV95cUxNZGNyUXhNNlFxT0t2QkROQnFzUEpna0VJaEhFdUxHN3BrRi1PRFM2b2VtNVBkX0ZJYTdZOWo0VFdMUUJETllLc1hSZFl4V3FSdUw3QXdXeGFrbXdBYllzMDRXLWhIRUFrTWNrcEdqZUR1WC1VRHR2LU9BOWRPYXNjaGVUSTFwMFRVX1NiNjNvMzBZM01JT0JUbGhCa3hvNHllcUZxMS1YR3QydHkzdGY3V09tWHVoVDVFb0hfcXF3bXNBWmplX092SXE4Mi1vRmxrTW1vTEp6UkRrSVM4MWdrY29tU1Utak9QWlBDcWQ5RlRSdlNodWpnYUI0Nk9hVkVPRl9kaE5wVWV5V1lnbHEzWVJxU2dEOE5BRmY2em4tTlByTy0tZEFZa1IyMVhIc1J3bmhhMUcwX1pyWFpTeGN2V0FhN3dNQVNTSUhfdEYyNHhIQmRlSjNOWlZQTG1UYlhYdnNOVFVIbGpvSE5zWmFvd0NSWlJ2SXJWMnRoSnNMOHNKLVdiMXB5elBBY05vZnJnUVdjRnR5YU5WM0x0UUM1dFk1TEVqTU5kdEQyc0hNYWw3aFo0bEZrZzBiejh6bTJzTWxMWFhqVjdGWGU0WGJSQ3hxMXh3VnhjRlY5Wi1nTmkzM2F2RncxaWVuZmxuT29RVlVac3IyR01FOUs1S05seERHYmVhYkdfVHN5SjdPMXlKTHRrUHU1UmM5OUFleFdBUEY1Wnp0ZGtpSHBkc1JVTml1WDNfSkhHTEpLS0taT2l0eWdVTlZST2xsNmtrSUlGckFMRzFTblA4c3ZUNWVUYkVZakdjcUF2cGpBSVljenEwY2sxRDIzUmhFT255anlVZERnTEJ6MzY2RUEyNDl1UjVxUFQ3NDRsanVsdzcwTndXNjVRMFVNWjI2X0F6bjNfcGFjVzVkTVlwR056SzhXc01SSUlYd1pXbER5Szd0U0lvcVA5YnBSNVp2bjlyM3o5RTRfLTI2cHNmOVljR0dGdUJ3ZnhNM09UY2JmRlRaUDNRaXdNZ01tN3loVllfazhXZ1lqUmljWGVGcnRKSTd5eHZSMmtrVnlraUt2WEZhNVlzS3FCWlJGeGxjWk5iSkhrTF9ZNGJGZmFkR1VVYzhrV2xwSzE4SkYtX2RqNUxVNVRmSzNuOEhlUXFLUURGTkJuSGtVWlhSbDBPeV9lNk9wTmhtbXYzV0p2elpkdUxqeTRQTk1yZ0hLY2s0M2duS1JEUk5Ha3YyYVIyWm1MNm5Z?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-06",
+    "image": null
+   },
+   {
+    "title": "\"เบิ้ล ปทุมราช\" จัดใหญ่กว่าเดิม ปักหมุดอำนาจเจริญ 9-10 มกราคม 2570 จัด \"มหาอำนาจ เฟสติวัล 2\"",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LWTBac25HcXZCeE9ET1ZzSk9pX1BaaGhWQk5MNmhCeHdCWEpOd1ZMa3g2dmI2c3o0b29CbVBhTkV4WDh0Ty1fQVpsUWs3M2NQejFxelVITXpZMTMxRWxn?oc=5",
+    "source": "TrueID",
+    "date": "2026-10-06",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "7413be51323e",
+  "name": "Ayuthaya Halloween Night Run 2026",
+  "name_th": "งานวิ่งล่าท้าผี อยุธยา Halloween Night Run 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "พระนครศรีอยุธยา",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "tags": [
+   "run"
+  ],
+  "summary_th": "งานวิ่งกลางคืนธีมฮาโลวีนที่อยุธยา กำหนดวันจัดยังไม่ระบุในข่าว",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "จิตแข็งพอ เจอกัน! งานวิ่งล่าท้าผี อยุธยา Ayuthaya Halloween Night Run 2026",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04aDBDeUVveV9kOUFfbEFxdU44X2lKdWQzZmVMY1MwaWtndXRYMF9nSVFFXzl4Y0VUQTMtM2FQWHBWRTM5eS0tMjdUdWNMVFdBLVUza1BuMnE?oc=5",
+    "source": "TrueID",
+    "date": "2026-10-06",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "daae9ee484c9",
+  "name": "Leapmotor B03X launch Thailand",
+  "name_th": "เปิดตัวรถยนต์ไฟฟ้า Leapmotor B03X ในไทย",
+  "start": "2026-10-31",
+  "end": "2026-10-31",
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "tags": [
+   "carlaunch",
+   "ev"
+  ],
+  "summary_th": "Leapmotor เตรียมเปิดตัวรถยนต์ไฟฟ้ารุ่น B03X ในประเทศไทยวันที่ 31 ตุลาคม 2569",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "Leapmotor B03X รถยนต์ไฟฟ้าน้องใหม่ เตรียมเปิดตัวในไทย 31 ตุลาคม 2026",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SSlpZSDVSRGRJTGJEMTVVNVZKaVJYdXI4d1U1SVhpYVdnQ19taDF4VktIT3M2TXpSVDZRa0YyUzlhQ0RRYm4yODJZekdJNGR2T0dZS3pJc25RNFk5M3ZDTnRaa0g0Zw?oc=5",
+    "source": "Autospinn.com",
+    "date": "2026-10-06",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "f8a50f77f06a",
+  "name": "Fortune Teller",
+  "name_th": "นิทรรศการ Fortune Teller",
+  "start": null,
+  "end": null,
+  "venue": "วัน แบงค็อก",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "นิทรรศการอินเทอร์แอ็กทีฟโดยศิลปิน Julie Stephen Chheng ร่วมจัดกับสมาคมฝรั่งเศสกรุงเทพ ชวนสำรวจจิตวิญญาณแห่งธรรมชาติ",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "วัน แบงค็อก ร่วมกับสมาคมฝรั่งเศสกรุงเทพ ชวนสำรวจจิตวิญญาณแห่งธรรมชาติ ผ่านนิทรรศการอินเทอร์แอ็กทีฟ “Fortune Teller” โดยศิลปินระดับโลก Julie Stephen Chheng",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaGxUX3FfZUIzYll1RWY4ay1acUhNbmxyWlZwemI1V0lSTVJ3SmFEbEVneEdkaElFb1V6NU1xT2I3WWtoYkhfTzhsSUxTSXg2YmFXclhhdURWbXRUeWJwN1lqdTViQVZQOVhHTHQza3NwRHVRSzZCT0NkVVdDS01sZGh3NFdRZDTSAYwBQVVfeXFMTk9VV1Z0LUxFTkVCeXRRQjQ1UlZtYjBqY3lueks0RUNkd0ZJcllZZmZ2TW1nRldScDhpdGFFSUp3R202YkxNWC1HZUs5OVFPaHRUQkpOWGxEWHpuNlZNampmbllkS0oyT1VwYWZRak9FdHYtTWVFcHNNNnVNSTRHenNKZHplS1ZNcDJqQy0?oc=5",
+    "source": "HELLO! Magazine Thailand",
+    "date": "2026-10-06",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "feaa27f00bcf",
+  "name": "ฝั่งธนร็อกเฟสติวัล",
+  "name_th": "ฝั่งธนร็อกเฟสติวัล",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "festival",
+   "concert"
+  ],
+  "summary_th": "เทศกาลดนตรีร็อกรวม 9 ศิลปินร็อกระดับตำนานบนเวทีในฮอลล์",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "“ฝั่งธนร็อกเฟสติวัล” สร้างตำนานโชว์โหดจัดเต็ม 9 ศิลปินร็อกระดับตำนาน เขย่าเวทีมันส์ลืมตายเดือดทะลุฮอลล์!",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tMmJqamhzMEtWbEFFM3hMdHJjM2pMeHJQUkpySXg3bkRNR0pUSnZDN3JROHZUS1M3Z2ZNSUJiaFNoT2VDN0ZDc3VlczRxTzR2aXc?oc=5",
+    "source": "workpointtoday.com",
+    "date": "2026-10-05",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
+ },
+ {
+  "id": "a9a37706387c",
+  "name": "NATION FORUM 2027: Thailand's Future Agenda 2027",
+  "name_th": "เวที NATION FORUM 2027 อนาคตประเทศไทย",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "tags": [
+   "ai",
+   "startup"
+  ],
+  "summary_th": "เสวนาเจาะลึกอนาคตเศรษฐกิจ AI หุ่นยนต์ และการยกระดับธุรกิจให้ก้าวทันโลก",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "เมื่อ AI กำลังจะกลายเป็น #เพื่อนร่วมงาน ของเรายกระดับศักยภาพตัวคุณและธุรกิจให้ก้าวทันโลก ในเสวนาสุดเข้มข้น NATION FORUM 2027: THAILAND’S FUTURE AGENDA 2027 เวทีที่จะพาทุกคนไปเจาะลึกอนาคตกับเซสชัน THE INTELLIGENCE ECONOMY | AI, Robotics & Qua",
+    "link": "https://news.google.com/rss/articles/CBMi8gdBVV95cUxQSXJlWU5fNkFmeTJHcGhXYXBZbm5TMnk5S1lheFNRQWJzREZVcEJSTEpuelltSXBQYmJOWW1NYjBpZDlucGdLaENYU1BLME1idi1Bd2RuNkZkeWZfQWRxTHBPWDc3MnpjNWRaTkpNUm9YUlJIVFdjOVdmbW1jOEZBeWVrQ09heTIzRnZWcDBibHFBZmgyMUJWSE9ObkY5eXEyMGpFeDlvOG9iUU93V3ctZmFpa19IWUoxZFo1VXVad3NDMjJodHZvTWpiZjkwZVdPamY4ZTREeVl1dnR4X09GLWdaMzBpZ09HeHJzaTNOUVlyNVlrRlJsT1BWbmloTGtYb3VNaG5yN0R4YW5wcDFBRmtyVC12RnR2THFSTFJyMWFpX00tMWNhdnBGcHF3c3d0WjlVMy1haGpQbVNMOWpzSGxIRlpSdFpfUV85UTRETG1JdHVnbGIycHVvYUd6dVdiakVsa2xDLUtKOTM1SzhtVzMweXVZeWMteU1EQ1ktd1QyYTNhaWkzSWZHNjBNb1N4RXpfMlR1MmNIYU1qMW9rNkJvUTB4ODdyNlpXWUN5RjNwYlgzYzg1bnY2X2ktOVZja1Z6eGU0dUtsd1Ayazd1bHhHbVc1TGI2ZEJjc012YW92TjY5VWhTTXdhTmZUX0N5cXFWLUNGeHV2ZHE1LVczOUhRc0tQUDVjS2xoMTExWXZwQzNSMTJjcVlOaGptUTlvbFQza3FpNHRiN0RZbEJjTjJHTkpjTm9MUWRtNE1hbkVkRmZqU24yUnpBaE52d2UzVjhGbElCQzN3VFI4eGRrY2tfd0lhQ1dJaEI5UlBlMnR5Rk9CRVV1YkhoZnRhVUJybjFnRlF0RWJfTmVZMWVqWUdiYVo1RVdLSnd3a21mdFk0eG5PWGFmRXhLWU9Kcy1nZ0RqTVJueVF0M0dFWUI4Wm13Q0VqQjBEMWU0Y3ZnNGpDUXRURUdYSkc4WVRGYkVSRmV1ODZiYzQ0VVFwWTdmQmJpSFgwQ19FT18tUWFLYV95LWZBSjJhandXLUdmdjR4cWlXVFM4NVJfcUdWRTcwU00zZnV0eWVBS1BPOU1TQkpqaGJ5TnI2Si13QW5iMnZxaHkyZWtPdVdoeVF4RWUtbE9wUjFISnJnOHNHZEdnMjMtTGIzLU81RnB3SWFzd3RDd0d4eGo2YUJCdjVfdnVLYnhvSllQcmVDWTN6bHpja3hXZ1Fpb2FLNGROVmVNRGlsUzlzOHVoVDgtR19aQ2VoM2JhUGQzTWNhRjdxc041emR0VXNWMVpEUWxmZ0Jwb0ltZjlRcElYcXY3OWZzbWpLQThTb3lQY0ZyOHp0YmRTXzVCZw?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-05",
+    "image": null
+   }
+  ],
+  "added": "2026-10-27",
+  "updated": "2026-10-27"
  }
 ]
