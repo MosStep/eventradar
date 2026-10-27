@@ -34713,7 +34713,8 @@
    "2934a29da330",
    "7173786bb33e"
   ],
-  "imageHash": "ca65e737cbcfd00d"
+  "imageHash": "ca65e737cbcfd00d",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "82f39c0c8fff",
@@ -34756,7 +34757,8 @@
    "ead365b7fdf6",
    "511e4e0cbb89"
   ],
-  "imageHash": "309cbb487fbd1bff"
+  "imageHash": "309cbb487fbd1bff",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "41b3dd5a5d73",
@@ -34797,7 +34799,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000994.000025517.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000994.000025517.html"
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000994.000025517.html",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "a18b8e0dd3f8",
@@ -34834,7 +34837,8 @@
    "8581f9793cda"
   ],
   "imageTriedAt": "2026-10-27",
-  "article": "https://natalie.mu/comic/news/693078"
+  "article": "https://natalie.mu/comic/news/693078",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "a14f1c1e1b1e",
@@ -34877,7 +34881,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://news.livedoor.com/article/detail/32562766/",
-  "imageFrom": "https://news.livedoor.com/article/detail/32562766/"
+  "imageFrom": "https://news.livedoor.com/article/detail/32562766/",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "21d78ac55901",
@@ -34914,7 +34919,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.guru3d.com/story/amd-rdna-5-radeon-graphics-cards-unlikely-before-computex-2027-leaker-claims/",
   "imageFrom": "https://www.club386.com/no-chance-next-gen-amd-radeon-gpu-before-june-2027/",
-  "imageHash": "1d39f6b8378727e1"
+  "imageHash": "1d39f6b8378727e1",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "6d62a770c927",
@@ -34964,7 +34970,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.jiji.com/jc/article?k=000009054.000001719&g=prt",
-  "imageFrom": "https://www.jiji.com/jc/article?k=000009054.000001719&g=prt"
+  "imageFrom": "https://www.jiji.com/jc/article?k=000009054.000001719&g=prt",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "8f6344fb7f67",
@@ -34996,7 +35003,8 @@
   "imageTried": true,
   "region": "kanto",
   "regionTried": true,
-  "imageHash": "2731bb58c759b728"
+  "imageHash": "2731bb58c759b728",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "1b188123ac23",
@@ -35077,7 +35085,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://mainichi.jp/articles/20261015/pr2/00m/020/613000c",
   "imageFrom": "https://mainichi.jp/articles/20261015/pr2/00m/020/613000c",
-  "imageHash": "5272eabd096b025f"
+  "imageHash": "5272eabd096b025f",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "71d3802c1e7e",
@@ -35113,7 +35122,8 @@
   "imageTried": true,
   "article": "https://www.cdjournal.com/news/-/126565",
   "imageFrom": "https://note.com/masae_radial/n/n19b23c95e552",
-  "imageHash": "e061962b8d4c86f4"
+  "imageHash": "e061962b8d4c86f4",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "6074537016d9",
@@ -35179,7 +35189,8 @@
    "a083ccfd9d1e"
   ],
   "enriched": true,
-  "imageHash": "304a8feb05e701da"
+  "imageHash": "304a8feb05e701da",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "3a25418de7b5",
@@ -35221,7 +35232,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://mainichi.jp/articles/20261014/pr2/00m/020/843000c",
   "imageFrom": "https://mainichi.jp/articles/20261014/pr2/00m/020/843000c",
-  "imageHash": "a66e6f015811ed5b"
+  "imageHash": "a66e6f015811ed5b",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "f97169ed6e37",
@@ -35259,7 +35271,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000267.000078233.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000267.000078233.html",
-  "imageHash": "fd816f9e7e12b22b"
+  "imageHash": "fd816f9e7e12b22b",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "93875581f64d",
@@ -35299,7 +35312,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://e.usen.com/news/news-event/back-number-back-number-fanclub-tour-2027one-room-party-vol8202791122.html",
   "imageFrom": "https://e.usen.com/news/news-event/back-number-back-number-fanclub-tour-2027one-room-party-vol8202791122.html",
-  "imageHash": "0c88c5ff9d14d26f"
+  "imageHash": "0c88c5ff9d14d26f",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "de54ab873d47",
@@ -35340,7 +35354,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": null
+  "article": null,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "bd54246ab2f3",
@@ -35381,7 +35396,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://finance.sina.com.cn/roll/2026-09-28/doc-initirzp9724675.shtml",
   "imageFrom": "https://finance.sina.com.cn/roll/2026-09-28/doc-initirzp9724675.shtml",
-  "imageHash": "128fe0d213409dd2"
+  "imageHash": "128fe0d213409dd2",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "0ddffe89bd3d",
@@ -35436,7 +35452,8 @@
    "2601b7b259ed",
    "7173786bb33e"
   ],
-  "imageHash": "496e759e9c5b9c55"
+  "imageHash": "496e759e9c5b9c55",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "581bf7b4ac25",
@@ -35488,7 +35505,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.fashion-press.net/news/152299",
-  "imageFrom": "https://www.fashion-press.net/news/152299"
+  "imageFrom": "https://www.fashion-press.net/news/152299",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "a793af6ac83e",
@@ -35534,7 +35552,8 @@
    "da484df3ec35",
    "61f6bb0f4655"
   ],
-  "imageHash": "8d6289f2292c4cc7"
+  "imageHash": "8d6289f2292c4cc7",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "738ac548e8a6",
@@ -35574,7 +35593,8 @@
   "enriched": true,
   "region": "kanto",
   "regionTried": true,
-  "imageHash": "e3844c6012e91639"
+  "imageHash": "e3844c6012e91639",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "f504c2bd3cd8",
@@ -35612,7 +35632,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.famitsu.com/article/202609/89258",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000184.000116303.html",
-  "imageHash": "c3f9e30d45bce5ba"
+  "imageHash": "c3f9e30d45bce5ba",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "480ef53f38cc",
@@ -35679,7 +35700,8 @@
   "enriched": true,
   "regionTried": true,
   "imageHash": "2f230070df97fe94",
-  "imageOfficial": true
+  "imageOfficial": true,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "417cd319cdc1",
@@ -35723,7 +35745,8 @@
   "enriched": true,
   "regionTried": true,
   "imageHash": "7fde6ce4c9ef8f8b",
-  "imageOfficial": true
+  "imageOfficial": true,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "44eefc7c1117",
@@ -35770,7 +35793,8 @@
   "regionTried": true,
   "imageTriedAt": "2026-10-27",
   "imageOfficial": true,
-  "imageHash": null
+  "imageHash": null,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "864b7dfc5f4a",
@@ -35815,7 +35839,8 @@
   "regionTried": true,
   "imageTriedAt": "2026-10-27",
   "imageOfficial": true,
-  "imageHash": null
+  "imageHash": null,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "6429d893839c",
@@ -35873,7 +35898,8 @@
   "regionTried": true,
   "imageTriedAt": "2026-10-27",
   "imageOfficial": true,
-  "imageHash": null
+  "imageHash": null,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "86bece6c3b13",
@@ -35911,7 +35937,8 @@
   "enriched": true,
   "regionTried": true,
   "imageHash": "5e25ea97c51d25c0",
-  "imageOfficial": true
+  "imageOfficial": true,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "b1b322bc5b51",
@@ -35953,7 +35980,8 @@
   "enriched": true,
   "regionTried": true,
   "imageHash": "e5658c7016c83456",
-  "imageOfficial": true
+  "imageOfficial": true,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "c0f6d1492332",
@@ -37845,7 +37873,7 @@
    "festival"
   ],
   "summary_th": "งานเทศกาลอาหารระดับนานาชาติที่รวมเชฟชื่อดังโลกและเชฟไทย จัดที่อนันตรา สยาม กรุงเทพฯ",
-  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
+  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
   "official": null,
   "sources": [
    {
@@ -37878,7 +37906,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675"
+  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/"
  },
  {
   "id": "4004aca86270",
@@ -38234,7 +38262,7 @@
    "fanmeet"
   ],
   "summary_th": "อีเวนต์ฉลองครบ 10 ปีของ Pripara ภาคผู้ชาย มีเพลงใหม่จาก WITH เปิดตัว",
-  "image": "https://image.news.livedoor.com/newsimage/stf/c/e/cefe7_1516_cf5bc697_de5ee761.png",
+  "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/06/28/20260628dog00m200007000a/001.jpg",
   "official": null,
   "sources": [
    {
@@ -38255,7 +38283,7 @@
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "article": "https://natalie.mu/comic/news/693078",
-  "imageFrom": "https://news.livedoor.com/article/detail/32562766/",
+  "imageFrom": "https://mantan-web.jp/article/20260628dog00m200007000a.html",
   "about_th": "งานนี้เป็นการเฉลิมฉลองครบรอบ 10 ปีของ 'ดานปุริ' (男プリ) จากอนิเมะ PriPara จัดขึ้นเพื่อแฟนคลับที่ชื่นชอบตัวละครชาย จะมีการเผยเพลงใหม่ของกลุ่ม WITH ผ่านภาพยนตร์พิเศษ และกิจกรรมอื่นๆ ที่เกี่ยวข้องกับซีรีส์",
   "highlights_th": [
    "เผยเพลงใหม่ของ WITH ผ่านภาพยนตร์พิเศษ",
@@ -40309,7 +40337,7 @@
   "imageTried": true,
   "article": "https://www.sanook.com/travel/1454290/",
   "imageFrom": "https://travel.kapook.com/view304179.html",
-  "imageHash": null,
+  "imageHash": "6a37fe6b3e77603b",
   "imageTriedAt": "2026-10-27",
   "dateTried": true
  },
@@ -40548,7 +40576,7 @@
    "drink"
   ],
   "summary_th": "เทศกาลอาหารระดับนานาชาติที่โรงแรมอนันตรา สยาม รวมเชฟและร้านอาหารชื่อดัง",
-  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
+  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
   "official": null,
   "sources": [
    {
@@ -40564,7 +40592,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675",
+  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -41868,7 +41896,7 @@
    "food"
   ],
   "summary_th": "เทศกาลอาหารระดับโลกที่โรงแรมอนันตรา สยาม กรุงเทพฯ ยังไม่ระบุวันจัดงาน",
-  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
+  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
   "official": null,
   "sources": [
    {
@@ -41891,7 +41919,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675",
+  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -43457,7 +43485,7 @@
    "concert"
   ],
   "summary_th": "ยุซุกลับมาจัดคอนเสิร์ตที่สนามนิสสัน สเตเดียม 2 วันหลังผ่านไป 22 ปี",
-  "image": "https://e.usen.com/image/db8b08c30ae0b4a5ff6db22dd0767c83c52a59b4.jpg",
+  "image": "https://contents.oricon.co.jp/upimg/news/2489000/2488779/20261022_165756_p_o_34499195.jpg",
   "official": null,
   "sources": [
    {
@@ -43473,7 +43501,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageFrom": "https://e.usen.com/news/news-release/30-2027-10-2027-5-22-2days.html",
+  "imageFrom": "https://www.oricon.co.jp/news/2488779/full/",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -44675,7 +44703,8 @@
   "article": "https://www.sohu.com/a/1090165339_121106884",
   "imageFrom": "https://www.sohu.com/a/1090165339_121106884",
   "imageHash": "459b88ee6310302e",
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "fdf00e2539ef",
@@ -44711,7 +44740,8 @@
   "imageTried": true,
   "article": "https://animeanime.jp/release/prtimes/20260930/316449.html",
   "imageFrom": "https://animeanime.jp/release/prtimes/20260930/316449.html",
-  "imageHash": "9342dd492d3f8117"
+  "imageHash": "9342dd492d3f8117",
+  "dateTried": true
  },
  {
   "id": "d0972359a338",
@@ -44748,7 +44778,8 @@
   "imageTried": true,
   "article": "https://finance.sina.com.cn/roll/2026-09-21/doc-inispynh6011755.shtml",
   "imageFrom": "https://finance.sina.com.cn/roll/2026-09-21/doc-inispynh6011755.shtml",
-  "imageHash": "9bd41d8027e6840f"
+  "imageHash": "9bd41d8027e6840f",
+  "dateTried": true
  },
  {
   "id": "5c14fe5cc281",
@@ -44783,7 +44814,8 @@
   "enriched": true,
   "imageTried": true,
   "article": null,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "a417afbc14f4",
@@ -44828,7 +44860,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://note.com/ouya08_qm/n/na114cfcd8eec",
   "imageFrom": "https://note.com/ouya08_qm/n/na114cfcd8eec",
-  "imageHash": "1de3eb1f57f888e8"
+  "imageHash": "1de3eb1f57f888e8",
+  "dateTried": true
  },
  {
   "id": "9c8d9e0d2552",
@@ -44866,7 +44899,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sankei.com/pressrelease/prtimes/YCB2CWVHWRLCRND6CSZ56X7ERY/",
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261023prt00m200001202a.html",
-  "imageHash": "d488c7484c63043b"
+  "imageHash": "d488c7484c63043b",
+  "dateTried": true
  },
  {
   "id": "6366c012564a",
@@ -44902,7 +44936,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://mainichi.jp/articles/20261009/pr2/00m/020/544000c",
   "imageFrom": "https://mainichi.jp/articles/20261009/pr2/00m/020/544000c",
-  "imageHash": "a3826de5b41d4723"
+  "imageHash": "a3826de5b41d4723",
+  "dateTried": true
  },
  {
   "id": "7173786bb33e",
@@ -44954,7 +44989,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sankei.com/pressrelease/prtimes/G74YMULP3BKPTHOBXVARSGJLXU/",
   "imageFrom": "https://www.sankei.com/pressrelease/prtimes/G74YMULP3BKPTHOBXVARSGJLXU/",
-  "imageHash": "6e022138a09c9c01"
+  "imageHash": "6e022138a09c9c01",
+  "dateTried": true
  },
  {
   "id": "defaf87aa4e7",
@@ -44987,7 +45023,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "e0e80136e6b900e7"
+  "imageHash": "e0e80136e6b900e7",
+  "dateTried": true
  },
  {
   "id": "d33db381884f",
@@ -45024,7 +45061,8 @@
   "article": "https://natalie.mu/music/news/694322",
   "imageFrom": "https://natalie.mu/music/news/694322",
   "imageHash": "dc543843686bd39b",
-  "regionTried": true
+  "regionTried": true,
+  "dateTried": true
  },
  {
   "id": "9185381157b1",
@@ -45075,7 +45113,8 @@
   "article": "https://skream.jp/news/2026/10/novelbright_arena_tour_2027.php",
   "imageFrom": "https://skream.jp/news/2026/10/novelbright_arena_tour_2027.php",
   "imageHash": "f236351fb4d82add",
-  "regionTried": true
+  "regionTried": true,
+  "dateTried": true
  },
  {
   "id": "ee904d2e64e5",
@@ -45112,7 +45151,8 @@
   "article": "https://www.jiji.com/jc/article?k=000000068.000147694&g=prt",
   "imageFrom": "https://www.jiji.com/jc/article?k=000000068.000147694&g=prt",
   "imageHash": "ef63bfe92c86cda7",
-  "regionTried": true
+  "regionTried": true,
+  "dateTried": true
  },
  {
   "id": "e58c99eaec22",
@@ -45149,7 +45189,8 @@
   "article": "https://entameclip.com/news/491565/",
   "imageFrom": "https://entameclip.com/news/491565/",
   "imageHash": "17872b9e77f18d7b",
-  "regionTried": true
+  "regionTried": true,
+  "dateTried": true
  },
  {
   "id": "b9aa7b1ed887",
@@ -45192,7 +45233,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.thansettakij.com/sport/670648",
   "imageFrom": "https://kuenselonline.com/news/womens-u17-team-loses-4-0-to-thailand-in-asian-cup-qualifier-opener",
-  "imageHash": "469566bf2472de93"
+  "imageHash": "469566bf2472de93",
+  "dateTried": true
  },
  {
   "id": "07e08fa41cc8",
@@ -45229,7 +45271,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.thaipost.net/tac/culture-news/1070154/",
   "imageFrom": "https://www.latimes.com/specialsupplements/story/2026-10-23/thai-select-festival-los-angeles-experience",
-  "imageHash": "f11d82fe0d641eb6"
+  "imageHash": "f11d82fe0d641eb6",
+  "dateTried": true
  },
  {
   "id": "fd5ee79ed270",
@@ -45265,7 +45308,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.ryt9.com/s/prg/12841455",
   "imageFrom": "https://www.thaipost.net/news-update/1068688/",
-  "imageHash": "71d2f51edb479423"
+  "imageHash": "71d2f51edb479423",
+  "dateTried": true
  },
  {
   "id": "1b8993193e46",
@@ -45302,7 +45346,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.thaipbs.or.th/news/content/559117",
   "imageFrom": "https://www.thaipbs.or.th/news/content/559117",
-  "imageHash": "61c79d0c9765c0f9"
+  "imageHash": "61c79d0c9765c0f9",
+  "dateTried": true
  },
  {
   "id": "2256c047aa9e",
@@ -45341,7 +45386,8 @@
   "article": "https://mantan-web.jp/prtimes/article/20261008prt00m200001260a.html",
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261008prt00m200001260a.html",
   "regionTried": true,
-  "imageHash": "ca3b85922622a1e6"
+  "imageHash": "ca3b85922622a1e6",
+  "dateTried": true
  },
  {
   "id": "7d1271499eb3",
@@ -45378,7 +45424,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://kobe-journal.com/archives/6232492374.html",
   "imageFrom": "https://kobe-journal.com/archives/6232492374.html",
-  "imageHash": "9e5a33581f15d136"
+  "imageHash": "9e5a33581f15d136",
+  "dateTried": true
  },
  {
   "id": "2c94cdbd61df",
@@ -45416,7 +45463,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.oricon.co.jp/pressrelease/3021947/",
   "imageFrom": "https://www.oricon.co.jp/pressrelease/3021947/",
-  "imageHash": "a22206b6509e11bf"
+  "imageHash": "a22206b6509e11bf",
+  "dateTried": true
  },
  {
   "id": "fb1759b5b05c",
@@ -45453,7 +45501,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.sanook.com/travel/1454290/",
   "imageFrom": "https://www.thairath.co.th/scoop/interview/2964093",
-  "imageHash": "ff7ada54f7054f6c"
+  "imageHash": "ff7ada54f7054f6c",
+  "dateTried": true
  },
  {
   "id": "65b4ffcd6835",
@@ -45490,7 +45539,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.prachachat.net/sd/news-2074357",
   "imageFrom": "https://www.dailynews.co.th/news/6220842/",
-  "imageHash": "7f803954e8c8941b"
+  "imageHash": "7f803954e8c8941b",
+  "dateTried": true
  },
  {
   "id": "a0ecb3b9d4b7",
@@ -45527,7 +45577,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.mobileocta.com/line-mini-eats-bearhouse-80-branches-pre-order-coffee-connect-2026/",
   "imageFrom": "https://oncodaily.com/positive/coffee-esmo",
-  "imageHash": "f648e3027dccd396"
+  "imageHash": "f648e3027dccd396",
+  "dateTried": true
  },
  {
   "id": "562775dfa9c8",
@@ -45564,7 +45615,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://animeanime.jp/article/2026/10/03/103471.html",
   "imageFrom": "https://nishispo.nishinippon.co.jp/article/1045308",
-  "imageHash": "34595b1a1dde264e"
+  "imageHash": "34595b1a1dde264e",
+  "dateTried": true
  },
  {
   "id": "3c761786136e",
@@ -45601,144 +45653,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.news-postseven.com/archives/20261023_2138263.html?DETAIL",
   "imageFrom": "https://www.news-postseven.com/archives/20261023_2138263.html?DETAIL",
-  "imageHash": "824f40ac2072337c"
- },
- {
-  "id": "841c61797e7b",
-  "name": "Stage Play ‘Mueang’",
-  "name_th": "ละครเวที “เมือง”",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "กรุงเทพมหานคร",
-  "country": "TH",
-  "region": "bkk",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "stage"
-  ],
-  "summary_th": "เมืองไทยสไมล์คลับจัดให้สมาชิกชมละครเวที “เมือง” พร้อมสิทธิพิเศษจากคะแนนสะสม",
-  "image": "https://img.pptvhd36.com/thumbor/2026/08/26/news-879eb22.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "เมืองไทยสไมล์คลับ ชวนสมาชิกเปิดประสบการณ์ชมละครเวที “เมือง ...",
-    "link": "https://www.pptvhd36.com/news/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C/282275",
-    "source": "pptvhd36",
-    "date": "2026-08-26",
-    "image": null
-   }
-  ],
-  "added": "2026-10-27",
-  "updated": "2026-10-27",
-  "enriched": true,
-  "imageHash": "9ad026a142107d45"
- },
- {
-  "id": "ccb0c7ff0661",
-  "name": "Southeast Asia’s Largest Coffee Festival",
-  "name_th": "เทศกาลกาแฟที่ใหญ่ที่สุดในเอเชียตะวันออกเฉียงใต้",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "กรุงเทพมหานคร",
-  "country": "TH",
-  "region": "bkk",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "food",
-   "cafe",
-   "festival"
-  ],
-  "summary_th": "เทศกาลกาแฟระดับเอเชียตะวันออกเฉียงใต้กลับมาจัดอีกครั้งในปี 2026",
-  "image": "https://media.timeout.com/images/106439342/image.jpg",
-  "official": "https://register.thailandcoffeefest.org",
-  "sources": [
-   {
-    "title": "เทศกาลกาแฟที่ใหญ่ที่สุดในเอเชียตะวันออกเฉียงใต้ กลับมาอีก ...",
-    "link": "https://www.timeout.com/bangkok/th/news/thailand-coffee-fest-2026-082526",
-    "source": "Time Out",
-    "date": "2026-08-24",
-    "image": null
-   }
-  ],
-  "added": "2026-10-27",
-  "updated": "2026-10-27",
-  "enriched": true,
-  "imageHash": "31be4251e9074e03"
- },
- {
-  "id": "e228dce2ded1",
-  "name": "Photography Art Exhibition at Siam Takashimaya Iconsiam",
-  "name_th": "นิทรรศการศิลปะภาพถ่ายที่ สยาม ทาคาชิมายะ ไอคอนสยาม",
-  "start": null,
-  "end": null,
-  "venue": "สยาม ทาคาชิมายะ ณ ไอคอนสยาม",
-  "city": "กรุงเทพมหานคร",
-  "country": "TH",
-  "region": "bkk",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "art",
-   "photo"
-  ],
-  "summary_th": "สยาม ทาคาชิมายะ ณ ไอคอนสยาม จัดนิทรรศการศิลปะภาพถ่ายเปิดประสบการณ์ใหม่",
-  "image": "https://mpics2.mgronline.com/pics/Images/569000008101201.JPEG",
-  "official": null,
-  "sources": [
-   {
-    "title": "สยาม ทาคาชิมายะ ณ ไอคอนสยาม ปักหมุดนิทรรศการศิลปะภาพถ่าย ...",
-    "link": "https://mgronline.com/stockmarket/detail/9690000079887",
-    "source": "mgronline",
-    "date": "2026-08-14",
-    "image": null
-   }
-  ],
-  "added": "2026-10-27",
-  "updated": "2026-10-27",
-  "enriched": true,
-  "imageHash": "48463e23b2f03bce"
- },
- {
-  "id": "22cc306849f1",
-  "name": "Community Tourism Workshop: Local Life",
-  "name_th": "เวิร์กช็อปท่องเที่ยวชุมชน วิถีชาวบ้าน",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "กรุงเทพมหานคร",
-  "country": "TH",
-  "region": "bkk",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "workshop",
-   "travel",
-   "local"
-  ],
-  "summary_th": "จัดเวิร์กช็อปส่งเสริมท่องเที่ยวชุมชนและวิถีชีวิตชาวบ้าน ให้ประสบการณ์ใหม่เหนือการเช็กอินคาเฟ่",
-  "image": "http://www.bing.com/th?id=ONUT.FApy8mleulOJX6QBN4aFZA&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "ชี้เป้าพิกัดท่องเที่ยวชุมชน วิถีชาวบ้าน ได้ทำเวิร์กช็อป งาน ...",
-    "link": "https://www.msn.com/th-th/lifestyle/lifestyle/%E0%B8%8A%E0%B8%B5%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B8%B4%E0%B8%81%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%96%E0%B8%B5%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99-%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%9B-%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%9F%E0%B8%95%E0%B9%8C-%E0%B9%81%E0%B8%96%E0%B8%A1%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%94%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%84%E0%B8%A3%E0%B9%88/ar-AA29isoX",
-    "source": "MSN",
-    "date": "2026-08-03",
-    "image": null
-   }
-  ],
-  "added": "2026-10-27",
-  "updated": "2026-10-27",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-27",
-  "article": "http://en.ce.cn/main/latest/202610/t20261023_3268926.shtml",
-  "imageFrom": "http://en.ce.cn/main/latest/202610/t20261023_3268926.shtml",
-  "imageHash": "e8fed22d39e65275"
+  "imageHash": "824f40ac2072337c",
+  "dateTried": true
  },
  {
   "id": "58fb4d459570",
@@ -45775,7 +45691,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://prtimes.jp/main/html/rd/p/000000119.000115515.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000119.000115515.html",
-  "imageHash": "7f610ebe6410f953"
+  "imageHash": "7f610ebe6410f953",
+  "dateTried": true
  },
  {
   "id": "02dffef054c9",
