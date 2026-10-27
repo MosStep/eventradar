@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["web/**"]
+    paths: ["web/**", "data/**"]
 
 concurrency:
   group: daily-update
