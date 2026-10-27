@@ -1,0 +1,25 @@
+{
+ "finishedAt": "2026-10-27T13:43:54.638Z",
+ "runner": "github",
+ "total": 630,
+ "upcoming": 609,
+ "added": 92,
+ "pending": 5220,
+ "withDate": 45,
+ "withImage": 88,
+ "withPrice": 6,
+ "ai": {
+  "calls": 722,
+  "failed": 601,
+  "quota": [
+   "txc_bd70",
+   "txc_a9b5",
+   "txc_9fec"
+  ],
+  "billing": false,
+  "keys": 4
+ },
+ "problems": [
+  "เรียก AI ล้มเหลว 601/722 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+ ]
+}
