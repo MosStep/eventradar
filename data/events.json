@@ -31733,7 +31733,8 @@
   "imageTried": true,
   "article": null,
   "regionTried": true,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "c47f76d82d4f",
@@ -31780,7 +31781,8 @@
    "7765bcd44ea6",
    "cc1b403192c4"
   ],
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "75f12622b96a",
@@ -31932,7 +31934,8 @@
   "enriched": true,
   "regionTried": true,
   "imageHash": "bc1a5ab92c003632",
-  "imageOfficial": true
+  "imageOfficial": true,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "737ed85ff96c",
@@ -32022,7 +32025,8 @@
    "48db1b954a30",
    "d06b3a4ee324"
   ],
-  "imageHash": "54293307b237cece"
+  "imageHash": "54293307b237cece",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "f6b1cec4a2fa",
@@ -32239,7 +32243,8 @@
   "notDupWith": [
    "6366c012564a"
   ],
-  "imageHash": "bc9635a531f097b5"
+  "imageHash": "bc9635a531f097b5",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "80463948d557",
@@ -32289,7 +32294,8 @@
   "datedFrom": "article",
   "price_th": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "77510f2a3bf4",
@@ -32334,7 +32340,8 @@
   "imageTried": true,
   "article": "https://www.msn.com/ja-jp/entertainment/celebrities/%E3%81%8A%E3%81%A4%E3%81%8B%E3%82%8C%E3%81%95%E3%81%BE-%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88-%E3%82%AD%E3%83%A0-%E4%BF%B3%E5%84%AA%E3%83%81%E3%82%A7-%E3%83%87%E3%83%95%E3%83%B3-%E5%88%9D%E6%9D%A5%E6%97%A5%E3%83%95%E3%82%A1%E3%83%B3%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E9%96%8B%E5%82%AC%E6%B1%BA%E5%AE%9A/ar-AA2fCRix",
   "imageFrom": "https://kanpen.asia/archives/108631",
-  "imageHash": "e521822e45e8af61"
+  "imageHash": "e521822e45e8af61",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "5cbf30c78655",
@@ -32684,7 +32691,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.appbank.net/2026/10/02/game/3120359.php",
   "imageFrom": "https://www.appbank.net/2026/10/02/game/3120359.php",
-  "imageHash": "ad45d26fa3d2e2af"
+  "imageHash": "ad45d26fa3d2e2af",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "fb6283563b69",
@@ -32761,7 +32769,8 @@
   "imageTried": true,
   "article": "https://www.excite.co.jp/news/article/Nijimen_0000000000638438/",
   "imageFrom": "https://www.excite.co.jp/news/article/Nijimen_0000000000638438/",
-  "imageHash": "5a7b93942b121fd0"
+  "imageHash": "5a7b93942b121fd0",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "44bfe45339e5",
@@ -33004,7 +33013,8 @@
   "notDupWith": [
    "97cf290b022f"
   ],
-  "imageHash": "b8528172c1531e58"
+  "imageHash": "b8528172c1531e58",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "07898e550de7",
@@ -33075,7 +33085,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.jiji.com/jc/article?k=000000158.000098840&g=prt",
   "imageFrom": "https://www.jiji.com/jc/article?k=000000158.000098840&g=prt",
-  "imageHash": "481444f3dc0d47db"
+  "imageHash": "481444f3dc0d47db",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "4807e54ffc14",
@@ -33130,7 +33141,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "8e8c09a3b54abef6"
+  "imageHash": "8e8c09a3b54abef6",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "5d53d83a1190",
@@ -33169,7 +33181,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": "https://straightpress.jp/company_news/detail?pr=000000013.000158804"
+  "article": "https://straightpress.jp/company_news/detail?pr=000000013.000158804",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "d21196be08ec",
@@ -33207,7 +33220,8 @@
    "286efbcd39b6",
    "511e4e0cbb89"
   ],
-  "imageHash": "54cd0eb0c4d2450f"
+  "imageHash": "54cd0eb0c4d2450f",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "2c41a9326e3c",
@@ -33249,7 +33263,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.animatetimes.com/news/details.php?id=1790917998",
-  "imageFrom": "https://www.animatetimes.com/news/details.php?id=1790917998"
+  "imageFrom": "https://www.animatetimes.com/news/details.php?id=1790917998",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "450c329a16a7",
@@ -33324,7 +33339,8 @@
    "89a04b03e852",
    "9185381157b1"
   ],
-  "imageHash": "cb5b085925543b8d"
+  "imageHash": "cb5b085925543b8d",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "41a28ae55b37",
@@ -33361,7 +33377,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://mdpr.jp/news/detail/4861316",
-  "imageFrom": "https://mdpr.jp/news/detail/4861316"
+  "imageFrom": "https://mdpr.jp/news/detail/4861316",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "d5a618aae662",
@@ -33434,7 +33451,8 @@
    "2c41a9326e3c",
    "e86708df0983"
   ],
-  "imageHash": "baab24e97e89a44e"
+  "imageHash": "baab24e97e89a44e",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "f8ec56d4e24d",
@@ -33473,7 +33491,8 @@
   "imageHash": "3a9ef889ad2377d4",
   "imageTriedAt": "2026-10-27",
   "article": "https://www.animatetimes.com/news/details.php?id=1790993733",
-  "imageFrom": "https://times.abema.tv/articles/-/10277363"
+  "imageFrom": "https://times.abema.tv/articles/-/10277363",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "eb76d8c005c3",
@@ -33523,7 +33542,8 @@
    "73ac300181b1",
    "61f6bb0f4655"
   ],
-  "imageHash": "b2d7441f89b0ca0d"
+  "imageHash": "b2d7441f89b0ca0d",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "d06412ea3b91",
@@ -33559,7 +33579,8 @@
   "imageTried": true,
   "article": "https://cn.nhandan.vn/article-post161143.html",
   "imageFrom": "https://cn.nhandan.vn/article-post161143.html",
-  "imageHash": "d552322399c1e4b4"
+  "imageHash": "d552322399c1e4b4",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "fc0cfff4c0a7",
@@ -33677,7 +33698,8 @@
   "imageTried": true,
   "article": null,
   "regionTried": true,
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "07d4e099e4d7",
@@ -33716,7 +33738,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "fd5cda54caebca10"
+  "imageHash": "fd5cda54caebca10",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "80f2f6993bd3",
@@ -33756,7 +33779,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "b1c8520ccdfcb6cb"
+  "imageHash": "b1c8520ccdfcb6cb",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "9ac327ba2cef",
@@ -33793,7 +33817,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://www.excite.co.jp/news/article/saiganak_202607316756/",
   "imageFrom": "https://www.excite.co.jp/news/article/saiganak_202607316756/",
-  "imageHash": "978cd0ae559fb0a8"
+  "imageHash": "978cd0ae559fb0a8",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "5eacf6a6b5bb",
@@ -33826,7 +33851,8 @@
   "region": null,
   "regionTried": true,
   "dateTried": true,
-  "imageHash": "85b3275260e9f4b6"
+  "imageHash": "85b3275260e9f4b6",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "cbbdda5276d3",
@@ -33864,7 +33890,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://gamebiz.jp/news/434268",
-  "imageFrom": "https://gamebiz.jp/news/434268"
+  "imageFrom": "https://gamebiz.jp/news/434268",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "44e02c991994",
@@ -33903,7 +33930,8 @@
    "5eacf6a6b5bb",
    "61f6bb0f4655"
   ],
-  "imageHash": "2e9b5a52a11596bd"
+  "imageHash": "2e9b5a52a11596bd",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "826818eb755f",
@@ -33940,7 +33968,8 @@
    "2601b7b259ed",
    "7173786bb33e"
   ],
-  "imageHash": "c6168d38a34c3440"
+  "imageHash": "c6168d38a34c3440",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "a23e4a777670",
@@ -33985,7 +34014,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "9e8604f0b811857a"
+  "imageHash": "9e8604f0b811857a",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "bd3637c82e23",
@@ -34022,7 +34052,8 @@
    "f8a50f77f06a"
   ],
   "imageTriedAt": "2026-10-27",
-  "article": null
+  "article": null,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "9487b312e75f",
@@ -34076,7 +34107,8 @@
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261027/orc/00m/200/195000c",
   "imageFrom": "https://mainichi.jp/articles/20261027/orc/00m/200/195000c",
-  "imageHash": "325f7943df9788ba"
+  "imageHash": "325f7943df9788ba",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "ec837d13088e",
@@ -34112,7 +34144,8 @@
   "imageTried": true,
   "article": "https://spice.eplus.jp/articles/349900",
   "imageFrom": "https://spice.eplus.jp/articles/349900",
-  "imageHash": "25a4eb24a3fa62f1"
+  "imageHash": "25a4eb24a3fa62f1",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "fbaef82d52c5",
@@ -34225,7 +34258,8 @@
   "imageRechecked": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://micetimes.jp/weplay-expo-japan2027/",
-  "imageFrom": "https://micetimes.jp/weplay-expo-japan2027/"
+  "imageFrom": "https://micetimes.jp/weplay-expo-japan2027/",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "46162e9cf1c2",
@@ -34345,7 +34379,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://mainichi.jp/articles/20260928/pr2/00m/020/477000c",
   "imageFrom": "https://mainichi.jp/articles/20260928/pr2/00m/020/477000c",
-  "imageHash": "960bcfb68a5f583c"
+  "imageHash": "960bcfb68a5f583c",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "485f6d0e9569",
@@ -34420,7 +34455,8 @@
   "imageTried": true,
   "article": "https://mantan-web.jp/prtimes/article/20261021prt00m200000370a.html",
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261021prt00m200000370a.html",
-  "imageHash": "24dc7fbdea822687"
+  "imageHash": "24dc7fbdea822687",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "f1f46170eebf",
@@ -34469,7 +34505,8 @@
   "imageHash": null,
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
-  "article": null
+  "article": null,
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "745ab9e845ca",
@@ -34507,7 +34544,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://natalie.mu/comic/news/692936",
-  "imageFrom": "https://www.animatetimes.com/news/details.php?id=1789891503"
+  "imageFrom": "https://www.animatetimes.com/news/details.php?id=1789891503",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "3aef2d90023d",
@@ -34544,7 +34582,8 @@
   "article": "https://prtimes.jp/main/html/rd/p/000002832.000020945.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000002832.000020945.html",
   "regionTried": true,
-  "imageHash": "b1d54451838a1ec3"
+  "imageHash": "b1d54451838a1ec3",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "c3f54dd0581d",
@@ -34585,7 +34624,8 @@
   "imageTried": true,
   "article": "https://www.msn.com/ja-jp/entertainment/music/viva-la-rock-2027-%E9%96%8B%E5%82%AC-%E4%BC%9A%E5%A0%B4%E3%81%AF%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AEgmo%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E3%81%95%E3%81%84%E3%81%9F%E3%81%BE/ar-AA2fUk7z",
   "imageFrom": "https://gekirock.com/news/2026/10/viva_la_rock_2027.php",
-  "imageHash": "3814f2d2d53877c9"
+  "imageHash": "3814f2d2d53877c9",
+  "priceTriedAt": "2026-10-27"
  },
  {
   "id": "e4fbcbb2be06",
@@ -37805,7 +37845,7 @@
    "festival"
   ],
   "summary_th": "งานเทศกาลอาหารระดับนานาชาติที่รวมเชฟชื่อดังโลกและเชฟไทย จัดที่อนันตรา สยาม กรุงเทพฯ",
-  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
+  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
   "official": null,
   "sources": [
    {
@@ -37838,7 +37878,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-27",
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/"
+  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675"
  },
  {
   "id": "4004aca86270",
@@ -38194,7 +38234,7 @@
    "fanmeet"
   ],
   "summary_th": "อีเวนต์ฉลองครบ 10 ปีของ Pripara ภาคผู้ชาย มีเพลงใหม่จาก WITH เปิดตัว",
-  "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/06/28/20260628dog00m200007000a/001.jpg",
+  "image": "https://image.news.livedoor.com/newsimage/stf/c/e/cefe7_1516_cf5bc697_de5ee761.png",
   "official": null,
   "sources": [
    {
@@ -38215,7 +38255,7 @@
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "article": "https://natalie.mu/comic/news/693078",
-  "imageFrom": "https://mantan-web.jp/article/20260628dog00m200007000a.html",
+  "imageFrom": "https://news.livedoor.com/article/detail/32562766/",
   "about_th": "งานนี้เป็นการเฉลิมฉลองครบรอบ 10 ปีของ 'ดานปุริ' (男プリ) จากอนิเมะ PriPara จัดขึ้นเพื่อแฟนคลับที่ชื่นชอบตัวละครชาย จะมีการเผยเพลงใหม่ของกลุ่ม WITH ผ่านภาพยนตร์พิเศษ และกิจกรรมอื่นๆ ที่เกี่ยวข้องกับซีรีส์",
   "highlights_th": [
    "เผยเพลงใหม่ของ WITH ผ่านภาพยนตร์พิเศษ",
@@ -40245,7 +40285,7 @@
    "local"
   ],
   "summary_th": "งานประจำปีนมัสการองค์พระปฐมเจดีย์ ชวนไหว้พระคู่บ้านคู่เมืองและเที่ยวงานประเพณี",
-  "image": "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa7Hb4Vy0NG88old6DPIOGsayiSP95HszX1okjokFE4ZSG8ENaE24.jpg",
+  "image": "https://s359.kapook.com/r/1200/630/pagebuilder/25bea592-3c58-4186-a54f-00075a9e0153.jpg",
   "official": null,
   "sources": [
    {
@@ -40268,7 +40308,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.sanook.com/travel/1454290/",
-  "imageFrom": "https://www.thairath.co.th/news/local/bangkok/2968745",
+  "imageFrom": "https://travel.kapook.com/view304179.html",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -40508,7 +40548,7 @@
    "drink"
   ],
   "summary_th": "เทศกาลอาหารระดับนานาชาติที่โรงแรมอนันตรา สยาม รวมเชฟและร้านอาหารชื่อดัง",
-  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
+  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
   "official": null,
   "sources": [
    {
@@ -40524,7 +40564,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/",
+  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -41828,7 +41868,7 @@
    "food"
   ],
   "summary_th": "เทศกาลอาหารระดับโลกที่โรงแรมอนันตรา สยาม กรุงเทพฯ ยังไม่ระบุวันจัดงาน",
-  "image": "https://storage-wp.naewna.com/2026/09/1%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A7-Recovered-25.jpg",
+  "image": "https://image.posttoday.com/uploads/images/md/2026/10/2u0WAdbojEj8KkAGfAEp.webp",
   "official": null,
   "sources": [
    {
@@ -41851,7 +41891,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.posttoday.com/general-news/lifestyle/750675",
-  "imageFrom": "https://www.naewna.com/n/women/life-style-news/76904/",
+  "imageFrom": "https://www.posttoday.com/general-news/lifestyle/750675",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -43267,7 +43307,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตกลางแจ้ง 2 วันของยุซุที่สนามนิสสัน ควบคู่กับการปล่อยอัลบั้มออลไทม์เบสต์",
-  "image": "https://contents.oricon.co.jp/upimg/news/2489000/2488779/20261022_165756_p_o_34499195.jpg",
+  "image": "http://www.bing.com/th?id=ONUT.CPYK_qzBj2T-Ba6ck07cIw&pid=News",
   "official": null,
   "sources": [
    {
@@ -43284,7 +43324,7 @@
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
   "imageFrom": "https://www.oricon.co.jp/news/2488779/full/",
-  "imageHash": null,
+  "imageHash": "27d1f1909df6a75c",
   "imageTriedAt": "2026-10-27",
   "dateTried": true
  },
@@ -43417,7 +43457,7 @@
    "concert"
   ],
   "summary_th": "ยุซุกลับมาจัดคอนเสิร์ตที่สนามนิสสัน สเตเดียม 2 วันหลังผ่านไป 22 ปี",
-  "image": "https://contents.oricon.co.jp/upimg/news/2489000/2488779/20261022_165756_p_o_34499195.jpg",
+  "image": "https://e.usen.com/image/db8b08c30ae0b4a5ff6db22dd0767c83c52a59b4.jpg",
   "official": null,
   "sources": [
    {
@@ -43433,7 +43473,7 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261026/orc/00m/200/060000c",
-  "imageFrom": "https://www.oricon.co.jp/news/2488779/full/",
+  "imageFrom": "https://e.usen.com/news/news-release/30-2027-10-2027-5-22-2days.html",
   "imageHash": null,
   "imageTriedAt": "2026-10-27",
   "dateTried": true
@@ -43509,7 +43549,8 @@
   "article": "https://mainichi.jp/articles/20261016/orc/00m/200/000000c",
   "imageFrom": "https://mainichi.jp/articles/20261016/orc/00m/200/000000c",
   "regionTried": true,
-  "imageHash": "7b475c78a4ed0a93"
+  "imageHash": "7b475c78a4ed0a93",
+  "dateTried": true
  },
  {
   "id": "a41e893bdaa1",
@@ -43542,7 +43583,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "imageHash": "401e4eb9e9cb5208"
+  "imageHash": "401e4eb9e9cb5208",
+  "dateTried": true
  },
  {
   "id": "9575548af782",
@@ -43578,7 +43620,8 @@
   "imageTried": true,
   "article": "https://news.yahoo.co.jp/articles/81805760497f205f2c08665d37167e3b030e00c8",
   "imageFrom": "https://www.kyoto-np.co.jp/articles/thekyoto/1808234",
-  "imageHash": "6360aee8e393ef91"
+  "imageHash": "6360aee8e393ef91",
+  "dateTried": true
  },
  {
   "id": "0fa6be2647e9",
@@ -43614,7 +43657,8 @@
   "imageTried": true,
   "article": "https://prtimes.jp/main/html/rd/p/000000516.000141380.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000516.000141380.html",
-  "imageHash": "3a82b86854005856"
+  "imageHash": "3a82b86854005856",
+  "dateTried": true
  },
  {
   "id": "cc1b403192c4",
@@ -43649,7 +43693,8 @@
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261024/pr2/00m/020/075000c",
   "imageFrom": "https://mainichi.jp/articles/20261024/pr2/00m/020/075000c",
-  "imageHash": "3cfc295d5e3a2391"
+  "imageHash": "3cfc295d5e3a2391",
+  "dateTried": true
  },
  {
   "id": "61f6bb0f4655",
@@ -43692,7 +43737,8 @@
   "imageTried": true,
   "article": "https://www.crank-in.net/news/193219/1",
   "imageFrom": "https://www.crank-in.net/news/193219/1",
-  "imageHash": "a2eb718faf610519"
+  "imageHash": "a2eb718faf610519",
+  "dateTried": true
  },
  {
   "id": "a16dfb4310b1",
@@ -43727,7 +43773,8 @@
   "imageTried": true,
   "article": "https://www.sohu.com/a/1091604044_121124364",
   "imageFrom": "https://www.sohu.com/a/1091604044_121124364",
-  "imageHash": "05dd14b16db35b39"
+  "imageHash": "05dd14b16db35b39",
+  "dateTried": true
  },
  {
   "id": "fd037645966b",
@@ -43765,7 +43812,8 @@
   "regionTried": true,
   "imageTriedAt": "2026-10-27",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-09-13/doc-inirtfmp0035760.shtml",
-  "imageHash": "8617f8039379cde0"
+  "imageHash": "8617f8039379cde0",
+  "dateTried": true
  },
  {
   "id": "7ff75153b957",
@@ -43800,7 +43848,8 @@
   "imageTried": true,
   "article": "https://news.qq.com/rain/a/20261023A0BSPU00",
   "imageFrom": "https://news.qq.com/rain/a/20261023A0BSPU00",
-  "imageHash": "5dca80ebc8e2be18"
+  "imageHash": "5dca80ebc8e2be18",
+  "dateTried": true
  },
  {
   "id": "00c99fc95a90",
@@ -43842,7 +43891,8 @@
   "imageTried": true,
   "article": "https://www.sohu.com/a/1091699087_120815119",
   "imageFrom": "https://www.sohu.com/a/1091699087_120815119",
-  "imageHash": "e16e0f953dfb2c09"
+  "imageHash": "e16e0f953dfb2c09",
+  "dateTried": true
  },
  {
   "id": "b8e2b03ea395",
@@ -43878,7 +43928,8 @@
   "imageTried": true,
   "article": "https://www.dzwww.com/xinwen/jishixinwen/202610/t20261022_18230445.htm",
   "imageFrom": "https://www.dzwww.com/xinwen/jishixinwen/202610/t20261022_18230445.htm",
-  "imageHash": "88fa5e7c861e8fc3"
+  "imageHash": "88fa5e7c861e8fc3",
+  "dateTried": true
  },
  {
   "id": "cbf2e8ee3aa6",
@@ -43915,7 +43966,8 @@
   "article": "https://www.sohu.com/a/1091810102_128649",
   "imageFrom": "https://www.sohu.com/a/1091810102_128649",
   "regionTried": true,
-  "imageHash": "51c7e29c48605b6a"
+  "imageHash": "51c7e29c48605b6a",
+  "dateTried": true
  },
  {
   "id": "aa8a08fec523",
@@ -43965,7 +44017,8 @@
   "article": "https://www.msn.com/zh-cn/entertainment/%E5%90%8D%E4%BA%BA/%E8%8A%B1%E7%AF%AE%E5%A2%99%E8%A7%81%E8%AF%81%E5%9C%88%E5%86%85%E6%83%85%E8%B0%8A-%E8%82%96%E6%88%98%E5%8D%97%E4%BA%AC%E6%BC%94%E5%94%B1%E4%BC%9A%E5%9C%BA%E5%A4%96%E8%97%8F%E7%BB%86%E8%8A%82-%E5%87%A0%E6%AE%B5%E6%97%A7%E4%BA%A4%E6%83%85%E5%BC%95%E7%BD%91%E5%8F%8B%E6%84%9F%E6%85%A8/ar-AA2fYDwS",
   "imageTriedAt": "2026-10-27",
   "imageFrom": "https://ent.sina.cn/2026-10-27/detail-iniwqpfm5231760.d.html?vt=4",
-  "imageHash": "31d2e8a189b8ed7e"
+  "imageHash": "31d2e8a189b8ed7e",
+  "dateTried": true
  },
  {
   "id": "4e8b32566770",
@@ -44000,7 +44053,8 @@
   "imageTried": true,
   "article": "https://view.inews.qq.com/a/20261022A02IZF00",
   "imageFrom": "https://view.inews.qq.com/a/20261022A02IZF00",
-  "imageHash": "c695795f2b67fdc1"
+  "imageHash": "c695795f2b67fdc1",
+  "dateTried": true
  },
  {
   "id": "aa5ccd9b6d37",
@@ -44035,7 +44089,8 @@
   "imageTried": true,
   "article": "https://news.qq.com/rain/a/20260531A07VZF00",
   "imageFrom": "https://news.qq.com/rain/a/20260531A07VZF00",
-  "imageHash": "19feaf0bfb092610"
+  "imageHash": "19feaf0bfb092610",
+  "dateTried": true
  },
  {
   "id": "f14b1cef2c6d",
@@ -44070,7 +44125,8 @@
   "imageTried": true,
   "article": "https://news.qq.com/rain/a/20261021A0ATOJ00",
   "imageFrom": "https://news.qq.com/rain/a/20261021A0ATOJ00",
-  "imageHash": "f5f1a98577b569d3"
+  "imageHash": "f5f1a98577b569d3",
+  "dateTried": true
  },
  {
   "id": "df84ab6c4860",
@@ -44106,7 +44162,8 @@
   "article": "https://www.sohu.com/a/1090165339_121106884",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwhnxw4977687.shtml",
   "imageHash": "020e6b5eb6f0afff",
-  "imageTriedAt": "2026-10-27"
+  "imageTriedAt": "2026-10-27",
+  "dateTried": true
  },
  {
   "id": "d659d64b3147",
@@ -44141,7 +44198,8 @@
   "imageTried": true,
   "article": "https://finance.sina.com.cn/tjhz/2026-10-26/doc-iniwpwir9284766.shtml",
   "imageFrom": "https://finance.sina.com.cn/tjhz/2026-10-26/doc-iniwpwir9284766.shtml",
-  "imageHash": "7a37669a6cd50793"
+  "imageHash": "7a37669a6cd50793",
+  "dateTried": true
  },
  {
   "id": "63ab0590f2ec",
@@ -44177,7 +44235,8 @@
   "imageTried": true,
   "article": "https://view.inews.qq.com/a/20261021A09TIH00",
   "imageFrom": "https://view.inews.qq.com/a/20261021A09TIH00",
-  "imageHash": "1d12d63b6dc066db"
+  "imageHash": "1d12d63b6dc066db",
+  "dateTried": true
  },
  {
   "id": "661760a66d1a",
@@ -44212,7 +44271,8 @@
   "imageTried": true,
   "article": "https://www.sohu.com/a/1092731689_100116740",
   "imageFrom": "https://www.sohu.com/a/1092731689_100116740",
-  "imageHash": "f480a94ef58bc494"
+  "imageHash": "f480a94ef58bc494",
+  "dateTried": true
  },
  {
   "id": "657503b91a4e",
@@ -44247,7 +44307,8 @@
   "imageTried": true,
   "article": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniweywu2691540.shtml",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniweywu2691540.shtml",
-  "imageHash": "63533217fac3ad90"
+  "imageHash": "63533217fac3ad90",
+  "dateTried": true
  },
  {
   "id": "4fd169efc3f4",
@@ -44285,7 +44346,8 @@
   "article": "https://finance.sina.com.cn/jjxw/2026-08-16/doc-ininnuvs9825478.shtml",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-08-16/doc-ininnuvs9825478.shtml",
   "regionTried": true,
-  "imageHash": "f26d76370d982c3b"
+  "imageHash": "f26d76370d982c3b",
+  "dateTried": true
  },
  {
   "id": "7645a783cfa2",
@@ -44321,7 +44383,8 @@
   "article": "https://news.qq.com/rain/a/20261027A092VG00",
   "imageFrom": "https://news.qq.com/rain/a/20261027A092VG00",
   "regionTried": true,
-  "imageHash": "379cedd37cf6e183"
+  "imageHash": "379cedd37cf6e183",
+  "dateTried": true
  },
  {
   "id": "5727acad67b8",
@@ -44357,7 +44420,8 @@
   "imageTried": true,
   "article": "https://www.sohu.com/a/1091524222_596879",
   "imageFrom": "https://www.sohu.com/a/1091524222_596879",
-  "imageHash": "bfa120d7d39fc2f5"
+  "imageHash": "bfa120d7d39fc2f5",
+  "dateTried": true
  },
  {
   "id": "d76932968c96",
@@ -44392,7 +44456,8 @@
   "imageTried": true,
   "article": "https://news.qq.com/rain/a/20250613A09B9N00",
   "imageFrom": "https://news.qq.com/rain/a/20261015A0DBS000",
-  "imageHash": "d12d0953f102f307"
+  "imageHash": "d12d0953f102f307",
+  "dateTried": true
  },
  {
   "id": "481632066e47",
@@ -44429,7 +44494,8 @@
   "article": "https://news.qq.com/rain/a/20261022A0AJDZ00",
   "imageFrom": "https://www.citnews.com.cn/news/223253",
   "regionTried": true,
-  "imageHash": "8855c457f7fda5c4"
+  "imageHash": "8855c457f7fda5c4",
+  "dateTried": true
  },
  {
   "id": "937996d978bf",
@@ -44464,7 +44530,8 @@
   "imageTried": true,
   "article": "https://finance.sina.com.cn/wm/2026-10-11/doc-iniuvtkf5743077.shtml",
   "imageFrom": "https://www.36kr.com/p/3629094281294600",
-  "imageHash": "3fdacb90b895d7f2"
+  "imageHash": "3fdacb90b895d7f2",
+  "dateTried": true
  },
  {
   "id": "5050f3cc8b9d",
@@ -44499,7 +44566,8 @@
   "imageTried": true,
   "article": "https://news.qq.com/rain/a/20261017A03AIY00",
   "imageFrom": "https://www.sohu.com/a/1089053973_120192701",
-  "imageHash": "58c2112e8948961b"
+  "imageHash": "58c2112e8948961b",
+  "dateTried": true
  },
  {
   "id": "5f3097ad16f8",
@@ -44534,7 +44602,8 @@
   "imageTried": true,
   "article": "https://www.msn.com/zh-cn/entertainment/music/%E6%97%B6%E4%BB%A3%E5%B0%91%E5%B9%B4%E5%9B%A2%E4%B8%8A%E6%B5%B7%E6%BC%94%E5%94%B1%E4%BC%9A%E8%A7%82%E6%BC%94%E8%B6%8524%E4%B8%87%E4%BA%BA-%E6%9C%AA%E6%88%90%E5%B9%B4%E4%BA%BA%E8%B6%856%E4%B8%87-%E5%9C%B0%E9%93%81%E5%BB%B6%E6%97%B6%E8%BF%90%E8%90%A5-%E5%9C%BA%E9%A6%86%E5%91%A8%E8%BE%B9%E5%A2%9E%E8%AE%BE%E5%A5%B3%E5%8E%95/ar-AA29if3c",
   "imageFrom": "https://www.msn.cn/zh-cn/news/other/%E4%BE%AF%E6%B5%AA%E5%8A%A0%E7%9B%9F%E6%9D%8E%E7%BF%8A%E5%90%9B%E6%BC%94%E5%94%B1%E4%BC%9A-%E5%B8%A6%E6%9D%A5%E6%80%80%E6%97%A7%E9%87%91%E6%9B%B2%E4%B9%8B%E5%A4%9C/ar-AA2fRU1y",
-  "imageHash": "45ebf0639d9ea927"
+  "imageHash": "45ebf0639d9ea927",
+  "dateTried": true
  },
  {
   "id": "96ea9f0c699a",
@@ -44569,7 +44638,8 @@
   "imageTried": true,
   "article": "https://www.msn.com/zh-cn/entertainment/%E5%90%8D%E4%BA%BA/%E5%BC%A0%E6%99%BA%E9%9C%96%E5%9B%9E%E8%80%81%E5%AE%B6%E4%BD%9B%E5%B1%B1%E5%BC%80%E6%BC%94%E5%94%B1%E4%BC%9A-%E4%B8%8E%E5%89%8D%E5%A5%B3%E5%8F%8B%E8%AE%B8%E7%A7%8B%E6%80%A1%E5%90%88%E5%94%B1%E6%83%85%E6%AD%8C-%E8%A2%81%E5%92%8F%E4%BB%AA%E5%8F%B0%E4%B8%8B%E6%84%9F%E5%8A%A8%E8%90%BD%E6%B3%AA/ar-AA2g7ShX",
   "imageFrom": "https://3g.china.com/act/ent/11005281/20261027/49820931.html",
-  "imageHash": "58ba70c967a739da"
+  "imageHash": "58ba70c967a739da",
+  "dateTried": true
  },
  {
   "id": "df83fd52f8c9",
