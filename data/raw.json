@@ -155744,6 +155744,7 @@
   "date": "2026-10-26",
   "status": "skip"
  },
+<<<<<<< Updated upstream
  "ba6f71f28695": {
   "id": "ba6f71f28695",
   "country": "TH",
@@ -155815,6 +155816,8 @@
   "date": "2026-10-27",
   "status": "skip"
  },
+=======
+>>>>>>> Stashed changes
  "4cea9ef06afd": {
   "id": "4cea9ef06afd",
   "country": "TH",
@@ -155830,6 +155833,7 @@
   "date": "2026-10-27",
   "status": "skip"
  },
+<<<<<<< Updated upstream
  "f62999b450db": {
   "id": "f62999b450db",
   "country": "TH",
@@ -156041,6 +156045,8 @@
   "date": "2026-10-27",
   "status": "done"
  },
+=======
+>>>>>>> Stashed changes
  "fcb3850d48c4": {
   "id": "fcb3850d48c4",
   "country": "TH",
@@ -156053,34 +156059,6 @@
   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52TDA5SEJVUHhsanIxc3NkVFhOOUJ1UE5GMnVNRWxrMUFDOVVGcVd1X081VG5HNWcwc3pJODRieGgzZUpZTHJjQnkzRnNJTEkzeDlvbGlfRHZpLVZtc1JqTVJzWWtZUUY0Mm56b3J1SlJkaHBV?oc=5",
   "image": null,
   "date": "2026-10-27",
-  "status": "skip"
- },
- "913d58728b81": {
-  "id": "913d58728b81",
-  "country": "TH",
-  "tags": [
-   "cosplay"
-  ],
-  "title": "เรกะ อาริคาวะ คอสเพลย์หญิงหล่อเบอร์ 1 ของโลก",
-  "desc": "เว็บไซต์วิกิพีเดีย ให้คำจำกัดความ “คอสเพลย์” ว่าเกิดจากการนำคำว่า Costume และ Play มารวมกัน ...",
-  "source": "posttoday.com",
-  "link": "https://www.posttoday.com/lifestyle/225191",
-  "image": null,
-  "date": "2013-05-29",
-  "status": "skip"
- },
- "f1c51e0706ec": {
-  "id": "f1c51e0706ec",
-  "country": "TH",
-  "tags": [
-   "cosplay"
-  ],
-  "title": "เด็กชายคอสเพลย์เป็น \"ฟรีซเซอร์\" ตอนล้างถึงกับเหม่อ เพราะใช้ \"สี ...",
-  "desc": "ไวรัลสุดฮา! เด็กชายชาวฟิลิปปินส์ คอสเพลย์เป็น “ฟรีซเซอร์” จาก ดราก้อนบอล ตอนล้างถึงกับ ...",
-  "source": "khaosod.co.th",
-  "link": "https://www.khaosod.co.th/around-the-world-news/news_10213999",
-  "image": null,
-  "date": "2026-04-18",
   "status": "skip"
  },
  "935d90ba03c3": {
@@ -156183,6 +156161,7 @@
   "date": "2026-10-27",
   "status": "done"
  },
+<<<<<<< Updated upstream
  "e3a93c7d3807": {
   "id": "e3a93c7d3807",
   "country": "TH",
@@ -156213,6 +156192,10 @@
  },
  "1531161e7e7d": {
   "id": "1531161e7e7d",
+=======
+ "d4a010a00725": {
+  "id": "d4a010a00725",
+>>>>>>> Stashed changes
   "country": "TH",
   "tags": [
    "fanmeet"
@@ -156547,76 +156530,6 @@
   "date": "2026-10-27",
   "status": "skip"
  },
- "f23191a0f669": {
-  "id": "f23191a0f669",
-  "country": "TH",
-  "tags": [
-   "idol"
-  ],
-  "title": "ไอดอลญี่ปุ่น ความจริงอันหนาวเหน็บเบื้องหลังสปอตไลท์",
-  "desc": "ปรากฏการณ์ไอดอลในญี่ปุ่นซึ่งเกิดขึ้นในทศวรรษ 1970 เน้นย้ำถึงศิลปินรุ่นเยาว์ซึ่งมักเป็น ...",
-  "source": "The Body Optimist on MSN",
-  "link": "https://www.msn.com/th-th/news/other/%E0%B9%84%E0%B8%AD%E0%B8%94%E0%B8%AD%E0%B8%A5%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%A7%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B9%87%E0%B8%9A%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%9B%E0%B8%AD%E0%B8%95%E0%B9%84%E0%B8%A5%E0%B8%97%E0%B9%8C/ar-AA1xNQmr",
-  "image": null,
-  "date": "2025-01-24",
-  "status": "skip"
- },
- "be7250dcff25": {
-  "id": "be7250dcff25",
-  "country": "TH",
-  "tags": [
-   "idol"
-  ],
-  "title": "แฟนบอลมีใจละลาย \"อันนะ” ไอดอลสาวสวยวง MEOVV ใส่เสื้ออินเตอร์ฯ ขึ้น ...",
-  "desc": "วงการบันเทิงกับฟุตบอลแยกกันไม่ขาดจริงๆ ล่าสุด อันนะ ทานากะ ไอดอลสาวสัญชาติญี่ปุ่น จากวง ...",
-  "source": "mgronline",
-  "link": "https://mgronline.com/sport/detail/9690000084987",
-  "image": null,
-  "date": "2026-08-29",
-  "status": "skip"
- },
- "081a3ce6a215": {
-  "id": "081a3ce6a215",
-  "country": "TH",
-  "tags": [
-   "idol"
-  ],
-  "title": "ไอดอลใต้ดินญี่ปุ่นจุดดราม่า เสนอ “บริการดมรักแร้” ให้แฟนคลับ ...",
-  "desc": "ฮาริ มัตสึโมโตะ สร้างกระแสวิจารณ์หนัก หลังเปลี่ยนกิจกรรมพบปะแฟนเป็น “ดมรักแร้” ขณะสะท้อน ...",
-  "source": "mgronline",
-  "link": "https://mgronline.com/entertainment/detail/9690000040653",
-  "image": null,
-  "date": "2026-04-30",
-  "status": "skip"
- },
- "57751c69b866": {
-  "id": "57751c69b866",
-  "country": "TH",
-  "tags": [
-   "idol"
-  ],
-  "title": "ไอดอลใต้ดินให้แฟนคลับ “ดมรักแร้แทนจับมือ”",
-  "desc": "เกินเบอร์ไปไหม? ไอดอลใต้ดินญี่ปุ่นผุดแฟนเซอร์วิสสุดแปลก \"ดมรักแร้แทนการจับมือ\" ชาวเน็ตถก ...",
-  "source": "Daily News",
-  "link": "https://www.dailynews.co.th/news/5817818/",
-  "image": null,
-  "date": "2026-04-28",
-  "status": "skip"
- },
- "649ce192bd77": {
-  "id": "649ce192bd77",
-  "country": "TH",
-  "tags": [
-   "idol"
-  ],
-  "title": "ดราม่าเดือด ไอดอลสาวให้แฟนคลับดมรักแร้ ทัวร์ลงยับ น่า ...",
-  "desc": "คลิปไวรัล ไอดอลใต้ดินญี่ปุ่นผุดเซอร์วิสให้แฟนคลับดมรักแร้ ชาวเน็ตจวกยับไม่เหมาะสม-น่า ...",
-  "source": "The Thaiger",
-  "link": "https://thethaiger.com/th/news/1561419/",
-  "image": null,
-  "date": "2026-04-30",
-  "status": "skip"
- },
  "a8caa25a8ab8": {
   "id": "a8caa25a8ab8",
   "country": "TH",
@@ -156631,6 +156544,7 @@
   "date": "2026-10-26",
   "status": "new"
  },
+<<<<<<< Updated upstream
  "69f215d3d6c0": {
   "id": "69f215d3d6c0",
   "country": "TH",
@@ -156715,6 +156629,8 @@
   "date": "2026-07-22",
   "status": "skip"
  },
+=======
+>>>>>>> Stashed changes
  "3130a2604311": {
   "id": "3130a2604311",
   "country": "TH",
@@ -156954,12 +156870,18 @@
   "date": "2013-02-07",
   "status": "done"
  },
+<<<<<<< Updated upstream
  "bda67f016e7d": {
   "id": "bda67f016e7d",
+=======
+ "585c641928b1": {
+  "id": "585c641928b1",
+>>>>>>> Stashed changes
   "country": "TH",
   "tags": [
    "gadget"
   ],
+<<<<<<< Updated upstream
   "title": "ประเภทคอนเท้นต์",
   "desc": "ซัมซุงชวนร่วมสัมผัสสมาร์ทโฟนมาแรงแห่งยุค Galaxy S23 Series พิเศษ! ลูกค้า 500 คนแรกได้รับ ซัมซุงอะแดปเต ...",
   "source": "Samsung",
@@ -156984,6 +156906,186 @@
  },
  "3badfa9cd20c": {
   "id": "3badfa9cd20c",
+=======
+  "title": "ผู้ผลิตยังคงเพิ่มความน่าสนใจให้กับรถจักรยานยนต์ที่ใช้เครื่องยนต์เบนซินอย่างต่อเนื่อง",
+  "desc": "",
+  "source": "Vietnam.vn",
+  "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa19hZTlHOTVjQ05PUmdacGYxQzdyOG1jZG1JaVVzOFFnaERGQ1BrY19nbkRwRHYtLTN0dGd0b0djTnQxREh3UTJpaklsWjZ0NEFTRUZua3RtRnRoZmVoQk5YU1FYQy1lZy1yZGcyV3Ryb3BVR0sxVzVkeDU0VVNfU1lJelpCWlk?oc=5",
+  "image": null,
+  "date": "2026-10-27",
+  "status": "skip"
+ },
+ "54b60e9a4a26": {
+  "id": "54b60e9a4a26",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "Suunto เปิดตัว Race 3S ขนาด 46 มม. 56 กรัม จัดเต็มโหมด GPS นาน 38 ชั่วโมงและ AI Coach สำหรับสายเทรล",
+  "desc": "",
+  "source": "snkr today",
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45Y1BxbHBwcHNPM0xQbm5TTkNVVkJsTjVzejFud2JHOHJoYXNES2FEdjRJQWYtaDd4dU1vazFLT2FyY29EbmNlNXZoa1FMRjFnQ2txS2Z5VFkxRHRVTnJvcFg1MHFYSzVlQzkyT3U0ZG3SAXZBVV95cUxQOFZpWFdPeE9LaWlzTzFYSWdjODNUYkdId0MxQ2NKR2duaXNwMzZpbmMzd3R5eURobzc0Z0k3cFkyRk95Ym9SbFRmT2pZRGVqNGlNbUt2eDVyaDhBQ1Y4ZU5oRlU1WVR3REhqSGFGMkhfSVMxWjB3?oc=5",
+  "image": null,
+  "date": "2026-10-26",
+  "status": "new"
+ },
+ "67751165326d": {
+  "id": "67751165326d",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "อวสานทองคำแพง สตาร์ทอัพสหรัฐฯสามารถเปลี่ยนปรอทเป็นทองได้จริง หวั่นซ้ำรอยราคาเพชรดิ่ง",
+  "desc": "",
+  "source": "Head Topics",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kSm5HbXBaT1lCeVBaRGxyZDg5Wld2TWZMbmpYQVdRS2N5YWxfb0ZBaHpTODdTVzhJeFp6amhDaEZtLU1BZHJPUVJuNnFlR2szRUFLcVlTbWFHZk4zT0tHS2gxNzdqV0pLazhzdA?oc=5",
+  "image": null,
+  "date": "2026-10-27",
+  "status": "skip"
+ },
+ "da7f8004f246": {
+  "id": "da7f8004f246",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "Apple ยืนยัน…ยังมีผลิตภัณฑ์ใหม่ รอเปิดตัวตาม iPad mini ในสัปดาห์นี้!",
+  "desc": "",
+  "source": "iPhone-Droid",
+  "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTl8zZnY3N2ZyTlRPbGF0c3E2Zkt0RzVVSkthdExyN3dKZC1SZElUSktLbFhCVFdCRUZxTkRfWmFqbTYtYUxydkNmTlhjVzBTelY3OW1SanlWak93dFY2Y2l4RXRERE95TXl4TWpzTlR1MG42ZHFFOXVOZkhGYVhEY3FFc2d5Vks4SkE?oc=5",
+  "image": null,
+  "date": "2026-10-27",
+  "status": "done"
+ },
+ "f316af8cd16e": {
+  "id": "f316af8cd16e",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "ราคา iPhone Duo ในตลาดมืดลดลงอย่างมากหลังจากเกิดเหตุการณ์หน้าจอแตกหลายครั้ง",
+  "desc": "",
+  "source": "Vietnam.vn",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSWljYWtwZFR5UzRKUk5CU1Q4QTlCaFBvMXRkNlJrcENJYzlKYVQ4YjFGR3NiSjlveDBtb0dVVUI1RDMxZHF3Z3Rqb3otQThoQzRtcm5RTHQ1NmZpVXVPOU9VWDZzOXJ5OEExYlpsdmwwUkRVNWFsQndKN0YxLTZGUVhHX0tsRTFjbUxRWVRIcnQ4QQ?oc=5",
+  "image": null,
+  "date": "2026-10-26",
+  "status": "skip"
+ },
+ "740585b890c5": {
+  "id": "740585b890c5",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "ภาคเกษตรกรรม – 'จุดนัดพบที่เหมาะสม' สำหรับความร่วมมือระหว่างเวียดนามและสหราชอาณาจักร",
+  "desc": "",
+  "source": "Vietnam.vn",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSlhyTnlWcUJ1SzMzRDR4MkowTzJfNjJfSWNTalEtMXAyUEJaeHcyb1lHdkp0NEFhc0N6VExuVWF1QUF2MGUtZlhsUjlqWHpnenBPS2FWaXZWSTR5ZDJEUENsTnIzN2hUTGZzdzhLM2JJZFZvNVc1WlItUUMwcGZpX2ZZaUhZUQ?oc=5",
+  "image": null,
+  "date": "2026-10-27",
+  "status": "skip"
+ },
+ "6ad5df48bfb8": {
+  "id": "6ad5df48bfb8",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "คุ้มสุดในงบหมื่นห้า! รู้จัก 'TECNO CAMON Slim 5G' บางจัด จับทุกความเคลื่อนไหวด้วย FlashSnap",
+  "desc": "",
+  "source": "bangkokbiznews",
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vZHBKazl0U09sZmZlZl9PZlQwOU9jR3ZicC1RdVljN0I2VFV5Y0R5WXdPRFQyZ2M5WExhOHFOcEEzR1BKYXI1QW9kaGhDRW0xUmU4MUM1VWRkbXBMQmZF?oc=5",
+  "image": null,
+  "date": "2026-10-26",
+  "status": "new"
+ },
+ "a7f7a07bf518": {
+  "id": "a7f7a07bf518",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "Apple เปิดตัว “iPad mini” รุ่นใหม่ จอ OLED กันน้ำได้ เริ่มเปิดพรีออร์เดอร์ 28 ต.ค.",
+  "desc": "",
+  "source": "วารสารการเงินธนาคาร",
+  "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oSGxmWWd3aVVqU1Y4MGkyVjZnQzhvb1U1d3Jnd1pvSmNyQkFCYXJJVmhsUmotdEdMNU93LWVEMnJlZGdETzhESWdNQzNsNG9yeTE0ZQ?oc=5",
+  "image": null,
+  "date": "2026-10-27",
+  "status": "done"
+ },
+ "08a8c898c9f2": {
+  "id": "08a8c898c9f2",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "Jefferies แนะนำหุ้น IT Mid-Cap เด่น 4 ตัวหลังอัปเดตล่าสุด",
+  "desc": "",
+  "source": "Investing.com",
+  "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ya05mMURSVXlBbDRzLU1uanlTbjFRS1VvQzFVenVyU0NFcmFSakl5dmVjdmtjTHdZenpRYWVJYnZqMG9Ddnk3M1dPR1g2eHo2SnJOTXVCTWtfQ0Y2NFRPaTRlTVFhdVVQVGZHWmJuRQ?oc=5",
+  "image": null,
+  "date": "2026-10-26",
+  "status": "skip"
+ },
+ "a6942caa2fc0": {
+  "id": "a6942caa2fc0",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "อีริคสันคาดการณ์ภายใน พ.ศ. 2573 ผู้ใช้สมาร์ทโฟนไทยมากกว่าครึ่งจะใช้งาน AI Agent",
+  "desc": "",
+  "source": "newswit",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yV1JnYWVQQ1R2eW5UWk96VFBTeVpaWXZoNmhiclhZb1hiQkhWYWxVQjhwSmNGTkdWWEV4cWxjRjFTVjUzdlZhYm9mRjFhanQxUk5hdHh3dFF0VndLWDlkeXN5RWxka3Q2TWhz?oc=5",
+  "image": null,
+  "date": "2026-10-27",
+  "status": "done"
+ },
+ "02f86126caa0": {
+  "id": "02f86126caa0",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "iPhone Duo โดนสับเรื่องร้าว แต่คะแนนแกะเครื่องพุ่ง",
+  "desc": "",
+  "source": "Teenee.com",
+  "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0waE9jWGhpUEgzM0ZHQTkyZGF2dU1rUWZkdlpiaVBzemswLVd2RXhOU281bnQ4RkVSazhTWUpSNFNXMmtUN1pCX2lVY1V1cnVlQk42UjBCLVhBZw?oc=5",
+  "image": null,
+  "date": "2026-10-26",
+  "status": "skip"
+ },
+ "fb7812931a3c": {
+  "id": "fb7812931a3c",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "bolttech ผนึก 3 ผู้จัดจำหน่าย Apple ขยายบริการ Device Protection ในไทย เปิดตัว \"iProtec+ with AppleCare Services\" ผ่าน iStudio และ U-Store",
+  "desc": "",
+  "source": "newswit",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95a0xjRXlzanVHZlpKVTZ3ZHVCaGNMOVJ4MU5ZVTdSQVQ0Nmhicktlc05JZGp5eXhYNk9CaEI5ZzJPNFpCcTlHN3FSWjh5VVV6UkFfNjVGNzRUQzZRZHBNcmowZWNRWldzRG9n?oc=5",
+  "image": null,
+  "date": "2026-10-27",
+  "status": "done"
+ },
+ "64b6d3c51b8f": {
+  "id": "64b6d3c51b8f",
+  "country": "TH",
+  "tags": [
+   "gadget"
+  ],
+  "title": "Pura 100 Pro Max Archives",
+  "desc": "",
+  "source": "iPhone-Droid",
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrT201cWoxQWdTa3JnaGxDYmN0X3lIR2EyUzhacHRabE83eVhNTWMwdW9nQjF2NkdxY25EcnRNWUNrbko1cnA5TzI4d2lpNVF2eTVtb1dnLWQ1cmdoUk5Z?oc=5",
+  "image": null,
+  "date": "2026-10-27",
+  "status": "skip"
+ },
+ "65cac679f342": {
+  "id": "65cac679f342",
+>>>>>>> Stashed changes
   "country": "TH",
   "tags": [
    "startup"
@@ -157109,6 +157211,7 @@
   "date": "2026-10-26",
   "status": "new"
  },
+<<<<<<< Updated upstream
  "d38d1e43c552": {
   "id": "d38d1e43c552",
   "country": "TH",
@@ -157125,6 +157228,10 @@
  },
  "9570172e7d24": {
   "id": "9570172e7d24",
+=======
+ "a6efddf837c6": {
+  "id": "a6efddf837c6",
+>>>>>>> Stashed changes
   "country": "TH",
   "tags": [
    "carlaunch",
@@ -157208,6 +157315,7 @@
   "date": "2026-10-26",
   "status": "new"
  },
+<<<<<<< Updated upstream
  "645532e6d2dc": {
   "id": "645532e6d2dc",
   "country": "TH",
@@ -157235,6 +157343,21 @@
   "image": null,
   "date": "2026-10-27",
   "status": "done"
+=======
+ "d701e497b24c": {
+  "id": "d701e497b24c",
+  "country": "TH",
+  "tags": [
+   "carlaunch"
+  ],
+  "title": "กำหนดการเปิดตัวรถยนต์ไฟฟ้า Audi A4 เลื่อนออกไปเป็นปี 2029",
+  "desc": "",
+  "source": "Vietnam.vn",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wT3RLZ1h6dWtzT3NKYTVUdS1ZUDd6QUUzTTl2ZFRNWU9Ya0RQdzJuR2x2SENtejNhOTUtZGpSZU1FRXRQSm5Pb01GMWdza252Vm11SHVSTV94b09XVmpYNVhFVDFCb1dfMExnbndrbzZoWEY5SlE?oc=5",
+  "image": null,
+  "date": "2026-10-26",
+  "status": "new"
+>>>>>>> Stashed changes
  },
  "f205148b9d66": {
   "id": "f205148b9d66",
@@ -157250,6 +157373,7 @@
   "date": "2026-10-27",
   "status": "done"
  },
+<<<<<<< Updated upstream
  "1132b4d6c91e": {
   "id": "1132b4d6c91e",
   "country": "TH",
@@ -157294,6 +157418,10 @@
  },
  "03550d76d1b8": {
   "id": "03550d76d1b8",
+=======
+ "9570172e7d24": {
+  "id": "9570172e7d24",
+>>>>>>> Stashed changes
   "country": "TH",
   "tags": [
    "ev"
@@ -157334,6 +157462,7 @@
   "date": "2026-10-27",
   "status": "skip"
  },
+<<<<<<< Updated upstream
  "e58e1fce0fd3": {
   "id": "e58e1fce0fd3",
   "country": "TH",
@@ -157350,10 +157479,15 @@
  },
  "437c2ecdb778": {
   "id": "437c2ecdb778",
+=======
+ "f41e18e88c7f": {
+  "id": "f41e18e88c7f",
+>>>>>>> Stashed changes
   "country": "TH",
   "tags": [
    "local"
   ],
+<<<<<<< Updated upstream
   "title": "สถานทูตอังกฤษชวนเที่ยว “งานวัด” ฉลอง 170 ปี ความสัมพันธ์กับไทย",
   "desc": "ในโอกาสเฉลิมฉลองครบรอบ 170 ปี ความสัมพันธ์ทางการทูตระหว่างสหราชอาณาจักรและไทย สถานเอกอัครราชทูตสหราชอาณาจักรประจำประเทศไทย เตรียมจัด “งานวัดอังกฤษ” ณ วัดมหาธาตุยุวราชรัง ...",
   "source": "Daily News",
@@ -157364,6 +157498,18 @@
  },
  "473e29fd007b": {
   "id": "473e29fd007b",
+=======
+  "title": "ชวนเที่ยวงานวัดภูเขาทอง 2569 จัด 13 วัน 13 คืน เริ่ม 17 พ.ย.",
+  "desc": "ปักหมุด ชวนเที่ยวงานวัดภูเขาทอง 2569 วัดสระเกศราชวรมหาวิหาร จัดยิ่งใหญ่งานนมัสการพระบรมสารีริกธาตุประจำปี 2569 รวม 13 วัน 13 คืน เริ่มต้นด้วยพิธีห่มผ้าแดงองค์พระธาตุพร้อมกิจกรรมมากมาย ตั้งแต่ วันที่ 1",
+  "source": "ฐานเศรษฐกิจ on MSN",
+  "link": "https://www.msn.com/th-th/news/other/%E0%B8%8A%E0%B8%A7%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%97%E0%B8%AD%E0%B8%87-2569-%E0%B8%88%E0%B8%B1%E0%B8%94-13-%E0%B8%A7%E0%B8%B1%E0%B8%99-13-%E0%B8%84%E0%B8%B7%E0%B8%99-%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1-17-%E0%B8%9E-%E0%B8%A2/ar-AA2fUos7",
+  "image": null,
+  "date": "2026-10-23",
+  "status": "new"
+ },
+ "3a4b72caa282": {
+  "id": "3a4b72caa282",
+>>>>>>> Stashed changes
   "country": "TH",
   "tags": [
    "local"
@@ -157544,6 +157690,7 @@
   "date": "2026-10-27",
   "status": "skip"
  },
+<<<<<<< Updated upstream
  "92abd7317d2a": {
   "id": "92abd7317d2a",
   "country": "TH",
@@ -157571,6 +157718,21 @@
   "image": null,
   "date": "2025-06-17",
   "status": "done"
+=======
+ "690072a741bc": {
+  "id": "690072a741bc",
+  "country": "TH",
+  "tags": [
+   "local"
+  ],
+  "title": "เทศกาลดอกบัควีท 2026: จัดขึ้นต่อเนื่องจนถึงสิ้นเดือนธันวาคม ดึงดูดนักท่องเที่ยวจำนวนมากมายังที่ราบสูงหินดงวัน",
+  "desc": "",
+  "source": "Vietnam.vn",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeXptNnZBenpGNFFuNGtXWVZISlBkdG9iS2k0T2VMOUwwaGFxdUFMOU51d3BjUkF1RTA3TU9BR1BVald3YlQ5YThDdWpGLS1QQ3hGRnlfTW5UUnBHaXZPeUpaX2xGeXVzX0tWX25NbEI0TEZyM3FrSFFaTWQ3dzQ0RE13eGdHODBqQ0dXdUVEMkFGRHcxdEktVUtrd0pFNVMtZ0hRV19lY19iOGc2SmpLVjgxYw?oc=5",
+  "image": null,
+  "date": "2026-10-26",
+  "status": "new"
+>>>>>>> Stashed changes
  },
  "2aa7d7b94022": {
   "id": "2aa7d7b94022",
@@ -157645,6 +157807,7 @@
   "date": "2026-10-26",
   "status": "skip"
  },
+<<<<<<< Updated upstream
  "503b36f3fbbc": {
   "id": "503b36f3fbbc",
   "country": "TH",
@@ -157899,6 +158062,10 @@
  },
  "ada2211b5bb8": {
   "id": "ada2211b5bb8",
+=======
+ "68de2293288b": {
+  "id": "68de2293288b",
+>>>>>>> Stashed changes
   "country": "TH",
   "tags": [
    "edu"
@@ -157939,6 +158106,7 @@
   "date": "2026-10-27",
   "status": "done"
  },
+<<<<<<< Updated upstream
  "c42bf8af607b": {
   "id": "c42bf8af607b",
   "country": "TH",
@@ -158067,6 +158235,10 @@
  },
  "151410664506": {
   "id": "151410664506",
+=======
+ "ae51b2eabd4b": {
+  "id": "ae51b2eabd4b",
+>>>>>>> Stashed changes
   "country": "TH",
   "tags": [
    "photo"
@@ -158093,48 +158265,6 @@
   "date": "2026-10-26",
   "status": "skip"
  },
- "52fceb36a0d1": {
-  "id": "52fceb36a0d1",
-  "country": "TH",
-  "tags": [
-   "workshop"
-  ],
-  "title": "SACIT ผุดงานใหญ่ ดัน ‘คราฟต์ไทย’ สู่ตลาดโลก",
-  "desc": "SACIT เตรียมจัดงานใหญ่แห่งปี Crafts Bangkok 2026 ระหว่างวันที่ 3-7 มิ.ย.69 ที่ศูนย์สิริกิติ์ ตั้งเป้าสร้าง ...",
-  "source": "prachachat.net",
-  "link": "https://www.prachachat.net/economic/news-2009689",
-  "image": null,
-  "date": "2026-05-21",
-  "status": "done"
- },
- "9b40c5f4a1ea": {
-  "id": "9b40c5f4a1ea",
-  "country": "TH",
-  "tags": [
-   "workshop"
-  ],
-  "title": "ออกไปทำเวิร์กช็อปน่าสนใจทั่วกรุงเทพฯ ประจำปี 2569",
-  "desc": "ท่ามกลางมหานครที่จังหวะชีวิตไม่เคยหยุดนิ่งอย่างกรุงเทพฯ ...",
-  "source": "Time Out",
-  "link": "https://www.timeout.com/bangkok/th/things-to-do/workshop-around-bangkok",
-  "image": null,
-  "date": "2026-08-21",
-  "status": "skip"
- },
- "513a3134c19e": {
-  "id": "513a3134c19e",
-  "country": "TH",
-  "tags": [
-   "workshop"
-  ],
-  "title": "เวิร์กช็อปวาดรูปพร้อมจิบคราฟต์เบียร์ ปล่อยใจให้ความคิด ...",
-  "desc": "บางทีการปล่อยใจให้หลุดจากกรอบเดิมๆ ก็อาจเริ่มจากอะไรง่ายๆ อย่างการนั่งวาดรูปไป จิบ ...",
-  "source": "Time Out",
-  "link": "https://www.timeout.com/bangkok/th/things-to-do/%E0%B9%80%E0%B8%A7%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%9B%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%88%E0%B8%B4%E0%B8%9A%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C-%E0%B8%9B%E0%B8%A5%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B9%83%E0%B8%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%84%E0%B8%B4%E0%B8%94%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%84%E0%B8%9B",
-  "image": null,
-  "date": "2026-04-16",
-  "status": "skip"
- },
  "4b99e6e57415": {
   "id": "4b99e6e57415",
   "country": "TH",
@@ -158149,6 +158279,7 @@
   "date": "2026-10-27",
   "status": "done"
  },
+<<<<<<< Updated upstream
  "b2aae0dbb58f": {
   "id": "b2aae0dbb58f",
   "country": "TH",
@@ -158191,6 +158322,8 @@
   "date": "2026-05-07",
   "status": "skip"
  },
+=======
+>>>>>>> Stashed changes
  "866b969a83c3": {
   "id": "866b969a83c3",
   "country": "TH",
@@ -158247,6 +158380,7 @@
   "date": "2019-10-20",
   "status": "new"
  },
+<<<<<<< Updated upstream
  "1db12d96db54": {
   "id": "1db12d96db54",
   "country": "TH",
@@ -158597,6 +158731,8 @@
   "date": "2026-10-27",
   "status": "skip"
  },
+=======
+>>>>>>> Stashed changes
  "1454f37ce7a1": {
   "id": "1454f37ce7a1",
   "country": "TH",
@@ -158751,6 +158887,7 @@
   "date": "2026-10-26",
   "status": "new"
  },
+<<<<<<< Updated upstream
  "f002209b21bb": {
   "id": "f002209b21bb",
   "country": "TH",
@@ -158821,6 +158958,8 @@
   "date": "2026-10-26",
   "status": "new"
  },
+=======
+>>>>>>> Stashed changes
  "3e1ac28a6eed": {
   "id": "3e1ac28a6eed",
   "country": "TH",
@@ -158829,6 +158968,7 @@
   ],
   "title": "SX KIDS ZONE ชวนเด็ก ๆ เปิดโลกเรียนรู้ ลงมือทำเพื่อโลกในงาน SX2026",
   "desc": "SX KIDS ZONE ในงาน SX2026 ชวนเด็ก ๆ เปิดโลกเรียนรู้ความยั่งยืน ผ่านนิทรรศการมด ไดโนเสาร์ ทะเล กิจกรรมทดลอง และภารกิจสุนัขกู้ภัย K9 วันที่ 6–15 พ.ย. 69 ...",
+<<<<<<< Updated upstream
   "source": "AmarinTV on MSN",
   "link": "https://www.msn.com/th-th/news/other/sx-kids-zone-%E0%B8%8A%E0%B8%A7%E0%B8%99%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81-%E0%B9%86-%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B9%89-%E0%B8%A5%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%87%E0%B8%B2%E0%B8%99-sx2026/ar-AA2ga6Jz",
   "image": null,
@@ -158848,6 +158988,13 @@
   "image": null,
   "date": "2026-09-25",
   "status": "skip"
+=======
+  "source": "อมรินทร์ทีวี",
+  "link": "https://www.amarintv.com/spotlight/sustainability/561326",
+  "image": "http://www.bing.com/th?id=ONUT.t9LGMLmt6pb2kLM5ojCnlg&pid=News",
+  "date": "2026-10-26",
+  "status": "new"
+>>>>>>> Stashed changes
  },
  "09f49595f0ae": {
   "id": "09f49595f0ae",
@@ -158905,6 +159052,7 @@
   "date": "2026-10-27",
   "status": "new"
  },
+<<<<<<< Updated upstream
  "8589863bd201": {
   "id": "8589863bd201",
   "country": "JP",
@@ -158933,6 +159081,8 @@
   "date": "2026-10-26",
   "status": "new"
  },
+=======
+>>>>>>> Stashed changes
  "18df841de233": {
   "id": "18df841de233",
   "country": "JP",
@@ -159836,6 +159986,7 @@
   "date": "2026-10-26",
   "status": "skip"
  },
+<<<<<<< Updated upstream
  "933f6e55ef01": {
   "id": "933f6e55ef01",
   "country": "JP",
@@ -159866,6 +160017,10 @@
  },
  "12ad65d1654b": {
   "id": "12ad65d1654b",
+=======
+ "df21ab560857": {
+  "id": "df21ab560857",
+>>>>>>> Stashed changes
   "country": "JP",
   "tags": [
    "devconf"
@@ -159892,6 +160047,7 @@
   "date": "2026-09-04",
   "status": "new"
  },
+<<<<<<< Updated upstream
  "06037b5cecdb": {
   "id": "06037b5cecdb",
   "country": "JP",
@@ -159936,6 +160092,10 @@
  },
  "4be70db70f8b": {
   "id": "4be70db70f8b",
+=======
+ "0315d856d38e": {
+  "id": "0315d856d38e",
+>>>>>>> Stashed changes
   "country": "JP",
   "tags": [
    "carlaunch"
@@ -160186,20 +160346,6 @@
   "image": null,
   "date": "2026-10-26",
   "status": "new"
- },
- "229db3fe8ef1": {
-  "id": "229db3fe8ef1",
-  "country": "JP",
-  "tags": [
-   "bike"
-  ],
-  "title": "【東京モーターサイクルショー2026】12万人が熱狂！ 世界・日本初 ...",
-  "desc": "総入場者数11万9266人を動員し、熱狂の渦の中で閉幕した第53回東京モーターサイクルショー2026。国内外のトップメーカーが放ったワールド＆ジャパンプレミアの最新モデルをトップギア流に徹底解剖する。 東京モーターサイクルショー2026が閉幕した。",
-  "source": "topgear",
-  "link": "https://topgear.tokyo/2026/03/87181",
-  "image": null,
-  "date": "2026-03-29",
-  "status": "skip"
  },
  "a10b84b2f5be": {
   "id": "a10b84b2f5be",
@@ -160763,6 +160909,7 @@
   "date": "2026-10-26",
   "status": "skip"
  },
+<<<<<<< Updated upstream
  "e69e2479a23b": {
   "id": "e69e2479a23b",
   "country": "JP",
@@ -160819,6 +160966,8 @@
   "date": "2026-10-27",
   "status": "new"
  },
+=======
+>>>>>>> Stashed changes
  "7365b8cf7044": {
   "id": "7365b8cf7044",
   "country": "JP",
@@ -160889,6 +161038,7 @@
   "date": "2026-10-19",
   "status": "skip"
  },
+<<<<<<< Updated upstream
  "af10faa0b8a2": {
   "id": "af10faa0b8a2",
   "country": "JP",
@@ -160933,6 +161083,10 @@
  },
  "3a99939fe570": {
   "id": "3a99939fe570",
+=======
+ "f40ae06e4ade": {
+  "id": "f40ae06e4ade",
+>>>>>>> Stashed changes
   "country": "JP",
   "tags": [
    "comedy"
@@ -161801,6 +161955,7 @@
   "date": "2026-10-02",
   "status": "new"
  },
+<<<<<<< Updated upstream
  "baef36bb9a76": {
   "id": "baef36bb9a76",
   "country": "JP",
@@ -161845,6 +162000,10 @@
  },
  "3485257d238d": {
   "id": "3485257d238d",
+=======
+ "c7df2adbeeef": {
+  "id": "c7df2adbeeef",
+>>>>>>> Stashed changes
   "country": "JP",
   "tags": [
    "national"
@@ -162208,6 +162367,7 @@
   "date": "2026-10-27",
   "status": "skip"
  },
+<<<<<<< Updated upstream
  "f0e9b7024005": {
   "id": "f0e9b7024005",
   "country": "JP",
@@ -162236,6 +162396,8 @@
   "date": "2026-10-26",
   "status": "new"
  },
+=======
+>>>>>>> Stashed changes
  "94b9520450be": {
   "id": "94b9520450be",
   "country": "JP",
@@ -162320,12 +162482,18 @@
   "date": "2026-10-27",
   "status": "skip"
  },
+<<<<<<< Updated upstream
  "48a12598b237": {
   "id": "48a12598b237",
+=======
+ "db2ac6c75e98": {
+  "id": "db2ac6c75e98",
+>>>>>>> Stashed changes
   "country": "JP",
   "tags": [
    "outdoor"
   ],
+<<<<<<< Updated upstream
   "title": "\\泊まって遊べる最高の2日間！／車中泊＆キャンプOK！ソーセージ ...",
   "desc": "温浴施設・焚火・キャンピングカーが集結！ドイツ仕込み『メツゲライさかもと』の極上ソーセージも登場。アウトドア好き必見の2日間を岸和田・WHATAWONで。 《メツゲライさかもと》の絶品ソーセージが焚火エリアに登場し、キャンパーの心とお腹を満たし ...",
   "source": "PR TIMES",
@@ -162333,6 +162501,15 @@
   "image": null,
   "date": "2025-06-04",
   "status": "skip"
+=======
+  "title": "栃木・真岡で来場目標1万人規模の「いがしらリゾートアウトドア秋 ...",
+  "desc": "キャンプ・ペット・食の魅力が集結する秋の大型イベントをともにつくる出店事業者を募集 株式会社R.project（本社：千葉県安房郡鋸南町、代表取締役：丹埜倫、以下「R.project」）は、いがしらリゾート活性化協議会が主催する「いがしらリゾートアウトドア ...",
+  "source": "毎日新聞",
+  "link": "https://mainichi.jp/articles/20260717/pr2/00m/020/668000c",
+  "image": null,
+  "date": "2026-07-16",
+  "status": "new"
+>>>>>>> Stashed changes
  },
  "e709579dfeca": {
   "id": "e709579dfeca",
@@ -162725,20 +162902,6 @@
   "image": null,
   "date": "2026-10-26",
   "status": "new"
- },
- "79cfbed5eea9": {
-  "id": "79cfbed5eea9",
-  "country": "JP",
-  "tags": [
-   "themepark"
-  ],
-  "title": "2025年は13万人が来場した夜の動物園「のんほいパークナイトZOO」を ...",
-  "desc": "夜空の下、いつもと違う夜の動物の様子が見られて、遊園地での乗り放題も楽しめる！ 夜の動物園やナイトミュージアム、ナイトジャングル、キッチンカー大集合の星空グルメマーケットなどお楽しみが目白押しの「ナイトZOO」を、豊橋総合動植物公園 ...",
-  "source": "PR TIMES",
-  "link": "https://prtimes.jp/main/html/rd/p/000000973.000025583.html",
-  "image": null,
-  "date": "2026-07-16",
-  "status": "skip"
  },
  "c273f32d2486": {
   "id": "c273f32d2486",
