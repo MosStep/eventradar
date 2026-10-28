@@ -1,5 +1,5 @@
 {
- "finishedAt": "2026-10-28T10:32:44.990Z",
+ "finishedAt": "2026-10-28T10:34:19.457Z",
  "runner": "local",
  "total": 1170,
  "upcoming": 963,
@@ -9,17 +9,17 @@
  "withImage": 89,
  "withPrice": 50,
  "ai": {
-  "calls": 697,
-  "failed": 697,
+  "calls": 10,
+  "failed": 10,
   "quota": [
-   "txc_bd70",
-   "txc_a9b5",
-   "txc_9fec"
+   "txc_bd70"
   ],
   "billing": false,
-  "keys": 4
+  "keys": 4,
+  "down": true
  },
  "problems": [
-  "เรียก AI ล้มเหลว 697/697 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+  "เรียก AI ล้มเหลว 10/10 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)",
+  "AI ผู้ให้บริการไม่ว่าง (rate limit) — ข้ามขั้น AI รอบนี้"
  ]
 }
