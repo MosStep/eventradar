@@ -262,13 +262,31 @@ export function feeds(country, query, window = "7d") {
 }
 
 // Headlines without any of these words are rarely events; skipping them saves AI credits.
-export const EVENT_WORDS = /lễ hội|sự kiện|triển lãm|hội chợ|giải đấu|ra mắt|concert|축제|개최|행사|박람회|콘서트|전시|팬미팅|대회|팝업|festival|pameran|konser|digelar|acara|turnamen|peluncuran|bazar|งาน|จัด|เทศกาล|แฟนมีต|คอนเสิร์ต|โชว์|มหกรรม|นิทรรศการ|เปิดตัว|สัมมนา|แข่งขัน|fest|expo|show|con\b|conference|convention|summit|live|launch|開催|イベント|フェス|展|ライブ|即売会|ファンミ|発表会|大会|举办|举行|漫展|节|见面会|演唱会|开幕|启幕|发布会|大会|博览会/i;
+export const EVENT_WORDS = /lễ hội|sự kiện|triển lãm|hội chợ|giải đấu|ra mắt|concert|축제|개최|행사|박람회|콘서트|전시|팬미팅|대회|팝업|festival|pameran|konser|digelar|acara|turnamen|peluncuran|bazar|งาน|จัด|เทศกาล|แฟนมีต|คอนเสิร์ต|โชว์|มหกรรม|นิทรรศการ|เปิดตัว|สัมมนา|แข่งขัน|fest|expo|show|con\b|conference|convention|summit|live|launch|開催|イベント|フェス|展|ライブ|即売会|ファンミ|発表会|大会|举办|举行|漫展|节|见面会|演唱会|开幕|启幕|发布会|大会|博览会|展会|展览|演出|音乐节|动漫节|游戏展|嘉年华|市集|首映|签售|见面|巡回|演唱|hội thảo|workshop|biểu diễn|ca nhạc|khai mạc|gặp gỡ|liveshow|공연|팬사인회|팬싸인회|전시회|워크숍|페스티벌|쇼케이스|팝업스토어|pertunjukan|pesta|karnaval|bazaar|meet and greet|meetup|tournament|championship|showcase|exhibition|gala|carnival|screening|premiere|pop-up|popup|tour\b|salon|exposition|concierto|dédicace|atelier|messe|ausstellung|veranstaltung|feria|exposición|encuentro|taller|fiera|mostra|concerto|sagra|rassegna|convegno|ワークショップ|公演|ツアー|選手権|チャンピオンシップ|上映|物産展|特別展|企画展|縁日|即売|グッズ販売|ステージ|トークショー|サイン会|ファンイベント|祭|展示|tickets?|チケット|예매|tiket|entradas|billets|biglietti/i;
 
 // Headlines with these are almost never public events even when an event word appears (checked before the AI).
 // Kept narrow on purpose: a missed event costs more than a few wasted tokens.
 export const NOT_EVENT_WORDS = /รีวิว|รวมโค้ด|โค้ดฟรี|แจกโค้ด|ผลการแข่งขัน|ผลบอล|ราคาทอง|หุ้น|ดูดวง|ทำนาย|รับสมัครงาน|攻略|ガチャ|ギフトコード|決算|株価|人事|求人|おみくじ|股价|财报|招聘|攻略|兑换码|review|walkthrough|stock price|earnings|patch notes/i;
 // PR TIMES carries every kind of press release; keep only ones that read like an event.
-export const PRTIMES_EVENT = /開催|イベント|フェス|展示会|展覧会|ライブ|ポップアップ|コラボカフェ|体験会|上映会|即売会|ファンミ|マルシェ|祭/;
+export const PRTIMES_EVENT = /開催|イベント|フェス|展示会|展覧会|ライブ|ポップアップ|コラボカフェ|体験会|上映会|即売会|ファンミ|マルシェ|祭|展示|企画展|特別展|フェア|コンサート|公演|大会|まつり|発表会|セミナー|カンファレンス/;
+
+// Named press-release patterns that are almost never events, checked on the title. A strong event noun in the title
+// (EVENT_STRONG) overrides them, so an expo whose headline also quotes a new CEO still survives.
+export const NOT_EVENT_RULES = {
+  earnings: /決算|業績|四半期|配当|株主|IR情報|財務|増益|減益|earnings|quarterly results|annual results|dividend|net profit|财报|财务|业绩|营收|股东|分红|주주|실적|분기|영업이익|배당|ผลประกอบการ|ปันผล|กำไรสุทธิ|lợi nhuận|cổ tức|doanh thu quý|laba bersih|dividen|Quartalszahlen|Dividende|resultados trimestrales|dividendo|risultati trimestrali/i,
+  personnel: /人事|就任|退任|社長|代表取締役|役員|異動|昇進|任命|appoints|appointed|names new|steps down|resigns|promoted to|new ceo|new president|离职|升任|新任|任职|ลาออก|แต่งตั้ง|โยกย้าย|bổ nhiệm|từ chức|인사발령|인사 발령|인사이동|선임|취임|임명|사임|diangkat|mengundurkan diri|ernannt|Vorstand|nommé|nomination|nombra|nombramiento|renuncia|dimissioni/i,
+  product: /スペック|仕様|値上げ|値下げ|価格改定|specifications?|specs?\b|price (?:hike|increase|cut)|规格|参数|涨价|降价|价格调整|사양|สเปค|thông số|spesifikasi|Spezifikation|caractéristiques|especificaciones|specifiche/i,
+  app_update: /アプリ.{0,8}(?:アップデート|更新)|アップデート情報|アップデート内容|パッチ|バージョン|\bver\.? ?\d|\bv\d+\.\d|update notes|app update|new version|version \d|\bpatch|bản cập nhật|pembaruan|更新内容|更新公告|업데이트 공지|패치노트|อัปเดต|อัพเดต|เวอร์ชัน/i,
+  recall: /リコール|自主回収|召回|ยาเรียกคืน|เรียกคืน|thu hồi|ditarik|Rückruf|rappel|richiamo|retirada|recall|리콜|회수/i,
+  survey: /アンケート結果|調査結果|意識調査|実態調査|survey (?:results|finds|shows|reveals)|poll finds|study finds|调查显示|调查结果|调研显示|조사 결과|ผลสำรวจ|ผลการสำรวจ|khảo sát cho thấy|survei menunjukkan|Umfrage ergab|sondage révèle|encuesta revela|sondaggio rivela/i,
+  market: /市場規模|市場調査|市場動向|market (?:size|report|research|forecast)|市场规模|市场报告|시장 규모|ขนาดตลาด|quy mô thị trường|ukuran pasar|Marktgröße|taille du marché|tamaño del mercado|dimensione del mercato/i,
+  corporate: /業務提携|資本提携|買収|合併|子会社化|事業譲渡|株式取得|acquires|acquisition of|to acquire|merger|raises \$|funding round|收购|并购|融资|収購|인수|합병|투자 유치|เข้าซื้อ|ควบรวม|mua lại|sáp nhập|akuisisi|übernimmt|rachète|adquiere|fusión/i,
+};
+// Event nouns strong enough to keep a headline that a NOT_EVENT_RULES pattern also matches.
+export const EVENT_STRONG = /concert|festival|\bfest\b|expo\b|event|tournament|championship|meetup|exhibition|イベント|フェス|ライブ|コンサート|公演|展|大会|祭|ファン|演唱会|音乐节|展会|展览|축제|콘서트|전시|행사|박람회|งาน|คอนเสิร์ต|เทศกาล|lễ hội|sự kiện|pameran|konser|pesta|bazar|bazaar/i;
+// PR TIMES headlines must name a date or a venue to count as an event (other JP news is not held to this).
+export const JP_DATE = /\d{1,2}月\d{1,2}日|\d{1,2}日\s*[（(]?[月火水木金土日]|\d{4}年|\d{4}[./-]\d{1,2}[./-]\d{1,2}|\d{1,2}\/\d{1,2}|\d{1,2}月(?:上旬|中旬|下旬|末)|20\d\d/;
+export const JP_VENUE = /美術館|博物館|ミュージアム|museum|図書館|ギャラリー|会館|庭園|神社|寺|水族館|動物園|遊園地|大学|施設|都市|[都道府県市区町村]|会場|ホール|スタジアム|アリーナ|ドーム|劇場|展示場|メッセ|ビッグサイト|幕張|球場|体育館|公園|パーク|ワールド|センター|シティ|ホテル|キャンパス|タワー|ステージ|東京|大阪|名古屋|福岡|札幌|仙台|京都|神戸|横浜|沖縄|渋谷|新宿|池袋|銀座|原宿|秋葉原|お台場|有明|Tokyo|Osaka/i;
 
 // Words searched across the whole web every run (not only news): card games first. Users' followed words are added
 // to data/watch.json (see TODO.md) and searched the same way. Facebook pages of shops and organisers are included.

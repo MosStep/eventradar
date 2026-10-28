@@ -3,8 +3,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
-import { COUNTRIES, TAGS, TAXONOMY, EVENT_WORDS, NOT_EVENT_WORDS, PRTIMES_EVENT, WATCH_DEFAULT, OFFICIAL_PAGES, feeds } from "./sources.mjs";
-import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv, eventId, dateMentions, cleanSplit } from "./lib.mjs";
+import { COUNTRIES, TAGS, TAXONOMY, WATCH_DEFAULT, OFFICIAL_PAGES, feeds } from "./sources.mjs";
+import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv, eventId, dateMentions, cleanSplit, prefilterReason, tagPriority } from "./lib.mjs";
 import { extract, hasKeys, workersFor, keyStats, ORDERS, BillingStop, aiDown, aiDownReason, haltBudget, aiBusy, aiBudgetOut, aiuOn, providerOf } from "./tenixe.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
@@ -15,6 +15,9 @@ const FETCH_ONLY = process.argv.includes("--fetch-only");
 const TIDY = process.argv.includes("--tidy"); // no fetch, no extraction: only dedupe + enrich
 const NO_FETCH = TIDY || process.argv.includes("--no-fetch"); // work through already-fetched headlines only
 const WINDOW = arg("window", "7d");
+const PREFILTER_DRY = process.argv.includes("--prefilter-dry"); // prints what the rule-based prefilter would skip; writes nothing
+const CAP_ARG = arg("cap-per-country", null); // headlines per country per run (default: TH unlimited, others 150, 600 on AIUnlimit)
+const EXPIRE_DAYS = 10; // "new" headlines older than this are skipped without AI
 const MAX_BATCHES_ARG = Number(arg("max-batches", 40));
 const BATCH = 20;
 const UA = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36" };
@@ -51,15 +54,39 @@ async function readFeed(raw, country, t, url, sourceName = "") {
     const id = crypto.createHash("sha1").update(country + title).digest("hex").slice(0, 12);
     if (raw[id]) { if (!raw[id].tags.includes(t)) raw[id].tags.push(t); continue; }
     const desc = url.includes("news.google") ? "" : tag(item, "description").slice(0, 200);
-    const ok = EVENT_WORDS.test(title + desc) && !NOT_EVENT_WORDS.test(title)
-      && (sourceName !== "PR TIMES" || PRTIMES_EVENT.test(title));
     const link = unwrap(tag(item, "link"));
     const when = new Date(tag(item, "pubDate") || tag(item, "dc:date"));
-    raw[id] = { id, country, tags: [t], title, desc, source, link, image: LOGO_SITES.test(link) ? null : tag(item, "News:Image") || null,
-      date: (isNaN(when) ? new Date() : when).toISOString().slice(0, 10), status: ok ? "new" : "skip" };
-    ok ? added++ : skipped++;
+    const rec = { id, country, tags: [t], title, desc, source, link, image: LOGO_SITES.test(link) ? null : tag(item, "News:Image") || null,
+      date: (isNaN(when) ? new Date() : when).toISOString().slice(0, 10) };
+    const why = prefilterReason(rec, sourceName || source);
+    raw[id] = why ? { ...rec, status: "skip", skipReason: `prefilter:${why}` } : { ...rec, status: "new" };
+    why ? skipped++ : added++;
   }
   return [added, skipped];
+}
+
+// Rule-based triage, no AI: "new" headlines older than EXPIRE_DAYS expire, non-events are skipped with a reason.
+function triage(items) {
+  const cutoff = new Date(Date.now() - EXPIRE_DAYS * 864e5).toISOString().slice(0, 10);
+  const hits = [];
+  for (const r of items) {
+    if (r.status !== "new") continue;
+    const why = r.date < cutoff ? "expired" : prefilterReason(r);
+    if (!why) continue;
+    r.status = "skip";
+    r.skipReason = why === "expired" ? "expired" : `prefilter:${why}`;
+    hits.push([r, why]);
+  }
+  return hits;
+}
+
+// Prints skipped headlines per country and rule, so a rule that drops too much shows up in the log.
+function logTriage(hits) {
+  const table = {};
+  for (const [r, why] of hits) { table[r.country] ??= {}; table[r.country][why] = (table[r.country][why] || 0) + 1; }
+  for (const [country, rules] of Object.entries(table))
+    console.log(`[triage] ${country}: ${Object.entries(rules).map(([w, n]) => `${w} ${n}`).join(", ")}`);
+  console.log(`[triage] skipped ${hits.length} headlines`);
 }
 
 async function fetchHeadlines(raw) {
@@ -290,8 +317,24 @@ const raw = load(RAW, {});
 // Keep raw.json small: processed headlines older than 45 days are never needed again.
 const cutoff = new Date(Date.now() - 45 * 864e5).toISOString().slice(0, 10);
 for (const [id, r] of Object.entries(raw)) if (r.status !== "new" && r.date < cutoff) delete raw[id];
+if (PREFILTER_DRY) {
+  // Dry run: triage in memory only, raw.json is not written. Samples are random, for a human sanity check.
+  const hits = triage(Object.values(raw));
+  logTriage(hits);
+  const pick = (list, n) => list.map(x => [Math.random(), x]).sort((a, b) => a[0] - b[0]).slice(0, n).map(x => x[1]);
+  for (const c of ["JP", "CN", "KR", "TH"]) {
+    const skipped = hits.filter(([r, why]) => r.country === c && why !== "expired");
+    const kept = Object.values(raw).filter(r => r.country === c && r.status === "new");
+    console.log(`\n[sample] ${c} skipped (10 random):`);
+    for (const [r, why] of pick(skipped, 10)) console.log(`  [${why}] ${r.title}`);
+    console.log(`[sample] ${c} kept (10 random):`);
+    for (const r of pick(kept, 10)) console.log(`  ${r.title}`);
+  }
+  process.exit(0);
+}
 let fetchedCount = 0;
 if (!NO_FETCH) console.log(`[fetch] window=${WINDOW}: ${await fetchHeadlines(raw)}`);
+logTriage(triage(Object.values(raw)));
 save(RAW, raw);
 if (FETCH_ONLY) process.exit(0);
 
@@ -317,8 +360,12 @@ const events = load(EVENTS, []);
 // Each country gets its own batch budget so China is not starved by Japan/Thailand.
 const AHEAD = /เตรียมจัด|จะจัด|เปิดจอง|เปิดขายบัตร|เปิดรับสมัคร|ประกาศจัด|พบกัน|開催決定|開催予定|予定|チケット|先行|エントリー|即将|将于|将举办|开票|报名|预售|upcoming|announce|tickets/i;
 const ahead = r => (AHEAD.test(r.title + r.desc) ? 1 : 0);
+// Queue order: TH first, then tag priority (TCG, anime/game/fan, concerts/festivals), upcoming announcements, newest first.
 const pending = Object.values(raw).filter(r => r.status === "new")
-  .sort((a, b) => ahead(b) - ahead(a) || b.date.localeCompare(a.date));
+  .sort((a, b) => (b.country === "TH") - (a.country === "TH") || tagPriority(b.tags) - tagPriority(a.tags)
+    || ahead(b) - ahead(a) || b.date.localeCompare(a.date));
+// Per-country cap per run: headlines beyond it stay "new" for later runs, or expire.
+const capFor = c => (CAP_ARG !== null ? Number(CAP_ARG) : c === "TH" ? Infinity : aiuOn() ? 600 : 150);
 // Batches are queued country by country (interleaved), then run in parallel: one worker per Nemotron key, or
 // AIU_CONCURRENCY workers when the chain starts with AIUnlimit.
 let added = 0, stop = false;
@@ -329,10 +376,11 @@ const workerKeys = workersFor(ORDERS.extract);
 const aiuFirst = aiuOn() && providerOf(ORDERS.extract.split(",")[0].trim()) === "aiu";
 const MAX_BATCHES = aiuFirst ? MAX_BATCHES_ARG * Math.max(1, Math.floor(workerKeys.length / 2)) : MAX_BATCHES_ARG;
 for (const country of TIDY ? [] : Object.keys(COUNTRIES)) {
-  const list = pending.filter(r => r.country === country);
+  const list = pending.filter(r => r.country === country).slice(0, capFor(country));
   for (let i = 0, b = 0; i < list.length && b < MAX_BATCHES; i += BATCH, b++) jobs.push([b, country, list.slice(i, i + BATCH)]);
 }
-jobs.sort((x, y) => x[0] - y[0]);
+// TH batches run before every other country's; the rest stay interleaved by batch number so no country is starved.
+jobs.sort((x, y) => (y[1] === "TH") - (x[1] === "TH") || x[0] - y[0]);
 await Promise.all(workerKeys.map(async key => {
   while (jobs.length && !stop && !aiOff() && batchTimeLeft()) {
     const [b, country, items] = jobs.shift();

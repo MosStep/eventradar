@@ -1,7 +1,7 @@
 // Checks for the pipeline helpers that have broken before. Run: node --test tests/*.test.mjs
 import test from "node:test";
 import assert from "node:assert/strict";
-import { parseJson, repairQuotes, similar, similarLoose, near, years, isDate, unwrap, tag, extractText, dateMentions, cleanSplit, eventId, errorKind } from "../pipeline/lib.mjs";
+import { parseJson, repairQuotes, similar, similarLoose, near, years, isDate, unwrap, tag, extractText, dateMentions, cleanSplit, eventId, errorKind, prefilterReason, tagPriority } from "../pipeline/lib.mjs";
 import { NOT_EVENT_WORDS, PRTIMES_EVENT, EVENT_WORDS } from "../pipeline/sources.mjs";
 import { providerOf } from "../pipeline/tenixe.mjs";
 
@@ -115,4 +115,38 @@ test("sliding rate limit: at most N starts per window", async () => {
   const acquire = slidingLimiter(2, 1000, { now: () => t, sleep: async ms => { t += ms; } });
   for (let i = 0; i < 5; i++) { await acquire(); starts.push(t); }
   assert.deepEqual(starts, [0, 0, 1000, 1000, 2000]);
+});
+
+test("prefilter keeps events in every language and drops press-release noise", () => {
+  const keep = [
+    { title: "Anime Expo 2026 lineup announced", country: "US" },
+    { title: "Thailand Game Show 2026 เปิดตัวเกมใหม่", country: "TH" },
+    { title: "Concert tickets on sale", country: "KR" },
+    { title: "Acme appoints new CEO at Festival Expo", country: "US" }, // strong event noun overrides personnel
+    { title: "ポケモンカード 世界大会 開催決定 12月5日 東京", country: "JP" },
+    { title: "Ticket sales for Gamescom Asia", country: "CN", desc: "" },
+    { title: "Eason演唱会 实名抽签购票攻略", country: "CN" }, // concert beats the guide word
+  ];
+  for (const r of keep) assert.equal(prefilterReason(r), "", r.title);
+  const drop = [
+    ["Sony announces Q2 earnings results", "US", "no_event"],
+    ["Acme appoints new CEO after launch", "US", "personnel"],
+    ["Phone X spec sheet revealed, launch next month", "US", "product"],
+    ["ガチャ 攻略 開催", "JP", "noise"],
+    ["Pokémon Card Game launch review", "US", "noise"],
+    ["Survey results: 60% of users like the new launch", "US", "survey"],
+  ];
+  for (const [title, country, rule] of drop) assert.equal(prefilterReason({ title, country }), rule, title);
+  assert.equal(prefilterReason({ title: "新商品 発表会 開催 12月5日", country: "JP" }, "PR TIMES"), "", "dated PR TIMES event");
+  assert.equal(prefilterReason({ title: "新商品 発表会 開催", country: "JP" }, "PR TIMES"), "prtimes_no_date_venue", "undated PR TIMES event");
+  assert.equal(prefilterReason({ title: "新商品 発表会 開催", country: "JP" }), "", "JP news without date keeps going");
+  assert.equal(prefilterReason({ title: "社長就任のお知らせ", country: "JP" }, "PR TIMES"), "no_event");
+});
+
+test("TCG first, then anime/game/fan and concerts, other tags last", () => {
+  assert.equal(tagPriority(["tcg", "anime"]), 3);
+  assert.equal(tagPriority(["anime"]), 2);
+  assert.equal(tagPriority(["concert"]), 2);
+  assert.equal(tagPriority(["food"]), 0);
+  assert.equal(tagPriority(undefined), 0);
 });

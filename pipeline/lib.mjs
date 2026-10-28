@@ -1,5 +1,6 @@
 // Pure helpers used by the pipeline (no network, no state) — kept here so tests can import them.
 import crypto from "node:crypto";
+import { EVENT_WORDS, NOT_EVENT_WORDS, NOT_EVENT_RULES, EVENT_STRONG, PRTIMES_EVENT, JP_DATE, JP_VENUE } from "./sources.mjs";
 
 export const decode = s => s.replace(/<!\[CDATA\[|\]\]>/g, "").replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&lt;/g, "<")
   .replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim();
@@ -150,3 +151,20 @@ export function slidingLimiter(limit, windowMs, clock = { now: () => Date.now(),
     }
   };
 }
+
+// Rule-based triage before any AI call (no network). Returns "" when a headline may be an event, else the rule that
+// skipped it. `feed` is the RSS feed name ("PR TIMES") when it differs from the outlet name.
+export function prefilterReason(r, feed = r.source) {
+  const text = `${r.title} ${r.desc || ""}`;
+  if (!EVENT_WORDS.test(text)) return "no_event";
+  if (NOT_EVENT_WORDS.test(r.title) && !EVENT_STRONG.test(r.title)) return "noise";
+  for (const [name, re] of Object.entries(NOT_EVENT_RULES)) if (re.test(r.title) && !EVENT_STRONG.test(r.title)) return name;
+  if (feed === "PR TIMES" && !PRTIMES_EVENT.test(r.title)) return "prtimes_no_event";
+  if (feed === "PR TIMES" && !JP_DATE.test(text) && !JP_VENUE.test(text)) return "prtimes_no_date_venue";
+  return "";
+}
+
+// Extraction priority from tags: TCG first, then anime/game/fan events and concerts/festivals.
+const TAG_PRIORITY = { tcg: 3, anime: 2, game: 2, esports: 2, cosplay: 2, comic: 2, figure: 2, vtuber: 2, boardgame: 2,
+  fanmeet: 2, idol: 2, concert: 2, festival: 2 };
+export const tagPriority = tags => Math.max(0, ...(tags || []).map(t => TAG_PRIORITY[t] || 0));
