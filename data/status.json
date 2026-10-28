@@ -1,20 +1,20 @@
 {
- "finishedAt": "2026-10-28T02:06:33.941Z",
+ "finishedAt": "2026-10-28T03:55:53.474Z",
  "runner": "local",
- "total": 1090,
- "upcoming": 1026,
- "added": 0,
- "pending": 5523,
- "withDate": 79,
- "withImage": 91,
- "withPrice": 45,
+ "total": 1120,
+ "upcoming": 948,
+ "added": 18,
+ "pending": 5338,
+ "withDate": 83,
+ "withImage": 90,
+ "withPrice": 49,
  "ai": {
-  "calls": 184,
-  "failed": 30,
+  "calls": 293,
+  "failed": 121,
   "quota": [
+   "txc_9fec",
    "txc_a9b5",
-   "txc_bd70",
-   "txc_9fec"
+   "txc_bd70"
   ],
   "billing": false,
   "keys": 4
