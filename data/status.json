@@ -1,5 +1,5 @@
 {
- "finishedAt": "2026-10-28T10:38:01.092Z",
+ "finishedAt": "2026-10-28T10:40:40.021Z",
  "runner": "local",
  "total": 1170,
  "upcoming": 963,
@@ -16,6 +16,16 @@
   ],
   "billing": false,
   "keys": 4,
+  "providers": {
+   "tenixe": {
+    "calls": 10,
+    "failed": 10
+   },
+   "aiu": {
+    "calls": 0,
+    "failed": 0
+   }
+  },
   "down": true
  },
  "problems": [
