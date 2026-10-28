@@ -102,3 +102,17 @@ test("models with a node prefix (rb/, cb/, mr/) route to AIUnlimit, the rest to 
   assert.equal(providerOf("claude-haiku-5-5"), "tenixe");
   assert.equal(providerOf("deepseek-v4-flash"), "tenixe");
 });
+
+test("sliding rate limit: at most N starts per window", async () => {
+  const { rateWaitMs, slidingLimiter } = await import("../pipeline/lib.mjs");
+  // Starts at 0, 10, 20 with limit 3 and window 60s: the next start waits until the first one leaves the window.
+  assert.equal(rateWaitMs([0, 10, 20], 20, 3, 60000), 60000 - 20);
+  assert.equal(rateWaitMs([0, 10], 20, 3, 60000), 0);
+  assert.equal(rateWaitMs([0, 10, 20], 60000, 3, 60000), 0); // the start at 0 has left the window
+  // Fake clock: sleeping advances time instead of waiting.
+  let t = 0;
+  const starts = [];
+  const acquire = slidingLimiter(2, 1000, { now: () => t, sleep: async ms => { t += ms; } });
+  for (let i = 0; i < 5; i++) { await acquire(); starts.push(t); }
+  assert.deepEqual(starts, [0, 0, 1000, 1000, 2000]);
+});

@@ -16,6 +16,11 @@ foreach ($k in "TENIXE_KEYS", "TENIXE_NEMOTRON_KEYS", "AIU_KEYS", "AIU_CONCURREN
 }
 if (-not $env:TENIXE_NEMOTRON_KEYS -and -not $env:TENIXE_KEYS -and -not $env:AIU_KEYS) { "no API keys in the environment - see TODO.md"; exit 1 }
 
+# AIUnlimit allows 120 requests a minute for the whole account, shared with GitHub (daily.yml, AIU_RPM 30) and
+# charforge (up to ~40). This loop may use 50 of them, so the three together stay under 120.
+if (-not $env:AIU_CONCURRENCY) { $env:AIU_CONCURRENCY = "12" }
+if (-not $env:AIU_RPM) { $env:AIU_RPM = "50" }
+
 # Without AIUnlimit keys the loop pins the unlimited Nemotron key; with them the default chains (AIUnlimit first) apply.
 if (-not $env:AIU_KEYS) {
   $env:EXTRACT_MODELS = "nemotron-3-ultra"
@@ -27,7 +32,8 @@ $round = 0
 while ($true) {
   $round++
   $fetch = ($round -eq 1 -or $round % 12 -eq 0)
-  $opts = @("--max-batches=4", "--max-describe=80", "--max-verify=20", "--max-dates=30", "--max-price=40", "--split=20", "--budget-min=50")
+  $batches = if ($env:AIU_KEYS) { "--max-batches=40" } else { "--max-batches=4" }
+  $opts = @($batches, "--max-describe=80", "--max-verify=20", "--max-dates=30", "--max-price=40", "--split=20", "--budget-min=50")
   $opts = if ($fetch) { @("--window=1d") + $opts } else { @("--no-fetch") + $opts }
   "=== round $round $(Get-Date -Format 'yyyy-MM-dd HH:mm') $opts" | Tee-Object -Append $log
   git pull -q --rebase --autostash origin main 2>&1 | Out-Null

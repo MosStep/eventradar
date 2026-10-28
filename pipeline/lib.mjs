@@ -126,3 +126,27 @@ export function cleanSplit(out, tagKeys) {
     })),
   };
 }
+
+// Sliding-window rate limit: ms to wait before one more request may start. stamps = start times (ms, ascending) of the
+// requests made so far; at most `limit` requests may start in any `windowMs` span.
+export function rateWaitMs(stamps, now, limit, windowMs) {
+  const recent = stamps.filter(t => t > now - windowMs);
+  if (recent.length < limit) return 0;
+  return recent[recent.length - limit] + windowMs - now;
+}
+
+// Shared limiter: await acquire() before each request. Callers in parallel share one budget; the check and the push
+// happen in the same tick, so no two callers can take the same slot.
+export function slidingLimiter(limit, windowMs, clock = { now: () => Date.now(), sleep: ms => new Promise(r => setTimeout(r, ms)) }) {
+  const max = Math.max(1, Math.floor(limit));
+  const stamps = [];
+  return async function acquire() {
+    for (;;) {
+      const now = clock.now();
+      while (stamps.length && stamps[0] <= now - windowMs) stamps.shift();
+      const wait = rateWaitMs(stamps, now, max, windowMs);
+      if (wait <= 0) { stamps.push(now); return; }
+      await clock.sleep(wait);
+    }
+  };
+}

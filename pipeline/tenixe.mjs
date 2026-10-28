@@ -4,7 +4,7 @@
 //  - AIUnlimit (env AIU_BASE_URL, default https://aiunlimit.thirx.com/api/v1): keys in AIU_KEYS. Its model ids carry a
 //    node prefix (rb/, cb/, mr/). Any model id containing "/" is routed to AIUnlimit, everything else to Tenixe.
 // Keys are read from env only — never write them into files.
-import { errorKind } from "./lib.mjs";
+import { errorKind, slidingLimiter } from "./lib.mjs";
 const TENIXE_URL = "https://api.tenixe.com/api/v1";
 const AIU_URL = "https://aiunlimit.thirx.com/api/v1";
 const PROVIDERS = ["tenixe", "aiu"];
@@ -21,8 +21,11 @@ const keysFor = model => {
 const hasProviderKeys = p => (p === "aiu" ? list("AIU_KEYS").length > 0 : list("TENIXE_KEYS").length + list("TENIXE_NEMOTRON_KEYS").length > 0);
 export const hasKeys = () => PROVIDERS.some(hasProviderKeys);
 export const aiuOn = () => hasProviderKeys("aiu");
-// Parallel workers when a chain starts with AIUnlimit (AIU_CONCURRENCY, default 4).
-export const aiuConcurrency = () => Math.max(1, Number(process.env.AIU_CONCURRENCY) || 4);
+// Parallel workers when a chain starts with AIUnlimit (AIU_CONCURRENCY, default 12).
+export const aiuConcurrency = () => Math.max(1, Number(process.env.AIU_CONCURRENCY) || 12);
+// AIUnlimit allows 120 requests a minute for the whole account, shared with other programs. Each runner caps its own
+// starts with AIU_RPM (default 80; local loop 50, GitHub 30 — see the comments in scripts/loop.ps1 and daily.yml).
+const aiuAcquire = slidingLimiter(Number(process.env.AIU_RPM) || 80, 60e3);
 // Keys that can run Nemotron, one stream each — the number of batches that can run at the same time.
 // Keys that ran out of quota for a model are skipped for the rest of the run (daily keys reset at 13:00 Thai time).
 const exhausted = new Set(); // "model|key"
@@ -50,11 +53,17 @@ const BREAK_AT = 8;
 const RATE_BACKOFF = [15, 30, 60]; // seconds to wait before the same call is retried on a rate limit
 const consec = { tenixe: 0, aiu: 0 };
 const down = { tenixe: null, aiu: null }; // reason string when that provider's breaker tripped
-let halted = null; // run-wide stop (run time budget)
+let halted = null; // run-wide stop (run time budget or haltAi)
+let budgetOut = false; // halted because the run time budget was used up (not a provider problem)
 const activeProviders = () => PROVIDERS.filter(hasProviderKeys);
 export const aiDown = () => halted !== null || (activeProviders().length > 0 && activeProviders().every(p => down[p] !== null));
 export const aiDownReason = () => halted ?? activeProviders().filter(p => down[p]).map(p => `${p}: ${down[p]}`).join("; ");
 export const haltAi = reason => { halted ??= reason; };
+export const haltBudget = reason => { budgetOut = true; haltAi(reason); };
+// True when the AI steps stopped only because the run time budget ran out (no provider trouble).
+export const aiBudgetOut = () => budgetOut;
+// True when a provider is busy or out of quota (breakers tripped), ignoring the time budget.
+export const aiBusy = () => activeProviders().length > 0 && activeProviders().every(p => down[p] !== null);
 
 const stats = { calls: 0, failed: 0, quota: new Set(), billing: false, by: { tenixe: { calls: 0, failed: 0 }, aiu: { calls: 0, failed: 0 } } };
 export const keyStats = () => ({ calls: stats.calls, failed: stats.failed, quota: [...stats.quota], billing: stats.billing,
@@ -142,6 +151,7 @@ export async function extract(messages, order = ORDERS.extract, preferKey = null
       for (let attempt = 1, busy = 0, rate = 0; attempt <= 3; attempt++) {
         if (off()) break;
         try {
+          if (p === "aiu") await aiuAcquire();
           stats.calls++; stats.by[p].calls++;
           const text = await chatOnce(p, key, model, messages, maxTokens);
           consec[p] = 0;

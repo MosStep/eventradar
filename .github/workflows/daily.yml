@@ -44,6 +44,8 @@ jobs:
           TENIXE_KEYS: ${{ secrets.TENIXE_KEYS }}
           TENIXE_NEMOTRON_KEYS: ${{ secrets.TENIXE_NEMOTRON_KEYS }}
           AIU_KEYS: ${{ secrets.AIU_KEYS }}
+          # AIUnlimit is shared: GitHub uses 30 requests a minute, the local loop 50 (scripts/loop.ps1), charforge up to 40.
+          AIU_RPM: 30
           AIU_CONCURRENCY: ${{ vars.AIU_CONCURRENCY }}
         run: node pipeline/run.mjs --window=1d --max-batches=5 --max-describe=10 --max-verify=20 --max-price=20 --split=5 --budget-min=90
       - name: Save data

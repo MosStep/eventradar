@@ -5,7 +5,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { COUNTRIES, TAGS, TAXONOMY, EVENT_WORDS, NOT_EVENT_WORDS, PRTIMES_EVENT, WATCH_DEFAULT, OFFICIAL_PAGES, feeds } from "./sources.mjs";
 import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv, eventId, dateMentions, cleanSplit } from "./lib.mjs";
-import { extract, hasKeys, workersFor, keyStats, ORDERS, BillingStop, aiDown, aiDownReason, haltAi } from "./tenixe.mjs";
+import { extract, hasKeys, workersFor, keyStats, ORDERS, BillingStop, aiDown, aiDownReason, haltBudget, aiBusy, aiBudgetOut, aiuOn, providerOf } from "./tenixe.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw.json");
@@ -15,18 +15,21 @@ const FETCH_ONLY = process.argv.includes("--fetch-only");
 const TIDY = process.argv.includes("--tidy"); // no fetch, no extraction: only dedupe + enrich
 const NO_FETCH = TIDY || process.argv.includes("--no-fetch"); // work through already-fetched headlines only
 const WINDOW = arg("window", "7d");
-const MAX_BATCHES = Number(arg("max-batches", 40));
+const MAX_BATCHES_ARG = Number(arg("max-batches", 40));
 const BATCH = 20;
 const UA = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36" };
 const today = new Date().toISOString().slice(0, 10);
 // Run time budget: after N minutes the AI steps are skipped, but the run still saves events, calendars and pages.
 const BUDGET_MIN = Number(arg("budget-min", 0));
-if (BUDGET_MIN > 0) setTimeout(() => haltAi(`run time budget ${BUDGET_MIN} min used up`), BUDGET_MIN * 60e3).unref();
+const DEADLINE = BUDGET_MIN > 0 ? Date.now() + BUDGET_MIN * 60e3 : Infinity;
+if (BUDGET_MIN > 0) setTimeout(() => haltBudget(`run time budget ${BUDGET_MIN} min used up`), BUDGET_MIN * 60e3).unref();
+// Backlog batches stop starting when less than 8 min remain, so the later steps (describe, verify, prices) still finish.
+const batchTimeLeft = () => DEADLINE - Date.now() >= 8 * 60e3;
 let aiNoted = false;
 // AI steps check this before each call: the provider is busy (rate limit / quota breaker) or the budget is spent.
 const aiOff = () => {
   if (!aiDown()) return false;
-  if (!aiNoted) { aiNoted = true; console.warn(`[ai] provider busy — skipping remaining AI steps this run (${aiDownReason()})`); }
+  if (!aiNoted) { aiNoted = true; console.warn(aiBudgetOut() && !aiBusy() ? `[ai] run time budget used up — skipping remaining AI steps (${aiDownReason()})` : `[ai] provider busy — skipping remaining AI steps this run (${aiDownReason()})`); }
   return true;
 };
 
@@ -320,14 +323,18 @@ const pending = Object.values(raw).filter(r => r.status === "new")
 // AIU_CONCURRENCY workers when the chain starts with AIUnlimit.
 let added = 0, stop = false;
 const jobs = [];
+const workerKeys = workersFor(ORDERS.extract);
+// On AIUnlimit the workers run in parallel, so --max-batches is multiplied by half the workers: the run keeps pulling
+// batches until the time budget is nearly used (batchTimeLeft) instead of stopping after a fixed count.
+const aiuFirst = aiuOn() && providerOf(ORDERS.extract.split(",")[0].trim()) === "aiu";
+const MAX_BATCHES = aiuFirst ? MAX_BATCHES_ARG * Math.max(1, Math.floor(workerKeys.length / 2)) : MAX_BATCHES_ARG;
 for (const country of TIDY ? [] : Object.keys(COUNTRIES)) {
   const list = pending.filter(r => r.country === country);
   for (let i = 0, b = 0; i < list.length && b < MAX_BATCHES; i += BATCH, b++) jobs.push([b, country, list.slice(i, i + BATCH)]);
 }
 jobs.sort((x, y) => x[0] - y[0]);
-const workerKeys = workersFor(ORDERS.extract);
 await Promise.all(workerKeys.map(async key => {
-  while (jobs.length && !stop && !aiOff()) {
+  while (jobs.length && !stop && !aiOff() && batchTimeLeft()) {
     const [b, country, items] = jobs.shift();
     try { added += await extractBatch(items, `${country} batch ${b + 1}`, key); }
     catch (e) {
@@ -989,10 +996,10 @@ function writeStatus() {
   if (ks.billing) problems.push("คีย์ AI ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe");
   if (ks.calls > 5 && ks.failed / ks.calls > 0.5) problems.push(`เรียก AI ล้มเหลว ${ks.failed}/${ks.calls} ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)`);
   if (ks.quota.length && ks.quota.length >= ks.keys) problems.push("ทุกคีย์ขึ้นว่าโควตาหมด — รอรีเซ็ตบ่ายโมง หรือเพิ่มคีย์ใหม่");
-  if (aiDown()) problems.push("AI ผู้ให้บริการไม่ว่าง (rate limit) — ข้ามขั้น AI รอบนี้");
+  if (aiBusy()) problems.push("AI ผู้ให้บริการไม่ว่าง (rate limit) — ข้ามขั้น AI รอบนี้");
   const status = { finishedAt: new Date().toISOString(), runner: process.env.GITHUB_ACTIONS ? "github" : "local",
     total: events.length, upcoming: up.length, added, pending: Object.values(raw).filter(r => r.status === "new").length,
-    withDate: pct(e => e.start), withImage: pct(e => e.image), withPrice: pct(e => e.price_th), ai: { ...ks, down: aiDown() }, problems };
+    withDate: pct(e => e.start), withImage: pct(e => e.image), withPrice: pct(e => e.price_th), ai: { ...ks, down: aiBusy(), budget: aiBudgetOut() }, problems };
   save(path.join(ROOT, "data", "status.json"), status);
   if (problems.length) console.log(`[status] problems: ${problems.join(" | ")}`);
 }
