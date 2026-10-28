@@ -1,16 +1,16 @@
 {
- "finishedAt": "2026-10-28T15:13:44.273Z",
+ "finishedAt": "2026-10-28T16:14:52.413Z",
  "runner": "local",
- "total": 3360,
- "upcoming": 3002,
- "added": 88,
- "pending": 1617,
+ "total": 3674,
+ "upcoming": 3291,
+ "added": 31,
+ "pending": 1017,
  "withDate": 54,
  "withImage": 89,
- "withPrice": 19,
+ "withPrice": 18,
  "ai": {
-  "calls": 402,
-  "failed": 1,
+  "calls": 488,
+  "failed": 0,
   "quota": [],
   "billing": false,
   "keys": 1,
@@ -20,8 +20,8 @@
     "failed": 0
    },
    "aiu": {
-    "calls": 402,
-    "failed": 1
+    "calls": 488,
+    "failed": 0
    }
   },
   "down": false,
