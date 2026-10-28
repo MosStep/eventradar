@@ -507,6 +507,45 @@
   "placeChecked": true
  },
  {
+  "id": "17e4a06a1cdc",
+  "name": "第34回ボローニャ・ブックフェアinいたばし 世界の絵本展",
+  "name_th": "บอลลอนย่า บุ๊กแฟร์ ครั้งที่ 34 ที่ อิตาบาชิ นิทรรศการหนังสือภาพโลก",
+  "start": "2026-07-18",
+  "end": "2026-08-16",
+  "venue": "いたばし",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "book",
+   "art"
+  ],
+  "summary_th": "นิทรรศการหนังสือภาพระดับโลกจากบอลลอนย่า จัดที่เขตอิตาบาชิ กรุงโตเกียว",
+  "image": "http://www.bing.com/th?id=ONUT.o5WJzjAQWORxO1Z4OejW_A&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "絵本の世界に染まる１か月間「第34回ボローニャ・ブックフェアinいたばし 世界の絵本展」",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpakVMLVNVTTBJb3V2M3ZFYUdEcmdWNjRrV3pDbFlkVmdWREtUWjkxTzVEZ01wQlNEZGp3NERLamw0SHpLcnBIOU41SUlTZnRXSEFvaHFnVWxSbkF6a2lkc1Qza2JLcFh1WUE?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://mantan-web.jp/prtimes/article/20261027prt00m200000744a.html",
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261027prt00m200000744a.html",
+  "imageHash": "a2bf4ec5a2017fe2",
+  "placeChecked": true
+ },
+ {
   "id": "1929557ffa30",
   "name": "北京·「以爱之名」爱乐之城·我心永恒 影视经典OST音乐会",
   "name_th": "เบจิง·「以爱之名」ลาลาลैंड·My Heart Will Go On คอนเสิร์ตเพลงประกอบภาพยนตร์และซีรีส์ดังๆ",
@@ -663,7 +702,7 @@
   "start": "2026-08-06",
   "end": "2026-08-30",
   "venue": "พิพิธภัณฑสถานแห่งชาติ หอศิลป",
-  "city": "กรุงเทพมหานคร",
+  "city": "Bangkok",
   "country": "TH",
   "tags": [
    "art",
@@ -684,8 +723,8 @@
   "added": "2026-10-27",
   "updated": "2026-10-27",
   "enriched": true,
-  "region": "bkk",
-  "regionTried": true,
+  "region": null,
+  "regionTried": false,
   "imageHash": "681b2ee215a15723",
   "about_th": "Art Exchange 2026 เป็นมหกรรมนิทรรศการศิลปะแห่งชาติและแลกเปลี่ยนเรียนรู้ศิลปะนานาชาติ ที่จัดโดยกรมส่งเสริมวัฒนธรรม กระทรวงวัฒนธรรม ร่วมฉลองครบรอบ 40 ปีของคณะกรรมการวัฒนธรรมแห่งชาติ นิทรรศการรวบรวมผลงานของศิลปินแห่งชาติ ศิลปินรุ่นใหม่ และศิลปินจากเวียดนาม เพื่อถ่ายทอดความคิด ประสบการณ์ และมุมมองทางศิลปะ สร้างแรงบันดาลใจและเปิดโอกาสแลกเปลี่ยนความรู้ข้ามวัฒนธรรม",
   "highlights_th": [
@@ -721,7 +760,8 @@
    "defaf87aa4e7",
    "65b4ffcd6835"
   ],
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "2d745b3e5845",
@@ -1737,7 +1777,8 @@
    "07e08fa41cc8",
    "65b4ffcd6835"
   ],
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "6d96c3b130dc",
@@ -1872,7 +1913,8 @@
    "61f6bb0f4655",
    "8155bdc92b52"
   ],
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "412414facb81",
@@ -2948,6 +2990,13 @@
     "source": "Facebook",
     "date": "2026-10-03",
     "image": null
+   },
+   {
+    "title": "ฟุตบอลหญิงทีมชาติไทย U17🇹🇭 เดินทางถึงสนาม Inter Banbueng จังหวัดชลบุรี เตรียมลงฝึกซ้อมครั้งสุดท้าย ก่อนดวลเลบานอน ศึก 𝗔𝗙𝗖 𝗨𝟭𝟳 𝗪𝗼𝗺𝗲𝗻’𝘀 𝗔𝘀𝗶𝗮𝗻 𝗖𝘂𝗽 𝟮𝟬𝟮𝟳 𝗤𝘂𝗮𝗹𝗶𝗳𝗶𝗲𝗿𝘀 รอบแบ่งกลุ่ม นัดที่สาม โปรแกรมการแข่งขันนัดต่อไปของ ฟุตบอลหญิงรุ่นอายุไม่เกิน 17 ปี",
+    "link": "https://news.google.com/rss/articles/CBMi2wZBVV95cUxNcGU3dm9ZWG50MjFxQVN0bk5zTUdZZy1oYkpfOG9ydUptREN3TU1WRTRyZzRFbTJSeE5jdThvaGJDYXNKSzdPZkt3WGFodmZ6ZXk3VThDdjh6VmZIT0cyVVNVTGM5cGFyZFZLdGtkOTRnLUhNYnE5SG5QUUFOM1ZDQ0NwcURiNmcwMlphcmRnSm1leVNWQzdFUUp3cnY2VjlZSm1ISlJsekhyaTRYQTVkems2NzN0SUlZNzljWkY4eFZ2ZWtCbkJObVBfdXNDaXhCYXc0NllPQlFSNTFOOWZLMGFrUXlVUkNqbUtZOGFmUDhqZENHS2d1aDFWYjdHQ0tMUnhMTmdJaFgzczVKazRNQk9Kc3dmVi1TUXk2cmhZZVFhQmxNQVBZUU5xdlBURGRURUZKWm1lcTU5REg3S1dWVjR5Z3JRa2dxQ2VIWUFCXzdDWUp2VlpOUVFudjRLOGxVaTVRSU14SG56cDA5Uk51MnNuZDJNUG5fRUVVYVRBaUNkWlAwcG1BVG5FUS1kY3NMZU41VThOSmFndHNJc2Z5Tk91blpQNkpSTFFja01ZTnhPOWJfVm5fZ2hYeU5HWHR3VEtTa25JWEpZTXNmM2VncTFrS0NXY01jM3M3ZUZ4c0V0RVpsTnVzR0RZeDRaRHBOQ1JmXzZ5M2ZXR0NmY0x0SnV1Vk8tU203VVZJZm91X0dtMlpXZVoxMXB6LVVzckNpUW5ER3hSUk1rbHVRVm5WQWhrVnFxSTdIcDdudlM1MC1zcHNDSWFTNEJldzlqZlV0SFNHa3JCQU5xTmUzVUprbEdudmpZLTU5a3JRV2NOazVOTm1kTWk0aWNSdnhsajB2TzZqY1F4QjZaRUlCZGgxQ0JjbExCbTBnZ3FzNk1NcHpmd1NqaHJ2ZHRWRWtwMUdKNWlXWGlYN0RJWDg5WnhWQ2NuQ1dBd19sTldTSzBBellHcXhxcWxhcXBZM2hqSGFFQl9aWUc0alhPWXhraFdlUE5zNWxyZjJrVXBUX0tSR0R6WTQ2b1Z2SThtal9MQndaUTR2Sk9UeFlDZ1ZrSlFzODRTWS05NXVDSVIzNmdldFc0NXlqdlBKek9LcHp4TlVtaUlLTUt5eURTaGRTR1JXVTRSQlVZNEkwdHg0?oc=5",
+    "source": "Facebook",
+    "date": "2026-10-10",
+    "image": null
    }
   ],
   "added": "2026-10-27",
@@ -2972,6 +3021,86 @@
   "datedFrom": "article",
   "described": true,
   "datesRead": true
+ },
+ {
+  "id": "84f9114b55b0",
+  "name": "One Bangkok Open House: Guided Sustainability Tour",
+  "name_th": "วันเปิดบ้าน One Bangkok: ทัวร์นำเที่ยวความยั่งยืน",
+  "start": "2026-10-05",
+  "end": "2026-10-07",
+  "venue": "One Bangkok",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "workshop",
+   "design"
+  ],
+  "summary_th": "ทัวร์นำเที่ยวฟรีสำรวจโครงสร้างพื้นฐานที่ยั่งยืนของ One Bangkok พร้อมลงทะเบียนล่วงหน้า",
+  "image": "https://static.bangkokpost.com/media/content/20260924/c1_3325389_700.jpg",
+  "imageFrom": "https://www.bangkokpost.com/thailand/pr/3325389/one-bangkok-joins-bangkok-climate-action-week-2026-as-principal-venue-partner",
+  "imageHash": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "องค์กรพิทักษ์สัตว์แห่งโลก ชวนย้อนมอง \"ต้นทุนของระบบอาหารที่ซ่อนอยู่\" ในเทศกาล Bangkok Climate Action Week 2026",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE05Z2YwQmJ6SlAzdjJfOVBOX0hhOGx0X0ZQRWF0bHM2VndiVWdsbGVLdmdWTmtHb3g0LU14cE9XclB4cEZnZ1VScFJlQQ?oc=5",
+    "source": "RYT9",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "article": "https://www.bangkokpost.com/thailand/pr/3325389/one-bangkok-joins-bangkok-climate-action-week-2026-as-principal-venue-partner",
+  "splitFrom": "d91c7f176b0d",
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "placeChecked": true
+ },
+ {
+  "id": "d4c488516827",
+  "name": "Interactive Exhibition: Surviving the City",
+  "name_th": "นิทรรศการเชิงโต้ตอบ: การอยู่รอดในเมือง",
+  "start": "2026-10-05",
+  "end": "2026-10-07",
+  "venue": "MRT Underground Walkway (One Bangkok Linkage)",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "museum",
+   "art"
+  ],
+  "summary_th": "นิทรรศการโต้ตอบเกี่ยวกับการปรับตัวต่อความร้อน น้ำท่วม และดินทรุดในกรุงเทพฯ ติดทางเดินใต้ดิน MRT",
+  "image": null,
+  "imageFrom": "https://www.newswit.com/th/ienxtr5kljj9wjar48xfcyuaaya4rg1n",
+  "imageHash": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "องค์กรพิทักษ์สัตว์แห่งโลก ชวนย้อนมอง \"ต้นทุนของระบบอาหารที่ซ่อนอยู่\" ในเทศกาล Bangkok Climate Action Week 2026",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE05Z2YwQmJ6SlAzdjJfOVBOX0hhOGx0X0ZQRWF0bHM2VndiVWdsbGVLdmdWTmtHb3g0LU14cE9XclB4cEZnZ1VScFJlQQ?oc=5",
+    "source": "RYT9",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "article": "https://www.bangkokpost.com/thailand/pr/3325389/one-bangkok-joins-bangkok-climate-action-week-2026-as-principal-venue-partner",
+  "splitFrom": "d91c7f176b0d",
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "placeChecked": true
  },
  {
   "id": "d8f6d61c7cf1",
@@ -3130,6 +3259,46 @@
   "imageTriedAt": "2026-10-28",
   "placeChecked": true,
   "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "29ff23149463",
+  "name": "Documentary Screenings: When We Cycle",
+  "name_th": "การฉายภาพยนตร์สารคดี: เมื่อเราปั่นจักรยาน",
+  "start": "2026-10-07",
+  "end": "2026-10-07",
+  "venue": "One Bangkok Park",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "movie",
+   "festival"
+  ],
+  "summary_th": "ฉายสารคดีชาวดัชชีเกี่ยวกับการปั่นจักรยานในเมืองเปิดแถวร่มเย็นฟรีเข้าชม",
+  "image": null,
+  "imageFrom": "https://www.newswit.com/th/ienxtr5kljj9wjar48xfcyuaaya4rg1n",
+  "imageHash": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "องค์กรพิทักษ์สัตว์แห่งโลก ชวนย้อนมอง \"ต้นทุนของระบบอาหารที่ซ่อนอยู่\" ในเทศกาล Bangkok Climate Action Week 2026",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE05Z2YwQmJ6SlAzdjJfOVBOX0hhOGx0X0ZQRWF0bHM2VndiVWdsbGVLdmdWTmtHb3g0LU14cE9XclB4cEZnZ1VScFJlQQ?oc=5",
+    "source": "RYT9",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "article": "https://www.bangkokpost.com/thailand/pr/3325389/one-bangkok-joins-bangkok-climate-action-week-2026-as-principal-venue-partner",
+  "splitFrom": "d91c7f176b0d",
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "placeChecked": true
  },
  {
   "id": "587bf0579347",
@@ -6235,9 +6404,9 @@
    "fashion"
   ],
   "summary_th": "พอปอัปรวบรวมแบรนด์จาก ELLE Fashion Week 2026 ขายชิ้นงานเอ็กคลูซีฟที่ชั้น 1 ไอคอนสยาม 22 ต.ค.-22 พ.ย. 2569",
-  "image": "http://www.bing.com/th?id=ONUT.isPtmdPnrGKNQ7r9fZa7vQ&pid=News",
-  "imageFrom": "https://www.naewna.com/n/women/life-style-news/120980/",
-  "imageHash": "b4707752b0bb0cfb",
+  "image": "http://www.bing.com/th?id=ONUT.fdXRt8CCQk38RAPTVpDBEA&pid=News",
+  "imageFrom": "https://www.posttoday.com/lifestyle/750500",
+  "imageHash": "ce1da1c88b39a2c3",
   "official": null,
   "sources": [
    {
@@ -6260,6 +6429,45 @@
   "imageTriedAt": "2026-10-28",
   "placeChecked": true,
   "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "fdf42d972b91",
+  "name": "Free to be by ELLE presented by XPENG Thailand",
+  "name_th": "Free to be by ELLE presented by XPENG Thailand",
+  "start": "2026-10-22",
+  "end": "2026-10-22",
+  "venue": "ริเวอร์ พาร์ค ไอคอนสยาม",
+  "city": "กรุงเทพฯ",
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "fashion"
+  ],
+  "summary_th": "โชว์เปิดงาน ELLE Fashion Week 2026 แสดงแฟชั่นสุภาพบุรุษและสตรี 6 แบรนด์ ภายใต้คอนเซปต์ Freedom",
+  "image": "http://www.bing.com/th?id=ONUT.5LpH-Fll-uBBKYftjYmjlw&pid=News",
+  "imageFrom": "https://www.amarintv.com/prnews/news/561244",
+  "imageHash": "a2dbadc10f7300bf",
+  "official": null,
+  "sources": [
+   {
+    "title": "XPENG Thailand เดินเกม Fashion Marketing ต่อเนื่อง ร่วมสนับสนุน ELLE Fashion Week 2026 เปิดรันเวย์โชว์แรก ตอกย้ำภาพลักษณ์ Premium EV",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pc1FCMkJUTGhKcEpQSW9fVUt6NXBPZ19BNEVmTWp3ZkdYVjc4TzQ5QU1JR0Z4VFp4R0Y5dnRLSkhTRFAxa01Idkk3QUljOTBpdUlVbTF3?oc=5",
+    "source": "อมรินทร์ทีวี ช่อง 34",
+    "date": "2026-10-26",
+    "image": null
+   }
+  ],
+  "article": "https://www.dailynews.co.th/news/6300543/",
+  "splitFrom": "cf284bf25cb1",
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "placeChecked": true
  },
  {
   "id": "285597ca662d",
@@ -7005,8 +7213,9 @@
   ],
   "imageHash": "895e712ccb3b3e9e",
   "priceTriedAt": "2026-10-27",
-  "placeSuspect": true,
-  "hidden": true
+  "placeSuspect": false,
+  "hidden": true,
+  "placeChecked": true
  },
  {
   "id": "ac43ba84e2f3",
@@ -7968,6 +8177,46 @@
   "priceTriedAt": "2026-10-28"
  },
  {
+  "id": "d02cadb6ecd7",
+  "name": "シュシュ／トング 日本初ポップアップ",
+  "name_th": "พอปอัปครั้งแรกในญี่ปุ่นของแบรนด์ ชูชู/ตง",
+  "start": "2026-10-23",
+  "end": "2026-11-03",
+  "venue": "伊勢丹新宿店",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "fashion",
+   "market"
+  ],
+  "summary_th": "แบรนด์แฟชั่นจากไชน่าชูชู/ตงจัดพอปอัปครั้งแรกที่ญี่ปุ่น ณ อิเซตัน ชินจูคุ",
+  "image": "http://www.bing.com/th?id=ONUT.z0K96ddVsFKU7QTa-dBNXg&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "可憐なのに反骨的 上海発の「シュシュ／トング」が日本初ポップアップを伊勢丹新宿店で開催",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00MU1mam04eFMwMi1Qdy1qU1g3YW1EekprcGIwOHRtOGh5VUlYb3BiZWtTa1p1V1ZEbEhWLVpaZENoLVdTTWM0Q2R4QXR3djQxSjE4?oc=5",
+    "source": "WWDJAPAN",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.wwdjapan.com/articles/2534575",
+  "imageFrom": "https://www.wwdjapan.com/articles/2534575",
+  "imageHash": "92c6c1cfaa95a80c",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
   "id": "6ccfd5aaf01a",
   "name": "7 สีคอนเสิร์ต เฟสติวัล (7 Sea Concert Festival)",
   "name_th": "คอนเสิร์ต 7 สี เฟสติวัล",
@@ -8800,7 +9049,8 @@
   ],
   "imageTriedAt": "2026-10-27",
   "article": null,
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "a686cc3ce349",
@@ -8848,7 +9098,8 @@
    "32e3bfec2ae4",
    "005eef57023e"
   ],
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "26195b5cbe01",
@@ -9131,7 +9382,8 @@
   "notDupWith": [
    "657503b91a4e"
   ],
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "76854603b087",
@@ -9183,7 +9435,8 @@
    "3917f6e1cc61",
    "b591cc89bf88",
    "53172eabea6f",
-   "44847d0278bf"
+   "44847d0278bf",
+   "9217d7664d14"
   ],
   "placeChecked": true
  },
@@ -9268,7 +9521,8 @@
    "3917f6e1cc61",
    "b591cc89bf88",
    "53172eabea6f",
-   "44847d0278bf"
+   "44847d0278bf",
+   "9217d7664d14"
   ],
   "placeChecked": true
  },
@@ -9867,7 +10121,7 @@
    "food"
   ],
   "summary_th": "เทศกาลส่งท้ายปีที่โรงแรมโฟร์พอยท์ส ภูเก็ต มีกิจกรรม อาหาร และความบันเทิง",
-  "image": "http://www.bing.com/th?id=ONUT.LZMXKpzNCQFWF7lSFnCzQw&pid=News",
+  "image": "https://www.thaipr.net/wp-content/uploads/2026/10/Four-Points-by-Sheraton-Phuket_Unwrap-the-Season-d2c7ef55-e1793086156665.jpg",
   "official": null,
   "sources": [
    {
@@ -9884,9 +10138,11 @@
   "imageTried": true,
   "article": "https://www.thaipr.net/travel/3772428",
   "imageFrom": "https://www.thaipr.net/travel/3772428",
-  "imageHash": "88782873f489d81c",
+  "imageHash": null,
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "hidden": true,
+  "imageTriedAt": "2026-10-28"
  },
  {
   "id": "d91c7f176b0d",
@@ -9905,7 +10161,7 @@
    "workshop"
   ],
   "summary_th": "งานสัปดาห์ส่งเสริมการดำเนินการด้านสภาพภูมิอากาศ โดยองค์กรพิทักษ์สัตว์แห่งโลก",
-  "image": "http://www.bing.com/th?id=ONUT.kxJBTlN8zjTGS6bYk2IjgA&pid=News",
+  "image": "https://static.bangkokpost.com/media/content/20260924/c1_3325389_700.jpg",
   "official": null,
   "sources": [
    {
@@ -9937,9 +10193,11 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.bangkokpost.com/thailand/pr/3325389/one-bangkok-joins-bangkok-climate-action-week-2026-as-principal-venue-partner",
-  "imageFrom": "https://www.newswit.com/th/ienxtr5kljj9wjar48xfcyuaaya4rg1n",
-  "imageHash": "665429814b73bd15",
-  "placeChecked": true
+  "imageFrom": "https://www.bangkokpost.com/thailand/pr/3325389/one-bangkok-joins-bangkok-climate-action-week-2026-as-principal-venue-partner",
+  "imageHash": null,
+  "placeChecked": true,
+  "hidden": true,
+  "imageTriedAt": "2026-10-28"
  },
  {
   "id": "ca96cdf54246",
@@ -10588,9 +10846,9 @@
   "start": "2026-10-27",
   "end": "2026-12-31",
   "venue": "ที่ราบสูงหินดงวัน",
-  "city": "แม่ฮ่องสอน",
+  "city": "Mae Hong Son",
   "country": "TH",
-  "region": "north",
+  "region": null,
   "online": false,
   "tags": [
    "nature",
@@ -10620,7 +10878,7 @@
   "enriched": true,
   "imageTried": true,
   "article": null,
-  "regionTried": true,
+  "regionTried": false,
   "imageTriedAt": "2026-10-27",
   "price_th": null,
   "notDupWith": [
@@ -10629,7 +10887,8 @@
    "a4d567fca64a"
   ],
   "priceTriedAt": "2026-10-27",
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "40869cb343ff",
@@ -11135,7 +11394,9 @@
    "7efb9d6b3bfe",
    "0c3da320cc6e",
    "017e1f06a222",
-   "11666999adb3"
+   "11666999adb3",
+   "bbbdc736dad3",
+   "476dbb4171ef"
   ],
   "enriched": true,
   "imageTried": true,
@@ -11233,7 +11494,9 @@
    "657503b91a4e",
    "0c3da320cc6e",
    "017e1f06a222",
-   "11666999adb3"
+   "11666999adb3",
+   "bbbdc736dad3",
+   "476dbb4171ef"
   ],
   "enriched": true,
   "imageTried": true,
@@ -11397,6 +11660,20 @@
     "title": "第 18 届上海国际摄影艺术展今日开幕_活动_资讯",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13SmFuRVotNVhTQjBVZ09IMUZ1Vnh0OUp4NzMxbmVITXFoVW84Q3FJVzNGYzVSSTFsUVR2dnNCSVU2RFFfVU0yS0gxX2kzd2JWSjZiQlZJNA?oc=5",
     "source": "东方摄影",
+    "date": "2026-10-27",
+    "image": null
+   },
+   {
+    "title": "上海国际摄影艺术展览开幕：多元呈现摄影作为世界通用语言",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IWGZfLUpXNDNTb28tT2JaanpYM0k1YW9kRFlvSUdaOUo4UGNpblJYLUk2VUFHN2dSdGJsMl9VWUt4M2pkanNGNjl5UVlFcFItSUd3ZzVGdkZJRDdVNUd4Tw?oc=5",
+    "source": "ThePaper.cn",
+    "date": "2026-10-27",
+    "image": null
+   },
+   {
+    "title": "复兴岛迎来2026上海国际摄影艺术展览，工业遗存与光影艺术交织",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUGZfVGptSjhZbmxld1BybnBiYWpGMFNUYUpjVVBaeDM2T1MxNEwtd0ZfT1F3UHlHcVZfS0F0LWdWZmEzaERIczg3ZHZiQnZvT0dpT3VWOHVNaW9rN1lVckswVGZqYl9iekk3T3lfODhoY21JbUk5U0lBQnNCWkd6eThNZkI4NEtmbDVGaA?oc=5",
+    "source": "搜狐网",
     "date": "2026-10-27",
     "image": null
    }
@@ -11613,7 +11890,9 @@
    "b8e2b03ea395",
    "0c3da320cc6e",
    "017e1f06a222",
-   "11666999adb3"
+   "11666999adb3",
+   "bbbdc736dad3",
+   "476dbb4171ef"
   ],
   "enriched": true,
   "imageTried": true,
@@ -11631,9 +11910,9 @@
   "start": "2026-10-27",
   "end": "2026-10-27",
   "venue": "首钢园",
-  "city": "北京",
+  "city": "Beijing",
   "country": "CN",
-  "region": "north",
+  "region": null,
   "online": true,
   "price_th": "เข้าฟรี",
   "tags": [
@@ -11663,9 +11942,13 @@
   "notDupWith": [
    "0c3da320cc6e",
    "017e1f06a222",
-   "11666999adb3"
+   "11666999adb3",
+   "bbbdc736dad3",
+   "476dbb4171ef"
   ],
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true,
+  "regionTried": false
  },
  {
   "id": "b3c410a96d2f",
@@ -11705,7 +11988,8 @@
   "imageHash": "b1c8214c0ad59a16",
   "priceTriedAt": "2026-10-27",
   "notDupWith": [
-   "ae66576172bf"
+   "ae66576172bf",
+   "b410d74c1d67"
   ],
   "placeChecked": true
  },
@@ -11862,7 +12146,9 @@
   "notDupWith": [
    "b8e2b03ea395",
    "017e1f06a222",
-   "11666999adb3"
+   "11666999adb3",
+   "bbbdc736dad3",
+   "476dbb4171ef"
   ],
   "enriched": true,
   "imageTried": true,
@@ -12205,7 +12491,8 @@
   "notDupWith": [
    "b591cc89bf88",
    "53172eabea6f",
-   "44847d0278bf"
+   "44847d0278bf",
+   "9217d7664d14"
   ],
   "placeChecked": true
  },
@@ -12254,7 +12541,8 @@
   "priceTriedAt": "2026-10-27",
   "notDupWith": [
    "53172eabea6f",
-   "44847d0278bf"
+   "44847d0278bf",
+   "9217d7664d14"
   ],
   "placeChecked": true
  },
@@ -13801,6 +14089,452 @@
   "placeChecked": true
  },
  {
+  "id": "fed32de068cf",
+  "name": "เทศกาลฤดูใบไม้ร่วงเจดีย์แก้ว 2026",
+  "name_th": "เทศกาลฤดูใบไม้ร่วงเจดีย์แก้ว 2026",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "เจดีย์แก้ว",
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "festival",
+   "nature",
+   "lights"
+  ],
+  "summary_th": "พิธีเปิดเทศกาลฤดูใบไม้ร่วงที่เจดีย์แก้ว ปี 2026",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "พิธีเปิดงานเทศกาลฤดูใบไม้ร่วงเจดีย์แก้ว ปี 2026",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xTi1XT2VJYWswN21DdHN1c1V5MWxQdHNxYjBKRmJ3ZEpSaDl0ZktaT2lNemhtbUwwbDQyT0Z5WEJ6bGRRZHdodnQ3NFRhMXVteWw0VWQ0djFucUxxbzFDZ2JoRGVkZGtNMGhrU1hyX1N2N2hMS2c?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": null,
+  "placeChecked": true
+ },
+ {
+  "id": "4e303296aa10",
+  "name": "“翰墨燕山·艺润初心”2026年燕山地区优秀书画作品展",
+  "name_th": "นิทรรศการผลงานเขียนหนังสือและภาพวาดเกียรติยศภูมิภาคยานซาน 2026",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": null,
+  "country": "CN",
+  "region": "north",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "นิทรรศการหนังสือศิลป์และภาพวาดของภูมิภาคยานซาน開幕",
+  "image": "https://inews.gtimg.com/om_ls/OVmN8xiTMA2XQ_pp1Xhno-Mhcsh_FBb3-YJ284Ax582JoAA_640330/0",
+  "official": null,
+  "sources": [
+   {
+    "title": "“翰墨燕山·艺润初心”2026年燕山地区优秀书画作品展正式开幕",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tMXZPZFdaaG5CU0xsSGtEV1dvZGFBSktKQk5lMU53a1Z4R3NLeXZqSkZ2bWFkOVZ0UURjb0NVSXB4d2dGbkxmdHVzdmx6aE9YSVhFcnMwYWdzMDA?oc=5",
+    "source": "首都文明网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://news.qq.com/rain/a/20260808A0BVCI00",
+  "imageFrom": "https://news.qq.com/rain/a/20260808A0BVCI00",
+  "placeChecked": true
+ },
+ {
+  "id": "bbbdc736dad3",
+  "name": "“时代画卷 笔绘河山”美丽中国系列主题绘画创作工程作品展",
+  "name_th": "นิทรรศการภาพวาดประเด็น『ยุคสมัย ภาพวาดแม่น้ำภูเขา』ชุดเกียรติยศจีนที่งาม โรงละครแห่งชาติ",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "国家大剧院",
+  "city": "北京",
+  "country": "CN",
+  "region": "north",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "นิทรรศการภาพวาดประเด็นเกียรติยศจีนที่งามจัดที่โรงละครแห่งชาติปักกิ่ง",
+  "image": "http://www.bing.com/th?id=ONUT.k2j4ikFU5VYHiZ8NXpTFWw&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "“时代画卷 笔绘河山”美丽中国系列主题绘画创作工程作品展亮相国家大剧院",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ1AtLWU5M1c2QnpNZHdMT3o5TC1Xa1h3TjZScTNhUDFRTFZHTUNLQjRiQUV5eHJUOXdwNjFCUFF6akNweEdhTVVWeXBiVkRhc1lpQ0lsZjlqMHBGdm5iQkk4cDhSaE9nVE9Dc0NUQmpaNXQzVG03NkpVREVpN3NVRUxxQ2NNZHRFdXkyQQ?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.msn.cn/zh-cn/news/other/%E6%97%B6%E4%BB%A3%E7%94%BB%E5%8D%B7-%E7%AC%94%E7%BB%98%E6%B2%B3%E5%B1%B1-%E6%B1%87%E8%81%9A%E8%80%81%E4%B8%AD%E9%9D%92%E4%B8%89%E4%BB%A3%E8%89%BA%E6%9C%AF%E5%AE%B6-%E5%85%B1%E7%BB%98%E7%BE%8E%E4%B8%BD%E4%B8%AD%E5%9B%BD/ar-AA2gd9UV",
+  "imageFrom": "https://www.msn.cn/zh-cn/news/other/%E6%97%B6%E4%BB%A3%E7%94%BB%E5%8D%B7-%E7%AC%94%E7%BB%98%E6%B2%B3%E5%B1%B1-%E6%B1%87%E8%81%9A%E8%80%81%E4%B8%AD%E9%9D%92%E4%B8%89%E4%BB%A3%E8%89%BA%E6%9C%AF%E5%AE%B6-%E5%85%B1%E7%BB%98%E7%BE%8E%E4%B8%BD%E4%B8%AD%E5%9B%BD/ar-AA2gd9UV",
+  "imageHash": "7c44cbc0dc5edf8c",
+  "placeChecked": true
+ },
+ {
+  "id": "9217d7664d14",
+  "name": "纪念木雕大师徐宝庆，黄杨木雕精品展",
+  "name_th": "นิทรรศการแกะสลักไม้เหลืองระดับสูง ระลึกถึงอาจารย์หมู่สิบ เปิดที่พิพิธภัณฑ์ถูซานวัน",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "土山湾博物馆",
+  "city": "上海",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art",
+   "museum"
+  ],
+  "summary_th": "นิทรรศการแกะสลักไม้เหลืองของอาจารย์หมู่สิบเปิดที่พิพิธภัณฑ์ถูซานวัน",
+  "image": "http://www.bing.com/th?id=ONUT.qOK36V0f8y47drJRhAmdSg&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "纪念木雕大师徐宝庆，黄杨木雕精品展亮相土山湾博物馆",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOczFfRldQanFnUDZjLXlmT1RxenRoZHVyMXVNdURmNWNYYW00WngxMHlydndxSnV5Vl9DVEs3LXl1YUlqc2FrX205OHkxTGtqZFJpTTdqd3hnYWtsWXpUTFQyNThmOTZUNW1QZFNRbk5NeEkxYUU2NGJEWENzckJoQko0Vmxjam5qLS1GYQ?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.msn.cn/zh-cn/news/other/%E7%BA%AA%E5%BF%B5%E6%9C%A8%E9%9B%95%E5%A4%A7%E5%B8%88%E5%BE%90%E5%AE%9D%E5%BA%86-%E9%BB%84%E6%9D%A8%E6%9C%A8%E9%9B%95%E7%B2%BE%E5%93%81%E5%B1%95%E4%BA%AE%E7%9B%B8%E5%9C%9F%E5%B1%B1%E6%B9%BE%E5%8D%9A%E7%89%A9%E9%A6%86/ar-AA2ga92T",
+  "imageFrom": "https://www.msn.cn/zh-cn/news/other/%E7%BA%AA%E5%BF%B5%E6%9C%A8%E9%9B%95%E5%A4%A7%E5%B8%88%E5%BE%90%E5%AE%9D%E5%BA%86-%E9%BB%84%E6%9D%A8%E6%9C%A8%E9%9B%95%E7%B2%BE%E5%93%81%E5%B1%95%E4%BA%AE%E7%9B%B8%E5%9C%9F%E5%B1%B1%E6%B9%BE%E5%8D%9A%E7%89%A9%E9%A6%86/ar-AA2ga92T",
+  "imageHash": "0254a0326a5cc546",
+  "placeChecked": true
+ },
+ {
+  "id": "32815522e1dd",
+  "name": "牛放作家书法作品“大江河”展",
+  "name_th": "นิทรรศการผลงานเขียนหนังสือ『แม่น้ำใหญ่』ของนักเขียนเหนียวฟาง ที่หอศิลป์เจงตุ",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "成都画院",
+  "city": "成都",
+  "country": "CN",
+  "region": "southwest",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "นิทรรศการเขียนหนังสือของนักเขียนเหนียวฟางจัดที่หอศิลป์เจงตุ",
+  "image": "http://www.bing.com/th?id=ONUT.aH-nHBVql5x83sHJW8k5vg&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "把一本书“写”进书画，牛放作家书法作品“大江河”在成都画院开展",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWldlcTI3aldsaW1KZ0sxTWgwUzl6SFY3YU5yMlNtSk5GNjRmMENlN1hBemlmWG5oSzRUUlVQQW1wNjNfaUJ1T2ZxM2lObEhWUTVYdjFYRExsaERNWkJROWhuWVp6Y1o2OGZCdTNWaGdockNfcVp5VnFPRlVqMllCcmJDU21UcFVfTlYzTA?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://news.qq.com/rain/a/20261027A0DYE000",
+  "imageFrom": "https://news.qq.com/rain/a/20261027A0DYE000",
+  "imageHash": "42e6f200ded079e6",
+  "placeChecked": true
+ },
+ {
+  "id": "02c4d8207c50",
+  "name": "宋孟依自然万境艺术展",
+  "name_th": "นิทรรศการศิลปะ『ธรรมชาติ萬境』ของซ่งเหมิงอี้ ที่เกินไฮ่เจียวาน",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": "前海嘉湾",
+  "city": "深圳",
+  "country": "CN",
+  "region": "south",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "นิทรรศการศิลปะธรรมชาติของซ่งเหมิงอี้開幕ที่เกินไฮ่เจียวาน",
+  "image": "http://www.bing.com/th?id=ONUT.Y3biTurl5PpLS4erFVz7qQ&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "循律而生・随性而长 宋孟依自然万境艺术展于前海嘉湾启幕",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLTBRRU5sTEtrejNVSVc0ZXFYZUtoTzNfbGxYYkV4dlY2QkFsTnNVQ21YcHdvejhrdU1LcEFDMHZxSkJRZjFEVmJ3eXpiSUxiTzBCS3g1X0xXcExjVmdER015a2ZNS21ZZExYZmczZ0tjeHB0YlNNOHdFVmczaHAwUnVoaTA4MVJMRm5wMg?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://news.qq.com/rain/a/20261027A072OP00",
+  "imageFrom": "https://news.qq.com/rain/a/20261027A072OP00",
+  "imageHash": "97b95cd9147d5918",
+  "placeChecked": true
+ },
+ {
+  "id": "e737e7c3a577",
+  "name": "“歌声遇建宁——天台音乐会”",
+  "name_th": "คอนเสิร์ต『เพลงพบเจนนิง - ที엔ไท』",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": null,
+  "country": "CN",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert",
+   "festival"
+  ],
+  "summary_th": "คอนเสิร์ตดนตรีโรแมนติก เปิดตัวที่เจนนิง/ที엔ไท",
+  "image": "http://www.bing.com/th?id=ONUT.SCBxOUR9-jv3Nwb_jYBavg&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "“歌声遇建宁——天台音乐会”浪漫启幕 双舞台点亮莲乡秋夜",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZN1lJYkhQZWtBaEE5NEpBaGxMcndjVWc1bU9tWGl1eUtUeXY0WW9wclBsX0lKblgxc0tRMXJILURiUmdDQVdjYkdqSTRHQmlfSlZDeGs3enl3NklldmhrTEpTSDFpRkNwWlNMd1ExTnVFZw?oc=5",
+    "source": "中新网福建",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "http://www.mnw.cn/news/sm/3127558.html",
+  "imageFrom": "http://www.mnw.cn/news/sm/3127558.html",
+  "imageHash": "e653e1303cf1ec3a",
+  "placeChecked": true
+ },
+ {
+  "id": "476dbb4171ef",
+  "name": "第十二届北京国际老龄产业博览会",
+  "name_th": "นิทรรศการอุตสาหกรรมผู้สูงอายุระหว่างประเทศกรุงปekin ครั้งที่ 12",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": "北京",
+  "country": "CN",
+  "region": "north",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo"
+  ],
+  "summary_th": "นิทรรศการอุตสาหกรรมผู้สูงอายุระหว่างประเทศเปิดตัวที่กรุงปekin",
+  "image": "http://www.bing.com/th?id=ONUT.9v0bwRjsx1FTxl9kFboDow&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "第十二届北京国际老龄产业博览会召开- 经济",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1IOE04bV9vY1JBVnFqSG9UeHNvNnl6MDRROVVkVzJxRnpZR3VCX2hpR2VVdTBtZTVHQnZoNTMwbzF0U2MwYXV0Y2RsdlRFQ0RSNGNFeGtnclNCcHN4OXpR?oc=5",
+    "source": "中工网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.stdaily.com/web/gdxw/2026-10/11/content_594229.html",
+  "imageFrom": "https://www.sohu.com/a/1093315047_122014422",
+  "imageHash": "ba46b6c43a11bd34",
+  "placeChecked": true
+ },
+ {
+  "id": "b821ee33a4e5",
+  "name": "“黑土优品”一线城市品牌行福州专场活动",
+  "name_th": "กิจกรรมโปรโมทแบรนด์『หัวอี้ ยูพิน』ที่ฟูโจว",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": "福州",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "market"
+  ],
+  "summary_th": "กิจกรรมโปรโมทสินค้าแบรนด์หัวอี้ ยูพินจัดขึ้นที่ฟูโจว",
+  "image": "http://www.bing.com/th?id=ONUT.i2nb9-58OwvEdrYy53W96w&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "“黑土优品”一线城市品牌行福州专场活动举办",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZENDRW5leFZHbDRvdktEM0tqTVBtYVczUVlGb3ctbDhaNlk2bW01QTVwUUcwd2lMTVdheGtLMl9WcHpqaFFhQlJTSVF1SHllVFRlUmQ0dTRfUlJURG9GNHMxNzM0SkZ3cW9DcFVzUzFUVkQ3bThrVnpkTFdnLV9vN3lxQkp3dWJk?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.sohu.com/a/1093334957_362042",
+  "imageFrom": "https://www.sohu.com/a/1093334957_362042",
+  "imageHash": "a6e275b36652dbab",
+  "placeChecked": true
+ },
+ {
+  "id": "b410d74c1d67",
+  "name": "“吴限秋色 泉城有约”苏州吴中秋季文旅推介会",
+  "name_th": "งานส่งเสริมท่องเที่ยวฤดูใบไม้ร่วงสุโจวอู่จองที่จีนาน",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": "济南",
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "travel",
+   "expo"
+  ],
+  "summary_th": "งานส่งเสริมท่องเที่ยวฤดูใบไม้ร่วงของสุโจวอู่จองจัดที่จีนาน",
+  "image": "http://www.bing.com/th?id=ONUT.5XhpbIEK81FFz4_tOxlxvA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "“吴限秋色 泉城有约”苏州吴中秋季文旅推介会在济南举办",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTUY2SjNWSkFsdThzU28tNFoxcmZmal93dGZOZUlPS1hNeUZVYmk3R0ZfNXo2cEg3dTM3M2FBZG0wYmgtbVdteUJ1VVp5TWNWS3FPNzJ4eTcxNU5kcXRuMWlxM3JzeTZ6dDd6MGlLeHdRa1VnT3JwanlkOXBvS2plaVl1QVhrbHlkcGZFSQ?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.sohu.com/a/1093233739_122066679",
+  "imageFrom": "https://www.sohu.com/a/1093212173_121218495",
+  "imageHash": "c624613bf6abee0a",
+  "placeChecked": true
+ },
+ {
+  "id": "635b8b2cc2e4",
+  "name": "长沙国际车展",
+  "name_th": "มอเตอร์โชว์ระหว่างประเทศกรุงฉางชา",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": "长沙",
+  "country": "CN",
+  "region": "central",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "motorshow",
+   "carlaunch"
+  ],
+  "summary_th": "มอเตอร์โชว์ระหว่างประเทศฉางชาเปิดให้นำสัตว์เลี้ยงเข้าชมได้",
+  "image": "http://www.bing.com/th?id=ONUT.YgOqt3lPPCzU2_k29ly2zA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "“铲屎官”狂喜！长沙国际车展邀请你带上“毛孩子”一起来逛展",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWDJMVkJUWDdQS0hVQmllWFNBV1Rrd285dFFIY2dHazhWa09fUER1M2NSSDBWU1JsUnROdk84MFV2SkUzNUF6NkIwSklXcFFsQ1VRS2tnUkhUTmZXUGNtR2FQR1R6WEJxaUE0Szh1cFhFaVZ6VTE2U2VYWlhxbW1sZ05NeHN0eEJlY3FJUA?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://economy.rednet.cn/content/646054/62/16418168.html",
+  "imageFrom": "https://www.sohu.com/a/1093540556_120914498",
+  "imageHash": "ebaf6c430e51b4dc",
+  "placeChecked": true
+ },
+ {
+  "id": "352fef0cb4bd",
+  "name": "CMEF2026",
+  "name_th": "นิทรรศการอุปกรณ์การแพทย์จีน 2026",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "venue": null,
+  "city": null,
+  "country": "CN",
+  "region": "east",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo"
+  ],
+  "summary_th": "นิทรรศการอุปกรณ์การแพทย์จีน CMEF2026 กำลังดำเนินการอยู่",
+  "image": "https://q8.itc.cn/images01/20260413/d9fe337f464f4929857b1fa3b09da41b.jpeg",
+  "official": null,
+  "sources": [
+   {
+    "title": "直击CMEF2026 |智能血氧戒指亮相展会，大为医疗多元矩阵解锁基层、家用、宠物医疗新场景",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rbjJQRDdIRDd6M1ZYd2p3cXlvYVZmT0V4V25nUHpPLTJQNjZTbEFqNjB4ZkdyaGt6OXR4dldjTzhpMkpNWEhNYUZfYkhPOU5KSS1xZndFS3dBTEJkd3JIWTJSVERNNkgzWGxpdC1vSU9ONDU0?oc=5",
+    "source": "金融界",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "http://www.cnena.com/news/bencandy-htm-fid-89-id-98662.html",
+  "imageFrom": "https://www.sohu.com/a/1008967868_122584578",
+  "placeChecked": true
+ },
+ {
   "id": "a03226b1a4a5",
   "name": "ONE OKTOBERFEST 2026",
   "name_th": "ONE OKTOBERFEST 2026 เทศกาลบาวาเรีย",
@@ -14013,7 +14747,7 @@
   "summary_th": "กิจกรรมเช็กดวงและอ่านดวงแบบอินเทอร์แอกทีฟกับต้าห์อู๋-ออฟโรด และ ซินแสเป็นหนึ่ง",
   "image": "https://www.thaipr.net/wp-content/uploads/2022/02/2-0126-McFrozen-WTF-e1645417869339.jpg",
   "imageFrom": "https://www.thaipr.net/business/3158272",
-  "imageHash": null,
+  "imageHash": "7e1e48085564d97b",
   "official": null,
   "sources": [
    {
@@ -14034,6 +14768,45 @@
   ],
   "imageTried": true,
   "imageTriedAt": "2026-10-28",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "725b22e56d42",
+  "name": "沪疆文化交流周",
+  "name_th": "สัปดาห์แลกเปลี่ยนวัฒนธรรมชานไฮ-คาชการ",
+  "start": "2026-10-28",
+  "end": "2026-10-28",
+  "venue": null,
+  "city": "喀什、上海",
+  "country": "CN",
+  "region": "northwest",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "festival",
+   "art"
+  ],
+  "summary_th": "สัปดาห์แลกเปลี่ยนวัฒนธรรมระหว่างชานไฮและคาชการจะเปิดฉาก",
+  "image": "http://www.bing.com/th?id=ONUT.cTUyz_arpacn248r09BLsA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "喀什上海两大会场联动，沪疆文化交流周将启幕",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80OU55N1I0Ym9EZXRNUUY2cV9CMmhEaVE2SHFZeUFGby1oRWFuZGZTc0N4bnhLdFpfb3Z3bzNwUXIzNDJzVXFNT29HYllEZE52bllRaXBKeEsyNjBMX0RvdA?oc=5",
+    "source": "ThePaper.cn",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://m.sohu.com/a/1093716728_260616",
+  "imageFrom": "https://m.sohu.com/a/1093716728_260616",
+  "imageHash": "c210cd0ddf1d5c75",
   "placeChecked": true,
   "priceTriedAt": "2026-10-28"
  },
@@ -15072,7 +15845,8 @@
   "article": "https://finance.sina.com.cn/wm/2026-09-21/doc-inisqeuf7893619.shtml",
   "imageFrom": "https://finance.sina.com.cn/wm/2026-09-21/doc-inisqeuf7893619.shtml",
   "imageHash": "6b59ac3494b9213f",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "f7d7346fcca8",
@@ -15313,7 +16087,8 @@
   "imageFrom": "https://news.qq.com/rain/a/20261027A0E9DZ00",
   "imageHash": "7f980780a711c32f",
   "placeChecked": true,
-  "priceTriedAt": "2026-10-28"
+  "priceTriedAt": "2026-10-28",
+  "verified": true
  },
  {
   "id": "11c8a00f77ca",
@@ -15812,7 +16587,8 @@
   "article": null,
   "regionTried": true,
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "e29e98398fc1",
@@ -15850,7 +16626,8 @@
   "article": "https://www.khaosod.co.th/technologychaoban/techno-news/article_347735",
   "priceTriedAt": "2026-10-27",
   "regionTried": true,
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "b39bade35f59",
@@ -16769,6 +17546,46 @@
   "priceSource": "https://www.bkkpulse.com/event/the-halloween-world-spooky-boo-friends-at-centralw-15ddc474"
  },
  {
+  "id": "a233b1623e77",
+  "name": "横浜バニラ ルミネエスト新宿 ポップアップ",
+  "name_th": "พอปอัปของโยคohamaวานิลลาที่ลูมินเอสต์ ชินจูคุ",
+  "start": "2026-10-30",
+  "end": "2026-11-11",
+  "venue": "ルミネエスト新宿",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "cafe",
+   "market"
+  ],
+  "summary_th": "แบรนด์ขนมวานิลลาจากโยคohamaจัดพอปอัปจำกัดเวลาที่ลูมินเอสต์ ชินจูคุ",
+  "image": "http://www.bing.com/th?id=ONUT.BYqdi1l0vEIqWDhOzFp9rw&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "横浜バニラ、「ルミネエスト新宿」にて初の期間限定ポップアップストアを開催！",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11SFN4Qk1DN0dhbFJVdGw3VnhfVkVSUjdDODlQZW9EbXRtSEhpSDdKZFhIYjhtdHRWNlRjTTZqX29kSWNXN1paaHd2cEdKQ0ctUVVNdWlPajQydVR4U0tIYnQzazJpb1BybUE?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://mantan-web.jp/prtimes/article/20261027prt00m200000531a.html",
+  "imageFrom": "https://news.3rd-in.co.jp/article/2d22ed6c-d1af-11f1-a304-9ca3ba09c411",
+  "imageHash": "30cfb5fcb4855ce7",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
   "id": "447732680d9c",
   "name": "清走中",
   "name_th": "งานเก็บขยะ Seisouchuu ในเมืองโคคูระ",
@@ -17050,7 +17867,8 @@
   "described": true,
   "imageHash": "21a1c3eeaebc2aad",
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "097e9191aaeb",
@@ -17101,7 +17919,8 @@
   "described": true,
   "imageHash": "2c3ce0719d1f4c3d",
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "f05505b83b70",
@@ -20451,7 +21270,8 @@
   "article": "https://news.cjn.cn/whpd/yw_19947/202609/t5337323.htm",
   "placeChecked": true,
   "regionTried": true,
-  "priceTriedAt": "2026-10-28"
+  "priceTriedAt": "2026-10-28",
+  "verified": true
  },
  {
   "id": "a9ec0ab10bc8",
@@ -20493,7 +21313,8 @@
   "imageHash": "8ab286b2a08b65d5",
   "placeChecked": true,
   "regionTried": true,
-  "priceTriedAt": "2026-10-28"
+  "priceTriedAt": "2026-10-28",
+  "verified": true
  },
  {
   "id": "562ea0483617",
@@ -20629,7 +21450,8 @@
   ],
   "imageHash": "d2c6dd6c282177f0",
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "481ffca0a6f5",
@@ -21072,7 +21894,8 @@
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000003918.000013972.html",
   "imageHash": "a704417bf32df3dd",
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "3c238b32a46d",
@@ -21647,9 +22470,9 @@
   "start": "2026-11-01",
   "end": "2026-11-01",
   "venue": "西安人民剧院",
-  "city": "西安市",
+  "city": "Xi'an",
   "country": "CN",
-  "region": "northwest",
+  "region": null,
   "online": false,
   "price_th": "เริ่มต้น ¥100",
   "tags": [
@@ -21680,7 +22503,7 @@
   "verified": true,
   "enriched": true,
   "imageHash": "863d98eefbdbe363",
-  "regionTried": true,
+  "regionTried": false,
   "notDupWith": [
    "aa8a08fec523",
    "aa5ccd9b6d37",
@@ -21690,7 +22513,8 @@
    "96ea9f0c699a",
    "df83fd52f8c9"
   ],
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "aa83f8b2c9a0",
@@ -21807,7 +22631,8 @@
   "imageFrom": "https://www.sohu.com/a/1093537707_121118712",
   "imageHash": "57b49501e58bfbac",
   "placeChecked": true,
-  "priceTriedAt": "2026-10-28"
+  "priceTriedAt": "2026-10-28",
+  "verified": true
  },
  {
   "id": "cfc9153e8158",
@@ -21841,7 +22666,8 @@
   "updated": "2026-10-28",
   "enriched": true,
   "imageHash": "c57ca6a498f33973",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "4d854748ca39",
@@ -22122,7 +22948,8 @@
   ],
   "imageHash": "a49f5ad87931cd01",
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "6753cf02d7b7",
@@ -22290,7 +23117,8 @@
   ],
   "imageHash": "f75fbdadb562c057",
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "380f41a7172f",
@@ -22546,7 +23374,8 @@
   "article": "https://natalie.mu/comic/news/693317",
   "imageFrom": "https://www.famitsu.com/article/202610/90678",
   "imageHash": "d365b68335cdcbe6",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "2256c047aa9e",
@@ -24032,6 +24861,164 @@
   "article": "https://www.msn.cn/zh-cn/money/%E9%80%9A%E7%94%A8/2026%E8%99%B9%E6%A1%A5hub%E5%A4%A7%E4%BC%9A11%E6%9C%886%E6%97%A5%E5%90%AF%E5%B9%95-%E8%81%9A%E7%84%A6%E4%BC%81%E4%B8%9A%E5%85%A8%E7%90%83%E5%8C%96/ar-AA2gbaWB",
   "imageFrom": "https://www.msn.cn/zh-cn/money/%E9%80%9A%E7%94%A8/2026%E8%99%B9%E6%A1%A5hub%E5%A4%A7%E4%BC%9A11%E6%9C%886%E6%97%A5%E5%90%AF%E5%B9%95-%E8%81%9A%E7%84%A6%E4%BC%81%E4%B8%9A%E5%85%A8%E7%90%83%E5%8C%96/ar-AA2gbaWB",
   "imageHash": "0254a0326a5cc546",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28",
+  "verified": true
+ },
+ {
+  "id": "ee26aa8f0f9d",
+  "name": "ホワイトタイガーとブラックタイガー ストア in 渋谷",
+  "name_th": "ร้านขายของไวท์ไทเกอร์ แอนด์ แบล็คไทเกอร์ ที่ชิบุยะ",
+  "start": "2026-11-06",
+  "end": "2026-11-06",
+  "venue": null,
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "market"
+  ],
+  "summary_th": "ร้านขายของชุดตัวละคร ไวท์ไทเกอร์ และ แบล็คไทเกอร์ เปิดที่ชิบุยะวันที่ 6 พฤศจิกายน",
+  "image": "http://www.bing.com/th?id=ONUT.k1XI2Crh6k-aL5zV5kDw_w&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "ホワイトタイガーとブラックタイガー ストア in 渋谷 11月6日開催!",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaDhlMXhHdExEYXhVN1g1OWx1UGVlc0VaV0VEZW4tUVRhTDE4aERmSXZXOXRyRzhIVVg5MFE3VEx5RmVtZU9hRXRWR3ZPV2ZlQ2h3a2hTN0JpRDdfa3VDQWNNblpwZ3pDSXdWeEVBRG9wcERNU3lUeUswUWRSWnZUMV9IVlR4OW9nMFRMY3hqY1g0Y1ZKNHhaTGt5eDA2QQ?oc=5",
+    "source": "コラボカフェ",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://collabo-cafe.com/events/collabo/whitetiger-to-blacktiger-bustour-popup-shibuya-modi-2026/",
+  "imageFrom": "https://collabo-cafe.com/events/collabo/whitetiger-to-blacktiger-bustour-popup-shibuya-modi-2026/",
+  "imageHash": "e7885663a3056793",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "bae679e2de48",
+  "name": "なんでもいきもの POP UP in キデイランド",
+  "name_th": "พอปอัป なんでもいきもの ที่คิดดี้แลนด์",
+  "start": "2026-11-06",
+  "end": "2026-11-06",
+  "venue": "キデイランド",
+  "city": null,
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "market"
+  ],
+  "summary_th": "พอปอัปสินค้าตัวละคร なんでもいきもの เริ่มวันที่ 6 พฤศจิกายน ที่คิดดี้แลนด์",
+  "image": "http://www.bing.com/th?id=ONUT.DfHkZp1d67t64fx0mBwZgw&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "なんでもいきもの POP UP in キデイランド 11月6日より開催!",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWU50SXZoUi1PT2g1X1I0V18tS3paVnR6aDVBSWpLcmh4SVJxeWVRLWtpeE9ndVA0QlZEd1FxSGROV0MwX2JKaFlrX0NlaXJmSVBycE4yQVJkSFFJSnJEWFFpWHRXQVNjdDJSeVJSMktDdS0tcDgwWVI2ZWpDTzUyVXBpWkc3dU9LY2tVM1V5RHFMWHhFdkY2Z2ZJSGM?oc=5",
+    "source": "コラボカフェ",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://collabo-cafe.com/events/collabo/nandemoikimono-norionigiri-popup-kiddyland-omokado-2026/",
+  "imageFrom": "https://collabo-cafe.com/events/collabo/nandemoikimono-norionigiri-popup-kiddyland-omokado-2026/",
+  "imageHash": "25ff5ad259f9d48f",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "3cf42ec1a5cc",
+  "name": "チ。 ―地球の運動について― ストア in karendo",
+  "name_th": "ร้านขายของอนิเมะ ชิ. -เรื่องการเคลื่อนที่ของโลก- ที่คาเเรนโด",
+  "start": "2026-11-06",
+  "end": "2026-11-06",
+  "venue": "karendo",
+  "city": null,
+  "country": "JP",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "market"
+  ],
+  "summary_th": "ร้านขายของอนิเมะ ชิ. เริ่มวันที่ 6 พฤศจิกายน ที่คาเเรนโด",
+  "image": "http://www.bing.com/th?id=ONUT.dUNXDeqtn5HyvSo1iheMYg&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "チ。 ―地球の運動について― ストア in karendo 11月6日より開催!",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ralA2ZjA3UmdGVVNKRk5SdnAwWE1mNnE2N2FqSWhYU3Npa1FpRG9vbk1BWDRHT21sQVNyOXBDUWI3Vy0xck4xRnFMRGxsZl9CcUhSNlFpVEdXVVJIOXVFZ05BTjNPRGZ5NUFyN3BKaFMwU3l1ZC1iU0FB?oc=5",
+    "source": "コラボカフェ",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://collabo-cafe.com/events/collabo/chi-karendo-collabo-shop-2026/",
+  "imageFrom": "https://collabo-cafe.com/events/collabo/chi-karendo-collabo-shop-2026/",
+  "imageHash": "6714f0d1437ca7b5",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "d22f4a56c74b",
+  "name": "デジタルノマド シンポジウム in 静岡",
+  "name_th": "สัมมนาเดจิทัลโนมาดในชิซูโอกะ",
+  "start": "2026-11-06",
+  "end": "2026-11-06",
+  "venue": null,
+  "city": "ชิซูโอกะ",
+  "country": "JP",
+  "region": "chubu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "startup",
+   "travel",
+   "devconf"
+  ],
+  "summary_th": "สัมมนาเรื่องเดจิทัลโนมาดจัดขึ้นวันที่ 6 พฤศจิกายน ที่ชิซูโอกะ มีผู้เชิญมาจากเชียงใหม่",
+  "image": "http://www.bing.com/th?id=ONUT.t1ze2k-7ul_GZt2L2CyDpA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "静岡県副知事が登壇、タイ・チェンマイの「ノマドフレンドリー地区」推進者2名も来日。「デジタルノマド シンポジウム in 静岡」11月6日開催、全登壇者・プログラムが決定",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWNXpzRGotanY1R1JzZ3R4QWh5ZDVYeG44MURyZ3k3dHd2R0g3VzZ2alVrczFTZ2dYQURqQ1hfby0ycXQ2R3YyV0c4ZkptaExBVTRzaWV3bXdpeVphY0JwQ25fZFJiM0JfNFdPXzZRS2tKQQ?oc=5",
+    "source": "Infoseek",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://mainichi.jp/articles/20261027/pr2/00m/020/292000c",
+  "imageFrom": "https://mainichi.jp/articles/20261027/pr2/00m/020/292000c",
+  "imageHash": "5667ed59a5fb6914",
   "placeChecked": true,
   "priceTriedAt": "2026-10-28"
  },
@@ -26412,9 +27399,9 @@
   "start": "2026-11-07",
   "end": "2026-11-07",
   "venue": "南京文化艺术中心",
-  "city": "南京市",
+  "city": "Nanjing",
   "country": "CN",
-  "region": "east",
+  "region": null,
   "online": false,
   "price_th": "เริ่มต้น ¥80",
   "tags": [
@@ -26441,8 +27428,9 @@
   "notDupWith": [
    "f03a669b9722"
   ],
-  "regionTried": true,
-  "placeSuspect": true
+  "regionTried": false,
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "25caed183f9b",
@@ -26588,6 +27576,166 @@
   "signup_th": "ขายล่วงหน้าที่งาน AGF2026 วันที่ 7-8 พฤศจิกายน 2569 เวลา 09:00-17:00; ขายที่อนิเ",
   "described": true,
   "datesRead": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "d11d40a807be",
+  "name": "สมโภชอาราม สนุกสำราญคลองผดุงฯ",
+  "name_th": "สมโภชอาราม สนุกสำราญคลองผดุงฯ",
+  "start": "2026-11-07",
+  "end": "2026-11-08",
+  "venue": "วัดมหาพฤฒารามฯ",
+  "city": "Bangkok",
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "festival",
+   "local",
+   "art"
+  ],
+  "summary_th": "เทศกาลฉลอง 100 ปี ยิบอินซอย ที่คลองผดุงกรุงเกษม",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "100 ปี ยิบอินซอย จากการเฉลิมฉลองสู่การลงมือทำ ชวนปลุกสีสันคลองผดุงฯ ในงาน “สมโภชอาราม สนุกสำราญคลองผดุงฯ”",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02WlI2Y3ZpZzEyWHUwTGxlbFdwQXhrVnhpUEhHWG1WOUpFODZvSl9JUzlKVHBNZnVIZ18wam5JYUtkTEx2MTM0T3ZWbHM?oc=5",
+    "source": "นิตยสารผู้จัดการ",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.prachachat.net/hilight-prachachat/news-881762",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "63392c013eeb",
+  "name": "国際教育フェア2026秋",
+  "name_th": "งานนิทรรศการการศึกษานานาชาติ ฤดูใบไม้ร่วง 2026",
+  "start": "2026-11-07",
+  "end": "2026-11-09",
+  "venue": "東京国際フォーラム",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "edu",
+   "expo"
+  ],
+  "summary_th": "งานนิทรรศการการศึกษานานาชาติที่ 東京インターナショナルフォーラム",
+  "image": "http://www.bing.com/th?id=ONUT.inH5NKiGt9WGs5LPbuC6vA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "「国際教育フェア2026秋」東京国際フォーラムに出展。米国・カナダ名門大学を目指す「編入留学」を身近に",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sbmljcTI1ZzV4alR6eXk0aUFZeE5kakp6S1RVTUFIUWotNEVhUUtEeC1OblVQbWpqVlVKWUtoM1Q0TllyZTdpY2JYQWFSZEpMZjUwM1gwWVFmeU9nTC1vVlJZMjRaQzlhMmc?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.jiji.com/jc/article?k=000000009.000179793&g=prt",
+  "imageFrom": "https://www.jiji.com/jc/article?k=000000043.000071610&g=prt",
+  "imageHash": "5462d2add0741218",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "7b01a05fa71d",
+  "name": "ねんりんピック2026",
+  "name_th": "เน็นรินพิก 2026",
+  "start": "2026-11-07",
+  "end": "2026-11-10",
+  "venue": "Multiple venues across Saitama Prefecture",
+  "city": "桶川市",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "game",
+   "local",
+   "wellness"
+  ],
+  "summary_th": "กิจกรรมเกมจับของเล่นเครนสำหรับผู้สูงอายุที่เมืองโอกากาวะ จังหวัดไซตะมะ",
+  "image": "http://www.bing.com/th?id=ONUT.vd_QinMAZEyw0AWtc1E_tA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "日本クレーンゲーム協会、桶川市との包括連携協定の一環として「ねんりんピック2026」に協力！クレーンゲームで世代を超えた笑顔と交流を創出！高齢者の生きがいづくりや地域活性化につながる体験イベントを開催",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jQ2VqVFRKOHFiWHdFTzNGbjYzM09hWXBMTWpZZV94aUpNczdIQy1wMUVVUll6VnNaOWNVdGo1WlNYa0Rkb2ozandLMWlMSW1pdDFB?oc=5",
+    "source": "ドリームニュース",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://kasukabe.goguynet.jp/2026/10/27/nenrin_pic_kasukabe/",
+  "imageFrom": "https://kasukabe.goguynet.jp/2026/10/27/nenrin_pic_kasukabe/",
+  "imageHash": "69dc7f10db30b30a",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "106a6051c0ea",
+  "name": "ZYOYUSAI FIRE & MUSIC FESTIVAL 2026",
+  "name_th": "โซโยยูไซ ไฟร์ แอนด์ มิวสิค เฟสติวัล 2026",
+  "start": "2026-11-07",
+  "end": "2026-11-07",
+  "venue": "常滑りんくうビーチ",
+  "city": "常滑市",
+  "country": "JP",
+  "region": "chubu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "festival",
+   "concert"
+  ],
+  "summary_th": "เทศกาลดนตรีและดอกไม้ไฟขนาดใหญ่ที่ชายหาดรินคู โตโกนามิ รัฐอาอิจิ",
+  "image": "http://www.bing.com/th?id=ONUT.MP62cLszxT5cYaV3GG45nQ&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "愛知の夜空に150メートルワイド級の音楽花火！DJ Hello Kittyも登場 ...",
+    "link": "https://www.msn.com/ja-jp/entertainment/music/%E6%84%9B%E7%9F%A5%E3%81%AE%E5%A4%9C%E7%A9%BA%E3%81%AB150%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB%E3%83%AF%E3%82%A4%E3%83%89%E7%B4%9A%E3%81%AE%E9%9F%B3%E6%A5%BD%E8%8A%B1%E7%81%AB-dj-hello-kitty%E3%82%82%E7%99%BB%E5%A0%B4%E3%81%99%E3%82%8B%E6%96%B0%E6%84%9F%E8%A6%9A%E3%83%95%E3%82%A7%E3%82%B9-zyoyusai-fire-music-festival-2026-%E3%81%8C%E9%96%8B%E5%82%AC/ar-AA2ga0ab",
+    "source": "ウォーカープラス on MSN",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageHash": "7d47cc3e602d1d51",
+  "imageRechecked": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://news.livedoor.com/article/detail/32670361/",
+  "imageFrom": "https://news.livedoor.com/article/detail/32670361/",
+  "placeChecked": true,
   "priceTriedAt": "2026-10-28"
  },
  {
@@ -27392,6 +28540,83 @@
   "signup_th": "ขายตั๋วผ่าน ZAIKO ตั้งแต่ 27 ตุลาคม 2569 จนกว่าจะหมด",
   "described": true,
   "datesRead": true
+ },
+ {
+  "id": "0ac1fc50a49e",
+  "name": "2026年越中边境博览会",
+  "name_th": "นิทรรศการเขตพรมแดนเวียดนาม-จีน ปี 2026",
+  "start": "2026-11-08",
+  "end": "2026-11-13",
+  "venue": "云南省河口县",
+  "city": "河口",
+  "country": "VN",
+  "region": "north",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo"
+  ],
+  "summary_th": "เสร็จสิ้นการเตรียมพร้อมจัดนิทรรศการเขตพรมแดนเวียดนาม-จีน",
+  "image": "http://www.bing.com/th?id=ONUT.9NKV73ebH_tplR1pNDZifw&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "紧急完成2026年越中边境博览会的所有筹备工作。",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaGFGRVhVSjV3TkJrRHZXOHcycTRpS1Vpbzl5U2VoTDdnLThvVmNrdUFIYWZhLUZSZE5BQTY4bDBUeHRXbXp1dG8yNUNHLVdhd2VsS3l2dkhJTHFKaHNxNW56UjJPQlotZFM4ZUd6VEZXd29sWjJ5eWIwOUx6TUZpRmlRcVA4cl9WWWh1d0JwNDBqWG9sYnp5WkxObnFXbGRSNnE3NHdaRHE?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://cn.nhandan.vn/article-post161796.html",
+  "imageFrom": "https://www.aseantop.com/post/34126",
+  "imageHash": "d694a23fc77a48ae",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "cc3a5b13de27",
+  "name": "OAO工芸展",
+  "name_th": "นิทรรศการหัตถกรรม OAO",
+  "start": "2026-11-08",
+  "end": "2026-11-09",
+  "venue": "落散 京都（Ochill Kyoto）",
+  "city": "京都",
+  "country": "JP",
+  "region": "kansai",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art",
+   "design"
+  ],
+  "summary_th": "นิทรรศการหัตถกรรมของแบรนด์รองเท้า OAO แสดงผลงานของช่างปั้นดินเผา ทานิโมโต ทาคะชิ ที่สำรวจ 『인지 제6의 감각』",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "スニーカーブランドOAOが京都で工芸展を開催。陶芸家・谷本貴の作品を通じて「第六の感覚」を探る",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jRWd2b2xRVEZfdUZOclE5UDhhNzE5cHd2eWQ1S1FMMkhTeDlEdHJrN1VURGNZd3JjTV84c1VSRV9KODVhbFB1ekpISzd1MEJZWWJPdG5KYVNaZ1JUSzIySmZpbWpEdw?oc=5",
+    "source": "美術手帖",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": null,
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
  },
  {
   "id": "c030ae66659b",
@@ -30529,9 +31754,9 @@
   "start": "2026-11-18",
   "end": "2026-11-28",
   "venue": "ชายหาดบ้านน้ำเค็ม อำเภอตะกั่วป่า",
-  "city": "พังงา",
+  "city": "Phang Nga",
   "country": "TH",
-  "region": "south",
+  "region": null,
   "online": false,
   "tags": [
    "match"
@@ -30577,7 +31802,9 @@
   ],
   "imageHash": "c83e62762a69c17c",
   "priceTriedAt": "2026-10-27",
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true,
+  "regionTried": false
  },
  {
   "id": "eb51e27c7d0d",
@@ -31327,6 +32554,43 @@
   ],
   "enriched": true,
   "imageHash": "a9cb4eb67c8057ac",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "717bea1f724d",
+  "name": "槟水墨画协会庆15周年水墨画会员展",
+  "name_th": "นิทรรศการภาพหมึกสมาชิกสมาคมภาพหมึก檳城 ระลึกถึงครบรอบ 15 ปี",
+  "start": "2026-11-20",
+  "end": "2026-11-20",
+  "venue": null,
+  "city": "檳城",
+  "country": "MY",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "นิทรรศการภาพหมึกสมาชิกสมาคม檳城เริ่ม 20 พ.ย. 2569",
+  "image": "https://www.kwongwah.com.my/wp-content/uploads/2026/01/ckk0123a14-2048x1365.jpg",
+  "official": null,
+  "sources": [
+   {
+    "title": "槟水墨画协会庆15周年 11月20起办水墨画会员展",
+    "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNbEIyQ2kzOGpGZEZSZ3Z2LVl1TGpWb08wNEIwbUpGTjV0Y0FndkU3UTZVWjNheVhseUVqV1hSMklxdlVuWVhOaVB2aDJocW5fUjh1WlNYSnkxU1V6SzhSM2JGbkRhQWZWSU9jRy1FenZMZi1jbUZjVlBNbGoxdTlWMVE0eDhmZHNSV0ZpNnBsZmJBTC1DMWZqUWJ5WVVWQngwRHNFdHYtUnNNS0pNbnRjcGhvSnpxNXRiUWhQSXlRMENVY25JNXhoOVVUalVTejktYm9PaV8zaUV4WkU2dVB0blVpQVBYV3paVEVMOG9jZWJEeUlKejJoMHQwZmRQclVIRi14OTRUSE9nYWZBNldzbURMLVBhVmZ2NU41aHRiV201Qm5BcjlvMjI3TVNpbUhw?oc=5",
+    "source": "光华日报",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.kwongwah.com.my/20260123/%e6%a7%9f%e6%b0%b4%e5%a2%a8%e7%94%bb%e5%8d%8f%e4%bc%9a26%e4%ba%ba%e9%bd%90%e7%94%bb%e9%a9%ac-%e5%85%b160%e5%b0%ba%e9%95%bf%e5%8d%b7%e3%80%8a%e9%aa%8f%e9%a9%ac%e8%bf%8e%e6%98%a5%e3%80%8b%e5%ba%86/",
+  "imageFrom": "https://www.kwongwah.com.my/20260123/%e6%a7%9f%e6%b0%b4%e5%a2%a8%e7%94%bb%e5%8d%8f%e4%bc%9a26%e4%ba%ba%e9%bd%90%e7%94%bb%e9%a9%ac-%e5%85%b160%e5%b0%ba%e9%95%bf%e5%8d%b7%e3%80%8a%e9%aa%8f%e9%a9%ac%e8%bf%8e%e6%98%a5%e3%80%8b%e5%ba%86/",
   "placeChecked": true,
   "priceTriedAt": "2026-10-28"
  },
@@ -32867,7 +34131,7 @@
   "regionTried": true,
   "imageHash": "c25005624864cf9f",
   "dateTried": true,
-  "placeSuspect": true,
+  "placeSuspect": false,
   "about_th": "Sea ร่วมกับ OpenAI จัดการแข่งขัน Sea x OpenAI Regional Codex Hackathon แบบ One-day Hackathon ที่กรุงเทพมหานคร เพื่อให้นักพัฒนา นักศึกษา สตาร์ทอัพ และคนสายเทค ได้ประยุกต์ใช้ Codex สร้างโซลูชัน AI ใช้งานจริง พร้อมแลกเปลี่ยนเรียนรู้จากผู้เชี่ยวชาญและโอกาสได้รับรางวัล API credits และ ChatGPT Pro ฟรี",
   "highlights_th": [
    "ใช้ Codex AI ช่วยพัฒนาโซลูชันในหัวข้อ Autonomous & Adaptive AI, AI-Native Products & Operations, Deep Domain AI",
@@ -32884,7 +34148,8 @@
   "datesRead": true,
   "notDupWith": [
    "72096a376a3a"
-  ]
+  ],
+  "placeChecked": true
  },
  {
   "id": "7ff75153b957",
@@ -35842,7 +37107,8 @@
    "motorshow",
    "carlaunch",
    "ev",
-   "expo"
+   "expo",
+   "bike"
   ],
   "summary_th": "งานมหกรรมยานยนต์ครั้งที่ 43 จัดแสดงรถยนต์ใหม่และรถไฟฟ้าจากหลายค่าย ระหว่าง 2-13 ธ.ค. 2569",
   "image": "https://s.isanook.com/au/0/ud/19/99487/moto-ex2026.jpg?ip/crop/w1200h700/q80/jpg",
@@ -35971,6 +37237,13 @@
     "title": "เปิดตัว OMODA X คอนเซ็ปต์รถออฟโรดสุดล้ำสไตล์ MECHA",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9IamsxV1NmbFR1T05xU1hSR0ZXS1FfcUlpTXFYR3pIcl92dUJTbllaR3hldDVPSV8xZW9pRE5mOXB3MmR2SnFURk1YNE9tM1VpZmw0M3ptSlJZRG9f?oc=5",
     "source": "Autospinn.com",
+    "date": "2026-10-27",
+    "image": null
+   },
+   {
+    "title": "2027 Triumph Tiger 1200 ราคาไทยเปิดที่ Motor Expo 2026 มี 2 รุ่น Rally Pro และ Rally Explorer",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BLU9hYWtkWFVWNmswcmZlOTJnZVA4dF8wSjBuaE5CbUVNQ1BXdWM5OVhDSzBMbnJ2dFUzY25GXzdHRVRBMVV3b3BaZVBqeHBzMHpUeUVsSm0zb1FvM0pF?oc=5",
+    "source": "Motorival.com",
     "date": "2026-10-27",
     "image": null
    }
@@ -36243,7 +37516,7 @@
   "imageTriedAt": "2026-10-28",
   "article": "https://www.sohu.com/a/1093500932_122094388",
   "imageFrom": "https://www.sohu.com/a/1089053973_120192701",
-  "imageHash": null,
+  "imageHash": "c5c9f3b914df4834",
   "placeChecked": true,
   "priceTriedAt": "2026-10-28",
   "priceSource": "https://www.sohu.com/a/1088792379_121924583"
@@ -37712,7 +38985,7 @@
   "start": "2026-12-11",
   "end": "2026-12-11",
   "venue": "TOKYO TOWER MUSIC THEATER SHIBUYA",
-  "city": "東京",
+  "city": "Tokyo",
   "country": "JP",
   "tags": [
    "fanmeet",
@@ -37734,8 +39007,8 @@
   "updated": "2026-10-27",
   "enriched": true,
   "imageTried": true,
-  "region": "kanto",
-  "regionTried": true,
+  "region": null,
+  "regionTried": false,
   "imageRechecked": true,
   "imageHash": "828b2eebc43abca7",
   "imageTriedAt": "2026-10-27",
@@ -37758,7 +39031,8 @@
   "datesRead": true,
   "priceTriedAt": "2026-10-27",
   "priceSource": "https://kpop-concert.jp/artists/xikers/route-zero-tokyo-offline-event-2026-12",
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "7173786bb33e",
@@ -38259,7 +39533,8 @@
   ],
   "imageHash": "a343e05352f3ee6f",
   "priceTriedAt": "2026-10-27",
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "31c82a55b1d4",
@@ -39427,6 +40702,47 @@
   "priceTriedAt": "2026-10-28"
  },
  {
+  "id": "9e71b0a7f0d0",
+  "name": "Christmas Eve Buffet Dinner at Chao Lay Kitchen",
+  "name_th": "บุฟเฟต์ดินเนอร์คริสต์มาสอีฟ ณ ห้องอาหารชาวเล คิทเช่น",
+  "start": "2026-12-24",
+  "end": "2026-12-24",
+  "venue": "ห้องอาหารชาวเล คิทเช่น, โฟร์พอยท์ส บาย เชอราตัน ภูเก็ต ป่าตอง บีช รีสอร์ท",
+  "city": "Phuket",
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "food",
+   "festival"
+  ],
+  "summary_th": "บุฟเฟต์ดินเนอร์คริสต์มาสอีฟที่ห้องอาหารชาวเล คิทเช่น พร้อมเมนูพิเศษ ดนตรีสด และซานตาคลอส",
+  "image": "https://static.bangkokpost.com/media/content/20231215/c2_2706368_231215173826.jpg",
+  "imageFrom": "https://www.bangkokpost.com/life/social-and-lifestyle/2706368/chao-phraya-river-festive-delights-at-royal-orchid-sheraton",
+  "imageHash": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "สัมผัสมนตร์เสน่ห์แห่งเทศกาลส่งท้ายปีที่ โฟร์พอยท์ส บาย เชอราตัน ภูเก็ต ป่าตอง บีช รีสอร์ท",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUUzcmlPYmxHNE13N3JGZ0Z3Tm1jWUJBQXNDbUJoSi00RUxxanc0Y1VIVzk5SS1MTFVtS0hjTG1haVJmLTl5MU8zQUQwQQ?oc=5",
+    "source": "ThaiPR.NET",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "article": "https://www.thaipr.net/travel/3772428",
+  "splitFrom": "22460fdae4fa",
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
   "id": "301ca541fc98",
   "name": "“遗忘电池”咖啡馆",
   "name_th": "คาเฟ่ 遗忘电池",
@@ -39542,6 +40858,47 @@
   "article": null,
   "placeChecked": true,
   "regionTried": true,
+  "priceTriedAt": "2026-10-28"
+ },
+ {
+  "id": "3c075a3a077d",
+  "name": "Christmas Day Buffet Dinner at Seas & Co Bar and Grill",
+  "name_th": "บุฟเฟต์ดินเนอร์วันคริสต์มาส ที่ เซียส์ แอนด์ โค บาร์ แอนด์ กริล",
+  "start": "2026-12-25",
+  "end": "2026-12-25",
+  "venue": "เซียส์ แอนด์ โค บาร์ แอนด์ กริล, โฟร์พอยท์ส บาย เชอราตัน ภูเก็ต ป่าตอง บีช รีสอร",
+  "city": "Phuket",
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "food",
+   "festival"
+  ],
+  "summary_th": "บุฟเฟต์ดินเนอร์วันคริสต์มาสที่เซียส์ แอนด์ โค บาร์ แอนด์ กริล พร้อมสเต๊ก ซีฟู้ด ซูชิ และวงดนตรีสด",
+  "image": null,
+  "imageFrom": "https://www.thaipr.net/travel/3772428",
+  "imageHash": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "สัมผัสมนตร์เสน่ห์แห่งเทศกาลส่งท้ายปีที่ โฟร์พอยท์ส บาย เชอราตัน ภูเก็ต ป่าตอง บีช รีสอร์ท",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUUzcmlPYmxHNE13N3JGZ0Z3Tm1jWUJBQXNDbUJoSi00RUxxanc0Y1VIVzk5SS1MTFVtS0hjTG1haVJmLTl5MU8zQUQwQQ?oc=5",
+    "source": "ThaiPR.NET",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "article": "https://www.thaipr.net/travel/3772428",
+  "splitFrom": "22460fdae4fa",
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "placeChecked": true,
   "priceTriedAt": "2026-10-28"
  },
  {
@@ -40317,9 +41674,9 @@
   "start": "2027-01-01",
   "end": "2027-01-31",
   "venue": "大阪市立美術館",
-  "city": "大阪",
+  "city": "Osaka",
   "country": "JP",
-  "region": "kansai",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -40351,7 +41708,9 @@
   "imageFrom": "https://www.sankei.com/pressrelease/prtimes/4GKOYVREX5MSDND7P2YAW3WXL4/",
   "imageHash": "fbe04acc1d87b480",
   "priceTriedAt": "2026-10-27",
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true,
+  "regionTried": false
  },
  {
   "id": "abfb0746c622",
@@ -40989,6 +42348,45 @@
   ],
   "regionTried": true,
   "placeChecked": true
+ },
+ {
+  "id": "bceb1bbe6601",
+  "name": "HANRORO 5th Solo Concert [Question]",
+  "name_th": "คอนเสิร์ตเดี่ยวครั้งที่ 5 ของ HANRORO [Question]",
+  "start": "2027-01-01",
+  "end": "2027-01-31",
+  "venue": null,
+  "city": null,
+  "country": "KR",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert"
+  ],
+  "summary_th": "คอนเสิร์ตเดี่ยวครั้งที่ 5 ของศิลปินเกาหลี HANRORO จัดขึ้นในเดือนมกราคม 2027",
+  "image": "http://www.bing.com/th?id=ONUT.Hys6_TPc3r890S9CKe5mTw&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "新進気鋭アーティストHANRORO、2027年1月に韓国で単独コンサート開催 ...",
+    "link": "https://www.msn.com/ja-jp/entertainment/music/%E6%96%B0%E9%80%B2%E6%B0%97%E9%8B%AD%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88hanroro-2027%E5%B9%B41%E6%9C%88%E3%81%AB%E9%9F%93%E5%9B%BD%E3%81%A7%E5%8D%98%E7%8B%AC%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%88%E9%96%8B%E5%82%AC%E6%B1%BA%E5%AE%9A/ar-AA2ga2IH",
+    "source": "Kstyle on MSN",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageHash": "7e7f56458647a52d",
+  "imageRechecked": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.mk.co.kr/en/musics/12185287",
+  "imageFrom": "https://www.mk.co.kr/en/musics/12185287",
+  "placeChecked": true,
+  "priceTriedAt": "2026-10-28"
  },
  {
   "id": "7b36e16b3706",
@@ -42773,9 +44171,9 @@
   "start": "2027-01-30",
   "end": "2027-01-30",
   "venue": "日経ホール",
-  "city": "東京",
+  "city": "Tokyo",
   "country": "JP",
-  "region": "kanto",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -42811,7 +44209,9 @@
   "imageFrom": "https://kanpen.asia/archives/108631",
   "imageHash": "e521822e45e8af61",
   "priceTriedAt": "2026-10-27",
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true,
+  "regionTried": false
  },
  {
   "id": "5cbf30c78655",
@@ -46061,53 +47461,8 @@
   "imageTriedAt": "2026-10-27",
   "article": "https://natalie.mu/comic/news/693078",
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
- },
- {
-  "id": "a14f1c1e1b1e",
-  "name": "DANPRI 10th Anniversary FESTIVAL〜10年先も！パキッて！バキッて！チャキろうZE〜",
-  "name_th": "DANPRI 10th Anniversary FESTIVAL เทศกาลฉลองครบ 10 ปีซีรีส์ Pripara ภาคชายล้วน",
-  "start": "2027-05-29",
-  "end": "2027-05-29",
-  "venue": null,
-  "city": null,
-  "country": "JP",
-  "tags": [
-   "anime",
-   "festival"
-  ],
-  "summary_th": "งานฉลองครบ 10 ปีของ DANPRI จากซีรีส์ Pripara จัดในวันที่ 29 พฤษภาคม 2027",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "「プリパラ」シリーズから”男プリ”10周年記念イベント「DANPRI 10th Anniversary FESTIVAL〜10年先も！パキッて！バキッて！チャキろうZE〜」2027年5月29日開催決定！",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1TLU5aZE9WMnpVc2M4SS1GLS1XUmpFU2VBZy1OZ1daVXo0WTB4TTRRaDhibndzVEp1Vi1ReWNoY2tjblBNUlNQVmFET0xRT3IwdmdOWnpwdHNQQndTb2kxYkQ3ZHRIdw?oc=5",
-    "source": "Excite エキサイト",
-    "date": "2026-10-14",
-    "image": null
-   }
-  ],
-  "added": "2026-10-27",
-  "updated": "2026-10-27",
-  "enriched": true,
-  "imageTried": true,
-  "region": null,
-  "regionTried": true,
-  "notDupWith": [
-   "da484df3ec35",
-   "8581f9793cda",
-   "97cf290b022f",
-   "286efbcd39b6",
-   "81e8dfe0348a"
-  ],
-  "imageHash": null,
-  "imageRechecked": true,
-  "imageTriedAt": "2026-10-27",
-  "article": "https://news.livedoor.com/article/detail/32562766/",
-  "imageFrom": "https://news.livedoor.com/article/detail/32562766/",
-  "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "21d78ac55901",
@@ -46232,7 +47587,8 @@
   "regionTried": true,
   "imageHash": "2731bb58c759b728",
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "1b188123ac23",
@@ -46536,7 +47892,8 @@
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000267.000078233.html",
   "imageHash": "fd816f9e7e12b22b",
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "93875581f64d",
@@ -49477,7 +50834,7 @@
    "fanmeet"
   ],
   "summary_th": "อีเวนต์ฉลองครบ 10 ปีของ Pripara ภาคผู้ชาย มีเพลงใหม่จาก WITH เปิดตัว",
-  "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/06/28/20260628dog00m200007000a/001.jpg",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -50227,7 +51584,8 @@
   "price_th": null,
   "described": true,
   "datesRead": true,
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "2601b7b259ed",
@@ -50375,7 +51733,8 @@
   "price_th": null,
   "described": true,
   "datesRead": true,
-  "placeSuspect": true
+  "placeSuspect": false,
+  "placeChecked": true
  },
  {
   "id": "674412d71661",
@@ -51626,55 +52985,6 @@
   "datesRead": true
  },
  {
-  "id": "4bf815cab157",
-  "name": "AFC U17 Women's Asian Cup 2027 Qualifiers: Thailand vs Lebanon",
-  "name_th": "ฟุตบอลหญิงทีมชาติไทย U17 พบ เลบานอน รอบคัดเลือก AFC U17 Women's Asian Cup 2027",
-  "start": null,
-  "end": null,
-  "venue": "Inter Banbueng",
-  "city": "ชลบุรี",
-  "country": "TH",
-  "region": "east",
-  "online": false,
-  "tags": [
-   "match"
-  ],
-  "summary_th": "ทีมฟุตบอลหญิงทีมชาติไทย U17 ลงแข่งนัดที่สามรอบแบ่งกลุ่มพบเลบานอนในศึกคัดเลือกเอเอฟซี",
-  "image": "https://image.bangkokbiznews.com/uploads/images/md/2026/10/GzkzHmvB1PAzkAv4MvuW.webp",
-  "official": null,
-  "sources": [
-   {
-    "title": "ฟุตบอลหญิงทีมชาติไทย U17🇹🇭 เดินทางถึงสนาม Inter Banbueng จังหวัดชลบุรี เตรียมลงฝึกซ้อมครั้งสุดท้าย ก่อนดวลเลบานอน ศึก 𝗔𝗙𝗖 𝗨𝟭𝟳 𝗪𝗼𝗺𝗲𝗻’𝘀 𝗔𝘀𝗶𝗮𝗻 𝗖𝘂𝗽 𝟮𝟬𝟮𝟳 𝗤𝘂𝗮𝗹𝗶𝗳𝗶𝗲𝗿𝘀 รอบแบ่งกลุ่ม นัดที่สาม โปรแกรมการแข่งขันนัดต่อไปของ ฟุตบอลหญิงรุ่นอายุไม่เกิน 17 ปี",
-    "link": "https://news.google.com/rss/articles/CBMi2wZBVV95cUxNcGU3dm9ZWG50MjFxQVN0bk5zTUdZZy1oYkpfOG9ydUptREN3TU1WRTRyZzRFbTJSeE5jdThvaGJDYXNKSzdPZkt3WGFodmZ6ZXk3VThDdjh6VmZIT0cyVVNVTGM5cGFyZFZLdGtkOTRnLUhNYnE5SG5QUUFOM1ZDQ0NwcURiNmcwMlphcmRnSm1leVNWQzdFUUp3cnY2VjlZSm1ISlJsekhyaTRYQTVkems2NzN0SUlZNzljWkY4eFZ2ZWtCbkJObVBfdXNDaXhCYXc0NllPQlFSNTFOOWZLMGFrUXlVUkNqbUtZOGFmUDhqZENHS2d1aDFWYjdHQ0tMUnhMTmdJaFgzczVKazRNQk9Kc3dmVi1TUXk2cmhZZVFhQmxNQVBZUU5xdlBURGRURUZKWm1lcTU5REg3S1dWVjR5Z3JRa2dxQ2VIWUFCXzdDWUp2VlpOUVFudjRLOGxVaTVRSU14SG56cDA5Uk51MnNuZDJNUG5fRUVVYVRBaUNkWlAwcG1BVG5FUS1kY3NMZU41VThOSmFndHNJc2Z5Tk91blpQNkpSTFFja01ZTnhPOWJfVm5fZ2hYeU5HWHR3VEtTa25JWEpZTXNmM2VncTFrS0NXY01jM3M3ZUZ4c0V0RVpsTnVzR0RZeDRaRHBOQ1JmXzZ5M2ZXR0NmY0x0SnV1Vk8tU203VVZJZm91X0dtMlpXZVoxMXB6LVVzckNpUW5ER3hSUk1rbHVRVm5WQWhrVnFxSTdIcDdudlM1MC1zcHNDSWFTNEJldzlqZlV0SFNHa3JCQU5xTmUzVUprbEdudmpZLTU5a3JRV2NOazVOTm1kTWk0aWNSdnhsajB2TzZqY1F4QjZaRUlCZGgxQ0JjbExCbTBnZ3FzNk1NcHpmd1NqaHJ2ZHRWRWtwMUdKNWlXWGlYN0RJWDg5WnhWQ2NuQ1dBd19sTldTSzBBellHcXhxcWxhcXBZM2hqSGFFQl9aWUc0alhPWXhraFdlUE5zNWxyZjJrVXBUX0tSR0R6WTQ2b1Z2SThtal9MQndaUTR2Sk9UeFlDZ1ZrSlFzODRTWS05NXVDSVIzNmdldFc0NXlqdlBKek9LcHp4TlVtaUlLTUt5eURTaGRTR1JXVTRSQlVZNEkwdHg0?oc=5",
-    "source": "Facebook",
-    "date": "2026-10-10",
-    "image": null
-   }
-  ],
-  "added": "2026-10-27",
-  "updated": "2026-10-27",
-  "enriched": true,
-  "imageTried": true,
-  "article": "https://www.msn.com/th-th/news/other/%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%AA%E0%B8%94-%E0%B8%97%E0%B8%B5%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%9E%E0%B8%9A-%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%8A%E0%B8%B2-%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AA%E0%B8%94%E0%B8%9F%E0%B8%A3%E0%B8%B5-%E0%B8%9F%E0%B8%B8%E0%B8%95%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%81%E0%B8%8A%E0%B8%A1%E0%B8%9B%E0%B9%8C%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2-u17/ar-AA2dLvjR",
-  "imageFrom": "https://www.bangkokbiznews.com/news/sport/1255537",
-  "imageHash": "a1103ccdf8b2cfcc",
-  "imageTriedAt": "2026-10-27",
-  "dateTried": true,
-  "placeChecked": true,
-  "about_th": "การแข่งขันฟุตบอลหญิงระหว่างทีมชาติไทย U17 และทีมเลบานอน U17 ในรอบคัดเลือกเอเชียนคัพ 2027 จัดขึ้นที่สนาม Inter Banbueng จังหวัดชลบุรี เหมาะสำหรับแฟนบอลที่ต้องการชมเกมระดับนานาชาติ และติดตามการเตรียมตัวของทีมชาติไทยก่อนเข้าสู่รอบตัดสิน",
-  "highlights_th": [
-   "ทีมชาติไทย U17",
-   "ทีมเลบานอน U17",
-   "ศึก AFC U17 Women's Asian Cup 2027 Qualifiers",
-   "นัดที่ 3 รอบแบ่งกลุ่ม",
-   "สนาม Inter Banbueng ชลบุรี"
-  ],
-  "hours": null,
-  "price_th": null,
-  "described": true,
-  "datesRead": true
- },
- {
   "id": "cff2da645944",
   "name": "Toiletpaper x Purra",
   "name_th": "นิทรรศการศิลปะ Toiletpaper x Purra",
@@ -52902,7 +54212,7 @@
   "imageTried": true,
   "article": "https://news.qq.com/rain/a/20261017A03AIY00",
   "imageFrom": "https://m.163.com/news/article/L682J8V405149FUI.html",
-  "imageHash": null,
+  "imageHash": "d9199ff288d5a5d3",
   "dateTried": true,
   "placeChecked": true,
   "imageTriedAt": "2026-10-28",
@@ -53505,7 +54815,7 @@
   ],
   "summary_th": "#Compass จัดอีเวนต์จริงครั้งแรก 3 สถานที่ทั่วประเทศพร้อมคอสเพลย์ยอดนิยม",
   "image": "https://cdn.mainichi.jp/vol1/2026/10/26/20261026pls00m020541000p/0.png?1",
-  "official": "https://itunes.apple.com/jp/app/konpasu-zhan-dou-she-li-jie/id1164400646",
+  "official": null,
   "sources": [
    {
     "title": "＜画像5 / 20＞人気コスプレイヤーも勢ぞろい！『#コンパス』初のリアルイベントが全国3会場で開催",
@@ -53885,364 +55195,14 @@
   "datesRead": true
  },
  {
-  "id": "807fffa352f1",
-  "name": "TVアニメ「らんま1/2」アイスクリームカフェ at 洒落CAFE",
-  "name_th": "คาเฟ่ไอศกรีมคอลแลบ รันม่า 1/2 ที่ Share Cafe",
-  "start": null,
-  "end": null,
-  "venue": "洒落CAFE",
-  "city": "原宿",
-  "country": "JP",
-  "region": "kanto",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "anime",
-   "cafe"
-  ],
-  "summary_th": "คาเฟ่ร่วมมืออนิเมะ รันม่า 1/2 เปิดสาขาที่ฮาราจุกุ โอซาก้า และนากอยะ",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "TVアニメ「らんま1/2」アイスクリームカフェ at 洒落CAFE が原宿&心斎橋&名古屋にてコラボカフェ開催決定！",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95dXFWQmowb08wRmZjei1yYVllRm9ILU1BX3NMV3R1LWtxanE1UUFXc3o1ODBxeHgwc3NRbTZnWFNYcWwxVElGdnZIaXRHUGE0WGNDVGNCbmdZR3hWcU9waFhXOHhNTEVmU1E?oc=5",
-    "source": "アニメ！アニメ！",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "04c9ad6e9c87",
-  "name": "「-アートブック出版記念- ベルサイユのばら版画展」",
-  "name_th": "นิทรรศการภาพพิมพ์ โรสแห่งเวอร์ไซユ์ สำนึกประกอบ Artbook",
+  "id": "2786bd6454fd",
+  "name": "Green Technology Festival Ho Chi Minh City",
+  "name_th": "เทศกาลเทคโนโลยีสีเขียว นครโฮจิมินห์",
   "start": null,
   "end": null,
   "venue": null,
-  "city": null,
-  "country": "JP",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "art",
-   "anime"
-  ],
-  "summary_th": "นิทรรศการภาพพิมพ์เนรมิต โรสแห่งเวอร์ไซユ์ ระลึกถึง Artbook",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "「-アートブック出版記念- ベルサイユのばら版画展」開催決定",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KYkVmazkxOU1GN011aHMyTWRIcUFydWhyWnNDWGVCbXBwZlc5MHRuWDhzVzhveVAxd01yWVVrNTV5NHBmZVAtZmgyUzB5OWVKR0dVdjlsMm1hYXJEejNvVkltZUFGUDZPZ2c?oc=5",
-    "source": "アニメ！アニメ！",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "994f0ae45482",
-  "name": "伊藤潤二 POP UP STORE -うずまき＆ギョ-",
-  "name_th": "ป๊อปอัพสโตร์ จุนจิ อิโตะ อุซุมากิ แอนด์ กโย",
-  "start": null,
-  "end": null,
-  "venue": "TSUTAYA土佐道路店",
-  "city": "高知",
-  "country": "JP",
-  "region": "shikoku",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "comic",
-   "art"
-  ],
-  "summary_th": "ป๊อปอัพสโตร์ มังงะ จุนจิ อิโตะ นำเสนอผลงาน อุซุมากิ และ กโย ที่โคจิ",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "★イベント情報★うずまきマニアと怪魚が蠢く史上最恐のイベント！『伊藤潤二 POP UP STORE -うずまき＆ギョ-』が高知・TSUTAYA土佐道路店で開催決定。■JUNJIITO",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LQ09lTnY1NFlLQTVmRG5ud0ZCeUkyeFZHa3JQY2ZtY21UaXo1V1JmcEhBbXBudnlyWmwxU1RtRlFVN0NmeEVickRXTWxDdDhHMmE4djRiTVJ1a2pxQ0NUZmVxU0hPUk1rZFE?oc=5",
-    "source": "アニメ！アニメ！",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "7cf6e99fbd49",
-  "name": "【久保田未夢】ファンミーティング",
-  "name_th": "แฟนมีตติ้ง คุโบตะ มิยุ ที่ฮ่องกง",
-  "start": "2026-12-19",
-  "end": "2026-12-19",
-  "venue": null,
-  "city": "香港",
-  "country": "CN",
-  "region": "south",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "fanmeet",
-   "idol"
-  ],
-  "summary_th": "แฟนมีตติ้งของคุโบตะ มิยุ จัดขึ้นที่ฮ่องกง วันที่ 19 ธันวาคม 2569",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "【久保田未夢】12/19(土)香港にてファンミーティングの開催決定！！",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11QUZEVXVYMHZ6a1B2UlZCRkVjRUZ6amFmcTg5MTRtWS1yc1Fjcm5zSXhyVnAwc0JXZHNVWEhYMmdJYVpiSTBXV1liYmI1R0tMemhSWDZKU2plSUNDV3U4dkZR?oc=5",
-    "source": "NEWS | i☆Ris OFFICIAL WEB SITE",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "a22ae7d7ebb4",
-  "name": "全肉祭＆マヨフェス",
-  "name_th": "เทศกาลเนื้อสัตว์และมายองเนส (เซ็นนิกุ-ไซ แอนด์ มายออ-เฟส)",
-  "start": "2026-11-07",
-  "end": "2026-11-08",
-  "venue": null,
-  "city": "東京都葛飾区",
-  "country": "JP",
-  "region": "kanto",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "food",
-   "festival"
-  ],
-  "summary_th": "เทศกาลอาหารเนื้อสัตว์และมายองเนส ครั้งแรก จัดที่เขตคัตสึชิกะ โตเกียว 7-8 พฤศจิกายน 2569",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "西日本最大級のグルメイベント「全肉祭」＆「マヨフェス」東京都葛飾区にて11/7～11/8に第1回開催決定！",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pWkFWMTV0YkVmckVzQ2dWblJYTzREalZULWVhOVhiU05pOVpYdEEzYmJTcW5EUUlJbWR6NVhDUjV6UE5GUUpySjZyUnF5Vjg5TVd3Ykd2STBGNGZfdElrMA?oc=5",
-    "source": "Infoseek",
-    "date": "2026-10-28",
-    "image": null
-   },
-   {
-    "title": "西日本最大級のグルメイベント「全肉祭」＆「マヨフェス」 東京都葛飾区にて11/7～11/8に第1回開催決定！",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CQ18yZGlhZ2JNTzVSS2JXQTNnQk1ZX1AzaUFrelpQT1dWOTdwMDF6MFBFcDRyYlVfcHVYN1FSUkRkeE1JdkZLb2YxY0xFRTlkQXo0TEVfOTYzOXp3bExxRDhEaGJJdTRyUVNv?oc=5",
-    "source": "ニコニコニュース",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "586c50aedb8d",
-  "name": "BTS・RMの米美術館展",
-  "name_th": "นิทรรศการของ RM (บีทีเอส) ที่พิพิธภัณฑ์สหรัฐอเมริกา",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": null,
-  "country": "US",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "art",
-   "idol"
-  ],
-  "summary_th": "นิทรรศการส่วนตัวของ RM สมาชิก BTS แสดงผลงาน 142 ชิ้นที่พิพิธภัณฑ์สหรัฐ",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "BTS・RMの米美術館展、チケット6万6000枚超…個人所蔵142点を展示",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEOGNLMmt5V1ZSQ2syM2U4eXVjVVhvbmNKb2ZQM1ItUWJ0OWtNOEtYUUo4bWFfb1J3Zm9CMm5jUlJ5UTI5WlBVWndQUGQwbks1SmfSAVRBVV95cUxOSG5EdXBrV3BKbFlUejhSMm1xYWpSUXlQYU1peXBuSTR6aVY1bGNLRVM0Wmx4UFMzVTNMLTMxZkw3ajkxM180Ti1NRW5WX3BjVVA2aVM?oc=5",
-    "source": "AFPBB News",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "9f6e6f4b479a",
-  "name": "MAPPA EXPO 15th Anniversary",
-  "name_th": "มัปปะ เอ็กซ์โป 15th Anniversary",
-  "start": "2027-01-30",
-  "end": "2027-03-28",
-  "venue": "福岡アジア美術館",
-  "city": "福岡",
-  "country": "JP",
-  "region": "kyushu",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "anime",
-   "expo",
-   "art"
-  ],
-  "summary_th": "งานนิทรรศการฉลองครบรอบ 15 ปีของสตูดิโอ MAPPA ที่พิพิธภัณฑ์ศิลปะเอเชียฟูกุโอกา",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "「 MAPPA EXPO 15th Anniversary 」2027年1月30日（土）～3月28日（日）@福岡アジア美術館 にて開催決定。本日よりチケットの先行抽選受付もスタート…！",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZSm94ajZLWWVwa1BGWTA0SWdOcU1YTUVrWWY4ajJtdnd2Tmozdm45NW8zNnhCU0tIRzR2ejdjNUJwRm9QOFZxbW1kLXp6UGZ2ZDBjU01iblJoZDJ5WFpF?oc=5",
-    "source": "Koubo",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "19d219a293cd",
-  "name": "ユニバーサル・クールジャパン 2027",
-  "name_th": "ยูนิเวอร์ซอล คูล จاپาน 2027",
-  "start": "2027-03-01",
-  "end": "2027-05-31",
-  "venue": "ユニバーサル・スタジオ・ジャパン",
-  "city": "大阪",
-  "country": "JP",
-  "region": "kansai",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "anime",
-   "themepark",
-   "festival"
-  ],
-  "summary_th": "กิจกรรมโคลแลบอะนิเมะ Fullmetal Alchemist และ Yomi no Tsugai ที่ยูนิเวอร์ซอล สตูดิโอ จัปาน เริ่มฤดูใบไม้ผลิ 2027",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "Home アニメ/マンガ, イベント・キャンペーン 「ハガレン」22年ぶり ...",
-    "link": "https://otakuma.net/archives/2026102804.html",
-    "source": "おたくま経済新聞",
-    "date": "2026-10-27",
-    "image": "http://www.bing.com/th?id=ONUT.h9CxGOfEp5QJn3WL6rW0iw&pid=News"
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "9d8b33483807",
-  "name": "holo Indie GameJAM@YDA",
-  "name_th": "โฮโล อินดี้ เกมแจม แวายดีเอ",
-  "start": "2026-12-01",
-  "end": "2026-12-31",
-  "venue": "横浜デジタルアーツ専門学校",
-  "city": "横浜",
-  "country": "JP",
-  "region": "kanto",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "game",
-   "devconf",
-   "workshop"
-  ],
-  "summary_th": "งานเกมแจมของนักศึกษาที่โรงเรียนโยโคฮามะ ดิจิทอล อาร์ตส์ ในเดือน ธันวาคม 2026",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "学生によるゲーム制作イベント「holo Indie GameJAM@YDA」が横浜デジタルアーツ専門学校にて12月に開催決定",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFByUW4xcV9UcUxpV2pTUE5aOTdhbVVvdWV4RFNsNDhvT0x2LXFHZVdmVGJnYkY2SHlfYnl5ZmVHQlV0ZUpqMmtSaWo4V1E?oc=5",
-    "source": "PANORA",
-    "date": "2026-10-27",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "42e72b18f38a",
-  "name": "郭家玮个人演唱会马来西亚站",
-  "name_th": "คอนเสิร์ตกอ จิอะเว่ย ที่มาเลเซีย",
-  "start": "2027-03-01",
-  "end": "2027-03-01",
-  "venue": null,
-  "city": null,
-  "country": "MY",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "concert"
-  ],
-  "summary_th": "คอนเสิร์ตครั้งแรกของกอ จิอะเว่ยในมาเลเซีย เดือนมีนาคม 2570",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "郭家玮首度携个人演唱会来马 明年3月开唱11月6日开票",
-    "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQekNLWGdLcXJaNzNqYjBPa2VzNlA4ZUpsdFFmbEhvbzlzaTJzaDRET0xKdnFXX2paLVJzX2dVcE1NcHpNemxERkZROGdZQ1FhdzZZVjRhU19QR3cxU19DcEtncUFTV2hFZTdZbldKT3F0eHpoSVdmc2NrV0FMazlxNVNRQVJadGlrUzNvV2F3T2lqcTVVanpXal9fbXZQZlBFQm5tQm0tU19WSU1Kc2x1Qm5qYTdLZ3ZmSm4zUXNrSFpXVE1QUmR2SjA3UVVneFdoYTE1V0I2ektGSjlOelJ2VXZ2eUs5czh6Q2dVYXdja1d0S1FsRHNjUEZyb3F5dU5BZ0p6d1MxTVRYVEFMV1NlN1l1WFlVRE5mZG1HZEhJWHpqZE03TzU2RDE1cmN6a1hqeDhqX0Nka1FaLWNPMGd6M0lNWGlnRTJxV1ZoZWVrZWVuUQ?oc=5",
-    "source": "光华日报",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "fe204695c36a",
-  "name": "城南市国际生物健康产业大会",
-  "name_th": "ประชุมอุตสาหกรรมไอโอฮีลท์สากลเมืองซองนัม",
-  "start": "2026-10-29",
-  "end": "2026-10-29",
-  "venue": null,
-  "city": "城南市",
-  "country": "KR",
-  "region": "seoul",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "expo",
-   "devconf"
-  ],
-  "summary_th": "ประชุมอุตสาหกรรมไอโอฮีลท์สากลเมืองซองนัม เกาหลีใต้ เปิดงานวันที่ 29 ตุลาคม 2569",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "城南市国际生物健康产业大会将于29日开幕- 阿视亚经济",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqLXYtbU5wYUZRTktPQk5vbVBGbC1acWphX2U2ckpERnUyX0pJZG1vUlVRSXdNRUE2Nk5wclhBMG9ta1B3QlhBT0dxVEVzU1J6RVN5MlZIdGRxRTZnbk8zMkJ4TlM?oc=5",
-    "source": "아시아경제",
-    "date": "2026-10-27",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "b7d833b98435",
-  "name": "2026深圳国际全触与显示展",
-  "name_th": "งานแสดงสินค้าจอแสดงผลและการสัมผัสระดับนานาชาติ เชนเจิน 2569",
-  "start": "2026-10-28",
-  "end": "2026-10-28",
-  "venue": null,
-  "city": "深圳",
-  "country": "CN",
+  "city": "Ho Chi Minh City",
+  "country": "VN",
   "region": "south",
   "online": false,
   "price_th": null,
@@ -54251,338 +55211,181 @@
    "gadget",
    "ai"
   ],
-  "summary_th": "งานแสดงสินค้าจอแสดงผลและการสัมผัสระดับนานาชาติที่เชนเจิน จีน เปิดงานวันที่ 28 ตุลาคม 2569",
-  "image": null,
+  "summary_th": "งานเทศกาลเทคโนโลยีสีเขียวที่นครโฮจิมินห์มีการจัดแสดงหุ่นยนต์และโดรน",
+  "image": "https://static-images.vnncdn.net/vps_images_publish/000001/00000Q/2026/6/27/ho-chi-minh-city-launches-kids-fest-2026-celebrating-friendship-creativity-440c35e4f4e44d6aa86364c0c3631574-91.webp?width=0&s=OYBk6GpNiqyRqidUZHp1RA",
   "official": null,
   "sources": [
    {
-    "title": "芯屏绽放，智联万物！2026深圳国际全触与显示展盛大启幕，开启AI+显示产业新篇章",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yTXdIYnM1TERLRWpZNl9EV0t0cWo5RXhSbXJfR3Uzd0p2M2ItR1o1UGc1MlFJSUEtTjZydmthX0FVNnRVREZJUFZLQWZ0Z3JQWlE?oc=5",
-    "source": "人工智能",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "6fbfefac76c7",
-  "name": "首尔桌游展冬季",
-  "name_th": "งานแสดงบอร์ดเกมซีอูล ฤดูหนาว",
-  "start": "2026-11-14",
-  "end": "2026-11-14",
-  "venue": null,
-  "city": "首尔",
-  "country": "KR",
-  "region": "seoul",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "boardgame",
-   "expo"
-  ],
-  "summary_th": "งานแสดงบอร์ดเกมซีอูลฤดูหนาว เปิดงานวันที่ 14 พฤศจิกายน 2569",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "相约新作，首尔桌游展冬季于11月14日开幕",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGR3NudWhSOUNHZ3pNdWwzTU54YkotVEFkcEtEcW9JQm5nLU5nV19leVlCczd0UndZVnJlenRyajlWckNfZDB1LU5FVnRpQUhUVGJscndGQWhIQThz?oc=5",
-    "source": "게임메카",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "9ada53129574",
-  "name": "中国AI智能体大会北京站",
-  "name_th": "ประชุม AI Agent จีน สถานีปักกิ่ง",
-  "start": "2026-12-01",
-  "end": "2026-12-01",
-  "venue": null,
-  "city": "北京",
-  "country": "CN",
-  "region": "north",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "ai",
-   "devconf"
-  ],
-  "summary_th": "ประชุม AI Agent จีน ที่ปักกิ่ง เดือนธันวาคม 2569",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "DeepSeek Bot民间版作者来了！中国AI智能体大会，北京站12月见",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ZMTJtRXM2dG9JeUNETWx2R0g0Z0hLR2tETlZaRGpUWmFScndfam42QVBDVFowYkJOMWQyNWM0Smxqdm1JSEpqVg?oc=5",
-    "source": "智东西",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "4c52bb4d00a3",
-  "name": "Apple Special Event",
-  "name_th": "งาน Apple Special Event",
-  "start": "2026-10-29",
-  "end": "2026-10-29",
-  "venue": null,
-  "city": null,
-  "country": "US",
-  "region": null,
-  "online": true,
-  "price_th": null,
-  "tags": [
-   "gadget"
-  ],
-  "summary_th": "Apple จัดงานออนไลน์เปิดตัว MacBook ความสัมผัสใหม่วันที่ 29 ตุลาคม 2569",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "M6 mới chỉ là khởi đầu, MacBook cảm ứng có thể là tâm điểm sự kiện Apple ngày mai",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWjVIM05QT09IQ0pZSUM1ZnlFcmlna0ZLcVhERFJPdHkwSnlRZ2RNN1BqQ0RnMHAwWmtDVi05Y1MydGxOU2hWMUJMM1pzaGhBcUdZTFpScktXWFdyU3paREZQbEhMTklscjMwdll5Q2hXVVNWUG9IZVhCWW1pODMyeVJYczRENjAzR3UyVjBPNzRSNlQzb2NXUDAzQ3BtRWJ1WnUyZlFIMDRzczlqblJmMUNQSVFzWUo3VmE0?oc=5",
-    "source": "GenK.vn",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "69afd62e69ca",
-  "name": "Giải đấu thể lực lớn nhất thế giới",
-  "name_th": "การแข่งขันพลังงานใหญ่ที่สุดของโลก",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": null,
-  "country": "VN",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "match"
-  ],
-  "summary_th": "การแข่งขันพลังงานระดับโลกครั้งแรกจัดขึ้นที่ Việt Nam",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "Giải đấu thể lực lớn nhất thế giới lần đầu đến Việt Nam",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONlQ1YmNLdWQzQzBic0oxaWliSU00TW9Ia2lwSm9oTmVhamN6bWJFMjFwaV9xRnJDbU83Q25UWWJkSkwwMXdiOTI3azFvOVkzNTRLeFhGVjhZLVhFeXFBV25ubE1tU2dnY1JxWENDczgzeGRuZnJSNVNVYjRQZUp5cXl1T0hBVHJuUXhwaVNRV0p3eGxyOERFOFV5U2s?oc=5",
-    "source": "Báo Sài Gòn Đầu Tư Tài Chính",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "e0104196d2bc",
-  "name": "Concert chào mừng Ngày Văn hóa Việt Nam tại Hà Nội",
-  "name_th": "คอนเสิร์ตต้อนรับวันวัฒนธรรมเวียดนามที่ฮานอย",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "Hà Nội",
-  "country": "VN",
-  "region": "north",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "concert",
-   "festival"
-  ],
-  "summary_th": "คอนเสิร์ตขนาด 50,000 คนจัดขึ้นที่ฮานอยเพื่อเฉลิมฉลองวันวัฒนธรรมเวียดนาม",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "Hà Nội tổ chức concert quy mô 50.000 người chào mừng Ngày Văn hóa Việt Nam",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNnQ2Q29iVERmSU54dGFjZllneTJUM2M1Q0FTYW5CaFNuMkhBZVMzdFdfbW5ZYXJrcUIzOUNCcEUxNGI0WDFmRnFuTzNXMUZsNmYwSHpfWllSM0JYdU9fOUEyUWFpeWp6YmYyNHVhaGxuU0ZNRjVyNkdoa1pXOFpOb3AtNXpYYkdYVjJKQkNmSklDXzdUb1V4bmJkSmtXQ1U2Vk9HbTVJTGs2VzFuZk1wNXluWDVPTGc?oc=5",
-    "source": "Vietnam+ (VietnamPlus)",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "9182c6d0680d",
-  "name": "Live concert 「Phao cứu sinh」 của Hương Tràm",
-  "name_th": "คอนเสิร์ตสด 「Phao cứu sinh」 ของ Hương Tràm",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "Hà Nội",
-  "country": "VN",
-  "region": "north",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "concert"
-  ],
-  "summary_th": "Hương Tràm จัดคอนเสิร์ตสด 「Phao cứu sinh」 ที่ฮานอย",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "Live concert \"Phao cứu sinh\" của Hương Tràm diễn ra tại Hà Nội",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1waUg3OUcyMW1YLWdXZXItZ1JERmJDY29PNnpxZ0I0SnREdW5KdWhsMTlXUUVkTmVCLTg4VmVkT1hRRENhVUJjLQ?oc=5",
-    "source": "VTVgo",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "bf2f0c8e3890",
-  "name": "Hieuthuhai concert tại Hà Nội",
-  "name_th": "คอนเสิร์ตของ Hieuthuhai ที่ฮานอย",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "Hà Nội",
-  "country": "VN",
-  "region": "north",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "concert"
-  ],
-  "summary_th": "Hieuthuhai ประกาศจัดคอนเสิร์ตที่ฮานอยและสหรัฐอเมริกา",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "Hieuthuhai công bố concert tại Hà Nội và Mỹ",
-    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFB6U3g0STVsMjFtNTBDRUU1ZmMtR09RemhLLTVNVkpKZUsyNVhmTURCcXhKWTJHNDlUNXZ3YVk3VkI?oc=5",
-    "source": "VTVgo",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28"
- },
- {
-  "id": "bb255e6b4d35",
-  "name": "Concert mới của Hà Anh Tuấn",
-  "name_th": "คอนเสิร์ตใหม่ของ Hà Anh Tuấn",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": null,
-  "country": "VN",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "concert"
-  ],
-  "summary_th": "คอนเสิร์ตใหม่ของ Hà Anh Tuấn จำกัดผู้ชมประมาณ 2,000 คน",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "Concert mới của Hà Anh Tuấn chỉ giới hạn khoảng 2.000 khán giả",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVHdXcERYd3M4d3NYQzA0Y1R3QkhaZEh1blNPcklFRkZVUV9ZSUtraU5qV3pCRUpEZ2pYMkpxTmZ1SHFabnJzWTlpeDQtYlctSThScEZabWJzaVdmVzM3dnBkVGNmU3dIbUFLR2phd2FrZnlfeTBOVjhYRS1zdS1PZ05KSElVVWRUVjNLVTVnbnJuU3V1U0JQTlB6eGFybWRUejljODRCTVNyYmxt?oc=5",
-    "source": "VOV.VN",
-    "date": "2026-10-28",
-    "image": null
-   },
-   {
-    "title": "Vì sao concert mới của Hà Anh Tuấn giới hạn 2.000 khán giả?",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV09UdXAwbnIyN3F0R0NnQ0U4RFkzTnkyVi1NbFFBM2tVeDFnT0RhcHJQQW43YXFrcExTa1UwMVV6dFBHYzFvMDRoRnlyVVlYd0pPdjcxOWw4a2xJZ1RiM0pmVGNnZFExUmJ5TXkxVXpvZ1pQeFpVM2dxbWFXNGJYdGgtbHVWQmhjbWFoNHN5X2VWS1RTd0xOUUdYY05xT0pZZVBF?oc=5",
-    "source": "Báo Thanh Niên",
-    "date": "2026-10-28",
-    "image": null
-   },
-   {
-    "title": "Why is Ha Anh Tuan's new concert limited to 2,000 attendees?",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSERaZ1dZNUcwTWYxOGs2WlliZ09nejRPQlBnem1HNmJGRG5LX1FrSFN2MEFXdlFVSzR2MUt3N1I1YXpfZ2UxTFFiSllsUHkwdWFMMGxqdXNQUlpTM3RsTHBZNlYyOVNiZ1Q2OXY1T1FweHBpWjI0QWVrRTJfeUwyLTFCVXFfTmdoV2JLRw?oc=5",
+    "title": "พบกับหุ่นยนต์และโดรนได้ที่งานเทศกาลเทคโนโลยีสีเขียวแห่งนครโฮจิมินห์",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUlEVkprOFVFX3BlYlBtZ2I3OXlwTXZsMWVUcDEtNDY4UU54RmZpVGYwV25FWXp5NWs1LTVDYVNKZzRxQ2R1U3pJTlFtS2VsN19PMF9HSG4zOGN6cE9vbFdOcHZhQXFTZkRfNkRUN09lZkZVZDhoeENYcWhoWUVuZXlPakN3SFVpMUtodzNwM2tqUlk?oc=5",
     "source": "Vietnam.vn",
-    "date": "2026-10-28",
+    "date": "2026-10-27",
     "image": null
    }
   ],
   "added": "2026-10-28",
-  "updated": "2026-10-28"
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://vietnamnet.vn/en/ho-chi-minh-city-launches-kids-fest-2026-celebrating-friendship-creativity-2529907.html",
+  "imageFrom": "https://vietnamnet.vn/en/ho-chi-minh-city-launches-kids-fest-2026-celebrating-friendship-creativity-2529907.html",
+  "placeChecked": true
  },
  {
-  "id": "8f786f2857c4",
-  "name": "Festival Hoa Đà Lạt 2026",
-  "name_th": "เทศกาลดอกไม้ดาลัท 2026",
+  "id": "9d854ab0eb5d",
+  "name": "เทศกาลวัดหง ปี 2027",
+  "name_th": "เทศกาลวัดหง ปี 2027",
   "start": null,
   "end": null,
-  "venue": null,
-  "city": "Đà Lạt",
-  "country": "VN",
-  "region": "highlands",
+  "venue": "วัดหง",
+  "city": null,
+  "country": "TH",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
    "festival",
-   "nature"
+   "local"
   ],
-  "summary_th": "เทศกาลดอกไม้ประจำปีที่ดาลัท พร้อมดนตรีบน cao nguyên",
-  "image": null,
+  "summary_th": "เทศกาลวัดหง ปี 2027 จัดขึ้นควบคู่กับปีแห่งการท่องเที่ยว",
+  "image": "https://s359.kapook.com/r/1200/630/pagebuilder/25bea592-3c58-4186-a54f-00075a9e0153.jpg",
   "official": null,
   "sources": [
    {
-    "title": "Festival Hoa Đà Lạt 2026: Khi sắc hoa hòa cùng thanh âm cao nguyên",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcnVYYWtXQWdGQWZJQk9BN09tbDNLbWFabjYxbkVEREkxU1JBWjBNSXhJNnUwaGd0YktrUDhxUHAtN01RRlJsTVZQNUkyekNYQjVhRE81ZkRrdXFmNmVLZ05PR1FDVFU3dUI3TWp6OVhMZnpORWZQSXc5X0ViR0FXcFQtRmdZQUxKSTR4X2ZfTnphREpIMU9zNFRpWmE3VkF2N0tMd2pieTJqVlgxOXNxUWR3?oc=5",
-    "source": "Thuonghieucongluan.com.vn",
-    "date": "2026-10-28",
+    "title": "วันรำลึกถึงกษัตริย์หง - เทศกาลวัดหง ปี 2027 จัดขึ้นควบคู่กับปีแห่งการท่องเที่ยวในดินแดนบรรพบุรุษ",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaE1uNV9GVEFlanh2SVp5eG9meVZjY3p3bUZDelE0aC1OdksxWldZY1JWUFI3SmNpSFBSLUhfMUZGRGFUTUJmemwwS1lMdXJzQW1nWVkybVh1UlROV1pDN2tvVXFVSktXX0t1aWh5MkRYZXE0SFRFa3VZMnpLbG5wOTNNZXFVVXBKd055LVhmb0lidTZ4c2c?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-27",
     "image": null
    }
   ],
   "added": "2026-10-28",
-  "updated": "2026-10-28"
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://travel.kapook.com/view304179.html",
+  "imageFrom": "https://travel.kapook.com/view304179.html",
+  "placeChecked": true
  },
  {
-  "id": "c72a1affe78b",
-  "name": "Lễ hội jazz quốc tế tại Đà Lạt",
-  "name_th": "เทศกาลแจ๊สระดับสากลที่ดาลัท",
+  "id": "5f30b7dd5483",
+  "name": "进博会",
+  "name_th": "งานนิทรรศการนำเข้าระหว่างประเทศจีน (CIIE)",
   "start": null,
   "end": null,
   "venue": null,
-  "city": "Đà Lạt",
-  "country": "VN",
-  "region": "highlands",
+  "city": "上海",
+  "country": "CN",
+  "region": "east",
   "online": false,
   "price_th": null,
   "tags": [
-   "festival",
-   "concert"
+   "expo",
+   "startup"
   ],
-  "summary_th": "Huy Tuấn ชี้ว่า ดาลัท ควรเป็นเจ้าภาพเทศกาลแจ๊สระดับสากล",
-  "image": null,
+  "summary_th": "ทีมงานซ้ำก่อตั้งจากจางเจียงเข้าร่วมแสดงที่งานนิทรรศการนำเข้าระหว่างประเทศจีน",
+  "image": "http://www.bing.com/th?id=ONUT.wl7P15W61Uc7v2MtykJlYA&pid=News",
   "official": null,
   "sources": [
    {
-    "title": "Huy Tuấn: Đà Lạt xứng đáng là nơi có lễ hội jazz quốc tế",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb2NqZmJJQzQ2SEtYajU3cjMwN215V2JJd0xXSDRRb1VSMHIwaERvOXFCek9MY1VWVDFtUjZjanFVWXlFNkpZbmtmTUQ1UThlZnVVc0pFM1dQak5BM19LbnRPOFZ6V2dLTzJJbE9YTlRvcHhfNlNGQVpBZnNHUjI4TmI0U1EyWk1aNkVrR3NQWU9MMmRZ?oc=5",
-    "source": "VnExpress",
-    "date": "2026-10-28",
+    "title": "“张江孵创展团”首次亮相进博会，让中小孵创企业有机会站上世界级舞台",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcHl2QXFqQWE5by1nNnF0TWJhNmRqTmZsSlRoYkhOS1BuS1didk1qX2l6OVdUaDBDSmtJNWJ5a1BRVnZaMHVSRG1TVVNDNUxjaTh3QmFjSm5pa2pMeGNTWExkbVFiWmVDNFRDREpsdGt1VmN4MmRRSUZxWGxHNGdfMW1MRWNLVWFQZXB6ZmtaWmo0N1ZVSFI4MDFBbVNWT1ZYMjRvaQ?oc=5",
+    "source": "搜狐网",
+    "date": "2026-10-27",
     "image": null
    }
   ],
   "added": "2026-10-28",
-  "updated": "2026-10-28"
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://finance.sina.com.cn/wm/2026-10-28/doc-iniwtxxy6678145.shtml",
+  "imageFrom": "https://finance.sina.com.cn/wm/2026-10-28/doc-iniwtxxy6678145.shtml",
+  "imageHash": "82c21dd272ed3ffb",
+  "placeChecked": true
+ },
+ {
+  "id": "01f8936a39f5",
+  "name": "ATTACHMENT 大丸神戸店 ポップアップ",
+  "name_th": "พอปอัปของ ATTACHMENT ที่ดายมารุ โคเบะ",
+  "start": null,
+  "end": null,
+  "venue": "大丸神戸店",
+  "city": "โคเบะ",
+  "country": "JP",
+  "region": "kansai",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "fashion",
+   "market"
+  ],
+  "summary_th": "แบรนด์แฟชั่น ATTACHMENT จัดพอปอัปจำกัดเวลาที่ดายมารุ โคเบะ",
+  "image": "http://www.bing.com/th?id=ONUT.0pa1sFVrIpgvRiRU0NnC4g&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "ATTACHMENT、大丸神戸店にて期間限定POP-UP STORE を開催",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fRmVFOHd1ajVVS3k5UFJ2ZUpaYXJnbjVxVWFsOEhHeTRCS2UxNmQ1anl4UUNiU043b2Y3TG1hYnR6clAxdVhYNnFXc05DRnNkQmJwNHRfRkZXOTU5YnQ4b21QOXZzQ1lyVEE?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://mantan-web.jp/prtimes/article/20261027prt00m200001019a.html",
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261027prt00m200001019a.html",
+  "imageHash": "73831ebd60ac1548",
+  "placeChecked": true
+ },
+ {
+  "id": "79992020631c",
+  "name": "大黒摩季×未来屋書店 ブラックフライデーコラボフェア「本で、熱くなれ‼」",
+  "name_th": "งานร่วมมือ มากิ โอโกระ x ไมรايا ช็อปปิ้ง บลैकฟริเดย์ 「หนังสือ ทำให้เรา熾熱!!」",
+  "start": null,
+  "end": null,
+  "venue": "未来屋書店",
+  "city": null,
+  "country": "JP",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "book",
+   "sale"
+  ],
+  "summary_th": "งานเทศกาลร่วมมือระหว่างนักร้องมากิ โอโกระและร้านหนังสือ未来屋書店 ในวันบลैकฟริเดย์",
+  "image": "http://www.bing.com/th?id=ONUT.mroIGEDPinSfJ-WSEPWZ8g&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "大黒摩季×未来屋書店、ブラックフライデーにコラボフェア「本で、熱くなれ‼」を開催！",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxSVU0Uk90Z2s3OEpCLXdsSEJJc0c2bERMTnpWQWwtV1Y4UmQ1QlppOUtFNm9rS0NxbXpmZUNsTF9hS3drZGx1VGJFZUExTGExQURUclljVG96WnVQak5jdHFxUWdnVFpFTXc?oc=5",
+    "source": "PR TIMES",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://prtimes.jp/main/html/rd/p/000000159.000152182.html",
+  "imageFrom": "https://news.3rd-in.co.jp/article/4a93cbd0-d19d-11f1-b5c5-9ca3ba09c411",
+  "imageHash": "39ac521497bf17fe",
+  "placeChecked": true
  }
 ]
