@@ -140,11 +140,119 @@ export const COUNTRIES = {
       expo: ["pameran JIExpo", "pameran ICE BSD"], home: ["pameran rumah interior"], travel: ["pameran pariwisata"], book: ["pameran buku"], edu: ["pameran pendidikan"], wedding: ["pameran pernikahan"],
     },
   },
+  US: {
+    name: "สหรัฐอเมริกา",
+    rss: "hl=en-US&gl=US&ceid=US:en",
+    queries: {
+      anime: ["Anime Expo tickets announced"], game: ["video game expo opens"], tcg: ["Pokemon TCG regional tournament"], concert: ["concert tickets announced"], festival: ["music festival lineup announced"],
+      fanmeet: ["K-pop fan meeting tickets"], art: ["art exhibition opens"], food: ["food festival this weekend"], local: ["cultural festival announced"], motorshow: ["auto show opens"],
+      ai: ["AI conference announced"], expo: ["Javits Center expo"], run: ["marathon registration opens"], kids: ["family festival kids event"], market: ["pop-up market opens"],
+    },
+  },
+  CA: {
+    name: "แคนาดา",
+    rss: "hl=en-CA&gl=CA&ceid=CA:en",
+    queries: {
+      anime: ["Fan Expo Canada tickets"], game: ["jeux vidéo expo Toronto"], tcg: ["tournoi Pokemon TCG régional"], concert: ["billets concert annoncés"], festival: ["festival de musique annoncé"],
+      fanmeet: ["K-pop fan meeting Toronto"], art: ["exposition d'art ouvre"], food: ["festival gastronomique Montréal"], local: ["festival culturel annoncé"], motorshow: ["salon de l'auto Montréal"],
+      ai: ["conférence IA Toronto"], expo: ["Metro Toronto Convention Centre expo"], run: ["marathon inscriptions ouvertes"], kids: ["festival familial enfants"], market: ["marché pop-up ouvre"],
+    },
+  },
+  GB: {
+    name: "สหราชอาณาจักร",
+    rss: "hl=en-GB&gl=GB&ceid=GB:en",
+    queries: {
+      anime: ["MCM Comic Con London tickets"], game: ["games expo UK announced"], tcg: ["Pokemon TCG regional championship UK"], concert: ["concert tickets announced UK"], festival: ["festival lineup announced"],
+      fanmeet: ["K-pop fan meeting London"], art: ["exhibition opens London"], food: ["food festival London weekend"], local: ["traditional festival announced"], motorshow: ["motor show London"],
+      ai: ["AI conference London"], expo: ["ExCeL London expo"], run: ["marathon registration opens"], kids: ["family festival kids event"], market: ["pop-up market opens"],
+    },
+  },
+  FR: {
+    name: "ฝรั่งเศส",
+    rss: "hl=fr&gl=FR&ceid=FR:fr",
+    queries: {
+      anime: ["Japan Expo billets annoncés"], game: ["salon jeux vidéo ouvre"], tcg: ["tournoi Pokémon TCG régional"], concert: ["billets concert annoncés"], festival: ["festival de musique programmation annoncée"],
+      fanmeet: ["fan meeting K-pop Paris"], art: ["exposition d'art ouvre"], food: ["festival gastronomique annoncé"], local: ["fête traditionnelle annoncée"], motorshow: ["salon de l'auto Paris"],
+      ai: ["conférence intelligence artificielle"], expo: ["Paris Expo Porte de Versailles salon"], run: ["marathon inscriptions ouvertes"], kids: ["festival enfants famille"], market: ["marché pop-up ouvre"],
+    },
+  },
+  DE: {
+    name: "เยอรมนี",
+    rss: "hl=de&gl=DE&ceid=DE:de",
+    queries: {
+      anime: ["Anime Messe Tickets angekündigt"], game: ["Gamescom Messe eröffnet"], tcg: ["Pokémon TCG Turnier Regional"], concert: ["Konzertkarten angekündigt"], festival: ["Musikfestival Programm angekündigt"],
+      fanmeet: ["K-Pop Fan-Meeting Tickets"], art: ["Kunstausstellung eröffnet"], food: ["Food-Festival Wochenende"], local: ["traditionelles Volksfest angekündigt"], motorshow: ["Automesse eröffnet"],
+      ai: ["KI-Konferenz angekündigt"], expo: ["Messe München Ausstellung"], run: ["Marathon Anmeldung startet"], kids: ["Familienfest Kinderfest"], market: ["Pop-up Markt eröffnet"],
+    },
+  },
+  IT: {
+    name: "อิตาลี",
+    rss: "hl=it&gl=IT&ceid=IT:it",
+    queries: {
+      anime: ["Lucca Comics & Games biglietti"], game: ["fiera videogiochi annunciata"], tcg: ["torneo Pokémon TCG regionale"], concert: ["concerto biglietti annunciati"], festival: ["festival musicale annunciato"],
+      fanmeet: ["fan meeting K-pop biglietti"], art: ["mostra d'arte inaugura"], food: ["festival del cibo sagra"], local: ["festa tradizionale annunciata"], motorshow: ["Salone dell'auto apre"],
+      ai: ["conferenza intelligenza artificiale"], expo: ["Fiera Milano expo"], run: ["maratona iscrizioni aperte"], kids: ["festival per bambini famiglia"], market: ["mercatino pop-up apre"],
+    },
+  },
+  ES: {
+    name: "สเปน",
+    rss: "hl=es&gl=ES&ceid=ES:es",
+    queries: {
+      anime: ["Expomanga entradas anunciadas"], game: ["feria de videojuegos anuncia"], tcg: ["torneo Pokémon TCG regional"], concert: ["entradas concierto anunciadas"], festival: ["festival de música cartel anunciado"],
+      fanmeet: ["fan meeting K-pop entradas"], art: ["exposición de arte inaugura"], food: ["festival gastronómico fin de semana"], local: ["fiesta tradicional anunciada"], motorshow: ["salón del automóvil Madrid"],
+      ai: ["congreso inteligencia artificial"], expo: ["Ifema Madrid feria"], run: ["maratón inscripciones abiertas"], kids: ["festival familiar para niños"], market: ["mercadillo pop-up abre"],
+    },
+  },
+  AU: {
+    name: "ออสเตรเลีย",
+    rss: "hl=en-AU&gl=AU&ceid=AU:en",
+    queries: {
+      anime: ["Supanova tickets announced"], game: ["games expo Australia announced"], tcg: ["Pokemon TCG regional championship Australia"], concert: ["concert tickets announced Sydney"], festival: ["music festival lineup announced"],
+      fanmeet: ["K-pop fan meeting Sydney"], art: ["art exhibition opens Melbourne"], food: ["food festival this weekend"], local: ["cultural festival announced"], motorshow: ["motor show Sydney"],
+      ai: ["AI conference Sydney"], expo: ["ICC Sydney expo"], run: ["marathon registration opens"], kids: ["family festival kids event"], market: ["pop-up market opens"],
+    },
+  },
+  SG: {
+    name: "สิงคโปร์",
+    rss: "hl=en-SG&gl=SG&ceid=SG:en",
+    queries: {
+      anime: ["anime convention Singapore tickets"], game: ["gaming expo Singapore announced"], tcg: ["Pokemon TCG tournament Singapore"], concert: ["concert tickets announced Singapore"], festival: ["music festival Singapore lineup"],
+      fanmeet: ["K-pop fan meeting Singapore"], art: ["art exhibition opens Singapore"], food: ["food festival Singapore"], local: ["cultural festival Singapore announced"], motorshow: ["motor show Singapore"],
+      ai: ["tech conference Singapore announced"], expo: ["Marina Bay Sands expo"], run: ["marathon registration Singapore"], kids: ["family festival Singapore kids"], market: ["pop-up market Singapore opens"],
+    },
+  },
+  TW: {
+    name: "ไต้หวัน",
+    rss: "hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+    queries: {
+      anime: ["動漫祭 門票 開賣"], game: ["台北遊戲展 開展"], tcg: ["寶可夢 卡牌 錦標賽 區域賽"], concert: ["演唱會 門票 開賣"], festival: ["音樂節 陣容 公布"],
+      fanmeet: ["韓團 粉絲見面會 售票"], art: ["藝術展 開幕"], food: ["美食節 登場"], local: ["傳統 文化祭 活動 公布"], motorshow: ["車展 開幕"],
+      ai: ["AI 科技論壇 大會 宣布"], expo: ["台北世貿 展覽 博覽會"], run: ["馬拉松 報名 開跑"], kids: ["親子 節 活動 開跑"], market: ["快閃市集 開幕"],
+    },
+  },
+  MY: {
+    name: "มาเลเซีย",
+    rss: "hl=en-MY&gl=MY&ceid=MY:en",
+    queries: {
+      anime: ["Pesta Anime tiket dilancarkan"], game: ["pameran permainan video dilancarkan"], tcg: ["kejohanan Pokemon TCG"], concert: ["konsert tiket dilancarkan"], festival: ["festival muzik lineup diumumkan"],
+      fanmeet: ["fan meeting K-pop tiket"], art: ["pameran seni dibuka"], food: ["festival makanan minggu ini"], local: ["festival budaya diumumkan"], motorshow: ["pameran kereta Kuala Lumpur"],
+      ai: ["persidangan AI diumumkan"], expo: ["MITEC Kuala Lumpur expo"], run: ["marathon pendaftaran dibuka"], kids: ["festival keluarga kanak-kanak"], market: ["pasar pop-up dibuka"],
+    },
+  },
+  PH: {
+    name: "ฟิลิปปินส์",
+    rss: "hl=en-PH&gl=PH&ceid=PH:en",
+    queries: {
+      anime: ["anime convention Manila tickets"], game: ["gaming expo Manila announced"], tcg: ["Pokemon TCG tournament Manila"], concert: ["concert tickets announced Manila"], festival: ["music festival lineup Manila"],
+      fanmeet: ["K-pop fan meeting Manila"], art: ["art exhibit opens Manila"], food: ["food festival Manila"], local: ["cultural festival Philippines announced"], motorshow: ["auto show Manila"],
+      ai: ["tech conference Manila"], expo: ["SMX Convention Center Manila expo"], run: ["marathon registration Manila"], kids: ["family festival kids Manila"], market: ["pop-up market Manila opens"],
+    },
+  },
 };
 
 // Bing gives direct article links, a short description and a thumbnail; it has no results for mainland China,
 // so CN uses Google News only. Google rate-limits bursts, so keep its query count low.
-const BING = { TH: "cc=TH&setlang=th", JP: "cc=JP&setlang=ja", VN: "cc=VN&setlang=vi", KR: "cc=KR&setlang=ko", ID: "cc=ID&setlang=id" };
+const BING = { TH: "cc=TH&setlang=th", JP: "cc=JP&setlang=ja", VN: "cc=VN&setlang=vi", KR: "cc=KR&setlang=ko", ID: "cc=ID&setlang=id", US: "cc=US&setlang=en", CA: "cc=CA&setlang=en", GB: "cc=GB&setlang=en", FR: "cc=FR&setlang=fr", DE: "cc=DE&setlang=de", IT: "cc=IT&setlang=it", ES: "cc=ES&setlang=es", AU: "cc=AU&setlang=en", SG: "cc=SG&setlang=en", TW: "cc=TW&setlang=zh-hant", MY: "cc=MY&setlang=en", PH: "cc=PH&setlang=en" };
 
 export function feeds(country, query, window = "7d") {
   const list = [`https://news.google.com/rss/search?q=${encodeURIComponent(`${query} when:${window}`)}&${COUNTRIES[country].rss}`];

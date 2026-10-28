@@ -1,5 +1,7 @@
 // EventRadar: reads data/events.json, filters by country/tag/search, follows events in localStorage.
-const COUNTRIES = { TH: "🇹🇭 ไทย", JP: "🇯🇵 ญี่ปุ่น", CN: "🇨🇳 จีน", VN: "🇻🇳 เวียดนาม", KR: "🇰🇷 เกาหลีใต้", ID: "🇮🇩 อินโดนีเซีย" };
+// Filled from countries.json: COUNTRIES[code] = "🇹🇭 ไทย", COUNTRY_INFO[code] = { name, flag, continent, center }.
+let COUNTRIES = {}, COUNTRY_INFO = {};
+const CONTINENTS = { asia: "เอเชีย", europe: "ยุโรป", americas: "อเมริกา", oceania: "โอเชียเนีย" };
 // UI icons (Lucide, MIT). Category emoji stay as content decoration; controls use these SVGs.
 const ICONS = {
   calendar: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
@@ -49,7 +51,10 @@ function iso(d) { return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart
 const TODAY = iso(new Date());
 const state = {
   events: [],
-  countries: new Set(store.get("countries", Object.keys(COUNTRIES))),
+  offCountries: new Set(store.get("offCountries", (() => {
+    const old = store.get("countries", null); // before countries.json: list of shown countries
+    return old ? ["TH", "JP", "CN", "VN", "KR", "ID"].filter(c => !old.includes(c)) : [];
+  })())),
   offTags: new Set(store.get("offTags", [])), // stored as "off" so newly added tags start visible
   offRegions: new Set(store.get("offRegions", [])), // "TH:north" style keys
   format: store.get("format", "all"), // all | offline | online
@@ -113,7 +118,7 @@ function visible() {
   const q = state.q.toLowerCase();
   const [hc, hr] = home().split(":");
   // placeSuspect: mentions another country and Haiku has not confirmed where it is yet
-  return state.events.filter(e => !e.placeSuspect && state.countries.has(e.country) && !(e.region && state.offRegions.has(`${e.country}:${e.region}`))
+  return state.events.filter(e => !e.placeSuspect && !state.offCountries.has(e.country) && !(e.region && state.offRegions.has(`${e.country}:${e.region}`))
     && (state.format === "all" || (state.format === "online") === !!e.online)
     && e.tags.some(t => !state.offTags.has(t) && (!state.quick || TAGS[t]?.group === state.quick))
     && (!state.near || !hc || (e.country === hc && (!hr || e.region === hr)))
@@ -143,12 +148,21 @@ const changedFollowed = () => state.events.filter(e => state.starred.has(e.id) &
 function markSeen(list) { for (const e of list) seen[e.id] = snapshot(e); store.set("seen", seen); }
 
 // Main screen: one row — the filter button, then quick single-pick groups. Detailed picks live in the filter sheet.
-const filterCount = () => (state.countries.size < Object.keys(COUNTRIES).length ? 1 : 0) + (state.offTags.size ? 1 : 0)
+const filterCount = () => (state.offCountries.size ? 1 : 0) + (state.offTags.size ? 1 : 0)
   + (state.offRegions.size ? 1 : 0) + (state.format !== "all" ? 1 : 0);
+
+// "🌏 ทุกประเทศ" or the chosen flags (up to 4, then +n); opens the filter sheet at the countries.
+function countryChip() {
+  const on = Object.keys(COUNTRIES).filter(c => !state.offCountries.has(c));
+  const label = on.length === Object.keys(COUNTRIES).length ? "🌏 ทุกประเทศ"
+    : on.length ? on.slice(0, 4).map(c => COUNTRY_INFO[c].flag).join("") + (on.length > 4 ? ` +${on.length - 4}` : "") : "🌏 ยังไม่เลือกประเทศ";
+  return `<button class="chip ${on.length < Object.keys(COUNTRIES).length ? "on" : ""}" data-filters="countries">${label}</button>`;
+}
 
 function chips() {
   const n = filterCount();
   $("#quick").innerHTML = `<button class="chip filter ${n ? "on" : ""}" data-filters>${icon("sliders")} ตัวกรอง${n ? ` <b>${n}</b>` : ""}</button>` +
+    countryChip() +
     (home() ? `<button class="chip ${state.near ? "on" : ""}" data-near>📍 ใกล้ฉัน</button>` : "") +
     `<button class="chip ${!state.quick ? "on" : ""}" data-quick="">ทั้งหมด</button>` +
     Object.entries(GROUPS).map(([g, x]) =>
@@ -157,8 +171,16 @@ function chips() {
 
 function filterSheet() {
   const count = visible().length;
-  const countries = Object.entries(COUNTRIES).map(([k, v]) =>
-    `<button class="chip ${state.countries.has(k) ? "on" : ""}" data-country="${k}">${v}</button>`).join("");
+  const byContinent = {};
+  for (const [c, x] of Object.entries(COUNTRY_INFO)) (byContinent[x.continent] ||= []).push(c);
+  const countries = Object.entries(CONTINENTS).filter(([k]) => byContinent[k]).map(([k, label]) => {
+    const list = byContinent[k], on = list.filter(c => !state.offCountries.has(c)).length;
+    return `<div class="fgroup cgroup">
+      <label class="fhead"><input type="checkbox" data-continent-all="${k}" ${on === list.length ? "checked" : ""} ${on && on < list.length ? 'data-partial="1"' : ""}>
+        ${label} <small>${on}/${list.length}</small></label>
+      <div class="wrap">${list.map(c => `<button class="chip ${state.offCountries.has(c) ? "" : "on"}" data-country="${c}" data-name="${COUNTRY_INFO[c].name}">${COUNTRIES[c]}</button>`).join("")}</div>
+    </div>`;
+  }).join("");
   const groups = Object.entries(GROUPS).map(([g, x]) => {
     const tags = Object.keys(x.tags), on = tags.filter(t => !state.offTags.has(t)).length;
     return `<div class="fgroup" style="--c:${x.color}">
@@ -172,12 +194,15 @@ function filterSheet() {
     <div class="section-head"><h2>ตัวกรอง</h2><button class="link" data-reset>ล้างทั้งหมด</button></div>
     <h5>รูปแบบงาน</h5><div class="seg">${[["all", "ทั้งหมด"], ["offline", "ไปร่วมงาน"], ["online", "ออนไลน์"]].map(([v, l]) =>
       `<button class="${state.format === v ? "on" : ""}" data-format="${v}">${l}</button>`).join("")}</div>
-    <h5>ประเทศ</h5><div class="wrap">${countries}</div>
-    ${[...state.countries].filter(c => REGIONS[c]).map(c => `<div class="fgroup">
-      <div class="fhead">${COUNTRIES[c]} · ภูมิภาค</div>
+    <h5 id="countriesHead">ประเทศ</h5>
+    <div class="country-tools"><input class="select" type="search" placeholder="ค้นหาประเทศ…" data-country-search>
+      <button class="link" data-countries="all">เลือกทั้งหมด</button><button class="link" data-countries="none">ไม่เลือกเลย</button></div>
+    ${countries}
+    ${Object.keys(COUNTRIES).filter(c => !state.offCountries.has(c) && REGIONS[c]).map(c => `<details class="fgroup regions">
+      <summary class="fhead">${COUNTRIES[c]} · เลือกภูมิภาค</summary>
       <div class="wrap">${Object.entries(REGIONS[c]).map(([r, name]) =>
         `<button class="chip ${state.offRegions.has(`${c}:${r}`) ? "" : "on"}" data-region="${c}:${r}">${name}</button>`).join("")}</div>
-    </div>`).join("")}
+    </details>`).join("")}
     <h5>หมวดหมู่</h5>${groups}
     <button class="pill done" data-close>ดูผล ${count} งาน</button>
   </div>`, "filters");
@@ -661,7 +686,7 @@ document.addEventListener("click", ev => {
   const b = ev.target.closest("button, [data-group-all]");
   if (!b) return;
   const inFilters = $("#sheetBody").dataset.kind === "filters" && !$("#sheet").hidden;
-  if (b.dataset.filters !== undefined) return filterSheet();
+  if (b.dataset.filters !== undefined) { filterSheet(); if (b.dataset.filters === "countries") $("#countriesHead")?.scrollIntoView(); return; }
   if (b.dataset.near !== undefined) { state.near = !state.near; store.set("near", state.near); return render(); }
   if (b.dataset.unfollow) { state.follows = state.follows.filter(w => w !== b.dataset.unfollow); store.set("follows", state.follows); return render(); }
   if (b.dataset.report) return reportSheet(b.dataset.report);
@@ -695,7 +720,16 @@ document.addEventListener("click", ev => {
   }
   if (b.dataset.view) { state.view = b.dataset.view; store.set("view", state.view); scrollTo(0, 0); }
   else if (b.dataset.quick !== undefined) { state.quick = b.dataset.quick || null; store.set("quick", state.quick); }
-  else if (b.dataset.country) toggle(state.countries, "countries", b.dataset.country);
+  else if (b.dataset.country) toggle(state.offCountries, "offCountries", b.dataset.country);
+  else if (b.dataset.continentAll) {
+    const list = Object.keys(COUNTRY_INFO).filter(c => COUNTRY_INFO[c].continent === b.dataset.continentAll);
+    const allOn = list.every(c => !state.offCountries.has(c));
+    list.forEach(c => (allOn ? state.offCountries.add(c) : state.offCountries.delete(c)));
+    store.set("offCountries", [...state.offCountries]);
+  } else if (b.dataset.countries) {
+    state.offCountries = new Set(b.dataset.countries === "none" ? Object.keys(COUNTRIES) : []);
+    store.set("offCountries", [...state.offCountries]);
+  }
   else if (b.dataset.tag) toggle(state.offTags, "offTags", b.dataset.tag);
   else if (b.dataset.region) toggle(state.offRegions, "offRegions", b.dataset.region);
   else if (b.dataset.format) { state.format = b.dataset.format; store.set("format", state.format); }
@@ -704,8 +738,8 @@ document.addEventListener("click", ev => {
     tags.forEach(t => (allOn ? state.offTags.add(t) : state.offTags.delete(t)));
     store.set("offTags", [...state.offTags]);
   } else if (b.dataset.reset !== undefined) {
-    state.offTags.clear(); state.offRegions.clear(); state.countries = new Set(Object.keys(COUNTRIES)); state.quick = null; state.format = "all";
-    store.set("offTags", []); store.set("offRegions", []); store.set("format", "all"); store.set("countries", [...state.countries]); store.set("quick", null);
+    state.offTags.clear(); state.offRegions.clear(); state.offCountries = new Set(); state.quick = null; state.format = "all";
+    store.set("offTags", []); store.set("offRegions", []); store.set("format", "all"); store.set("offCountries", []); store.set("quick", null);
   }
   else if (b.dataset.day) {
     state.day = b.dataset.day;
@@ -761,6 +795,12 @@ document.addEventListener("submit", async ev => {
   }
   render();
 });
+document.addEventListener("input", ev => {
+  if (!ev.target.matches("[data-country-search]")) return;
+  const q = ev.target.value.trim().toLowerCase();
+  document.querySelectorAll("[data-country]").forEach(b => (b.hidden = q && !(b.dataset.name.toLowerCase().includes(q) || b.dataset.country.toLowerCase().includes(q))));
+  document.querySelectorAll(".cgroup").forEach(g => (g.hidden = q && ![...g.querySelectorAll("[data-country]")].some(b => !b.hidden)));
+});
 document.addEventListener("change", ev => {
   if (!ev.target.matches("[data-home]")) return;
   setPref("home", ev.target.value);
@@ -778,7 +818,12 @@ $("#search").addEventListener("input", e => { state.q = e.target.value.trim(); r
 document.querySelectorAll("[data-icon]").forEach(b => b.insertAdjacentHTML("afterbegin", icon(b.dataset.icon)));
 
 const getJson = (url, def) => fetch(url).then(r => (r.ok ? r.json() : def)).catch(() => def);
-Promise.all([getJson("taxonomy.json", {}), getJson(`data/events.json?t=${Date.now()}`, []), getJson("regions.json", {})]).then(([taxonomy, events, regions]) => {
+Promise.all([getJson("taxonomy.json", {}), getJson(`data/events.json?t=${Date.now()}`, []), getJson("regions.json", {}), getJson("countries.json", {})]).then(([taxonomy, events, regions, countries]) => {
+  COUNTRY_INFO = countries;
+  for (const [c, x] of Object.entries(countries)) {
+    COUNTRIES[c] = `${x.flag} ${x.name}`;
+    if (!regions[c] && x.center) REGION_CENTRES[`${c}:`] = x.center;
+  }
   GROUPS = taxonomy;
   REGIONS = regions;
   if (state.quick && !GROUPS[state.quick]) state.quick = null; // group ids changed since it was saved

@@ -1,0 +1,164 @@
+{
+  "TH": {
+    "name": "ไทย",
+    "flag": "🇹🇭",
+    "continent": "asia",
+    "center": [
+      13.75,
+      100.5
+    ]
+  },
+  "JP": {
+    "name": "ญี่ปุ่น",
+    "flag": "🇯🇵",
+    "continent": "asia",
+    "center": [
+      35.68,
+      139.69
+    ]
+  },
+  "CN": {
+    "name": "จีน",
+    "flag": "🇨🇳",
+    "continent": "asia",
+    "center": [
+      31.23,
+      121.47
+    ]
+  },
+  "VN": {
+    "name": "เวียดนาม",
+    "flag": "🇻🇳",
+    "continent": "asia",
+    "center": [
+      21.03,
+      105.85
+    ]
+  },
+  "KR": {
+    "name": "เกาหลีใต้",
+    "flag": "🇰🇷",
+    "continent": "asia",
+    "center": [
+      37.57,
+      126.98
+    ]
+  },
+  "ID": {
+    "name": "อินโดนีเซีย",
+    "flag": "🇮🇩",
+    "continent": "asia",
+    "center": [
+      -6.2,
+      106.8
+    ]
+  },
+  "US": {
+    "name": "สหรัฐอเมริกา",
+    "flag": "🇺🇸",
+    "continent": "americas",
+    "center": [
+      40.7128,
+      -74.006
+    ]
+  },
+  "CA": {
+    "name": "แคนาดา",
+    "flag": "🇨🇦",
+    "continent": "americas",
+    "center": [
+      43.6532,
+      -79.3832
+    ]
+  },
+  "GB": {
+    "name": "สหราชอาณาจักร",
+    "flag": "🇬🇧",
+    "continent": "europe",
+    "center": [
+      51.5074,
+      -0.1278
+    ]
+  },
+  "FR": {
+    "name": "ฝรั่งเศส",
+    "flag": "🇫🇷",
+    "continent": "europe",
+    "center": [
+      48.8566,
+      2.3522
+    ]
+  },
+  "DE": {
+    "name": "เยอรมนี",
+    "flag": "🇩🇪",
+    "continent": "europe",
+    "center": [
+      52.52,
+      13.405
+    ]
+  },
+  "IT": {
+    "name": "อิตาลี",
+    "flag": "🇮🇹",
+    "continent": "europe",
+    "center": [
+      41.9028,
+      12.4964
+    ]
+  },
+  "ES": {
+    "name": "สเปน",
+    "flag": "🇪🇸",
+    "continent": "europe",
+    "center": [
+      40.4168,
+      -3.7038
+    ]
+  },
+  "AU": {
+    "name": "ออสเตรเลีย",
+    "flag": "🇦🇺",
+    "continent": "oceania",
+    "center": [
+      -33.8688,
+      151.2093
+    ]
+  },
+  "SG": {
+    "name": "สิงคโปร์",
+    "flag": "🇸🇬",
+    "continent": "asia",
+    "center": [
+      1.3521,
+      103.8198
+    ]
+  },
+  "TW": {
+    "name": "ไต้หวัน",
+    "flag": "🇹🇼",
+    "continent": "asia",
+    "center": [
+      25.033,
+      121.5654
+    ]
+  },
+  "MY": {
+    "name": "มาเลเซีย",
+    "flag": "🇲🇾",
+    "continent": "asia",
+    "center": [
+      3.139,
+      101.6869
+    ]
+  },
+  "PH": {
+    "name": "ฟิลิปปินส์",
+    "flag": "🇵🇭",
+    "continent": "asia",
+    "center": [
+      14.5995,
+      120.9842
+    ]
+  }
+}
