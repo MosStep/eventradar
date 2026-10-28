@@ -601,36 +601,40 @@ Reply with valid JSON only: {"announcement":false,"events":[{"name":"official na
 "country":"TH|JP|CN|...","tags":["game"],"summary_th":"one short Thai sentence"}]}
 Tags: ${Object.keys(TAGS).join(", ")}. Country = where the event takes place (codes: ${Object.keys(COUNTRIES).join(", ")}).`;
 async function splitRoundups() {
-  const done = new Set(load(SPLIT_FILE, { done: [] }).done);
-  const todo = events.filter(e => !e.hidden && !done.has(e.id) && (!e.end || e.end >= today) && e.sources.length)
+  const state = load(SPLIT_FILE, { done: [], tries: {} });
+  const done = new Set(state.done), tries = state.tries || {};
+  const persist = () => save(SPLIT_FILE, { done: [...done], tries });
+  const todo = events.filter(e => !e.hidden && !done.has(e.id) && (tries[e.id] || 0) < 3 && (!e.end || e.end >= today) && e.sources.length)
     .sort((a, b) => (a.country === "TH" ? 0 : 1) - (b.country === "TH" ? 0 : 1)).slice(0, MAX_SPLIT);
   let roundups = 0, made = 0;
   for (const ev of todo) {
-    done.add(ev.id);
     const { text, published } = await articleFor(ev);
-    if (dateMentions(text).size >= 2) {
-      roundups++;
-      try {
-        const { text: out } = await extract([{ role: "system", content: SPLIT_PROMPT },
-          { role: "user", content: `Article (published ${published || "unknown"}):\n${text}` }], ORDERS.describe);
-        const d = cleanSplit(parseJson(out), Object.keys(TAGS));
-        for (const f of d.events) {
-          const country = Object.keys(COUNTRIES).includes(f.country) ? f.country : ev.country;
-          if (events.some(e => sameEvent(e, { ...f, country }))) continue; // already listed (maybe under the same article)
-          events.push({ id: eventId(country, f.name, f.start), name: f.name, name_th: f.name_th, start: f.start, end: f.end ?? f.start,
-            venue: f.venue, city: f.city, country, region: null, regionTried: false, online: false, price_th: null,
-            tags: f.tags.length ? f.tags : ev.tags, summary_th: f.summary_th, image: ev.image, imageFrom: ev.imageFrom,
-            imageHash: ev.imageHash, official: null, sources: ev.sources.map(s => ({ ...s })), article: ev.article,
-            splitFrom: ev.id, added: today, updated: today, enriched: false });
-          made++;
-        }
-        if (d.announcement && d.events.length) ev.hidden = true;
-      } catch (e) {
-        if (e instanceof BillingStop) { console.error(e.message); done.delete(ev.id); break; }
-        console.warn(`[split] ${ev.name}: ${e.message.slice(0, 120)}`);
+    // No article text (fetch failed): retry on a later run, giving up after 3 tries.
+    if (!text) { tries[ev.id] = (tries[ev.id] || 0) + 1; persist(); continue; }
+    if (dateMentions(text).size < 2) { done.add(ev.id); persist(); continue; }
+    roundups++;
+    try {
+      const { text: out } = await extract([{ role: "system", content: SPLIT_PROMPT },
+        { role: "user", content: `Article (published ${published || "unknown"}):\n${text}` }], ORDERS.describe);
+      const d = cleanSplit(parseJson(out), Object.keys(TAGS));
+      for (const f of d.events) {
+        const country = Object.keys(COUNTRIES).includes(f.country) ? f.country : ev.country;
+        if (events.some(e => sameEvent(e, { ...f, country }))) continue; // already listed (maybe under the same article)
+        events.push({ id: eventId(country, f.name, f.start), name: f.name, name_th: f.name_th, start: f.start, end: f.end ?? f.start,
+          venue: f.venue, city: f.city, country, region: null, regionTried: false, online: false, price_th: null,
+          tags: f.tags.length ? f.tags : ev.tags, summary_th: f.summary_th, image: ev.image, imageFrom: ev.imageFrom,
+          imageHash: ev.imageHash, official: null, sources: ev.sources.map(s => ({ ...s })), article: ev.article,
+          splitFrom: ev.id, added: today, updated: today, enriched: false });
+        made++;
       }
+      if (d.announcement && d.events.length) ev.hidden = true;
+      done.add(ev.id);
+    } catch (e) {
+      if (e instanceof BillingStop) { console.error(e.message); break; }
+      tries[ev.id] = (tries[ev.id] || 0) + 1;
+      console.warn(`[split] ${ev.name}: ${e.message.slice(0, 120)}`);
     }
-    save(SPLIT_FILE, { done: [...done] });
+    persist();
   }
   console.log(`[split] ${todo.length} checked, ${roundups} roundup articles, +${made} events`);
 }
