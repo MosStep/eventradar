@@ -153,9 +153,9 @@ export const COUNTRIES = {
     name: "แคนาดา",
     rss: "hl=en-CA&gl=CA&ceid=CA:en",
     queries: {
-      anime: ["Fan Expo Canada tickets"], game: ["jeux vidéo expo Toronto"], tcg: ["tournoi Pokemon TCG régional"], concert: ["billets concert annoncés"], festival: ["festival de musique annoncé"],
-      fanmeet: ["K-pop fan meeting Toronto"], art: ["exposition d'art ouvre"], food: ["festival gastronomique Montréal"], local: ["festival culturel annoncé"], motorshow: ["salon de l'auto Montréal"],
-      ai: ["conférence IA Toronto"], expo: ["Metro Toronto Convention Centre expo"], run: ["marathon inscriptions ouvertes"], kids: ["festival familial enfants"], market: ["marché pop-up ouvre"],
+      anime: ["Fan Expo Canada"], game: ["video game expo Canada"], tcg: ["Pokemon card tournament Canada"], concert: ["concert tickets announced Toronto"], festival: ["music festival lineup announced Toronto", "festival Québec événement"],
+      fanmeet: ["fan meeting Canada tickets"], art: ["art exhibition opens Toronto"], food: ["food festival Ontario"], local: ["Calgary Stampede"], motorshow: ["auto show Toronto"],
+      ai: ["AI conference Toronto"], expo: ["Metro Toronto Convention Centre expo"], run: ["Toronto Waterfront Marathon"], kids: ["family festival Toronto kids"], market: ["pop-up market Toronto opens"],
     },
   },
   GB: {
