@@ -55,8 +55,55 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data
           git diff --cached --quiet || git commit -m "data: daily update"
-          git pull --rebase -X theirs || git rebase --abort
-          git push
+          # Up to 5 attempts: fetch, rebase onto origin/main, resolve conflicts under data/ in favour of this run's
+          # files, check that the merged JSON parses, then push. A conflict anywhere else aborts and fails the step.
+          resolve_rebase() {
+            guard=0
+            while [ -d "$(git rev-parse --git-dir)/rebase-merge" ] || [ -d "$(git rev-parse --git-dir)/rebase-apply" ]; do
+              guard=$((guard + 1))
+              if [ "$guard" -gt 50 ]; then git rebase --abort || true; return 1; fi
+              conflicts=$(git diff --name-only --diff-filter=U)
+              other=$(printf '%s\n' "$conflicts" | grep -v '^data/' | grep -v '^$' || true)
+              if [ -n "$other" ]; then
+                echo "::error::rebase conflict outside data/, aborting:"
+                echo "$other"
+                git rebase --abort || true
+                return 1
+              fi
+              for f in $conflicts; do git checkout --theirs -- "$f" || true; done
+              git add -A data # also stages deletions and additions that have no "theirs" file
+              if git diff --cached --quiet; then
+                git rebase --skip || true
+              else
+                GIT_EDITOR=true git rebase --continue || true
+              fi
+            done
+            return 0
+          }
+          published=0
+          for attempt in 1 2 3 4 5; do
+            before=$(git rev-parse HEAD)
+            if ! git fetch -q origin main; then
+              echo "fetch failed (attempt $attempt)"
+              sleep $((RANDOM % 20 + 5))
+              continue
+            fi
+            git rebase -q origin/main || true
+            if ! resolve_rebase; then exit 1; fi
+            if ! node -e "JSON.parse(require('fs').readFileSync('data/events.json','utf8'));JSON.parse(require('fs').readFileSync('data/raw.json','utf8'))"; then
+              echo "::warning::merged JSON invalid (attempt $attempt), undoing this attempt"
+              git reset -q --hard "$before"
+              sleep $((RANDOM % 20 + 5))
+              continue
+            fi
+            if git push -q origin HEAD:main; then
+              published=1
+              break
+            fi
+            echo "push rejected (attempt $attempt), retrying"
+            sleep $((RANDOM % 20 + 5))
+          done
+          if [ "$published" != 1 ]; then echo "::error::data not published after 5 attempts"; exit 1; fi
       # Problems become a GitHub issue, which GitHub e-mails to the repo owner. One open issue at a time, updated in place.
       - name: Report problems
         if: always() && github.event_name != 'push'

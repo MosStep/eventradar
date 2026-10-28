@@ -28,6 +28,61 @@ if (-not $env:AIU_KEYS) {
 }
 $log = Join-Path $env:LOCALAPPDATA "EventRadar\loop.log"
 New-Item -ItemType Directory -Force (Split-Path $log) | Out-Null
+# Data sync helpers. During a rebase "theirs" is the commit being replayed, i.e. this runner's data.
+function Write-Log([string]$m) { $m | Tee-Object -FilePath $log -Append | Out-Host }
+
+function Test-RebaseOpen {
+  $gd = git rev-parse --git-dir 2>$null
+  return ((Test-Path (Join-Path $gd "rebase-merge")) -or (Test-Path (Join-Path $gd "rebase-apply")))
+}
+
+# Finishes a stopped rebase. Conflicts under data/ take this runner's version; any conflict elsewhere aborts the
+# rebase. Returns $false after such an abort.
+function Resolve-DataRebase {
+  $guard = 0
+  while (Test-RebaseOpen) {
+    $guard++
+    if ($guard -gt 50) { git rebase --abort 2>&1 | Out-Null; return $false }
+    $conflicts = @(git diff --name-only --diff-filter=U)
+    $other = @($conflicts | Where-Object { $_ -notmatch '^data/' })
+    if ($other.Count -gt 0) {
+      Write-Log "rebase conflict outside data/, aborting: $($other -join ', ')"
+      git rebase --abort 2>&1 | Out-Null
+      return $false
+    }
+    # A path with no "theirs" version (deleted here) fails the checkout; the add below stages the deletion.
+    foreach ($f in $conflicts) { git checkout --theirs -- $f 2>&1 | Out-Null }
+    git add -A data 2>&1 | Out-Null
+    git diff --cached --quiet
+    if ($LASTEXITCODE -eq 0) { git rebase --skip 2>&1 | Out-Null }
+    else { $env:GIT_EDITOR = "true"; git rebase --continue 2>&1 | Out-Null }
+  }
+  return $true
+}
+
+# Publishes the local data commit: up to 5 attempts of fetch, rebase onto origin/main, conflict resolution,
+# JSON check, push. A broken merge or a rejected push starts the next attempt after a short random pause.
+function Publish-Data([int]$round) {
+  for ($attempt = 1; $attempt -le 5; $attempt++) {
+    $before = git rev-parse HEAD
+    git fetch -q origin main 2>&1 | Out-Null
+    git rebase -q origin/main 2>&1 | Out-Null
+    if (-not (Resolve-DataRebase)) { return $false }
+    node -e "JSON.parse(require('fs').readFileSync('data/events.json','utf8'));JSON.parse(require('fs').readFileSync('data/raw.json','utf8'))" 2>$null
+    if ($LASTEXITCODE -ne 0) {
+      Write-Log "merged JSON broken (round $round, attempt $attempt), undoing this attempt"
+      git reset -q --hard $before 2>&1 | Out-Null
+    } else {
+      git push -q origin main 2>&1 | Out-Null
+      if ($LASTEXITCODE -eq 0) { return $true }
+      Write-Log "push rejected (round $round, attempt $attempt), retrying"
+    }
+    Start-Sleep -Milliseconds (Get-Random -Minimum 2000 -Maximum 15000)
+  }
+  Write-Log "round ${round}: data not published after 5 attempts"
+  return $false
+}
+
 $round = 0
 while ($true) {
   $round++
@@ -37,14 +92,11 @@ while ($true) {
   $opts = if ($fetch) { @("--window=1d") + $opts } else { @("--no-fetch") + $opts }
   "=== round $round $(Get-Date -Format 'yyyy-MM-dd HH:mm') $opts" | Tee-Object -Append $log
   git pull -q --rebase --autostash origin main 2>&1 | Out-Null
+  if (-not (Resolve-DataRebase)) { Write-Log "pre-round sync: conflict outside data/" }
   node pipeline/run.mjs @opts 2>&1 | ForEach-Object { "$_" } | Tee-Object -Append $log
   git add data | Out-Null
   git commit -q -m "data: local Nemotron round $round" | Out-Null
-  git pull -q --rebase --autostash -X theirs origin main 2>&1 | Out-Null
-  # A conflicting merge can leave half-merged JSON: then keep this round's own files.
-  node -e "JSON.parse(require('fs').readFileSync('data/events.json','utf8'));JSON.parse(require('fs').readFileSync('data/raw.json','utf8'))" 2>$null
-  if ($LASTEXITCODE -ne 0) { "merged JSON broken, keeping local data" | Tee-Object -Append $log; git checkout ORIG_HEAD -- data 2>&1 | Out-Null; git commit -qam "data: keep local round $round" | Out-Null }
-  git push -q origin main 2>&1 | Out-Null
+  Publish-Data $round | Out-Null
   # Watchdog: GitHub runs schedules best-effort. If no scheduled/manual run has finished in 6 hours, start one, so the
   # site keeps updating (and the e-mail alerts keep working) even when GitHub skips slots.
   # A run that is queued or still going counts as alive, so the watchdog never piles up extra runs.
