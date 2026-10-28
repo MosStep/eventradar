@@ -18624,11 +18624,18 @@
     "source": "게임메카",
     "date": "2026-10-28",
     "image": null
+   },
+   {
+    "title": "งานใหญ่ระดับนี้ tomtoc พลาดได้ไง! บุก gamescom asia x Thailand Game Show ครั้งแรกอย่างเป็นทางการ!",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nTUFBS0xxaHBsOWZXQmJlZU9MdzJ1YnpmbVBDeVFtUVAtWG54cUZtM2NhazVNbEJJakZqYTI1RHYyVWxBeTRQSUVNdHloUnlZeFd3X3RqdVNqYnRoanRQeEhR?oc=5",
+    "source": "Online Station",
+    "date": "2026-10-28",
+    "image": null
    }
   ],
   "added": "2026-10-27",
   "updated": "2026-10-28",
-  "enriched": true,
+  "enriched": false,
   "region": "bkk",
   "regionTried": true,
   "online": false,
@@ -18918,11 +18925,18 @@
     "source": "banmuang.co.th",
     "date": "2026-10-22",
     "image": null
+   },
+   {
+    "title": "SC บุกมหกรรมบ้านและคอนโด ขนทัพบ้าน-คอนโด 87 โครงการ ส่งมอนสเตอร์ 4 คาแรกเตอร์ สร้างสีสัน | The Better",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMRWFfc3Q0NEppQ1BKS1RNTGt2SUs2S0RhUHNyNzh4NWRtT3A0UGRmcnBMVl9tdGdOSkFnLWVaRHhad0hERlFaMmtqN010UDVtc1dsYUZB?oc=5",
+    "source": "LINE TODAY",
+    "date": "2026-10-28",
+    "image": null
    }
   ],
   "added": "2026-10-27",
-  "updated": "2026-10-27",
-  "enriched": true,
+  "updated": "2026-10-28",
+  "enriched": false,
   "imageTried": true,
   "region": null,
   "regionTried": true,
@@ -18937,7 +18951,9 @@
   "article": "https://www.thaipr.net/estate/3772041",
   "imageFrom": "https://www.thaipr.net/estate/3772041",
   "priceTriedAt": "2026-10-27",
-  "placeChecked": true
+  "placeChecked": true,
+  "online": false,
+  "price_th": null
  },
  {
   "id": "fd894c6c063b",
@@ -78413,6 +78429,132 @@
     "title": "Ipank Bakal Meriahkan Malam Puncak Festival Seni Tamadun Melayu 2026 di Lingga",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOXNLbEQxQlVGNUV4R3JkUkpOVXB0d3NuRVB2Q0JYWGZiYUtsaU5MZU1mNGhEUkF1bHphUUxsOExmUFkxbmY0SG43VjJvRWp1VG0yLXpqcXJEc2FJcWNneDZVc1RMZE1xTmJSSW9SaVZldk10OF8tNjJCNE5fSURjRkxyODROVzhuam9kUlBITXlndkJkczUxNzRGcmhyb1JjMHVSeFNhNXlUSG50cEhGdGVkaEZpc1RhSHczbkhiay10RTQ?oc=5",
     "source": "Batamnews",
+    "date": "2026-10-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28"
+ },
+ {
+  "id": "a6bb13e5938f",
+  "name": "JUNGCEYLON The Ghost World Tour",
+  "name_th": "JUNGCEYLON The Ghost World Tour",
+  "start": null,
+  "end": null,
+  "venue": "Jungceylon",
+  "city": null,
+  "country": "TH",
+  "region": "south",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "local",
+   "festival"
+  ],
+  "summary_th": "งานธีมผีสุดหลอนช่วงฮาโลวีนที่ศูนย์การค้าจังซีลอน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ชวนสัมผัสความสนุกสุดหลอนในงาน \"JUNGCEYLON The Ghost World Tour\"",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9YaldTbUdlVnNEcGF2bmtRVks0bXAtNFBmRU9RZENjcW5GcDYzdUlSY0NHbldYU2F3b2tmcmpUOFFxVlFiaTVJazNKa2pJXzljcEdWZC1sXzNHbHZITmxocDNnVi1uNjM5TG44?oc=5",
+    "source": "newswit",
+    "date": "2026-10-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28"
+ },
+ {
+  "id": "dac1fc426e1c",
+  "name": "งานตักบาตรเทโวโรหณะ ต.กกโก",
+  "name_th": "งานตักบาตรเทโวโรหณะ ต.กกโก",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "ลพบุรี",
+  "country": "TH",
+  "region": "central",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "local",
+   "national"
+  ],
+  "summary_th": "เทศกาลตักบาตรเทโวโรหณะ นิมนต์พระสงฆ์ 7 วัด รับบิณฑบาตหน้าองค์พระพุทธไสยาสน์ใหญ่ที่สุดในลพบุรี",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ทต.กกโก จัดงานตักบาตรเทโวโรหณะ นิมนต์พระสงฆ์ 7 วัด รับบิณฑบาตหน้าองค์พระพุทธไสยาสน์ใหญ่สุดในลพบุรี",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jc0dncC1vTGtJU18tOUp3YlBhRjJIanRPVmJSaWJmMVpaSzgybGtHN2I4bk9SMk1IQzJyblpXTk5uZUZ3VG9TbzlDRzFtTDRmX3E0?oc=5",
+    "source": "เดลินิวส์",
+    "date": "2026-10-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28"
+ },
+ {
+  "id": "4e11b2318d58",
+  "name": "สัปดาห์ดิจิทัลนานาชาติเวียดนาม 2026",
+  "name_th": "สัปดาห์ดิจิทัลนานาชาติเวียดนาม 2026",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": "กวางนิง",
+  "country": "VN",
+  "region": "north",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo",
+   "ai",
+   "startup"
+  ],
+  "summary_th": "งานสัปดาห์ดิจิทัลนานาชาติเวียดนาม 2026 มีผู้เข้าร่วม 500 คน ณ เมืองกวางนิง",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "มีผู้เข้าร่วมประชุมงานสัปดาห์ดิจิทัลนานาชาติเวียดนาม 2026 จำนวน 500 คน ณ เมืองกวางนิง",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRk95ZDNtcHVnRmViZDF3aXNTRmxPbHdVVGhCWm9TTXBXTm9VUUlCT3hORHdYcjZ3SUxERnBSYnhQek5VZFQ3YjM4VXBKMEtRcnp1S2JWT2wzRlpLTVhCOEU5MnBWU0gwMlNuQWQyMm8wR2YxTDRBc1FyZjl4ZEZXallsZkVfOE5TcHNIOFJBdnVhTHlSZHpfaU9kQVFmam5Z?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28"
+ },
+ {
+  "id": "b8a8be381dfd",
+  "name": "JINGLE BELL ROCK",
+  "name_th": "JINGLE BELL ROCK",
+  "start": null,
+  "end": null,
+  "venue": "ทรู ดิจิทัล พาร์ค",
+  "city": null,
+  "country": "TH",
+  "region": "bkk",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "lights",
+   "art",
+   "festival"
+  ],
+  "summary_th": "แคมเปญคริสต์มาสแนวร็อกครั้งแรกที่ทรู ดิจิทัล พาร์ค ผสมงานศิลปะและแสงสีเสียง กับศิลปิน BOMFHA",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "ทรู ดิจิทัล พาร์ค ดีเดย์คริสต์มาสแนวร็อกครั้งแรก! ปั้นแลนด์มาร์กผสมผสานงานศิลปะและแสงสีเสียงสุดตระการตา จัดแคมเปญใหญ่ \"JINGLE BELL ROCK\" คอลแลปศิลปินรุ่นใหม่ 'BOMFHA'",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DRDFHR2F0aE5LWTJucVdxWEtRVm5STm53SWxhbmMwOUVScjJwWHZrQTF3Nm5ibmpuU0VEX3FvRUx1S2liLWZrTzJLeUtpU2pnRm9nRWZkMl9YSFpLUGd2MnpRX3lNanZyWW1B?oc=5",
+    "source": "newswit",
     "date": "2026-10-28",
     "image": null
    }
