@@ -1,5 +1,5 @@
 // EventRadar: reads data/events.json, filters by country/tag/search, follows events in localStorage.
-const COUNTRIES = { TH: "🇹🇭 ไทย", JP: "🇯🇵 ญี่ปุ่น", CN: "🇨🇳 จีน" };
+const COUNTRIES = { TH: "🇹🇭 ไทย", JP: "🇯🇵 ญี่ปุ่น", CN: "🇨🇳 จีน", VN: "🇻🇳 เวียดนาม", KR: "🇰🇷 เกาหลีใต้", ID: "🇮🇩 อินโดนีเซีย" };
 // UI icons (Lucide, MIT). Category emoji stay as content decoration; controls use these SVGs.
 const ICONS = {
   calendar: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
@@ -94,6 +94,11 @@ const REGION_CENTRES = {
   "JP:kansai": [34.7, 135.5], "JP:chugoku": [34.4, 132.5], "JP:shikoku": [33.8, 133.5], "JP:kyushu": [33.0, 130.7],
   "CN:north": [39.9, 116.4], "CN:northeast": [43.8, 125.3], "CN:east": [31.2, 121.5], "CN:south": [23.1, 113.3],
   "CN:central": [30.6, 114.3], "CN:southwest": [30.6, 104.1], "CN:northwest": [34.3, 108.9],
+  "VN:north": [21.0, 105.8], "VN:central": [16.05, 108.2], "VN:highlands": [11.94, 108.44], "VN:south": [10.8, 106.7],
+  "KR:seoul": [37.57, 126.98], "KR:gangwon": [37.75, 128.9], "KR:chungcheong": [36.35, 127.38], "KR:jeolla": [35.16, 126.85],
+  "KR:gyeongsang": [35.18, 129.08], "KR:jeju": [33.5, 126.53],
+  "ID:java": [-6.2, 106.8], "ID:bali": [-8.65, 115.2], "ID:sumatra": [3.6, 98.67], "ID:kalimantan": [-1.27, 116.83],
+  "ID:sulawesi": [-5.14, 119.42], "ID:east": [-2.5, 140.7],
 };
 function nearestRegion(lat, lng) {
   let best = null, dist = Infinity;
@@ -383,7 +388,7 @@ function maybeOnboard() {
   const v = Object.assign(document.createElement("div"), { className: "onboard" });
   const draw = () => {
     v.innerHTML = `<div class="onboard-card"><h2>ยินดีต้อนรับสู่ EventRadar</h2>
-      <p>รวมงานอีเวนต์ในไทย ญี่ปุ่น และจีน อัปเดตเองวันละ 4 รอบ · กด ☆ เพื่อติดตามงาน · สมัครรับปฏิทินได้ที่หน้าตั้งค่า</p>
+      <p>รวมงานอีเวนต์ในไทย ญี่ปุ่น จีน เวียดนาม เกาหลี และอินโดนีเซีย อัปเดตเองวันละ 4 รอบ · กด ☆ เพื่อติดตามงาน · สมัครรับปฏิทินได้ที่หน้าตั้งค่า</p>
       <h5>สนใจหมวดไหน (เลือกได้หลายหมวด)</h5>
       <div class="wrap">${Object.entries(GROUPS).map(([g, x]) => `<button class="chip ${picked.has(g) ? "on" : ""}" style="--c:${x.color}" data-pick="${g}">${x.icon} ${x.name}</button>`).join("")}</div>
       <button class="pill done" data-onboard-done>${picked.size ? `เริ่มเลย (${picked.size} หมวด)` : "ดูทุกหมวด"}</button>
@@ -438,7 +443,7 @@ function renderSettings() {
       <button class="danger" data-clear-stars style="margin-top:8px">ล้างงานที่ติดตามทั้งหมด</button></div>
     <div class="setting" id="statusBox"><h4>${icon("auto")} สถานะระบบ</h4><p>กำลังโหลด…</p></div>
     <div class="setting about"><h4>${icon("sparkle")} เกี่ยวกับ EventRadar</h4>
-      <p>โปรเจกต์ส่วนตัว ไม่แสวงหากำไร รวมงานอีเวนต์จากข่าวและเว็บขายบัตรในไทย ญี่ปุ่น และจีน โดยใช้ AI ช่วยคัดและสรุป
+      <p>โปรเจกต์ส่วนตัว ไม่แสวงหากำไร รวมงานอีเวนต์จากข่าวและเว็บขายบัตรในไทย ญี่ปุ่น จีน เวียดนาม เกาหลีใต้ และอินโดนีเซีย โดยใช้ AI ช่วยคัดและสรุป
       ข้อมูลอาจคลาดเคลื่อนได้ โปรดตรวจสอบกับผู้จัดงานก่อนเดินทาง</p>
       <p>รูปภาพและข่าวเป็นลิขสิทธิ์ของเว็บต้นทาง ทุกงานมีลิงก์กลับไปยังแหล่งที่มา ถ้าเป็นเจ้าของเนื้อหาและต้องการให้ลบ
       หรือพบข้อมูลผิด แจ้งได้ที่ <a href="${REPORT_URL}" target="_blank" rel="noopener">แจ้งปัญหา / ขอให้ลบ</a></p>

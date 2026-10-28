@@ -80,11 +80,71 @@ export const COUNTRIES = {
       home: ["家博会 举办"], wedding: ["婚博会 举办"],
     },
   },
+  VN: {
+    name: "เวียดนาม",
+    rss: "hl=vi&gl=VN&ceid=VN:vi",
+    queries: {
+      anime: ["lễ hội anime", "sự kiện anime cosplay"], game: ["sự kiện game", "Vietnam Game Show"], esports: ["giải đấu esports chung kết"],
+      cosplay: ["sự kiện cosplay"], comic: ["hội chợ truyện tranh", "Comic Con Việt Nam"], figure: ["triển lãm mô hình figure"], vtuber: ["VTuber Việt Nam sự kiện"],
+      tcg: ["giải đấu thẻ bài Pokemon", "giải đấu Yu-Gi-Oh", "One Piece Card Game Việt Nam"], boardgame: ["sự kiện boardgame"],
+      concert: ["concert Hà Nội", "concert TP.HCM"], festival: ["lễ hội âm nhạc"], fanmeet: ["fan meeting Việt Nam"], idol: ["idol K-pop concert Việt Nam"],
+      stage: ["nhạc kịch biểu diễn"], comedy: ["hài độc thoại stand-up"], movie: ["ra mắt phim họp báo"],
+      art: ["triển lãm nghệ thuật"], museum: ["bảo tàng triển lãm đặc biệt"], design: ["tuần lễ thiết kế"], photo: ["triển lãm ảnh"], workshop: ["workshop sự kiện cuối tuần"],
+      food: ["lễ hội ẩm thực"], cafe: ["lễ hội cà phê"], drink: ["lễ hội bia"], nightmarket: ["chợ đêm khai trương"],
+      market: ["pop-up store khai trương"], flea: ["hội chợ handmade"], sale: ["hội chợ khuyến mãi"], fashion: ["tuần lễ thời trang"],
+      local: ["lễ hội truyền thống"], national: ["lễ hội Tết sự kiện"], lights: ["lễ hội ánh sáng pháo hoa"], nature: ["lễ hội hoa tam giác mạch", "lễ hội hoa"],
+      run: ["giải chạy marathon đăng ký"], match: ["trận đấu vé bán"], wellness: ["lễ hội yoga"], outdoor: ["lễ hội cắm trại"],
+      kids: ["sự kiện thiếu nhi gia đình"], pet: ["sự kiện thú cưng"], themepark: ["công viên giải trí sự kiện"],
+      ai: ["hội thảo AI trí tuệ nhân tạo"], gadget: ["ra mắt điện thoại sự kiện"], startup: ["sự kiện khởi nghiệp"], devconf: ["hội nghị lập trình viên"],
+      carlaunch: ["ra mắt xe mới"], motorshow: ["Vietnam Motor Show triển lãm ô tô"], ev: ["triển lãm xe điện"], bike: ["triển lãm xe máy"],
+      expo: ["hội chợ triển lãm SECC", "triển lãm quốc tế Hà Nội"], home: ["triển lãm nội thất"], travel: ["hội chợ du lịch"], book: ["hội sách"], edu: ["triển lãm giáo dục du học"], wedding: ["triển lãm cưới"],
+    },
+  },
+  KR: {
+    name: "เกาหลีใต้",
+    rss: "hl=ko&gl=KR&ceid=KR:ko",
+    queries: {
+      anime: ["애니메이션 페스티벌 개최", "애니 이벤트 개최"], game: ["게임쇼 개최", "지스타"], esports: ["e스포츠 결승 개최"],
+      cosplay: ["코스프레 행사"], comic: ["코믹월드", "서울코믹월드"], figure: ["피규어 전시 개최"], vtuber: ["버튜버 오프라인 이벤트"],
+      tcg: ["포켓몬 카드 대회", "유희왕 대회", "원피스 카드게임 대회", "TCG 대회 개최"], boardgame: ["보드게임 페스타"],
+      concert: ["콘서트 개최 티켓 오픈"], festival: ["음악 페스티벌 개최"], fanmeet: ["팬미팅 개최"], idol: ["아이돌 콘서트 개최"],
+      stage: ["뮤지컬 개막"], comedy: ["코미디 공연"], movie: ["영화 시사회 개최"],
+      art: ["전시회 개막"], museum: ["박물관 특별전"], design: ["디자인위크 개최"], photo: ["사진전 개막"], workshop: ["원데이 클래스 행사"],
+      food: ["음식 축제 개최"], cafe: ["카페쇼 개최"], drink: ["맥주 축제 개최"], nightmarket: ["야시장 개장"],
+      market: ["팝업스토어 오픈"], flea: ["플리마켓 개최"], sale: ["코리아세일페스타"], fashion: ["서울패션위크"],
+      local: ["지역 축제 개최"], national: ["전통 축제 개최"], lights: ["불꽃축제", "빛 축제 개최"], nature: ["꽃 축제 개최", "단풍 축제"],
+      run: ["마라톤 대회 참가 신청"], match: ["경기 티켓 예매"], wellness: ["요가 페스티벌"], outdoor: ["캠핑 페스티벌"],
+      kids: ["어린이 체험 행사"], pet: ["펫쇼 개최", "반려동물 박람회"], themepark: ["테마파크 축제"],
+      ai: ["AI 박람회 개최", "인공지능 컨퍼런스"], gadget: ["신제품 체험 행사"], startup: ["스타트업 행사 개최"], devconf: ["개발자 컨퍼런스 개최"],
+      carlaunch: ["신차 출시 행사"], motorshow: ["모빌리티쇼 개최"], ev: ["전기차 박람회"], bike: ["모터사이클 쇼"],
+      expo: ["코엑스 박람회 개최", "킨텍스 박람회 개최"], home: ["리빙 박람회 개최"], travel: ["여행 박람회 개최"], book: ["도서전 개최"], edu: ["유학 박람회"], wedding: ["웨딩 박람회"],
+    },
+  },
+  ID: {
+    name: "อินโดนีเซีย",
+    rss: "hl=id&gl=ID&ceid=ID:id",
+    queries: {
+      anime: ["festival anime Jakarta", "event jejepangan"], game: ["pameran game Indonesia", "Indonesia Game Show"], esports: ["final turnamen esports"],
+      cosplay: ["event cosplay"], comic: ["Indonesia Comic Con", "pameran komik"], figure: ["pameran action figure"], vtuber: ["VTuber Indonesia offline event"],
+      tcg: ["turnamen Pokemon TCG Indonesia", "turnamen Yu-Gi-Oh Indonesia", "One Piece Card Game Indonesia turnamen"], boardgame: ["festival board game"],
+      concert: ["konser Jakarta tiket", "konser digelar"], festival: ["festival musik digelar"], fanmeet: ["fan meeting Jakarta"], idol: ["konser idol Jakarta"],
+      stage: ["pertunjukan musikal"], comedy: ["stand up comedy pertunjukan"], movie: ["gala premiere film"],
+      art: ["pameran seni dibuka"], museum: ["museum pameran khusus"], design: ["pekan desain"], photo: ["pameran foto"], workshop: ["workshop akhir pekan event"],
+      food: ["festival kuliner digelar"], cafe: ["festival kopi"], drink: ["festival minuman"], nightmarket: ["pasar malam dibuka"],
+      market: ["pop up store dibuka"], flea: ["bazar UMKM digelar"], sale: ["pesta diskon"], fashion: ["Jakarta Fashion Week"],
+      local: ["festival budaya daerah"], national: ["perayaan festival tradisional"], lights: ["festival lampion kembang api"], nature: ["festival bunga"],
+      run: ["lomba lari marathon pendaftaran"], match: ["pertandingan tiket dijual"], wellness: ["festival yoga"], outdoor: ["festival camping"],
+      kids: ["acara keluarga anak"], pet: ["pameran hewan peliharaan"], themepark: ["taman hiburan acara"],
+      ai: ["konferensi AI kecerdasan buatan"], gadget: ["peluncuran smartphone acara"], startup: ["acara startup digelar"], devconf: ["konferensi developer"],
+      carlaunch: ["peluncuran mobil baru"], motorshow: ["GIIAS pameran otomotif", "IIMS pameran"], ev: ["pameran kendaraan listrik"], bike: ["pameran motor"],
+      expo: ["pameran JIExpo", "pameran ICE BSD"], home: ["pameran rumah interior"], travel: ["pameran pariwisata"], book: ["pameran buku"], edu: ["pameran pendidikan"], wedding: ["pameran pernikahan"],
+    },
+  },
 };
 
 // Bing gives direct article links, a short description and a thumbnail; it has no results for mainland China,
 // so CN uses Google News only. Google rate-limits bursts, so keep its query count low.
-const BING = { TH: "cc=TH&setlang=th", JP: "cc=JP&setlang=ja" };
+const BING = { TH: "cc=TH&setlang=th", JP: "cc=JP&setlang=ja", VN: "cc=VN&setlang=vi", KR: "cc=KR&setlang=ko", ID: "cc=ID&setlang=id" };
 
 export function feeds(country, query, window = "7d") {
   const list = [`https://news.google.com/rss/search?q=${encodeURIComponent(`${query} when:${window}`)}&${COUNTRIES[country].rss}`];
@@ -93,7 +153,7 @@ export function feeds(country, query, window = "7d") {
 }
 
 // Headlines without any of these words are rarely events; skipping them saves AI credits.
-export const EVENT_WORDS = /งาน|จัด|เทศกาล|แฟนมีต|คอนเสิร์ต|โชว์|มหกรรม|นิทรรศการ|เปิดตัว|สัมมนา|แข่งขัน|fest|expo|show|con\b|conference|convention|summit|live|launch|開催|イベント|フェス|展|ライブ|即売会|ファンミ|発表会|大会|举办|举行|漫展|节|见面会|演唱会|开幕|启幕|发布会|大会|博览会/i;
+export const EVENT_WORDS = /lễ hội|sự kiện|triển lãm|hội chợ|giải đấu|ra mắt|concert|축제|개최|행사|박람회|콘서트|전시|팬미팅|대회|팝업|festival|pameran|konser|digelar|acara|turnamen|peluncuran|bazar|งาน|จัด|เทศกาล|แฟนมีต|คอนเสิร์ต|โชว์|มหกรรม|นิทรรศการ|เปิดตัว|สัมมนา|แข่งขัน|fest|expo|show|con\b|conference|convention|summit|live|launch|開催|イベント|フェス|展|ライブ|即売会|ファンミ|発表会|大会|举办|举行|漫展|节|见面会|演唱会|开幕|启幕|发布会|大会|博览会/i;
 
 // Headlines with these are almost never public events even when an event word appears (checked before the AI).
 // Kept narrow on purpose: a missed event costs more than a few wasted tokens.

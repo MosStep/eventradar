@@ -75,7 +75,7 @@ const REGIONS = JSON.parse(fs.readFileSync(path.join(ROOT, "web", "regions.json"
 function regionCodes() { return Object.entries(REGIONS).map(([c, r]) => `${c}=${Object.keys(r).join("|")}`).join("; "); }
 const validRegion = (country, r) => (r && REGIONS[country]?.[r] ? r : null);
 
-const PROMPT = `You extract public EVENTS from news headlines (Thailand, Japan, China).
+const PROMPT = `You extract public EVENTS from news headlines (Thailand, Japan, China, Vietnam, South Korea, Indonesia).
 Today is ${today}. Keep events people can attend at a venue: conventions, exhibitions, expos, game shows, anime/comic/doujin
 events, cosplay, fan meetings, concerts, festivals, stage shows, premieres, tech/AI conferences, car launches, motor shows,
 food/drink festivals, art exhibitions, markets, pop-ups, sports, temple/shrine festivals, fireworks, fairs.
@@ -85,13 +85,13 @@ If a headline says an event is postponed/rescheduled (延期, 日程変更, เ�
 if it is cancelled (中止, ยกเลิก, 取消) give status "cancelled".
 SKIP: product/game/anime/movie releases with no event, general news, and events that already ended before today.
 Several headlines about the same event → one entry listing all their indices. Use each headline's date to infer the year.
-country = where the event PHYSICALLY takes place, not the news site's country. Events in any other country (Vietnam, Korea,
-Singapore, Taiwan…) get "OTHER"; Hong Kong and Macau count as CN. venue and city only if written in the text — never guess or translate a place
+country = where the event PHYSICALLY takes place, not the news site's country. Events in any other country (Singapore,
+Taiwan, Malaysia, Philippines…) get "OTHER"; Hong Kong and Macau count as CN. venue and city only if written in the text — never guess or translate a place
 into a different one (a Vietnamese plateau is not Mae Hong Son).
 Tags (pick 1-3): ${Object.entries(TAGS).map(([k, v]) => `${k}=${v}`).join(", ")}.
 Reply with valid JSON only. Never put the " character inside a string value (use 「」 or ' instead).
 {"events":[{"i":[0,3],"name":"official name (original language)","name_th":"Thai name","start":"YYYY-MM-DD or null",
-"end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null","country":"TH|JP|CN|OTHER","tags":["anime"],
+"end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null","country":"TH|JP|CN|VN|KR|ID|OTHER","tags":["anime"],
 "region":"region code or null","online":false,"status":"scheduled|postponed|cancelled","price_th":"short entry fee in Thai, max 40 characters (เข้าฟรี / 300 บาท / 500–2,500 บาท / ¥2,000), or null — only if stated",
 "summary_th":"one short Thai sentence"}]}
 Region codes: ${regionCodes()}.`;
@@ -120,7 +120,7 @@ function reschedule(ev, f) {
 function merge(events, found, items) {
   let added = 0;
   for (const f of found) {
-    if (!f.name || !["TH", "JP", "CN"].includes(f.country)) continue;
+    if (!f.name || !["TH", "JP", "CN", "VN", "KR", "ID"].includes(f.country)) continue;
     if (f.end && f.end < today) continue;
     const sources = (f.i || []).map(i => items[i]).filter(Boolean)
       .map(r => ({ title: r.title, link: r.link, source: r.source, date: r.date, image: r.image }));
@@ -198,7 +198,7 @@ const posterOk = url => url && !GENERIC_IMAGE.test(url) && !genericImages.has(ur
 async function searchImage(ev) {
   ev.imageTried = true;
   ev.imageTriedAt = today;
-  const cc = { TH: "&cc=TH", JP: "&cc=JP" }[ev.country] || "";
+  const cc = { TH: "&cc=TH", JP: "&cc=JP", VN: "&cc=VN", KR: "&cc=KR", ID: "&cc=ID" }[ev.country] || "";
   try {
     const xml = await (await fetch(`https://www.bing.com/news/search?q=${encodeURIComponent(ev.name)}&format=rss${cc}`, { headers: UA })).text();
     const items = xml.split("<item>").slice(1, 5);
@@ -546,7 +546,7 @@ async function fillDates() {
     ev.dateTried = true;
     let text = "";
     try {
-      const cc = { TH: "&cc=TH", JP: "&cc=JP" }[ev.country] || "";
+      const cc = { TH: "&cc=TH", JP: "&cc=JP", VN: "&cc=VN", KR: "&cc=KR", ID: "&cc=ID" }[ev.country] || "";
       const xml = await (await fetch(`https://www.bing.com/news/search?q=${encodeURIComponent(ev.name)}&format=rss${cc}`, { headers: UA })).text();
       text = xml.split("<item>").slice(1, 6).map(i => `- ${tag(i, "title")} — ${tag(i, "description")}`).join("\n");
       const first = ev.sources.map(s => s.link).find(l => !/news\.google\./.test(l));
@@ -735,13 +735,16 @@ console.log(`[image search] ${noImage.length} events without poster: found ${noI
 // Region for events that have none yet: one cheap call per 40 events (name, venue, city → region code).
 // Place check: events whose text mentions another country are hidden until Haiku confirms where they are
 // (Nemotron proved unreliable at this). Confirmed outside TH/JP/CN → removed; otherwise shown again.
-const FOREIGN = /เวียดนาม|vietnam|ฮานอย|hanoi|โฮจิมินห์|ho chi minh|ดาลัด|ฮาซาง|ha giang|ดงวัน|ตวนกวาง|เกาหลี|korea|โซล|seoul|ปูซาน|busan|สิงคโปร์|singapore|ไต้หวัน|taiwan|ไทเป|taipei|มาเลเซีย|malaysia|กัวลาลัมเปอร์|kuala lumpur|อินโดนีเซีย|indonesia|จาการ์ตา|jakarta|บาหลี|bali|ฟิลิปปินส์|philippines|มะนิลา|manila|ลาว|laos|เวียงจันทน์|กัมพูชา|cambodia|พนมเปญ|เมียนมา|myanmar|ย่างกุ้ง|อินเดีย|india|ออสเตรเลีย|australia|อเมริกา|usa|ลอนดอน|london|ปารีส|paris|ベトナム|韓国|台湾|越南|韩国|台湾|新加坡/i;
+const FOREIGN = /สิงคโปร์|singapore|ไต้หวัน|taiwan|ไทเป|taipei|มาเลเซีย|malaysia|กัวลาลัมเปอร์|kuala lumpur|ฟิลิปปินส์|philippines|มะนิลา|manila|ลาว|laos|เวียงจันทน์|กัมพูชา|cambodia|พนมเปญ|เมียนมา|myanmar|ย่างกุ้ง|อินเดีย|india|ออสเตรเลีย|australia|อเมริกา|usa|ลอนดอน|london|ปารีส|paris|台湾|台湾|新加坡/i;
 const PLACE_PROMPT = `For each numbered event, say where it PHYSICALLY takes place, using only the given text.
-Reply with valid JSON only: {"0":{"country":"TH|JP|CN|OTHER","city":"city or null"},...}
-OTHER = any other country (Vietnam, Korea, Singapore, Taiwan, USA…). Hong Kong and Macau count as CN. An event in Japan ABOUT Vietnam is JP.`;
+Reply with valid JSON only: {"0":{"country":"TH|JP|CN|VN|KR|ID|OTHER","city":"city or null"},...}
+VN = Vietnam, KR = South Korea, ID = Indonesia. OTHER = any other country (Singapore, Taiwan, Malaysia, USA…). Hong Kong and Macau count as CN. An event in Japan ABOUT Vietnam is JP.`;
 {
   const text = e => [e.name, e.name_th, e.venue, e.city, e.summary_th, e.about_th, ...e.sources.slice(0, 3).map(s => s.title)].join(" ");
-  for (const e of events) if (!e.placeChecked && !FOREIGN.test(text(e))) e.placeChecked = true;
+  const NAMED = { VN: /เวียดนาม|vietnam|ฮานอย|hanoi|โฮจิมินห์|ho chi minh|ดาลัด|ดานัง|ฮาซาง|ha giang|ดงวัน|ตวนกวาง|ベトナム|越南/i,
+    KR: /เกาหลี|korea|โซล|seoul|ปูซาน|busan|韓国|韩国|한국|서울/i, ID: /อินโดนีเซีย|indonesia|จาการ์ตา|jakarta|บาหลี|bali|インドネシア|印尼/i };
+  const suspect = e => FOREIGN.test(text(e)) || Object.entries(NAMED).some(([c, re]) => c !== e.country && re.test(text(e)));
+  for (const e of events) if (!e.placeChecked && !suspect(e)) e.placeChecked = true;
   const todo = events.filter(e => !e.placeChecked);
   todo.forEach(e => (e.placeSuspect = true));
   let removed = 0, fixed = 0, cleared = 0;
@@ -756,7 +759,7 @@ OTHER = any other country (Vietnam, Korea, Singapore, Taiwan, USA…). Hong Kong
       if (!r || !r.country) return;
       e.placeChecked = true; e.placeSuspect = false; cleared++;
       if (r.country === "OTHER") { events.splice(events.indexOf(e), 1); removed++; return; }
-      if (["TH", "JP", "CN"].includes(r.country) && r.country !== e.country) { e.country = r.country; e.region = null; e.regionTried = false; fixed++; }
+      if (["TH", "JP", "CN", "VN", "KR", "ID"].includes(r.country) && r.country !== e.country) { e.country = r.country; e.region = null; e.regionTried = false; fixed++; }
       if (r.city && r.city !== e.city) { e.city = String(r.city).slice(0, 60); e.region = null; e.regionTried = false; }
     });
   }
