@@ -1,6 +1,6 @@
 # Local extraction loop on the unlimited Nemotron key: each round extracts a few batches per country (upcoming events
 # first), checks/fills details, then commits and pushes data. Started at logon by the "EventRadar loop" scheduled task.
-# Keys come from the user environment (TENIXE_KEYS, TENIXE_NEMOTRON_KEYS) - never from files.
+# Keys come from the user environment (TENIXE_KEYS, TENIXE_NEMOTRON_KEYS, AIU_KEYS) - never from files.
 $ErrorActionPreference = "Continue"
 Set-Location (Split-Path $PSScriptRoot -Parent)
 
@@ -8,16 +8,19 @@ Set-Location (Split-Path $PSScriptRoot -Parent)
 $mutex = New-Object System.Threading.Mutex($false, "Global\EventRadarLoop")
 if (-not $mutex.WaitOne(0)) { "another loop is already running"; exit 0 }
 
-foreach ($k in "TENIXE_KEYS", "TENIXE_NEMOTRON_KEYS") {
+foreach ($k in "TENIXE_KEYS", "TENIXE_NEMOTRON_KEYS", "AIU_KEYS", "AIU_CONCURRENCY") {
   if (-not (Get-Item "Env:$k" -ErrorAction SilentlyContinue)) {
     $v = [Environment]::GetEnvironmentVariable($k, "User")
     if ($v) { Set-Item "Env:$k" $v }
   }
 }
-if (-not $env:TENIXE_NEMOTRON_KEYS -and -not $env:TENIXE_KEYS) { "no API keys in the environment - see TODO.md"; exit 1 }
+if (-not $env:TENIXE_NEMOTRON_KEYS -and -not $env:TENIXE_KEYS -and -not $env:AIU_KEYS) { "no API keys in the environment - see TODO.md"; exit 1 }
 
-$env:EXTRACT_MODELS = "nemotron-3-ultra"
-$env:DESCRIBE_MODELS = "nemotron-3-ultra"
+# Without AIUnlimit keys the loop pins the unlimited Nemotron key; with them the default chains (AIUnlimit first) apply.
+if (-not $env:AIU_KEYS) {
+  $env:EXTRACT_MODELS = "nemotron-3-ultra"
+  $env:DESCRIBE_MODELS = "nemotron-3-ultra"
+}
 $log = Join-Path $env:LOCALAPPDATA "EventRadar\loop.log"
 New-Item -ItemType Directory -Force (Split-Path $log) | Out-Null
 $round = 0

@@ -5,7 +5,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { COUNTRIES, TAGS, TAXONOMY, EVENT_WORDS, NOT_EVENT_WORDS, PRTIMES_EVENT, WATCH_DEFAULT, OFFICIAL_PAGES, feeds } from "./sources.mjs";
 import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv, eventId, dateMentions, cleanSplit } from "./lib.mjs";
-import { extract, hasKeys, nemotronKeys, keyStats, ORDERS, BillingStop, aiDown, aiDownReason, haltAi } from "./tenixe.mjs";
+import { extract, hasKeys, workersFor, keyStats, ORDERS, BillingStop, aiDown, aiDownReason, haltAi } from "./tenixe.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw.json");
@@ -316,7 +316,8 @@ const AHEAD = /เตรียมจัด|จะจัด|เปิดจอง
 const ahead = r => (AHEAD.test(r.title + r.desc) ? 1 : 0);
 const pending = Object.values(raw).filter(r => r.status === "new")
   .sort((a, b) => ahead(b) - ahead(a) || b.date.localeCompare(a.date));
-// Batches are queued country by country (interleaved), then run in parallel: one worker per Nemotron key.
+// Batches are queued country by country (interleaved), then run in parallel: one worker per Nemotron key, or
+// AIU_CONCURRENCY workers when the chain starts with AIUnlimit.
 let added = 0, stop = false;
 const jobs = [];
 for (const country of TIDY ? [] : Object.keys(COUNTRIES)) {
@@ -324,7 +325,7 @@ for (const country of TIDY ? [] : Object.keys(COUNTRIES)) {
   for (let i = 0, b = 0; i < list.length && b < MAX_BATCHES; i += BATCH, b++) jobs.push([b, country, list.slice(i, i + BATCH)]);
 }
 jobs.sort((x, y) => x[0] - y[0]);
-const workerKeys = ORDERS.extract.startsWith("nemotron") && nemotronKeys().length ? nemotronKeys() : [null];
+const workerKeys = workersFor(ORDERS.extract);
 await Promise.all(workerKeys.map(async key => {
   while (jobs.length && !stop && !aiOff()) {
     const [b, country, items] = jobs.shift();
@@ -418,7 +419,7 @@ async function processReports() {
           const ctx = `Event: ${JSON.stringify({ name: e.name, name_th: e.name_th, start: e.start, end: e.end, venue: e.venue, city: e.city, price_th: e.price_th, online: e.online, status: e.status })}
 Sources:\n${e.sources.slice(0, 5).map(s => `- [${s.date}] ${s.title} (${s.link})`).join("\n")}
 Report: ${detail}\nUser says correct info / link: ${correct || "-"}`;
-          const d = parseJson((await extract([{ role: "system", content: REPORT_PROMPT }, { role: "user", content: ctx }], "claude-haiku-5-5,nemotron-3-ultra")).text);
+          const d = parseJson((await extract([{ role: "system", content: REPORT_PROMPT }, { role: "user", content: ctx }], ORDERS.verify)).text);
           if (d.action === "remove") { events.splice(events.indexOf(e), 1); counts.removed++; }
           else if (d.action === "fix" && d.fix) {
             const f = d.fix;
@@ -621,7 +622,11 @@ async function splitRoundups() {
   const todo = events.filter(e => !e.hidden && !done.has(e.id) && (tries[e.id] || 0) < 3 && (!e.end || e.end >= today) && e.sources.length)
     .sort((a, b) => (a.country === "TH" ? 0 : 1) - (b.country === "TH" ? 0 : 1)).slice(0, MAX_SPLIT);
   let roundups = 0, made = 0;
-  for (const ev of todo) {
+  // Parallel workers like extraction: one per Nemotron key, or AIU_CONCURRENCY on AIUnlimit.
+  const queue = [...todo];
+  let splitStop = false;
+  await Promise.all(workersFor(ORDERS.describe).map(async key => { while (queue.length && !splitStop) {
+    const ev = queue.shift();
     if (aiOff()) break;
     const { text, published } = await articleFor(ev);
     // No article text (fetch failed): retry on a later run, giving up after 3 tries.
@@ -630,7 +635,7 @@ async function splitRoundups() {
     roundups++;
     try {
       const { text: out } = await extract([{ role: "system", content: SPLIT_PROMPT },
-        { role: "user", content: `Article (published ${published || "unknown"}):\n${text}` }], ORDERS.describe);
+        { role: "user", content: `Article (published ${published || "unknown"}):\n${text}` }], ORDERS.describe, key);
       const d = cleanSplit(parseJson(out), Object.keys(TAGS));
       for (const f of d.events) {
         const country = Object.keys(COUNTRIES).includes(f.country) ? f.country : ev.country;
@@ -645,14 +650,14 @@ async function splitRoundups() {
       if (d.announcement && d.events.length) ev.hidden = true;
       done.add(ev.id);
     } catch (e) {
-      if (e instanceof BillingStop) { console.error(e.message); break; }
+      if (e instanceof BillingStop) { console.error(e.message); splitStop = true; break; }
       // Rate limit / quota / provider down: the article is fine, so no try is counted; stop until the next run.
-      if (e.busy) { console.warn(`[split] provider busy, ${ev.name} kept for a later run`); break; }
+      if (e.busy) { console.warn(`[split] provider busy, ${ev.name} kept for a later run`); splitStop = true; break; }
       tries[ev.id] = (tries[ev.id] || 0) + 1;
       console.warn(`[split] ${ev.name}: ${e.message.slice(0, 120)}`);
     }
     persist();
-  }
+  } }));
   console.log(`[split] ${todo.length} checked, ${roundups} roundup articles, +${made} events`);
 }
 
@@ -863,10 +868,10 @@ if (noRegion.length) console.log(`[region] ${noRegion.filter(e => e.region).leng
 const MAX_DESCRIBE = Number(arg("max-describe", 40));
 const toDescribe = events.filter(e => (!e.described || (!e.start && !e.datesRead)) && (!e.end || e.end >= today))
   .sort((a, b) => (a.start ? 1 : 0) - (b.start ? 1 : 0)).slice(0, MAX_DESCRIBE);
-// Same parallel pattern as extraction: one worker per Nemotron key.
+// Same parallel pattern as extraction: one worker per Nemotron key (or AIU_CONCURRENCY workers on AIUnlimit).
 let described = 0, describeStop = false;
 const describeQueue = [...toDescribe];
-if (hasKeys() && !aiOff()) await Promise.all((nemotronKeys().length ? nemotronKeys() : [null]).map(async key => {
+if (hasKeys() && !aiOff()) await Promise.all(workersFor(ORDERS.describe).map(async key => {
   while (describeQueue.length && !describeStop && !aiOff()) {
     const ev = describeQueue.shift();
     try { await describe(ev, key); described++; } catch (e) {
@@ -912,7 +917,7 @@ const priceQueue = events.filter(e => !e.price_th && e.start && e.end >= today &
 let priced = 0;
 if (hasKeys() && priceQueue.length && !aiOff()) {
   const total = priceQueue.length;
-  await Promise.all((nemotronKeys().length ? nemotronKeys() : [null]).map(async (key, n) => {
+  await Promise.all(workersFor(ORDERS.describe).map(async (key, n) => {
     await sleep(n * 700); // stagger the searches a little
     while (priceQueue.length && !aiOff()) {
       const ev = priceQueue.shift();

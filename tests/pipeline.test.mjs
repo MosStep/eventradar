@@ -3,6 +3,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { parseJson, repairQuotes, similar, similarLoose, near, years, isDate, unwrap, tag, extractText, dateMentions, cleanSplit, eventId, errorKind } from "../pipeline/lib.mjs";
 import { NOT_EVENT_WORDS, PRTIMES_EVENT, EVENT_WORDS } from "../pipeline/sources.mjs";
+import { providerOf } from "../pipeline/tenixe.mjs";
 
 test("bare quotes inside AI JSON are repaired", () => {
   const broken = '{"events":[{"name":"お昼寝系"Suupeas"が出演","i":[1]}]}';
@@ -91,4 +92,13 @@ test("AI errors: provider rate limits are told apart from quota and billing", ()
 test("event ids are stable for the same country, name and start", () => {
   assert.equal(eventId("TH", "Pokemon RUN 30", "2027-01-09"), eventId("TH", "pokemon run 30", "2027-01-09"));
   assert.notEqual(eventId("TH", "Pokemon RUN 30", "2027-01-09"), eventId("JP", "Pokemon RUN 30", "2027-01-09"));
+});
+
+test("models with a node prefix (rb/, cb/, mr/) route to AIUnlimit, the rest to Tenixe", () => {
+  assert.equal(providerOf("rb/deepseek-v4.1-flash"), "aiu");
+  assert.equal(providerOf("cb/deepseek-v4.1-flash"), "aiu");
+  assert.equal(providerOf("mr/gemini-3.5-flash-lite"), "aiu");
+  assert.equal(providerOf("nemotron-3-ultra"), "tenixe");
+  assert.equal(providerOf("claude-haiku-5-5"), "tenixe");
+  assert.equal(providerOf("deepseek-v4-flash"), "tenixe");
 });
