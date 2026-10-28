@@ -117,8 +117,8 @@ const followMatch = e => state.follows.find(w => [e.name, e.name_th, e.venue, e.
 function visible() {
   const q = state.q.toLowerCase();
   const [hc, hr] = home().split(":");
-  // placeSuspect: mentions another country and Haiku has not confirmed where it is yet
-  return state.events.filter(e => !e.placeSuspect && !state.offCountries.has(e.country) && !(e.region && state.offRegions.has(`${e.country}:${e.region}`))
+  // placeSuspect: mentions another country and Haiku has not confirmed where it is yet; hidden: an announcement whose events are listed separately
+  return state.events.filter(e => !e.placeSuspect && !e.hidden && !state.offCountries.has(e.country) && !(e.region && state.offRegions.has(`${e.country}:${e.region}`))
     && (state.format === "all" || (state.format === "online") === !!e.online)
     && e.tags.some(t => !state.offTags.has(t) && (!state.quick || TAGS[t]?.group === state.quick))
     && (!state.near || !hc || (e.country === hc && (!hr || e.region === hr)))

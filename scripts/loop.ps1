@@ -24,7 +24,7 @@ $round = 0
 while ($true) {
   $round++
   $fetch = ($round -eq 1 -or $round % 12 -eq 0)
-  $opts = @("--max-batches=4", "--max-describe=80", "--max-verify=20", "--max-dates=30", "--max-price=40")
+  $opts = @("--max-batches=4", "--max-describe=80", "--max-verify=20", "--max-dates=30", "--max-price=40", "--split=20")
   $opts = if ($fetch) { @("--window=1d") + $opts } else { @("--no-fetch") + $opts }
   "=== round $round $(Get-Date -Format 'yyyy-MM-dd HH:mm') $opts" | Tee-Object -Append $log
   git pull -q --rebase --autostash origin main 2>&1 | Out-Null

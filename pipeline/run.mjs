@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { COUNTRIES, TAGS, TAXONOMY, EVENT_WORDS, NOT_EVENT_WORDS, PRTIMES_EVENT, WATCH_DEFAULT, OFFICIAL_PAGES, feeds } from "./sources.mjs";
-import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv } from "./lib.mjs";
+import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv, eventId, dateMentions, cleanSplit } from "./lib.mjs";
 import { extract, hasKeys, nemotronKeys, keyStats, ORDERS, BillingStop } from "./tenixe.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
@@ -140,7 +140,7 @@ function merge(events, found, items) {
       for (const s of sources) if (!ev.sources.some(x => x.link === s.link)) { ev.sources.push(s); ev.enriched = false; }
       ev.updated = today;
     } else {
-      events.push({ id: crypto.createHash("sha1").update(f.country + norm(f.name) + (f.start || "")).digest("hex").slice(0, 12),
+      events.push({ id: eventId(f.country, f.name, f.start),
         name: f.name, name_th: f.name_th ?? null, start: f.start ?? null, end: f.end ?? f.start ?? null, venue: f.venue ?? null,
         city: f.city ?? null, country: f.country, region: validRegion(f.country, f.region), online: f.online === true, price_th: f.price_th || null, tags, summary_th: f.summary_th ?? null, image: null, official: null,
         sources, added: today, updated: today });
@@ -238,16 +238,22 @@ Reply with valid JSON only (no " inside string values):
 "hours":"opening hours or null","price_th":"short entry fee in Thai, max 40 characters (เข้าฟรี / 300 บาท / 500–2,500 บาท / ¥2,000), or null","ticket_url":"ticket/official URL found in the text, or null"}`;
 
 // Richer details for the app's event page, from the article text (falls back to the headlines).
-async function describe(ev, key = null) {
+// Text of the event's first two non-redirect articles (stops at the first long one), with its publish date.
+// Articles often write "May 30 and 31" without a year, so the model also gets the publish date
+// (from the URL like …/2026-01-16/…, else the headline's date).
+async function articleFor(ev) {
   const urls = [...ev.sources.filter(s => !s.dead).map(s => s.link).filter(l => !/news\.google\./.test(l)), ev.article].filter(Boolean);
-  // Articles often write "May 30 and 31" without a year, so the model also gets each article's publish date
-  // (from the URL like …/2026-01-16/…, else the headline's date).
   let text = "", published = null;
   for (const u of urls.slice(0, 2)) {
     try { text = await articleText(u); } catch {}
     published = (u.match(/(20\d\d)[-/](\d\d)[-/](\d\d)/) || []).slice(1).join("-") || ev.sources.find(s => s.link === u)?.date || null;
     if (text.length > 300) break;
   }
+  return { text, published };
+}
+
+async function describe(ev, key = null) {
+  const { text, published } = await articleFor(ev);
   const context = `Event: ${ev.name} (${ev.start || "date unknown"}, ${[ev.venue, ev.city].filter(Boolean).join(", ")})\n` +
     `Headlines:\n${ev.sources.slice(0, 5).map(s => `- [published ${s.date}] ${s.title}`).join("\n")}\n\n` +
     `Article (published ${published || ev.sources[0]?.date || "unknown"}):\n${text || "(none)"}`;
@@ -579,10 +585,60 @@ for (let i = events.length - 1; i > 0; i--) {
   for (const s of dup.sources) if (!keep.sources.some(x => x.link === s.link)) keep.sources.push(s);
 }
 
+// Roundup articles: one article often announces several separate events (a press conference that also lists the
+// openings, tournaments and parades). An article with 2+ dated mentions is read again, and each public event it
+// announces becomes its own entry with the same sources. The announcement entry is hidden when the article only
+// announces the others. Each event is checked once (data/split-state.json); --split=N limits the checks per run.
+const MAX_SPLIT = Number(arg("split", 20));
+const SPLIT_FILE = path.join(ROOT, "data", "split-state.json");
+const SPLIT_PROMPT = `The news article below may announce SEVERAL separate events that people can attend (a store opening,
+a tournament, a parade, a fan event, an exhibition). Today is ${today}.
+List each distinct public event with its own dates and venue, using ONLY the article text. Leave out the press conference
+or launch announcement itself unless it is open to the public. Set "announcement" to true when the article only announces
+other events, false when its main event is itself public.
+Reply with valid JSON only: {"announcement":false,"events":[{"name":"official name (original language)","name_th":"Thai name",
+"start":"YYYY-MM-DD or null","end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null",
+"country":"TH|JP|CN|...","tags":["game"],"summary_th":"one short Thai sentence"}]}
+Tags: ${Object.keys(TAGS).join(", ")}. Country = where the event takes place (codes: ${Object.keys(COUNTRIES).join(", ")}).`;
+async function splitRoundups() {
+  const done = new Set(load(SPLIT_FILE, { done: [] }).done);
+  const todo = events.filter(e => !e.hidden && !done.has(e.id) && (!e.end || e.end >= today) && e.sources.length)
+    .sort((a, b) => (a.country === "TH" ? 0 : 1) - (b.country === "TH" ? 0 : 1)).slice(0, MAX_SPLIT);
+  let roundups = 0, made = 0;
+  for (const ev of todo) {
+    done.add(ev.id);
+    const { text, published } = await articleFor(ev);
+    if (dateMentions(text).size >= 2) {
+      roundups++;
+      try {
+        const { text: out } = await extract([{ role: "system", content: SPLIT_PROMPT },
+          { role: "user", content: `Article (published ${published || "unknown"}):\n${text}` }], ORDERS.describe);
+        const d = cleanSplit(parseJson(out), Object.keys(TAGS));
+        for (const f of d.events) {
+          const country = Object.keys(COUNTRIES).includes(f.country) ? f.country : ev.country;
+          if (events.some(e => sameEvent(e, { ...f, country }))) continue; // already listed (maybe under the same article)
+          events.push({ id: eventId(country, f.name, f.start), name: f.name, name_th: f.name_th, start: f.start, end: f.end ?? f.start,
+            venue: f.venue, city: f.city, country, region: null, regionTried: false, online: false, price_th: null,
+            tags: f.tags.length ? f.tags : ev.tags, summary_th: f.summary_th, image: ev.image, imageFrom: ev.imageFrom,
+            imageHash: ev.imageHash, official: null, sources: ev.sources.map(s => ({ ...s })), article: ev.article,
+            splitFrom: ev.id, added: today, updated: today, enriched: false });
+          made++;
+        }
+        if (d.announcement && d.events.length) ev.hidden = true;
+      } catch (e) {
+        if (e instanceof BillingStop) { console.error(e.message); done.delete(ev.id); break; }
+        console.warn(`[split] ${ev.name}: ${e.message.slice(0, 120)}`);
+      }
+    }
+    save(SPLIT_FILE, { done: [...done] });
+  }
+  console.log(`[split] ${todo.length} checked, ${roundups} roundup articles, +${made} events`);
+}
+
 function dupCandidates() {
   const pairs = [];
   const asked = (a, b) => (a.notDupWith || []).includes(b.id) || (b.notDupWith || []).includes(a.id);
-  const dated = events.filter(e => e.start);
+  const dated = events.filter(e => e.start && !e.hidden);
   for (let i = 0; i < dated.length; i++) for (let j = i + 1; j < dated.length; j++) {
     const a = dated[i], b = dated[j];
     if (a.country !== b.country || dayGap(a.start, b.start) > 1 || dayGap(a.end || a.start, b.end || b.start) > 1) continue;
@@ -592,7 +648,7 @@ function dupCandidates() {
   // An undated entry is often a vaguer report of a dated one: pair it with dated events whose name looks alike.
   const looseName = (a, b) => [[a.name, b.name], [a.name_th, b.name_th], [a.name, b.name_th], [a.name_th, b.name]]
     .some(([x, y]) => x && y && similarLoose(x, y));
-  for (const u of events.filter(e => !e.start))
+  for (const u of events.filter(e => !e.start && !e.hidden))
     for (const d of dated) if (u.country === d.country && !asked(u, d) && looseName(u, d)) pairs.push([d, u]);
   return pairs;
 }
@@ -624,6 +680,7 @@ Reply with valid JSON only: {"0":true,"1":false,...}`;
   }
   console.log(`[dedupe] ${pairs.length} candidate pairs, merged ${merged}`);
 }
+if (hasKeys()) await splitRoundups();
 if (hasKeys()) await aiDedupe();
 
 // Thai names for events that came without one (e.g. Bilibili listings).
@@ -879,7 +936,7 @@ function writeCalendars() {
   const ymd = s => s.replaceAll("-", "");
   const next = s => { const d = new Date(s + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + 1); return d.toISOString().slice(0, 10); };
   const stamp = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
-  const upcoming = events.filter(e => e.start && (e.end || e.start) >= today);
+  const upcoming = events.filter(e => e.start && !e.hidden && (e.end || e.start) >= today);
   const write = (file, name, list) => {
     const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//EventRadar//TH", `X-WR-CALNAME:${name}`, "X-PUBLISHED-TTL:PT6H", "REFRESH-INTERVAL;VALUE=DURATION:PT6H"];
     for (const e of list) lines.push("BEGIN:VEVENT", `UID:${e.id}@eventradar`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${ymd(e.start)}`,
@@ -922,7 +979,7 @@ function writeSharePages() {
   const h = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
   const TH_MONTH = ["ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."];
   const d = s => { const [y, m, dd] = s.split("-").map(Number); return `${dd} ${TH_MONTH[m - 1]} ${y + 543}`; };
-  for (const e of events.filter(e => !e.end || e.end >= today)) {
+  for (const e of events.filter(e => !e.hidden && (!e.end || e.end >= today))) {
     const when = e.start ? (e.end && e.end !== e.start ? `${d(e.start)} – ${d(e.end)}` : d(e.start)) : "รอประกาศวัน";
     const desc = [when, [e.venue, e.city].filter(Boolean).join(", "), e.price_th && `ค่าเข้า ${e.price_th}`].filter(Boolean).join(" · ");
     const image = e.image ? `https://images.weserv.nl/?url=${encodeURIComponent(e.image)}&w=1200&h=630&fit=cover&output=jpg` : "";

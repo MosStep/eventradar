@@ -1,4 +1,5 @@
 // Pure helpers used by the pipeline (no network, no state) — kept here so tests can import them.
+import crypto from "node:crypto";
 
 export const decode = s => s.replace(/<!\[CDATA\[|\]\]>/g, "").replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&lt;/g, "<")
   .replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim();
@@ -31,6 +32,9 @@ export function repairQuotes(s) {
 }
 
 export const norm = s => (s || "").toLowerCase().normalize("NFKC").replace(/[^\p{L}\p{N}]/gu, "");
+
+// Stable event id: the same country, name and start always give the same id.
+export const eventId = (country, name, start) => crypto.createHash("sha1").update(country + norm(name) + (start || "")).digest("hex").slice(0, 12);
 
 // Same event reported under slightly different names: compare character bigrams (Dice) of name and Thai name.
 export function similar(a, b) {
@@ -93,4 +97,22 @@ export function parseCsv(text) {
   }
   if (cell || row.length) { row.push(cell); rows.push(row); }
   return rows.filter(r => r.some(x => x.trim()));
+}
+
+// Day + month mentions in an article (Thai, English, Japanese). Two or more distinct ones: the article may announce several dated events.
+const DATE_MENTION = /\d{1,2}\s*(?:ม\.ค\.|ก\.พ\.|มี\.ค\.|เม\.ย\.|พ\.ค\.|มิ\.ย\.|ก\.ค\.|ส\.ค\.|ก\.ย\.|ต\.ค\.|พ\.ย\.|ธ\.ค\.|มกราคม|กุมภาพันธ์|มีนาคม|เมษายน|พฤษภาคม|มิถุนายน|กรกฎาคม|สิงหาคม|กันยายน|ตุลาคม|พฤศจิกายน|ธันวาคม)|(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2}\b|\b\d{1,2}\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\b|\d{1,2}月\d{1,2}日/gi;
+export const dateMentions = text => new Set((String(text || "").match(DATE_MENTION) || []).map(m => m.replace(/\s+/g, "").toLowerCase()));
+
+// The model's answer for a roundup article: {announcement, events}. Keeps entries with a name; drops tags outside the taxonomy.
+export function cleanSplit(out, tagKeys) {
+  const list = Array.isArray(out?.events) ? out.events : [];
+  const str = (v, n) => (typeof v === "string" && v.trim() ? v.trim().slice(0, n) : null);
+  return {
+    announcement: out?.announcement === true,
+    events: list.filter(e => str(e?.name, 120)).map(e => ({
+      name: str(e.name, 120), name_th: str(e.name_th, 120), start: isDate(e.start) ? e.start : null, end: isDate(e.end) ? e.end : null,
+      venue: str(e.venue, 80), city: str(e.city, 60), country: str(e.country, 8), summary_th: str(e.summary_th, 200),
+      tags: (Array.isArray(e.tags) ? e.tags : []).filter(t => tagKeys.includes(t)),
+    })),
+  };
 }
