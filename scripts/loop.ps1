@@ -93,6 +93,7 @@ while ($true) {
   "=== round $round $(Get-Date -Format 'yyyy-MM-dd HH:mm') $opts" | Tee-Object -Append $log
   git pull -q --rebase --autostash origin main 2>&1 | Out-Null
   if (-not (Resolve-DataRebase)) { Write-Log "pre-round sync: conflict outside data/" }
+  $roundStart = (Get-Date).ToUniversalTime()
   node pipeline/run.mjs @opts 2>&1 | ForEach-Object { "$_" } | Tee-Object -Append $log
   git add data | Out-Null
   git commit -q -m "data: local Nemotron round $round" | Out-Null
@@ -108,9 +109,15 @@ while ($true) {
   }
   $left = node -e "const r=require('./data/raw.json');console.log(Object.values(r).filter(x=>x.status==='new').length)"
   "    pending headlines: $left" | Tee-Object -Append $log
-  # The provider was busy (rate limit / quota) in this round: give it 20 extra minutes before the next one.
-  $aiDown = node -e "try { console.log(require('./data/status.json').ai.down === true) } catch (e) { console.log(false) }"
-  if ("$aiDown".Trim() -eq "True" -or "$aiDown".Trim() -eq "true") { "    AI provider busy - waiting 20 min extra" | Tee-Object -Append $log; Start-Sleep -Seconds 1200 }
+  # The provider was busy (rate limit / quota) in a round that finished: give it 20 extra minutes before the next one.
+  # Only a status.json written by this round counts (finishedAt not before the round start); a crashed round leaves
+  # the old file behind, so it never causes the wait.
+  $statusInfo = "$(node -e "try { const s = require('./data/status.json'); console.log([s.finishedAt, s.ai && s.ai.down === true].join('|')) } catch (e) { console.log('|false') }")".Trim()
+  $parts = $statusInfo -split '\|'
+  $finished = $null
+  if ($parts[0]) { try { $finished = [datetime]::Parse($parts[0]).ToUniversalTime() } catch { $finished = $null } }
+  $aiDown = ($parts.Count -gt 1 -and $parts[1] -eq "true")
+  if ($finished -and $finished -ge $roundStart -and $aiDown) { "    AI provider busy - waiting 20 min extra" | Tee-Object -Append $log; Start-Sleep -Seconds 1200 }
   # Backlog done: keep going but slowly - one round an hour picks up news the 4-a-day GitHub runs missed.
   if ([int]$left -lt 50) { Start-Sleep -Seconds 3600 }
 }

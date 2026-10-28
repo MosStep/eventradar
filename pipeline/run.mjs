@@ -37,7 +37,31 @@ const aiOff = () => {
 };
 
 const load =(f, def) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")) : def);
-const save = (f, v) => { fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, JSON.stringify(v, null, 1)); };
+// Atomic data write: temp file in the same dir, then rename over the target. Windows can briefly lock a file (git,
+// antivirus, a reader), so EBUSY/EPERM/UNKNOWN/EACCES are retried with a short sync backoff. A write that still fails
+// is logged and skipped instead of crashing the run; the next save or the final save persists the data.
+const RETRY_CODES = new Set(["EBUSY", "EPERM", "UNKNOWN", "EACCES"]);
+const syncWait = ms => Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+function writeFileAtomic(f, text) {
+  const tmp = `${f}.${process.pid}.${crypto.randomBytes(4).toString("hex")}.tmp`;
+  let err;
+  for (let attempt = 1; attempt <= 10; attempt++) {
+    try {
+      fs.mkdirSync(path.dirname(f), { recursive: true });
+      fs.writeFileSync(tmp, text);
+      fs.renameSync(tmp, f);
+      return true;
+    } catch (e) {
+      err = e;
+      if (!RETRY_CODES.has(e.code)) break;
+      if (attempt < 10) syncWait(200 + Math.floor(Math.random() * 800));
+    }
+  }
+  try { fs.rmSync(tmp, { force: true }); } catch {}
+  console.warn(`[save] could not write ${path.basename(f)} (${err?.code ?? err}) - skipped, the next save will persist it`);
+  return false;
+}
+const save = (f, v) => writeFileAtomic(f, JSON.stringify(v, null, 1));
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 
@@ -1026,7 +1050,7 @@ function writeCalendars() {
       `DESCRIPTION:${esc([e.price_th && "ค่าเข้า: " + e.price_th, e.summary_th, e.official || e.sources[0]?.link].filter(Boolean).join("\n"))}`,
       "BEGIN:VALARM", "TRIGGER:-PT15H", "ACTION:DISPLAY", `DESCRIPTION:พรุ่งนี้: ${esc(e.name_th || e.name)}`, "END:VALARM", "END:VEVENT");
     lines.push("END:VCALENDAR");
-    fs.writeFileSync(path.join(dir, file), lines.join("\r\n"));
+    writeFileAtomic(path.join(dir, file), lines.join("\r\n"));
   };
   write("all.ics", "EventRadar · ทุกงาน", upcoming);
   for (const [g, x] of Object.entries(TAXONOMY))
@@ -1065,7 +1089,7 @@ function writeSharePages() {
     const when = e.start ? (e.end && e.end !== e.start ? `${d(e.start)} – ${d(e.end)}` : d(e.start)) : "รอประกาศวัน";
     const desc = [when, [e.venue, e.city].filter(Boolean).join(", "), e.price_th && `ค่าเข้า ${e.price_th}`].filter(Boolean).join(" · ");
     const image = e.image ? `https://images.weserv.nl/?url=${encodeURIComponent(e.image)}&w=1200&h=630&fit=cover&output=jpg` : "";
-    fs.writeFileSync(path.join(dir, `${e.id}.html`), `<!doctype html><html lang="th"><head><meta charset="utf-8">
+    writeFileAtomic(path.join(dir, `${e.id}.html`), `<!doctype html><html lang="th"><head><meta charset="utf-8">
 <title>${h(e.name_th || e.name)} · EventRadar</title>
 <meta property="og:title" content="${h(e.name_th || e.name)}"><meta property="og:description" content="${h(desc)}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="EventRadar">
