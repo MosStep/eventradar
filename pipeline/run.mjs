@@ -85,10 +85,13 @@ If a headline says an event is postponed/rescheduled (延期, 日程変更, เ�
 if it is cancelled (中止, ยกเลิก, 取消) give status "cancelled".
 SKIP: product/game/anime/movie releases with no event, general news, and events that already ended before today.
 Several headlines about the same event → one entry listing all their indices. Use each headline's date to infer the year.
+country = where the event PHYSICALLY takes place, not the news site's country. Events in any other country (Vietnam, Korea,
+Singapore, Taiwan…) get "OTHER"; Hong Kong and Macau count as CN. venue and city only if written in the text — never guess or translate a place
+into a different one (a Vietnamese plateau is not Mae Hong Son).
 Tags (pick 1-3): ${Object.entries(TAGS).map(([k, v]) => `${k}=${v}`).join(", ")}.
 Reply with valid JSON only. Never put the " character inside a string value (use 「」 or ' instead).
 {"events":[{"i":[0,3],"name":"official name (original language)","name_th":"Thai name","start":"YYYY-MM-DD or null",
-"end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null","country":"TH|JP|CN","tags":["anime"],
+"end":"YYYY-MM-DD or null","venue":"venue or null","city":"city or null","country":"TH|JP|CN|OTHER","tags":["anime"],
 "region":"region code or null","online":false,"status":"scheduled|postponed|cancelled","price_th":"short entry fee in Thai, max 40 characters (เข้าฟรี / 300 บาท / 500–2,500 บาท / ¥2,000), or null — only if stated",
 "summary_th":"one short Thai sentence"}]}
 Region codes: ${regionCodes()}.`;
@@ -730,6 +733,36 @@ for (const ev of noImage) { await searchImage(ev); await sleep(400); }
 console.log(`[image search] ${noImage.length} events without poster: found ${noImage.filter(e => e.image).length}`);
 
 // Region for events that have none yet: one cheap call per 40 events (name, venue, city → region code).
+// Place check: events whose text mentions another country are hidden until Haiku confirms where they are
+// (Nemotron proved unreliable at this). Confirmed outside TH/JP/CN → removed; otherwise shown again.
+const FOREIGN = /เวียดนาม|vietnam|ฮานอย|hanoi|โฮจิมินห์|ho chi minh|ดาลัด|ฮาซาง|ha giang|ดงวัน|ตวนกวาง|เกาหลี|korea|โซล|seoul|ปูซาน|busan|สิงคโปร์|singapore|ไต้หวัน|taiwan|ไทเป|taipei|มาเลเซีย|malaysia|กัวลาลัมเปอร์|kuala lumpur|อินโดนีเซีย|indonesia|จาการ์ตา|jakarta|บาหลี|bali|ฟิลิปปินส์|philippines|มะนิลา|manila|ลาว|laos|เวียงจันทน์|กัมพูชา|cambodia|พนมเปญ|เมียนมา|myanmar|ย่างกุ้ง|อินเดีย|india|ออสเตรเลีย|australia|อเมริกา|usa|ลอนดอน|london|ปารีส|paris|ベトナム|韓国|台湾|越南|韩国|台湾|新加坡/i;
+const PLACE_PROMPT = `For each numbered event, say where it PHYSICALLY takes place, using only the given text.
+Reply with valid JSON only: {"0":{"country":"TH|JP|CN|OTHER","city":"city or null"},...}
+OTHER = any other country (Vietnam, Korea, Singapore, Taiwan, USA…). Hong Kong and Macau count as CN. An event in Japan ABOUT Vietnam is JP.`;
+{
+  const text = e => [e.name, e.name_th, e.venue, e.city, e.summary_th, e.about_th, ...e.sources.slice(0, 3).map(s => s.title)].join(" ");
+  for (const e of events) if (!e.placeChecked && !FOREIGN.test(text(e))) e.placeChecked = true;
+  const todo = events.filter(e => !e.placeChecked);
+  todo.forEach(e => (e.placeSuspect = true));
+  let removed = 0, fixed = 0, cleared = 0;
+  if (hasKeys()) for (let i = 0; i < todo.length; i += 20) {
+    const chunk = todo.slice(i, i + 20);
+    const lines = chunk.map((e, n) => `${n}. [given ${e.country}] ${e.name}${e.name_th ? " / " + e.name_th : ""} | venue: ${e.venue || "-"} | city: ${e.city || "-"} | ${e.sources.slice(0, 2).map(s => s.title).join(" / ").slice(0, 220)}`).join("\n");
+    let out;
+    try { out = parseJson((await extract([{ role: "system", content: PLACE_PROMPT }, { role: "user", content: lines }], ORDERS.verify)).text); }
+    catch (e) { if (e instanceof BillingStop) break; break; } // Haiku unavailable (quota): keep them hidden, retry next run
+    chunk.forEach((e, n) => {
+      const r = out[n];
+      if (!r || !r.country) return;
+      e.placeChecked = true; e.placeSuspect = false; cleared++;
+      if (r.country === "OTHER") { events.splice(events.indexOf(e), 1); removed++; return; }
+      if (["TH", "JP", "CN"].includes(r.country) && r.country !== e.country) { e.country = r.country; e.region = null; e.regionTried = false; fixed++; }
+      if (r.city && r.city !== e.city) { e.city = String(r.city).slice(0, 60); e.region = null; e.regionTried = false; }
+    });
+  }
+  if (todo.length) console.log(`[place] ${todo.length} mention another country: removed ${removed}, fixed ${fixed}, still hidden ${todo.length - cleared}`);
+}
+
 const noRegion = events.filter(e => !e.region && !e.regionTried);
 if (hasKeys()) for (let i = 0; i < noRegion.length; i += 40) {
   const chunk = noRegion.slice(i, i + 40);
