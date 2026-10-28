@@ -1,7 +1,7 @@
 // Checks for the pipeline helpers that have broken before. Run: node --test tests/*.test.mjs
 import test from "node:test";
 import assert from "node:assert/strict";
-import { parseJson, repairQuotes, similar, similarLoose, near, years, isDate, unwrap, tag, extractText, dateMentions, cleanSplit, eventId } from "../pipeline/lib.mjs";
+import { parseJson, repairQuotes, similar, similarLoose, near, years, isDate, unwrap, tag, extractText, dateMentions, cleanSplit, eventId, errorKind } from "../pipeline/lib.mjs";
 import { NOT_EVENT_WORDS, PRTIMES_EVENT, EVENT_WORDS } from "../pipeline/sources.mjs";
 
 test("bare quotes inside AI JSON are repaired", () => {
@@ -78,6 +78,14 @@ test("roundup AI answer is cleaned: unnamed items dropped, bad dates and tags re
   assert.equal(out.events[0].end, null);
   assert.deepEqual(out.events[0].tags, ["shop", "game"]);
   assert.deepEqual(cleanSplit(null, []).events, []);
+});
+
+test("AI errors: provider rate limits are told apart from quota and billing", () => {
+  assert.equal(errorKind('429: {"message":"The model provider is receiving too many requests right now","type":"api_error","code":"AI_PROVIDER_RATE_LIMITED"}'), "rate");
+  assert.equal(errorKind('429: {"error":"daily quota exceeded for this key"}'), "quota");
+  assert.equal(errorKind('402: {"error":"insufficient balance"}'), "quota");
+  assert.equal(errorKind('{"message":"account unpaid, add credits"}'), "billing");
+  assert.equal(errorKind("500: upstream_timeout"), "other");
 });
 
 test("event ids are stable for the same country, name and start", () => {

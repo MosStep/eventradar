@@ -73,6 +73,16 @@ export function similarLoose(a, b) {
 
 export const dayGap = (a, b) => Math.abs(new Date(a) - new Date(b)) / 864e5;
 
+// What kind of AI error this is: "billing" (stop), "quota" (this key is spent), "rate" (the provider is busy, retry
+// later), or "other" (bad request, timeout, bad JSON ...). Quota wording wins over a 429 status.
+export function errorKind(msg) {
+  const m = String(msg || "");
+  if (/unpaid|add credits|wallet/i.test(m)) return "billing";
+  if (/quota|insufficient|^402/i.test(m)) return "quota";
+  if (/AI_PROVIDER_RATE|too many requests|rate.?limit|^429/i.test(m)) return "rate";
+  return "other";
+}
+
 export function extractText(rawHtml) {
   const html = rawHtml
     .replace(/<(script|style|noscript|svg|nav|header|footer|aside|form)\b[\s\S]*?<\/\1>/gi, " ");

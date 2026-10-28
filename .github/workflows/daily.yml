@@ -43,7 +43,7 @@ jobs:
         env:
           TENIXE_KEYS: ${{ secrets.TENIXE_KEYS }}
           TENIXE_NEMOTRON_KEYS: ${{ secrets.TENIXE_NEMOTRON_KEYS }}
-        run: node pipeline/run.mjs --window=1d --max-batches=5 --max-describe=10 --max-verify=20 --max-price=20 --split=5
+        run: node pipeline/run.mjs --window=1d --max-batches=5 --max-describe=10 --max-verify=20 --max-price=20 --split=5 --budget-min=90
       - name: Save data
         if: github.event_name != 'push'
         run: |

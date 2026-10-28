@@ -24,7 +24,7 @@ $round = 0
 while ($true) {
   $round++
   $fetch = ($round -eq 1 -or $round % 12 -eq 0)
-  $opts = @("--max-batches=4", "--max-describe=80", "--max-verify=20", "--max-dates=30", "--max-price=40", "--split=20")
+  $opts = @("--max-batches=4", "--max-describe=80", "--max-verify=20", "--max-dates=30", "--max-price=40", "--split=20", "--budget-min=50")
   $opts = if ($fetch) { @("--window=1d") + $opts } else { @("--no-fetch") + $opts }
   "=== round $round $(Get-Date -Format 'yyyy-MM-dd HH:mm') $opts" | Tee-Object -Append $log
   git pull -q --rebase --autostash origin main 2>&1 | Out-Null
@@ -47,6 +47,9 @@ while ($true) {
   }
   $left = node -e "const r=require('./data/raw.json');console.log(Object.values(r).filter(x=>x.status==='new').length)"
   "    pending headlines: $left" | Tee-Object -Append $log
+  # The provider was busy (rate limit / quota) in this round: give it 20 extra minutes before the next one.
+  $aiDown = node -e "try { console.log(require('./data/status.json').ai.down === true) } catch (e) { console.log(false) }"
+  if ("$aiDown".Trim() -eq "True" -or "$aiDown".Trim() -eq "true") { "    AI provider busy - waiting 20 min extra" | Tee-Object -Append $log; Start-Sleep -Seconds 1200 }
   # Backlog done: keep going but slowly - one round an hour picks up news the 4-a-day GitHub runs missed.
   if ([int]$left -lt 50) { Start-Sleep -Seconds 3600 }
 }

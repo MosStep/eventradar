@@ -1,11 +1,11 @@
 // Daily pipeline: fetch news headlines → AI extracts offline events → poster/link enrichment → data/events.json.
-// Usage: node pipeline/run.mjs [--fetch-only | --tidy | --no-fetch] [--window=7d] [--max-batches=40]
+// Usage: node pipeline/run.mjs [--fetch-only | --tidy | --no-fetch] [--window=7d] [--max-batches=40] [--budget-min=90]
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { COUNTRIES, TAGS, TAXONOMY, EVENT_WORDS, NOT_EVENT_WORDS, PRTIMES_EVENT, WATCH_DEFAULT, OFFICIAL_PAGES, feeds } from "./sources.mjs";
 import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv, eventId, dateMentions, cleanSplit } from "./lib.mjs";
-import { extract, hasKeys, nemotronKeys, keyStats, ORDERS, BillingStop } from "./tenixe.mjs";
+import { extract, hasKeys, nemotronKeys, keyStats, ORDERS, BillingStop, aiDown, aiDownReason, haltAi } from "./tenixe.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw.json");
@@ -19,8 +19,18 @@ const MAX_BATCHES = Number(arg("max-batches", 40));
 const BATCH = 20;
 const UA = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36" };
 const today = new Date().toISOString().slice(0, 10);
+// Run time budget: after N minutes the AI steps are skipped, but the run still saves events, calendars and pages.
+const BUDGET_MIN = Number(arg("budget-min", 0));
+if (BUDGET_MIN > 0) setTimeout(() => haltAi(`run time budget ${BUDGET_MIN} min used up`), BUDGET_MIN * 60e3).unref();
+let aiNoted = false;
+// AI steps check this before each call: the provider is busy (rate limit / quota breaker) or the budget is spent.
+const aiOff = () => {
+  if (!aiDown()) return false;
+  if (!aiNoted) { aiNoted = true; console.warn(`[ai] provider busy — skipping remaining AI steps this run (${aiDownReason()})`); }
+  return true;
+};
 
-const load = (f, def) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")) : def);
+const load =(f, def) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")) : def);
 const save = (f, v) => { fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, JSON.stringify(v, null, 1)); };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
@@ -316,7 +326,7 @@ for (const country of TIDY ? [] : Object.keys(COUNTRIES)) {
 jobs.sort((x, y) => x[0] - y[0]);
 const workerKeys = ORDERS.extract.startsWith("nemotron") && nemotronKeys().length ? nemotronKeys() : [null];
 await Promise.all(workerKeys.map(async key => {
-  while (jobs.length && !stop) {
+  while (jobs.length && !stop && !aiOff()) {
     const [b, country, items] = jobs.shift();
     try { added += await extractBatch(items, `${country} batch ${b + 1}`, key); }
     catch (e) {
@@ -403,7 +413,7 @@ async function processReports() {
     } else if (id && events.some(e => e.id === id)) {
       const e = events.find(x => x.id === id);
       if (/ลบ/.test(kind)) { events.splice(events.indexOf(e), 1); counts.removed++; log.push({ at: today, id, action: "remove", by: "takedown" }); }
-      else if (hasKeys()) {
+      else if (hasKeys() && !aiOff()) {
         try {
           const ctx = `Event: ${JSON.stringify({ name: e.name, name_th: e.name_th, start: e.start, end: e.end, venue: e.venue, city: e.city, price_th: e.price_th, online: e.online, status: e.status })}
 Sources:\n${e.sources.slice(0, 5).map(s => `- [${s.date}] ${s.title} (${s.link})`).join("\n")}
@@ -439,7 +449,7 @@ const MAX_WATCH = Number(arg("max-watch", 6));
 async function watchSearch() {
   const extra = load(WATCH_FILE, []);
   const list = [...WATCH_DEFAULT, ...extra.map(w => (typeof w === "string" ? { q: w, country: "TH" } : w))];
-  if (!list.length || !hasKeys()) return;
+  if (!list.length || !hasKeys() || aiOff()) return;
   const state = load(path.join(ROOT, "data", "watch-state.json"), { next: 0 });
   const picked = Array.from({ length: Math.min(MAX_WATCH, list.length) }, (_, i) => list[(state.next + i) % list.length]);
   state.next = (state.next + picked.length) % list.length;
@@ -463,7 +473,7 @@ async function watchSearch() {
       const before = events.length;
       merge(events, (out.events || []).map(f => ({ ...f, country: f.country || w.country })), items);
       found += events.length - before;
-    } catch (e) { if (e instanceof BillingStop) break; }
+    } catch (e) { if (e instanceof BillingStop || e.busy) break; }
   }
   console.log(`[watch] searched ${picked.map(w => w.q).join(", ")}: +${found} new events`);
 }
@@ -495,7 +505,7 @@ async function officialPages() {
   save(SEEN_FILE, [...seenLinks]);
   for (const p of pages) {
     const text = extractText(p.html);
-    if (text.length < 200) continue;
+    if (text.length < 200 || aiOff()) continue;
     try {
       const out = parseJson((await extract([{ role: "system", content: PROMPT + "\n\n" + OFFICIAL_PROMPT },
         { role: "user", content: `Page: ${p.name} (${p.url}), default country ${p.country}\n\n${text}` }])).text);
@@ -504,7 +514,7 @@ async function officialPages() {
       merge(events, (out.events || []).map(f => ({ ...f, i: [0], country: f.country || p.country,
         tags: [...new Set([...(f.tags || []), ...p.tags])] })), [item]);
       found += events.length - before;
-    } catch (e) { if (e instanceof BillingStop) break; console.warn(`[official] ${p.name}: ${e.message.slice(0, 100)}`); }
+    } catch (e) { if (e instanceof BillingStop || e.busy) break; console.warn(`[official] ${p.name}: ${e.message.slice(0, 100)}`); }
   }
   console.log(`[official] ${OFFICIAL_PAGES.length} pages: +${found} new events`);
 }
@@ -548,6 +558,7 @@ async function fillDates() {
   const undated = events.filter(e => !e.start && !e.dateTried).slice(0, MAX_DATES);
   let found = 0, dropped = 0;
   for (const ev of undated) {
+    if (aiOff()) break;
     ev.dateTried = true;
     let text = "";
     try {
@@ -565,13 +576,16 @@ async function fillDates() {
         ev.venue ??= d.venue || null; ev.city ??= d.city || null;
         found++;
       }
-    } catch (e) { if (e instanceof BillingStop) break; }
+    } catch (e) {
+      if (e instanceof BillingStop) break;
+      if (e.busy) { ev.dateTried = false; continue; } // provider busy: not the event's fault, never drop it for this
+    }
     if (!ev.start && ev.sources.every(s => s.date < old)) { events.splice(events.indexOf(ev), 1); dropped++; }
     await sleep(300);
   }
   if (undated.length) console.log(`[dates] ${undated.length} undated checked: found ${found}, dropped ${dropped} stale`);
 }
-if (hasKeys()) await fillDates();
+if (hasKeys() && !aiOff()) await fillDates();
 
 for (const e of events) if (e.official && NOT_OFFICIAL.test(e.official)) e.official = null;
 
@@ -608,6 +622,7 @@ async function splitRoundups() {
     .sort((a, b) => (a.country === "TH" ? 0 : 1) - (b.country === "TH" ? 0 : 1)).slice(0, MAX_SPLIT);
   let roundups = 0, made = 0;
   for (const ev of todo) {
+    if (aiOff()) break;
     const { text, published } = await articleFor(ev);
     // No article text (fetch failed): retry on a later run, giving up after 3 tries.
     if (!text) { tries[ev.id] = (tries[ev.id] || 0) + 1; persist(); continue; }
@@ -631,6 +646,8 @@ async function splitRoundups() {
       done.add(ev.id);
     } catch (e) {
       if (e instanceof BillingStop) { console.error(e.message); break; }
+      // Rate limit / quota / provider down: the article is fine, so no try is counted; stop until the next run.
+      if (e.busy) { console.warn(`[split] provider busy, ${ev.name} kept for a later run`); break; }
       tries[ev.id] = (tries[ev.id] || 0) + 1;
       console.warn(`[split] ${ev.name}: ${e.message.slice(0, 120)}`);
     }
@@ -662,7 +679,7 @@ async function aiDedupe() {
   const DEDUPE = `For each numbered pair, answer true ONLY if both entries are certainly the SAME event (same edition), just
 named differently or in different languages. Different events at the same venue on the same days are false. If unsure, false.
 Reply with valid JSON only: {"0":true,"1":false,...}`;
-  for (let i = 0; i < pairs.length; i += 15) {
+  for (let i = 0; i < pairs.length && !aiOff(); i += 15) {
     const chunk = pairs.slice(i, i + 15);
     const desc = e => `${e.name}${e.name_th ? ` / ${e.name_th}` : ""} | ${e.start}–${e.end || e.start} | ${[e.venue, e.city].filter(Boolean).join(", ")} | ${e.tags.join(",")}`;
     try {
@@ -684,12 +701,12 @@ Reply with valid JSON only: {"0":true,"1":false,...}`;
   }
   console.log(`[dedupe] ${pairs.length} candidate pairs, merged ${merged}`);
 }
-if (hasKeys()) await splitRoundups();
-if (hasKeys()) await aiDedupe();
+if (hasKeys() && !aiOff()) await splitRoundups();
+if (hasKeys() && !aiOff()) await aiDedupe();
 
 // Thai names for events that came without one (e.g. Bilibili listings).
 const noThai = events.filter(e => !e.name_th && (!e.end || e.end >= today));
-if (hasKeys()) for (let i = 0; i < noThai.length; i += 30) {
+if (hasKeys()) for (let i = 0; i < noThai.length && !aiOff(); i += 30) {
   const chunk = noThai.slice(i, i + 30);
   try {
     const out = parseJson((await extract([{ role: "system", content:
@@ -740,7 +757,7 @@ async function verify() {
   }
   if (todoVerify.length) console.log(`[verify] checked ${checked}: fixed ${fixed}, dropped ${dropped}`);
 }
-if (hasKeys()) await verify();
+if (hasKeys() && !aiOff()) await verify();
 
 const todo = events.filter(e => !e.enriched);
 for (const ev of todo) await enrich(ev);
@@ -808,7 +825,7 @@ Codes: VN Vietnam, KR South Korea, ID Indonesia, US USA, CA Canada, GB UK, FR Fr
   const todo = events.filter(e => !e.placeChecked);
   todo.forEach(e => (e.placeSuspect = true));
   let removed = 0, fixed = 0, cleared = 0;
-  if (hasKeys()) for (let i = 0; i < todo.length; i += 20) {
+  if (hasKeys()) for (let i = 0; i < todo.length && !aiOff(); i += 20) {
     const chunk = todo.slice(i, i + 20);
     const lines = chunk.map((e, n) => `${n}. [given ${e.country}] ${e.name}${e.name_th ? " / " + e.name_th : ""} | venue: ${e.venue || "-"} | city: ${e.city || "-"} | ${e.sources.slice(0, 2).map(s => s.title).join(" / ").slice(0, 220)}`).join("\n");
     let out;
@@ -827,7 +844,7 @@ Codes: VN Vietnam, KR South Korea, ID Indonesia, US USA, CA Canada, GB UK, FR Fr
 }
 
 const noRegion = events.filter(e => !e.region && !e.regionTried);
-if (hasKeys()) for (let i = 0; i < noRegion.length; i += 40) {
+if (hasKeys()) for (let i = 0; i < noRegion.length && !aiOff(); i += 40) {
   const chunk = noRegion.slice(i, i + 40);
   const prompt = `Give the region code of each event's location. Codes: ${regionCodes()}. Use null if unknown.
 Reply with valid JSON only: {"0":"kanto","1":null,...}`;
@@ -849,8 +866,8 @@ const toDescribe = events.filter(e => (!e.described || (!e.start && !e.datesRead
 // Same parallel pattern as extraction: one worker per Nemotron key.
 let described = 0, describeStop = false;
 const describeQueue = [...toDescribe];
-if (hasKeys()) await Promise.all((nemotronKeys().length ? nemotronKeys() : [null]).map(async key => {
-  while (describeQueue.length && !describeStop) {
+if (hasKeys() && !aiOff()) await Promise.all((nemotronKeys().length ? nemotronKeys() : [null]).map(async key => {
+  while (describeQueue.length && !describeStop && !aiOff()) {
     const ev = describeQueue.shift();
     try { await describe(ev, key); described++; } catch (e) {
       if (e instanceof BillingStop) { console.error(e.message); describeStop = true; break; }
@@ -893,13 +910,13 @@ async function findPrice(ev, key) {
 const priceRetry = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
 const priceQueue = events.filter(e => !e.price_th && e.start && e.end >= today && !e.online && (e.priceTriedAt || "") < priceRetry).slice(0, MAX_PRICE);
 let priced = 0;
-if (hasKeys() && priceQueue.length) {
+if (hasKeys() && priceQueue.length && !aiOff()) {
   const total = priceQueue.length;
   await Promise.all((nemotronKeys().length ? nemotronKeys() : [null]).map(async (key, n) => {
     await sleep(n * 700); // stagger the searches a little
-    while (priceQueue.length) {
+    while (priceQueue.length && !aiOff()) {
       const ev = priceQueue.shift();
-      try { if (await findPrice(ev, key)) priced++; } catch (e) { if (e instanceof BillingStop) break; }
+      try { if (await findPrice(ev, key)) priced++; } catch (e) { if (e instanceof BillingStop) break; if (e.busy) ev.priceTriedAt = null; }
       await sleep(1200);
     }
   }));
@@ -967,9 +984,10 @@ function writeStatus() {
   if (ks.billing) problems.push("คีย์ AI ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe");
   if (ks.calls > 5 && ks.failed / ks.calls > 0.5) problems.push(`เรียก AI ล้มเหลว ${ks.failed}/${ks.calls} ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)`);
   if (ks.quota.length && ks.quota.length >= ks.keys) problems.push("ทุกคีย์ขึ้นว่าโควตาหมด — รอรีเซ็ตบ่ายโมง หรือเพิ่มคีย์ใหม่");
+  if (aiDown()) problems.push("AI ผู้ให้บริการไม่ว่าง (rate limit) — ข้ามขั้น AI รอบนี้");
   const status = { finishedAt: new Date().toISOString(), runner: process.env.GITHUB_ACTIONS ? "github" : "local",
     total: events.length, upcoming: up.length, added, pending: Object.values(raw).filter(r => r.status === "new").length,
-    withDate: pct(e => e.start), withImage: pct(e => e.image), withPrice: pct(e => e.price_th), ai: ks, problems };
+    withDate: pct(e => e.start), withImage: pct(e => e.image), withPrice: pct(e => e.price_th), ai: { ...ks, down: aiDown() }, problems };
   save(path.join(ROOT, "data", "status.json"), status);
   if (problems.length) console.log(`[status] problems: ${problems.join(" | ")}`);
 }
