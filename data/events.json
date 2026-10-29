@@ -6733,7 +6733,7 @@
    "food"
   ],
   "summary_th": "งานประจำปีนมัสการองค์พระปฐมเจดีย์ ชวนไหว้พระคู่บ้านคู่เมืองและเที่ยวงานประเพณี",
-  "image": "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa7Hb4Vy0NG88old6DPIOGsayiSP95HszX1okjokFE4ZSG8ENaE24.jpg",
+  "image": "https://s359.thaicdn.net/r/1200/630/pagebuilder/4d5e8e11-f07b-4c3c-bf57-a91e588429d3.jpg",
   "official": null,
   "sources": [
    {
@@ -6770,9 +6770,9 @@
   "enriched": true,
   "imageTried": true,
   "article": "https://www.sanook.com/travel/1454290/",
-  "imageFrom": "https://www.thairath.co.th/news/local/bangkok/2968745",
+  "imageFrom": "https://travel.kapook.com/view304071.html",
   "imageHash": null,
-  "imageTriedAt": "2026-10-28",
+  "imageTriedAt": "2026-10-29",
   "dateTried": true,
   "about_th": "งานนมัสการพระบรมธาตุเจดีย์พระอุบาลีมหามงคล ประจำปี 2569 ที่วัดไร่ขิง พระอารามหลวง จังหวัดนครปฐม เป็นงานบุญสำคัญสำหรับพุทธศาสนิกชนมาสักการะพระธาตุและหลวงพ่อวัดไร่ขิง พร้อมร่วมกิจกรรมทางศาสนา ชมนิทรรศการ การแสดง และเลือกซื้ออาหารสินค้าต่างๆ ภายในงาน",
   "highlights_th": [
@@ -17395,7 +17395,8 @@
   "online": false,
   "price_th": null,
   "tags": [
-   "festival"
+   "festival",
+   "stage"
   ],
   "summary_th": "เทศกาลเต้นรำ Diwali ที่ Walt Disney World Resort",
   "image": "https://indiawest.com/wp-content/uploads/2023/11/DSC01762-Enhanced-NR-scaled.jpg",
@@ -17433,30 +17434,30 @@
   "datesRead": true
  },
  {
-  "id": "ae3f57217faa",
-  "name": "Diwali dance fest at Walt Disney World Resort",
-  "name_th": "เทศกาลเต้นรำดิ้วาลีที่วอลต์ดิสนีย์เวิลด์",
+  "id": "6174e44b1160",
+  "name": "万州烤鱼消费季",
+  "name_th": "เทศกาลปลาย่างว่านโจว",
   "start": "2026-10-22",
-  "end": "2026-10-25",
-  "venue": "Walt Disney World Resort",
-  "city": "Lake Buena Vista",
-  "country": "US",
-  "region": null,
+  "end": "2026-10-22",
+  "venue": "万州江南会展广场",
+  "city": "万州",
+  "country": "CN",
+  "region": "southwest",
   "online": false,
   "price_th": null,
   "tags": [
-   "festival",
-   "stage"
+   "food",
+   "festival"
   ],
-  "summary_th": "การแสดงเต้นรำดิ้วาลีของผู้แสดงกว่า 500 คนที่ดิสนีย์เวิลด์",
-  "image": null,
+  "summary_th": "เทศกาลกินปลาย่างเมืองว่านโจว พร้อมคูปอง消費券 1.2 ล้านหยวนและตั๋วคอนเสิร์ตแจก",
+  "image": "http://www.bing.com/th?id=ONUT.6vdhWc7YIK6szIJ2xxC8TQ&pid=News",
   "official": null,
   "sources": [
    {
-    "title": "Diwali dance fest lights up Walt Disney world resort with more than 500 performers and a special performance by Tesher",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUTlPalFSd19FY05IbmhWdUJObDJNX2xmNFgxaTA3MkRCZUxZVU9hQVlXOEcwX1Y3OTdyNWR0SUNYWkxpNlZITVlQSU1lMTc4X1pLRWxfdG1NNUUzUVltZkhpdmxkY25aZzdZWTlDTm1mU2daazZlVDcyRll0by1qUWZYTWxkTWRWSTluVjZvcUZENHZqM0lTbnFNOFZ1Sl94MENpN3hmbUNjUVZoV0NFRF82Tnp2clRzalNMLS1RZjFRYzhFLWtCXy1rOG00QkFnUEREQzA1dW1HWExQTEtZWA?oc=5",
-    "source": "India Tribune - Chicago",
-    "date": "2026-10-27",
+    "title": "烟火万州 “鱼”你相约 | 120万消费券、群星演唱会门票……万州烤鱼消费季亮点抢先看",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qdW9HUmU0bXlJV2pKeTBoZVc1VVdsdlJUYTF3RnhyMTgzMUhQMjhFYjVia1lOSkpucFZicEQ1NGpQWlNEbXM5WHBtVTFleWdTa18zYzRPdWpvc3RFTGNWQ3Nzbl8td1ptWTNVSS1SQk9pcDZOV1ZxaDZGWlV5dw?oc=5",
+    "source": "华龙网",
+    "date": "2026-10-21",
     "image": null
    }
   ],
@@ -17465,23 +17466,22 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-28",
-  "article": "https://www.indiatribune.com/public/diwali-dance-fest-lights-up-walt-disney-world-resort-with-more-than-500-performers-and-a-special-performance-by-tesher",
-  "imageFrom": "https://www.indiatribune.com/public/diwali-dance-fest-lights-up-walt-disney-world-resort-with-more-than-500-performers-and-a-special-performance-by-tesher",
-  "imageHash": null,
+  "article": "http://www.cq.xinhuanet.com/20261027/9831631e28ea439aa64d165070b39864/c.html",
+  "imageFrom": "http://www.cq.xinhuanet.com/20261027/9831631e28ea439aa64d165070b39864/c.html",
+  "imageHash": "ff8f65575f41bfa8",
   "placeChecked": true,
-  "regionTried": false,
-  "about_th": "Diwali Dance Fest ครั้งที่ 4 จัดขึ้นที่ Walt Disney World Resort รัฐฟลอริดา เป็นเทศกาลเฉลิมฉลองวัฒนธรรมเอเชียใต้ ศิลปะการเต้นและดนตรีตลอด 3 วัน ผลิตโดย Jashn Productions และผู้ก่อตั้ง Jeanie Beri โดยมีนักเต้นกว่า 500 คนจากทั่วโลกเข้าร่วม งานนี้จัดขึ้นเพื่อเปิดเวทีระดับกระแสหลักให้นักเต้นรุ่นใหม่เชื้อสายเอเชียใต้ได้เฉลิมฉลองวัฒนธรรมของตน ผู้ชมสามารถชมขบวนพาเหรด การแสดงเต้นนานาชาติ และการแสดงปิดท้ายของศิลปินระดับโลก",
+  "about_th": "万州烤鱼消费季เป็นส่วนหนึ่งของ第十一届重庆文化旅游惠民消费季（万州专场）ที่จัดขึ้นในเมือง万州 ประเทศจีน โดยเชื่อมโยงกับ三峡美食文化节 เพื่อกระตุ้นการท่องเที่ยวและการ消費ในพื้นที่ งานนี้เปิดให้ประชาชนและนักท่องเที่ยวเข้าร่วมชิมปลาย่าง万州และอาหารท้องถิ่น พร้อมเลือกซื้อสินค้าพื้นเมืองจากพ่อค้าแม่ค้าทั้งในและนอกภูมิภาค ภายในงานมีการแจกคูปองส่วนลดและบัตรคอนเสิร์ต รวมถึงกิจกรรมส่งเสริมการขายอื่น ๆ ที่ช่วยกระตุ้นการใช้จ่ายตลอดห่วงโซ่การท่องเที่ยว",
   "highlights_th": [
-   "ขบวน Grand Diwali Parade โดยนักเต้นกว่า 500 คนบน Main Street, U.S.A. ณ Magic Kingdom Park",
-   "Diwali Mela ที่ EPCOT พร้อมชมการแสดงกลางคืน Luminous The Symphony of Us",
-   "International Dance Showcase ณ Disney's Animal Kingdom Theme Park รวม 25 สตูดิโอเต้นนานาชาติ",
-   "การแสดงพิเศษของ Tesher ศิลปินแคนาดา-อินเดีย เจ้าของเพลงฮิต Jalebi Baby",
-   "ดำเนินรายการโดย Shanelle Kaul ผู้สื่อข่าว CBS News"
+   "แจกคูปอง消费券มูลค่า 1.2 ล้านหยวน",
+   "ลุ้นบัตรคอนเสิร์ต群星演唱会",
+   "เชื่อมโยงกับ三峡美食文化节",
+   "สินค้าพื้นเมืองจาก渝东北,三峡沿线,新疆哈密,西藏类乌齐,新疆巴里坤",
+   "คอนเสิร์ต潮起星辰·星耀万州 และ江畔视听音乐会"
   ],
   "hours": null,
-  "datedFrom": "article",
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "285597ca662d",
@@ -29930,9 +29930,9 @@
    "local"
   ],
   "summary_th": "ประเพณีตักบาตรพระร้อยทางน้ำและถวายดอกบัว ณ วัดริมน้ำในจังหวัดปทุมธานี",
-  "image": "http://www.bing.com/th?id=ONUT.FBo76qv_usDxstbEIDAKlw&pid=News",
-  "imageFrom": "https://www.dailynews.co.th/news/6311897/",
-  "imageHash": "9bbb096c91d24343",
+  "image": "http://www.bing.com/th?id=ONUT.TinMOKs_HVKl_ZME-gimvQ&pid=News",
+  "imageFrom": "https://www.talknewsonline.com/News/51499/",
+  "imageHash": "d1426c3849f375aa",
   "official": null,
   "sources": [
    {
@@ -29954,6 +29954,62 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "placeChecked": true
+ },
+ {
+  "id": "0449fd6b4380",
+  "name": "블로키X하비소울 두근두근 캐릭터 페스타",
+  "name_th": "บล็อกกี้ x ฮาบี้โซล ดูกึนดูกึน คาแรกเตอร์ เฟสตา",
+  "start": "2026-10-26",
+  "end": "2026-11-03",
+  "venue": "신세계백화점 강남점",
+  "city": "서울",
+  "country": "KR",
+  "region": "seoul",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "figure",
+   "market"
+  ],
+  "summary_th": "ป๊อปอัปตัวละครและฟิกเกอร์กว่า 950 รายการที่ห้างชินเซกye คังนัม กรุงโซล",
+  "image": "http://www.bing.com/th?id=ONUT.ldsZx3juCa1F1IMPzjp7CA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "신세계백화점 서울 강남점에서 캐릭터 팝업 개최, 인기 상품 950여 종 한자리에",
+    "link": "https://www.msn.com/ko-kr/news/other/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90-%EC%84%9C%EC%9A%B8-%EA%B0%95%EB%82%A8%EC%A0%90%EC%97%90%EC%84%9C-%EC%BA%90%EB%A6%AD%ED%84%B0-%ED%8C%9D%EC%97%85-%EA%B0%9C%EC%B5%9C-%EC%9D%B8%EA%B8%B0-%EC%83%81%ED%92%88-950%EC%97%AC-%EC%A2%85-%ED%95%9C%EC%9E%90%EB%A6%AC%EC%97%90/ar-AA2g3DGG",
+    "source": "비즈니스포스트 on MSN",
+    "date": "2026-10-25",
+    "image": null
+   },
+   {
+    "title": "신세계백화점 강남점에서 캐릭터 팝업 개최, 인기 상품 950여 종 한자리에",
+    "link": "https://www.msn.com/ko-kr/news/other/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90-%EA%B0%95%EB%82%A8%EC%A0%90%EC%97%90%EC%84%9C-%EC%BA%90%EB%A6%AD%ED%84%B0-%ED%8C%9D%EC%97%85-%EA%B0%9C%EC%B5%9C-%EC%9D%B8%EA%B8%B0-%EC%83%81%ED%92%88-950%EC%97%AC-%EC%A2%85-%ED%95%9C%EC%9E%90%EB%A6%AC%EC%97%90/ar-AA2g3DGG",
+    "source": "비즈니스포스트 on MSN",
+    "date": "2026-10-25",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.yna.co.kr/view/PYH20261025085600013",
+  "imageFrom": "https://www.yna.co.kr/view/PYH20261025085600013",
+  "imageHash": "d2775afba7d9a27c",
+  "placeChecked": true,
+  "about_th": "งานป๊อปอัปตัวการ์ตูน 블로키X하비소울 두근두근 캐릭터 페스타 จัดขึ้นที่ห้างสรรพสินค้าชินเซเก สาขาคังนัม กรุงโซล ประเทศเกาหลีใต้ ภายในงานรวมสินค้าตัวการ์ตูนยอดนิยมไว้มากกว่า 950 รายการให้เลือกชมและเลือกซื้อในที่เดียว เหมาะสำหรับแฟน ๆ ตัวการ์ตูนที่อยากตามหาสินค้าคอลเลกชันใหม่ ๆ",
+  "highlights_th": [
+   "ป๊อปอัปสโตร์ตัวการ์ตูน 블로키 ร่วมกับ 하비소울",
+   "รวมสินค้าตัวการ์ตูนยอดนิยมกว่า 950 รายการ",
+   "จัดที่ห้างสรรพสินค้าชินเซเก สาขาคังนัม กรุงโซล",
+   "เหมาะสำหรับนักสะสมและแฟนตัวการ์ตูน"
+  ],
+  "hours": null,
+  "described": true,
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "297c88e6ebf0",
@@ -37365,7 +37421,7 @@
    "national"
   ],
   "summary_th": "งานบุญออกพรรษาและตักบาตรเทโวที่วัดหนองวัลย์เปรียง สืบสานประเพณีไทย",
-  "image": "http://www.bing.com/th?id=ONUT.FBo76qv_usDxstbEIDAKlw&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.QdQfLuxH98ahGeeDVDTmbw&pid=News",
   "official": null,
   "sources": [
    {
@@ -37387,10 +37443,10 @@
   "updated": "2026-10-28",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-10-28",
+  "imageTriedAt": "2026-10-29",
   "article": "https://www.dailynews.co.th/news/6311897/",
-  "imageFrom": "https://www.dailynews.co.th/news/6311897/",
-  "imageHash": "9bbb096c91d24343",
+  "imageFrom": "https://www.dailynews.co.th/news/6311140/",
+  "imageHash": "160d97d42e50e854",
   "placeChecked": true,
   "notDupWith": [
    "8079f961838a",
@@ -54870,6 +54926,13 @@
     "source": "Pháp Luật Plus",
     "date": "2026-10-28",
     "image": null
+   },
+   {
+    "title": "Lũng Phìn rộn ràng Lễ hội Chùa Quan Âm",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbThRbGFvNXhGOE5QMDVzN1hTcXd0cDV5SWtkenJMU3VXSjJ3NXRkX0xNcE93azVEUDY3YWdMbGFKdy0zSXg3VzBxTjBiaXBqQ3kwNnMxSnNmLWExei1LaGc0ZUJxZDhzNlpNMHlYQm8xd01OWFY5TFZFc2JJWmJldWZhQXYtS3NEa2JuTzlYeS04MmlUUGc?oc=5",
+    "source": "Báo Tuyên Quang",
+    "date": "2026-10-28",
+    "image": null
    }
   ],
   "added": "2026-10-28",
@@ -54971,6 +55034,13 @@
     "source": "Batamnews",
     "date": "2026-10-28",
     "image": null
+   },
+   {
+    "title": "Pameran Teknologi Elektronik Digelar di Batam, Libatkan Ratusan Perusahaan",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTkczdmhBVEVfNmRUZG4tZmoyenVkS1Iwa3JMYkJRVHlVVXJ3dnd1UHJhRkRvVXAxOTlUdXZtcnZXQnI3TU9lQWpVdnJ5S2hudDBoV1JzYmtkaC1TTWY5Ui1Kc0NZRU1DX3dOMmZuWEREWFduTTU5bm9xakpaUHhPR3lPbml6b19udXRMcWc2MEZOM3V2eEptRFhsajFQRHPSAZ8BQVVfeXFMT05HM3ZoQVRFXzZkVGRuLWZqMnp1ZEtSMGtyTGJCUVR5VVVyd3Z3dVByYUZEb1VwMTk5VHV2bXJ2V0JyN01PZUFqVXZyeUtobnQwaFdSc2JrZGgtU01mOVItSnNDWUVNQ193TjJmblhERFhXbk01OW5vcWpKWlB4T0d5T25pem9fbnV0THFnNjBGTjN1dnhKbURYbGoxUERz?oc=5",
+    "source": "Ulasan.co",
+    "date": "2026-10-28",
+    "image": null
    }
   ],
   "added": "2026-10-28",
@@ -54994,6 +55064,46 @@
   "datedFrom": "article",
   "described": true,
   "datesRead": true
+ },
+ {
+  "id": "8210f36ed3cf",
+  "name": "Triển lãm giới thiệu quá trình hình thành Dinh Độc Lập",
+  "name_th": "นิทรรศการประวัติการก่อตั้งทำเนียบเอกราช",
+  "start": "2026-10-28",
+  "end": "2026-10-28",
+  "venue": "Di tích quốc gia đặc biệt Dinh Độc Lập - Hội trường Thống Nhất",
+  "city": "TP.HCM",
+  "country": "VN",
+  "region": "south",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "museum",
+   "art"
+  ],
+  "summary_th": "นิทรรศการเล่าประวัติการก่อตั้งทำเนียบ Dinh Độc Lập",
+  "image": "http://www.bing.com/th?id=ONUT.z5S5Cj5D9gvUeyuujYzbwg&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "Triển lãm giới thiệu quá trình hình thành Dinh Độc Lập",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOHV4T1BfaXNvaW9RdlhwaEhfbV9IWFpwX1lsRkRZWFJTSDFmelhpMGUzWWZ0cHZnZ2U4eUdFNFhzcHh5bXl0eGt4MXg3SHFsWENPaU15dkVhd3dNLWpXdFNjdUNieE9DTEE4VHFmbFFKNVhnNzlzZTF5RzVpZDNXYzNIVQ?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.sggp.org.vn/tu-ban-ve-den-bieu-tuong-dinh-doc-lap-post878841.html",
+  "imageFrom": "https://www.sggp.org.vn/tu-ban-ve-den-bieu-tuong-dinh-doc-lap-post878841.html",
+  "imageHash": "f37155eb46774a78",
+  "placeChecked": true,
+  "regionTried": true,
+  "dateTried": true
  },
  {
   "id": "6a01174d67b9",
@@ -70334,6 +70444,44 @@
   "datedFrom": "article",
   "described": true,
   "datesRead": true
+ },
+ {
+  "id": "c0ef0620d5b7",
+  "name": "林宥嘉深圳演唱会",
+  "name_th": "คอนเสิร์ต Yoga Lin ที่เซินเจิ้น",
+  "start": "2026-10-30",
+  "end": "2026-10-31",
+  "venue": "深圳湾体育中心“春茧”体育场",
+  "city": "深圳",
+  "country": "CN",
+  "region": "south",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert"
+  ],
+  "summary_th": "คอนเสิร์ตของ林宥嘉ที่เมืองเซินเจิ้น เปิดขายบัตรรอบสอง",
+  "image": "http://www.bing.com/th?id=ONUT.BAPjVEUFT8nAXab14W7meA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "【林宥嘉深圳演唱会】2026林宥嘉深圳演唱会二次开售！售票时间+购票入口",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5idU5uSjA5LUJsdFJ3a2gxWmRoYjVaRUZtR3F3V3BBR2lZaTV3UWtfZ2czTEk1U2xza081NU12dVM3bTR0bVd6M2dSNEc?oc=5",
+    "source": "凤凰网",
+    "date": "2026-10-20",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://ent.sina.cn/2026-10-21/detail-inivxewz5627079.d.html?vt=4",
+  "imageFrom": "https://ent.sina.cn/2026-10-21/detail-inivxewz5627079.d.html?vt=4",
+  "imageHash": "667b30dc2e19c3b7",
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "447732680d9c",
@@ -95869,7 +96017,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตอังกอร์ของวง LUCY รอบฮ่องกง วันที่ 3 พ.ย. 2569",
-  "image": "https://brickinfotv.com/wp-content/uploads/2026/09/lucy-9th-concert-island-encore-bangkok-FrontrowTH-cover-1000x600.webp",
+  "image": null,
   "imageFrom": "https://brickinfotv.com/entertainment/328418",
   "imageHash": null,
   "official": null,
@@ -98952,6 +99100,13 @@
     "title": "Mitsubishi Outlander ra mắt bản off-road hầm hố nhất từ trước đến nay: Thêm loạt trang bị chuyên trị đường khó, nội thất chống thấm nước",
     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOenBudEFaU0JHdmtwTWp3TDR1bl9FWU1YQ2ZQeDc4QUdUaGk3VWRtc01rckFHT2FwR0hJSlNUVV9lUkwwWTFNdzB0Qk5wcGJxYXhCVXpQNk5qX052V2wxNDdhMWFJOWxreXlIZkV4U0kzTXBSQTNiR3BRbHZFaHZOSFR2cm9udDFWX3Rrb0lEZ2pETXdSWFgwOVJoNUFIbWMxcDZHWlhVeUc2YUh4S05sbzFNVjkyTEtKd3J0YkhhckVDN2lpZm1OM25fQXdmdHFIU0ZIanB4aVhKb1gtdVBZQjdlWWVWR0J2T3o1NUZBWnhjNUJFc05XVGZRUzM?oc=5",
     "source": "auto5.vn",
+    "date": "2026-10-28",
+    "image": null
+   },
+   {
+    "title": "รถยนต์มิตซูบิชิ เอาท์แลนเดอร์ รุ่นใหม่ที่จะเปิดตัวในเวียดนามเร็วๆ นี้ มาพร้อมกับดีไซน์ที่ดุดันที่สุดเท่าที่เคยมีมา",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUFhFVEVpejd1YUFiRDN5NVlJT0dJMU52cC1heEZrN0xFNTN6dGZKcEtaMVdWSDlndzk3MURZd1pKT3ZrTnVYeC1taVBZOXhRcnV4TF9HWGd5UUJQLUZQeXRfTTR6Yl9oS3Q1LTNSemNKc01DYWh3V0lxX1dKUlZXMWNBbjM5bHZKZXV3Y2duc0FUaXkzajhGMzZ0SzVkb3djQnV1T2dTQk0zQQ?oc=5",
+    "source": "Vietnam.vn",
     "date": "2026-10-28",
     "image": null
    }
@@ -112377,7 +112532,7 @@
    "fanmeet"
   ],
   "summary_th": "งานคริสต์มาสที่โคคูน ซิตี้ ไซตามะ เริ่ม 7 พฤศจิกายน 2026 มีไฟประดับ ตลาดคริสต์มาส และกิจกรรมสำหรับเด็ก",
-  "image": "https://prcdn.freetls.fastly.net/release_image/24645/187/24645-187-049aa5eaced515fc7d202bb508b588c5-1750x2475.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "image": "https://img.topics.smt.news.goo.ne.jp/picture/eventbank/m_eventbank-10652080.jpg",
   "official": null,
   "sources": [
    {
@@ -112401,7 +112556,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://prtimes.jp/main/html/rd/p/000000187.000024645.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000187.000024645.html",
+  "imageFrom": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10652080",
   "imageHash": null,
   "placeChecked": true,
   "notDupWith": [
@@ -113657,7 +113812,7 @@
    "kids"
   ],
   "summary_th": "ไฟประดับคริสต์มาสและตลาดคริสต์มาสที่ศูนย์การค้า Cocoon City ไซตามะ เริ่ม 7 พ.ย. พร้อมพิธีจุดไฟและกิจกรรมครอบครัว",
-  "image": "https://prcdn.freetls.fastly.net/release_image/24645/187/24645-187-049aa5eaced515fc7d202bb508b588c5-1750x2475.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "image": "https://img.topics.smt.news.goo.ne.jp/picture/eventbank/m_eventbank-10652080.jpg",
   "official": null,
   "sources": [
    {
@@ -113681,7 +113836,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://prtimes.jp/main/html/rd/p/000000187.000024645.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000187.000024645.html",
+  "imageFrom": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10652080",
   "imageHash": null,
   "placeChecked": true,
   "notDupWith": [
@@ -116120,58 +116275,6 @@
   "datesRead": true
  },
  {
-  "id": "14b5b0a44c07",
-  "name": "Pavilion Palooza Kids' Music Festival",
-  "name_th": "เทศกาลดนตรีเด็ก Pavilion Palooza",
-  "start": "2026-11-07",
-  "end": "2026-11-08",
-  "venue": "The Cynthia Woods Mitchell Pavilion",
-  "city": "The Woodlands",
-  "country": "US",
-  "region": null,
-  "online": false,
-  "price_th": "10 ดอลลาร์ เด็ก 2 ปีลงมาเข้าฟรี",
-  "tags": [
-   "festival",
-   "kids",
-   "concert"
-  ],
-  "summary_th": "เทศกาลดนตรีสำหรับเด็กที่ The Woodlands พร้อมคอนเสิร์ต งานคราฟต์ และเกม",
-  "image": "https://hellowoodlands.com/wp-content/uploads/2026/10/Volunteer-at-Pavilion-Palooza-on-November-7-and-8-400x242.jpg",
-  "official": "https://www.woodlandscenter.org/pavilion-palooza-26",
-  "sources": [
-   {
-    "title": "Kids’ Music Festival “Pavilion Palooza” Comes to The Woodlands With Concerts, Crafts, and Games",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcE5aamhzMHFPSmhnanFLd253Y0hMRUZHNmtyVVdWZ3BpMXc0ckxrcm9sYXhXQ0RndFB5QXc5WWpSZWZWcnFrX3A5U0hNS2N1WU1BWVdzRlFwT0k0WGt0U2RRb2RYanRiVzRWbFBKWF9ibnJrSmY2XzlRb2UwOHlhQXI5ZTBSM1F4Vm1DZnVNU1BfSjViNlRjaTB5eHJFckt1NEJNRHIzSkxOM3ZIOWhLMmdKcF9sQnVXdVprb3VR?oc=5",
-    "source": "Mommy Poppins",
-    "date": "2026-10-27",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "https://hellowoodlands.com/around-the-world-in-a-weekend-volunteer-at-pavilion-palooza/",
-  "imageFrom": "https://hellowoodlands.com/around-the-world-in-a-weekend-volunteer-at-pavilion-palooza/",
-  "imageHash": "21b8e2d93b3d4860",
-  "placeChecked": true,
-  "regionTried": false,
-  "about_th": "Pavilion Palooza เป็นเทศกาลดนตรีและศิลปะสำหรับครอบครัว จัดโดย The Cynthia Woods Mitchell Pavilion ภายใต้ธีม \"World Tour\" พาเด็ก ๆ และครอบครัวเดินทางรอบโลกผ่านดนตรี การเต้นรำ ศิลปะ และประสบการณ์ทางวัฒนธรรม ภายในงานมีพื้นที่กิจกรรมหลายโซน เช่น Roots & Rhythms, Palooza Playland, Harmony Gardens, Island Sounds, Rhythm Village, Plaza de la Música และ Melody Motorway ผู้สนใจยังสามารถสมัครเป็นอาสาสมัครเพื่อช่วยจัดงานได้ด้วย",
-  "highlights_th": [
-   "การแสดงดนตรีสดและกิจกรรมให้เด็กทดลองเล่นเครื่องดนตรี",
-   "งานศิลปะและงานคราฟต์สำหรับเด็กและครอบครัว",
-   "กิจกรรมวัฒนธรรมจากaround the world ตามธีม World Tour",
-   "โซนเล่นสำหรับเด็กเล็ก เช่น Palooza Playland และ Melody Motorway",
-   "เปิดรับอาสาสมัครช่วยงาน สอบถาม Erin Kelly ที่ ekelly@woodlandscenter.org"
-  ],
-  "hours": null,
-  "datedFrom": "article",
-  "described": true,
-  "datesRead": true
- },
- {
   "id": "ca483807dfa3",
   "name": "ゲーム試遊イベント",
   "name_th": "อีเวนต์ทดลองเล่นเกมที่อิคสเปียริ",
@@ -116221,6 +116324,50 @@
   "signup_th": "รอบชมเวทีและงานแจกลายเซ็นเปิดรับสมัครจับรางวัลแล้ว; โซนทดลองเล่นและร้านค้าต้องจั",
   "described": true,
   "datesRead": true
+ },
+ {
+  "id": "fade3f56f760",
+  "name": "2026 청주원도심골목길축제 ‘가을:잔치집,대성’",
+  "name_th": "เทศกาลตรอกเมืองเก่าชองจู 2026",
+  "start": "2026-11-07",
+  "end": "2026-11-08",
+  "venue": "상당구 대성동 122번길 일원(청주향교 일원)",
+  "city": "청주",
+  "country": "KR",
+  "region": "chungcheong",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "festival",
+   "local"
+  ],
+  "summary_th": "เทศกาลตรอกเมืองเก่าชองจู ธีมงานเลี้ยงฤดูใบไม้ร่วง",
+  "image": "http://www.bing.com/th?id=ONUT.jzYsnzmhL3FoggggR3hjMQ&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "2026 청주원도심골목길축제 ‘가을:잔치집,대성’ 개최",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sTk9oQ1VvcjJTd01RaTlITGdQdEJFdkZhVFF2YVR2ME1CMU5GSWUtbW9RZW1kUlVmVGw0bWwyOVQwWTFPSGprWDhTbUtUNm9RM2RFS2RJU2tjTmJZZ191ODV2YlJqeTBrWVE?oc=5",
+    "source": "금강일보",
+    "date": "2026-10-28",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "http://www.cbnews.kr/news/articleView.html?idxno=246073",
+  "imageFrom": "http://www.cbnews.kr/news/articleView.html?idxno=246073",
+  "imageHash": "18ba504b6470e45e",
+  "placeChecked": true,
+  "about_th": "เทศกาลเดินตรอกย่านใจกลางเมืองเก่าชองจู (청주원도심골목길축제) ครั้งที่จัดในฤดูใบไม้ร่วงภายใต้ธีม 'ฤดูใบไม้ร่วง: งานฉลองบ้านใหญ่ แดซอง' เปลี่ยนตรอกแดซองดงให้เป็นเวทีงานฉลองชีวิตตั้งแต่พิธีโกนผมไฟจนถึงงานฉลองอายุครบ 60 ปี จัดขึ้นระหว่างวันที่ 7-8 พฤศจิกายน 2569 บริเวณถนนแดซองโร 122beon-gil (วัดฮยังกโย ชองจู) และพื้นที่โดยรอบ ผู้เข้าชมสามารถเดินชมการแสดง นิทรรศการ และกิจกรรมเวิร์กช็อปในบรรยากาศงานฉลองตรอกยุคทศวรรษ 1970-80 โดยใช้ทั้งวัดฮยังกโย นอลกซมมารู ร้านค้าในตรอก และบ้านเรือนของชาวบ้านเป็นพื้นที่จัดงาน ภายในงานมีทั้งหมด 34 โปรแกรมใน 3 ด้าน ได้แก่ การแสดง/นิทรรศการ กิจกรรมสัมผัส/ทัวร์ และโปรแกรมเชื่อมโยง ซึ่งรวม 11 โปรแกรมที่คัดเลือกจากประชาชน",
+  "highlights_th": [],
+  "hours": null,
+  "described": true,
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "0ee9d0228f77",
@@ -128564,7 +128711,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตอังกอร์ของวง LUCY รอบสิงคโปร์ วันที่ 14 พ.ย. 2569",
-  "image": "https://biz.chosun.com/resizer/v2/MU4DKZJVGI4TEY3DMEYTCNZRMM.jpg?auth=84b0cfa30f0844b331d4cc2e626541c4d21e72ca828fabfe6b2e6399d1567dcd&width=572&height=300&smart=true",
+  "image": null,
   "imageFrom": "https://biz.chosun.com/en/en-entertainment/2026/10/23/DTK6JEHFVFD4TBYQMX7LFMVT2I/",
   "imageHash": null,
   "official": null,
@@ -133536,8 +133683,8 @@
    "local"
   ],
   "summary_th": "งานเทศกาลประจำปีนมัสการพระบรมสารีริกธาตุและพิธีอัญเชิญผ้าแดงขึ้นห่มบูชา",
-  "image": "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa7Hb4Vy0NG88old6DPIOGsayiSP95HszX1okjokFE4ZSG8ENaE24.jpg",
-  "imageFrom": "https://www.thairath.co.th/news/local/bangkok/2968745",
+  "image": "https://www.thaipr.net/wp-content/uploads/2021/08/AI6A2194-d59ce37c-scaled-1.jpg",
+  "imageFrom": "https://www.thaipr.net/general/3081529",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -146493,7 +146640,7 @@
    "concert"
   ],
   "summary_th": "LUCY จัดอังกอร์คอนเสิร์ตปิดท้ายเอเชียทัวร์ที่ประเทศไทย",
-  "image": "https://brickinfotv.com/wp-content/uploads/2026/09/lucy-9th-concert-island-encore-bangkok-FrontrowTH-cover-1000x600.webp",
+  "image": "https://biz.chosun.com/resizer/v2/HBRTIZBSMUZTSODEHBSTOOJQMQ.jpg?auth=8b5299cb5673f5cb616ddf3baf1da1430e6b9af75c1f11b7dbf7a0358ab0be7b&width=572&height=300&smart=true",
   "official": null,
   "sources": [
    {
@@ -146523,7 +146670,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://brickinfotv.com/entertainment/328418",
-  "imageFrom": "https://brickinfotv.com/entertainment/328418"
+  "imageFrom": "https://biz.chosun.com/en/en-entertainment/2026/08/10/TNCKPY7ATFE6ZJ5LWLNF7ZOJII/"
  },
  {
   "id": "57d75de98f1d",
@@ -149298,6 +149445,89 @@
   "signup_th": "ยังไม่ประกาศวันเปิดขายบัตร (รอประกาศจากแพลตฟอร์ม 猫眼 และ 大麦)",
   "described": true,
   "datesRead": true
+ },
+ {
+  "id": "3c99e394d009",
+  "name": "NC 'ROY 대전'",
+  "name_th": "NC 'ROY แดจอน'",
+  "start": "2026-11-28",
+  "end": "2026-11-28",
+  "venue": "창원NC파크",
+  "city": "대전",
+  "country": "KR",
+  "region": "chungcheong",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "match",
+   "esports"
+  ],
+  "summary_th": "งาน ROY แดจอน ฉลองครบรอบ 15 ปีของ NC",
+  "image": "http://www.bing.com/th?id=ONUT.uNnCvBXKNrlSTHa9pb3SKg&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "‘창단 15주년’ NC, ‘ROY 대전’ 개최한다",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wcFM4NllxZUVmWTVBUmRuRDU1alJHWG5ia044bHBYMnpsN2g0c0tmTVFNZ19NOEJRQ1ZZcWFDd2RibG4wMC0xWURudFZDNEpuS1dESnB3bEdKTks2S3JFR3oxLWpQNUpvc1JuV9IBb0FVX3lxTE5ZaUVKUUZORzNWWGU5NEJxVkhqdEtkem1Ib1ZaMFFtOXM4cERfNDZ0TGNQT3Q0azFDdmNwSllVY3BjbzFHT2NDSDZSQVFrMGF2MkotbXU0MUE2ZVQxTGtyeG9RelR4YURPZnRXcjViSQ?oc=5",
+    "source": "경남연합일보",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.sportschosun.com/baseball/2026-10-27/202610270100170240011228",
+  "imageFrom": "https://www.sportschosun.com/baseball/2026-10-27/202610270100170240011228",
+  "imageHash": "02729b6df225b6a5",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
+  "id": "75389247596c",
+  "name": "김종국 단독 콘서트",
+  "name_th": "คอนเสิร์ตเดี่ยว คิมจงกุก",
+  "start": "2026-11-28",
+  "end": "2026-11-28",
+  "venue": "성남아트센터 오페라하우스",
+  "city": "성남",
+  "country": "KR",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert"
+  ],
+  "summary_th": "คอนเสิร์ตเดี่ยวของคิมจงกุก ช่วงปลายปีถึงต้นปีใหม่ ยังไม่ประกาศวันแน่ชัด",
+  "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/27/bnt202610270454.jpg",
+  "official": null,
+  "sources": [
+   {
+    "title": "김종국, 연말·연초 팬들과 함께…단독 콘서트 개최",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SYXFyS0Y2bUd1SHJhT1RJUkhGSkJtRERFcXFoSDNQRjJ1M1JlSWJDVF9FeG1IOEw5eWdWb19PUmZhMGI0dzh1eWJSX0kwcDZwVTFlZl91dXNFNU5WTnRDZG9kUQ?oc=5",
+    "source": "MHN스포츠",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-28",
+  "article": "https://www.bntnews.co.kr/article/view/bnt202610270233",
+  "imageFrom": "https://www.bntnews.co.kr/Culture/article/view/bnt202610270233",
+  "imageHash": "c0870df4330ef5f5",
+  "placeChecked": true,
+  "regionTried": true,
+  "about_th": "김종국의 단독 콘서트이다. 연말과 연초에 팬들과 함께하는 공연으로 기획되었다. 아직 구체적인 일정과 장소는 공개되지 않았다.",
+  "highlights_th": [],
+  "hours": null,
+  "described": true,
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "95f5d4fd18ac",
@@ -159558,6 +159788,51 @@
    "cc10ed27612a",
    "c7553a4dad03"
   ]
+ },
+ {
+  "id": "97e29e9faaff",
+  "name": "Concert Hà Anh Tuấn tại Rạp xiếc Phú Thọ",
+  "name_th": "คอนเสิร์ต Hà Anh Tuấn ที่โรงละครสัตว์ฟู้เถาะ",
+  "start": "2026-12-17",
+  "end": "2026-12-17",
+  "venue": "Rạp xiếc Phú Thọ",
+  "city": "TP.HCM",
+  "country": "VN",
+  "region": "south",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "concert"
+  ],
+  "summary_th": "คอนเสิร์ตของ Hà Anh Tuấn ที่โฮจิมินห์ จำกัดผู้ชมเพียง 2,000 คน",
+  "image": "https://images2.thanhnien.vn/zoom/1200_630/528068263637045248/2026/10/28/ha-anh-tuan-3-1793160249336717871620-82-30-1346-2445-crop-1793160574453350949105.jpg",
+  "official": null,
+  "sources": [
+   {
+    "title": "V&#236; sao concert mới của H&#224; Anh Tuấn giới hạn 2.000 kh&#225;n giả?",
+    "link": "https://thanhnien.vn/vi-sao-concert-moi-cua-ha-anh-tuan-gioi-han-2000-khan-gia-185261028110952208.htm",
+    "source": "B&#225;o Thanh Ni&#234;n",
+    "date": "2026-10-27",
+    "image": "http://www.bing.com/th?id=ONUT.CktXGXSC-MrHrJpoqCS2eg&pid=News"
+   }
+  ],
+  "added": "2026-10-28",
+  "updated": "2026-10-28",
+  "enriched": true,
+  "imageHash": "69d6f9f65793b08a",
+  "placeChecked": true,
+  "about_th": "งานคอนเสิร์ตพบปะแฟนคลับของนักร้อง Hà Anh Tuấn ภายใต้ชื่อ Friends Meeting จัดขึ้นที่ Rạp xiếc và biểu diễn đa năng Phú Thọ ในนครโฮจิมินห์ งานนี้จำกัดผู้เข้าร่วมเพียง 2,000 ที่นั่ง เพื่อให้เป็นช่วงเวลาพบปะใกล้ชิดระหว่างศิลปินกับแฟนเพลงที่ติดตามเขามาตลอด 20 ปี ภายในงานมีการแสดงดนตรีและกิจกรรมที่เน้นประสบการณ์ของผู้เข้าร่วมเป็นศูนย์กลาง",
+  "highlights_th": [
+   "คอนเสิร์ตของ Hà Anh Tuấn จำกัดผู้ชมเพียง 2,000 ที่นั่ง",
+   "รูปแบบการพบปะใกล้ชิดระหว่างศิลปินกับแฟนเพลงที่ร่วมทางกันมา 20 ปี",
+   "จัดที่ Rạp xiếc và biểu diễn đa năng Phú Thọ ใน TP.HCM",
+   "ชื่องาน Friends Meeting สื่อถึงการพบปะฉันมิตร",
+   "ประสบการณ์ของผู้เข้าร่วมเป็นศูนย์กลางของงาน"
+  ],
+  "hours": null,
+  "described": true,
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "b3bfbbdcedd4",
@@ -181136,7 +181411,7 @@
    "concert"
   ],
   "summary_th": "เทศกาลดนตรีคันทรีที่เมือง Fort Loramie ประกาศไลน์อัปศิลปินแล้ว",
-  "image": "https://s.yimg.com/lo/mysterio/api/0b6c14e3b20f4825c1d905e58ac39bb531e8fbb588c5e4b3963b28efc418862d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwhio_cox_articles_828%2F3984dcdcd1206db4eae49650fd549629.jpg",
+  "image": "https://s.yimg.com/lo/mysterio/api/b8aaa7f13a976594b65be8b8c46c0c2be4bf9e4e9719f48217fe178a6f91df13/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwhio_cox_videos_352%2F53ab044dcf5b3e96638e74fec5385a92.jpg",
   "official": null,
   "sources": [
    {
@@ -181177,7 +181452,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": null,
-  "imageFrom": "https://www.yahoo.com/entertainment/music/articles/country-concert-27-announces-festival-130135764.html",
+  "imageFrom": "https://www.yahoo.com/news/videos/country-concert-announces-2027-lineup-162748389.html",
   "placeChecked": true,
   "imageHash": "021ec92949f23e14",
   "verified": true,
@@ -192429,7 +192704,7 @@
    "expo"
   ],
   "summary_th": "ลอนดอน อินเตอร์เนชันแนล มอเตอร์โชว์จะประกาศผล World Car Awards Top Three in the World ปี 2027",
-  "image": "https://static.independent.co.uk/2026/03/03/17/58/IMG_1668.jpeg?width=1200&height=800&crop=1200:800",
+  "image": "https://s.yimg.com/lo/mysterio/api/d5c924ec9afa4513a66e5d180fe73d1fb34226d107c96cfa1f166a3da265f371/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2F87d3cacf7d83eb03e8fd1cda41cbeb0d",
   "official": null,
   "sources": [
    {
@@ -192446,7 +192721,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.carandbike.com/news/world-car-awards-2027-will-head-to-london-motor-show-3222508",
-  "imageFrom": "https://www.independent.co.uk/cars/electric-vehicles/london-international-motor-show-2027-b2931103.html",
+  "imageFrom": "https://uk.news.yahoo.com/london-international-motor-show-return-174152907.html",
   "imageHash": null,
   "placeChecked": true,
   "dateTried": true,
@@ -194018,7 +194293,7 @@
    "festival"
   ],
   "summary_th": "งานกีฬาสีและเทศกาลวัฒนธรรมสำหรับเด็กจากศูนย์เด็กในเขตนัมดง",
-  "image": "https://www.jeonmae.co.kr/news/thumbnail/202610/1306247_1038407_1540_v150.jpg",
+  "image": "https://cdn.kihoilbo.co.kr/news/photo/202610/3039089_583664_2745.jpg",
   "official": null,
   "sources": [
    {
@@ -194035,7 +194310,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306247",
-  "imageFrom": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306247",
+  "imageFrom": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039089",
   "imageHash": null,
   "placeChecked": true,
   "regionTried": true,
@@ -194771,7 +195046,8 @@
   "hours": null,
   "signup_th": "เปิดรับสมัครแล้ว",
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "hidden": true
  },
  {
   "id": "60c379748a7b",
@@ -194818,7 +195094,8 @@
   "hours": null,
   "described": true,
   "datesRead": true,
-  "dateTried": true
+  "dateTried": true,
+  "hidden": true
  },
  {
   "id": "fb8803be767b",
@@ -194868,7 +195145,8 @@
   "hours": null,
   "described": true,
   "datesRead": true,
-  "dateTried": true
+  "dateTried": true,
+  "hidden": true
  },
  {
   "id": "3418d3890738",
@@ -194916,7 +195194,8 @@
   "hours": null,
   "described": true,
   "datesRead": true,
-  "dateTried": true
+  "dateTried": true,
+  "hidden": true
  },
  {
   "id": "b262b4c5c4c7",
@@ -199660,7 +199939,8 @@
   "highlights_th": [],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "bca554d0976f",
@@ -199706,7 +199986,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "8c1207207782",
@@ -199752,7 +200033,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "2e0ea13299fb",
@@ -199799,89 +200081,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
- },
- {
-  "id": "3c99e394d009",
-  "name": "NC 'ROY 대전'",
-  "name_th": "NC 'ROY แดจอน'",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "대전",
-  "country": "KR",
-  "region": "chungcheong",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "match",
-   "esports"
-  ],
-  "summary_th": "งาน ROY แดจอน ฉลองครบรอบ 15 ปีของ NC",
-  "image": "http://www.bing.com/th?id=ONUT.uNnCvBXKNrlSTHa9pb3SKg&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "‘창단 15주년’ NC, ‘ROY 대전’ 개최한다",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wcFM4NllxZUVmWTVBUmRuRDU1alJHWG5ia044bHBYMnpsN2g0c0tmTVFNZ19NOEJRQ1ZZcWFDd2RibG4wMC0xWURudFZDNEpuS1dESnB3bEdKTks2S3JFR3oxLWpQNUpvc1JuV9IBb0FVX3lxTE5ZaUVKUUZORzNWWGU5NEJxVkhqdEtkem1Ib1ZaMFFtOXM4cERfNDZ0TGNQT3Q0azFDdmNwSllVY3BjbzFHT2NDSDZSQVFrMGF2MkotbXU0MUE2ZVQxTGtyeG9RelR4YURPZnRXcjViSQ?oc=5",
-    "source": "경남연합일보",
-    "date": "2026-10-27",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "https://www.sportschosun.com/baseball/2026-10-27/202610270100170240011228",
-  "imageFrom": "https://www.sportschosun.com/baseball/2026-10-27/202610270100170240011228",
-  "imageHash": "02729b6df225b6a5",
-  "placeChecked": true
- },
- {
-  "id": "97e29e9faaff",
-  "name": "Concert Hà Anh Tuấn tại Rạp xiếc Phú Thọ",
-  "name_th": "คอนเสิร์ต Hà Anh Tuấn ที่โรงละครสัตว์ฟู้เถาะ",
-  "start": null,
-  "end": null,
-  "venue": "Rạp xiếc Phú Thọ",
-  "city": "TP.HCM",
-  "country": "VN",
-  "region": "south",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "concert"
-  ],
-  "summary_th": "คอนเสิร์ตของ Hà Anh Tuấn ที่โฮจิมินห์ จำกัดผู้ชมเพียง 2,000 คน",
-  "image": "https://images2.thanhnien.vn/zoom/1200_630/528068263637045248/2026/10/28/ha-anh-tuan-3-1793160249336717871620-82-30-1346-2445-crop-1793160574453350949105.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "V&#236; sao concert mới của H&#224; Anh Tuấn giới hạn 2.000 kh&#225;n giả?",
-    "link": "https://thanhnien.vn/vi-sao-concert-moi-cua-ha-anh-tuan-gioi-han-2000-khan-gia-185261028110952208.htm",
-    "source": "B&#225;o Thanh Ni&#234;n",
-    "date": "2026-10-27",
-    "image": "http://www.bing.com/th?id=ONUT.CktXGXSC-MrHrJpoqCS2eg&pid=News"
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageHash": "69d6f9f65793b08a",
-  "placeChecked": true,
-  "about_th": "งานคอนเสิร์ตพบปะแฟนคลับของนักร้อง Hà Anh Tuấn ภายใต้ชื่อ Friends Meeting จัดขึ้นที่ Rạp xiếc và biểu diễn đa năng Phú Thọ ในนครโฮจิมินห์ งานนี้จำกัดผู้เข้าร่วมเพียง 2,000 ที่นั่ง เพื่อให้เป็นช่วงเวลาพบปะใกล้ชิดระหว่างศิลปินกับแฟนเพลงที่ติดตามเขามาตลอด 20 ปี ภายในงานมีการแสดงดนตรีและกิจกรรมที่เน้นประสบการณ์ของผู้เข้าร่วมเป็นศูนย์กลาง",
-  "highlights_th": [
-   "คอนเสิร์ตของ Hà Anh Tuấn จำกัดผู้ชมเพียง 2,000 ที่นั่ง",
-   "รูปแบบการพบปะใกล้ชิดระหว่างศิลปินกับแฟนเพลงที่ร่วมทางกันมา 20 ปี",
-   "จัดที่ Rạp xiếc và biểu diễn đa năng Phú Thọ ใน TP.HCM",
-   "ชื่องาน Friends Meeting สื่อถึงการพบปะฉันมิตร",
-   "ประสบการณ์ของผู้เข้าร่วมเป็นศูนย์กลางของงาน"
-  ],
-  "hours": null,
-  "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "5f7821e07971",
@@ -199929,7 +200130,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "0e58af6d4b61",
@@ -199975,7 +200177,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "9a427aa9876b",
@@ -200024,7 +200227,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "adf772fe71f4",
@@ -200070,7 +200274,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "e70d01d9c017",
@@ -200110,154 +200315,8 @@
   "imageFrom": "https://hoodline.com/2026/10/chastain-park-s-fall-arts-festival-returns-with-free-admission-150-plus-artists/",
   "imageHash": "f9d856e49faa8a09",
   "placeChecked": true,
-  "regionTried": true
- },
- {
-  "id": "6174e44b1160",
-  "name": "万州烤鱼消费季",
-  "name_th": "เทศกาลปลาย่างว่านโจว",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "万州",
-  "country": "CN",
-  "region": "southwest",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "food",
-   "festival"
-  ],
-  "summary_th": "เทศกาลกินปลาย่างเมืองว่านโจว พร้อมคูปอง消費券 1.2 ล้านหยวนและตั๋วคอนเสิร์ตแจก",
-  "image": "http://www.bing.com/th?id=ONUT.6vdhWc7YIK6szIJ2xxC8TQ&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "烟火万州 “鱼”你相约 | 120万消费券、群星演唱会门票……万州烤鱼消费季亮点抢先看",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qdW9HUmU0bXlJV2pKeTBoZVc1VVdsdlJUYTF3RnhyMTgzMUhQMjhFYjVia1lOSkpucFZicEQ1NGpQWlNEbXM5WHBtVTFleWdTa18zYzRPdWpvc3RFTGNWQ3Nzbl8td1ptWTNVSS1SQk9pcDZOV1ZxaDZGWlV5dw?oc=5",
-    "source": "华龙网",
-    "date": "2026-10-21",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "http://www.cq.xinhuanet.com/20261027/9831631e28ea439aa64d165070b39864/c.html",
-  "imageFrom": "http://www.cq.xinhuanet.com/20261027/9831631e28ea439aa64d165070b39864/c.html",
-  "imageHash": "ff8f65575f41bfa8",
-  "placeChecked": true,
-  "about_th": "万州烤鱼消费季เป็นส่วนหนึ่งของ第十一届重庆文化旅游惠民消费季（万州专场）ที่จัดขึ้นในเมือง万州 ประเทศจีน โดยเชื่อมโยงกับ三峡美食文化节 เพื่อกระตุ้นการท่องเที่ยวและการ消費ในพื้นที่ งานนี้เปิดให้ประชาชนและนักท่องเที่ยวเข้าร่วมชิมปลาย่าง万州และอาหารท้องถิ่น พร้อมเลือกซื้อสินค้าพื้นเมืองจากพ่อค้าแม่ค้าทั้งในและนอกภูมิภาค ภายในงานมีการแจกคูปองส่วนลดและบัตรคอนเสิร์ต รวมถึงกิจกรรมส่งเสริมการขายอื่น ๆ ที่ช่วยกระตุ้นการใช้จ่ายตลอดห่วงโซ่การท่องเที่ยว",
-  "highlights_th": [
-   "แจกคูปอง消费券มูลค่า 1.2 ล้านหยวน",
-   "ลุ้นบัตรคอนเสิร์ต群星演唱会",
-   "เชื่อมโยงกับ三峡美食文化节",
-   "สินค้าพื้นเมืองจาก渝东北,三峡沿线,新疆哈密,西藏类乌齐,新疆巴里坤",
-   "คอนเสิร์ต潮起星辰·星耀万州 และ江畔视听音乐会"
-  ],
-  "hours": null,
-  "described": true,
-  "datesRead": true
- },
- {
-  "id": "0449fd6b4380",
-  "name": "블로키X하비소울 두근두근 캐릭터 페스타",
-  "name_th": "บล็อกกี้ x ฮาบี้โซล ดูกึนดูกึน คาแรกเตอร์ เฟสตา",
-  "start": null,
-  "end": "2026-11-03",
-  "venue": "신세계백화점 강남점",
-  "city": "서울",
-  "country": "KR",
-  "region": "seoul",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "figure",
-   "market"
-  ],
-  "summary_th": "ป๊อปอัปตัวละครและฟิกเกอร์กว่า 950 รายการที่ห้างชินเซกye คังนัม กรุงโซล",
-  "image": "http://www.bing.com/th?id=ONUT.ldsZx3juCa1F1IMPzjp7CA&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "신세계백화점 서울 강남점에서 캐릭터 팝업 개최, 인기 상품 950여 종 한자리에",
-    "link": "https://www.msn.com/ko-kr/news/other/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90-%EC%84%9C%EC%9A%B8-%EA%B0%95%EB%82%A8%EC%A0%90%EC%97%90%EC%84%9C-%EC%BA%90%EB%A6%AD%ED%84%B0-%ED%8C%9D%EC%97%85-%EA%B0%9C%EC%B5%9C-%EC%9D%B8%EA%B8%B0-%EC%83%81%ED%92%88-950%EC%97%AC-%EC%A2%85-%ED%95%9C%EC%9E%90%EB%A6%AC%EC%97%90/ar-AA2g3DGG",
-    "source": "비즈니스포스트 on MSN",
-    "date": "2026-10-25",
-    "image": null
-   },
-   {
-    "title": "신세계백화점 강남점에서 캐릭터 팝업 개최, 인기 상품 950여 종 한자리에",
-    "link": "https://www.msn.com/ko-kr/news/other/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90-%EA%B0%95%EB%82%A8%EC%A0%90%EC%97%90%EC%84%9C-%EC%BA%90%EB%A6%AD%ED%84%B0-%ED%8C%9D%EC%97%85-%EA%B0%9C%EC%B5%9C-%EC%9D%B8%EA%B8%B0-%EC%83%81%ED%92%88-950%EC%97%AC-%EC%A2%85-%ED%95%9C%EC%9E%90%EB%A6%AC%EC%97%90/ar-AA2g3DGG",
-    "source": "비즈니스포스트 on MSN",
-    "date": "2026-10-25",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "https://www.yna.co.kr/view/PYH20261025085600013",
-  "imageFrom": "https://www.yna.co.kr/view/PYH20261025085600013",
-  "imageHash": "d2775afba7d9a27c",
-  "placeChecked": true,
-  "about_th": "งานป๊อปอัปตัวการ์ตูน 블로키X하비소울 두근두근 캐릭터 페스타 จัดขึ้นที่ห้างสรรพสินค้าชินเซเก สาขาคังนัม กรุงโซล ประเทศเกาหลีใต้ ภายในงานรวมสินค้าตัวการ์ตูนยอดนิยมไว้มากกว่า 950 รายการให้เลือกชมและเลือกซื้อในที่เดียว เหมาะสำหรับแฟน ๆ ตัวการ์ตูนที่อยากตามหาสินค้าคอลเลกชันใหม่ ๆ",
-  "highlights_th": [
-   "ป๊อปอัปสโตร์ตัวการ์ตูน 블로키 ร่วมกับ 하비소울",
-   "รวมสินค้าตัวการ์ตูนยอดนิยมกว่า 950 รายการ",
-   "จัดที่ห้างสรรพสินค้าชินเซเก สาขาคังนัม กรุงโซล",
-   "เหมาะสำหรับนักสะสมและแฟนตัวการ์ตูน"
-  ],
-  "hours": null,
-  "described": true,
-  "datesRead": true
- },
- {
-  "id": "75389247596c",
-  "name": "김종국 단독 콘서트",
-  "name_th": "คอนเสิร์ตเดี่ยว คิมจงกุก",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": null,
-  "country": "KR",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "concert"
-  ],
-  "summary_th": "คอนเสิร์ตเดี่ยวของคิมจงกุก ช่วงปลายปีถึงต้นปีใหม่ ยังไม่ประกาศวันแน่ชัด",
-  "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/27/bnt202610270454.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "김종국, 연말·연초 팬들과 함께…단독 콘서트 개최",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SYXFyS0Y2bUd1SHJhT1RJUkhGSkJtRERFcXFoSDNQRjJ1M1JlSWJDVF9FeG1IOEw5eWdWb19PUmZhMGI0dzh1eWJSX0kwcDZwVTFlZl91dXNFNU5WTnRDZG9kUQ?oc=5",
-    "source": "MHN스포츠",
-    "date": "2026-10-27",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "https://www.bntnews.co.kr/article/view/bnt202610270233",
-  "imageFrom": "https://www.bntnews.co.kr/Culture/article/view/bnt202610270233",
-  "imageHash": "c0870df4330ef5f5",
-  "placeChecked": true,
   "regionTried": true,
-  "about_th": "김종국의 단독 콘서트이다. 연말과 연초에 팬들과 함께하는 공연으로 기획되었다. 아직 구체적인 일정과 장소는 공개되지 않았다.",
-  "highlights_th": [],
-  "hours": null,
-  "described": true,
-  "datesRead": true
+  "dateTried": true
  },
  {
   "id": "b36d9ba37160",
@@ -200302,7 +200361,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "666a15338a8c",
@@ -200352,7 +200412,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "d8b45e4b7ff7",
@@ -200400,7 +200461,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "d3185efd00a5",
@@ -200448,7 +200510,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "42e6e47a8700",
@@ -200493,7 +200556,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "9c962e93800b",
@@ -200539,7 +200603,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "6cf74a54452a",
@@ -200587,7 +200652,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "2775be92b241",
@@ -200635,46 +200701,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
- },
- {
-  "id": "8210f36ed3cf",
-  "name": "Triển lãm giới thiệu quá trình hình thành Dinh Độc Lập",
-  "name_th": "นิทรรศการประวัติการก่อตั้งทำเนียบเอกราช",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": null,
-  "country": "VN",
-  "region": "south",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "museum",
-   "art"
-  ],
-  "summary_th": "นิทรรศการเล่าประวัติการก่อตั้งทำเนียบ Dinh Độc Lập",
-  "image": "http://www.bing.com/th?id=ONUT.z5S5Cj5D9gvUeyuujYzbwg&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "Triển lãm giới thiệu quá trình hình thành Dinh Độc Lập",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOHV4T1BfaXNvaW9RdlhwaEhfbV9IWFpwX1lsRkRZWFJTSDFmelhpMGUzWWZ0cHZnZ2U4eUdFNFhzcHh5bXl0eGt4MXg3SHFsWENPaU15dkVhd3dNLWpXdFNjdUNieE9DTEE4VHFmbFFKNVhnNzlzZTF5RzVpZDNXYzNIVQ?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "https://www.sggp.org.vn/tu-ban-ve-den-bieu-tuong-dinh-doc-lap-post878841.html",
-  "imageFrom": "https://www.sggp.org.vn/tu-ban-ve-den-bieu-tuong-dinh-doc-lap-post878841.html",
-  "imageHash": "f37155eb46774a78",
-  "placeChecked": true,
-  "regionTried": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "4cfa1add2c92",
@@ -200723,7 +200751,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "bb21b25ce0d3",
@@ -200742,7 +200771,7 @@
    "match"
   ],
   "summary_th": "งานกีฬาและวัฒนธรรมสำหรับเด็กจากศูนย์เด็กเขตน้ำดง อินชอน กว่า 600 คน",
-  "image": "https://www.jeonmae.co.kr/news/thumbnail/202610/1306247_1038407_1540_v150.jpg",
+  "image": "https://cdn.kihoilbo.co.kr/news/photo/202610/3039089_583664_2745.jpg",
   "official": null,
   "sources": [
    {
@@ -200766,7 +200795,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306247",
-  "imageFrom": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306247",
+  "imageFrom": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039089",
   "imageHash": null,
   "placeChecked": true,
   "regionTried": false,
@@ -200780,7 +200809,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "4795d2346034",
@@ -200817,7 +200847,8 @@
   "article": "https://giacngo.vn/trien-lam-my-thuat-thuc-tai-se-dien-ra-trong-dip-dai-hoi-dai-bieu-phat-giao-toan-quoc-lan-thu-x-tai-tphcm-post81449.html",
   "imageFrom": "https://giacngo.vn/trien-lam-my-thuat-thuc-tai-se-dien-ra-trong-dip-dai-hoi-dai-bieu-phat-giao-toan-quoc-lan-thu-x-tai-tphcm-post81449.html",
   "imageHash": "40978d931d6609f8",
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "418806d3dc52",
@@ -200867,7 +200898,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "e37ff1192896",
@@ -200914,87 +200946,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
- },
- {
-  "id": "fade3f56f760",
-  "name": "2026 청주원도심골목길축제 ‘가을:잔치집,대성’",
-  "name_th": "เทศกาลตรอกเมืองเก่าชองจู 2026",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "청주",
-  "country": "KR",
-  "region": "chungcheong",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "festival",
-   "local"
-  ],
-  "summary_th": "เทศกาลตรอกเมืองเก่าชองจู ธีมงานเลี้ยงฤดูใบไม้ร่วง",
-  "image": "http://www.bing.com/th?id=ONUT.jzYsnzmhL3FoggggR3hjMQ&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "2026 청주원도심골목길축제 ‘가을:잔치집,대성’ 개최",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sTk9oQ1VvcjJTd01RaTlITGdQdEJFdkZhVFF2YVR2ME1CMU5GSWUtbW9RZW1kUlVmVGw0bWwyOVQwWTFPSGprWDhTbUtUNm9RM2RFS2RJU2tjTmJZZ191ODV2YlJqeTBrWVE?oc=5",
-    "source": "금강일보",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "http://www.cbnews.kr/news/articleView.html?idxno=246073",
-  "imageFrom": "http://www.cbnews.kr/news/articleView.html?idxno=246073",
-  "imageHash": "18ba504b6470e45e",
-  "placeChecked": true,
-  "about_th": "เทศกาลเดินตรอกย่านใจกลางเมืองเก่าชองจู (청주원도심골목길축제) ครั้งที่จัดในฤดูใบไม้ร่วงภายใต้ธีม 'ฤดูใบไม้ร่วง: งานฉลองบ้านใหญ่ แดซอง' เปลี่ยนตรอกแดซองดงให้เป็นเวทีงานฉลองชีวิตตั้งแต่พิธีโกนผมไฟจนถึงงานฉลองอายุครบ 60 ปี จัดขึ้นระหว่างวันที่ 7-8 พฤศจิกายน 2569 บริเวณถนนแดซองโร 122beon-gil (วัดฮยังกโย ชองจู) และพื้นที่โดยรอบ ผู้เข้าชมสามารถเดินชมการแสดง นิทรรศการ และกิจกรรมเวิร์กช็อปในบรรยากาศงานฉลองตรอกยุคทศวรรษ 1970-80 โดยใช้ทั้งวัดฮยังกโย นอลกซมมารู ร้านค้าในตรอก และบ้านเรือนของชาวบ้านเป็นพื้นที่จัดงาน ภายในงานมีทั้งหมด 34 โปรแกรมใน 3 ด้าน ได้แก่ การแสดง/นิทรรศการ กิจกรรมสัมผัส/ทัวร์ และโปรแกรมเชื่อมโยง ซึ่งรวม 11 โปรแกรมที่คัดเลือกจากประชาชน",
-  "highlights_th": [],
-  "hours": null,
-  "described": true,
-  "datesRead": true
- },
- {
-  "id": "c0ef0620d5b7",
-  "name": "林宥嘉深圳演唱会",
-  "name_th": "คอนเสิร์ต Yoga Lin ที่เซินเจิ้น",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "深圳",
-  "country": "CN",
-  "region": "south",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "concert"
-  ],
-  "summary_th": "คอนเสิร์ตของ林宥嘉ที่เมืองเซินเจิ้น เปิดขายบัตรรอบสอง",
-  "image": "http://www.bing.com/th?id=ONUT.BAPjVEUFT8nAXab14W7meA&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "【林宥嘉深圳演唱会】2026林宥嘉深圳演唱会二次开售！售票时间+购票入口",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5idU5uSjA5LUJsdFJ3a2gxWmRoYjVaRUZtR3F3V3BBR2lZaTV3UWtfZ2czTEk1U2xza081NU12dVM3bTR0bVd6M2dSNEc?oc=5",
-    "source": "凤凰网",
-    "date": "2026-10-20",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "https://ent.sina.cn/2026-10-21/detail-inivxewz5627079.d.html?vt=4",
-  "imageFrom": "https://ent.sina.cn/2026-10-21/detail-inivxewz5627079.d.html?vt=4",
-  "imageHash": "667b30dc2e19c3b7",
-  "placeChecked": true
+  "datesRead": true,
+  "dateTried": true
  },
  {
   "id": "f32c85c2867f",
@@ -204229,7 +204182,7 @@
    "market"
   ],
   "summary_th": "เทศกาลอาหารว่างและสินค้าท้องถิ่นของอาซาฮัน จัดโดยเทศบาล",
-  "image": "https://investigasi.news/wp-content/uploads/2026/10/IMG-20261027-WA0002.jpg",
+  "image": "https://portibi.id/wp-content/uploads/2026/10/IMG-20261027-WA0001.jpg",
   "official": null,
   "sources": [
    {
@@ -204253,7 +204206,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://investigasi.news/27/10/2026/wabup-asahan-buka-festival-jajanan-kuliner-dan-produk-lokal-2026-dorong-umkm-naik-kelas/nasional/asahan-nasional/",
-  "imageFrom": "https://investigasi.news/27/10/2026/wabup-asahan-buka-festival-jajanan-kuliner-dan-produk-lokal-2026-dorong-umkm-naik-kelas/nasional/asahan-nasional/",
+  "imageFrom": "https://portibi.id/wakil-bupati-asahan-buka-festival-jajanan-kuliner-dan-produk-lokal-tahun-2026/",
   "imageHash": null,
   "placeChecked": true
  },
@@ -204560,44 +204513,6 @@
   "article": "https://jogja.tribunnews.com/diy/1226516/perputaran-ekonomi-gelaran-expo-haji-dan-umroh-2026-di-jogja-capai-rp25-miliar",
   "imageFrom": "https://jogja.tribunnews.com/diy/1226516/perputaran-ekonomi-gelaran-expo-haji-dan-umroh-2026-di-jogja-capai-rp25-miliar",
   "imageHash": "23d7be7686c5011a",
-  "placeChecked": true
- },
- {
-  "id": "dd5e398cb0fd",
-  "name": "Pameran Teknologi Elektronik",
-  "name_th": "งานแสดงเทคโนโลยีอิเล็กทรอนิกส์",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "Batam",
-  "country": "ID",
-  "region": "sumatra",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "expo",
-   "gadget"
-  ],
-  "summary_th": "งานแสดงเทคโนโลยีอิเล็กทรอนิกส์ที่บาตัม",
-  "image": "https://cdn-jjmn.jawapos.com/images/16/2026/10/27/ceo-fireworks-trade-media-group-kenny-yong-fistimewa-Y2MBK.webp",
-  "official": null,
-  "sources": [
-   {
-    "title": "Pameran Teknologi Elektronik Digelar di Batam, Libatkan Ratusan Perusahaan",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTkczdmhBVEVfNmRUZG4tZmoyenVkS1Iwa3JMYkJRVHlVVXJ3dnd1UHJhRkRvVXAxOTlUdXZtcnZXQnI3TU9lQWpVdnJ5S2hudDBoV1JzYmtkaC1TTWY5Ui1Kc0NZRU1DX3dOMmZuWEREWFduTTU5bm9xakpaUHhPR3lPbml6b19udXRMcWc2MEZOM3V2eEptRFhsajFQRHPSAZ8BQVVfeXFMT05HM3ZoQVRFXzZkVGRuLWZqMnp1ZEtSMGtyTGJCUVR5VVVyd3Z3dVByYUZEb1VwMTk5VHV2bXJ2V0JyN01PZUFqVXZyeUtobnQwaFdSc2JrZGgtU01mOVItSnNDWUVNQ193TjJmblhERFhXbk01OW5vcWpKWlB4T0d5T25pem9fbnV0THFnNjBGTjN1dnhKbURYbGoxUERz?oc=5",
-    "source": "Ulasan.co",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "https://ulasan.co/pameran-teknologi-elektronik-digelar-di-batam-libatkan-ratusan-perusahaan/",
-  "imageFrom": "https://batampos.jawapos.com/batam/2610270024/200-merek-teknologi-global-ramaikan-emax-dan-bmax-2026-di-batam",
-  "imageHash": "528bcc850113017d",
   "placeChecked": true
  },
  {
@@ -214453,7 +214368,7 @@
    "kids"
   ],
   "summary_th": "นิทรรศการพิเศษไดโนเสาร์ซอโรพอดที่พิพิธภัณฑ์ไดโนเสาร์ ถึงวันที่ 3 พฤศจิกายน",
-  "image": "https://www.yomiuri.co.jp/media/2026/10/20261028-GYO1I00010-1.jpg?type=ogp",
+  "image": "https://static.chunichi.co.jp/image/article/size1/0/c/5/6/0c5674cf06ffba88d0f5dd93d3381f6d_1.jpg",
   "official": null,
   "sources": [
    {
@@ -214470,7 +214385,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00009/",
-  "imageFrom": "https://www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00009/",
+  "imageFrom": "https://www.chunichi.co.jp/article/1331346",
   "imageHash": null,
   "placeChecked": true,
   "regionTried": true
@@ -223156,7 +223071,7 @@
    "kids"
   ],
   "summary_th": "นิทรรศการไดโนเสาร์ซอโรพอดพร้อมฟอสซิลจริงซินเจียงไททัน ถึง 3 พ.ย.",
-  "image": "https://www.yomiuri.co.jp/media/2026/10/20261028-GYO1I00010-1.jpg?type=ogp",
+  "image": "https://static.chunichi.co.jp/image/article/size1/0/c/5/6/0c5674cf06ffba88d0f5dd93d3381f6d_1.jpg",
   "official": null,
   "sources": [
    {
@@ -223180,7 +223095,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00009/",
-  "imageFrom": "https://www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00009/",
+  "imageFrom": "https://www.chunichi.co.jp/article/1331346",
   "imageHash": null,
   "placeChecked": true
  },
@@ -226417,7 +226332,7 @@
    "art"
   ],
   "summary_th": "นิทรรศการภาพถ่ายหอจดหมายเหตุชิบูย่าและนิทรรศการศิลปะคามิยามะ",
-  "image": "https://prcdn.freetls.fastly.net/release_image/151465/6/151465-6-688b1abed7415862dad6a20ee917ee66-2500x1312.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "image": "https://prtimes.jp/img/136779/51/resize/d136779-51-48364c689e9090c29480-18.png",
   "official": null,
   "sources": [
    {
@@ -226434,7 +226349,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://mantan-web.jp/prtimes/article/20261026prt00m200000288a.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000006.000151465.html",
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261026prt00m200000288a.html",
   "imageHash": null,
   "placeChecked": true
  },
@@ -227839,7 +227754,7 @@
    "kids"
   ],
   "summary_th": "นิทรรศการไดโนเสาร์ซอโรพอดที่พิพิธภัณฑ์ไดโนเสาร์จังหวัดฟุคุอิมียอดผู้เข้าชมเกิน 3.6 แสนคน จัดถึง 3 พ.ย.",
-  "image": "https://www.yomiuri.co.jp/media/2026/10/20261028-GYO1I00010-1.jpg?type=ogp",
+  "image": "https://static.chunichi.co.jp/image/article/size1/0/c/5/6/0c5674cf06ffba88d0f5dd93d3381f6d_1.jpg",
   "official": "https://dragons.jp/fanclub/",
   "sources": [
    {
@@ -227858,7 +227773,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00009/",
-  "imageFrom": "https://www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00009/"
+  "imageFrom": "https://www.chunichi.co.jp/article/1331346"
  },
  {
   "id": "a37005dd25e9",
@@ -228494,7 +228409,7 @@
    "photo"
   ],
   "summary_th": "นิทรรศการภาพถ่ายจดหมายเหตุชิบุยะที่ชิบุยะฮิคาริเอะ",
-  "image": "https://prcdn.freetls.fastly.net/release_image/151465/6/151465-6-688b1abed7415862dad6a20ee917ee66-2500x1312.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "image": "https://prtimes.jp/img/136779/51/resize/d136779-51-48364c689e9090c29480-18.png",
   "official": null,
   "sources": [
    {
@@ -228511,7 +228426,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://mantan-web.jp/prtimes/article/20261026prt00m200000288a.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000006.000151465.html",
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261026prt00m200000288a.html",
   "imageHash": null,
   "placeChecked": true
  },
@@ -229714,7 +229629,7 @@
    "museum"
   ],
   "summary_th": "นิทรรศการความเป็นสากลของการแข่งม้าญี่ปุ่น จัดแสดงภาพหายากม้าฮาคุชิกะระ",
-  "image": "https://www.sanspo.com/resizer/v2/PPHZTGSB55GMHC4KR7KSMFSNIA.jpg?auth=e235fff8efc3d2b85497fe36842dfa0a8ad8a349b367aff2a26b8b91f3ed408c&quality=50&focal=1457%2C1090&width=1200&height=675",
+  "image": "https://www.nikkansports.com/keiba/column/rapusodi/news/img/202606060000757-w500_0.jpg",
   "official": null,
   "sources": [
    {
@@ -229731,7 +229646,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.sanspo.com/race/article/general/20260929-ITLO7L6DHFL3LNTNRNW4YMBC5Y/",
-  "imageFrom": "https://www.sanspo.com/race/article/general/20260929-ITLO7L6DHFL3LNTNRNW4YMBC5Y/",
+  "imageFrom": "https://www.nikkansports.com/keiba/column/rapusodi/news/202606060000757.html",
   "placeChecked": true,
   "imageHash": null,
   "regionTried": true
@@ -230868,7 +230783,7 @@
    "museum"
   ],
   "summary_th": "นิทรรศการภาพถ่ายและวิดีโอการแข่งม้าญี่ปุ่นที่พิพิธภัณฑ์ JRA",
-  "image": "https://www.sanspo.com/resizer/v2/PPHZTGSB55GMHC4KR7KSMFSNIA.jpg?auth=e235fff8efc3d2b85497fe36842dfa0a8ad8a349b367aff2a26b8b91f3ed408c&quality=50&focal=1457%2C1090&width=1200&height=675",
+  "image": "https://www.nikkansports.com/keiba/column/rapusodi/news/img/202606060000757-w500_0.jpg",
   "official": null,
   "sources": [
    {
@@ -230885,7 +230800,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.sanspo.com/race/article/general/20260929-ITLO7L6DHFL3LNTNRNW4YMBC5Y/",
-  "imageFrom": "https://www.sanspo.com/race/article/general/20260929-ITLO7L6DHFL3LNTNRNW4YMBC5Y/",
+  "imageFrom": "https://www.nikkansports.com/keiba/column/rapusodi/news/202606060000757.html",
   "placeChecked": true,
   "imageHash": null
  },
@@ -239464,44 +239379,6 @@
   "regionTried": true
  },
  {
-  "id": "2bf9ceb936ab",
-  "name": "Mitsubishi Outlander ใหม่",
-  "name_th": "มิตซูบิชิ เอาท์แลนเดอร์ ใหม่",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": null,
-  "country": "VN",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "carlaunch"
-  ],
-  "summary_th": "มิตซูบิชิเตรียมเปิดตัวเอาท์แลนเดอร์รุ่นใหม่ในเวียดนามเร็วๆ นี้",
-  "image": "http://www.bing.com/th?id=ONUT.FQ-gRVcmIZEBUWXqShAwQQ&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "รถยนต์มิตซูบิชิ เอาท์แลนเดอร์ รุ่นใหม่ที่จะเปิดตัวในเวียดนามเร็วๆ นี้ มาพร้อมกับดีไซน์ที่ดุดันที่สุดเท่าที่เคยมีมา",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUFhFVEVpejd1YUFiRDN5NVlJT0dJMU52cC1heEZrN0xFNTN6dGZKcEtaMVdWSDlndzk3MURZd1pKT3ZrTnVYeC1taVBZOXhRcnV4TF9HWGd5UUJQLUZQeXRfTTR6Yl9oS3Q1LTNSemNKc01DYWh3V0lxX1dKUlZXMWNBbjM5bHZKZXV3Y2duc0FUaXkzajhGMzZ0SzVkb3djQnV1T2dTQk0zQQ?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "https://car2day.com/mitsubishi-outlander-diamond-trail-edition/",
-  "imageFrom": "https://car2day.com/mitsubishi-outlander-diamond-trail-edition/",
-  "imageHash": "cb5cbe1c4e021de3",
-  "placeChecked": true,
-  "regionTried": true
- },
- {
   "id": "cc81c238c943",
   "name": "เทศกาลโทรทัศน์ วิทยุ และภาพยนตร์เพื่อความมั่นคงสาธารณะ ครั้งที่ 15",
   "name_th": "เทศกาลโทรทัศน์ วิทยุ และภาพยนตร์เพื่อความมั่นคงสาธารณะ ครั้งที่ 15",
@@ -239992,7 +239869,7 @@
    "concert"
   ],
   "summary_th": "Disney ประกาศเปลี่ยนไลน์อัปคอนเสิร์ต Eat to the Beat ที่ EPCOT",
-  "image": "https://mdb.ad-hoc-news.de/bild/bild-2403779_1920_1080.webp",
+  "image": "https://dapsmagic.com/wp-content/uploads/2026/10/John-Stamos-Featured-Image.jpg",
   "official": null,
   "sources": [
    {
@@ -240009,7 +239886,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://dapsmagic.com/2026/10/john-stamos-and-the-california-sound-replace-the-beach-boys-for-the-eat-to-the-beat-concert-series/",
-  "imageFrom": "https://www.ad-hoc-news.de/unterhaltung/musik/the-beach-boys-play-orlando-on-11-november-eat-to-the-beat/70408754",
+  "imageFrom": "https://dapsmagic.com/2026/10/john-stamos-and-the-california-sound-replace-the-beach-boys-for-the-eat-to-the-beat-concert-series/",
   "imageHash": null,
   "placeChecked": true,
   "regionTried": true
@@ -242373,44 +242250,6 @@
   "article": "https://baomoi.com/festival-tinh-hoa-am-thuc-mien-bac-2026-ket-noi-am-thuc-voi-phat-trien-du-lich-c56376017.epi",
   "imageFrom": "https://baomoi.com/festival-tinh-hoa-am-thuc-mien-bac-2026-ket-noi-am-thuc-voi-phat-trien-du-lich-c56376017.epi",
   "imageHash": "d794a3729d9bd986",
-  "placeChecked": true
- },
- {
-  "id": "95c3ecefe916",
-  "name": "Lễ hội Chùa Quan Âm",
-  "name_th": "เทศกาลวัดกวนอิม",
-  "start": null,
-  "end": null,
-  "venue": "Lũng Phìn",
-  "city": null,
-  "country": "VN",
-  "region": "north",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "local",
-   "festival"
-  ],
-  "summary_th": "เทศกาลวัดกวนอิมที่ลุงฟิน จังหวัดห่าซาง",
-  "image": "http://www.bing.com/th?id=ONUT.ZB4qL4WkyttI_Su_rO1Szw&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "Lũng Phìn rộn ràng Lễ hội Chùa Quan Âm",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbThRbGFvNXhGOE5QMDVzN1hTcXd0cDV5SWtkenJMU3VXSjJ3NXRkX0xNcE93azVEUDY3YWdMbGFKdy0zSXg3VzBxTjBiaXBqQ3kwNnMxSnNmLWExei1LaGc0ZUJxZDhzNlpNMHlYQm8xd01OWFY5TFZFc2JJWmJldWZhQXYtS3NEa2JuTzlYeS04MmlUUGc?oc=5",
-    "source": "Báo Tuyên Quang",
-    "date": "2026-10-28",
-    "image": null
-   }
-  ],
-  "added": "2026-10-28",
-  "updated": "2026-10-28",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-28",
-  "article": "https://giacngo.vn/anh-phat-tu-dao-trang-phap-hoa-le-via-bo-tat-quan-the-am-tai-chua-hue-nghiem-pan-khanh-tphcm-post81450.html",
-  "imageFrom": "https://giacngo.vn/anh-phat-tu-dao-trang-phap-hoa-le-via-bo-tat-quan-the-am-tai-chua-hue-nghiem-pan-khanh-tphcm-post81450.html",
-  "imageHash": "7ecf604e2f727173",
   "placeChecked": true
  },
  {
@@ -245240,7 +245079,7 @@
    "market"
   ],
   "summary_th": "เทศกาลอาหารว่างพื้นเมืองและผลิตภัณฑ์ท้องถิ่นในเมืองอาซาฮัน เปิดโดยรองผู้ว่าการ",
-  "image": "https://investigasi.news/wp-content/uploads/2026/10/IMG-20261027-WA0002.jpg",
+  "image": "https://portibi.id/wp-content/uploads/2026/10/IMG-20261027-WA0001.jpg",
   "official": null,
   "sources": [
    {
@@ -245257,7 +245096,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://investigasi.news/27/10/2026/wabup-asahan-buka-festival-jajanan-kuliner-dan-produk-lokal-2026-dorong-umkm-naik-kelas/nasional/asahan-nasional/",
-  "imageFrom": "https://investigasi.news/27/10/2026/wabup-asahan-buka-festival-jajanan-kuliner-dan-produk-lokal-2026-dorong-umkm-naik-kelas/nasional/asahan-nasional/",
+  "imageFrom": "https://portibi.id/wakil-bupati-asahan-buka-festival-jajanan-kuliner-dan-produk-lokal-tahun-2026/",
   "imageHash": null,
   "placeChecked": true
  },
@@ -248608,7 +248447,7 @@
    "concert"
   ],
   "summary_th": "Sam Fender เปิดขายบัตรทัวร์อังกฤษปี 2027 ภายในสัปดาห์นี้",
-  "image": "http://www.bing.com/th?id=ONUT.SjJltb9ovrOFT88S2_2QUw&pid=News",
+  "image": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltcd74acc1d0a99f3a/bltce2597eee55a73c5/6ae1d20e6391ef501d147e56/sam-fender-tickets.jpg",
   "official": null,
   "sources": [
    {
@@ -248625,8 +248464,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.ladbible.com/entertainment/music/sam-fender-tickets-2027-tour-729821-20261028",
-  "imageFrom": "https://www.walesonline.co.uk/whats-on/music-nightlife-news/sam-fender-ticket-prices-cardiff-34827448",
-  "imageHash": "0b5a2eb72ac2ee99",
+  "imageFrom": "https://www.ladbible.com/entertainment/music/sam-fender-tickets-2027-tour-729821-20261028",
+  "imageHash": null,
   "placeChecked": true,
   "regionTried": true
  },
@@ -249066,7 +248905,7 @@
    "concert"
   ],
   "summary_th": "Disney ประกาศเปลี่ยนไลน์อัปศิลปินในคอนเสิร์ต Eat to the Beat ที่ EPCOT",
-  "image": "https://mdb.ad-hoc-news.de/bild/bild-2403779_1920_1080.webp",
+  "image": "https://dapsmagic.com/wp-content/uploads/2026/10/John-Stamos-Featured-Image.jpg",
   "official": null,
   "sources": [
    {
@@ -249083,7 +248922,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://dapsmagic.com/2026/10/john-stamos-and-the-california-sound-replace-the-beach-boys-for-the-eat-to-the-beat-concert-series/",
-  "imageFrom": "https://www.ad-hoc-news.de/unterhaltung/musik/the-beach-boys-play-orlando-on-11-november-eat-to-the-beat/70408754",
+  "imageFrom": "https://dapsmagic.com/2026/10/john-stamos-and-the-california-sound-replace-the-beach-boys-for-the-eat-to-the-beat-concert-series/",
   "imageHash": null,
   "placeChecked": true,
   "regionTried": true
@@ -249160,7 +248999,7 @@
   "imageTriedAt": "2026-10-29",
   "article": "https://www.ladbible.com/entertainment/music/sam-fender-tickets-2027-tour-729821-20261028",
   "imageFrom": "https://www.ladbible.com/entertainment/music/sam-fender-tickets-2027-tour-729821-20261028",
-  "imageHash": null,
+  "imageHash": "aff38277f6d4619c",
   "placeChecked": true,
   "regionTried": true
  },
@@ -250082,7 +249921,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตเดี่ยวครั้งแรก TAKE 01 เปิดขายบัตรวันที่ 29 ตุลาคม",
-  "image": "https://cdn.stardailynews.co.kr/news/photo/202610/600875_600944_396.jpg",
+  "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/29/bnt202610290149.jpg",
   "official": null,
   "sources": [
    {
@@ -250113,7 +249952,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.stardailynews.co.kr/news/articleView.html?idxno=600875",
-  "imageFrom": "https://www.stardailynews.co.kr/news/articleView.html?idxno=600875",
+  "imageFrom": "https://www.bntnews.co.kr/Music/article/view/bnt202610290096",
   "imageHash": null,
   "placeChecked": true
  },
@@ -250409,7 +250248,7 @@
    "carlaunch"
   ],
   "summary_th": "งานมอเตอร์โชว์ที่ลอนดอนปี 2027 ซึ่ง Caterham ยืนยันเข้าร่วมโซน Built in Britain",
-  "image": "https://static.independent.co.uk/2026/03/03/17/58/IMG_1668.jpeg?width=1200&height=800&crop=1200:800",
+  "image": "https://s.yimg.com/lo/mysterio/api/d5c924ec9afa4513a66e5d180fe73d1fb34226d107c96cfa1f166a3da265f371/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2F87d3cacf7d83eb03e8fd1cda41cbeb0d",
   "official": null,
   "sources": [
    {
@@ -250426,7 +250265,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.carandbike.com/news/world-car-awards-2027-will-head-to-london-motor-show-3222508",
-  "imageFrom": "https://www.independent.co.uk/cars/electric-vehicles/london-international-motor-show-2027-b2931103.html",
+  "imageFrom": "https://uk.news.yahoo.com/london-international-motor-show-return-174152907.html",
   "placeChecked": true,
   "regionTried": true,
   "imageHash": null
@@ -255525,7 +255364,7 @@
    "concert"
   ],
   "summary_th": "Sam Fender จัดคอนเสิร์ตสนามกีฬาที่คาร์ดิฟฟ์ ท่ามกลางกระแสวิจารณ์เรื่องราคาตั๋ว",
-  "image": "http://www.bing.com/th?id=ONUT.SjJltb9ovrOFT88S2_2QUw&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.GoXUVpPeMgDlM4qJF8Cm-w&pid=News",
   "official": null,
   "sources": [
    {
@@ -255542,8 +255381,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.walesonline.co.uk/whats-on/music-nightlife-news/sam-fender-ticket-prices-cardiff-34827448",
-  "imageFrom": "https://www.walesonline.co.uk/whats-on/music-nightlife-news/sam-fender-ticket-prices-cardiff-34827448",
-  "imageHash": "0b5a2eb72ac2ee99",
+  "imageFrom": "https://www.manchestereveningnews.co.uk/whats-on/music-nightlife-news/sam-fender-ticket-prices-confirmed-34817068",
+  "imageHash": "cf8402e540711a91",
   "placeChecked": true,
   "regionTried": true
  },
@@ -257039,7 +256878,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตเดี่ยวครั้งแรกของนักดนตรี พัค กงวอน",
-  "image": "https://cdn.stardailynews.co.kr/news/photo/202610/600875_600944_396.jpg",
+  "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/29/bnt202610290149.jpg",
   "official": null,
   "sources": [
    {
@@ -257056,7 +256895,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-29",
   "article": "https://www.stardailynews.co.kr/news/articleView.html?idxno=600875",
-  "imageFrom": "https://www.stardailynews.co.kr/news/articleView.html?idxno=600875",
+  "imageFrom": "https://www.bntnews.co.kr/article/view/bnt202610290096",
   "imageHash": null,
   "placeChecked": true
  },
@@ -260332,5 +260171,401 @@
   "article": null,
   "placeChecked": true,
   "regionTried": true
+ },
+ {
+  "id": "195efd3e9e45",
+  "name": "2025-26 Pokémon Asia Championship Series",
+  "name_th": "โปเกมอน เอเชีย แชมเปียนชิป ซีรีส์ 2025-26",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "tcg",
+   "game",
+   "esports"
+  ],
+  "summary_th": "ประกาศรางวัลพิเศษสำหรับผู้พิชิตลีกพอยต์ 30 แต้มขึ้นไป",
+  "image": "https://static.naewna.com/uploads/news/source/981997.jpg",
+  "imageFrom": "https://www.naewna.com/likesara/981997",
+  "imageHash": null,
+  "official": "https://trainers-asia.portal-pokemon.com/th/2026-27/",
+  "sources": [
+   {
+    "title": "Pokémon TCG Thailand",
+    "link": "https://asia.pokemon-card.com/th/",
+    "source": "Pokémon TCG Thailand",
+    "date": "2026-10-28"
+   }
+  ],
+  "article": "https://mgronline.com/game/detail/9690000102554",
+  "splitFrom": "fb8803be767b",
+  "added": "2026-10-29",
+  "updated": "2026-10-29",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-29",
+  "placeChecked": true
+ },
+ {
+  "id": "05ae4026d542",
+  "name": "Premier Ball League ประเภท TCG",
+  "name_th": "พรีเมียร์บอลลีก ประเภท TCG",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "tcg",
+   "game"
+  ],
+  "summary_th": "เปิดรับสมัครแล้ว",
+  "image": "https://mpics2.mgronline.com/pics/Images/569000010390001.JPEG",
+  "imageFrom": "https://mgronline.com/game/detail/9690000102554",
+  "imageHash": null,
+  "official": "https://th.portal-pokemon.com",
+  "sources": [
+   {
+    "title": "Pokémon TCG Thailand",
+    "link": "https://asia.pokemon-card.com/th/",
+    "source": "Pokémon TCG Thailand",
+    "date": "2026-10-28"
+   }
+  ],
+  "article": "https://mgronline.com/game/detail/9690000102554",
+  "splitFrom": "fb8803be767b",
+  "added": "2026-10-29",
+  "updated": "2026-10-29",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-29",
+  "placeChecked": true
+ },
+ {
+  "id": "46830939fe8c",
+  "name": "กิจกรรมเสริม (Side Event) ในงาน Master Ball League",
+  "name_th": "กิจกรรมเสริม (Side Event) ในงาน Master Ball League",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "tcg",
+   "game"
+  ],
+  "summary_th": "กิจกรรมเสริมภายในงานมาสเตอร์บอลลีก",
+  "image": "https://mpics2.mgronline.com/pics/Images/569000004808201.JPEG",
+  "imageFrom": "https://mgronline.com/game/detail/9690000047386",
+  "imageHash": null,
+  "official": "https://th.portal-pokemon.com",
+  "sources": [
+   {
+    "title": "Pokémon TCG Thailand",
+    "link": "https://asia.pokemon-card.com/th/",
+    "source": "Pokémon TCG Thailand",
+    "date": "2026-10-28"
+   }
+  ],
+  "article": "https://mgronline.com/game/detail/9690000102554",
+  "splitFrom": "fb8803be767b",
+  "added": "2026-10-29",
+  "updated": "2026-10-29",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-29",
+  "placeChecked": true
+ },
+ {
+  "id": "7aa975a2fc4b",
+  "name": "2025-26 Thailand Master Ball League",
+  "name_th": "ไทยแลนด์ มาสเตอร์บอลลีก 2025-26",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "tcg",
+   "game",
+   "esports"
+  ],
+  "summary_th": "เปิดรับสมัครแข่งขันแบบ Waiting List",
+  "image": null,
+  "imageFrom": "https://mgronline.com/game/detail/9690000102554",
+  "imageHash": null,
+  "official": "https://th.portal-pokemon.com",
+  "sources": [
+   {
+    "title": "Pokémon TCG Thailand",
+    "link": "https://asia.pokemon-card.com/th/",
+    "source": "Pokémon TCG Thailand",
+    "date": "2026-10-28"
+   }
+  ],
+  "article": "https://mgronline.com/game/detail/9690000102554",
+  "splitFrom": "fb8803be767b",
+  "added": "2026-10-29",
+  "updated": "2026-10-29",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-29",
+  "placeChecked": true
+ },
+ {
+  "id": "5e1dbfa48c25",
+  "name": "การสอบรับรองคุณสมบัติผู้จัดอีเวนต์และผู้ตัดสินอย่างเป็นทางการครั้งที่ 12",
+  "name_th": "การสอบรับรองคุณสมบัติผู้จัดอีเวนต์และผู้ตัดสินอย่างเป็นทางการครั้งที่ 12",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "tcg",
+   "game"
+  ],
+  "summary_th": "เปิดรับสมัครสอบรับรองผู้จัดอีเวนต์และผู้ตัดสินครั้งที่ 12",
+  "image": "https://www.thaipr.net/wp-content/uploads/2025/10/ThaiPR-caption-1200x800-2025-10-21T145355.570.png",
+  "imageFrom": "https://www.thaipr.net/business/3656749",
+  "imageHash": null,
+  "official": "https://th.portal-pokemon.com",
+  "sources": [
+   {
+    "title": "Pokémon TCG Thailand",
+    "link": "https://asia.pokemon-card.com/th/",
+    "source": "Pokémon TCG Thailand",
+    "date": "2026-10-28"
+   }
+  ],
+  "article": "https://mgronline.com/game/detail/9690000102554",
+  "splitFrom": "fb8803be767b",
+  "added": "2026-10-29",
+  "updated": "2026-10-29",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-29",
+  "placeChecked": true
+ },
+ {
+  "id": "7a136db210fa",
+  "name": "ศึกแบตเทิล Starter Deck โปเกมอนวิวัฒนาการเมก้า",
+  "name_th": "ศึกแบตเทิล Starter Deck โปเกมอนวิวัฒนาการเมก้า",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "tcg",
+   "game"
+  ],
+  "summary_th": "กำลังรับสมัครผู้เข้าร่วมอีเวนต์",
+  "image": null,
+  "imageFrom": "https://mgronline.com/game/detail/9690000102554",
+  "imageHash": null,
+  "official": "https://th.portal-pokemon.com",
+  "sources": [
+   {
+    "title": "Pokémon TCG Thailand",
+    "link": "https://asia.pokemon-card.com/th/",
+    "source": "Pokémon TCG Thailand",
+    "date": "2026-10-28"
+   }
+  ],
+  "article": "https://mgronline.com/game/detail/9690000102554",
+  "splitFrom": "fb8803be767b",
+  "added": "2026-10-29",
+  "updated": "2026-10-29",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-29",
+  "placeChecked": true
+ },
+ {
+  "id": "caea15d60d9a",
+  "name": "Starter Deck Battle Pokémon Mega Evolution",
+  "name_th": "ศึกแบตเทิล Starter Deck โปเกมอนวิวัฒนาการเมก้า",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "game",
+   "tcg",
+   "match"
+  ],
+  "summary_th": "เปิดรับสมัครผู้เข้าร่วมศึกแบตเทิล Starter Deck โปเกมอนวิวัฒนาการเมก้า",
+  "image": "http://www.bing.com/th?id=ONUT.5_NfMc0ZMf92UpzsqfQ4wQ&pid=News",
+  "imageFrom": "https://note.com/pokeca_trend0/n/n99b5037d9c51?hl=en",
+  "imageHash": "98e927383a6c72c1",
+  "official": "https://th.portal-pokemon.com",
+  "sources": [
+   {
+    "title": "Pokémon TCG Thailand",
+    "link": "https://asia.pokemon-card.com/th/",
+    "source": "Pokémon TCG Thailand",
+    "date": "2026-10-28"
+   }
+  ],
+  "article": "https://timesofindia.indiatimes.com/technology/gaming/pokmon-champions-release-set-for-april-8-cross-platform-play-mega-evolutions-and-new-starter-pack-perks/articleshow/129803004.cms",
+  "splitFrom": "3418d3890738",
+  "added": "2026-10-29",
+  "updated": "2026-10-29",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-29",
+  "placeChecked": true
+ },
+ {
+  "id": "575160333140",
+  "name": "Premier Ball League (TCG/VGC)",
+  "name_th": "พรีเมียร์บอลลีก ประเภท TCG/VGC",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "game",
+   "tcg",
+   "esports"
+  ],
+  "summary_th": "เปิดรับสมัคร Premier Ball League ประเภท TCG และอัปเดตข้อมูล VGC",
+  "image": "http://www.bing.com/th?id=ONUT.LOyI2jkJw40d1bPESfYcyw&pid=News",
+  "imageFrom": "https://hot.detik.com/art/d-8672702/rayakan-30-tahun-pokemon-indonesia-premier-ball-league-2026-meriah-digelar",
+  "imageHash": "bacd9d2b84489b44",
+  "official": "https://th.portal-pokemon.com",
+  "sources": [
+   {
+    "title": "Pokémon TCG Thailand",
+    "link": "https://asia.pokemon-card.com/th/",
+    "source": "Pokémon TCG Thailand",
+    "date": "2026-10-28"
+   }
+  ],
+  "article": "https://www.khaosod.co.th/sports/game-esport/news_10449068",
+  "splitFrom": "74b97929653c",
+  "added": "2026-10-29",
+  "updated": "2026-10-29",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-29",
+  "placeChecked": true
+ },
+ {
+  "id": "60f5f05d8c7d",
+  "name": "Side Event in Master Ball League",
+  "name_th": "กิจกรรมเสริมในงาน Master Ball League",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "game",
+   "tcg",
+   "fanmeet"
+  ],
+  "summary_th": "มีกิจกรรมเสริม (Side Event) ในงาน Master Ball League",
+  "image": null,
+  "imageFrom": "https://www.khaosod.co.th/sports/game-esport/news_10449068",
+  "imageHash": null,
+  "official": "https://th.portal-pokemon.com",
+  "sources": [
+   {
+    "title": "Pokémon TCG Thailand",
+    "link": "https://asia.pokemon-card.com/th/",
+    "source": "Pokémon TCG Thailand",
+    "date": "2026-10-28"
+   }
+  ],
+  "article": "https://www.khaosod.co.th/sports/game-esport/news_10449068",
+  "splitFrom": "74b97929653c",
+  "added": "2026-10-29",
+  "updated": "2026-10-29",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-29",
+  "placeChecked": true
+ },
+ {
+  "id": "b79058bd24f8",
+  "name": "Starter Deck Pokémon Evolution Mega Battle",
+  "name_th": "ศึกแบตเทิล Starter Deck โปเกมอนวิวัฒนาการเมก้า",
+  "start": null,
+  "end": null,
+  "venue": null,
+  "city": null,
+  "country": "TH",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "game",
+   "tcg",
+   "esports"
+  ],
+  "summary_th": "กำลังรับสมัครผู้เข้าร่วมศึกแบตเทิล Starter Deck โปเกมอนวิวัฒนาการเมก้า",
+  "image": "http://www.bing.com/th?id=ONUT.5_NfMc0ZMf92UpzsqfQ4wQ&pid=News",
+  "imageFrom": "https://note.com/pokeca_trend0/n/n99b5037d9c51?hl=en",
+  "imageHash": "98e927383a6c72c1",
+  "official": "https://th.portal-pokemon.com",
+  "sources": [
+   {
+    "title": "Pokémon TCG Thailand",
+    "link": "https://asia.pokemon-card.com/th/",
+    "source": "Pokémon TCG Thailand",
+    "date": "2026-10-28"
+   }
+  ],
+  "article": "https://www.khaosod.co.th/sports/game-esport/news_10449068",
+  "splitFrom": "74b97929653c",
+  "added": "2026-10-29",
+  "updated": "2026-10-29",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-29",
+  "placeChecked": true
  }
 ]
