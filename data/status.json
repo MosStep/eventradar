@@ -1,31 +1,31 @@
 {
- "finishedAt": "2026-10-29T11:53:54.555Z",
- "runner": "github",
- "total": 5547,
- "upcoming": 4850,
- "added": 1,
+ "finishedAt": "2026-10-29T12:08:30.341Z",
+ "runner": "local",
+ "total": 5245,
+ "upcoming": 4530,
+ "added": 0,
  "pending": 0,
- "withDate": 55,
- "withImage": 88,
- "withPrice": 15,
+ "withDate": 57,
+ "withImage": 87,
+ "withPrice": 16,
  "ai": {
-  "calls": 259,
-  "failed": 70,
+  "calls": 150,
+  "failed": 16,
   "quota": [],
   "billing": false,
-  "keys": 5,
+  "keys": 1,
   "providers": {
    "tenixe": {
-    "calls": 46,
-    "failed": 43
+    "calls": 0,
+    "failed": 0
    },
    "aiu": {
-    "calls": 213,
-    "failed": 27
+    "calls": 150,
+    "failed": 16
    }
   },
   "down": false,
-  "budget": true
+  "budget": false
  },
  "problems": []
 }
