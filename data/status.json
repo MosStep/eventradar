@@ -1,16 +1,16 @@
 {
- "finishedAt": "2026-10-29T21:32:36.384Z",
+ "finishedAt": "2026-10-29T23:18:23.604Z",
  "runner": "local",
  "total": 5583,
  "upcoming": 4717,
  "added": 0,
  "pending": 0,
  "withDate": 64,
- "withImage": 87,
+ "withImage": 86,
  "withPrice": 16,
  "ai": {
-  "calls": 247,
-  "failed": 15,
+  "calls": 2188,
+  "failed": 2188,
   "quota": [],
   "billing": false,
   "keys": 1,
@@ -20,12 +20,14 @@
     "failed": 0
    },
    "aiu": {
-    "calls": 247,
-    "failed": 15
+    "calls": 2188,
+    "failed": 2188
    }
   },
   "down": false,
   "budget": false
  },
- "problems": []
+ "problems": [
+  "เรียก AI ล้มเหลว 2188/2188 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+ ]
 }
