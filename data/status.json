@@ -1,19 +1,17 @@
 {
- "finishedAt": "2026-10-29T15:12:42.117Z",
+ "finishedAt": "2026-10-29T16:04:45.868Z",
  "runner": "local",
- "total": 5560,
- "upcoming": 4807,
- "added": 33,
- "pending": 60,
- "withDate": 57,
+ "total": 5587,
+ "upcoming": 4802,
+ "added": 6,
+ "pending": 0,
+ "withDate": 59,
  "withImage": 87,
  "withPrice": 16,
  "ai": {
-  "calls": 126,
-  "failed": 26,
-  "quota": [
-   "sk-aiu-e"
-  ],
+  "calls": 207,
+  "failed": 6,
+  "quota": [],
   "billing": false,
   "keys": 1,
   "providers": {
@@ -22,14 +20,12 @@
     "failed": 0
    },
    "aiu": {
-    "calls": 126,
-    "failed": 26
+    "calls": 207,
+    "failed": 6
    }
   },
   "down": false,
   "budget": true
  },
- "problems": [
-  "ทุกคีย์ขึ้นว่าโควตาหมด — รอรีเซ็ตบ่ายโมง หรือเพิ่มคีย์ใหม่"
- ]
+ "problems": []
 }
