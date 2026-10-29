@@ -32,6 +32,12 @@ Start-ScheduledTask -TaskName "EventRadar loop"
 https://github.com/MosStep/eventradar/settings/secrets/actions
 (ไม่ทำช่องกรอกคีย์ในหน้าเว็บ เพราะเว็บเป็นสาธารณะ ใครก็กรอกได้ — หน้า Secrets ของ GitHub คือช่องกรอกที่ปลอดภัย)
 
+### 4. สั่งรอบดึงงานให้ทำงานต่อโดยไม่ต้องเปิด Claude
+- เริ่ม: `powershell -NoProfile -ExecutionPolicy Bypass -File D:calenderscriptsstart-loop.ps1` (รันในหน้าต่างซ่อน ปิดเทอร์มินัลหรือ Claude แล้วยังทำงานต่อ ถ้ารันอยู่แล้วจะไม่เปิดซ้ำ)
+- หยุด: `powershell -NoProfile -ExecutionPolicy Bypass -File D:calenderscriptsstop-loop.ps1` (หยุดรอบที่กำลังทำงานและตัวลูป)
+- ดู log ที่ `%LOCALAPPDATA%EventRadarloop.log`
+- ตอนมีคีย์ AIUnlimit ขั้นตอนเสริมข้อมูล (รายละเอียด วันที่ ราคา ตรวจซ้ำ แยกรายการ) ทำมากขึ้น 6 เท่า เรียงตามไทยก่อน แล้วงานที่ใกล้ที่สุด แล้วหมวดที่ชอบ และจะไม่เริ่มเรียก AI ในช่วง 5 นาทีสุดท้ายของเวลาที่ตั้งไว้
+
 ## แหล่งข้อมูลที่ยังไม่ได้ทำ
 
 ### Eventpop (ไทย) — ได้แค่ 9 งาน

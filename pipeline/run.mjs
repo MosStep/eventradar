@@ -28,9 +28,17 @@ const DEADLINE = BUDGET_MIN > 0 ? Date.now() + BUDGET_MIN * 60e3 : Infinity;
 if (BUDGET_MIN > 0) setTimeout(() => haltBudget(`run time budget ${BUDGET_MIN} min used up`), BUDGET_MIN * 60e3).unref();
 // Backlog batches stop starting when less than 8 min remain, so the later steps (describe, verify, prices) still finish.
 const batchTimeLeft = () => DEADLINE - Date.now() >= 8 * 60e3;
+// AIUnlimit has idle capacity: the enrichment steps do AIU_SCALE times the work per run, and in the last 5 minutes of
+// the budget they start no new AI calls. Without AIUnlimit nothing changes.
+const AIU = aiuOn();
+const AIU_SCALE = AIU ? 6 : 1;
+// Queue order on AIUnlimit: TH first, then upcoming soonest (undated last), then favourite tags.
+const enrichOrder = (a, b) => (b.country === "TH") - (a.country === "TH") || (a.start || "9999").localeCompare(b.start || "9999")
+  || tagPriority(b.tags) - tagPriority(a.tags);
 let aiNoted = false;
 // AI steps check this before each call: the provider is busy (rate limit / quota breaker) or the budget is spent.
 const aiOff = () => {
+  if (AIU && DEADLINE - Date.now() < 5 * 60e3) return true;
   if (!aiDown()) return false;
   if (!aiNoted) { aiNoted = true; console.warn(aiBudgetOut() && !aiBusy() ? `[ai] run time budget used up — skipping remaining AI steps (${aiDownReason()})` : `[ai] provider busy — skipping remaining AI steps this run (${aiDownReason()})`); }
   return true;
@@ -630,12 +638,12 @@ if (!NO_FETCH) await fetchEventpop();
 
 // Undated events never show on the calendar. Look the event up by name and let the model read a date only if it is
 // written there; drop events that are still undated and whose news is over 60 days old.
-const MAX_DATES = Number(arg("max-dates", 30));
+const MAX_DATES = Number(arg("max-dates", 30)) * AIU_SCALE;
 const DATE_PROMPT = `From the text, give the event's date(s) ONLY if they are written for this exact event. Never guess.
 Today is ${today}. Reply with valid JSON only: {"start":"YYYY-MM-DD or null","end":"YYYY-MM-DD or null","venue":"or null","city":"or null"}`;
 async function fillDates() {
   const old = new Date(Date.now() - 60 * 864e5).toISOString().slice(0, 10);
-  const undated = events.filter(e => !e.start && !e.dateTried).slice(0, MAX_DATES);
+  const undated = events.filter(e => !e.start && !e.dateTried).sort(AIU ? enrichOrder : () => 0).slice(0, MAX_DATES);
   let found = 0, dropped = 0;
   for (const ev of undated) {
     if (aiOff()) break;
@@ -683,7 +691,7 @@ for (let i = events.length - 1; i > 0; i--) {
 // openings, tournaments and parades). An article with 2+ dated mentions is read again, and each public event it
 // announces becomes its own entry with the same sources. The announcement entry is hidden when the article only
 // announces the others. Each event is checked once (data/split-state.json); --split=N limits the checks per run.
-const MAX_SPLIT = Number(arg("split", 20));
+const MAX_SPLIT = Number(arg("split", 20)) * AIU_SCALE;
 const SPLIT_FILE = path.join(ROOT, "data", "split-state.json");
 const SPLIT_PROMPT = `The news article below may announce SEVERAL separate events that people can attend (a store opening,
 a tournament, a parade, a fan event, an exhibition). Today is ${today}.
@@ -699,7 +707,7 @@ async function splitRoundups() {
   const done = new Set(state.done), tries = state.tries || {};
   const persist = () => save(SPLIT_FILE, { done: [...done], tries });
   const todo = events.filter(e => !e.hidden && !done.has(e.id) && (tries[e.id] || 0) < 3 && (!e.end || e.end >= today) && e.sources.length)
-    .sort((a, b) => (a.country === "TH" ? 0 : 1) - (b.country === "TH" ? 0 : 1)).slice(0, MAX_SPLIT);
+    .sort(AIU ? enrichOrder : (a, b) => (a.country === "TH" ? 0 : 1) - (b.country === "TH" ? 0 : 1)).slice(0, MAX_SPLIT);
   let roundups = 0, made = 0;
   // Parallel workers like extraction: one per Nemotron key, or AIU_CONCURRENCY on AIUnlimit.
   const queue = [...todo];
@@ -802,7 +810,7 @@ if (hasKeys()) for (let i = 0; i < noThai.length && !aiOff(); i += 30) {
 
 // Second opinion: Nemotron does the bulk extraction, Haiku re-checks each new upcoming event against its headlines
 // and fixes or drops it. Events that came from structured listings (Bilibili) are already trusted.
-const MAX_VERIFY = Number(arg("max-verify", 30));
+const MAX_VERIFY = Number(arg("max-verify", 30)) * AIU_SCALE;
 const VERIFY = `You check events extracted by another model. For each numbered event, compare it with its source headlines.
 Today is ${today}. An event must be a real public event with a date (in person, or a scheduled online event like an online
 concert or VTuber stream). Reply with valid JSON only, one entry per number:
@@ -814,7 +822,7 @@ async function verify() {
   const risk = e => (e.sources.length < 2 ? 2 : 0) + (!e.venue ? 1 : 0) + (!e.start ? 1 : 0)
     + (e.start && e.sources[0]?.date && Math.abs(new Date(e.start) - new Date(e.sources[0].date)) > 200 * 864e5 ? 2 : 0)
     + (e.start && e.start <= new Date(Date.now() + 30 * 864e5).toISOString().slice(0, 10) ? 1 : 0); // soon = matters more
-  const todoVerify = events.filter(e => !e.verified && (!e.end || e.end >= today)).sort((a, b) => risk(b) - risk(a)).slice(0, MAX_VERIFY);
+  const todoVerify = events.filter(e => !e.verified && (!e.end || e.end >= today)).sort(AIU ? enrichOrder : (a, b) => risk(b) - risk(a)).slice(0, MAX_VERIFY);
   let fixed = 0, dropped = 0, checked = 0;
   for (let i = 0; i < todoVerify.length; i += 10) {
     const chunk = todoVerify.slice(i, i + 10);
@@ -944,9 +952,9 @@ Reply with valid JSON only: {"0":"kanto","1":null,...}`;
 if (noRegion.length) console.log(`[region] ${noRegion.filter(e => e.region).length}/${noRegion.length} events got a region`);
 
 // Upcoming events first; past ones never need details.
-const MAX_DESCRIBE = Number(arg("max-describe", 40));
+const MAX_DESCRIBE = Number(arg("max-describe", 40)) * AIU_SCALE;
 const toDescribe = events.filter(e => (!e.described || (!e.start && !e.datesRead)) && (!e.end || e.end >= today))
-  .sort((a, b) => (a.start ? 1 : 0) - (b.start ? 1 : 0)).slice(0, MAX_DESCRIBE);
+  .sort(AIU ? enrichOrder : (a, b) => (a.start ? 1 : 0) - (b.start ? 1 : 0)).slice(0, MAX_DESCRIBE);
 // Same parallel pattern as extraction: one worker per Nemotron key (or AIU_CONCURRENCY workers on AIUnlimit).
 let described = 0, describeStop = false;
 const describeQueue = [...toDescribe];
@@ -964,7 +972,7 @@ console.log(`[describe] ${described}/${toDescribe.length} events got details`);
 
 // Ticket price by web search, the way a person would google it: DuckDuckGo's HTML results (no key needed), then the
 // model reads the snippets plus the top pages and returns a price only if it is clearly for this event and edition.
-const MAX_PRICE = Number(arg("max-price", 40));
+const MAX_PRICE = Number(arg("max-price", 40)) * AIU_SCALE;
 const PRICE_WORD = { TH: "ราคาบัตร", JP: "チケット 料金", CN: "票价" };
 const PRICE_PROMPT = `You read web search results about one event. Give its ticket price / entry fee ONLY if a result clearly states it
 for this exact event and edition (same year). Never guess. Reply with valid JSON only:
@@ -992,7 +1000,7 @@ async function findPrice(ev, key) {
   return true;
 }
 const priceRetry = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
-const priceQueue = events.filter(e => !e.price_th && e.start && e.end >= today && !e.online && (e.priceTriedAt || "") < priceRetry).slice(0, MAX_PRICE);
+const priceQueue = events.filter(e => !e.price_th && e.start && e.end >= today && !e.online && (e.priceTriedAt || "") < priceRetry).sort(AIU ? enrichOrder : () => 0).slice(0, MAX_PRICE);
 let priced = 0;
 if (hasKeys() && priceQueue.length && !aiOff()) {
   const total = priceQueue.length;
