@@ -1,5 +1,5 @@
 {
- "finishedAt": "2026-10-30T06:34:25.980Z",
+ "finishedAt": "2026-10-30T08:22:02.074Z",
  "runner": "local",
  "total": 5566,
  "upcoming": 4499,
@@ -9,8 +9,8 @@
  "withImage": 86,
  "withPrice": 17,
  "ai": {
-  "calls": 178,
-  "failed": 0,
+  "calls": 118,
+  "failed": 118,
   "quota": [],
   "billing": false,
   "keys": 1,
@@ -20,12 +20,14 @@
     "failed": 0
    },
    "aiu": {
-    "calls": 178,
-    "failed": 0
+    "calls": 118,
+    "failed": 118
    }
   },
   "down": false,
   "budget": false
  },
- "problems": []
+ "problems": [
+  "เรียก AI ล้มเหลว 118/118 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+ ]
 }
