@@ -6070,7 +6070,7 @@
    "kids"
   ],
   "summary_th": "นิทรรศการพิเศษไดโนเสาร์ซอโรพอดที่พิพิธภัณฑ์ไดโนเสาร์ ถึงวันที่ 3 พฤศจิกายน",
-  "image": "https://www.yomiuri.co.jp/media/2026/10/20261028-GYO1I00010-1.jpg?type=ogp",
+  "image": "https://static.chunichi.co.jp/image/article/size1/0/c/5/6/0c5674cf06ffba88d0f5dd93d3381f6d_1.jpg",
   "official": "https://dragons.jp/fanclub/",
   "sources": [
    {
@@ -6115,7 +6115,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00009/",
-  "imageFrom": "https://www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00009/",
+  "imageFrom": "https://www.chunichi.co.jp/article/1331346",
   "imageHash": null,
   "placeChecked": true,
   "regionTried": true,
@@ -6194,8 +6194,8 @@
    "expo"
   ],
   "summary_th": "นิทรรศการพิเศษซอโรพอดที่พิพิธภัณฑ์ไดโนเสาร์จังหวัดฟุกุอิ เปิดถึงวันที่ 3 พ.ย. 2026",
-  "image": "https://www.yomiuri.co.jp/media/2026/10/20261028-GYO1I00010-1.jpg?type=ogp",
-  "imageFrom": "https://www.yomiuri.co.jp/local/kansai/news/20261028-GYO1T00009/",
+  "image": "https://static.chunichi.co.jp/image/article/size1/0/c/5/6/0c5674cf06ffba88d0f5dd93d3381f6d_1.jpg",
+  "imageFrom": "https://www.chunichi.co.jp/article/1331346",
   "imageHash": null,
   "official": "https://dragons.jp/fanclub/",
   "sources": [
@@ -9586,9 +9586,9 @@
    "expo"
   ],
   "summary_th": "นิทรรศการฉลอง 15 ปีสตูดิโอ MAPPA จัดที่ยูราคุโชมิวเซียม โตเกียว ถึง 7 ธ.ค. 2026",
-  "image": "http://www.bing.com/th?id=ONUT.XZ4NAbBs0wEj6kiplVMH1w&pid=News",
-  "imageFrom": "https://animeanime.jp/release/prtimes/20261028/322826.html",
-  "imageHash": "79640826b2926f90",
+  "image": "http://www.bing.com/th?id=ONUT.0BdM2JV4BmsCx0KmVPN7VQ&pid=News",
+  "imageFrom": "https://natalie.mu/comic/news/695698",
+  "imageHash": "8103415ea4b9a8c0",
   "official": "https://www.mappa.co.jp/15th/",
   "sources": [
    {
@@ -9832,7 +9832,7 @@
   "summary_th": "ร้านสัญจรพรีเคียวในโรงภาพยนตร์ 20 แห่งทั่วญี่ปุ่น ฉลองภาพยนตร์ชื่อดัง",
   "image": "https://collabo-cafe.com/wp-content/uploads/026b9981b6488f7f84d5d2fadb1fbe00.jpeg",
   "imageFrom": "https://collabo-cafe.com/events/collabo/precure-pretty-store-gekijo-2026/",
-  "imageHash": null,
+  "imageHash": "80b963f721a4e78b",
   "official": null,
   "sources": [
    {
@@ -9876,7 +9876,7 @@
   "summary_th": "แคมเปญท่องเที่ยวกับพรีเคียว มีเสียงดรามาและของที่ระลึกบนชินกันเซ็น",
   "image": "https://contents.oricon.co.jp/upimg/news/2482000/2481213/20260917_202828_p_o_25717957.jpg",
   "imageFrom": "https://www.oricon.co.jp/news/2481213/full/",
-  "imageHash": null,
+  "imageHash": "dc5af9d9ba286c8d",
   "official": null,
   "sources": [
    {
@@ -9920,7 +9920,7 @@
   "summary_th": "แคมเปญคอลแลปพรีเคียวกับ JR Tokai ให้เสียงดราม่าและของที่ระลึกบนรถไฟ",
   "image": "https://s.eximg.jp/exnews/feed/Prtimes/ca/Prtimes_2026-08-17-26909-148/Prtimes_2026-08-17-26909-148_1.jpg",
   "imageFrom": "https://www.excite.co.jp/news/article/Prtimes_2026-08-17-26909-148/",
-  "imageHash": null,
+  "imageHash": "a9db26b0f1e3edcc",
   "official": null,
   "sources": [
    {
@@ -9941,7 +9941,8 @@
   ],
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
-  "placeChecked": true
+  "placeChecked": true,
+  "hidden": true
  },
  {
   "id": "d64337b5f8bb",
@@ -14123,7 +14124,7 @@
   "summary_th": "เทศกาลฮาโลวีนตลอดเดือนตุลาคมที่เดอะเซาท์ไซด์ มีศิลปะติดตั้ง ถ่ายรูป และกิจกรรมครอบครัว",
   "image": "http://n.sinaimg.cn/spider20261013/383/w1269h714/20261013/be8e-c5cbf8022b932e19e9e6f61bef9081a2.png",
   "imageFrom": "https://news.sina.com.cn/sx/2026-10-14/detail-inivamwi8130603.shtml",
-  "imageHash": null,
+  "imageHash": "beddd1216df7e1bf",
   "official": null,
   "sources": [
    {
@@ -14167,7 +14168,7 @@
   "summary_th": "เทศกาลฮาโลวีนที่โอเชียนพาร์ก จัดขึ้นในเดือนตุลาคม 2026",
   "image": "https://molihua.org/news-media/ec/f8/ecf82d4175bd684b054d794afe53e044861e04f2ff22a8ca659c32dba9bdaa22-article.webp",
   "imageFrom": "https://molihua.org/mh-2916912/",
-  "imageHash": null,
+  "imageHash": "57a883173a2d4b5c",
   "official": null,
   "sources": [
    {
@@ -14562,7 +14563,7 @@
   "summary_th": "คาเฟ่คอลแลปนิจิสันจิกับสวีทพาราไดส์ 10 สาขา",
   "image": "https://www.inside-games.jp/imgs/ogp_f/1752933.jpg",
   "imageFrom": "https://www.inside-games.jp/article/img/2026/08/14/186153/1752933.html",
-  "imageHash": null,
+  "imageHash": "225357ed9ae4024b",
   "official": null,
   "sources": [
    {
@@ -14728,7 +14729,7 @@
   "summary_th": "งานแฟร์เซลด้าที่ร้านอนิเมททั่วญี่ปุ่น",
   "image": "https://cimg.kgl-systems.io/camion/files/89122/thumbnail_NqCw.jpg?x=1280",
   "imageFrom": "https://www.famitsu.com/article/202609/89122",
-  "imageHash": null,
+  "imageHash": "10884f84a1f1ae10",
   "official": null,
   "sources": [
    {
@@ -15519,7 +15520,7 @@
    "lights"
   ],
   "summary_th": "เทศกาลใบไม้ร่วงที่สวนสัตว์นงโฮอิ เน้นกินอร่อย ศิลปะ และบรรยากาศยามค่ำ",
-  "image": "https://www.asahi.com/and/ogp/ogp_and.png",
+  "image": "https://prcdn.freetls.fastly.net/release_image/25583/1034/25583-1034-55c6ba35aa8bffda6af14bc33329a3a8-3900x2758.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   "official": null,
   "sources": [
    {
@@ -15536,7 +15537,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://prtimes.jp/main/html/rd/p/000001034.000025583.html",
-  "imageFrom": "https://www.asahi.com/and/pressrelease/16946673",
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000001034.000025583.html",
   "placeChecked": true,
   "imageHash": null,
   "dateTried": true,
@@ -23968,6 +23969,48 @@
   "placeChecked": true
  },
  {
+  "id": "34574202633f",
+  "name": "キャンディーカリエス ハロウィンカフェ",
+  "name_th": "คาเฟ่ฮาโลวีน แคนดี้คาริเอส",
+  "start": "2026-10-16",
+  "end": "2026-10-31",
+  "venue": "洒落CAFE ハラカド店（東急プラザ原宿ハラカド）",
+  "city": "原宿",
+  "country": "JP",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "cafe",
+   "anime"
+  ],
+  "summary_th": "คาเฟ่ฮาโลวีนแคนดี้คาริเอส ประกาศเมนูและสินค้า",
+  "image": "https://collabo-cafe.com/wp-content/uploads/candycaries-cafe-share-cafe-harakado-2026-kv.jpg",
+  "imageFrom": "https://collabo-cafe.com/events/collabo/candycaries-cafe-share-cafe-harakado-2026/",
+  "imageHash": "27b509ea30534370",
+  "official": null,
+  "sources": [
+   {
+    "title": "プリキュア プリティストア出張店 in 4会場 10月30日より開催!",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMlJJSDNDUEUzWTBDUndrMUZmUFgzWjgzaVFXazRVMm1tOFRWZFpvR25HMXB2S2ZyUnA3dzN1RklxTjNLR0VhbkNPaTRyMlUzdjZDaHJRSGtvQnZPZmh6cWduNmcxUGhiVVdXMEt3VEpvUUpvNmFrazNBeXVmZjdXc0F1QUQtWXhSVElJ?oc=5",
+    "source": "コラボカフェ",
+    "date": "2026-10-24",
+    "image": null
+   }
+  ],
+  "article": "https://collabo-cafe.com/events/collabo/precure-pretty-store-gekijo-2026/",
+  "splitFrom": "a4b147c0e3f6",
+  "added": "2026-10-30",
+  "updated": "2026-10-30",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-30",
+  "placeChecked": true,
+  "dateTried": true,
+  "hidden": true
+ },
+ {
   "id": "62e62ac470a3",
   "name": "Re:ゼロから始める異世界生活 × 押上温泉 大黒湯 コラボイベント",
   "name_th": "อีเวนต์ร่วม Re:Zero × โรงอาบน้ำ Daikokuyu โอชิอาเงะ",
@@ -25780,7 +25823,7 @@
   "summary_th": "อีเวนต์ไอคัตสึ! × สวนสัตว์โทบุ ในธีมซาฟารี ตั้งแต่ 17 ต.ค. 2026 ถึง 11 ม.ค. 2027",
   "image": "https://prtimes.jp/img/16064/9295/thumb/d16064-9295-96c7aab969f1e16a4c23-0.jpg",
   "imageFrom": "https://www.oricon.co.jp/pressrelease/2947990/",
-  "imageHash": null,
+  "imageHash": "0f2d031b667db82e",
   "official": null,
   "sources": [
    {
@@ -35718,7 +35761,7 @@
   "summary_th": "คอลแลบระหว่าง Mมาส กับสปอร์ตคลับเรอเนซองส์ ระหว่าง 22 ต.ค. ถึง 29 พ.ย. 2026",
   "image": "https://prcdn.freetls.fastly.net/release_image/147730/91/147730-91-693b9ec049b16c38f681707aa199e1ad-3900x2194.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000091.000147730.html",
-  "imageHash": null,
+  "imageHash": "56db71bb26396324",
   "official": null,
   "sources": [
    {
@@ -45088,7 +45131,7 @@
    "museum"
   ],
   "summary_th": "นิทรรศการภาพถ่ายที่พิพิธภัณฑ์บอนไซโอมิยะ ไซตามะ 24 ต.ค.–29 พ.ย.",
-  "image": "https://www.asahi.com/and/ogp/ogp_and.png",
+  "image": "https://cdn.mainichi.jp/vol1/2026/10/16/20261016pls00m020323000p/0c10.jpg?1",
   "official": null,
   "sources": [
    {
@@ -45184,7 +45227,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://mainichi.jp/articles/20261016/pls/00m/020/323000c",
-  "imageFrom": "https://www.asahi.com/and/pressrelease/16972159",
+  "imageFrom": "https://mainichi.jp/articles/20261016/pls/00m/020/323000c",
   "imageHash": null,
   "placeChecked": true,
   "priceTriedAt": "2026-10-28"
@@ -49903,8 +49946,8 @@
    "food"
   ],
   "summary_th": "คาเฟ่คอลแลป SAKAMOTO DAYS ธีม DJ ที่สาขาชินไซบาชิ ระหว่าง 24 ต.ค.–3 พ.ย. 2026",
-  "image": "https://prcdn.freetls.fastly.net/release_image/48489/345/48489-345-ef74ae9745e7652fb911b43dfd767a57-3900x2654.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000345.000048489.html",
+  "image": "https://prcdn.freetls.fastly.net/release_image/48489/329/48489-329-ef74ae9745e7652fb911b43dfd767a57-3900x2654.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000329.000048489.html",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -79951,7 +79994,7 @@
    "art"
   ],
   "summary_th": "นิทรรศการครบรอบ 15 ปีสตูดิโอ MAPPA ที่ยูราคุโจ พร้อมเปิดช่วงหลังที่ฟุกุโอกะ",
-  "image": "http://www.bing.com/th?id=ONUT.XZ4NAbBs0wEj6kiplVMH1w&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.0BdM2JV4BmsCx0KmVPN7VQ&pid=News",
   "official": "https://www.mappa.co.jp/15th/",
   "sources": [
    {
@@ -79979,7 +80022,7 @@
   "added": "2026-10-28",
   "updated": "2026-10-29",
   "enriched": true,
-  "imageHash": "79640826b2926f90",
+  "imageHash": "8103415ea4b9a8c0",
   "placeChecked": true,
   "dateTried": true,
   "notDupWith": [
@@ -79989,7 +80032,7 @@
   ],
   "priceTriedAt": "2026-10-29",
   "imageTried": true,
-  "imageFrom": "https://animeanime.jp/release/prtimes/20261028/322826.html",
+  "imageFrom": "https://natalie.mu/comic/news/695698",
   "imageTriedAt": "2026-10-30",
   "article": "https://natalie.mu/comic/news/695698"
  },
@@ -100910,7 +100953,7 @@
    "art"
   ],
   "summary_th": "เวิร์กช็อป DIY ในธีม MONSTERVERSE ที่เซ็นทรัล เอ็มบาสซี",
-  "image": "https://mpics2.mgronline.com/pics/Images/569000010447901.JPEG",
+  "image": "https://image.posttoday.com/uploads/images/md/2026/10/W1B96cWtWZCZeMO48m1h.webp",
   "official": null,
   "sources": [
    {
@@ -100930,7 +100973,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://www.posttoday.com/pr-news/pr-news/751123",
-  "imageFrom": "https://mgronline.com/travel/detail/9690000102968",
+  "imageFrom": "https://www.posttoday.com/pr-news/pr-news/751123",
   "notDupWith": [
    "d87207751100",
    "eafba1b82d57",
@@ -108804,7 +108847,7 @@
    "food"
   ],
   "summary_th": "เทศกาล Oktoberfest ที่ใหญ่ที่สุดในแทมปากลับมาช่วงฮาโลวีน",
-  "image": "http://www.bing.com/th?id=ONUT.nJDDZu8fCI9USPSj6evJkA&pid=News",
+  "image": "https://hermes.media.transform.aol.com/030e76bc8119dee5f5c03e22579a16ec7fe8ad7a/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/09/21/63843c46-f1f4-39ff-bb20-d453c32cefee/20fb0460-dac5-47df-9bad-fe449e302e22.jpg",
   "official": null,
   "sources": [
    {
@@ -108828,7 +108871,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://www.aol.com/articles/prost-guide-oktoberfest-2026-tampa-110000000.html",
-  "imageFrom": "https://www.wusf.org/arts-culture/2026-10-29/its-halloween-weekend-in-tampa-bay",
+  "imageFrom": "https://www.aol.com/articles/prost-guide-oktoberfest-2026-tampa-110000000.html",
   "placeChecked": true,
   "notDupWith": [
    "77dff2180780",
@@ -108842,7 +108885,7 @@
    "9bd255dbb0b8",
    "595635bfcc60"
   ],
-  "imageHash": "c59927d3f0eda132",
+  "imageHash": null,
   "regionTried": true,
   "priceTriedAt": "2026-10-29",
   "hidden": true
@@ -109209,7 +109252,7 @@
    "cafe"
   ],
   "summary_th": "งานอีเวนต์ Touhou Project ฉลองครบ 30 ปี ที่อัตเรอาคิฮาบาระ จัดถึง 12 พ.ย.",
-  "image": "http://www.bing.com/th?id=ONUT.HSR5GCtQShOlxH0ZH21zfA&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.2o1PQRkbqyoVoc_jYXJI1w&pid=News",
   "official": "https://touhou-project.news/shanghai-alice-reprise/",
   "sources": [
    {
@@ -109237,7 +109280,7 @@
   "added": "2026-10-28",
   "updated": "2026-10-29",
   "enriched": true,
-  "imageHash": "e49e72a606a4882f",
+  "imageHash": "0632da440d0c8bc9",
   "placeChecked": true,
   "notDupWith": [
    "9f72aeae6bb5",
@@ -109277,7 +109320,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://www.jiji.com/jc/article?k=000001689.000099047&g=prt",
-  "imageFrom": "https://www.sankei.com/pressrelease/prtimes/VUA5MX2G4NIVXCUIDEVKM2PH4I/"
+  "imageFrom": "https://www.appbank.net/2026/10/28/iphone-news/3145366.php"
  },
  {
   "id": "d1cc379cf99e",
@@ -123701,7 +123744,7 @@
    "art"
   ],
   "summary_th": "นิทรรศการดอกไม้ป็อปอัป 5 ชั่วโมงที่สวนซือหลิน ไทเป ใช้ดอกชบาเก็บสดเช้าวันเดียวกัน",
-  "image": "https://ni.yam.com/20261030/v01-9aa5e315ae773132.webp",
+  "image": "https://ni.yam.com/20261029/20261029110636-26-122ec53b8a9f348e.webp",
   "official": null,
   "sources": [
    {
@@ -123718,7 +123761,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://n.yam.com/Article/20261030952991",
-  "imageFrom": "https://n.yam.com/Article/20261030952991",
+  "imageFrom": "https://n.yam.com/Article/20261029212467",
   "imageHash": null,
   "placeChecked": true,
   "notDupWith": [
@@ -125219,6 +125262,46 @@
    "497834bb8198",
    "08ffb0fc5bff"
   ],
+  "imageTried": true,
+  "imageTriedAt": "2026-10-30",
+  "placeChecked": true
+ },
+ {
+  "id": "d00fcd68ff63",
+  "name": "ハセシン ポップアップショップ / 哈塞辛快闪店",
+  "name_th": "ร้านป็อปอัปฮาเซชิน",
+  "start": "2026-10-30",
+  "end": "2026-11-26",
+  "venue": "渋谷TSUTAYA 6階IP書店",
+  "city": "渋谷",
+  "country": "JP",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "game",
+   "fanmeet"
+  ],
+  "summary_th": "ร้านป็อปอัปวันเกิดฮาเซชินที่ชิบุยะ สึตะยะ มีสินค้าและภาพวาดใหม่ธีมฮาโลวีน",
+  "image": null,
+  "imageFrom": "https://collabo-cafe.com/zh-hans/events/collabo/haseshin-birthday-popup-shibuya-tsutaya-2026/",
+  "imageHash": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "HASESIN 生日纪念快闪店将于10月30日起在涩谷举办! – Collabo Cafe",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWmdJLVZvb0xlcWZOQnB1bzB2cm1BcWdQWEphWUtBYjJ2bEQ2OVFRY25qalJQekxiek9xM2ZRSEs4eElib21VOUZtMGx6S3RZOElCQ3VfUTRFVjJMeVU3eFdjRng1ZlQ3X2w1TENBa2lsdFdLR0Z0bGh0RkFtNlROOFRaNFY5WTJGODFjeV9BRDdRbFJxZmx6NA?oc=5",
+    "source": "コラボカフェ",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "article": "https://collabo-cafe.com/zh-hans/events/collabo/haseshin-birthday-popup-shibuya-tsutaya-2026/",
+  "splitFrom": "f9aa815c3fe3",
+  "added": "2026-10-30",
+  "updated": "2026-10-30",
+  "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "placeChecked": true
@@ -132844,7 +132927,7 @@
    "food"
   ],
   "summary_th": "อ็อกโทเบอร์เฟสต์ที่แทมปากลับมาอีกครั้งในสุดสัปดาห์ฮาโลวีน",
-  "image": "http://www.bing.com/th?id=ONUT.nJDDZu8fCI9USPSj6evJkA&pid=News",
+  "image": "https://npr.brightspotcdn.com/dims4/default/0b417d6/2147483647/strip/true/crop/2262x1188+0+275/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fff%2Fb0%2F0bcbcee84e0daf0c42153cac81ff%2Fhappy-halloween.png",
   "official": null,
   "sources": [
    {
@@ -132880,7 +132963,7 @@
    "2cac7c3669bf",
    "9404ee5a0191"
   ],
-  "imageHash": "c59927d3f0eda132",
+  "imageHash": null,
   "regionTried": true
  },
  {
@@ -150328,7 +150411,7 @@
    "nature"
   ],
   "summary_th": "งานแสดงดอกชบาหายากหลายร้อยดอกที่สวนชิลิน ไทเป เริ่ม 31 ต.ค. เปิดชมจำกัด 5 ชั่วโมง",
-  "image": "https://ni.yam.com/20261030/v01-9aa5e315ae773132.webp",
+  "image": "https://ni.yam.com/20261029/20261029110636-26-122ec53b8a9f348e.webp",
   "official": null,
   "sources": [
    {
@@ -150345,7 +150428,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://n.yam.com/Article/20261030952991",
-  "imageFrom": "https://n.yam.com/Article/20261030952991",
+  "imageFrom": "https://n.yam.com/Article/20261029212467",
   "imageHash": null,
   "placeChecked": true
  },
@@ -172270,8 +172353,8 @@
    "food"
   ],
   "summary_th": "คาเฟ่คอลแลบ SAKAMOTO DAYS ที่สาขาฮาราคาโดะ เปิด 3–15 พ.ย. 2026",
-  "image": "https://prcdn.freetls.fastly.net/release_image/48489/345/48489-345-ef74ae9745e7652fb911b43dfd767a57-3900x2654.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000345.000048489.html",
+  "image": "https://collabo-cafe.com/wp-content/uploads/sakamoto-days-dj-groove-cafe-keyvisual.jpg",
+  "imageFrom": "https://collabo-cafe.com/events/collabo/sakamoto-days-dj-groove-cafe-sharecafe-2026-add-info-detail/",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -173941,9 +174024,9 @@
    "sale"
   ],
   "summary_th": "งานที่เกี่ยวข้องกับการจำหน่ายสินค้า Touhou ที่กรันเอนตัส ชั้น 1 อาคารโอโนเด็น จัดขึ้นระหว่างวันที่ 3–15 พฤศจิกายน",
-  "image": "http://www.bing.com/th?id=ONUT.HSR5GCtQShOlxH0ZH21zfA&pid=News",
-  "imageFrom": "https://www.sankei.com/pressrelease/prtimes/VUA5MX2G4NIVXCUIDEVKM2PH4I/",
-  "imageHash": "e49e72a606a4882f",
+  "image": "http://www.bing.com/th?id=ONUT.2o1PQRkbqyoVoc_jYXJI1w&pid=News",
+  "imageFrom": "https://www.appbank.net/2026/10/28/iphone-news/3145366.php",
+  "imageHash": "0632da440d0c8bc9",
   "official": "https://touhou-project.news/shanghai-alice-reprise/",
   "sources": [
    {
@@ -174017,6 +174100,46 @@
   ],
   "article": "https://collabo-cafe.com/zh-hans/events/collabo/haseshin-birthday-popup-shibuya-tsutaya-2026/",
   "splitFrom": "f5765695b09a",
+  "added": "2026-10-30",
+  "updated": "2026-10-30",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-30",
+  "placeChecked": true
+ },
+ {
+  "id": "6ccd676d0495",
+  "name": "“Mochiwasa日”咖啡馆活动",
+  "name_th": "กิจกรรมคาเฟ่“Mochiwasa Day”",
+  "start": "2026-11-03",
+  "end": "2026-11-03",
+  "venue": "S-PiCK CAFE",
+  "city": null,
+  "country": "JP",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "anime",
+   "cafe"
+  ],
+  "summary_th": "กิจกรรมคาเฟ่“Mochiwasa Day”ที่ S-PiCK CAFE",
+  "image": null,
+  "imageFrom": "https://collabo-cafe.com/zh-hans/events/collabo/haseshin-birthday-popup-shibuya-tsutaya-2026/",
+  "imageHash": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "HASESIN 生日纪念快闪店将于10月30日起在涩谷举办! – Collabo Cafe",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWmdJLVZvb0xlcWZOQnB1bzB2cm1BcWdQWEphWUtBYjJ2bEQ2OVFRY25qalJQekxiek9xM2ZRSEs4eElib21VOUZtMGx6S3RZOElCQ3VfUTRFVjJMeVU3eFdjRng1ZlQ3X2w1TENBa2lsdFdLR0Z0bGh0RkFtNlROOFRaNFY5WTJGODFjeV9BRDdRbFJxZmx6NA?oc=5",
+    "source": "コラボカフェ",
+    "date": "2026-10-27",
+    "image": null
+   }
+  ],
+  "article": "https://collabo-cafe.com/zh-hans/events/collabo/haseshin-birthday-popup-shibuya-tsutaya-2026/",
+  "splitFrom": "f9aa815c3fe3",
   "added": "2026-10-30",
   "updated": "2026-10-30",
   "enriched": true,
@@ -194938,7 +195061,7 @@
    "fanmeet"
   ],
   "summary_th": "งานคริสต์มาสที่โคคูน ซิตี้ ไซตามะ เริ่ม 7 พฤศจิกายน 2026 มีไฟประดับ ตลาดคริสต์มาส และกิจกรรมสำหรับเด็ก",
-  "image": "https://prcdn.freetls.fastly.net/release_image/24645/187/24645-187-049aa5eaced515fc7d202bb508b588c5-1750x2475.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "image": "https://prtimes.jp/img/191672/1/resize/d191672-1-8f8bebda27d1ce60d725-0.jpg",
   "official": null,
   "sources": [
    {
@@ -194962,7 +195085,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://prtimes.jp/main/html/rd/p/000000187.000024645.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000187.000024645.html",
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261009prt00m200001000a.html",
   "imageHash": null,
   "placeChecked": true,
   "notDupWith": [
@@ -210351,7 +210474,7 @@
    "art"
   ],
   "summary_th": "นิทรรศการภาพถ่ายหอจดหมายเหตุชิบูย่าและนิทรรศการศิลปะคามิยามะ",
-  "image": "https://assets.finders.me/post/thumbnail/GzkyanlQ1BJ_kYDnLS5d3.jpg?v=20260829",
+  "image": "https://prtimes.jp/img/136779/51/resize/d136779-51-48364c689e9090c29480-18.png",
   "official": null,
   "sources": [
    {
@@ -210375,7 +210498,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://mantan-web.jp/prtimes/article/20261026prt00m200000288a.html",
-  "imageFrom": "https://finders.me/kqFQxAjYTtKwjqgQbg",
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261026prt00m200000288a.html",
   "imageHash": null,
   "placeChecked": true,
   "dateTried": true,
@@ -230564,7 +230687,7 @@
    "national"
   ],
   "summary_th": "กทม. จัดงานลอยกระทง 2569 ระหว่าง 17-29 พ.ย. ที่ป้อมมหากาฬ ภูเขาทอง และพระราม 8",
-  "image": "https://media.komchadluek.net/uploads/images/md/2026/10/ffrSqzzqBVTpNbq1tiA4.webp",
+  "image": "https://thaitabloid.com/wp-content/uploads/2026/10/InShot_20261029_223234896-scaled.jpg",
   "official": null,
   "sources": [
    {
@@ -230595,7 +230718,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://thaitabloid.com/archives/327685",
-  "imageFrom": "https://www.komchadluek.net/news/general-news/624927",
+  "imageFrom": "https://thaitabloid.com/archives/327685",
   "imageHash": null,
   "placeChecked": true,
   "hidden": true
@@ -245214,8 +245337,8 @@
    "local"
   ],
   "summary_th": "กิจกรรมสืบสานประเพณีไทยที่ป้อมพระสุเมรุ ระหว่าง 23–25 พ.ย. 69",
-  "image": "https://media.komchadluek.net/uploads/images/md/2026/10/ffrSqzzqBVTpNbq1tiA4.webp",
-  "imageFrom": "https://www.komchadluek.net/news/general-news/624927",
+  "image": "https://thaitabloid.com/wp-content/uploads/2026/10/InShot_20261029_223234896-scaled.jpg",
+  "imageFrom": "https://thaitabloid.com/archives/327685",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -245433,8 +245556,8 @@
    "local"
   ],
   "summary_th": "จุดจัดกิจกรรมลอยกระทงโดยเขตจตุจักร ลาดพร้าว บางซื่อ และดุสิต ระหว่างวันที่ 23–25 พ.ย. 2569",
-  "image": "https://media.komchadluek.net/uploads/images/md/2026/10/ffrSqzzqBVTpNbq1tiA4.webp",
-  "imageFrom": "https://www.komchadluek.net/news/general-news/624927",
+  "image": "https://thaitabloid.com/wp-content/uploads/2026/10/InShot_20261029_223234896-scaled.jpg",
+  "imageFrom": "https://thaitabloid.com/archives/327685",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -245488,8 +245611,8 @@
    "local"
   ],
   "summary_th": "กิจกรรมสืบสานประเพณีไทยที่ป้อมพระสุเมรุ ระหว่าง 23–25 พ.ย. 69",
-  "image": "https://media.komchadluek.net/uploads/images/md/2026/10/ffrSqzzqBVTpNbq1tiA4.webp",
-  "imageFrom": "https://www.komchadluek.net/news/general-news/624927",
+  "image": "https://thaitabloid.com/wp-content/uploads/2026/10/InShot_20261029_223234896-scaled.jpg",
+  "imageFrom": "https://thaitabloid.com/archives/327685",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -250196,7 +250319,7 @@
    "anime"
   ],
   "summary_th": "อีเวนต์พิเศษกันดั้ม SEED ที่ฟุกุโอกะ พร้อมไลต์อัป νกันดั้ม และนักพากย์ชื่อดัง",
-  "image": "http://www.bing.com/th?id=ONUT.qVmYUmjSiEzrfboTVUH9QQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.BP-rqUFHyVw-pzUg1uT5Ew&pid=News",
   "official": null,
   "sources": [
    {
@@ -250221,8 +250344,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://mantan-web.jp/prtimes/article/20261029prt00m200001344a.html",
-  "imageFrom": "https://mantan-web.jp/prtimes/article/20261029prt00m200001344a.html",
-  "imageHash": "21fdf2596b8fcebd",
+  "imageFrom": "https://v-storage.jp/anime/gundam/289500/",
+  "imageHash": "2b88e19b43a8f767",
   "placeChecked": true,
   "notDupWith": [
    "c910acbd5d06",
@@ -281364,9 +281487,9 @@
    "movie"
   ],
   "summary_th": "ภาพยนตร์ Gundam SEED FREEDOM ZERO กำหนดฉายโรงภาพยนตร์ 15 มกราคม 2027",
-  "image": "http://www.bing.com/th?id=ONUT.qVmYUmjSiEzrfboTVUH9QQ&pid=News",
-  "imageFrom": "https://mantan-web.jp/prtimes/article/20261029prt00m200001344a.html",
-  "imageHash": "21fdf2596b8fcebd",
+  "image": "https://animeanime.jp/imgs/ogp_f/941024.jpg",
+  "imageFrom": "https://animeanime.jp/article/2026/10/09/103637.html",
+  "imageHash": null,
   "official": null,
   "sources": [
    {
@@ -284352,7 +284475,7 @@
    "market"
   ],
   "summary_th": "คาเฟ่คอลแลปกับอนิเมะอาโอบุตะที่เมืองเอโนชิมะ",
-  "image": "http://www.bing.com/th?id=ONUT.NC-AgAr6LGwAl6ACRoaMiQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.fM_EjE1Pir-fnGThmvYsTQ&pid=News",
   "official": "https://treasurecafe.jp/news/1875/",
   "sources": [
    {
@@ -284373,11 +284496,11 @@
   "added": "2026-10-29",
   "updated": "2026-10-30",
   "enriched": true,
-  "imageHash": "823f4fba378905af",
+  "imageHash": "63b4cda96478f167",
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://mantan-web.jp/prtimes/article/20261029prt00m200001317a.html",
-  "imageFrom": "https://shonanjin.com/news/fujisawa-aobuta-enoshima-collab-cafe/",
+  "imageFrom": "https://webnewtype.com/report/cast/entry-49693.html",
   "placeChecked": true,
   "dateTried": true
  },
@@ -284399,7 +284522,7 @@
    "market"
   ],
   "summary_th": "คอลแลปคาเฟ่การ์ตูน青春ブタ野郎ที่เอโนชิมะ เมืองฟุจิซาวะ",
-  "image": "http://www.bing.com/th?id=ONUT.NC-AgAr6LGwAl6ACRoaMiQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.Phoe7rV1-6y9nuFo9oZedA&pid=News",
   "official": null,
   "sources": [
    {
@@ -284416,8 +284539,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://shonanjin.com/news/fujisawa-aobuta-enoshima-collab-cafe/",
-  "imageFrom": "https://shonanjin.com/news/fujisawa-aobuta-enoshima-collab-cafe/",
-  "imageHash": "823f4fba378905af",
+  "imageFrom": "https://dot.asahi.com/articles/-/296525?page=1",
+  "imageHash": "541b93053a8e4bff",
   "placeChecked": true,
   "notDupWith": [
    "f8cbeb6f6a69",
@@ -285800,9 +285923,9 @@
    "expo"
   ],
   "summary_th": "นิทรรศการ MAPPA EXPO 15th Anniversary จัดที่พิพิธภัณฑ์ศิลปะเอเชียฟุกุโอกะ ระหว่าง 30 ม.ค.–28 มี.ค. 2027",
-  "image": "http://www.bing.com/th?id=ONUT.XZ4NAbBs0wEj6kiplVMH1w&pid=News",
-  "imageFrom": "https://animeanime.jp/release/prtimes/20261028/322826.html",
-  "imageHash": "79640826b2926f90",
+  "image": "http://www.bing.com/th?id=ONUT.0BdM2JV4BmsCx0KmVPN7VQ&pid=News",
+  "imageFrom": "https://natalie.mu/comic/news/695698",
+  "imageHash": "8103415ea4b9a8c0",
   "official": "https://www.mappa.co.jp/15th/",
   "sources": [
    {
@@ -320685,7 +320808,7 @@
    "match"
   ],
   "summary_th": "งานกีฬาและวัฒนธรรมสำหรับเด็กจากศูนย์เด็กเขตน้ำดง อินชอน กว่า 600 คน",
-  "image": "https://www.jeonmae.co.kr/news/thumbnail/202610/1306247_1038407_1540_v150.jpg",
+  "image": "https://cdn.kihoilbo.co.kr/news/photo/202610/3039089_583664_2745.jpg",
   "official": null,
   "sources": [
    {
@@ -320709,7 +320832,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306247",
-  "imageFrom": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306247",
+  "imageFrom": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039089",
   "imageHash": null,
   "placeChecked": true,
   "regionTried": true,
@@ -324459,7 +324582,7 @@
   "imageTriedAt": "2026-10-30",
   "article": "https://collabo-cafe.com/zh-hans/events/collabo/wild-speed-event-cartour-donki-2026/",
   "imageFrom": "https://collabo-cafe.com/zh-hans/events/collabo/wild-speed-event-cartour-donki-2026/",
-  "imageHash": null,
+  "imageHash": "2613fb20b5c628dd",
   "placeChecked": true,
   "regionTried": true,
   "dateTried": true
@@ -335233,7 +335356,7 @@
    "museum"
   ],
   "summary_th": "นิทรรศการความเป็นสากลของการแข่งม้าญี่ปุ่น จัดแสดงภาพหายากม้าฮาคุชิกะระ",
-  "image": "https://www.sanspo.com/resizer/v2/PPHZTGSB55GMHC4KR7KSMFSNIA.jpg?auth=e235fff8efc3d2b85497fe36842dfa0a8ad8a349b367aff2a26b8b91f3ed408c&quality=50&focal=1457%2C1090&width=1200&height=675",
+  "image": "https://www.nikkansports.com/keiba/column/rapusodi/news/img/202606060000757-w500_0.jpg",
   "official": null,
   "sources": [
    {
@@ -335250,7 +335373,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://www.sanspo.com/race/article/general/20260929-ITLO7L6DHFL3LNTNRNW4YMBC5Y/",
-  "imageFrom": "https://www.sanspo.com/race/article/general/20260929-ITLO7L6DHFL3LNTNRNW4YMBC5Y/",
+  "imageFrom": "https://www.nikkansports.com/keiba/column/rapusodi/news/202606060000757.html",
   "placeChecked": true,
   "imageHash": null,
   "regionTried": true,
@@ -335818,7 +335941,7 @@
    "museum"
   ],
   "summary_th": "นิทรรศการภาพถ่ายและวิดีโอการแข่งม้าญี่ปุ่นที่พิพิธภัณฑ์ JRA",
-  "image": "https://www.sanspo.com/resizer/v2/PPHZTGSB55GMHC4KR7KSMFSNIA.jpg?auth=e235fff8efc3d2b85497fe36842dfa0a8ad8a349b367aff2a26b8b91f3ed408c&quality=50&focal=1457%2C1090&width=1200&height=675",
+  "image": "https://www.nikkansports.com/keiba/column/rapusodi/news/img/202606060000757-w500_0.jpg",
   "official": null,
   "sources": [
    {
@@ -335835,7 +335958,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://www.sanspo.com/race/article/general/20260929-ITLO7L6DHFL3LNTNRNW4YMBC5Y/",
-  "imageFrom": "https://www.sanspo.com/race/article/general/20260929-ITLO7L6DHFL3LNTNRNW4YMBC5Y/",
+  "imageFrom": "https://www.nikkansports.com/keiba/column/rapusodi/news/202606060000757.html",
   "placeChecked": true,
   "imageHash": null,
   "dateTried": true
@@ -357258,8 +357381,8 @@
    "tcg"
   ],
   "summary_th": "กิจกรรมเสริมภายในงาน Master Ball League",
-  "image": "https://www.thaipr.net/wp-content/uploads/2026/05/image-2-b167d132-e1779780285228.jpeg",
-  "imageFrom": "https://www.thaipr.net/general/3724775",
+  "image": "https://mpics2.mgronline.com/pics/Images/569000004808201.JPEG",
+  "imageFrom": "https://mgronline.com/game/detail/9690000047386",
   "imageHash": null,
   "official": "https://th.portal-pokemon.com",
   "sources": [
@@ -357299,8 +357422,8 @@
    "game"
   ],
   "summary_th": "มีกิจกรรมเสริม (Side Event) ภายในงาน Master Ball League",
-  "image": "https://www.thaipr.net/wp-content/uploads/2026/05/image-2-b167d132-e1779780285228.jpeg",
-  "imageFrom": "https://www.thaipr.net/general/3724775",
+  "image": "https://mpics2.mgronline.com/pics/Images/569000004808201.JPEG",
+  "imageFrom": "https://mgronline.com/game/detail/9690000047386",
   "imageHash": null,
   "official": "https://th.portal-pokemon.com",
   "sources": [
@@ -367034,7 +367157,7 @@
    "art"
   ],
   "summary_th": "9 โครงการจัดแสดงที่ชิบูย่าฮิคาริเอะ ในเดือนพฤศจิกายน มีนิทรรศการภาพถ่ายและศิลปินรุ่นใหม่",
-  "image": "https://assets.finders.me/post/thumbnail/GzkyanlQ1BJ_kYDnLS5d3.jpg?v=20260829",
+  "image": "https://prcdn.freetls.fastly.net/release_image/151465/6/151465-6-688b1abed7415862dad6a20ee917ee66-2500x1312.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   "official": null,
   "sources": [
    {
@@ -367051,7 +367174,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
   "article": "https://finders.me/kqFQxAjYTtKwjqgQbg",
-  "imageFrom": "https://finders.me/kqFQxAjYTtKwjqgQbg",
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000006.000151465.html",
   "imageHash": null,
   "placeChecked": true,
   "dateTried": true
@@ -367901,9 +368024,9 @@
    "anime"
   ],
   "summary_th": "คาเฟ่ครบรอบ 25 ปี ยูกิโอ DM ที่อิเคบุคุโระ",
-  "image": "http://www.bing.com/th?id=ONUT.FAuM3xbzzWmmiueeuGjXvQ&pid=News",
+  "image": "https://collabo-cafe.com/wp-content/uploads/yugioh-cafe-honpo-blanc-ikebukuro-2026-add-info-detail-eyecatch.jpg",
   "imageFrom": "https://collabo-cafe.com/events/collabo/yugioh-cafe-honpo-blanc-ikebukuro-2026-add-info-detail/",
-  "imageHash": "d250428f9f1e8056",
+  "imageHash": null,
   "official": null,
   "sources": [
    {
@@ -367921,7 +368044,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "f6a3445234c1",
@@ -367962,7 +368086,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "a6223241f262",
@@ -367982,48 +368107,8 @@
    "cafe"
   ],
   "summary_th": "คาเฟ่ยูกิโอ DM ครบรอบ 25 ปีที่อิเคะบุคุโระ ประกาศเมนูและสินค้า",
-  "image": "http://www.bing.com/th?id=ONUT.FAuM3xbzzWmmiueeuGjXvQ&pid=News",
+  "image": "https://collabo-cafe.com/wp-content/uploads/yugioh-cafe-honpo-blanc-ikebukuro-2026-add-info-detail-eyecatch.jpg",
   "imageFrom": "https://collabo-cafe.com/events/collabo/yugioh-cafe-honpo-blanc-ikebukuro-2026-add-info-detail/",
-  "imageHash": "d250428f9f1e8056",
-  "official": null,
-  "sources": [
-   {
-    "title": "プリキュア プリティストア出張店 in 4会場 10月30日より開催!",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMlJJSDNDUEUzWTBDUndrMUZmUFgzWjgzaVFXazRVMm1tOFRWZFpvR25HMXB2S2ZyUnA3dzN1RklxTjNLR0VhbkNPaTRyMlUzdjZDaHJRSGtvQnZPZmh6cWduNmcxUGhiVVdXMEt3VEpvUUpvNmFrazNBeXVmZjdXc0F1QUQtWXhSVElJ?oc=5",
-    "source": "コラボカフェ",
-    "date": "2026-10-24",
-    "image": null
-   }
-  ],
-  "article": "https://collabo-cafe.com/events/collabo/precure-pretty-store-gekijo-2026/",
-  "splitFrom": "a4b147c0e3f6",
-  "added": "2026-10-30",
-  "updated": "2026-10-30",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-30",
-  "placeChecked": true
- },
- {
-  "id": "34574202633f",
-  "name": "キャンディーカリエス ハロウィンカフェ",
-  "name_th": "คาเฟ่ฮาโลวีน แคนดี้คาริเอส",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": null,
-  "country": "JP",
-  "region": null,
-  "regionTried": false,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "cafe",
-   "anime"
-  ],
-  "summary_th": "คาเฟ่ฮาโลวีนแคนดี้คาริเอส ประกาศเมนูและสินค้า",
-  "image": "https://collabo-cafe.com/wp-content/uploads/candycaries-cafe-share-cafe-harakado-2026-kv.jpg",
-  "imageFrom": "https://collabo-cafe.com/events/collabo/candycaries-cafe-share-cafe-harakado-2026/",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -368042,7 +368127,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "a06a9468e5ae",
@@ -368064,7 +368150,7 @@
   "summary_th": "คาเฟ่ครบรอบ 10 ปี GiGO อากิฮาบาระ สาขา 3 กับラブライブ!",
   "image": "https://collabo-cafe.com/wp-content/uploads/8151c6db9f9ec6a4fed7e02f9701647a.jpg",
   "imageFrom": "https://collabo-cafe.com/events/collabo/lovelive-ocg-cafe-gigo-2026-vol4/",
-  "imageHash": null,
+  "imageHash": "a2d27af0e4f2e87b",
   "official": null,
   "sources": [
    {
@@ -368082,6 +368168,7 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-30",
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  }
 ]
