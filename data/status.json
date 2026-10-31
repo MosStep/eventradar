@@ -1,16 +1,16 @@
 {
- "finishedAt": "2026-10-31T18:02:23.102Z",
+ "finishedAt": "2026-10-31T19:48:14.175Z",
  "runner": "local",
- "total": 7776,
- "upcoming": 6202,
+ "total": 7819,
+ "upcoming": 6243,
  "added": 0,
  "pending": 0,
  "withDate": 72,
  "withImage": 82,
  "withPrice": 14,
  "ai": {
-  "calls": 253,
-  "failed": 14,
+  "calls": 274,
+  "failed": 30,
   "quota": [],
   "billing": false,
   "keys": 1,
@@ -20,12 +20,14 @@
     "failed": 0
    },
    "aiu": {
-    "calls": 253,
-    "failed": 14
+    "calls": 274,
+    "failed": 30
    }
   },
-  "down": false,
+  "down": true,
   "budget": false
  },
- "problems": []
+ "problems": [
+  "AI ผู้ให้บริการไม่ว่าง (rate limit) — ข้ามขั้น AI รอบนี้"
+ ]
 }
