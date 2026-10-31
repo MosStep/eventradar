@@ -1,34 +1,31 @@
 {
- "finishedAt": "2026-10-31T13:21:10.963Z",
- "runner": "github",
- "total": 7385,
- "upcoming": 5867,
+ "finishedAt": "2026-10-31T13:25:04.737Z",
+ "runner": "local",
+ "total": 7407,
+ "upcoming": 5873,
  "added": 0,
- "pending": 1071,
- "withDate": 71,
+ "pending": 0,
+ "withDate": 72,
  "withImage": 82,
- "withPrice": 13,
+ "withPrice": 15,
  "ai": {
-  "calls": 243,
-  "failed": 242,
+  "calls": 689,
+  "failed": 98,
   "quota": [],
   "billing": false,
-  "keys": 5,
+  "keys": 1,
   "providers": {
    "tenixe": {
-    "calls": 231,
-    "failed": 230
+    "calls": 0,
+    "failed": 0
    },
    "aiu": {
-    "calls": 12,
-    "failed": 12
+    "calls": 689,
+    "failed": 98
    }
   },
-  "down": true,
+  "down": false,
   "budget": false
  },
- "problems": [
-  "เรียก AI ล้มเหลว 242/243 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)",
-  "AI ผู้ให้บริการไม่ว่าง (rate limit) — ข้ามขั้น AI รอบนี้"
- ]
+ "problems": []
 }
