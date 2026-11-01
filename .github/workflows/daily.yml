@@ -49,6 +49,7 @@ jobs:
           AIU_CONCURRENCY: ${{ vars.AIU_CONCURRENCY }}
         run: node pipeline/run.mjs --window=1d --max-batches=5 --max-describe=10 --max-verify=20 --max-price=20 --split=5 --budget-min=90
       - name: Save data
+        id: save
         if: github.event_name != 'push'
         run: |
           git config user.name "eventradar-bot"
@@ -110,6 +111,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           PIPELINE: ${{ steps.pipeline.outcome }}
+          SAVE: ${{ steps.save.outcome }}
           TESTS: ${{ steps.tests.outcome }}
         run: node scripts/report.mjs
       - name: Build site

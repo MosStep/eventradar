@@ -76,13 +76,40 @@ export const dayGap = (a, b) => Math.abs(new Date(a) - new Date(b)) / 864e5;
 
 // What kind of AI error this is: "billing" (stop), "quota" (this key is spent), "rate" (the provider is busy, retry
 // later), or "other" (bad request, timeout, bad JSON ...). Quota wording wins over a 429 status.
+// The HTTP status (the "NNN:" prefix of a response error) decides first: a 429 or 5xx is never billing, whatever its
+// body says, so a rate limit that mentions credits or a wallet is not a payment problem.
 export function errorKind(msg) {
   const m = String(msg || "");
-  if (/unpaid|add credits|wallet/i.test(m)) return "billing";
+  const code = Number(m.match(/^(\d{3}):/)?.[1]) || 0; // 0 = no HTTP status (error inside a stream or a bare body)
+  const payment = code === 402 || code === 403;
+  const billingWords = payment ? /unpaid|add credits|wallet|credits|overdue|payment required|outstanding/i
+    : /unpaid|add credits|overdue|payment required/i;
+  if (code !== 429 && code < 500 && billingWords.test(m)) return "billing";
   if (/quota|insufficient|^402/i.test(m)) return "quota";
-  if (/AI_PROVIDER_RATE|too many requests|rate.?limit|^429/i.test(m)) return "rate";
+  if (code === 429 || /AI_PROVIDER_RATE|too many requests|rate.?limit|concurrent_streams/i.test(m)) return "rate";
   return "other";
 }
+
+// Alerts: a problem only counts once it has happened in ALERT_AFTER runs in a row (a single transient one stays in
+// status.json, shown in the app). aiProblemKinds() names the AI problems of one run; nextStreaks() keeps the count of
+// runs in a row per kind (stored in status.json as "streak"); confirmedKinds() returns the kinds that reached the limit.
+export const ALERT_AFTER = 2;
+export const AI_KINDS = ["rate", "failed", "billing"];
+export function aiProblemKinds(ai) {
+  const kinds = [];
+  if (ai?.down) kinds.push("rate"); // every provider's breaker tripped: rate limit or quota
+  const allQuota = ai?.keys > 0 && (ai.quota?.length || 0) >= ai.keys;
+  if (allQuota || (ai?.calls > 5 && ai.failed / ai.calls > 0.5)) kinds.push("failed");
+  // Only a Tenixe billing error is an alert; AIUnlimit billing is shown in the status box.
+  if (ai?.billing && (Array.isArray(ai.billingBy) ? ai.billingBy.includes("tenixe") : true)) kinds.push("billing");
+  return kinds;
+}
+export function nextStreaks(prev, kinds) {
+  const out = {};
+  for (const k of AI_KINDS) out[k] = kinds.includes(k) ? (Number(prev?.[k]) || 0) + 1 : 0;
+  return out;
+}
+export const confirmedKinds = streaks => AI_KINDS.filter(k => (streaks?.[k] || 0) >= ALERT_AFTER);
 
 export function extractText(rawHtml) {
   const html = rawHtml

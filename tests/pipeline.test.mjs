@@ -1,7 +1,7 @@
 // Checks for the pipeline helpers that have broken before. Run: node --test tests/*.test.mjs
 import test from "node:test";
 import assert from "node:assert/strict";
-import { parseJson, repairQuotes, similar, similarLoose, near, years, isDate, unwrap, tag, extractText, dateMentions, cleanSplit, eventId, errorKind, prefilterReason, tagPriority } from "../pipeline/lib.mjs";
+import { parseJson, repairQuotes, similar, similarLoose, near, years, isDate, unwrap, tag, extractText, dateMentions, cleanSplit, eventId, errorKind, prefilterReason, tagPriority, aiProblemKinds, nextStreaks, confirmedKinds } from "../pipeline/lib.mjs";
 import { NOT_EVENT_WORDS, PRTIMES_EVENT, EVENT_WORDS } from "../pipeline/sources.mjs";
 import { providerOf } from "../pipeline/tenixe.mjs";
 
@@ -87,6 +87,29 @@ test("AI errors: provider rate limits are told apart from quota and billing", ()
   assert.equal(errorKind('402: {"error":"insufficient balance"}'), "quota");
   assert.equal(errorKind('{"message":"account unpaid, add credits"}'), "billing");
   assert.equal(errorKind("500: upstream_timeout"), "other");
+  // A rate limit whose body mentions credits or a wallet is not billing: the HTTP status decides first.
+  assert.equal(errorKind('429: {"error":"Rate limit reached. Add credits or wait, wallet balance unchanged"}'), "rate");
+  assert.equal(errorKind('503: {"error":"credits pool busy, try later"}'), "other");
+  assert.equal(errorKind('402: {"error":"account unpaid, add credits to continue"}'), "billing");
+  assert.equal(errorKind('402: {"error":"wallet balance too low"}'), "billing");
+});
+
+test("alerts: one bad run stays quiet, two runs in a row raise the alert", () => {
+  const bad = { down: true, calls: 10, failed: 2, keys: 3, quota: [] };
+  const first = nextStreaks({}, aiProblemKinds(bad));
+  assert.deepEqual(confirmedKinds(first), []);
+  const second = nextStreaks(first, aiProblemKinds(bad));
+  assert.deepEqual(confirmedKinds(second), ["rate"]);
+  // A healthy run resets the count.
+  assert.deepEqual(nextStreaks(second, aiProblemKinds({ calls: 9, failed: 0, keys: 3, quota: [] })), { rate: 0, failed: 0, billing: 0 });
+});
+
+test("alerts: billing counts only for Tenixe; AIUnlimit billing stays in the status box", () => {
+  assert.deepEqual(aiProblemKinds({ billing: true, billingBy: ["aiu"] }), []);
+  assert.deepEqual(aiProblemKinds({ billing: true, billingBy: ["tenixe"] }), ["billing"]);
+  assert.deepEqual(aiProblemKinds({ calls: 20, failed: 11, keys: 5, quota: [] }), ["failed"]);
+  assert.deepEqual(aiProblemKinds({ calls: 309, failed: 139, keys: 5, quota: ["sk-aiu-e"] }), []);
+  assert.deepEqual(aiProblemKinds({ calls: 9, failed: 0, keys: 2, quota: ["a", "b"] }), ["failed"]);
 });
 
 test("event ids are stable for the same country, name and start", () => {

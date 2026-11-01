@@ -65,8 +65,13 @@ export const aiBudgetOut = () => budgetOut;
 // True when a provider is busy or out of quota (breakers tripped), ignoring the time budget.
 export const aiBusy = () => activeProviders().length > 0 && activeProviders().every(p => down[p] !== null);
 
-const stats = { calls: 0, failed: 0, quota: new Set(), billing: false, by: { tenixe: { calls: 0, failed: 0 }, aiu: { calls: 0, failed: 0 } } };
-export const keyStats = () => ({ calls: stats.calls, failed: stats.failed, quota: [...stats.quota], billing: stats.billing,
+// billing is per provider: a billing error on AIUnlimit must not be reported as a Tenixe problem. billingText keeps the
+// first billing message (keys masked) so the status file shows what the provider actually said.
+const stats = { calls: 0, failed: 0, quota: new Set(), billing: { tenixe: false, aiu: false }, billingText: "",
+  by: { tenixe: { calls: 0, failed: 0 }, aiu: { calls: 0, failed: 0 } } };
+export const keyStats = () => ({ calls: stats.calls, failed: stats.failed, quota: [...stats.quota],
+  billing: stats.billing.tenixe || stats.billing.aiu, billingBy: Object.keys(stats.billing).filter(p => stats.billing[p]),
+  billingText: stats.billingText,
   keys: new Set([...list("TENIXE_KEYS"), ...list("TENIXE_NEMOTRON_KEYS"), ...list("AIU_KEYS")]).size,
   providers: { tenixe: { ...stats.by.tenixe }, aiu: { ...stats.by.aiu } } });
 
@@ -161,7 +166,12 @@ export async function extract(messages, order = ORDERS.extract, preferKey = null
           stats.failed++; stats.by[p].failed++;
           const kind = errorKind(e.message);
           if (/quota/i.test(e.message)) stats.quota.add(key.slice(0, 8));
-          if (kind === "billing") { stats.billing = true; throw new BillingStop(`billing stop on key ${key.slice(0, 8)}: ${e.message.slice(0, 200)}`); }
+          if (kind === "billing") {
+            stats.billing[p] = true;
+            const masked = e.message.split(key).join("***").slice(0, 200);
+            stats.billingText ||= masked;
+            throw new BillingStop(`billing stop on key ${key.slice(0, 8)}: ${masked}`);
+          }
           if (/concurrent_streams_exceeded/i.test(e.message) && busy < 20) { busy++; attempt--; await sleep(6); continue; }
           if (kind === "rate" || kind === "quota") {
             e.busy = true; // provider-side trouble, not the item's fault

@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { COUNTRIES, TAGS, TAXONOMY, WATCH_DEFAULT, OFFICIAL_PAGES, feeds } from "./sources.mjs";
-import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv, eventId, dateMentions, cleanSplit, prefilterReason, tagPriority } from "./lib.mjs";
+import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv, eventId, dateMentions, cleanSplit, prefilterReason, tagPriority, aiProblemKinds, nextStreaks } from "./lib.mjs";
 import { extract, hasKeys, workersFor, keyStats, ORDERS, BillingStop, aiDown, aiDownReason, haltBudget, aiBusy, aiBudgetOut, aiuOn, providerOf } from "./tenixe.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
@@ -1073,13 +1073,18 @@ function writeStatus() {
   if (reportProblem) problems.push(reportProblem);
   if (!NO_FETCH && fetchedCount === 0) problems.push("ดึงข่าวไม่ได้เลยในรอบนี้ (แหล่งข่าวอาจบล็อกหรือเน็ตมีปัญหา)");
   const ks = keyStats();
-  if (ks.billing) problems.push("คีย์ AI ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe");
+  if (ks.billingBy.includes("tenixe")) problems.push("คีย์ Tenixe ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe");
+  if (ks.billingBy.includes("aiu")) problems.push("คีย์ AIUnlimit ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์ AIU_KEYS หรือชำระที่ AIUnlimit");
   if (ks.calls > 5 && ks.failed / ks.calls > 0.5) problems.push(`เรียก AI ล้มเหลว ${ks.failed}/${ks.calls} ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)`);
   if (ks.quota.length && ks.quota.length >= ks.keys) problems.push("ทุกคีย์ขึ้นว่าโควตาหมด — รอรีเซ็ตบ่ายโมง หรือเพิ่มคีย์ใหม่");
   if (aiBusy()) problems.push("AI ผู้ให้บริการไม่ว่าง (rate limit) — ข้ามขั้น AI รอบนี้");
+  const ai = { ...ks, down: aiBusy(), budget: aiBudgetOut() };
+  // Runs in a row with each AI problem, read from the previous status.json (it is committed every run). report.mjs
+  // opens an issue only when a streak reaches 2 (see lib.mjs confirmedKinds).
+  const prev = load(path.join(ROOT, "data", "status.json"), null);
   const status = { finishedAt: new Date().toISOString(), runner: process.env.GITHUB_ACTIONS ? "github" : "local",
     total: events.length, upcoming: up.length, added, pending: Object.values(raw).filter(r => r.status === "new").length,
-    withDate: pct(e => e.start), withImage: pct(e => e.image), withPrice: pct(e => e.price_th), ai: { ...ks, down: aiBusy(), budget: aiBudgetOut() }, problems };
+    withDate: pct(e => e.start), withImage: pct(e => e.image), withPrice: pct(e => e.price_th), ai, streak: nextStreaks(prev?.streak, aiProblemKinds(ai)), problems };
   save(path.join(ROOT, "data", "status.json"), status);
   if (problems.length) console.log(`[status] problems: ${problems.join(" | ")}`);
 }
