@@ -1,35 +1,31 @@
 {
- "finishedAt": "2026-11-01T01:49:10.613Z",
- "runner": "github",
- "total": 8204,
- "upcoming": 5948,
- "added": 19,
- "pending": 0,
+ "finishedAt": "2026-11-01T03:13:51.255Z",
+ "runner": "local",
+ "total": 8334,
+ "upcoming": 6056,
+ "added": 18,
+ "pending": 32,
  "withDate": 68,
  "withImage": 80,
  "withPrice": 14,
  "ai": {
-  "calls": 309,
-  "failed": 139,
-  "quota": [
-   "sk-aiu-e"
-  ],
-  "billing": true,
-  "keys": 5,
+  "calls": 119,
+  "failed": 12,
+  "quota": [],
+  "billing": false,
+  "keys": 1,
   "providers": {
    "tenixe": {
-    "calls": 146,
-    "failed": 111
+    "calls": 0,
+    "failed": 0
    },
    "aiu": {
-    "calls": 163,
-    "failed": 28
+    "calls": 119,
+    "failed": 12
    }
   },
   "down": false,
   "budget": true
  },
- "problems": [
-  "คีย์ AI ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe"
- ]
+ "problems": []
 }
