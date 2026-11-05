@@ -968,6 +968,54 @@
   "placeChecked": true
  },
  {
+  "id": "a1c1f40168d2",
+  "name": "〜パリ世紀末 ベル・エポックに咲いた華〜 サラ・ベルナールの世界展",
+  "name_th": "นิทรรศการโลกของซาราห์ แบร์นาร์ด ~ปลายศตวรรษปารีส ดอกไม้ผลิบานในยุคเบลเอป็อก~",
+  "start": "2019-03-28",
+  "end": "2019-06-30",
+  "venue": "箱根ラリック美術館",
+  "city": "足柄下郡箱根町",
+  "country": "JP",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art",
+   "museum",
+   "figure"
+  ],
+  "summary_th": "นิทรรศการนำเสนอโลกของนักแสดงหญิงชื่อดังชาวฝรั่งเศสซาราห์ แบร์นาร์ด ผ่านภาพถ่าย ชุด ภาพเหมือน โปสเตอร์โดยมุฮา และเครื่องประดับโดยลาลิก รวมราว 80 ชิ้น ณ พิพิธภัณฑ์ลาลิกฮาโกเน่",
+  "image": "https://prcdn.freetls.fastly.net/release_image/45554/33/45554-33-de2f88a66b68ccd398ad647f9fb262de-756x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000033.000045554.html",
+  "imageHash": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "国際的大女優サラ・ベルナールの世界展が群馬県立近代美術館で開催！",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMNmhEalp3RHRvZGluRzV6WloxT2NCRHUyMTNMOXU0ZUFfOFJxUDFsazd0TUxGaUpVN0J3eEhSWDJ6WlNWRGNObHNPenJNcmlVeGhLONIBWkFVX3lxTE9HdWtXbjBpZWZubkdMbWlFaTQ0bXNRNkhGc3NYWklQUUlSTDdiRjlzS2VXdUljWkJWdlhqQmRzbzhyWHY0c2Z5X0E1RzFWRDFGZFhBR3hDR1g3Zw?oc=5",
+    "source": "ウォーカープラス",
+    "date": "2026-10-27",
+    "image": null
+   },
+   {
+    "title": "きかんしゃトーマス80周年記念！京都鉄道博物館で「トーマスの世界展」開催へ",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rVFNzc0Jna2MzVDZFWXdxcGtZeWlHcVVmU1hLZ1BHXzhaM2E1UTcyVFNxYy1HSTBDNWJpWS1LbXd6b0lHTUFNWXhfUUpWZ3hrYWJMRkJB0gFbQVVfeXFMT1lIRzNnWVNXOUlWRm95RWpQN3Y5aEZnVlNQRUxBQnBiMW1aRjJ1REFnRlI3SF9nYWlkVV9KNC1TSHY4dk83c1otWDhRT0UyMkhId01aUEpTcTlIaw?oc=5",
+    "source": "ウォーカープラス",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "article": "https://news.infoseek.co.jp/article/neol_80547/",
+  "splitFrom": "2cfdb27e6f25",
+  "added": "2026-11-05",
+  "updated": "2026-11-05",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-05",
+  "placeChecked": true
+ },
+ {
   "id": "1e5521378b9b",
   "name": "NARUTO & BORUTO Shinobi-Zato - Winter Festival",
   "name_th": "นารุโตะ & โบรุโตะ ชิโนบิซาโตะ เทศกาลฤดูหนาว",
@@ -4095,6 +4143,52 @@
   "placeChecked": true
  },
  {
+  "id": "d3d52580d48f",
+  "name": "虚構世界をリアルに描いた 石原豪人展 around the 1970s",
+  "name_th": "นิทรรศการอิชิฮาระ โกโตะ",
+  "start": "2025-08-02",
+  "end": "2025-08-02",
+  "venue": "弥生美術館",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": "แจกบัตรฟรี 5 รางวัล",
+  "tags": [
+   "art",
+   "museum"
+  ],
+  "summary_th": "นิทรรศการภาพวาดจินตนาการยุค 1970 ของอิชิฮาระ โกโตะ พร้อมแจกบัตรเข้าชม",
+  "image": "http://www.bing.com/th?id=ONUT.1fy5kgzWjAB7QtrgUvm6gQ&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "【5組10名限定】弥生美術館「虚構世界をリアルに描いた 石原豪人展 around the 1970sの妄想画、大集合」招待券プレゼント 〆切は11月7日(土)",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HdFhYaXpuS2dlTXhvUXZ4OXllUzBfcGRFQTQ0WC1EeXdGTTgtQ1k0UTVrXzZSRW1xdWpBUGJ1R2pjMkxySmZzdHZjWnY0c21PblRpU0tnR0FvaV9pMG0tQnRDMFVub0ZfdklOR3g5Y2x5V25MOVE?oc=5",
+    "source": "美術展ナビ",
+    "date": "2026-10-31",
+    "image": null
+   },
+   {
+    "title": "元アイドリング!!!・後藤郁、1日限りのアート展開催 “裏側”を4コママンガで公開",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vSk5NbU05aTRFdjAwSVFVeG9uOThJeWRLVkMzbDh1dnZuNlF4elVtUll3TkpuLUUwTzVDeDVjYTl6dml0dkRjeWZHWkpsdVJqMkYyLTIza25EMVVWNFE?oc=5",
+    "source": "山陽新聞",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-10-31",
+  "updated": "2026-10-31",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-04",
+  "article": "https://topics.smt.docomo.ne.jp/article/san_tatsu/trend/san_tatsu-561184",
+  "placeChecked": true,
+  "imageFrom": "https://cyzo.jp/culture/post_420097/",
+  "imageHash": "5c079a0be96ec858"
+ },
+ {
   "id": "7e55ef8c745f",
   "name": "V Concert",
   "name_th": "วี คอนเสิร์ต",
@@ -4779,6 +4873,120 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
+  "id": "a94080e6b386",
+  "name": "사회과학에서의 AI와 머신러닝 국제 컨퍼런스",
+  "name_th": "การประชุมนานาชาติ AI และแมชชีนเลิร์นนิงในสังคมศาสตร์",
+  "start": "2025-10-30",
+  "end": "2025-10-30",
+  "venue": "이화여대",
+  "city": "서울",
+  "country": "KR",
+  "region": "seoul",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "ai",
+   "edu"
+  ],
+  "summary_th": "การประชุมนานาชาติเรื่อง AI ในสังคมศาสตร์ที่มหาวิทยาลัยอีฮวา",
+  "image": "http://www.bing.com/th?id=ONUT.YqX4MyJUAsekGMXBgIk7ZA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "이화여대, ‘사회과학에서의 AI와 머신러닝’ 국제 컨퍼런스 개최",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iaUNkVGtVdUgtU2diS0hDNzZpdUZiS1BHNWpCWUdMc3kxV242S0YwUkdCMDIxZU1kMkdFMllyRWlkN2hOUGJSRTF3czRwYzh2MVJRdVBKcnJQZEo2eXVTT1hlNG9xckRFdWhjdElURjl5MmPSAXdBVV95cUxOVEd6dXFYdkk3a3RmVC1CbzFRX1NpNEtFN2tCc1UxUXBDbUlrbjdydjRmeWNVbUN3Y2VvS1JTQlFoc29USENzT0NqMzdTTVRpcG5YTm5naEQ0SkVWWUJoXzcwc05DbUJRVERZN2lNUld5ZEZ0ZXNqdw?oc=5",
+    "source": "핀포인트뉴스",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://www.lecturernews.com/news/articleView.html?idxno=213084",
+  "imageFrom": "https://www.lecturernews.com/news/articleView.html?idxno=213084",
+  "imageHash": "210179bfb1d5b0f4",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
+  "id": "2a278abef7d6",
+  "name": "서울시립대 하노이 입학설명회",
+  "name_th": "งานชี้แจงการรับสมัคร ม.โซล ฮานอย",
+  "start": "2025-10-30",
+  "end": "2025-10-30",
+  "venue": "하노이국립대학교 외국어대학 (부딘리엔 홀)",
+  "city": "하노이",
+  "country": "VN",
+  "region": "north",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "edu"
+  ],
+  "summary_th": "มหาวิทยาลัยโซลจัดชี้แจงการรับสมัครนักศึกษาต่างชาติที่ฮานอย มีผู้เข้าร่วม 360 คน",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "서울시립대, 하노이 입학설명회 개최…360명 참석·한국 유학 상담 진행",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzMlBQMExrdzY5UU1XRDV3c2xfSTJ6Z2VNR3dYak9zdjBMZkxaZHV5MjVEeU5oU3lYRXhmTUxMMFlfM21nNk1FYms0OWFhdlVqNkJzSGFyd2hMVHpXclNhYXpWc0hIZw?oc=5",
+    "source": "한국대학신문",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": null,
+  "placeSuspect": true,
+  "dateTried": true
+ },
+ {
+  "id": "b1b326e39fe8",
+  "name": "写真展「ひとのいる風景」",
+  "name_th": "นิทรรศการภาพถ่าย ひとのいる風景 (ทิวทัศน์ที่มีผู้คน)",
+  "start": "2025-10-30",
+  "end": "2025-10-30",
+  "venue": "宇部のカフェ",
+  "city": "宇部",
+  "country": "JP",
+  "region": "chugoku",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "photo",
+   "art"
+  ],
+  "summary_th": "นิทรรศการภาพถ่ายพิมพ์บนกระดาษวาชิ ที่คาเฟ่ในเมืองอุเบะ ญี่ปุ่น",
+  "image": "http://www.bing.com/th?id=ONUT.mwYnVsUhXF1O5-4t5jJNEQ&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "宇部のカフェで写真展「ひとのいる風景」 和紙にプリントした写真展示",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBVlRPanU3dThNbE14STY3ZDR6bzdTc1NRUHhtbUN2cHd4VWRtLVhqeDFFMjBwTmk2cGo1TkxNaXdUYzdySmtLaEgxWTJoWF9meGh0ZTRWNmZiRlM5bGZ5bHZyQnBTX0VXdGhDeXZR?oc=5",
+    "source": "au Webポータル",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://yamaguchi.keizai.biz/photoflash/8845/",
+  "imageFrom": "https://yamaguchi.keizai.biz/photoflash/8845/",
+  "imageHash": "cbf78a0cfe1b2d9a",
   "placeChecked": true,
   "dateTried": true
  },
@@ -7122,6 +7330,43 @@
   "placeChecked": true
  },
  {
+  "id": "ca667db3ce7a",
+  "name": "ハウステンボス「白銀の世界」",
+  "name_th": "โลกสีเงิน ฮุยส์เทนบอส",
+  "start": "2026-01-10",
+  "end": "2026-02-26",
+  "venue": "ハウステンボス",
+  "city": "長崎県佐世保市",
+  "country": "JP",
+  "region": "kyushu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "lights",
+   "themepark"
+  ],
+  "summary_th": "เทศกาลไฟประดับ 13 ล้านดวง กับลานสเก็ตน้ำแข็งริมคลองที่ฮุยส์เทนบอส",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "画像19 / 22＞世界最大1300万球の光、日本唯一の運河アイススケート、毎日開催する感動必至の点灯式…ハウステンボスの「白銀の世界」がすごすぎた！",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15SmEzSGxCYUNTa0I0V05BenhwOWRTWUljc2hFb2hEX1VrWmVVLXdQNVozUFJ4OEhYaU1ER0lETVMtVkhpZGpGMVA5NUhxU0h4M2VCQ0RXcW9rZ3RtY3NNMDg3b2xwWXdtZEhkYi1B?oc=5",
+    "source": "ウォーカープラス",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": null,
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
   "id": "9d22a2f50bbc",
   "name": "《原神》CAFE首家常设咖啡厅",
   "name_th": "Genshin CAFE",
@@ -7802,9 +8047,9 @@
    "outdoor"
   ],
   "summary_th": "อีเวนต์คอลแลบ Attack on Titan ที่ Nijigen no Mori เกาะอาวาจิ จัดถึง 13 ธ.ค. 2026",
-  "image": "http://www.bing.com/th?id=ONUT.S_cAJWeqsidftqNTfxm4EQ&pid=News",
-  "imageFrom": "https://entamerush.jp/722563/",
-  "imageHash": "1314c5a2e5f2c53d",
+  "image": "http://www.bing.com/th?id=ONUT.x6ysZmVVgIkK6oWPUUykfw&pid=News",
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261027prt00m200000267a.html",
+  "imageHash": "e13b308515cf13c0",
   "official": "https://www.asoview.com/channel/tickets/FJ",
   "sources": [
    {
@@ -8072,8 +8317,8 @@
    "kids"
   ],
   "summary_th": "สะสมแสตมป์ตัวละคร 4 ตัวภายใน Nijigen no Mori แล้วรับโปสการ์ดที่ระลึก",
-  "image": "https://animeanime.jp/release/imgs/list/567180.jpg",
-  "imageFrom": "https://animeanime.jp/release/dreamnews/20261027/322525.html",
+  "image": "https://animeanime.jp/release/imgs/list/562855.jpg",
+  "imageFrom": "https://animeanime.jp/release/dreamnews/20261014/319629.html",
   "imageHash": null,
   "official": "https://www.asoview.com/channel/tickets/FJ",
   "sources": [
@@ -10005,6 +10250,44 @@
    "aed72585a39c",
    "497834bb8198"
   ]
+ },
+ {
+  "id": "ec77dce90fdb",
+  "name": "鉄道資料の展示会",
+  "name_th": "นิทรรศการข้อมูลรถไฟ",
+  "start": "2026-05-27",
+  "end": "2026-05-29",
+  "venue": "三重県総合博物館",
+  "city": "大阪",
+  "country": "JP",
+  "region": "kansai",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "museum"
+  ],
+  "summary_th": "นิทรรศการข้อมูลและวัตถุเกี่ยวกับรถไฟที่พิพิธภัณฑ์มิเอะ",
+  "image": "https://prcdn.freetls.fastly.net/release_image/131984/8/131984-8-b55025c7defb66d54b58a6ff02b01ac0-700x310.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "official": null,
+  "sources": [
+   {
+    "title": "鉄道資料の展示会開催 三重県総合博物館",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55RVp6ZkVYSnZyMk91cVBYUGFLeDNreWRXYWR5MUhHYkRyeC1FOVhvYWJ1Y05HdVMwM3lidE93REZyWnJBSWhSLUw4RWRUa0ZlS3lEXzV2bDJoXzh3VkZkNUNaUDJXZzZqSmRxVGJwbkY4TGc?oc=5",
+    "source": "www.chukei-news.co.jp",
+    "date": "2026-11-01",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://prtimes.jp/main/html/rd/p/000000008.000131984.html",
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000008.000131984.html",
+  "placeChecked": true,
+  "imageHash": "95d3c464b68018cb",
+  "dateTried": true
  },
  {
   "id": "c4397e65dc25",
@@ -14645,7 +14928,7 @@
    "match"
   ],
   "summary_th": "นิทรรศการจำกัดเวลาที่พิพิธภัณฑ์ประวัติศาสตร์โคชิเอ็ง เหมาะกับครอบครัว",
-  "image": "http://www.bing.com/th?id=ONUT.ylxVPMyk5K0c4uJe9t0TvQ&pid=News",
+  "image": "https://prcdn.freetls.fastly.net/release_image/5180/3701/5180-3701-0f9549d6a468206d0dc35e421b490196-1200x602.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   "official": null,
   "sources": [
    {
@@ -14667,12 +14950,58 @@
   "updated": "2026-11-01",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-01",
+  "imageTriedAt": "2026-11-05",
   "article": "https://prtimes.jp/main/html/rd/p/000003701.000005180.html",
-  "imageFrom": "https://www.tv-tokyo.co.jp/plus/external-pr/entry/266649.html",
-  "imageHash": "dc9b9d0979051879",
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000003701.000005180.html",
+  "imageHash": null,
   "placeChecked": true,
   "dateTried": true
+ },
+ {
+  "id": "5b182201f3a2",
+  "name": "阪神タイガース企画展「ドラ1、ぜんぶ見せます。展」",
+  "name_th": "นิทรรศการฮันชินไทเกอรส์ \"ดราฟต์รอบแรก โชว์ให้หมด\"",
+  "start": "2026-09-01",
+  "end": "2027-02-14",
+  "venue": "甲子園歴史館 企画展コーナー",
+  "city": "西宮市",
+  "country": "JP",
+  "region": null,
+  "regionTried": false,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "game"
+  ],
+  "summary_th": "นิทรรศการแสดงนักกีฬาที่ถูกดราฟต์รอบแรกของฮันชินไทเกอรส์ทั้ง 69 คน ตั้งแต่ปี 1965 ถึง 2025 พร้อมย้อนดูผลการแข่งขันและสถิติซีซัน 2026 ณ หอประวัติศาสตร์คอชิเอ็น",
+  "image": "http://www.bing.com/th?id=ONUT.oq29CSpazBln8t_kh_eu5w&pid=News",
+  "imageFrom": "https://kobe-journal.com/archives/3288892435.html",
+  "imageHash": "36271071a7acadb6",
+  "official": null,
+  "sources": [
+   {
+    "title": "＜画像2 / 18＞期間限定のセンバツ企画展が開催中！親子で楽しめる「甲子園歴史館」へ",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zTF9KOTBrMHFSQUFNOFZuc3dFbHRkSWpkRENrWGxMSmQzOW10Z2QwTFdXNVdocWFsN3c5TTJMRElzTWs3ZnJUdUE4cU4xdjA3SXlldWVkeEYxU0NCM0tqU2tLck9OYjVFZWpaUFBR?oc=5",
+    "source": "ウォーカープラス",
+    "date": "2026-10-31",
+    "image": null
+   },
+   {
+    "title": "＜画像14 / 18＞期間限定のセンバツ企画展が開催中！親子で楽しめる「甲子園歴史館」へ",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kSDVSTWpQNHNHX0piSTFkMlhzUTh6MWZvRTIxNVZycVA3WmlQaGJuMFNNMkZ5OXpXbjRFMTBDSUVkRHE3WVVWR3N6ck1NaG04RUV4cDRSTEZMVzhoQWtRR24xS2lXZDNsUTJwemp3?oc=5",
+    "source": "ウォーカープラス",
+    "date": "2026-11-01",
+    "image": null
+   }
+  ],
+  "article": "https://prtimes.jp/main/html/rd/p/000003701.000005180.html",
+  "splitFrom": "a722186d0e0a",
+  "added": "2026-11-05",
+  "updated": "2026-11-05",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-05",
+  "placeChecked": true
  },
  {
   "id": "927c4e41f481",
@@ -16089,6 +16418,44 @@
   "described": true,
   "datesRead": true,
   "priceTriedAt": "2026-11-01"
+ },
+ {
+  "id": "6c6ceef6b75f",
+  "name": "ファクトリーイノベーションWeek2026秋",
+  "name_th": "สัปดาห์นวัตกรรมโรงงาน 2026 ฤดูใบไม้ร่วง",
+  "start": "2026-09-09",
+  "end": "2026-09-11",
+  "venue": "幕張メッセ",
+  "city": "千葉",
+  "country": "JP",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo"
+  ],
+  "summary_th": "MPS EYES จะออกบูธในงานファクトリーイノベーションWeek2026秋 ที่ประเทศญี่ปุ่น",
+  "image": "http://www.bing.com/th?id=ONUT.ZmwLl_wTkJKg-Uy4ME73DQ&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "MPS EYES「ファクトリーイノベーションWeek2026秋」出展のお知らせ",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5COVlLdDBUMzFYQTVWMGxMN2VCMk4tTngwYWFHNlBQdDU1YlBqWVVVVW94ODZiMXQtTFRDZ0lvNGdCaU5iS3djVlp0bDJ6OEhaQkVVVTNLM24yeTA?oc=5",
+    "source": "朝日新聞",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news017.html",
+  "imageFrom": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news017.html",
+  "imageHash": "dc9f49bf60fa96fd",
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "d4e15e27b109",
@@ -27693,7 +28060,7 @@
    "kids"
   ],
   "summary_th": "นิทรรศการเกี่ยวกับซารา แบร์นาร์ นักแสดงหญิงระดับโลก ที่พิพิธภัณฑ์ศิลปะสมัยใหม่จังหวัดกุนมะ",
-  "image": "https://media.image.infoseek.co.jp/isnews/photos/neol/neol_80547_0-enlarge.jpg",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -27715,11 +28082,11 @@
   "updated": "2026-10-28",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-10-28",
+  "imageTriedAt": "2026-11-05",
   "article": "https://news.infoseek.co.jp/article/neol_80547/",
   "imageFrom": "https://news.infoseek.co.jp/article/neol_80547/",
   "placeChecked": true,
-  "imageHash": "f7bd00ec14b9d984",
+  "imageHash": null,
   "dateTried": true
  },
  {
@@ -32684,6 +33051,46 @@
   "placeChecked": true
  },
  {
+  "id": "64442ac52504",
+  "name": "RVパーク 車中泊体験フェス in 金山",
+  "name_th": "เทศกาลทดลองนอนในรถ RV พาร์ค ที่คานายามะ",
+  "start": "2026-10-12",
+  "end": "2026-10-12",
+  "venue": "RVパーク",
+  "city": "金山",
+  "country": "JP",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "outdoor",
+   "travel",
+   "food"
+  ],
+  "summary_th": "งานเทศกาลทดลองนอนในรถ RV ที่เมืองคานายามะ ประเทศญี่ปุ่น จัดขึ้นครั้งแรก มีนิทรรศการรถแคมป์ปิ้งและสินค้าจากชินชู",
+  "image": "http://www.bing.com/th?id=ONUT.7KzMUSXHt-tWrKfXg83wlw&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "キャンピングカー展示から信州物産展まで！「RVパーク 車中泊体験フェス in 金山」初開催",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsZTc0TkdhaEJDeWY3UGVqVjlORWtPWndoNl9CUWRCNEhBWUFKcWRuVnltUXZxdW1kZVBieTZSZXdHOFFUUTMtUVV0N241aUZ4ZHhfNENoVGNheGM1OUFr?oc=5",
+    "source": "ライブドアニュース",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://news.livedoor.com/topics/detail/32715597/",
+  "imageFrom": "https://news.livedoor.com/topics/detail/32715597/",
+  "imageHash": "644040b5b1bb8ee5",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
   "id": "ba7070b9c8ac",
   "name": "The SixNature: Wildlife Photojournalism 30 Years of Journey Through the Wild",
   "name_th": "นิทรรศการภาพถ่ายสัตว์ป่าและธรรมชาติ The SixNature",
@@ -36635,8 +37042,8 @@
    "kids"
   ],
   "summary_th": "จุดถ่ายรูปธีมฮาโลวีน 5 จุดใน YOHO มอลล์ เริ่มตั้งแต่วันที่ 16 ตุลาคม",
-  "image": "https://q4.itc.cn/images01/20261029/07104a4c13d34347beecf0e3712a4379.jpeg",
-  "imageFrom": "https://www.sohu.com/a/1094249000_408159",
+  "image": "https://imgs.tom.com/whyz/202610//4044442848/THUMBNAILca7228226ec95721.jpg",
+  "imageFrom": "https://news.tom.com/202610/4044442848.html",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -40129,9 +40536,9 @@
    "outdoor"
   ],
   "summary_th": "ดอกไม้ไฟคอลแลปกับเพลงอนิเมะ Rascal Does Not Dream ที่ชายหาดคาตาเซะ",
-  "image": "http://www.bing.com/th?id=ONUT.fVi5i-DdbUL6yTg1igP0XQ&pid=News",
+  "image": "https://prtimes.jp/img/16064/9720/resize/d16064-9720-475ba4303e62dec83620-0.jpg",
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261105prt00m200000665a.html",
-  "imageHash": "7e0ad99b89dcc6e6",
+  "imageHash": null,
   "official": null,
   "sources": [
    {
@@ -68408,8 +68815,8 @@
    "food"
   ],
   "summary_th": "คาเฟ่คอลแลป SAKAMOTO DAYS ธีม DJ ที่สาขาชินไซบาชิ ระหว่าง 24 ต.ค.–3 พ.ย. 2026",
-  "image": "https://collabo-cafe.com/wp-content/uploads/sakamoto-days-dj-groove-cafe-keyvisual.jpg",
-  "imageFrom": "https://collabo-cafe.com/events/collabo/sakamoto-days-dj-groove-cafe-sharecafe-2026-add-info-detail/",
+  "image": "https://prcdn.freetls.fastly.net/release_image/48489/345/48489-345-ef74ae9745e7652fb911b43dfd767a57-3900x2654.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000345.000048489.html",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -78417,9 +78824,9 @@
    "local"
   ],
   "summary_th": "ประเพณีตักบาตรพระร้อยถวายดอกบัวกว่า 100 ปี ขบวนเรือพระสงฆ์ริมเจ้าพระยา เช้า 06.00-08.00 น.",
-  "image": "http://www.bing.com/th?id=ONUT.P6FDIv75RmIX2m837cb64w&pid=News",
+  "image": null,
   "imageFrom": "https://www.banmuang.co.th/news/region/495676",
-  "imageHash": "e9a4a0dd704562ae",
+  "imageHash": null,
   "official": null,
   "sources": [
    {
@@ -84252,7 +84659,7 @@
    "local"
   ],
   "summary_th": "ประเพณีตักบาตรพระร้อยรูปทางเรือที่วัดมะขาม จัดขึ้นในช่วงเทศกาลออกพรรษา",
-  "image": "http://www.bing.com/th?id=ONUT.P6FDIv75RmIX2m837cb64w&pid=News",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -84276,7 +84683,7 @@
   "imageTried": true,
   "article": "https://www.banmuang.co.th/news/region/495676",
   "imageFrom": "https://www.banmuang.co.th/news/region/495676",
-  "imageHash": "e9a4a0dd704562ae",
+  "imageHash": null,
   "dateTried": true,
   "placeChecked": true,
   "about_th": "งานประเพณีตักบาตรพระร้อยทางเรือที่วัดมะขามเป็นประเพณีเก่าแก่กว่า 100 ปี ที่จัดขึ้นในเทศกาลวันออกพรรษา พุทธศาสนิกชนร่วมทำบุญตักบาตรแด่พระภิกษุร้อยรูปที่พายเรือมารับบิณฑบาตตามลำน้ำเจ้าพระยา สร้างบรรยากาศวิถีไทยริมน้ำที่งดงามและสะท้อนความผูกพันระหว่างศาสนาและชุมชน",
@@ -84297,7 +84704,8 @@
    "ec0cd22dc370",
    "40b768bea3ef",
    "6efade94df2c"
-  ]
+  ],
+  "imageTriedAt": "2026-11-05"
  },
  {
   "id": "63b584c2500b",
@@ -135503,7 +135911,7 @@
    "sale"
   ],
   "summary_th": "สินค้าคอลแลป まのさば × 江の島 ธีมคาเฟ่พนักงาน 29 ต.ค.–9 พ.ย. 2026",
-  "image": "https://collabo-cafe.com/wp-content/uploads/1-159.jpg",
+  "image": null,
   "imageFrom": "https://collabo-cafe.com/events/collabo/manosaba-cafe-staff-resale-a3-anime-store-goods2026/",
   "imageHash": null,
   "official": null,
@@ -168794,8 +169202,8 @@
    "kids"
   ],
   "summary_th": "การแสดงแฟลชม็อบของคณะผีเต้น 3 รอบตามจุดต่างๆ ใน YOHO มอลล์",
-  "image": "https://q4.itc.cn/images01/20261029/07104a4c13d34347beecf0e3712a4379.jpeg",
-  "imageFrom": "https://www.sohu.com/a/1094249000_408159",
+  "image": null,
+  "imageFrom": null,
   "imageHash": null,
   "official": null,
   "sources": [
@@ -168842,8 +169250,8 @@
    "photo"
   ],
   "summary_th": "กิจกรรมตามหารถฟักทอง 6 คันและเล่นเกม Trick or Treat เพื่อรับลูกอม",
-  "image": "https://q4.itc.cn/images01/20261029/07104a4c13d34347beecf0e3712a4379.jpeg",
-  "imageFrom": "https://www.sohu.com/a/1094249000_408159",
+  "image": null,
+  "imageFrom": null,
   "imageHash": null,
   "official": null,
   "sources": [
@@ -171268,6 +171676,98 @@
   "article": "https://mantan-web.jp/prtimes/article/20261102prt00m200001184a.html",
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261102prt00m200001184a.html",
   "imageHash": "8aadb7b9d63d5eea",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
+  "id": "6db685bf9e31",
+  "name": "2027학년도 고등학교 진학박람회",
+  "name_th": "งานแนะแนวเข้าศึกษาต่อมัธยมปลาย ปีการศึกษา 2027",
+  "start": "2026-10-30",
+  "end": "2026-10-30",
+  "venue": null,
+  "city": "서울 중랑구",
+  "country": "KR",
+  "region": "seoul",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "edu"
+  ],
+  "summary_th": "เขตจุงนังกรุงโซลจัดงานแนะแนวการเข้าศึกษาต่อมัธยมปลาย",
+  "image": "http://www.bing.com/th?id=ONUT.3Vh8q4XaPq8nc88EmgMfcQ&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "중랑구, 2027학년도 고등학교 진학박람회 개최",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VTW5uQmE4aDl5RUpoUmNyVGZxZDhpamg5b1c3anFENGNUU0JoUzBxQVNDanFkaEZtWEl0bWVaTjRFYTU5bjN3TUlBTkZHVzFxLXZMaHdCUW1mdXV0ckVKTEU4bw?oc=5",
+    "source": "경남도민뉴스",
+    "date": "2026-11-02",
+    "image": null
+   },
+   {
+    "title": "10개 학교와 함께, 중랑 ‘고등학교 진학박람회’ 개최",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uaTBmb1dPTUdqNWQwS01XMEo0Sjc2T0pnVmJ0cEFVaVhwMThPUkJUdVczeTI5TjEtXzRYYkVaRGFybDhydTM0d1NEREo0MFhMclJfZ3c0RzJvRjJDbmVCNDNHbXZ0eFpoNWxvSnBnWHNFSG8?oc=5",
+    "source": "서울신문",
+    "date": "2026-11-02",
+    "image": null
+   },
+   {
+    "title": "중랑구, 고교 진학박람회 개최…10개 학교·500여명 참여",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14WEN1Tjd2TmVmOG1xVkNlSVZKdjVSYk1JTGo0dlZOOXp1ckJJSmItNjZBWUJoQjJ4QWh4cy1VbUQxdG14dTR5ajZOUXZPaGs?oc=5",
+    "source": "뉴스1",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-02",
+  "updated": "2026-11-02",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-02",
+  "article": "https://www.dongbuknews.com/news/articleView.html?idxno=7147",
+  "imageFrom": "https://www.dongbuknews.com/news/articleView.html?idxno=7147",
+  "imageHash": "759e523436b196d1",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
+  "id": "d4a5fd161df1",
+  "name": "세종영재학교 별 축제",
+  "name_th": "เทศกาลดวงดาวโรงเรียนเซจงยองแจ",
+  "start": "2026-10-30",
+  "end": "2026-10-30",
+  "venue": "세종과학예술영재학교 교내 로비와 옥상 천문대",
+  "city": "세종",
+  "country": "KR",
+  "region": "chungcheong",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "nature",
+   "kids",
+   "edu"
+  ],
+  "summary_th": "เทศกาลดูดาวและฟังบรรยายดาราศาสตร์เปิดให้ชุมชนเข้าร่วมที่เมืองเซจง",
+  "image": "http://www.bing.com/th?id=ONUT.qROr-bMvpbUuUlut6NbHZg&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "세종영재학교 별 축제 개최…천체관측·강연 등 지역사회와 교류",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rbjN0RGdCaVlmSXUzdlZZc3oxY0lDSWNIMVVIa2taWnRYb2VESU5IM2tKUGUzUENxUXo2MnAyWFlBTTQ3UkgwbUZyZUVEdUJWdkJhdExQQ1lJSXBhZ3NlS0pTU3NoNmN0bTZLcEZn?oc=5",
+    "source": "www.sejongmedia.com",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://www.megaccnews.com/news/articleView.html?idxno=12189",
+  "imageFrom": "https://www.megaccnews.com/news/articleView.html?idxno=12189",
+  "imageHash": "b35798c8865b4c5f",
   "placeChecked": true,
   "dateTried": true
  },
@@ -198784,7 +199284,7 @@
    "themepark"
   ],
   "summary_th": "อีเวนต์คริสต์มาสธีมโลกสีเงินแสนฝันของหุบเขามูมิน",
-  "image": "https://cache.moomin.co.jp/storage/news//f8a4877965fabf8a076fdc9fe146afe8f301d5ec1792658054.png",
+  "image": null,
   "official": "https://metsa-hanno.com/event/47204/",
   "sources": [
    {
@@ -221707,8 +222207,8 @@
    "local"
   ],
   "summary_th": "ขบวนพาเหรดผี 50 คนเดินขบวนและเต้นตามจุดต่างๆ ใน YOHO มอลล์",
-  "image": "https://q4.itc.cn/images01/20261029/07104a4c13d34347beecf0e3712a4379.jpeg",
-  "imageFrom": "https://www.sohu.com/a/1094249000_408159",
+  "image": "https://imgs.tom.com/whyz/202610//4044442848/THUMBNAILca7228226ec95721.jpg",
+  "imageFrom": "https://news.tom.com/202610/4044442848.html",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -225818,9 +226318,9 @@
    "themepark"
   ],
   "summary_th": "ดอกไม้ไฟเหนือทะเลสาบในวันเสาร์-อาทิตย์-วันหยุดและวันที่กำหนดเป็นพิเศษ",
-  "image": "https://cache.moomin.co.jp/storage/news//f8a4877965fabf8a076fdc9fe146afe8f301d5ec1792658054.png",
-  "imageFrom": "https://www.moomin.co.jp/news/moominvalleypark/6ad9ca8644058",
-  "imageHash": "55cffc374bf84508",
+  "image": "https://dtimes.jp/wp-content/uploads/2026/10/Z9Y_0541-20261029-522a32.jpeg",
+  "imageFrom": "https://dtimes.jp/post-1415521/",
+  "imageHash": null,
   "official": "https://metsa-hanno.com/event/47204/",
   "sources": [
    {
@@ -225849,7 +226349,7 @@
    "64e485e110cd"
   ],
   "imageTried": true,
-  "imageTriedAt": "2026-10-31",
+  "imageTriedAt": "2026-11-05",
   "placeChecked": true,
   "about_th": "ムーミン谷の湖上花火大会～冬 เป็นไฮไลต์ของงาน ムーミン谷のクリスマス 2026 ที่ムーミンバレーパーク จัดขึ้นระหว่างวันที่ 31 ตุลาคม ถึง 25 ธันวาคม 2026 โดยจุดดอกไม้ไฟจากกลางทะเลสาบพร้อมเพลงต้นฉบับของสวนสนุกในเวลาประมาณ 18:15 น. ของวันเสาร์-อาทิตย์ วันหยุดนักขัตฤกษ์ และวันที่ 11 พฤศจิกายน 24-25 ธันวาคม ผู้เข้าชมยังเพลิดเพลินกับโชว์คริสต์มาสใหม่ การแสดงแสงสี และกิจกรรมหิมะ เช่น การเล่นสกีและเลื่อนหิมะในโซนムーミン谷",
   "highlights_th": [
@@ -234677,6 +235177,83 @@
   "dateTried": true
  },
  {
+  "id": "fe9e3001202b",
+  "name": "양주시 복지박람회",
+  "name_th": "งานมหกรรมสวัสดิการเมืองยางจู",
+  "start": "2026-10-31",
+  "end": "2026-10-31",
+  "venue": "옥정호수공원",
+  "city": "양주",
+  "country": "KR",
+  "region": "seoul",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "edu",
+   "expo"
+  ],
+  "summary_th": "เมืองยางจูรวม 31 หน่วยงานจัดงานสวัสดิการให้ประชาชนทดลองใช้บริการ",
+  "image": "http://www.bing.com/th?id=ONUT.PE9ziGdEutOXqSRS-452nQ&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "양주시, 복지박람회 개최…31개 기관 참여·다양한 서비스 체험",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04dW45Y3JMaU50cjRJV2xUVWxpN0hMWnFFTzlFSV9NeEl0d2lnRmNKU2NKZ21VNmxPZjZlaWdNWXBBa3pqbURNNTd4SUZDTy1kTlNjSnVxTF8tVjNpZHk5MklGYzVTanBkUlJ3dTN3?oc=5",
+    "source": "국제뉴스",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://www.ynamnews.co.kr/news/articleView.html?idxno=146081",
+  "imageFrom": "https://www.ynamnews.co.kr/news/articleView.html?idxno=146081",
+  "imageHash": "92c9252641e7300d",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
+  "id": "ae629cc4232e",
+  "name": "경남 축구 축제",
+  "name_th": "เทศกาลฟุตบอลคยองนัม",
+  "start": "2026-10-31",
+  "end": "2026-11-01",
+  "venue": "창원스포츠파크",
+  "city": "경상남도",
+  "country": "KR",
+  "region": "gyeongsang",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "match"
+  ],
+  "summary_th": "เทศกาลฟุตบอลคยองนัม มี 30 ทีมเข้าร่วม",
+  "image": "http://www.bing.com/th?id=ONUT.igCgytdOB_zJ9uRJy8UUtw&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "BNK경남은행, 경남 축구 축제 개최…30개 팀 화합의 장",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40eTVQMi1lTFNmTElvcTB0MGEybENfMXRrZFg5U0kxV201R1FubmFpXzNhbkFhOE9yNVRUTWR0WVdEV3hkb194amdIbEhzRVRvV19LeTRWUWxIdjJ1SVppWGQ0R2RySVUt0gFsQVVfeXFMTWtKSjdscDllSDZWYjVxZGZ0NGhLbllqb0oxcHBuYWhXNEphNko5QmJ2QWFWSmwxZWw4YnRjY01POXVxOVp5VDFBdDF5S042czhkTnlxWVp6cXY3ckFMb2g3TFJvelVVdGpGSlI1?oc=5",
+    "source": "직썰",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://www.asiatoday.co.kr/kn/view.php?key=20261102010000545",
+  "imageFrom": "https://www.asiatoday.co.kr/kn/view.php?key=20261102010000545",
+  "imageHash": "c2e009c61b60a288",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
   "id": "739c3ea66638",
   "name": "2026-27 大同生命SV.LEAGUE GROWTH MEN 第2節（ホーム開幕戦） 富士通カワサキレッドスピリッツ戦",
   "name_th": "การแข่งขันวอลเลย์บอล SV.LEAGUE GROWTH MEN นัดที่ 2 (นัดเปิดบ้าน) พบ ฟูจิตสึ คาวาซากิ เรดสปิริตส์",
@@ -234875,7 +235452,7 @@
    "outdoor"
   ],
   "summary_th": "อีเวนต์นับถอยหลังคอลลาบอเรชันอนิเมะไททันที่นิจิเก็นโนะโมริ เริ่มวันที่ 1 พ.ย.",
-  "image": "http://www.bing.com/th?id=ONUT.S_cAJWeqsidftqNTfxm4EQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.x6ysZmVVgIkK6oWPUUykfw&pid=News",
   "official": "https://www.asoview.com/channel/tickets/FJ",
   "sources": [
    {
@@ -234905,11 +235482,11 @@
    "142d90e59869",
    "ebd9f2e198aa"
   ],
-  "imageHash": "1314c5a2e5f2c53d",
+  "imageHash": "e13b308515cf13c0",
   "imageRechecked": true,
   "imageTriedAt": "2026-11-05",
   "article": "https://animeanime.jp/release/dreamnews/20261027/322525.html",
-  "imageFrom": "https://entamerush.jp/722563/",
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261027prt00m200000267a.html",
   "priceTriedAt": "2026-10-27",
   "placeChecked": true,
   "online": false,
@@ -256212,7 +256789,7 @@
    "market"
   ],
   "summary_th": "บาร์ป็อปอัปธีมคริสต์มาส Miracle เตรียมเปิดที่แนชวิลล์",
-  "image": "https://s.yimg.com/lo/mysterio/api/ca778b94b0324696312ab1e825e70db486b4143e1c77d74f18fafd3c25b1b6b2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Findystar-the-indianapolis-star%2Ffac3405d1a549005880b921c79bc3965",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -256247,7 +256824,7 @@
   "described": true,
   "datesRead": true,
   "verified": true,
-  "imageFrom": "https://www.yahoo.com/lifestyle/articles/miracle-christmas-pop-bars-slated-164642264.html",
+  "imageFrom": null,
   "imageHash": "beb00453034df6cf"
  },
  {
@@ -262296,6 +262873,90 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
+  "id": "f2a8337c2bf9",
+  "name": "とよね・みどり湖ハーフマラソン大会",
+  "name_th": "การแข่งขันฮาล์ฟมาราธอนโทโยเนะ มิโดริโกะ",
+  "start": "2026-11-01",
+  "end": "2026-11-01",
+  "venue": "豊根村役場（新豊根ダム湖畔道路折り返しコース）",
+  "city": "豊根村",
+  "country": "JP",
+  "region": "chubu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "run",
+   "nature"
+  ],
+  "summary_th": "ฮาล์ฟมาราธอนท่ามกลางธรรมชาติใบไม้เปลี่ยนสีที่หมู่บ้านโทโยเนะ",
+  "image": "http://www.bing.com/th?id=ONUT.Q8LtrtmLAr9kOMq1KRLDNA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "色づく豊根村の自然の中をランナー全力疾走 とよね・みどり湖ハーフマラソン大会",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9nUk1lZENaTVV5ZWZxNHJTLW9pN0FhMmIyTFUzaDlCd3pLZFRLWE5DRnk0ZWhHLU5MQVVGa0hRS045S1hsRFdhckNRaVJNVFpsYmMwWQ?oc=5",
+    "source": "中日新聞Web",
+    "date": "2026-11-01",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://topics.smt.docomo.ne.jp/article/chuplus/region/chuplus-1333838",
+  "imageFrom": "https://topics.smt.docomo.ne.jp/article/chuplus/region/chuplus-1333838",
+  "imageHash": "77021024a1e7362f",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
+  "id": "93668e50649d",
+  "name": "V・ファーレン長崎 vs 東京ヴェルディ／U-21 V・ファーレン長崎 vs U-21川崎フロンターレ",
+  "name_th": "วี-ฟาเรน นางาซากิ พบ โตเกียว เวอร์ดี และรุ่น U-21 พบ คาวาซากิ",
+  "start": "2026-11-01",
+  "end": "2026-11-01",
+  "venue": "PEACE STADIUM Connected by SoftBank",
+  "city": "長崎",
+  "country": "JP",
+  "region": "kyushu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "match"
+  ],
+  "summary_th": "การแข่งขันฟุตบอลสองนัดจัดพร้อมกันที่จังหวัดนางาซากิ",
+  "image": "http://www.bing.com/th?id=ONUT.Bea3Pf2AfLLtd7r6C0W1IQ&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "【長崎で同日2試合開催！】現地独自カメラで振り返る Ｖ・ファーレン長崎 vs 東京ヴェルディ／U-21 V・ファーレン長崎 vs U-21川崎フロンターレ",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IMGNIUzFiT2VpMWNfdnlwbmFaYVNIRGVtSzUxSjlESFM3T0ViUHQ2OVZESV9fbldHZVc4aGhLOG9ac3BWRWdJVFBTQnNoTTF1M2NGSkZ0M20tUUt5?oc=5",
+    "source": "YouTube",
+    "date": "2026-11-02",
+    "image": null
+   },
+   {
+    "title": "【長崎で同日2試合開催！】現地独自カメラで振り返る Ｖ・ファーレン長崎 vs 東京ヴェルディ／U-21 Vファーレン長崎 vs U-21川崎フロンターレ",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yaUh5NVhkMzRjcmg4WFZBanI2SGthTjZ0bHNDUG1raWItZ044LV9lQWU2aUlVdEVuZHdHS0xUaVc4aWZfQjBDU3NrU0o0a0xmVHlvNlpmbjF1QXpM?oc=5",
+    "source": "YouTube",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://note.com/lucid_fairy3388/n/n9162e961f98f",
+  "imageFrom": "https://note.com/lucid_fairy3388/n/n9162e961f98f",
+  "imageHash": "3a8dae3d7758ff0b",
   "placeChecked": true,
   "dateTried": true
  },
@@ -272419,6 +273080,45 @@
   "dateTried": true
  },
  {
+  "id": "02381c1422cf",
+  "name": "写真展「だけじゃない！深谷の農業」",
+  "name_th": "นิทรรศการภาพถ่าย だけじゃない！深谷の農業 (ไม่ใช่แค่เกษตรกรรมฟุคายะ!)",
+  "start": "2026-11-02",
+  "end": "2026-11-02",
+  "venue": "深谷市役所",
+  "city": "深谷市",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "photo",
+   "art"
+  ],
+  "summary_th": "นิทรรศการภาพถ่ายเกษตรกรรมเมืองฟุคายะ ที่ศาลากลางเมืองฟุคายะ ญี่ปุ่น",
+  "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-kumagaya1901.jpg",
+  "official": null,
+  "sources": [
+   {
+    "title": "深谷市役所で写真展「だけじゃない！深谷の農業」 農業カメラマンの作品展示",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeGFMNnRDcjFVbjgySlR3QVdCRXpCN3FvVTVXRnBrYTRzbm90WU9xTnpmUUpmQkE5dVVyRkY5RGRlS0pnX1lybE93RmtlX2lIRThxcUg4VnA5c1ROUXFraEwyZUM5c2UwY2NjdWpzeGVGWGRzYW9YRjkybHNpNVVRQXN5VdIBgwFBVV95cUxPeGFMNnRDcjFVbjgySlR3QVdCRXpCN3FvVTVXRnBrYTRzbm90WU9xTnpmUUpmQkE5dVVyRkY5RGRlS0pnX1lybE93RmtlX2lIRThxcUg4VnA5c1ROUXFraEwyZUM5c2UwY2NjdWpzeGVGWGRzYW9YRjkybHNpNVVRQXN5VQ?oc=5",
+    "source": "ｄメニューニュース",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-kumagaya1901",
+  "imageFrom": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-kumagaya1901",
+  "placeChecked": true,
+  "imageHash": "56fa33a07898206d",
+  "dateTried": true
+ },
+ {
   "id": "111197e2a82c",
   "name": "COSMEX 2026",
   "name_th": "คอสเม็กซ์ 2026",
@@ -280296,8 +280996,8 @@
    "food"
   ],
   "summary_th": "คาเฟ่คอลแลบ SAKAMOTO DAYS ที่สาขาฮาราคาโดะ เปิด 3–15 พ.ย. 2026",
-  "image": "https://collabo-cafe.com/wp-content/uploads/sakamoto-days-dj-groove-cafe-keyvisual.jpg",
-  "imageFrom": "https://collabo-cafe.com/events/collabo/sakamoto-days-dj-groove-cafe-sharecafe-2026-add-info-detail/",
+  "image": "https://prcdn.freetls.fastly.net/release_image/48489/345/48489-345-ef74ae9745e7652fb911b43dfd767a57-3900x2654.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000345.000048489.html",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -281642,7 +282342,7 @@
    "game"
   ],
   "summary_th": "การแข่งขันปุโยปุโยอีสปอร์ตออฟไลน์สำหรับเด็กอายุต่ำกว่า 15 ปี รอบคัดเลือกสนามไซตามะ 3 พ.ย. 2026",
-  "image": "https://esports-world.jp/images/upload/2026/10/6ce68201607c0bd7e55acc42bb87e6b0.jpg",
+  "image": "https://esports-world.jp/images/upload/2026/10/47835ed378d81d4d19cc6a2eb7fc8656.jpg",
   "official": "https://contents.gendagigo.jp/gigo-cup",
   "sources": [
    {
@@ -281676,7 +282376,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-05",
   "article": "https://esports-world.jp/tournament/67564",
-  "imageFrom": "https://esports-world.jp/tournament/67564"
+  "imageFrom": "https://esports-world.jp/tournament/67585"
  },
  {
   "id": "636359194b5c",
@@ -285192,7 +285892,7 @@
   "summary_th": "ป๊อปอัพสโตร์เกมส์ FNAF ที่โตเกียวโซลามาชิ พร้อมโปสเตอร์และของกิฟต์เมื่อซื้อครบ 3,300 เยน",
   "image": "https://www.appbank.net/wp-content/uploads/2026/10/20261028_152711_116_01.webp",
   "imageFrom": "https://www.appbank.net/2026/10/29/game/3146936.php",
-  "imageHash": null,
+  "imageHash": "e917eacf3ca8145c",
   "official": null,
   "sources": [
    {
@@ -292341,6 +293041,89 @@
   "article": "https://kwnews.co.kr/article/20261102500736",
   "imageFrom": "https://www.newstnt.com/news/articleView.html?idxno=726140",
   "imageHash": "5ec64c82641b5ab0",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
+  "id": "540b8ced90e4",
+  "name": "Setagaya Bread Festival",
+  "name_th": "เทศกาลขนมปังเซตากายะ",
+  "start": "2026-11-03",
+  "end": "2026-11-23",
+  "venue": "世田谷区新庁舎",
+  "city": "Setagaya",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "food",
+   "festival",
+   "local",
+   "kids"
+  ],
+  "summary_th": "เทศกาลขนมปังหลากหลายแบรนด์ในย่านเซตากายะ โตเกียว",
+  "image": "https://www.fashion-headline.com/images/migration/2016/08/c12e67f5b43a885ead90d099c27e9732.jpg",
+  "official": null,
+  "sources": [
+   {
+    "title": "Satisfy your kneads at the Setagaya Bread Festival",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUGhFeGlwZTFOcmQ1V1RJZFc5dFF6dUJsV0YtR2RxTWtmTENreElZWkNBT19KXzc5LWd3NWpsOWxYZW1TOEE2U1F2cEdnNkZsdGRBdzNFMHZwc0x6VjFyWklHbFplY2lLdXJmTUg2bDRMYXVhbXhLbUpDeTZ3d20xVG9nRVZyeGM0NkVVYTZmRGJhaHJ3bzV4TDlHcw?oc=5",
+    "source": "The Japan Times",
+    "date": "2026-10-30",
+    "image": null
+   },
+   {
+    "title": "世田谷区新庁舎に「協働プレイス」 21日間の「せたがやはじまりフェス」も",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORW9hbnBiNFdXNWJlbkpWMzg3LXA2RTBHY2xDdENYRkJ3Umt2dWRlckhCNWJqTk5fUFNISWc3SGRxTjhwSHdvNG1XeU5XZGxNdkZMZ2cyVUozUHlrTlMxVXkyZmxIcmt5QXlyeklwa3BTWFFSUXl2N0R0STN3ZlRKctIBgAFBVV95cUxORW9hbnBiNFdXNWJlbkpWMzg3LXA2RTBHY2xDdENYRkJ3Umt2dWRlckhCNWJqTk5fUFNISWc3SGRxTjhwSHdvNG1XeU5XZGxNdkZMZ2cyVUozUHlrTlMxVXkyZmxIcmt5QXlyeklwa3BTWFFSUXl2N0R0STN3ZlRKcg?oc=5",
+    "source": "ｄメニューニュース",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-10-30",
+  "updated": "2026-10-30",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-10-30",
+  "article": "https://www.fashion-headline.com/en/article/9641",
+  "imageFrom": "https://www.fashion-headline.com/en/article/9641",
+  "placeChecked": true,
+  "imageHash": "87f057f3cd0e067a"
+ },
+ {
+  "id": "37bb50eadf8c",
+  "name": "시몬스 뷰티레스트 블랙 팝업스토어",
+  "name_th": "ป็อปอัพสโตร์ ซีมอนส์ บิวตี้เรสต์ แบล็ค",
+  "start": "2026-11-03",
+  "end": "2026-11-15",
+  "venue": "신세계백화점 대전점",
+  "city": "대전",
+  "country": "KR",
+  "region": "chungcheong",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "market",
+   "home"
+  ],
+  "summary_th": "ป็อปอัพสโตร์แบรนด์ที่นอนซีมอนส์ที่ห้างชินเซเก แดจอน ถึง 15 พ.ย.",
+  "image": "https://www.segye.com/content/image/2026/11/03/20261103505804.jpg",
+  "official": null,
+  "sources": [
+   {
+    "title": "시몬스, 신세계백화점 대전점에 '뷰티레스트 블랙' 팝업스토어 오픈",
+    "link": "https://www.segye.com/newsView/20261103505825",
+    "source": "segye",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageHash": "935f5f37177452ae",
   "placeChecked": true,
   "dateTried": true
  },
@@ -301279,6 +302062,45 @@
   "article": "https://www.ddnnews.kr/news/articleView.html?idxno=24975",
   "imageFrom": "https://www.ddnnews.kr/news/articleView.html?idxno=24975",
   "imageHash": "6ee15c8a2339b51a",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
+  "id": "7ff42a289984",
+  "name": "2026 강남 푸드위크존·메디투어 팝업존",
+  "name_th": "โซนฟู้ดวีคและป๊อปอัปเมดิทัวร์ 2026 ย่านคังนัม",
+  "start": "2026-11-04",
+  "end": "2026-11-07",
+  "venue": "코엑스",
+  "city": "서울",
+  "country": "KR",
+  "region": "seoul",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "food",
+   "market"
+  ],
+  "summary_th": "งานป๊อปอัปโซนอาหารและเมดิทัวร์ที่เขตคังนัม กรุงโซล จัดขึ้นที่โคเอ็กซ์ในเดือนพฤศจิกายน",
+  "image": "http://www.bing.com/th?id=ONUT.6LnkplMHSHOIWPH0mW8QvA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "서울 강남구, '2026 강남 푸드위크존·메디투어 팝업존' 11월 코엑스 개최",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQOEEtTGZKaTBUMUtOX1hkR1ZFN1dKZ2M3dTBkTGhramZoYWt3SW9WNlFwRW9FMlZBOEh2LWg4OHpZcDFHUzFBQy05ckd5dmZpM20zX3hIYVI4VTlIQ05MX1NOSGVvcmxfTzA4a1VvQWJzRFNUMVY3NkpkN21mY1NVMlpMMEN6T1o3eXNwTm1CQm1nSHlsSWNMeGNtcnh2ZUdBc190LUcxQ0hwWHplV3cxUDZQbEJoeGh0ai1qOUpFRXNFa196NDBZeEg2QlFsYkxvY0FPQ0dEcTJWWUtIRXpPODFCX05wa0NqRnY1V0lMc3F5MVF2aTgzaw?oc=5",
+    "source": "데일리안",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://www.gukjenews.com/news/articleView.html?idxno=3740664",
+  "imageFrom": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1433641",
+  "imageHash": "4825b88f8b1d2de3",
   "placeChecked": true,
   "dateTried": true
  },
@@ -352770,7 +353592,7 @@
   "described": true,
   "datesRead": true,
   "imageFrom": "https://bijutsutecho.com/magazine/news/exhibition/33250?page=2",
-  "imageHash": null
+  "imageHash": "fe4576919c39a8ee"
  },
  {
   "id": "e83c51e3403c",
@@ -360085,6 +360907,45 @@
   "dateTried": true
  },
  {
+  "id": "e724836fc152",
+  "name": "Biocoke de 焼きそば",
+  "name_th": "Biocoke de ยะกิโซบะ",
+  "start": "2026-11-09",
+  "end": "2026-11-13",
+  "venue": "近大通り",
+  "city": "東大阪市",
+  "country": "JP",
+  "region": "kansai",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "food",
+   "workshop"
+  ],
+  "summary_th": "สาธิตทำยะกิโซบะด้วยเชื้อเพลิงไบโอโค้กและนิทรรศการพลังงานแห่งอนาคต",
+  "image": "http://www.bing.com/th?id=ONUT.KCO6dl0OZqAxvfKEGs-vXA&pid=News",
+  "official": null,
+  "sources": [
+   {
+    "title": "近大通りの人気店協力のもと「Biocoke de 焼きそば」を開催 「バイオコークス」を使った調理実演や展示で次世代燃料の魅力を発信",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15TDg0ZUk4Y3RudVdOckcxZlNMM3NLa2pLRHhGMGF0MlFnM20wRzVDb01DYjYzeU9rcFNoWVZ4Ujg5eTRoTFpPZ3JnTU5SSi1tWEs4YUc4MA?oc=5",
+    "source": "osaka style",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://www.anemo.co.jp/topics/lifestyle/event-lifestyle/442286-20261103/",
+  "imageFrom": "https://www.anemo.co.jp/topics/lifestyle/event-lifestyle/442286-20261103/",
+  "imageHash": "c8aff1c1dd7f70a9",
+  "placeChecked": true,
+  "dateTried": true
+ },
+ {
   "id": "d57ac4fcd716",
   "name": "帝一之国 快闪店",
   "name_th": "ป็อปอัป 帝一之国 (Teiichi no Kuni)",
@@ -361956,7 +362817,7 @@
    "art"
   ],
   "summary_th": "นิทรรศการภาพถ่ายหอจดหมายเหตุชิบูย่าและนิทรรศการศิลปะคามิยามะ",
-  "image": "https://assets.finders.me/post/thumbnail/GzkyanlQ1BJ_kYDnLS5d3.jpg?v=20260829",
+  "image": null,
   "official": "https://www.hikarie8.com/",
   "sources": [
    {
@@ -362686,7 +363547,7 @@
   ],
   "summary_th": "คอนเสิร์ตที่สทราซบูร์ยังอยู่ในกำหนดการวันที่ 10 พฤศจิกายน",
   "image": "https://cdn-s-www.lalsace.fr/images/C2EA6455-6FD3-4FAE-8BC1-93F130270D2C/FB1200/photo-1793735173.jpg",
-  "imageHash": null,
+  "imageHash": "6a65bd95d55a58bb",
   "official": "https://deep-purple.com/announcement-october-31-2026/",
   "sources": [
    {
@@ -392180,7 +393041,7 @@
    "comic"
   ],
   "summary_th": null,
-  "image": "https://i1.hdslb.com/bfs/openplatform/202611/yFdKlYOU1793792983_1793792983181.png",
+  "image": "https://i1.hdslb.com/bfs/openplatform/202611/mUoaFDK61793792822_1793792822894.png",
   "official": "https://show.bilibili.com/platform/detail.html?id=1007489",
   "sources": [
    {
@@ -392205,6 +393066,40 @@
   "enriched": true,
   "imageHash": "3817784bc8374591",
   "placeChecked": true
+ },
+ {
+  "id": "d2a5c0d8a2d8",
+  "name": "SIDE CORE展「Hokuto Road Side」",
+  "name_th": "นิทรรศการ SIDE CORE 「Hokuto Road Side」",
+  "start": "2026-11-14",
+  "end": "2027-02-28",
+  "venue": "清春芸術村",
+  "city": "北杜",
+  "country": "JP",
+  "region": "chubu",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "art"
+  ],
+  "summary_th": "นิทรรศการศิลปะของกลุ่ม SIDE CORE ที่เมืองโฮคุโตะ จังหวัดยะมะนะชิ",
+  "image": "https://www.adfwebmagazine.jp/wp-content/uploads/2026/10/adf-web-magazine-hokuto-roadside-side-core-1.jpg",
+  "official": null,
+  "sources": [
+   {
+    "title": "アートコレクティブ SIDE CORE展「Hokuto Road Side」清春芸術村とGASBON ...",
+    "link": "https://www.adfwebmagazine.jp/art/hokuto-road-side-by-side-core/",
+    "source": "adfwebmagazine",
+    "date": "2026-11-01",
+    "image": "http://www.bing.com/th?id=ONUT.6Y4rdBzCpKfkj_KverR9yQ&pid=News"
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageHash": "1aa9c80c1880bbbb",
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "d5bda6f26360",
@@ -399124,8 +400019,8 @@
    "local"
   ],
   "summary_th": "งานเทศกาลประจำปี รวมพิธีห่มผ้าแดงพระบรมสารีริกธาตุ ณ ภูเขาทอง วันที่ 17 พฤศจิกายน 2569",
-  "image": "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa7Hb4Vy0NG88old6DPIOGsayiSP95HszX1okjokFE4ZSG8ENaE24.jpg",
-  "imageFrom": "https://www.thairath.co.th/news/local/bangkok/2968745",
+  "image": "https://www.thaipr.net/wp-content/uploads/2021/08/AI6A2194-d59ce37c-scaled-1.jpg",
+  "imageFrom": "https://www.thaipr.net/general/3081529",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -409665,7 +410560,7 @@
   ],
   "summary_th": "ตลาดคริสต์มาสที่อิออน มอลล์ คาชิอิฮามะ",
   "image": "https://www.gamespark.jp/release/imgs/list/567283.jpg",
-  "imageHash": null,
+  "imageHash": "bbd344619a2b491d",
   "official": null,
   "sources": [
    {
@@ -418993,6 +419888,45 @@
   "dateTried": true
  },
  {
+  "id": "5cde1631509d",
+  "name": "TOKYO周穫祭",
+  "name_th": "โตเกียวชูคาคุไซ",
+  "start": "2026-11-21",
+  "end": "2026-11-22",
+  "venue": "東京国際フォーラム",
+  "city": "東京",
+  "country": "JP",
+  "region": "kanto",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "food",
+   "travel"
+  ],
+  "summary_th": "งานรวมท่องเที่ยวและอาหารของโตเกียว",
+  "image": "https://tms-media.jp/wp-content/uploads/2026/11/tokyo-shukaku.jpg",
+  "official": null,
+  "sources": [
+   {
+    "title": "東京の観光とグルメが「TOKYO周穫祭」に集結",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40TzE1ZHBpMUFrbEFkTUg0S1pIaGlBeWhLY1o4b042V0Zxb2VwbWp0ZVV4bVlOTXVNUzNKdU5tSE9fUndDQTU1a05UdG9rSGpHRFRtTVZqbUxoVVJlTjJvbXJibWo?oc=5",
+    "source": "千葉テレビ放送株式会社",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://www.sanspo.com/pressrelease/atpress/U2EO2TKXB5MXVOKLQO36NYT25U/",
+  "imageFrom": "https://tms-media.jp/posts/99536/",
+  "placeChecked": true,
+  "imageHash": "c716ccb8a0ddcac0",
+  "dateTried": true
+ },
+ {
   "id": "c40b2a076e03",
   "name": "n.SSign Special Fanmeeting \"TWO ROOMS : COSMO'S PICK\"",
   "name_th": "แฟนมีตติ้งพิเศษ n.SSign \"TWO ROOMS : COSMO'S PICK\"",
@@ -420497,7 +421431,7 @@
   "summary_th": "การแข่งขันปูโยปูโยะ อีสปอร์ต U-15 รอบคัดเลือกสนามโตเกียว ณ ศูนย์การค้า AEON Mall Musashimurayama",
   "image": "https://esports-world.jp/images/upload/2026/10/47835ed378d81d4d19cc6a2eb7fc8656.jpg",
   "imageFrom": "https://esports-world.jp/tournament/67585",
-  "imageHash": null,
+  "imageHash": "c1f5344e0862afd5",
   "official": null,
   "sources": [
    {
@@ -434641,6 +435575,41 @@
   "imageHash": "d810bc9b441f6566"
  },
  {
+  "id": "b1391fd8ea7a",
+  "name": "天津·津门学园Fes同人only",
+  "name_th": null,
+  "start": "2026-11-28",
+  "end": "2026-11-28",
+  "venue": "乒乓Pingpong Space(公园店)",
+  "city": "天津市",
+  "country": "CN",
+  "region": null,
+  "online": false,
+  "price_th": "เริ่มต้น ¥48",
+  "tags": [
+   "comic"
+  ],
+  "summary_th": null,
+  "image": "https://i1.hdslb.com/bfs/openplatform/202611/U5jeFdRi1793788531_1793788531974.png",
+  "official": "https://show.bilibili.com/platform/detail.html?id=1007396",
+  "sources": [
+   {
+    "title": "天津·津门学园Fes同人only",
+    "link": "https://show.bilibili.com/platform/detail.html?id=1007396",
+    "source": "bilibili会员购",
+    "date": "2026-11-05",
+    "image": "https://i1.hdslb.com/bfs/openplatform/202611/U5jeFdRi1793788531_1793788531974.png"
+   }
+  ],
+  "added": "2026-11-05",
+  "updated": "2026-11-05",
+  "imageOfficial": true,
+  "verified": true,
+  "enriched": true,
+  "imageHash": "11d62b7918924c6d",
+  "placeChecked": true
+ },
+ {
   "id": "95f5d4fd18ac",
   "name": "みろくすた☆2026",
   "name_th": "มิโรคุสุตะ ☆ 2026",
@@ -445729,7 +446698,7 @@
    "comic"
   ],
   "summary_th": null,
-  "image": "https://i0.hdslb.com/bfs/openplatform/202611/f4DVGxVq1793610487_1793610487707.jpg",
+  "image": "https://i2.hdslb.com/bfs/openplatform/202611/d3uDpmz81793609293_1793609293602.jpg",
   "official": "https://show.bilibili.com/platform/detail.html?id=1006619",
   "sources": [
    {
@@ -445752,6 +446721,13 @@
     "source": "bilibili会员购",
     "date": "2026-11-02",
     "image": "https://i0.hdslb.com/bfs/openplatform/202611/f4DVGxVq1793610487_1793610487707.jpg"
+   },
+   {
+    "title": "梅州·AG动漫游戏嘉年华",
+    "link": "https://show.bilibili.com/platform/detail.html?id=1007501",
+    "source": "bilibili会员购",
+    "date": "2026-11-05",
+    "image": "https://i2.hdslb.com/bfs/openplatform/202611/d3uDpmz81793609293_1793609293602.jpg"
    }
   ],
   "added": "2026-10-27",
@@ -456106,8 +457082,8 @@
    "esports"
   ],
   "summary_th": "การแข่งขันปูโยปูโยะ อีสปอร์ต U-15 รอบคัดเลือกครั้งที่ 9 ณ ศูนย์การค้า Lalaport Fujimi",
-  "image": "https://esports-world.jp/images/upload/2026/10/6ce68201607c0bd7e55acc42bb87e6b0.jpg",
-  "imageFrom": "https://esports-world.jp/tournament/67564",
+  "image": "https://esports-world.jp/images/upload/2026/10/47835ed378d81d4d19cc6a2eb7fc8656.jpg",
+  "imageFrom": "https://esports-world.jp/tournament/67585",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -456440,6 +457416,13 @@
     "source": "bilibili会员购",
     "date": "2026-11-05",
     "image": "https://i2.hdslb.com/bfs/openplatform/202611/s8xejDUL1793768253_1793768253522.jpg"
+   },
+   {
+    "title": "商丘·“深空”动漫游戏嘉年华",
+    "link": "https://show.bilibili.com/platform/detail.html?id=1007509",
+    "source": "bilibili会员购",
+    "date": "2026-11-05",
+    "image": "https://i1.hdslb.com/bfs/openplatform/202611/9X3RBLby1793797652_1793797652578.jpg"
    }
   ],
   "added": "2026-11-03",
@@ -462121,6 +463104,41 @@
   "article": "https://www.thairath.co.th/sport/others/2970088",
   "imageFrom": "https://www.mitihoon.com/2026/10/30/690980/",
   "imageHash": "c7bb164c00c8eeb9",
+  "placeChecked": true
+ },
+ {
+  "id": "1092c92ed4d4",
+  "name": "成都·【目结群星】明日方舟同人only 暨 结星杯·阿米娅生日特辑赛",
+  "name_th": null,
+  "start": "2026-12-20",
+  "end": "2026-12-20",
+  "venue": "奇谷米次元街区",
+  "city": "成都市",
+  "country": "CN",
+  "region": null,
+  "online": false,
+  "price_th": "เริ่มต้น ¥8",
+  "tags": [
+   "comic"
+  ],
+  "summary_th": null,
+  "image": "https://i0.hdslb.com/bfs/openplatform/202611/TPlz59uA1793797263_1793797263559.png",
+  "official": "https://show.bilibili.com/platform/detail.html?id=1007491",
+  "sources": [
+   {
+    "title": "成都·【目结群星】明日方舟同人only 暨 结星杯·阿米娅生日特辑赛",
+    "link": "https://show.bilibili.com/platform/detail.html?id=1007491",
+    "source": "bilibili会员购",
+    "date": "2026-11-05",
+    "image": "https://i0.hdslb.com/bfs/openplatform/202611/TPlz59uA1793797263_1793797263559.png"
+   }
+  ],
+  "added": "2026-11-05",
+  "updated": "2026-11-05",
+  "imageOfficial": true,
+  "verified": true,
+  "enriched": true,
+  "imageHash": "a91375a6271594ed",
   "placeChecked": true
  },
  {
@@ -471441,6 +472459,41 @@
   "placeChecked": true
  },
  {
+  "id": "dd1fe5066d88",
+  "name": "杭州·鸣潮同人only2.0-梦州寻迹故契相逢",
+  "name_th": null,
+  "start": "2027-01-01",
+  "end": "2027-01-01",
+  "venue": "杭州大厦中央商城Zpark街区",
+  "city": "杭州市",
+  "country": "CN",
+  "region": null,
+  "online": false,
+  "price_th": "เริ่มต้น ¥78",
+  "tags": [
+   "comic"
+  ],
+  "summary_th": null,
+  "image": "https://i0.hdslb.com/bfs/openplatform/202611/ginQ4UwF1793859272_1793859272346.jpg",
+  "official": "https://show.bilibili.com/platform/detail.html?id=1007500",
+  "sources": [
+   {
+    "title": "杭州·鸣潮同人only2.0-梦州寻迹故契相逢",
+    "link": "https://show.bilibili.com/platform/detail.html?id=1007500",
+    "source": "bilibili会员购",
+    "date": "2026-11-05",
+    "image": "https://i0.hdslb.com/bfs/openplatform/202611/ginQ4UwF1793859272_1793859272346.jpg"
+   }
+  ],
+  "added": "2026-11-05",
+  "updated": "2026-11-05",
+  "imageOfficial": true,
+  "verified": true,
+  "enriched": true,
+  "imageHash": "c8da93e81777d0c4",
+  "placeChecked": true
+ },
+ {
   "id": "7b36e16b3706",
   "name": "謹賀新年！アイドル初夢ライブ 2027",
   "name_th": "คอนเสิร์ต Idol Hatsuyume Live 2027",
@@ -472081,6 +473134,41 @@
   "verified": true,
   "enriched": true,
   "imageHash": "acc267c38955b464",
+  "placeChecked": true
+ },
+ {
+  "id": "cd7dd3dfe9bc",
+  "name": "北京·马娘同人only4",
+  "name_th": null,
+  "start": "2027-01-02",
+  "end": "2027-01-02",
+  "venue": "蓝地时尚庄园",
+  "city": "北京市",
+  "country": "CN",
+  "region": null,
+  "online": false,
+  "price_th": "เริ่มต้น ¥70",
+  "tags": [
+   "comic"
+  ],
+  "summary_th": null,
+  "image": "https://i2.hdslb.com/bfs/openplatform/202611/nfxkFYi31793852264_1793852264049.png",
+  "official": "https://show.bilibili.com/platform/detail.html?id=1007492",
+  "sources": [
+   {
+    "title": "北京·马娘同人only4",
+    "link": "https://show.bilibili.com/platform/detail.html?id=1007492",
+    "source": "bilibili会员购",
+    "date": "2026-11-05",
+    "image": "https://i2.hdslb.com/bfs/openplatform/202611/nfxkFYi31793852264_1793852264049.png"
+   }
+  ],
+  "added": "2026-11-05",
+  "updated": "2026-11-05",
+  "imageOfficial": true,
+  "verified": true,
+  "enriched": true,
+  "imageHash": "7e5452d26262f034",
   "placeChecked": true
  },
  {
@@ -472924,7 +474012,7 @@
   "summary_th": "ป๊อปอัปสโตร์ Five Nights at Freddy's ที่อิเคบุคุโระ พาร์โค",
   "image": "https://www.4gamer.net/games/755/G075557/20240209055/SS/001.jpg",
   "imageFrom": "https://www.4gamer.net/games/755/G075557/20240209055/",
-  "imageHash": null,
+  "imageHash": "5279dd42c93ff362",
   "official": null,
   "sources": [
    {
@@ -479044,7 +480132,7 @@
    "market"
   ],
   "summary_th": "คาเฟ่คอลแลปกับอนิเมะอาโอบุตะที่เมืองเอโนชิมะ",
-  "image": "http://www.bing.com/th?id=ONUT.fVi5i-DdbUL6yTg1igP0XQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.If7rVDLX0ZJSp-mUKgWiXw&pid=News",
   "official": "https://treasurecafe.jp/news/1875/",
   "sources": [
    {
@@ -479065,11 +480153,11 @@
   "added": "2026-10-29",
   "updated": "2026-10-30",
   "enriched": true,
-  "imageHash": "7e0ad99b89dcc6e6",
+  "imageHash": "9d18d702c6836493",
   "imageTried": true,
   "imageTriedAt": "2026-11-05",
   "article": "https://mantan-web.jp/prtimes/article/20261029prt00m200001317a.html",
-  "imageFrom": "https://mantan-web.jp/prtimes/article/20261105prt00m200000665a.html",
+  "imageFrom": "https://ln-news.com/articles/126895",
   "placeChecked": true,
   "dateTried": true,
   "notDupWith": [
@@ -480225,6 +481313,42 @@
   "verified": true,
   "enriched": true,
   "imageHash": "986cc800fb9bc35d",
+  "placeChecked": true
+ },
+ {
+  "id": "61bc3fa75e86",
+  "name": "滦平·橙色火箭动漫嘉年华 晴雪&次元寻梦记",
+  "name_th": null,
+  "start": "2027-01-29",
+  "end": "2027-01-29",
+  "venue": "庄普酒店",
+  "city": "承德市",
+  "country": "CN",
+  "region": null,
+  "online": false,
+  "price_th": "เริ่มต้น ¥35",
+  "tags": [
+   "anime",
+   "comic"
+  ],
+  "summary_th": null,
+  "image": "https://i2.hdslb.com/bfs/openplatform/202611/pMuU7jYn1793771609_1793771609662.jpg",
+  "official": "https://show.bilibili.com/platform/detail.html?id=1007481",
+  "sources": [
+   {
+    "title": "滦平·橙色火箭动漫嘉年华 晴雪&次元寻梦记",
+    "link": "https://show.bilibili.com/platform/detail.html?id=1007481",
+    "source": "bilibili会员购",
+    "date": "2026-11-05",
+    "image": "https://i2.hdslb.com/bfs/openplatform/202611/pMuU7jYn1793771609_1793771609662.jpg"
+   }
+  ],
+  "added": "2026-11-05",
+  "updated": "2026-11-05",
+  "imageOfficial": true,
+  "verified": true,
+  "enriched": true,
+  "imageHash": "06d38c3f315065a4",
   "placeChecked": true
  },
  {
@@ -482337,7 +483461,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตทริบิวต์ให้みきとP จัดที่ญี่ปุ่น กุมภาพันธ์ 2027",
-  "image": "https://prcdn.freetls.fastly.net/release_image/147492/6/147492-6-ebcd2da3e1efd4465edae01f03aeca72-3840x2160.jpg",
+  "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/10/18521278c8a6494c918aee7cd3862584.jpg",
   "official": null,
   "sources": [
    {
@@ -482354,7 +483478,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-05",
   "article": "https://www.jiji.com/jc/article?k=000000006.000147492&g=prt",
-  "imageFrom": "https://www.jiji.com/jc/article?k=000000006.000147492&g=prt",
+  "imageFrom": "https://nijimen.kusuguru.co.jp/topics/647300",
   "imageHash": null,
   "placeChecked": true,
   "regionTried": true
@@ -482537,7 +483661,7 @@
    "comic"
   ],
   "summary_th": null,
-  "image": "https://i1.hdslb.com/bfs/openplatform/202610/jzY2w7ny1793329369_1793329369807.jpg",
+  "image": "https://i1.hdslb.com/bfs/openplatform/202611/qEoUlpdP1793694445_1793694445833.jpg",
   "official": "https://show.bilibili.com/platform/detail.html?id=1007348",
   "sources": [
    {
@@ -484604,7 +485728,7 @@
    "anime"
   ],
   "summary_th": "ไลฟ์ทรีบิวต์ผลงานみきとP รวม 10 ศิลปิน จัดที่โตเกียวการ์เดนเธียเตอร์",
-  "image": "https://prcdn.freetls.fastly.net/release_image/147492/6/147492-6-ebcd2da3e1efd4465edae01f03aeca72-3840x2160.jpg",
+  "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/10/18521278c8a6494c918aee7cd3862584.jpg",
   "official": null,
   "sources": [
    {
@@ -484627,7 +485751,7 @@
    "848d2e644f46",
    "78fe5e9a1064"
   ],
-  "imageFrom": "https://www.jiji.com/jc/article?k=000000006.000147492&g=prt",
+  "imageFrom": "https://nijimen.kusuguru.co.jp/topics/647300",
   "imageHash": null
  },
  {
@@ -497369,6 +498493,44 @@
   "imageFrom": "https://www.newstnt.com/news/articleView.html?idxno=726134",
   "imageHash": "a377d850b92dc26d",
   "placeChecked": true
+ },
+ {
+  "id": "c6f505634c47",
+  "name": "리키 저베이스: 레전드",
+  "name_th": "ริกกี้ เจอร์เวส: Legend",
+  "start": "2027-04-30",
+  "end": "2027-04-30",
+  "venue": "베르시",
+  "city": "파리",
+  "country": "FR",
+  "region": null,
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "comedy"
+  ],
+  "summary_th": "การแสดงสแตนด์อัพของริกกี้ เจอร์เวส ที่เบอร์ซีในปี 2027",
+  "image": "https://cdn.sortiraparis.com/images/80/69688/1333600-ricky-gervais-legend-son-nouveau-spectacle-a-bercy-en-2027.jpg",
+  "official": null,
+  "sources": [
+   {
+    "title": "리키 저베이스: ‘레전드’, 2027년 베르시에서 새 공연 선보여",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRTU4OWtCeDlwbzRIb0VzYllPdkRaWEhWWWZuWXpIRlZBU3RtazB4MkI3eDJQS0dUYjZGamRrSnZsTFBwdW5GT1lNV25iTmFHX3lvM2VfUzhQT3dyLWNHc2x1VXRGZUNuZE9Wd0k2R0lIOWJDZmk4V205Mmw4M2FmcTI4cFFET0dJYWI5RGhGbzYyZEJiVmxRa0dwVnJXWGdMQmNqdXNseFJLM3piMWF6VFJmU00tWFJfM1o2SkpxVTRuUW1QN3hMTTBxN215bDAxWm1JaWk2eEVlZw?oc=5",
+    "source": "Sortir à Paris",
+    "date": "2026-11-02",
+    "image": null
+   }
+  ],
+  "added": "2026-11-03",
+  "updated": "2026-11-03",
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-03",
+  "article": "https://www.sortiraparis.com/ko/paliui-bolgeoli/boyeojuda/articles/356992-liki-jeobeiseu-2027nyeon-beleusieseo-sae-gong-yeon-legend-seonboinda",
+  "imageFrom": "https://www.sortiraparis.com/ko/paliui-bolgeoli/boyeojuda/articles/356992-liki-jeobeiseu-2027nyeon-beleusieseo-sae-gong-yeon-legend-seonboinda",
+  "placeChecked": true,
+  "imageHash": "e08a8f6565f725d3",
+  "dateTried": true
  },
  {
   "id": "3aef2d90023d",
@@ -510462,7 +511624,7 @@
   "added": "2026-11-05",
   "updated": "2026-11-05",
   "enriched": true,
-  "imageHash": null,
+  "imageHash": "6c4cf795d786307d",
   "imageTried": true,
   "imageFrom": "https://www.thairath.co.th/money/economics/thai_economics/2052740",
   "imageTriedAt": "2026-11-05",
@@ -518247,7 +519409,7 @@
    "kids"
   ],
   "summary_th": "รวมนิทรรศการและพิพิธภัณฑ์ที่พาเด็กเที่ยวได้ช่วงปิดเทอมตูแซ็ง 2026 ที่ปารีส",
-  "image": "https://cdn.sortiraparis.com/images/80/69688/1333228-jose-castillo-l-exposition-gratuite-archipel-improbable-a-la-maison-de-l-amerique-latine.jpg",
+  "image": "https://cdn.sortiraparis.com/images/80/69688/1333254-une-oeuvre-de-maya-hayuk.jpg",
   "official": null,
   "sources": [
    {
@@ -518277,7 +519439,7 @@
   "hours": null,
   "described": true,
   "datesRead": true,
-  "imageFrom": "https://www.sortiraparis.com/id/apa-yang-harus-dikunjungi-di-paris/paparan/articles/356785-jose-castillo-pameran-gratis-archipel-improbable-di-maison-de-l-amerique-latine",
+  "imageFrom": "https://www.sortiraparis.com/id/apa-yang-harus-dikunjungi-di-paris/paparan/articles/356682-maya-hayuk-pameran-gratis-dan-penuh-warna-di-carre-de-baudouin",
   "imageHash": null
  },
  {
@@ -538088,7 +539250,7 @@
    "museum"
   ],
   "summary_th": "นิทรรศการความเป็นสากลของการแข่งม้าญี่ปุ่น จัดแสดงภาพหายากม้าฮาคุชิกะระ",
-  "image": "https://www.nikkansports.com/keiba/column/rapusodi/news/img/202606060000757-w500_0.jpg",
+  "image": "https://www.sanspo.com/resizer/v2/PPHZTGSB55GMHC4KR7KSMFSNIA.jpg?auth=e235fff8efc3d2b85497fe36842dfa0a8ad8a349b367aff2a26b8b91f3ed408c&quality=50&focal=1457%2C1090&width=1200&height=675",
   "official": null,
   "sources": [
    {
@@ -538105,7 +539267,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-05",
   "article": "https://www.sanspo.com/race/article/general/20260929-ITLO7L6DHFL3LNTNRNW4YMBC5Y/",
-  "imageFrom": "https://www.nikkansports.com/keiba/column/rapusodi/news/202606060000757.html",
+  "imageFrom": "https://www.sanspo.com/race/article/general/20260929-ITLO7L6DHFL3LNTNRNW4YMBC5Y/",
   "placeChecked": true,
   "imageHash": null,
   "regionTried": true,
@@ -559696,7 +560858,7 @@
    "concert"
   ],
   "summary_th": "Powderfinger เพิ่ม 9 รอบสุดท้าย ทำให้ทัวร์รียูเนียนปี 2027 รวม 35 รอบ",
-  "image": "http://www.bing.com/th?id=ONUT.NgOX0vIlqBk9di7RoqoRhA&pid=News",
+  "image": "https://musicfeeds.com.au/wp-content/uploads/sites/7/2026/11/Feeds-75.png?resize=1200,630",
   "official": null,
   "sources": [
    {
@@ -559712,10 +560874,10 @@
   "dateTried": true,
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-10-30",
+  "imageTriedAt": "2026-11-05",
   "article": "https://www.ntnews.com.au/news/queensland/powderfinger-extends-reunion-tour-with-nine-new-shows-and-huge-support-lineup/news-story/c1d399d29f596a19e8de1d36c756a3d9",
-  "imageFrom": "https://www.ntnews.com.au/news/queensland/powderfinger-extends-reunion-tour-with-nine-new-shows-and-huge-support-lineup/news-story/c1d399d29f596a19e8de1d36c756a3d9",
-  "imageHash": "ab54118b7ec66c91",
+  "imageFrom": "https://musicfeeds.com.au/news/powderfinger-announce-nine-more-reunion-shows-with-violent-soho-more/",
+  "imageHash": null,
   "placeChecked": true,
   "regionTried": true
  },
@@ -560344,7 +561506,7 @@
    "local"
   ],
   "summary_th": "เทศกาล Portland Rose Festival มีการปรับเปลี่ยนคณะราชินีและเจ้าหญิงประจำเทศกาล",
-  "image": "https://s.yimg.com/lo/mysterio/api/be4e41526f7ed31203fdbe00efad1ee0f1cad657ad6c43eb57a387763223b3b0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fkgw_tegna_articles_366%2F895da9c7868658c9c431812280197599",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -560362,7 +561524,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-05",
   "article": null,
-  "imageFrom": "https://www.yahoo.com/lifestyle/articles/portland-rose-festival-kicks-off-194447098.html",
+  "imageFrom": null,
   "placeChecked": true,
   "imageHash": "c8d68fc8c4a2cad9",
   "regionTried": true
@@ -560945,45 +562107,6 @@
   "article": null,
   "placeChecked": true,
   "regionTried": true
- },
- {
-  "id": "540b8ced90e4",
-  "name": "Setagaya Bread Festival",
-  "name_th": "เทศกาลขนมปังเซตากายะ",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "Setagaya",
-  "country": "JP",
-  "region": "kanto",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "food",
-   "festival"
-  ],
-  "summary_th": "เทศกาลขนมปังหลากหลายแบรนด์ในย่านเซตากายะ โตเกียว",
-  "image": "https://www.fashion-headline.com/images/migration/2016/08/c12e67f5b43a885ead90d099c27e9732.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "Satisfy your kneads at the Setagaya Bread Festival",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUGhFeGlwZTFOcmQ1V1RJZFc5dFF6dUJsV0YtR2RxTWtmTENreElZWkNBT19KXzc5LWd3NWpsOWxYZW1TOEE2U1F2cEdnNkZsdGRBdzNFMHZwc0x6VjFyWklHbFplY2lLdXJmTUg2bDRMYXVhbXhLbUpDeTZ3d20xVG9nRVZyeGM0NkVVYTZmRGJhaHJ3bzV4TDlHcw?oc=5",
-    "source": "The Japan Times",
-    "date": "2026-10-30",
-    "image": null
-   }
-  ],
-  "added": "2026-10-30",
-  "updated": "2026-10-30",
-  "dateTried": true,
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-30",
-  "article": "https://www.fashion-headline.com/en/article/9641",
-  "imageFrom": "https://www.fashion-headline.com/en/article/9641",
-  "placeChecked": true,
-  "imageHash": "87f057f3cd0e067a"
  },
  {
   "id": "0de9f089d7c9",
@@ -574582,45 +575705,6 @@
   "regionTried": true
  },
  {
-  "id": "d3d52580d48f",
-  "name": "虚構世界をリアルに描いた 石原豪人展 around the 1970s",
-  "name_th": "นิทรรศการอิชิฮาระ โกโตะ",
-  "start": null,
-  "end": null,
-  "venue": "弥生美術館",
-  "city": "東京",
-  "country": "JP",
-  "region": "kanto",
-  "online": false,
-  "price_th": "แจกบัตรฟรี 5 รางวัล",
-  "tags": [
-   "art",
-   "museum"
-  ],
-  "summary_th": "นิทรรศการภาพวาดจินตนาการยุค 1970 ของอิชิฮาระ โกโตะ พร้อมแจกบัตรเข้าชม",
-  "image": "http://www.bing.com/th?id=ONUT.1fy5kgzWjAB7QtrgUvm6gQ&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "【5組10名限定】弥生美術館「虚構世界をリアルに描いた 石原豪人展 around the 1970sの妄想画、大集合」招待券プレゼント 〆切は11月7日(土)",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HdFhYaXpuS2dlTXhvUXZ4OXllUzBfcGRFQTQ0WC1EeXdGTTgtQ1k0UTVrXzZSRW1xdWpBUGJ1R2pjMkxySmZzdHZjWnY0c21PblRpU0tnR0FvaV9pMG0tQnRDMFVub0ZfdklOR3g5Y2x5V25MOVE?oc=5",
-    "source": "美術展ナビ",
-    "date": "2026-10-31",
-    "image": null
-   }
-  ],
-  "added": "2026-10-31",
-  "updated": "2026-10-31",
-  "dateTried": true,
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-04",
-  "article": "https://topics.smt.docomo.ne.jp/article/san_tatsu/trend/san_tatsu-561184",
-  "placeChecked": true,
-  "imageFrom": "https://cyzo.jp/culture/post_420097/",
-  "imageHash": "5c079a0be96ec858"
- },
- {
   "id": "d11ab1e45f30",
   "name": "若き日の川端謹次展",
   "name_th": "นิทรรศการคาวาบาตะ คินจิ วัยหนุ่ม",
@@ -577966,7 +579050,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตทัวร์ Stars Align ของ Freya Skye ที่เมืองคาร์ดิฟฟ์",
-  "image": "https://www.music-news.com/images/news/Freya-Sky.jpg",
+  "image": "https://s3.amazonaws.com/media.justjaredjr.com/wp-content/uploads/2026/09/freya-new-song.jpg",
   "official": null,
   "sources": [
    {
@@ -577982,11 +579066,11 @@
   "dateTried": true,
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-10-31",
+  "imageTriedAt": "2026-11-05",
   "article": "https://www.music-news.com/news/Tickets/187254/Freya-Skye-reveals-massive-Stars-Align-global-tour-expansion-buy-tickets",
-  "imageFrom": "https://www.music-news.com/news/Tickets/187254/Freya-Skye-reveals-massive-Stars-Align-global-tour-expansion-buy-tickets",
+  "imageFrom": "https://www.justjaredjr.com/2026/09/16/freya-skye-releases-new-single-bad-taste-announces-more-international-stars-align-tour-dates/",
   "placeChecked": true,
-  "imageHash": "518d6da61982747a",
+  "imageHash": null,
   "regionTried": true
  },
  {
@@ -584818,7 +585902,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ต Freya Skye ที่ O2 Academy Brixton ลอนดอน",
-  "image": "https://www.music-news.com/images/news/Freya-Sky.jpg",
+  "image": "https://images.bangpremier.com/articleimage/2026_10_15__bssimg_1792077670cropped1830x1189.jpg",
   "official": null,
   "sources": [
    {
@@ -584838,7 +585922,7 @@
   "article": "https://www.contactmusic.com/story/467/3627487/listen-christmas-has-come-early-for-freya-skye-britain-s-breakout-pop-star-of-2026",
   "placeChecked": true,
   "regionTried": true,
-  "imageFrom": "https://www.music-news.com/news/Tickets/187254/Freya-Skye-reveals-massive-Stars-Align-global-tour-expansion",
+  "imageFrom": "https://www.contactmusic.com/story/467/3627487/listen-christmas-has-come-early-for-freya-skye-britain-s-breakout-pop-star-of-2026",
   "imageHash": null
  },
  {
@@ -584878,7 +585962,7 @@
   "placeChecked": true,
   "regionTried": true,
   "imageFrom": "https://www.sortiraparis.com/arts-culture/balades/guides/305826-paris-16-que-faire-dans-le-16e-arrondissement-sorties-visites-et-bonnes-adresses",
-  "imageHash": null
+  "imageHash": "416658879683dff1"
  },
  {
   "id": "1fbad70a702e",
@@ -585163,7 +586247,7 @@
   "placeChecked": true,
   "regionTried": true,
   "imageFrom": "https://musicfeeds.com.au/news/powderfinger-announce-nine-more-reunion-shows-with-violent-soho-more/",
-  "imageHash": null
+  "imageHash": "752308a79bb261ca"
  },
  {
   "id": "a8fdda4439af",
@@ -585865,7 +586949,7 @@
    "festival"
   ],
   "summary_th": "เทศกาลศาลเจ้าเสวียนเทียนซางตี้ จัดขบวนแห่และพิธีบวงสรวงที่อู๋กู่ นิวไทเป เดือนพฤศจิกายน",
-  "image": "https://s.yimg.com/lo/mysterio/api/92b3d9272dd1b0ea4862fdf7a1238b1bec28ff592e015e4e69e39e0e2c5f790b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fzh-TW%2Fnownews.com%2F5fd8218842ef5ba72483fa2e166b7c4e",
+  "image": "https://s.yimg.com/lo/mysterio/api/ffa612290611da4542403cb3620e404f5c6d6790645e6909b31121ab0b78f46e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fnewtalk.tw%2Fcc80c7b398cd121e31984397a4b1b272",
   "official": null,
   "sources": [
    {
@@ -585885,7 +586969,7 @@
   "article": "https://www.chinatimes.com/realtimenews/20221020003608-260405",
   "placeChecked": true,
   "regionTried": true,
-  "imageFrom": "https://tw.news.yahoo.com/%E6%96%B0%E5%8C%97%E7%8E%84%E5%A4%A9%E4%B8%8A%E5%B8%9D%E6%96%87%E5%8C%96%E7%A5%AD8%E6%97%A5%E7%99%BB%E5%A0%B4-%E9%82%80%E6%B0%91%E7%9C%BE%E5%AF%AB%E9%A1%98%E6%9C%9B%E6%8A%8A%E7%A6%8F%E6%B0%A3%E5%B8%B6%E5%9B%9E%E5%AE%B6-055901204.html",
+  "imageFrom": "https://tw.news.yahoo.com/2022%E6%96%B0%E5%8C%97%E5%B8%82%E7%8E%84%E5%A4%A9%E4%B8%8A%E5%B8%9D%E6%96%87%E5%8C%96%E7%A5%AD10-26%E9%96%8B%E8%B7%91-092704842.html",
   "imageHash": "7b49a74adee2f9ef"
  },
  {
@@ -596525,7 +597609,7 @@
    "concert"
   ],
   "summary_th": "Powderfinger ประกาศเพิ่มอีก 9 รอบการแสดงรี UNION พร้อม Violent Soho และอื่น ๆ ในออสเตรเลีย",
-  "image": "http://www.bing.com/th?id=ONUT.NgOX0vIlqBk9di7RoqoRhA&pid=News",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -596558,7 +597642,7 @@
   "imageTriedAt": "2026-11-05",
   "article": "https://musicfeeds.com.au/news/powderfinger-announce-nine-more-reunion-shows-with-violent-soho-more/",
   "imageFrom": "https://www.ntnews.com.au/news/queensland/powderfinger-extends-reunion-tour-with-nine-new-shows-and-huge-support-lineup/news-story/c1d399d29f596a19e8de1d36c756a3d9",
-  "imageHash": "ab54118b7ec66c91",
+  "imageHash": null,
   "placeChecked": true
  },
  {
@@ -599914,44 +600998,6 @@
   "dateTried": true
  },
  {
-  "id": "6db685bf9e31",
-  "name": "2027학년도 고등학교 진학박람회",
-  "name_th": "งานแนะแนวเข้าศึกษาต่อมัธยมปลาย ปีการศึกษา 2027",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "서울 중랑구",
-  "country": "KR",
-  "region": "seoul",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "edu"
-  ],
-  "summary_th": "เขตจุงนังกรุงโซลจัดงานแนะแนวการเข้าศึกษาต่อมัธยมปลาย",
-  "image": "http://www.bing.com/th?id=ONUT.3Vh8q4XaPq8nc88EmgMfcQ&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "중랑구, 2027학년도 고등학교 진학박람회 개최",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VTW5uQmE4aDl5RUpoUmNyVGZxZDhpamg5b1c3anFENGNUU0JoUzBxQVNDanFkaEZtWEl0bWVaTjRFYTU5bjN3TUlBTkZHVzFxLXZMaHdCUW1mdXV0ckVKTEU4bw?oc=5",
-    "source": "경남도민뉴스",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-02",
-  "updated": "2026-11-02",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-02",
-  "article": "https://www.dongbuknews.com/news/articleView.html?idxno=7147",
-  "imageFrom": "https://www.dongbuknews.com/news/articleView.html?idxno=7147",
-  "imageHash": "759e523436b196d1",
-  "placeChecked": true,
-  "dateTried": true
- },
- {
   "id": "1f4cded0f15e",
   "name": "2026 평택학습박람회 with 평택책축제",
   "name_th": "งานมหกรรมการเรียนรู้เมืองพยองแทค พร้อมเทศกาลหนังสือพยองแทค",
@@ -601205,7 +602251,7 @@
    "art"
   ],
   "summary_th": "นิทรรศการศิลปะเข้าชมฟรี Archipel improbable โดย José Castillo",
-  "image": "https://cdn.sortiraparis.com/images/80/69688/1333228-jose-castillo-l-exposition-gratuite-archipel-improbable-a-la-maison-de-l-amerique-latine.jpg",
+  "image": "http://www.bing.com/th?id=ONUT.IsX6FWb3iCiLr3BddSz7KQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -601220,11 +602266,11 @@
   "updated": "2026-11-02",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-02",
+  "imageTriedAt": "2026-11-05",
   "article": "https://www.sortiraparis.com/arts-culture/exposition/articles/356785-jose-castillo-l-exposition-gratuite-archipel-improbable-a-la-maison-de-l-amerique-latine",
-  "imageFrom": "https://www.sortiraparis.com/arts-culture/exposition/articles/356785-jose-castillo-l-exposition-gratuite-archipel-improbable-a-la-maison-de-l-amerique-latine",
+  "imageFrom": "https://www.sortiraparis.com/tr/pariste-ne-ziyaret-yapmali/maruziyet/articles/356785-jose-castillo-nun-maison-de-l-amerique-latine-deki-ucretsiz-imkansiz-takimada-sergisi",
   "placeChecked": true,
-  "imageHash": "a42783cae11ba3f7",
+  "imageHash": "2e7bd0051ed91a86",
   "dateTried": true
  },
  {
@@ -607124,7 +608170,7 @@
    "lights"
   ],
   "summary_th": "ประเพณีออกพรรษาและแขวนโคมถวายพุทธบูชาที่เจ้าพ่อกู่ช้าง จ.ลำพูน",
-  "image": "https://s359.thaicdn.net/r/1200/630/pagebuilder/25bea592-3c58-4186-a54f-00075a9e0153.jpg",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -607276,7 +608322,7 @@
    "concert"
   ],
   "summary_th": "เดอะ แจ็คสันส์ แสดงสดที่ O2 Apollo เมืองแมนเชสเตอร์",
-  "image": "https://s.yimg.com/lo/mysterio/api/7349d222139713920e4f6d447cc3e421c535dd23830063e4e45e8bbfe32ba816/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcover_media_309%2Fa22acdfeafee988ae20a2521d69bff74",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -609365,7 +610411,7 @@
    "festival"
   ],
   "summary_th": "Perth Festival 2027 ประกาศโปรแกรมภาพยนตร์ที่สนับสนุนโดย Lotterywest",
-  "image": "https://thescoop.au/wp-content/uploads/2025/12/Lotterywest-Film-Opening-Perth-Fest-print-5057.jpg",
+  "image": "https://images.thenightly.com.au/publication/C-23108410/ca53ef76196b1da0896788316c209e2babb63992-16x9-x0y932w10000h5625.webp?imwidth=1200",
   "official": null,
   "sources": [
    {
@@ -609382,7 +610428,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-05",
   "article": "https://thescoop.au/announcing-lotterywest-films-program-for-2027-perth-festival/",
-  "imageFrom": "https://thescoop.au/announcing-lotterywest-films-program-for-2027-perth-festival/",
+  "imageFrom": "https://thenightly.com.au/lifestyle/perth-festival-has-unveiled-an-epic-2027-lineup--c-23108410",
   "imageHash": null,
   "placeChecked": true,
   "dateTried": true
@@ -610416,7 +611462,7 @@
    "art"
   ],
   "summary_th": "นิทรรศการภาพถ่าย Idols ของยังบลัด ฟรี พร้อมภาพที่ไม่เคยเห็น ที่ลอนดอน",
-  "image": "https://spaces.rocksound.tv/uploads/2026/10/yunbglud_tompallant.jpg",
+  "image": "https://assets.blabbermouth.net/media/yungbludidolspallantlondonoct2026_638.jpg",
   "official": null,
   "sources": [
    {
@@ -610433,7 +611479,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-05",
   "article": "https://blabbermouth.net/news/yungblud-idols-photography-exhibition-by-tom-pallant-coming-to-london-in-november",
-  "imageFrom": "https://rocksound.tv/news/yungblud-photo-exhibit-to-open-in-london",
+  "imageFrom": "https://blabbermouth.net/news/yungblud-idols-photography-exhibition-by-tom-pallant-coming-to-london-in-november",
   "imageHash": null,
   "placeChecked": true,
   "dateTried": true
@@ -610648,7 +611694,7 @@
    "concert"
   ],
   "summary_th": "เดอะแจ็คสันส์จะแสดงคอนเสิร์ตที่วูล์ฟแฮมป์ตัน",
-  "image": "https://s.yimg.com/lo/mysterio/api/7349d222139713920e4f6d447cc3e421c535dd23830063e4e45e8bbfe32ba816/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcover_media_309%2Fa22acdfeafee988ae20a2521d69bff74",
+  "image": "https://www.nme.com/wp-content/uploads/2026/06/the_jacksons_live.jpg",
   "official": null,
   "sources": [
    {
@@ -610665,7 +611711,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-05",
   "article": "https://www.nme.com/news/music/the-jacksons-featuring-original-jackson-5-members-announce-2026-uk-tour-3952253",
-  "imageFrom": "https://uk.news.yahoo.com/jacksons-announce-2026-uk-tour-230239772.html",
+  "imageFrom": "https://www.nme.com/news/music/the-jacksons-featuring-original-jackson-5-members-announce-2026-uk-tour-3952253",
   "placeChecked": true,
   "imageHash": null,
   "dateTried": true
@@ -617344,7 +618390,8 @@
   "article": "https://www.bloter.net/news/articleView.html?idxno=658334",
   "imageFrom": "https://www.bloter.net/news/articleView.html?idxno=658334",
   "placeChecked": true,
-  "imageHash": "31a5dc1df6e3ac02"
+  "imageHash": "31a5dc1df6e3ac02",
+  "dateTried": true
  },
  {
   "id": "03a9e0e10cb7",
@@ -617379,40 +618426,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
-  "placeChecked": true
- },
- {
-  "id": "d2a5c0d8a2d8",
-  "name": "SIDE CORE展「Hokuto Road Side」",
-  "name_th": "นิทรรศการ SIDE CORE 「Hokuto Road Side」",
-  "start": null,
-  "end": null,
-  "venue": "清春芸術村",
-  "city": "北杜",
-  "country": "JP",
-  "region": "chubu",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "art"
-  ],
-  "summary_th": "นิทรรศการศิลปะของกลุ่ม SIDE CORE ที่เมืองโฮคุโตะ จังหวัดยะมะนะชิ",
-  "image": "https://www.adfwebmagazine.jp/wp-content/uploads/2026/10/adf-web-magazine-hokuto-roadside-side-core-1.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "アートコレクティブ SIDE CORE展「Hokuto Road Side」清春芸術村とGASBON ...",
-    "link": "https://www.adfwebmagazine.jp/art/hokuto-road-side-by-side-core/",
-    "source": "adfwebmagazine",
-    "date": "2026-11-01",
-    "image": "http://www.bing.com/th?id=ONUT.6Y4rdBzCpKfkj_KverR9yQ&pid=News"
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageHash": "1aa9c80c1880bbbb",
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "084341019a0f",
@@ -617488,82 +618503,8 @@
   "article": "https://www.fnn.jp/articles/-/1140708",
   "imageFrom": "https://www.fnn.jp/articles/-/1140708",
   "imageHash": "a36825f899d859a3",
-  "placeChecked": true
- },
- {
-  "id": "ec77dce90fdb",
-  "name": "鉄道資料の展示会",
-  "name_th": "นิทรรศการข้อมูลรถไฟ",
-  "start": null,
-  "end": null,
-  "venue": "三重県総合博物館",
-  "city": null,
-  "country": "JP",
-  "region": "kansai",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "museum"
-  ],
-  "summary_th": "นิทรรศการข้อมูลและวัตถุเกี่ยวกับรถไฟที่พิพิธภัณฑ์มิเอะ",
-  "image": "https://prcdn.freetls.fastly.net/release_image/131984/8/131984-8-b55025c7defb66d54b58a6ff02b01ac0-700x310.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-  "official": null,
-  "sources": [
-   {
-    "title": "鉄道資料の展示会開催 三重県総合博物館",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55RVp6ZkVYSnZyMk91cVBYUGFLeDNreWRXYWR5MUhHYkRyeC1FOVhvYWJ1Y05HdVMwM3lidE93REZyWnJBSWhSLUw4RWRUa0ZlS3lEXzV2bDJoXzh3VkZkNUNaUDJXZzZqSmRxVGJwbkY4TGc?oc=5",
-    "source": "www.chukei-news.co.jp",
-    "date": "2026-11-01",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://prtimes.jp/main/html/rd/p/000000008.000131984.html",
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000000008.000131984.html",
   "placeChecked": true,
-  "imageHash": "95d3c464b68018cb"
- },
- {
-  "id": "f2a8337c2bf9",
-  "name": "とよね・みどり湖ハーフマラソン大会",
-  "name_th": "การแข่งขันฮาล์ฟมาราธอนโทโยเนะ มิโดริโกะ",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "豊根村",
-  "country": "JP",
-  "region": "chubu",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "run",
-   "nature"
-  ],
-  "summary_th": "ฮาล์ฟมาราธอนท่ามกลางธรรมชาติใบไม้เปลี่ยนสีที่หมู่บ้านโทโยเนะ",
-  "image": "http://www.bing.com/th?id=ONUT.Q8LtrtmLAr9kOMq1KRLDNA&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "色づく豊根村の自然の中をランナー全力疾走 とよね・みどり湖ハーフマラソン大会",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9nUk1lZENaTVV5ZWZxNHJTLW9pN0FhMmIyTFUzaDlCd3pLZFRLWE5DRnk0ZWhHLU5MQVVGa0hRS045S1hsRFdhckNRaVJNVFpsYmMwWQ?oc=5",
-    "source": "中日新聞Web",
-    "date": "2026-11-01",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://topics.smt.docomo.ne.jp/article/chuplus/region/chuplus-1333838",
-  "imageFrom": "https://topics.smt.docomo.ne.jp/article/chuplus/region/chuplus-1333838",
-  "imageHash": "77021024a1e7362f",
-  "placeChecked": true
+  "dateTried": true
  },
  {
   "id": "27b2735ee4a6",
@@ -617598,7 +618539,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "e5513b84c08d",
@@ -617644,78 +618586,6 @@
   "dateTried": true
  },
  {
-  "id": "a94080e6b386",
-  "name": "사회과학에서의 AI와 머신러닝 국제 컨퍼런스",
-  "name_th": "การประชุมนานาชาติ AI และแมชชีนเลิร์นนิงในสังคมศาสตร์",
-  "start": null,
-  "end": null,
-  "venue": "이화여대",
-  "city": null,
-  "country": "KR",
-  "region": "seoul",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "ai",
-   "edu"
-  ],
-  "summary_th": "การประชุมนานาชาติเรื่อง AI ในสังคมศาสตร์ที่มหาวิทยาลัยอีฮวา",
-  "image": "http://www.bing.com/th?id=ONUT.YqX4MyJUAsekGMXBgIk7ZA&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "이화여대, ‘사회과학에서의 AI와 머신러닝’ 국제 컨퍼런스 개최",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iaUNkVGtVdUgtU2diS0hDNzZpdUZiS1BHNWpCWUdMc3kxV242S0YwUkdCMDIxZU1kMkdFMllyRWlkN2hOUGJSRTF3czRwYzh2MVJRdVBKcnJQZEo2eXVTT1hlNG9xckRFdWhjdElURjl5MmPSAXdBVV95cUxOVEd6dXFYdkk3a3RmVC1CbzFRX1NpNEtFN2tCc1UxUXBDbUlrbjdydjRmeWNVbUN3Y2VvS1JTQlFoc29USENzT0NqMzdTTVRpcG5YTm5naEQ0SkVWWUJoXzcwc05DbUJRVERZN2lNUld5ZEZ0ZXNqdw?oc=5",
-    "source": "핀포인트뉴스",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://www.lecturernews.com/news/articleView.html?idxno=213084",
-  "imageFrom": "https://www.lecturernews.com/news/articleView.html?idxno=213084",
-  "imageHash": "210179bfb1d5b0f4",
-  "placeChecked": true
- },
- {
-  "id": "37bb50eadf8c",
-  "name": "시몬스 뷰티레스트 블랙 팝업스토어",
-  "name_th": "ป็อปอัพสโตร์ ซีมอนส์ บิวตี้เรสต์ แบล็ค",
-  "start": null,
-  "end": "2026-11-15",
-  "venue": "신세계백화점 대전점",
-  "city": "대전",
-  "country": "KR",
-  "region": "chungcheong",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "market",
-   "home"
-  ],
-  "summary_th": "ป็อปอัพสโตร์แบรนด์ที่นอนซีมอนส์ที่ห้างชินเซเก แดจอน ถึง 15 พ.ย.",
-  "image": "https://www.segye.com/content/image/2026/11/03/20261103505804.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "시몬스, 신세계백화점 대전점에 '뷰티레스트 블랙' 팝업스토어 오픈",
-    "link": "https://www.segye.com/newsView/20261103505825",
-    "source": "segye",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageHash": "935f5f37177452ae",
-  "placeChecked": true
- },
- {
   "id": "a8df0518bbee",
   "name": "빼빼로데이 기념 도심 순회 팝업",
   "name_th": "ป็อปอัพฉลองวันเปเปโร่ ทัวร์ใจกลางเมือง",
@@ -617751,90 +618621,8 @@
   "article": "https://www.youthdaily.co.kr/news/article.html?no=229231",
   "imageFrom": "https://www.youthdaily.co.kr/news/article.html?no=229231",
   "imageHash": "5605de7e623c7003",
-  "placeChecked": true
- },
- {
-  "id": "d4a5fd161df1",
-  "name": "세종영재학교 별 축제",
-  "name_th": "เทศกาลดวงดาวโรงเรียนเซจงยองแจ",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "세종",
-  "country": "KR",
-  "region": "chungcheong",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "nature",
-   "kids",
-   "edu"
-  ],
-  "summary_th": "เทศกาลดูดาวและฟังบรรยายดาราศาสตร์เปิดให้ชุมชนเข้าร่วมที่เมืองเซจง",
-  "image": "http://www.bing.com/th?id=ONUT.qROr-bMvpbUuUlut6NbHZg&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "세종영재학교 별 축제 개최…천체관측·강연 등 지역사회와 교류",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rbjN0RGdCaVlmSXUzdlZZc3oxY0lDSWNIMVVIa2taWnRYb2VESU5IM2tKUGUzUENxUXo2MnAyWFlBTTQ3UkgwbUZyZUVEdUJWdkJhdExQQ1lJSXBhZ3NlS0pTU3NoNmN0bTZLcEZn?oc=5",
-    "source": "www.sejongmedia.com",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://www.megaccnews.com/news/articleView.html?idxno=12189",
-  "imageFrom": "https://www.megaccnews.com/news/articleView.html?idxno=12189",
-  "imageHash": "b35798c8865b4c5f",
-  "placeChecked": true
- },
- {
-  "id": "93668e50649d",
-  "name": "V・ファーレン長崎 vs 東京ヴェルディ／U-21 V・ファーレン長崎 vs U-21川崎フロンターレ",
-  "name_th": "วี-ฟาเรน นางาซากิ พบ โตเกียว เวอร์ดี และรุ่น U-21 พบ คาวาซากิ",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "長崎",
-  "country": "JP",
-  "region": "kyushu",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "match"
-  ],
-  "summary_th": "การแข่งขันฟุตบอลสองนัดจัดพร้อมกันที่จังหวัดนางาซากิ",
-  "image": "http://www.bing.com/th?id=ONUT.Bea3Pf2AfLLtd7r6C0W1IQ&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "【長崎で同日2試合開催！】現地独自カメラで振り返る Ｖ・ファーレン長崎 vs 東京ヴェルディ／U-21 V・ファーレン長崎 vs U-21川崎フロンターレ",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IMGNIUzFiT2VpMWNfdnlwbmFaYVNIRGVtSzUxSjlESFM3T0ViUHQ2OVZESV9fbldHZVc4aGhLOG9ac3BWRWdJVFBTQnNoTTF1M2NGSkZ0M20tUUt5?oc=5",
-    "source": "YouTube",
-    "date": "2026-11-02",
-    "image": null
-   },
-   {
-    "title": "【長崎で同日2試合開催！】現地独自カメラで振り返る Ｖ・ファーレン長崎 vs 東京ヴェルディ／U-21 Vファーレン長崎 vs U-21川崎フロンターレ",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yaUh5NVhkMzRjcmg4WFZBanI2SGthTjZ0bHNDUG1raWItZ044LV9lQWU2aUlVdEVuZHdHS0xUaVc4aWZfQjBDU3NrU0o0a0xmVHlvNlpmbjF1QXpM?oc=5",
-    "source": "YouTube",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://note.com/lucid_fairy3388/n/n9162e961f98f",
-  "imageFrom": "https://note.com/lucid_fairy3388/n/n9162e961f98f",
-  "imageHash": "3a8dae3d7758ff0b",
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "721c7e962790",
@@ -617869,89 +618657,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
-  "placeChecked": true
- },
- {
-  "id": "f071aaa0f5df",
-  "name": "중랑 고등학교 진학박람회",
-  "name_th": "งานแนะแนวศึกษาต่อโรงเรียนมัธยม จุงนัง",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "중랑구",
-  "country": "KR",
-  "region": "seoul",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "edu"
-  ],
-  "summary_th": "เขตจุงนังจัดงานแนะแนวศึกษาต่อ ม.ปลาย มี 10 โรงเรียนและผู้เข้าร่วมราว 500 คน",
-  "image": "http://www.bing.com/th?id=ONUT.fVKGQbUk-kZnFwbUq-NZ_A&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "10개 학교와 함께, 중랑 ‘고등학교 진학박람회’ 개최",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uaTBmb1dPTUdqNWQwS01XMEo0Sjc2T0pnVmJ0cEFVaVhwMThPUkJUdVczeTI5TjEtXzRYYkVaRGFybDhydTM0d1NEREo0MFhMclJfZ3c0RzJvRjJDbmVCNDNHbXZ0eFpoNWxvSnBnWHNFSG8?oc=5",
-    "source": "서울신문",
-    "date": "2026-11-02",
-    "image": null
-   },
-   {
-    "title": "중랑구, 고교 진학박람회 개최…10개 학교·500여명 참여",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14WEN1Tjd2TmVmOG1xVkNlSVZKdjVSYk1JTGo0dlZOOXp1ckJJSmItNjZBWUJoQjJ4QWh4cy1VbUQxdG14dTR5ajZOUXZPaGs?oc=5",
-    "source": "뉴스1",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://www.fnnews.com/news/202611021612178681",
-  "imageFrom": "https://www.fnnews.com/news/202611021612178681",
-  "imageHash": "efb47acc82b51cde",
-  "placeChecked": true
- },
- {
-  "id": "fe9e3001202b",
-  "name": "양주시 복지박람회",
-  "name_th": "งานมหกรรมสวัสดิการเมืองยางจู",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "양주",
-  "country": "KR",
-  "region": "seoul",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "edu",
-   "expo"
-  ],
-  "summary_th": "เมืองยางจูรวม 31 หน่วยงานจัดงานสวัสดิการให้ประชาชนทดลองใช้บริการ",
-  "image": "http://www.bing.com/th?id=ONUT.PE9ziGdEutOXqSRS-452nQ&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "양주시, 복지박람회 개최…31개 기관 참여·다양한 서비스 체험",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04dW45Y3JMaU50cjRJV2xUVWxpN0hMWnFFTzlFSV9NeEl0d2lnRmNKU2NKZ21VNmxPZjZlaWdNWXBBa3pqbURNNTd4SUZDTy1kTlNjSnVxTF8tVjNpZHk5MklGYzVTanBkUlJ3dTN3?oc=5",
-    "source": "국제뉴스",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://www.ynamnews.co.kr/news/articleView.html?idxno=146081",
-  "imageFrom": "https://www.ynamnews.co.kr/news/articleView.html?idxno=146081",
-  "imageHash": "92c9252641e7300d",
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "4ff4acb320ec",
@@ -617986,79 +618693,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
-  "placeChecked": true
- },
- {
-  "id": "2a278abef7d6",
-  "name": "서울시립대 하노이 입학설명회",
-  "name_th": "งานชี้แจงการรับสมัคร ม.โซล ฮานอย",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "하노이",
-  "country": "VN",
-  "region": "north",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "edu"
-  ],
-  "summary_th": "มหาวิทยาลัยโซลจัดชี้แจงการรับสมัครนักศึกษาต่างชาติที่ฮานอย มีผู้เข้าร่วม 360 คน",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "서울시립대, 하노이 입학설명회 개최…360명 참석·한국 유학 상담 진행",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzMlBQMExrdzY5UU1XRDV3c2xfSTJ6Z2VNR3dYak9zdjBMZkxaZHV5MjVEeU5oU3lYRXhmTUxMMFlfM21nNk1FYms0OWFhdlVqNkJzSGFyd2hMVHpXclNhYXpWc0hIZw?oc=5",
-    "source": "한국대학신문",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": null,
-  "placeSuspect": true
- },
- {
-  "id": "c6f505634c47",
-  "name": "리키 저베이스: 레전드",
-  "name_th": "ริกกี้ เจอร์เวส: Legend",
-  "start": null,
-  "end": null,
-  "venue": "베르시",
-  "city": null,
-  "country": "FR",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "comedy"
-  ],
-  "summary_th": "การแสดงสแตนด์อัพของริกกี้ เจอร์เวส ที่เบอร์ซีในปี 2027",
-  "image": "https://cdn.sortiraparis.com/images/80/69688/1333600-ricky-gervais-legend-son-nouveau-spectacle-a-bercy-en-2027.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "리키 저베이스: ‘레전드’, 2027년 베르시에서 새 공연 선보여",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRTU4OWtCeDlwbzRIb0VzYllPdkRaWEhWWWZuWXpIRlZBU3RtazB4MkI3eDJQS0dUYjZGamRrSnZsTFBwdW5GT1lNV25iTmFHX3lvM2VfUzhQT3dyLWNHc2x1VXRGZUNuZE9Wd0k2R0lIOWJDZmk4V205Mmw4M2FmcTI4cFFET0dJYWI5RGhGbzYyZEJiVmxRa0dwVnJXWGdMQmNqdXNseFJLM3piMWF6VFJmU00tWFJfM1o2SkpxVTRuUW1QN3hMTTBxN215bDAxWm1JaWk2eEVlZw?oc=5",
-    "source": "Sortir à Paris",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://www.sortiraparis.com/ko/paliui-bolgeoli/boyeojuda/articles/356992-liki-jeobeiseu-2027nyeon-beleusieseo-sae-gong-yeon-legend-seonboinda",
-  "imageFrom": "https://www.sortiraparis.com/ko/paliui-bolgeoli/boyeojuda/articles/356992-liki-jeobeiseu-2027nyeon-beleusieseo-sae-gong-yeon-legend-seonboinda",
   "placeChecked": true,
-  "imageHash": "e08a8f6565f725d3"
+  "dateTried": true
  },
  {
   "id": "bbffb5314af0",
@@ -618137,80 +618773,6 @@
   "dateTried": true
  },
  {
-  "id": "ae629cc4232e",
-  "name": "경남 축구 축제",
-  "name_th": "เทศกาลฟุตบอลคยองนัม",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "경상남도",
-  "country": "KR",
-  "region": "gyeongsang",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "match"
-  ],
-  "summary_th": "เทศกาลฟุตบอลคยองนัม มี 30 ทีมเข้าร่วม",
-  "image": "http://www.bing.com/th?id=ONUT.igCgytdOB_zJ9uRJy8UUtw&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "BNK경남은행, 경남 축구 축제 개최…30개 팀 화합의 장",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40eTVQMi1lTFNmTElvcTB0MGEybENfMXRrZFg5U0kxV201R1FubmFpXzNhbkFhOE9yNVRUTWR0WVdEV3hkb194amdIbEhzRVRvV19LeTRWUWxIdjJ1SVppWGQ0R2RySVUt0gFsQVVfeXFMTWtKSjdscDllSDZWYjVxZGZ0NGhLbllqb0oxcHBuYWhXNEphNko5QmJ2QWFWSmwxZWw4YnRjY01POXVxOVp5VDFBdDF5S042czhkTnlxWVp6cXY3ckFMb2g3TFJvelVVdGpGSlI1?oc=5",
-    "source": "직썰",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://www.asiatoday.co.kr/kn/view.php?key=20261102010000545",
-  "imageFrom": "https://www.asiatoday.co.kr/kn/view.php?key=20261102010000545",
-  "imageHash": "c2e009c61b60a288",
-  "placeChecked": true
- },
- {
-  "id": "6c6ceef6b75f",
-  "name": "ファクトリーイノベーションWeek2026秋",
-  "name_th": "สัปดาห์นวัตกรรมโรงงาน 2026 ฤดูใบไม้ร่วง",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": null,
-  "country": "JP",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "expo"
-  ],
-  "summary_th": "MPS EYES จะออกบูธในงานファクトリーイノベーションWeek2026秋 ที่ประเทศญี่ปุ่น",
-  "image": "http://www.bing.com/th?id=ONUT.ZmwLl_wTkJKg-Uy4ME73DQ&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "MPS EYES「ファクトリーイノベーションWeek2026秋」出展のお知らせ",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5COVlLdDBUMzFYQTVWMGxMN2VCMk4tTngwYWFHNlBQdDU1YlBqWVVVVW94ODZiMXQtTFRDZ0lvNGdCaU5iS3djVlp0bDJ6OEhaQkVVVTNLM24yeTA?oc=5",
-    "source": "朝日新聞",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news017.html",
-  "imageFrom": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news017.html",
-  "imageHash": "dc9f49bf60fa96fd",
-  "placeChecked": true
- },
- {
   "id": "6036e45491c5",
   "name": "Tokyo Kanpai Boys",
   "name_th": "โตเกียว คันไป บอยส์",
@@ -618243,83 +618805,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
-  "placeChecked": true
- },
- {
-  "id": "64442ac52504",
-  "name": "RVパーク 車中泊体験フェス in 金山",
-  "name_th": "เทศกาลทดลองนอนในรถ RV พาร์ค ที่คานายามะ",
-  "start": null,
-  "end": null,
-  "venue": "RVパーク",
-  "city": "金山",
-  "country": "JP",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "outdoor",
-   "travel",
-   "food"
-  ],
-  "summary_th": "งานเทศกาลทดลองนอนในรถ RV ที่เมืองคานายามะ ประเทศญี่ปุ่น จัดขึ้นครั้งแรก มีนิทรรศการรถแคมป์ปิ้งและสินค้าจากชินชู",
-  "image": "http://www.bing.com/th?id=ONUT.7KzMUSXHt-tWrKfXg83wlw&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "キャンピングカー展示から信州物産展まで！「RVパーク 車中泊体験フェス in 金山」初開催",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsZTc0TkdhaEJDeWY3UGVqVjlORWtPWndoNl9CUWRCNEhBWUFKcWRuVnltUXZxdW1kZVBieTZSZXdHOFFUUTMtUVV0N241aUZ4ZHhfNENoVGNheGM1OUFr?oc=5",
-    "source": "ライブドアニュース",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://news.livedoor.com/topics/detail/32715597/",
-  "imageFrom": "https://news.livedoor.com/topics/detail/32715597/",
-  "imageHash": "644040b5b1bb8ee5",
-  "placeChecked": true
- },
- {
-  "id": "ae40ceb76acb",
-  "name": "後藤郁 アート展",
-  "name_th": "นิทรรศการศิลปะ โกโตะ อิกุ",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": null,
-  "country": "JP",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "art"
-  ],
-  "summary_th": "นิทรรศการศิลปะวันเดียวของอดีตสมาชิกアイドリング!!! โกโตะ อิกุ ที่ญี่ปุ่น",
-  "image": "https://static.sanyonews.jp/image/article/size1/9/b/7/0/9b70ce7f76b8e54fdd28d060c0169dee_1.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "元アイドリング!!!・後藤郁、1日限りのアート展開催 “裏側”を4コママンガで公開",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vSk5NbU05aTRFdjAwSVFVeG9uOThJeWRLVkMzbDh1dnZuNlF4elVtUll3TkpuLUUwTzVDeDVjYTl6dml0dkRjeWZHWkpsdVJqMkYyLTIza25EMVVWNFE?oc=5",
-    "source": "山陽新聞",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://www.sanyonews.jp/article/1955078",
-  "imageFrom": "https://www.sanyonews.jp/article/1955078",
   "placeChecked": true,
-  "imageHash": "a247faae8b92ccaa"
+  "dateTried": true
  },
  {
   "id": "0fe91d037dda",
@@ -618355,83 +618842,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
-  "placeChecked": true
- },
- {
-  "id": "02381c1422cf",
-  "name": "写真展「だけじゃない！深谷の農業」",
-  "name_th": "นิทรรศการภาพถ่าย だけじゃない！深谷の農業 (ไม่ใช่แค่เกษตรกรรมฟุคายะ!)",
-  "start": null,
-  "end": null,
-  "venue": "深谷市役所",
-  "city": "深谷市",
-  "country": "JP",
-  "region": "kanto",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "photo",
-   "art"
-  ],
-  "summary_th": "นิทรรศการภาพถ่ายเกษตรกรรมเมืองฟุคายะ ที่ศาลากลางเมืองฟุคายะ ญี่ปุ่น",
-  "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-kumagaya1901.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "深谷市役所で写真展「だけじゃない！深谷の農業」 農業カメラマンの作品展示",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeGFMNnRDcjFVbjgySlR3QVdCRXpCN3FvVTVXRnBrYTRzbm90WU9xTnpmUUpmQkE5dVVyRkY5RGRlS0pnX1lybE93RmtlX2lIRThxcUg4VnA5c1ROUXFraEwyZUM5c2UwY2NjdWpzeGVGWGRzYW9YRjkybHNpNVVRQXN5VdIBgwFBVV95cUxPeGFMNnRDcjFVbjgySlR3QVdCRXpCN3FvVTVXRnBrYTRzbm90WU9xTnpmUUpmQkE5dVVyRkY5RGRlS0pnX1lybE93RmtlX2lIRThxcUg4VnA5c1ROUXFraEwyZUM5c2UwY2NjdWpzeGVGWGRzYW9YRjkybHNpNVVRQXN5VQ?oc=5",
-    "source": "ｄメニューニュース",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-kumagaya1901",
-  "imageFrom": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-kumagaya1901",
   "placeChecked": true,
-  "imageHash": "56fa33a07898206d"
- },
- {
-  "id": "b1b326e39fe8",
-  "name": "写真展「ひとのいる風景」",
-  "name_th": "นิทรรศการภาพถ่าย ひとのいる風景 (ทิวทัศน์ที่มีผู้คน)",
-  "start": null,
-  "end": null,
-  "venue": "宇部のカフェ",
-  "city": "宇部",
-  "country": "JP",
-  "region": "chugoku",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "photo",
-   "art"
-  ],
-  "summary_th": "นิทรรศการภาพถ่ายพิมพ์บนกระดาษวาชิ ที่คาเฟ่ในเมืองอุเบะ ญี่ปุ่น",
-  "image": "http://www.bing.com/th?id=ONUT.mwYnVsUhXF1O5-4t5jJNEQ&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "宇部のカフェで写真展「ひとのいる風景」 和紙にプリントした写真展示",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBVlRPanU3dThNbE14STY3ZDR6bzdTc1NRUHhtbUN2cHd4VWRtLVhqeDFFMjBwTmk2cGo1TkxNaXdUYzdySmtLaEgxWTJoWF9meGh0ZTRWNmZiRlM5bGZ5bHZyQnBTX0VXdGhDeXZR?oc=5",
-    "source": "au Webポータル",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://yamaguchi.keizai.biz/photoflash/8845/",
-  "imageFrom": "https://yamaguchi.keizai.biz/photoflash/8845/",
-  "imageHash": "cbf78a0cfe1b2d9a",
-  "placeChecked": true
+  "dateTried": true
  },
  {
   "id": "179b004ef639",
@@ -618469,7 +618881,8 @@
   "article": "https://www.lanouvellerepublique.fr/a-la-une/black-friday-high-tech-2026-les-offres-a-suivre-en-france-1792142712-pb",
   "imageFrom": "https://www.lanouvellerepublique.fr/a-la-une/black-friday-high-tech-2026-les-offres-a-suivre-en-france-1792142712-pb",
   "imageHash": "cd3600baa1751e83",
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "099245581c94",
@@ -618507,7 +618920,8 @@
   "article": "https://www.koreatimes.net/culture/180053",
   "imageFrom": "https://www.koreatimes.net/culture/180053",
   "placeChecked": true,
-  "imageHash": "4dbee28ae82198d5"
+  "imageHash": "4dbee28ae82198d5",
+  "dateTried": true
  },
  {
   "id": "967a56fe7196",
@@ -618542,7 +618956,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "7f8fa712815b",
@@ -618577,7 +618992,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "92e18a5300ba",
@@ -618613,7 +619029,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-03",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "85b45db09924",
@@ -618651,193 +619068,8 @@
   "article": "https://nhandan.vn/viet-nam-tham-du-trien-lam-quoc-te-ve-bao-ve-moi-truong-va-cong-nghe-xanh-eco-expo-asia-2026-post998396.html",
   "imageFrom": "https://nhandan.vn/viet-nam-tham-du-trien-lam-quoc-te-ve-bao-ve-moi-truong-va-cong-nghe-xanh-eco-expo-asia-2026-post998396.html",
   "placeChecked": true,
-  "imageHash": "74c72f4d1f31a0bf"
- },
- {
-  "id": "2defa8305598",
-  "name": "せたがやはじまりフェス",
-  "name_th": "เทศกาลเซตากายะฮาจิมาริ",
-  "start": null,
-  "end": null,
-  "venue": "世田谷区新庁舎",
-  "city": "世田谷区",
-  "country": "JP",
-  "region": "kanto",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "local",
-   "kids"
-  ],
-  "summary_th": "เทศกาล 21 วันที่อาคารว่าการเขตเซตากายะใหม่ พร้อมพื้นที่협งานแห่งใหม่",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "世田谷区新庁舎に「協働プレイス」 21日間の「せたがやはじまりフェス」も",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORW9hbnBiNFdXNWJlbkpWMzg3LXA2RTBHY2xDdENYRkJ3Umt2dWRlckhCNWJqTk5fUFNISWc3SGRxTjhwSHdvNG1XeU5XZGxNdkZMZ2cyVUozUHlrTlMxVXkyZmxIcmt5QXlyeklwa3BTWFFSUXl2N0R0STN3ZlRKctIBgAFBVV95cUxORW9hbnBiNFdXNWJlbkpWMzg3LXA2RTBHY2xDdENYRkJ3Umt2dWRlckhCNWJqTk5fUFNISWc3SGRxTjhwSHdvNG1XeU5XZGxNdkZMZ2cyVUozUHlrTlMxVXkyZmxIcmt5QXlyeklwa3BTWFFSUXl2N0R0STN3ZlRKcg?oc=5",
-    "source": "ｄメニューニュース",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": null,
-  "placeChecked": true
- },
- {
-  "id": "e724836fc152",
-  "name": "Biocoke de 焼きそば",
-  "name_th": "Biocoke de ยะกิโซบะ",
-  "start": null,
-  "end": null,
-  "venue": "近大通り",
-  "city": null,
-  "country": "JP",
-  "region": "kansai",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "food",
-   "workshop"
-  ],
-  "summary_th": "สาธิตทำยะกิโซบะด้วยเชื้อเพลิงไบโอโค้กและนิทรรศการพลังงานแห่งอนาคต",
-  "image": "http://www.bing.com/th?id=ONUT.KCO6dl0OZqAxvfKEGs-vXA&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "近大通りの人気店協力のもと「Biocoke de 焼きそば」を開催 「バイオコークス」を使った調理実演や展示で次世代燃料の魅力を発信",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15TDg0ZUk4Y3RudVdOckcxZlNMM3NLa2pLRHhGMGF0MlFnM20wRzVDb01DYjYzeU9rcFNoWVZ4Ujg5eTRoTFpPZ3JnTU5SSi1tWEs4YUc4MA?oc=5",
-    "source": "osaka style",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://www.anemo.co.jp/topics/lifestyle/event-lifestyle/442286-20261103/",
-  "imageFrom": "https://www.anemo.co.jp/topics/lifestyle/event-lifestyle/442286-20261103/",
-  "imageHash": "c8aff1c1dd7f70a9",
-  "placeChecked": true
- },
- {
-  "id": "ca667db3ce7a",
-  "name": "ハウステンボス「白銀の世界」",
-  "name_th": "โลกสีเงิน ฮุยส์เทนบอส",
-  "start": null,
-  "end": null,
-  "venue": "ハウステンボス",
-  "city": null,
-  "country": "JP",
-  "region": "kyushu",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "lights",
-   "themepark"
-  ],
-  "summary_th": "เทศกาลไฟประดับ 13 ล้านดวง กับลานสเก็ตน้ำแข็งริมคลองที่ฮุยส์เทนบอส",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "画像19 / 22＞世界最大1300万球の光、日本唯一の運河アイススケート、毎日開催する感動必至の点灯式…ハウステンボスの「白銀の世界」がすごすぎた！",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15SmEzSGxCYUNTa0I0V05BenhwOWRTWUljc2hFb2hEX1VrWmVVLXdQNVozUFJ4OEhYaU1ER0lETVMtVkhpZGpGMVA5NUhxU0h4M2VCQ0RXcW9rZ3RtY3NNMDg3b2xwWXdtZEhkYi1B?oc=5",
-    "source": "ウォーカープラス",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": null,
-  "placeChecked": true
- },
- {
-  "id": "5cde1631509d",
-  "name": "TOKYO周穫祭",
-  "name_th": "โตเกียวชูคาคุไซ",
-  "start": null,
-  "end": null,
-  "venue": null,
-  "city": "東京",
-  "country": "JP",
-  "region": "kanto",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "food",
-   "travel"
-  ],
-  "summary_th": "งานรวมท่องเที่ยวและอาหารของโตเกียว",
-  "image": "https://tms-media.jp/wp-content/uploads/2026/11/tokyo-shukaku.jpg",
-  "official": null,
-  "sources": [
-   {
-    "title": "東京の観光とグルメが「TOKYO周穫祭」に集結",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40TzE1ZHBpMUFrbEFkTUg0S1pIaGlBeWhLY1o4b042V0Zxb2VwbWp0ZVV4bVlOTXVNUzNKdU5tSE9fUndDQTU1a05UdG9rSGpHRFRtTVZqbUxoVVJlTjJvbXJibWo?oc=5",
-    "source": "千葉テレビ放送株式会社",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://www.sanspo.com/pressrelease/atpress/U2EO2TKXB5MXVOKLQO36NYT25U/",
-  "imageFrom": "https://tms-media.jp/posts/99536/",
-  "placeChecked": true,
-  "imageHash": "c716ccb8a0ddcac0"
- },
- {
-  "id": "7ff42a289984",
-  "name": "2026 강남 푸드위크존·메디투어 팝업존",
-  "name_th": "โซนฟู้ดวีคและป๊อปอัปเมดิทัวร์ 2026 ย่านคังนัม",
-  "start": null,
-  "end": null,
-  "venue": "코엑스",
-  "city": "서울",
-  "country": "KR",
-  "region": "seoul",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "food",
-   "market"
-  ],
-  "summary_th": "งานป๊อปอัปโซนอาหารและเมดิทัวร์ที่เขตคังนัม กรุงโซล จัดขึ้นที่โคเอ็กซ์ในเดือนพฤศจิกายน",
-  "image": "http://www.bing.com/th?id=ONUT.6LnkplMHSHOIWPH0mW8QvA&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "서울 강남구, '2026 강남 푸드위크존·메디투어 팝업존' 11월 코엑스 개최",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQOEEtTGZKaTBUMUtOX1hkR1ZFN1dKZ2M3dTBkTGhramZoYWt3SW9WNlFwRW9FMlZBOEh2LWg4OHpZcDFHUzFBQy05ckd5dmZpM20zX3hIYVI4VTlIQ05MX1NOSGVvcmxfTzA4a1VvQWJzRFNUMVY3NkpkN21mY1NVMlpMMEN6T1o3eXNwTm1CQm1nSHlsSWNMeGNtcnh2ZUdBc190LUcxQ0hwWHplV3cxUDZQbEJoeGh0ai1qOUpFRXNFa196NDBZeEg2QlFsYkxvY0FPQ0dEcTJWWUtIRXpPODFCX05wa0NqRnY1V0lMc3F5MVF2aTgzaw?oc=5",
-    "source": "데일리안",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-03",
-  "updated": "2026-11-03",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-03",
-  "article": "https://www.gukjenews.com/news/articleView.html?idxno=3740664",
-  "imageFrom": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1433641",
-  "imageHash": "4825b88f8b1d2de3",
-  "placeChecked": true
+  "imageHash": "74c72f4d1f31a0bf",
+  "dateTried": true
  },
  {
   "id": "646f7432f714",
@@ -619139,7 +619371,8 @@
   "article": "https://www.gsmarena.com/oppo_find_x10_and_find_x10_pro_max_launch_in_india_here_is_how_much_they_cost-news-75172.php",
   "imageFrom": "https://www.gsmarena.com/oppo_find_x10_and_find_x10_pro_max_launch_in_india_here_is_how_much_they_cost-news-75172.php",
   "imageHash": "3e96d9d0349fa05b",
-  "placeChecked": true
+  "placeChecked": true,
+  "dateTried": true
  },
  {
   "id": "8901db6334ed",
