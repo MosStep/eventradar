@@ -1,16 +1,16 @@
 {
- "finishedAt": "2026-11-06T02:37:02.369Z",
+ "finishedAt": "2026-11-06T12:51:40.142Z",
  "runner": "github",
- "total": 10493,
- "upcoming": 6787,
- "added": 0,
- "pending": 11561,
+ "total": 10515,
+ "upcoming": 6809,
+ "added": 6,
+ "pending": 13068,
  "withDate": 62,
  "withImage": 80,
  "withPrice": 17,
  "ai": {
-  "calls": 952,
-  "failed": 951,
+  "calls": 131,
+  "failed": 112,
   "quota": [],
   "billing": false,
   "billingBy": [],
@@ -18,24 +18,23 @@
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 232,
-    "failed": 231
+    "calls": 79,
+    "failed": 60
    },
    "aiu": {
-    "calls": 720,
-    "failed": 720
+    "calls": 52,
+    "failed": 52
    }
   },
-  "down": true,
-  "budget": false
+  "down": false,
+  "budget": true
  },
  "streak": {
-  "rate": 1,
-  "failed": 9,
+  "rate": 0,
+  "failed": 10,
   "billing": 0
  },
  "problems": [
-  "เรียก AI ล้มเหลว 951/952 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)",
-  "AI ผู้ให้บริการไม่ว่าง (rate limit) — ข้ามขั้น AI รอบนี้"
+  "เรียก AI ล้มเหลว 112/131 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
  ]
 }
