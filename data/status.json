@@ -1,40 +1,45 @@
 {
- "finishedAt": "2026-11-13T13:03:22.415Z",
+ "finishedAt": "2026-11-13T21:21:21.547Z",
  "runner": "github",
- "total": 12190,
- "upcoming": 7006,
- "added": 9,
- "pending": 26163,
+ "total": 12256,
+ "upcoming": 7070,
+ "added": 4,
+ "pending": 26897,
  "withDate": 56,
  "withImage": 86,
- "withPrice": 15,
+ "withPrice": 16,
  "ai": {
-  "calls": 147,
-  "failed": 118,
-  "quota": [],
-  "billing": false,
-  "billingBy": [],
-  "billingText": "",
+  "calls": 1713,
+  "failed": 1692,
+  "quota": [
+   "txc_a9b5"
+  ],
+  "billing": true,
+  "billingBy": [
+   "tenixe"
+  ],
+  "billingText": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0.01 left until it resets. Turn on Use Credit to pay the rest from your wallet, wait f",
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 81,
-    "failed": 52
+    "calls": 243,
+    "failed": 222
    },
    "aiu": {
-    "calls": 66,
-    "failed": 66
+    "calls": 1470,
+    "failed": 1470
    }
   },
   "down": false,
-  "budget": true
+  "budget": false
  },
  "streak": {
   "rate": 0,
-  "failed": 30,
-  "billing": 0
+  "failed": 31,
+  "billing": 1
  },
  "problems": [
-  "เรียก AI ล้มเหลว 118/147 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+  "คีย์ Tenixe ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe",
+  "เรียก AI ล้มเหลว 1692/1713 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
  ]
 }
