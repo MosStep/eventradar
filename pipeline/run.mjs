@@ -9,6 +9,7 @@ import { extract, hasKeys, workersFor, keyStats, ORDERS, BillingStop, aiDown, ai
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw.json");
+const SEEN = path.join(ROOT, "data", "seen.json"); // processed headlines: id -> date, see compactRaw()
 const EVENTS = path.join(ROOT, "data", "events.json");
 const arg = (name, def) => process.argv.find(a => a.startsWith(`--${name}=`))?.split("=")[1] ?? def;
 const FETCH_ONLY = process.argv.includes("--fetch-only");
@@ -58,6 +59,9 @@ function writeFileAtomic(f, text) {
       fs.mkdirSync(path.dirname(f), { recursive: true });
       fs.writeFileSync(tmp, text);
       fs.renameSync(tmp, f);
+      // GitHub rejects files over 100 MB: warn well before that.
+      const size = fs.statSync(f).size;
+      if (size > 80e6) console.warn(`[size] data/${path.basename(f)} is ${(size / 1e6).toFixed(1)} MB (GitHub limit 100 MB)`);
       return true;
     } catch (e) {
       err = e;
@@ -84,6 +88,7 @@ async function readFeed(raw, country, t, url, sourceName = "") {
     const source = tag(item, "source") || tag(item, "News:Source") || sourceName;
     const title = tag(item, "title").replace(` - ${source}`, "");
     const id = crypto.createHash("sha1").update(country + title).digest("hex").slice(0, 12);
+    if (seen[id]) continue; // processed on an earlier run (compacted out of raw.json)
     if (raw[id]) { if (!raw[id].tags.includes(t)) raw[id].tags.push(t); continue; }
     const desc = url.includes("news.google") ? "" : tag(item, "description").slice(0, 200);
     const link = unwrap(tag(item, "link"));
@@ -346,9 +351,32 @@ async function describe(ev, key = null) {
 }
 
 const raw = load(RAW, {});
-// Keep raw.json small: processed headlines older than 45 days are never needed again.
-const cutoff = new Date(Date.now() - 45 * 864e5).toISOString().slice(0, 10);
-for (const [id, r] of Object.entries(raw)) if (r.status !== "new" && r.date < cutoff) delete raw[id];
+const seen = load(SEEN, {});
+// raw.json holds only headlines still waiting to be read ("new", not expired). Everything else is reduced to id -> date
+// in seen.json, so the fetch step still recognises them and never processes them twice. Seen entries older than 45 days
+// are dropped: feeds only list the last few days, and such an old headline would expire anyway.
+function compactRaw() {
+  const expire = new Date(Date.now() - EXPIRE_DAYS * 864e5).toISOString().slice(0, 10);
+  const cutoff = new Date(Date.now() - 45 * 864e5).toISOString().slice(0, 10);
+  for (const [id, r] of Object.entries(raw)) {
+    if (r.status === "new" && r.date >= expire) continue;
+    seen[id] = r.date;
+    delete raw[id];
+  }
+  for (const [id, d] of Object.entries(seen)) if (d < cutoff) delete seen[id];
+}
+// Compact JSON (no indentation) for the two headline files: raw.json was ~100 MB pretty-printed.
+function saveRaw() {
+  compactRaw();
+  writeFileAtomic(SEEN, JSON.stringify(seen));
+  writeFileAtomic(RAW, JSON.stringify(raw));
+}
+if (process.argv.includes("--compact-only")) { // maintenance: no network, no AI
+  const before = fs.statSync(RAW).size;
+  saveRaw();
+  console.log(`[compact] raw.json ${(before / 1e6).toFixed(1)} MB -> ${(fs.statSync(RAW).size / 1e6).toFixed(2)} MB; seen.json ${(fs.statSync(SEEN).size / 1e6).toFixed(2)} MB; ${Object.keys(raw).length} waiting, ${Object.keys(seen).length} seen`);
+  process.exit(0);
+}
 if (PREFILTER_DRY) {
   // Dry run: triage in memory only, raw.json is not written. Samples are random, for a human sanity check.
   const hits = triage(Object.values(raw));
@@ -367,7 +395,7 @@ if (PREFILTER_DRY) {
 let fetchedCount = 0;
 if (!NO_FETCH) console.log(`[fetch] window=${WINDOW}: ${await fetchHeadlines(raw)}`);
 logTriage(triage(Object.values(raw)));
-save(RAW, raw);
+saveRaw();
 if (FETCH_ONLY) process.exit(0);
 
 // Broken JSON usually comes from one odd headline; retry as two halves so the rest still gets through.
@@ -421,7 +449,7 @@ await Promise.all(workerKeys.map(async key => {
       if (e instanceof BillingStop) { console.error(e.message); stop = true; break; }
       console.warn(`[extract] ${country} batch failed: ${e.message.slice(0, 200)}`);
     }
-    save(RAW, raw);
+    saveRaw();
     save(EVENTS, events);
   }
 }));
