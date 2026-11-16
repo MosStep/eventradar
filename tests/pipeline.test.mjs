@@ -1,7 +1,7 @@
 // Checks for the pipeline helpers that have broken before. Run: node --test tests/*.test.mjs
 import test from "node:test";
 import assert from "node:assert/strict";
-import { parseJson, repairQuotes, similar, similarLoose, near, years, isDate, unwrap, tag, extractText, dateMentions, cleanSplit, eventId, errorKind, prefilterReason, tagPriority, aiProblemKinds, nextStreaks, confirmedKinds } from "../pipeline/lib.mjs";
+import { parseJson, repairQuotes, similar, similarLoose, near, years, isDate, unwrap, tag, extractText, dateMentions, cleanSplit, eventId, errorKind, prefilterReason, tagPriority, aiProblemKinds, nextStreaks, confirmedKinds, countryEvidence, placeVerdict } from "../pipeline/lib.mjs";
 import { NOT_EVENT_WORDS, PRTIMES_EVENT, EVENT_WORDS } from "../pipeline/sources.mjs";
 import { providerOf } from "../pipeline/tenixe.mjs";
 
@@ -92,6 +92,12 @@ test("AI errors: provider rate limits are told apart from quota and billing", ()
   assert.equal(errorKind('503: {"error":"credits pool busy, try later"}'), "other");
   assert.equal(errorKind('402: {"error":"account unpaid, add credits to continue"}'), "billing");
   assert.equal(errorKind('402: {"error":"wallet balance too low"}'), "billing");
+  // Rejected or expired keys: provider down for the run, not a rate limit and not a billing stop.
+  assert.equal(errorKind('401: {"error":"Invalid API key"}'), "auth");
+  assert.equal(errorKind('403: {"error":"Forbidden"}'), "auth");
+  assert.equal(errorKind('403: {"error":"Your access pass has expired"}'), "auth");
+  assert.equal(errorKind('{"error":"api key expired on 2026-11-05"}'), "auth");
+  assert.equal(errorKind('500: {"error":"key expired"}'), "other");
 });
 
 test("alerts: one bad run stays quiet, two runs in a row raise the alert", () => {
@@ -172,4 +178,40 @@ test("TCG first, then anime/game/fan and concerts, other tags last", () => {
   assert.equal(tagPriority(["concert"]), 2);
   assert.equal(tagPriority(["food"]), 0);
   assert.equal(tagPriority(undefined), 0);
+});
+
+test("country evidence: Japanese places and scripts move a Thai-filed event to JP", () => {
+  assert.deepEqual(placeVerdict({ country: "TH", city: "豊橋市", venue: "のんほいパーク" }), { action: "move", country: "JP" });
+  assert.deepEqual(placeVerdict({ country: "TH", city: "船橋市", venue: "日本大学理工学部 船橋キャンパス" }), { action: "move", country: "JP" });
+  assert.deepEqual(placeVerdict({ country: "TH", city: "東京都世田谷区", venue: null }), { action: "move", country: "JP" });
+});
+
+test("country evidence: a real Thai event stays TH, even with Japanese names", () => {
+  assert.equal(placeVerdict({ country: "TH", name: "ラジャダムナン・ワールドシリーズ", city: "バンコク", venue: "ラジャダムナン・スタジアム" }).action, "keep");
+  assert.equal(placeVerdict({ country: "TH", city: "Bangkok", venue: "Live Arena" }).action, "keep");
+});
+
+test("country evidence: Hangul, Vietnamese letters and Chinese cities", () => {
+  assert.deepEqual(placeVerdict({ country: "TH", city: "서울", venue: null }), { action: "move", country: "KR" });
+  assert.deepEqual(placeVerdict({ country: "JP", city: "Đà Nẵng", venue: null }), { action: "move", country: "VN" });
+  assert.deepEqual(placeVerdict({ country: "JP", city: "上海", venue: "上海展览中心" }), { action: "move", country: "CN" });
+  assert.deepEqual(placeVerdict({ country: "JP", city: "台北市", venue: null }), { action: "move", country: "TW" });
+});
+
+test("country evidence: a foreign city written in Thai script moves it to that country", () => {
+  assert.deepEqual(placeVerdict({ country: "TH", city: "ฮานอย", venue: null }), { action: "move", country: "VN" });
+  assert.deepEqual(placeVerdict({ country: "TH", city: "ลอสแอนเจลิส", venue: "Peacock Theater" }), { action: "move", country: "US" });
+});
+
+test("country evidence: names and titles alone never move an event", () => {
+  assert.equal(placeVerdict({ country: "US", name: "ウマ娘 LAライブ", city: "アーケディア, カリフォルニア", venue: null }).action, "keep");
+  assert.equal(placeVerdict({ country: "JP", name: "Lễ hội bia Đức", city: "Los Angeles", venue: null }).action, "move");
+  assert.equal(placeVerdict({ country: "TH", name: "東京フェス", city: null, venue: null }).action, "keep");
+  assert.equal(countryEvidence({ name: "東京フェス", city: null, venue: null }), null);
+});
+
+test("country evidence: conflicting places keep the event only when its own country is one of them", () => {
+  assert.deepEqual(placeVerdict({ country: "JP", city: "東京", venue: "Bangkok Hall" }), { action: "keep" }); // city decides: JP
+  assert.deepEqual(placeVerdict({ country: "KR", city: "Tokyo, Seoul", venue: null }), { action: "keep" });
+  assert.deepEqual(placeVerdict({ country: "TH", city: "Tokyo, Seoul", venue: null }), { action: "suspect" });
 });

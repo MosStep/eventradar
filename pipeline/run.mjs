@@ -3,8 +3,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
-import { COUNTRIES, TAGS, TAXONOMY, WATCH_DEFAULT, OFFICIAL_PAGES, feeds } from "./sources.mjs";
-import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv, eventId, dateMentions, cleanSplit, prefilterReason, tagPriority, aiProblemKinds, nextStreaks } from "./lib.mjs";
+import { COUNTRIES, TAGS, TAXONOMY, WATCH_DEFAULT, OFFICIAL_PAGES, HOME_QUERIES, feeds } from "./sources.mjs";
+import { decode, tag, unwrap, parseJson, norm, similar, similarLoose, near, years, isDate, dayGap, extractText, parseCsv, eventId, dateMentions, cleanSplit, prefilterReason, tagPriority, aiProblemKinds, nextStreaks, countryEvidence, placeVerdict } from "./lib.mjs";
 import { extract, hasKeys, workersFor, keyStats, ORDERS, BillingStop, aiDown, aiDownReason, haltBudget, aiBusy, aiBudgetOut, aiuOn, providerOf } from "./tenixe.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
@@ -81,7 +81,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const EXTRA_FEEDS = { JP: [["https://prtimes.jp/index.rdf", "PR TIMES"]] };
 
 // Reads one RSS 2.0 / RSS 1.0 (RDF) feed into raw headlines. Returns [added, skipped].
-async function readFeed(raw, country, t, url, sourceName = "") {
+async function readFeed(raw, country, t, url, sourceName = "", home = false) {
   let added = 0, skipped = 0;
   const xml = await (await fetch(url, { headers: UA })).text();
   for (const item of xml.split(/<item[\s>]/).slice(1)) {
@@ -94,7 +94,7 @@ async function readFeed(raw, country, t, url, sourceName = "") {
     const link = unwrap(tag(item, "link"));
     const when = new Date(tag(item, "pubDate") || tag(item, "dc:date"));
     const rec = { id, country, tags: [t], title, desc, source, link, image: LOGO_SITES.test(link) ? null : tag(item, "News:Image") || null,
-      date: (isNaN(when) ? new Date() : when).toISOString().slice(0, 10) };
+      date: (isNaN(when) ? new Date() : when).toISOString().slice(0, 10), ...(home ? { home: true } : {}) };
     const why = prefilterReason(rec, sourceName || source);
     raw[id] = why ? { ...rec, status: "skip", skipReason: `prefilter:${why}` } : { ...rec, status: "new" };
     why ? skipped++ : added++;
@@ -132,7 +132,7 @@ async function fetchHeadlines(raw) {
     for (const [t, queries] of Object.entries(c.queries)) {
       for (const q of queries) {
         for (const url of feeds(country, q, WINDOW)) {
-          try { const [a, s] = await readFeed(raw, country, t, url); added += a; skipped += s; }
+          try { const [a, s] = await readFeed(raw, country, t, url, "", HOME_QUERIES.includes(q)); added += a; skipped += s; }
           catch (e) { console.warn(`[fetch] ${country}/${q}: ${e.message}`); }
           await sleep(url.includes("news.google") ? 1500 : 500);
         }
@@ -422,7 +422,7 @@ const AHEAD = /เตรียมจัด|จะจัด|เปิดจอง
 const ahead = r => (AHEAD.test(r.title + r.desc) ? 1 : 0);
 // Queue order: TH first, then tag priority (TCG, anime/game/fan, concerts/festivals), upcoming announcements, newest first.
 const pending = Object.values(raw).filter(r => r.status === "new")
-  .sort((a, b) => (b.country === "TH") - (a.country === "TH") || tagPriority(b.tags) - tagPriority(a.tags)
+  .sort((a, b) => (b.home === true) - (a.home === true) || (b.country === "TH") - (a.country === "TH") || tagPriority(b.tags) - tagPriority(a.tags)
     || ahead(b) - ahead(a) || b.date.localeCompare(a.date));
 // Per-country cap per run: headlines beyond it stay "new" for later runs, or expire.
 const capFor = c => (CAP_ARG !== null ? Number(CAP_ARG) : c === "TH" ? Infinity : aiuOn() ? 600 : 150);
@@ -753,7 +753,10 @@ async function splitRoundups() {
         { role: "user", content: `Article (published ${published || "unknown"}):\n${text}` }], ORDERS.describe, key);
       const d = cleanSplit(parseJson(out), Object.keys(TAGS));
       for (const f of d.events) {
-        const country = Object.keys(COUNTRIES).includes(f.country) ? f.country : ev.country;
+        // The model's country is not trusted here (it answered TH for Japanese festivals): the event's own venue and city
+        // decide, else the article's country.
+        const place = countryEvidence(f);
+        const country = place?.sure ? place.country : ev.country;
         if (events.some(e => sameEvent(e, { ...f, country }))) continue; // already listed (maybe under the same article)
         events.push({ id: eventId(country, f.name, f.start), name: f.name, name_th: f.name_th, start: f.start, end: f.end ?? f.start,
           venue: f.venue, city: f.city, country, region: null, regionTried: false, online: false, price_th: null,
@@ -961,6 +964,18 @@ Codes: VN Vietnam, KR South Korea, ID Indonesia, US USA, CA Canada, GB UK, FR Fr
     });
   }
   if (todo.length) console.log(`[place] ${todo.length} mention another country: removed ${removed}, fixed ${fixed}, still hidden ${todo.length - cleared}`);
+}
+
+// Safety net, no AI: the country must agree with the venue and city. A mismatch moves the event to the country its place
+// names give; place names that conflict without the event's own country hide it (placeSuspect) until a person checks.
+{
+  let moved = 0, hidden = 0;
+  for (const e of events) {
+    const v = placeVerdict(e);
+    if (v.action === "move") { e.country = v.country; e.region = null; e.regionTried = false; moved++; }
+    else if (v.action === "suspect") { e.placeSuspect = true; hidden++; }
+  }
+  if (moved || hidden) console.log(`[place-guard] moved ${moved} to the country their place names give, hidden ${hidden} with conflicting places`);
 }
 
 const noRegion = events.filter(e => !e.region && !e.regionTried);

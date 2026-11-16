@@ -29,7 +29,15 @@ if (-not $env:AIU_KEYS) {
 $log = Join-Path $env:LOCALAPPDATA "EventRadar\loop.log"
 New-Item -ItemType Directory -Force (Split-Path $log) | Out-Null
 # Data sync helpers. During a rebase "theirs" is the commit being replayed, i.e. this runner's data.
-function Write-Log([string]$m) { $m | Tee-Object -FilePath $log -Append | Out-Host }
+# Every line is written as UTF-8 without BOM (Tee-Object -Append wrote UTF-16 under Windows PowerShell 5.1, and the
+# Thai text came out garbled). A log left in UTF-16 by the old script is moved aside on start.
+$utf8 = New-Object System.Text.UTF8Encoding $false
+if (Test-Path $log) {
+  $head = [IO.File]::ReadAllBytes($log) | Select-Object -First 2
+  if ($head.Count -eq 2 -and $head[0] -eq 0xFF -and $head[1] -eq 0xFE) { Move-Item -Force $log ($log -replace '.log$', '.utf16-old.log') }
+}
+function Add-LogLine([string]$m) { [IO.File]::AppendAllText($log, "$m`r`n", $utf8) }
+function Write-Log([string]$m) { Add-LogLine $m; $m | Out-Host }
 
 function Test-RebaseOpen {
   $gd = git rev-parse --git-dir 2>$null
@@ -90,11 +98,11 @@ while ($true) {
   $batches = if ($env:AIU_KEYS) { "--max-batches=40" } else { "--max-batches=4" }
   $opts = @($batches, "--max-describe=80", "--max-verify=20", "--max-dates=30", "--max-price=40", "--split=20", "--budget-min=50")
   $opts = if ($fetch) { @("--window=1d") + $opts } else { @("--no-fetch") + $opts }
-  "=== round $round $(Get-Date -Format 'yyyy-MM-dd HH:mm') $opts" | Tee-Object -Append $log
+  Write-Log "=== round $round $(Get-Date -Format 'yyyy-MM-dd HH:mm') $opts"
   git pull -q --rebase --autostash origin main 2>&1 | Out-Null
   if (-not (Resolve-DataRebase)) { Write-Log "pre-round sync: conflict outside data/" }
   $roundStart = (Get-Date).ToUniversalTime()
-  node pipeline/run.mjs @opts 2>&1 | ForEach-Object { "$_" } | Tee-Object -Append $log
+  node pipeline/run.mjs @opts 2>&1 | ForEach-Object { Write-Log "$_" }
   git add data | Out-Null
   git commit -q -m "data: local Nemotron round $round" | Out-Null
   Publish-Data $round | Out-Null
@@ -104,11 +112,11 @@ while ($true) {
   $busy = gh run list -R MosStep/eventradar --workflow daily.yml --limit 10 --json event,status -q '[.[] | select(.event != \"push\" and .status != \"completed\")] | length' 2>$null
   $last = gh run list -R MosStep/eventradar --workflow daily.yml --limit 10 --json event,status,createdAt -q '[.[] | select(.event != \"push\")][0].createdAt' 2>$null
   if ([int]$busy -eq 0 -and (-not $last -or ((Get-Date).ToUniversalTime() - [datetime]::Parse($last).ToUniversalTime()).TotalHours -gt 6)) {
-    "    no GitHub run in 6h - starting one" | Tee-Object -Append $log
+    Write-Log "    no GitHub run in 6h - starting one"
     gh workflow run daily.yml -R MosStep/eventradar --ref main 2>&1 | Out-Null
   }
   $left = node -e "const r=require('./data/raw.json');console.log(Object.values(r).filter(x=>x.status==='new').length)"
-  "    pending headlines: $left" | Tee-Object -Append $log
+  Write-Log "    pending headlines: $left"
   # The provider was busy (rate limit / quota) in a round that finished: give it 20 extra minutes before the next one.
   # Only a status.json written by this round counts (finishedAt not before the round start); a crashed round leaves
   # the old file behind, so it never causes the wait.
@@ -117,7 +125,7 @@ while ($true) {
   $finished = $null
   if ($parts[0]) { try { $finished = [datetime]::Parse($parts[0]).ToUniversalTime() } catch { $finished = $null } }
   $aiDown = ($parts.Count -gt 1 -and $parts[1] -eq "true")
-  if ($finished -and $finished -ge $roundStart -and $aiDown) { "    AI provider busy - waiting 20 min extra" | Tee-Object -Append $log; Start-Sleep -Seconds 1200 }
+  if ($finished -and $finished -ge $roundStart -and $aiDown) { Write-Log "    AI provider busy - waiting 20 min extra"; Start-Sleep -Seconds 1200 }
   # Backlog done: keep going but slowly - one round an hour picks up news the 4-a-day GitHub runs missed.
   if ([int]$left -lt 50) { Start-Sleep -Seconds 3600 }
 }

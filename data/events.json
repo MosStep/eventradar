@@ -5100,8 +5100,8 @@
   "end": "2025-11-02",
   "venue": "หมู่บ้านวัฒนธรรมและท่องเที่ยวเชิงชาติพันธุ์เวียดนาม",
   "city": "ฮานอย",
-  "country": "TH",
-  "region": "north",
+  "country": "VN",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -5126,7 +5126,7 @@
   "imageTried": true,
   "article": "https://vietnamnews.vn/sports/1726928/revved-up-for-record-breaking-vietnam-offroad-cup.html",
   "imageFrom": "https://vov.vn/o-to-xe-may/giai-dua-xe-dia-hinh-pvoil-voc-2026-duoc-thang-hang-len-cap-quoc-gia-post1341197.vov",
-  "regionTried": true,
+  "regionTried": false,
   "imageHash": "5dcd24c0ea55c6b2",
   "dateTried": true,
   "placeChecked": true,
@@ -7565,9 +7565,9 @@
   "end": "2026-03-03",
   "venue": "泰国湄南河畔",
   "city": "上海",
-  "country": "TH",
-  "region": "bkk",
-  "regionTried": true,
+  "country": "CN",
+  "region": null,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -14437,7 +14437,7 @@
   "end": "2026-08-28",
   "venue": "Samsung booth at Gamescom 2026, Koelnmesse",
   "city": "Cologne, Germany",
-  "country": "TH",
+  "country": "DE",
   "tags": [
    "esports",
    "game"
@@ -14458,7 +14458,7 @@
   "updated": "2026-10-27",
   "enriched": true,
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "imageHash": "c8daf484b7a0cc7a",
   "dateTried": true,
   "placeChecked": true
@@ -18581,7 +18581,7 @@
   "end": "2026-09-20",
   "venue": null,
   "city": "Surabaya",
-  "country": "TH",
+  "country": "ID",
   "tags": [
    "esports",
    "game"
@@ -18609,7 +18609,7 @@
   "updated": "2026-10-31",
   "enriched": true,
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "imageHash": "f8f0f58ae54c2bd6",
   "imageRechecked": true,
   "imageTried": true,
@@ -19560,7 +19560,7 @@
   "end": "2026-12-06",
   "venue": "豊橋市自然史博物館",
   "city": "豊橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
   "regionTried": false,
   "online": false,
@@ -24174,9 +24174,9 @@
   "end": "2026-10-31",
   "venue": "THE SOUTHSIDE",
   "city": "香港",
-  "country": "MY",
+  "country": "CN",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": "เข้าฟรี",
   "tags": [
@@ -24232,9 +24232,9 @@
   "end": "2026-10-31",
   "venue": "香港海洋公园",
   "city": "香港",
-  "country": "MY",
+  "country": "CN",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -27218,7 +27218,7 @@
   "end": "2026-12-06",
   "venue": "豊橋総合動植物公園（のんほいパーク）",
   "city": "豊橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
   "regionTried": false,
   "online": false,
@@ -27278,7 +27278,7 @@
   "end": "2026-11-01",
   "venue": "のんほいパーク",
   "city": "豊橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
   "regionTried": false,
   "online": false,
@@ -27337,7 +27337,7 @@
   "end": "2026-11-01",
   "venue": "のんほいパーク",
   "city": "豊橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
   "regionTried": false,
   "online": false,
@@ -27395,7 +27395,7 @@
   "end": "2026-11-01",
   "venue": "動物園、中央門、植物園内",
   "city": "豊橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
   "regionTried": false,
   "online": false,
@@ -27447,7 +27447,7 @@
   "end": "2026-12-06",
   "venue": "豊橋市自然史博物館",
   "city": "豊橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
   "regionTried": false,
   "online": false,
@@ -29332,9 +29332,9 @@
   "end": "2026-10-08",
   "venue": "โรงภาพยนตร์ในฮ่องกง",
   "city": "ฮ่องกง",
-  "country": "TH",
-  "region": "south",
-  "regionTried": true,
+  "country": "CN",
+  "region": null,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -29548,7 +29548,7 @@
   "end": "2026-10-11",
   "venue": "玉川せせらぎホール（玉川区民会館）",
   "city": "東京都世田谷区",
-  "country": "FR",
+  "country": "JP",
   "region": null,
   "online": false,
   "price_th": "เข้าฟรี",
@@ -29575,7 +29575,8 @@
   "article": "https://prtimes.jp/main/html/rd/p/000003818.000013972.html",
   "placeChecked": true,
   "dateTried": true,
-  "imageFrom": "https://prtimes.jp/main/html/rd/p/000003818.000013972.html"
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000003818.000013972.html",
+  "regionTried": false
  },
  {
   "id": "eb2f09ee328e",
@@ -37087,9 +37088,9 @@
   "end": "2026-10-31",
   "venue": "不同楼层及户外广场, THE SOUTHSIDE",
   "city": "香港",
-  "country": "MY",
+  "country": "CN",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -39701,7 +39702,7 @@
   "end": "2026-10-17",
   "venue": "อาริอาเกะ อารีนา",
   "city": "กรุงโตเกียว",
-  "country": "TH",
+  "country": "JP",
   "region": null,
   "online": false,
   "price_th": null,
@@ -39738,7 +39739,7 @@
    "c9f73ee1cfb7",
    "59d09df761be"
   ],
-  "regionTried": true
+  "regionTried": false
  },
  {
   "id": "4076707c6414",
@@ -41057,7 +41058,7 @@
   "end": "2026-11-21",
   "venue": "のんほいパーク（自然史博物館周辺）",
   "city": "豊橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
   "regionTried": false,
   "online": false,
@@ -44954,7 +44955,7 @@
   "end": "2026-10-21",
   "venue": "มหาวิทยาลัยกรุงเทพ และ เฮ้าส์ สามย่าน",
   "city": "ปทุมธานี และ กรุงเทพ",
-  "country": "TW",
+  "country": "TH",
   "region": null,
   "online": false,
   "price_th": null,
@@ -44984,7 +44985,7 @@
    "f907bf83ab73",
    "3b4f2126ff58"
   ],
-  "regionTried": true
+  "regionTried": false
  },
  {
   "id": "08e123c8d738",
@@ -69588,9 +69589,9 @@
   "end": "2026-10-24",
   "venue": "LG露天广场及LG中庭, THE SOUTHSIDE",
   "city": "香港",
-  "country": "MY",
+  "country": "CN",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -116612,9 +116613,9 @@
   "end": "2026-11-08",
   "venue": "Chef’s Cuts, THE SOUTHSIDE",
   "city": "香港",
-  "country": "MY",
+  "country": "CN",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -201320,7 +201321,7 @@
   "end": "2027-03-31",
   "venue": "考古学与非物质文化遗产中心ArCH Square",
   "city": "กัมปงกลาม สิงคโปร์",
-  "country": "CN",
+  "country": "SG",
   "region": null,
   "online": false,
   "price_th": "เข้าฟรี",
@@ -201350,7 +201351,7 @@
   "imageFrom": "https://www.zaobao.com.sg/news/singapore/story20261028-9910554",
   "imageHash": "19a09ca49c26602f",
   "placeChecked": true,
-  "regionTried": true,
+  "regionTried": false,
   "dateTried": true,
   "notDupWith": [
    "4927608a194b",
@@ -208437,9 +208438,9 @@
   "end": "2026-10-31",
   "venue": "LG露天广场及LG中庭, THE SOUTHSIDE",
   "city": "香港",
-  "country": "MY",
+  "country": "CN",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -213705,9 +213706,9 @@
   "end": "2026-11-01",
   "venue": "日本大学理工学部 船橋キャンパス",
   "city": "船橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -213773,9 +213774,9 @@
   "end": "2026-10-31",
   "venue": "スポーツホール(日本大学理工学部 船橋キャンパス)",
   "city": "船橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -213837,9 +213838,9 @@
   "end": "2026-11-01",
   "venue": "2号館と1号館の間(西門付近) 日本大学理工学部 船橋キャンパス",
   "city": "船橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -232262,9 +232263,9 @@
   "end": "2026-11-01",
   "venue": "朝霞駅南口駅前広場、朝霞駅前商店街、駅西口富士見通線、朝霞市役所前、市役所花の池テラス、シンボルロード、朝霞の森",
   "city": "朝霞市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -232323,9 +232324,9 @@
   "end": "2026-11-01",
   "venue": "駅前広場エリア",
   "city": "朝霞市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -251393,9 +251394,9 @@
   "end": "2026-11-01",
   "venue": "日本大学理工学部 船橋キャンパス",
   "city": "船橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -257442,9 +257443,9 @@
   "end": "2026-11-01",
   "venue": "富士見町内会館",
   "city": "朝霞市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -257499,9 +257500,9 @@
   "end": "2026-11-01",
   "venue": "東口エリア",
   "city": "朝霞市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
-  "regionTried": true,
+  "regionTried": false,
   "online": false,
   "price_th": null,
   "tags": [
@@ -282011,8 +282012,8 @@
   "end": "2026-11-06",
   "venue": "งานแสดง SEMA",
   "city": "ลาสเวกัส",
-  "country": "VN",
-  "region": "south",
+  "country": "US",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -282057,7 +282058,8 @@
   "hours": null,
   "datedFrom": "article",
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "regionTried": false
  },
  {
   "id": "e1b5f1ab8c94",
@@ -291873,7 +291875,7 @@
   "end": "2026-12-06",
   "venue": "のんほいパーク園内各所",
   "city": "豊橋市",
-  "country": "TH",
+  "country": "JP",
   "region": null,
   "regionTried": false,
   "online": false,
@@ -300611,8 +300613,8 @@
   "end": "2026-11-06",
   "venue": "Hilton Union Square, San Francisco",
   "city": "San Francisco",
-  "country": "JP",
-  "region": "kanto",
+  "country": "US",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -300646,7 +300648,7 @@
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000236.000044738.html",
   "imageHash": "dedd2cb49a595097",
   "placeChecked": true,
-  "regionTried": true,
+  "regionTried": false,
   "dateTried": true,
   "notDupWith": [
    "1a4ee8bf6f71",
@@ -366070,8 +366072,8 @@
   "end": "2026-11-07",
   "venue": "青草湖風景區主觀賞區",
   "city": "新竹市",
-  "country": "TH",
-  "region": "north",
+  "country": "TW",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -366099,7 +366101,8 @@
   "article": "https://life.tw/article/走進夜間青草湖-光影藝術節點亮湖畔-1122加碼閉幕煙火-3210520",
   "imageFrom": "https://life.tw/article/走進夜間青草湖-光影藝術節點亮湖畔-1122加碼閉幕煙火-3210520",
   "imageHash": "5412b8240303ff2b",
-  "placeChecked": true
+  "placeChecked": true,
+  "regionTried": false
  },
  {
   "id": "53ca9ac05012",
@@ -379696,8 +379699,8 @@
   "end": "2026-11-09",
   "venue": "屏東火車站",
   "city": "屏東市",
-  "country": "TH",
-  "region": "south",
+  "country": "TW",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -379723,7 +379726,8 @@
   "article": "https://n.yam.com/Article/20260107220859",
   "imageFrom": "https://tcnn.org.tw/archives/291835",
   "placeChecked": true,
-  "imageHash": "e30f8e00db0ceeb1"
+  "imageHash": "e30f8e00db0ceeb1",
+  "regionTried": false
  },
  {
   "id": "f9d1836de3ac",
@@ -379733,8 +379737,8 @@
   "end": "2026-11-09",
   "venue": "玉里客家館",
   "city": "玉里鎮",
-  "country": "TH",
-  "region": "east",
+  "country": "TW",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -379760,7 +379764,8 @@
   "article": null,
   "imageFrom": "https://tw.news.yahoo.com/%E6%89%93%E7%A0%B4%E5%B9%B4%E9%BD%A1%E9%99%90%E5%88%B6-%E8%8A%B1%E8%93%AE5%E4%BD%8D%E5%A5%B3%E5%8A%9B%E5%89%B5%E4%BD%9C%E8%80%85%E8%81%AF%E5%B1%95-%E8%8A%B1%E8%97%9D-%E4%BA%9E%E5%85%8B%E5%8A%9B%E9%9C%87%E6%92%BC%E7%99%BB%E5%A0%B4-140024198.html",
   "placeChecked": true,
-  "imageHash": "692b8b6193339913"
+  "imageHash": "692b8b6193339913",
+  "regionTried": false
  },
  {
   "id": "c132676fb6a6",
@@ -384296,8 +384301,8 @@
   "end": "2026-11-10",
   "venue": "กลางเกียวโต",
   "city": null,
-  "country": "TH",
-  "region": "north",
+  "country": "JP",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -384323,7 +384328,8 @@
   "article": "https://www.kaohoon.com/pr/879460",
   "imageFrom": "https://www.kaohoon.com/pr/879460",
   "imageHash": "2e1ff5ccb2289946",
-  "placeChecked": true
+  "placeChecked": true,
+  "regionTried": false
  },
  {
   "id": "5473351d51f6",
@@ -451077,7 +451083,7 @@
   "end": "2026-11-21",
   "venue": "Midtown Atrium, Robinsons Manila",
   "city": "Manila",
-  "country": "ID",
+  "country": "PH",
   "region": null,
   "online": false,
   "price_th": null,
@@ -451114,7 +451120,8 @@
   "article": "https://pia.gov.ph/news/luzon/ncr/eu-expands-higher-education-opportunities-for-filipinos-through-ehef-2026/",
   "imageFrom": "https://pia.gov.ph/news/luzon/ncr/eu-expands-higher-education-opportunities-for-filipinos-through-ehef-2026/",
   "placeChecked": true,
-  "dateTried": true
+  "dateTried": true,
+  "regionTried": false
  },
  {
   "id": "17b740bde7a7",
@@ -473510,7 +473517,7 @@
   "end": "2026-11-28",
   "venue": "Queen Sirikit National Convention Center (QSNCC)",
   "city": "Bangkok",
-  "country": "SG",
+  "country": "TH",
   "region": null,
   "online": false,
   "price_th": "ลงทะเบียนล่วงหน้าฟรี / หน้างาน 500 บาท",
@@ -473539,7 +473546,7 @@
   "imageFrom": "https://www.interiordaily.com/article/9885816/asia-authored-at-find-global-summit-2026-brings-zha-snohetta-unstudio-and-why-to-bangkok/",
   "imageHash": "84dbc49e4acb038a",
   "placeChecked": true,
-  "regionTried": true,
+  "regionTried": false,
   "about_th": "FIND Global Summit 2026 เป็นเวทีเสวนาภายใต้งาน FIND – Design Fair Asia ครั้งที่ 5 จัดขึ้นระหว่างวันที่ 26–28 พฤศจิกายน 2026 ณ ศูนย์การประชุมแห่งชาติสิริกิติ์ (QSNCC) กรุงเทพฯ โดยรวบรวมวิทยากรกว่า 60 คนจาก 17 ประเทศมาพูดคุยเรื่องสถาปัตยกรรม การออกแบบ การโรงแรม และอนาคตของสภาพแวดล้อมที่สร้างขึ้นในเอเชีย งานนี้เหมาะสำหรับนักออกแบบ สถาปนิก นักพัฒนา ผู้ประกอบการโรงแรม และผู้เชี่ยวชาญในอุตสาหกรรมที่เกี่ยวข้อง โดยผู้ว่าฯ กทม. ชัชชาติ สิทธิพันธุ์ จะเป็นประธานเปิดงานในวันที่ 26 พฤศจิกายน",
   "highlights_th": [
    "วิทยากรกว่า 60 คนจาก 17 ประเทศ",
@@ -479322,7 +479329,7 @@
   "end": "2026-11-29",
   "venue": "고려대학교 화정체육관",
   "city": "서울",
-  "country": "CN",
+  "country": "KR",
   "region": null,
   "online": false,
   "price_th": "121,000 วอน (ที่นั่งระบุ/จำกัดวิว)",
@@ -479348,7 +479355,7 @@
   "imageTried": true,
   "article": "https://www.sohu.com/a/1091810102_128649",
   "imageFrom": "https://www.sohu.com/a/1091810102_128649",
-  "regionTried": true,
+  "regionTried": false,
   "imageHash": "51c7e29c48605b6a",
   "dateTried": true,
   "placeChecked": true,
@@ -521057,7 +521064,7 @@
   "end": "2027-02-28",
   "venue": "TAIPEI DOME",
   "city": "Taipei",
-  "country": "JP",
+  "country": "TW",
   "region": null,
   "online": false,
   "price_th": null,
@@ -521089,7 +521096,7 @@
   "imageTried": true,
   "article": "https://mainichi.jp/articles/20261016/orc/00m/200/000000c",
   "imageFrom": "https://mainichi.jp/articles/20261016/orc/00m/200/000000c",
-  "regionTried": true,
+  "regionTried": false,
   "imageHash": "7b475c78a4ed0a93",
   "dateTried": true,
   "placeChecked": true,
@@ -548432,7 +548439,7 @@
   "end": "2027-02-12",
   "venue": "IMPACT Arena",
   "city": "Bangkok",
-  "country": "AU",
+  "country": "TH",
   "region": null,
   "online": false,
   "price_th": null,
@@ -548517,7 +548524,7 @@
   "imageFrom": "https://www.billboard.com/music/pop/katseye-expands-wildworld-tour-asia-australia-dates-1236370138/",
   "imageHash": "10f91f3817386a53",
   "placeChecked": true,
-  "regionTried": true,
+  "regionTried": false,
   "dateTried": true,
   "notDupWith": [
    "49c8da1b830d",
@@ -567686,8 +567693,8 @@
   "end": "2027-06-01",
   "venue": "台北世界貿易センターホール1",
   "city": "台北市",
-  "country": "CN",
-  "region": "east",
+  "country": "TW",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -567718,7 +567725,8 @@
   "placeChecked": true,
   "notDupWith": [
    "7f66b9c9dcb0"
-  ]
+  ],
+  "regionTried": false
  },
  {
   "id": "610b0845c5f1",
@@ -596485,7 +596493,8 @@
   "hours": null,
   "described": true,
   "datesRead": true,
-  "dateTried": true
+  "dateTried": true,
+  "placeSuspect": true
  },
  {
   "id": "f32c85c2867f",
@@ -596495,8 +596504,8 @@
   "end": null,
   "venue": null,
   "city": "江西区",
-  "country": "KR",
-  "region": "seoul",
+  "country": "CN",
+  "region": null,
   "online": false,
   "price_th": null,
   "tags": [
@@ -596531,7 +596540,8 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "regionTried": false
  },
  {
   "id": "685aefb07a11",
@@ -615298,7 +615308,8 @@
   "article": null,
   "placeChecked": true,
   "regionTried": true,
-  "dateTried": true
+  "dateTried": true,
+  "placeSuspect": true
  },
  {
   "id": "9a43fb144a9c",
@@ -676518,7 +676529,8 @@
   "imageFrom": "https://www.24h.com.vn/am-thuc/cach-chuc-tet-suc-khoe-voi-mon-viet-vua-hao-hang-vua-y-nghia-ban-da-biet-chua-c460a1326615.html",
   "placeChecked": true,
   "imageHash": "c97c2581a654881f",
-  "dateTried": true
+  "dateTried": true,
+  "placeSuspect": true
  },
  {
   "id": "d416ea17fa26",

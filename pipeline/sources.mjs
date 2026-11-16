@@ -6,6 +6,17 @@ import path from "node:path";
 export const TAXONOMY = JSON.parse(fs.readFileSync(path.join(import.meta.dirname, "..", "web", "taxonomy.json"), "utf8"));
 export const TAGS = Object.fromEntries(Object.values(TAXONOMY).flatMap(g => Object.entries(g.tags)));
 
+// Nakhon Sawan (the home province of the app's main user) and nearby lower-north provinces. Each query was checked
+// against the feeds (7-day window): all return items except "V-Square นครสวรรค์", which was dropped.
+// Queries in HOME_QUERIES are read first, like the TH favourites.
+const HOME_TH = {
+  local: ["นครสวรรค์ งาน", "นครสวรรค์ เทศกาล", "นครสวรรค์ งานวัด", "ตรุษจีนปากน้ำโพ", "ปากน้ำโพ", "บึงบอระเพ็ด", "อุทัยธานี งาน", "พิจิตร งาน", "ชัยนาท งาน", "กำแพงเพชร งาน"],
+  concert: ["นครสวรรค์ คอนเสิร์ต"],
+  market: ["นครสวรรค์ ตลาดนัด", "นครสวรรค์ อีเวนต์", "เซ็นทรัล นครสวรรค์"],
+  boardgame: ["บอร์ดเกม นครสวรรค์"],
+  tcg: ["การ์ดเกม นครสวรรค์"],
+};
+export const HOME_QUERIES = Object.values(HOME_TH).flat();
 export const COUNTRIES = {
   TH: {
     name: "ไทย",
@@ -14,17 +25,17 @@ export const COUNTRIES = {
       anime: ["งานอนิเมะ", "anime festival bangkok", "อนิเมะ งานแฟน กรุงเทพ"], game: ["งานเกม อีเวนต์", "Thailand Game Show", "Pokémon Center BANGKOK", "โปเกมอน เซ็นทรัลเวิลด์"], esports: ["การแข่งขันอีสปอร์ต รอบชิงชนะเลิศ"],
       cosplay: ["งานคอสเพลย์", "คอสเพลย์ อีเวนต์ กรุงเทพ"], comic: ["Comic Con Thailand", "งานการ์ตูน จัดงาน"], figure: ["งานฟิกเกอร์", "art toy งาน"],
       vtuber: ["VTuber งาน กรุงเทพ"],
-      fanmeet: ["แฟนมีต", "fan meeting bangkok"], idol: ["คอนเสิร์ต ไอดอล ญี่ปุ่น กรุงเทพ"], concert: ["คอนเสิร์ต กรุงเทพ ประกาศ"],
+      fanmeet: ["แฟนมีต", "fan meeting bangkok"], idol: ["คอนเสิร์ต ไอดอล ญี่ปุ่น กรุงเทพ"], concert: ["คอนเสิร์ต กรุงเทพ ประกาศ", ...HOME_TH.concert],
       festival: ["มิวสิกเฟสติวัล", "งานแถลงข่าว เปิดตัว อีเวนต์"], movie: ["รอบปฐมทัศน์ ภาพยนตร์ กาล่า"],
       ai: ["งานสัมมนา AI", "AI conference bangkok"], gadget: ["งานเปิดตัว สมาร์ทโฟน", "Thailand Mobile Expo"], startup: ["งานสตาร์ทอัพ"],
       devconf: ["งานสัมมนา นักพัฒนา developer conference bangkok"],
       carlaunch: ["งานเปิดตัวรถยนต์ใหม่"], motorshow: ["Motor Show มอเตอร์โชว์", "Motor Expo"], ev: ["งาน EV รถยนต์ไฟฟ้า"], bike: ["งานมอเตอร์ไซค์ บิ๊กไบค์"],
-      local: ["งานวัด งานประจำปี", "งานประจำปี จังหวัด"], food: ["เทศกาลอาหาร"], art: ["นิทรรศการศิลปะ กรุงเทพ"], market: ["งานป๊อปอัพ ตลาดนัด จัดงาน", "เซ็นทรัลเวิลด์ อีเวนต์", "สยามพารากอน อีเวนต์"], travel: ["งานไทยเที่ยวไทย"], pet: ["งานสัตว์เลี้ยง Pet Expo"],
+      local: ["งานวัด งานประจำปี", "งานประจำปี จังหวัด", ...HOME_TH.local], food: ["เทศกาลอาหาร"], art: ["นิทรรศการศิลปะ กรุงเทพ"], market: ["งานป๊อปอัพ ตลาดนัด จัดงาน", "เซ็นทรัลเวิลด์ อีเวนต์", "สยามพารากอน อีเวนต์", ...HOME_TH.market], travel: ["งานไทยเที่ยวไทย"], pet: ["งานสัตว์เลี้ยง Pet Expo"],
       expo: ["อิมแพ็ค เมืองทองธานี งาน", "ไบเทค บางนา งาน", "ศูนย์ประชุมแห่งชาติสิริกิติ์ งาน", "ไบเทค งานแสดงสินค้า", "อิมแพ็ค เมืองทองธานี งานแสดงสินค้า", "ควีนสิริกิติ์ งานแสดงสินค้า"], edu: ["งานแนะแนวการศึกษา", "Job Fair มหกรรมหางาน"], book: ["งานมหกรรมหนังสือ"],
-      tcg: ["การแข่งขันการ์ดเกม", "Pokemon TCG ทัวร์นาเมนต์ ไทย", "Yu-Gi-Oh แข่ง ประเทศไทย", "One Piece Card Game แข่ง", "Digimon Card Game Thailand",
+      tcg: ["การแข่งขันการ์ดเกม", ...HOME_TH.tcg, "Pokemon TCG ทัวร์นาเมนต์ ไทย", "Yu-Gi-Oh แข่ง ประเทศไทย", "One Piece Card Game แข่ง", "Digimon Card Game Thailand",
         "งานการ์ดเกม ตลาดการ์ด", "Weiss Schwarz Thailand", "Union Arena Thailand", "Magic the Gathering Thailand", "Card Fight Vanguard Thailand",
         "โปเกมอนการ์ด การแข่งขัน", "วันพีซการ์ด การแข่งขัน", "ยูกิโอ การแข่งขัน กรุงเทพ", "ดิจิมอนการ์ด การแข่งขัน"],
-      boardgame: ["งานบอร์ดเกม"], stage: ["ละครเวที มิวสิคัล เปิดจองบัตร"], comedy: ["เดี่ยวไมโครโฟน สแตนด์อัพคอมเมดี้"],
+      boardgame: ["งานบอร์ดเกม", ...HOME_TH.boardgame], stage: ["ละครเวที มิวสิคัล เปิดจองบัตร"], comedy: ["เดี่ยวไมโครโฟน สแตนด์อัพคอมเมดี้"],
       museum: ["พิพิธภัณฑ์ นิทรรศการพิเศษ"], design: ["Bangkok Design Week"], photo: ["นิทรรศการภาพถ่าย"], workshop: ["เวิร์กช็อป งานคราฟต์ จัดกิจกรรม"],
       cafe: ["เทศกาลกาแฟ Coffee Fest"], drink: ["เทศกาลคราฟต์เบียร์ ไวน์"], nightmarket: ["ตลาดกลางคืน เปิดใหม่ สตรีทฟู้ด"],
       flea: ["ตลาดนัดแฮนด์เมด อาร์ตมาร์เก็ต"], sale: ["มหกรรมลดราคา เซลล์"], fashion: ["แฟชั่นวีค บิวตี้ เอ็กซ์โป"],

@@ -75,9 +75,11 @@ export function similarLoose(a, b) {
 export const dayGap = (a, b) => Math.abs(new Date(a) - new Date(b)) / 864e5;
 
 // What kind of AI error this is: "billing" (stop), "quota" (this key is spent), "rate" (the provider is busy, retry
-// later), or "other" (bad request, timeout, bad JSON ...). Quota wording wins over a 429 status.
+// later), "auth" (the key is rejected or expired: 401, 403 without billing words, or wording about expiry),
+// or "other" (bad request, timeout, bad JSON ...). Quota wording wins over a 429 status.
 // The HTTP status (the "NNN:" prefix of a response error) decides first: a 429 or 5xx is never billing, whatever its
 // body says, so a rate limit that mentions credits or a wallet is not a payment problem.
+const AUTH_WORDS = /expired|expir|invalid[ _-]?(api[ _-]?)?key|unauthori[sz]ed|forbidden|not authenticated|no active subscription/i;
 export function errorKind(msg) {
   const m = String(msg || "");
   const code = Number(m.match(/^(\d{3}):/)?.[1]) || 0; // 0 = no HTTP status (error inside a stream or a bare body)
@@ -87,6 +89,7 @@ export function errorKind(msg) {
   if (code !== 429 && code < 500 && billingWords.test(m)) return "billing";
   if (/quota|insufficient|^402/i.test(m)) return "quota";
   if (code === 429 || /AI_PROVIDER_RATE|too many requests|rate.?limit|concurrent_streams/i.test(m)) return "rate";
+  if (code === 401 || code === 403 || (code < 500 && AUTH_WORDS.test(m))) return "auth";
   return "other";
 }
 
@@ -195,3 +198,80 @@ export function prefilterReason(r, feed = r.source) {
 const TAG_PRIORITY = { tcg: 3, anime: 2, game: 2, esports: 2, cosplay: 2, comic: 2, figure: 2, vtuber: 2, boardgame: 2,
   fanmeet: 2, idol: 2, concert: 2, festival: 2 };
 export const tagPriority = tags => Math.max(0, ...(tags || []).map(t => TAG_PRIORITY[t] || 0));
+
+// Country from where the event happens. Only the venue and city count: names and source titles often mention a
+// foreign place legitimately (a Thai newspaper about a Japanese festival). Returns {country, sure} when the place
+// names point to one country, {country: null, conflict: [...]} when they point to several, or null.
+// The city decides when it names a place; the venue is read only when the city names none. Latin words match whole
+// words only ("rome" is not "hippodrome"). Hangul place names are transliterations (타이중 is Taichung), so they are
+// not evidence by themselves; kana counts as Japanese only with a Japanese place suffix (katakana also spells
+// foreign cities, e.g. アーケディア).
+const PLACE_WORDS = {
+  TH: ["กรุงเทพ", "บางกอก", "bangkok", "thailand", "泰国", "เชียงใหม่", "chiang mai", "ภูเก็ต", "phuket", "พัทยา", "pattaya",
+    "หัวหิน", "hua hin", "ขอนแก่น", "khon kaen", "โคราช", "นครราชสีมา", "อุดรธานี", "สงขลา", "หาดใหญ่", "กระบี่", "krabi",
+    "สมุย", "samui", "ชลบุรี", "ระยอง", "นครสวรรค์", "nakhon sawan", "ปากน้ำโพ", "อยุธยา", "ayutthaya", "ประเทศไทย",
+    "バンコク", "チェンマイ", "プーケット", "パタヤ"],
+  JP: ["東京", "大阪", "京都", "名古屋", "横浜", "神戸", "福岡", "札幌", "仙台", "広島", "奈良", "千葉", "埼玉", "神奈川", "県", "豊橋", "船橋", "朝霞", "浜松", "静岡", "新潟", "熊本", "鹿児島", "沖縄", "那覇", "伊豆", "志摩", "岡崎", "豊田", "川崎", "さいたま",
+    "日本", "japan", "tokyo", "osaka", "kyoto", "nagoya", "yokohama", "ญี่ปุ่น", "โตเกียว", "โอซาก้า", "เกียวโต", "ฟุกุโอกะ",
+    "ซัปโปโร", "โยโกฮามา"],
+  CN: ["北京", "上海", "广州", "深圳", "成都", "重庆", "武汉", "南京", "杭州", "西安", "天津", "苏州", "长沙", "郑州", "青岛",
+    "厦门", "福州", "济南", "合肥", "昆明", "南宁", "哈尔滨", "沈阳", "大连", "无锡", "宁波", "东莞", "佛山", "珠海", "香港",
+    "澳门", "洛阳", "汉中", "四川", "山东", "河南", "湖南", "湖北", "广东", "浙江", "江苏", "福建", "云南", "陕西", "山西",
+    "河北", "辽宁", "吉林", "黑龙江", "安徽", "江西", "广西", "海南", "贵州", "甘肃", "青海", "宁夏", "新疆", "西藏", "内蒙古",
+    "beijing", "shanghai", "guangzhou", "shenzhen", "chengdu", "chongqing", "hong kong", "macau", "macao",
+    "จีน", "ปักกิ่ง", "เซี่ยงไฮ้", "กวางโจว", "เซินเจิ้น", "ฮ่องกง", "มาเก๊า", "ฉงชิ่ง"],
+  TW: ["台北", "臺北", "台中", "臺中", "台南", "臺南", "高雄", "新竹", "嘉義", "花蓮", "基隆", "台東", "臺東", "桃園", "新北",
+    "屏東", "宜蘭", "彰化", "雲林", "南投", "苗栗", "澎湖", "金門", "玉里", "淡水", "鹿港", "台湾", "臺灣", "台灣", "đào viên", "taoyuan", "tân bắc", "đạm giang", "taipei", "taichung", "kaohsiung", "taiwan", "tainan", "hsinchu", "hualien",
+    "ไต้หวัน", "ไทเป", "เกาสง"],
+  KR: ["ソウル", "釜山", "仁川", "大邱", "済州", "韩国", "韓国", "서울", "부산", "인천", "대구", "제주", "대전", "seoul", "busan",
+    "incheon", "daegu", "jeju", "korea", "เกาหลี", "โซล", "ปูซาน", "อินชอน", "เชจู"],
+  VN: ["hà nội", "hanoi", "hồ chí minh", "ho chi minh", "đà nẵng", "da nang", "huế", "hải phòng", "cần thơ", "vietnam",
+    "hội an", "hoi an", "ホイアン", "ฮอยอัน", "ฮานอย", "โฮจิมินห์", "ดานัง", "ดาลัด", "ฮาลอง", "เวียดนาม", "ベトナム", "ハノイ", "ホーチミン", "ダナン", "越南"],
+  ID: ["jakarta", "bali", "surabaya", "bandung", "indonesia", "จาการ์ตา", "บาหลี", "อินโดนีเซีย", "インドネシア", "ジャカルタ", ],
+  MY: ["kuala lumpur", "malaysia", "penang", "มาเลเซีย", "กัวลาลัมเปอร์", "クアラルンプール", "マレーシア"],
+  SG: ["singapore", "สิงคโปร์", "シンガポール"],
+  PH: ["manila", "philippines", "cebu", "ฟิลิปปินส์", "มะนิลา", "マニラ", "フィリピン"],
+  US: ["new york", "los angeles", "san francisco", "las vegas", "chicago", "united states", "usa", "นิวยอร์ก", "ลอสแอนเจลิส",
+    "ลาสเวกัส", "ซานฟรานซิสโก", "ニューヨーク", "ロサンゼルス", "ラスベガス", "サンフランシスコ", "シカゴ", "米国", "美国"],
+  GB: ["london", "manchester", "united kingdom", "ลอนดอน", "ロンドン", "英国"],
+  FR: ["paris", "フランス", "ฝรั่งเศส", "パリ", "リヨン", "法国", "lyon", "marseille", "ปารีส", "マルセイユ"],
+  DE: ["berlin", "munich", "frankfurt", "germany", "cologne", "เบอร์ลิน", "เยอรมนี", "ベルリン", "ドイツ", "ミュンヘン", "เคิล์น"],
+  IT: ["milan", "rome", "italy", "มิลาน", "อิตาลี", "ミラノ", "ローマ", "イタリア"],
+  ES: ["madrid", "barcelona", "spain", "มาดริด", "บาร์เซโลนา", "สเปน", "マドリード", "バルセロナ", ],
+  AU: ["sydney", "melbourne", "australia", "ซิดนีย์", "ออสเตรเลีย", "シドニー", "メルボルン", "オーストラリア"],
+  CA: ["toronto", "vancouver", "montreal", "canada", "โตรอนโต", "แคนาดา", "トロント", "バンクーバー", "カナダ"],
+};
+const BACKSLASH = String.fromCharCode(92), REGEX_SPECIAL = ".*+?^${}()|[]" + BACKSLASH;
+const escapeRe = w => w.split("").map(ch => (REGEX_SPECIAL.includes(ch) ? BACKSLASH + ch : ch)).join("");
+const WORD_EDGE = BACKSLASH + "b"; // regex word boundary, for Latin words only
+const PLACE_RE = Object.fromEntries(Object.entries(PLACE_WORDS).map(([c, words]) => [c, new RegExp(
+  words.map(w => (/^[a-z ]+$/.test(w) ? WORD_EDGE + escapeRe(w) + WORD_EDGE : escapeRe(w))).join("|"), "i")]));
+const KANA = /[\u3041-\u3096\u309d-\u309f\u30a1-\u30fa\u30fc-\u30ff]/; // Japanese only (・ is shared with Chinese)
+const JP_SUFFIX = /市|区|町|村|郡|県|府|都|道/;
+const VN_LETTERS = /[ạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỵỷỹđơưăĐƠƯĂ]/;
+export function countryEvidence(e) {
+  const city = String(e.city || "").trim(), venue = String(e.venue || "").trim();
+  // The city decides when it names a place; the venue is read only when the city is empty. Venues often carry foreign
+  // names (ニューヨークランプミュージアム is in Izu, Japan).
+  const placeText = city || venue;
+  const found = new Set();
+  for (const [c, re] of Object.entries(PLACE_RE)) if (placeText && re.test(placeText)) found.add(c);
+  if (found.size > 1) return { country: null, conflict: [...found] };
+  if (found.size === 1) return { country: [...found][0], sure: true };
+  // Vietnamese letters: names written in Vietnamese, also used for French venues (Điện Élysée), so not sure.
+  if (VN_LETTERS.test(placeText)) return { country: "VN", sure: false };
+  // Kana with a Japanese administrative suffix (katakana also spells foreign venues, e.g. オルセー美術館).
+  const both = `${city} ${venue}`;
+  if (KANA.test(`${e.name || ""} ${both}`) && JP_SUFFIX.test(both)) return { country: "JP", sure: true };
+  return null;
+}
+
+// What to do with an event whose country may be wrong: keep it; move it when the place names are sure; otherwise hide
+// it (placeSuspect) until a person checks, and hide it too when the place names conflict without the event's country.
+export function placeVerdict(e) {
+  const ev = countryEvidence(e);
+  if (!ev) return { action: "keep" };
+  if (ev.country === null) return ev.conflict.includes(e.country) ? { action: "keep" } : { action: "suspect" };
+  if (ev.country === e.country) return { action: "keep" };
+  return ev.sure ? { action: "move", country: ev.country } : { action: "suspect" };
+}

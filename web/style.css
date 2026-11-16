@@ -52,6 +52,8 @@ header { display: flex; align-items: center; gap: 12px; padding: 14px 0 6px; }
 
 .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin: 20px 0 10px; }
 .section-head small { color: var(--muted); font-size: 13px; }
+.local-block { border: 1.5px solid var(--accent); border-radius: 16px; padding: 4px 14px 14px; margin-top: 16px; background: var(--glow); }
+.section-head.local h2 { color: var(--accent); }
 #clash { color: var(--accent2); font-weight: 500; }
 
 /* "Soon" rail: poster cards with countdown */

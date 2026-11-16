@@ -29,6 +29,10 @@ const aiuAcquire = slidingLimiter(Number(process.env.AIU_RPM) || 80, 60e3);
 // Keys that can run Nemotron, one stream each — the number of batches that can run at the same time.
 // Keys that ran out of quota for a model are skipped for the rest of the run (daily keys reset at 13:00 Thai time).
 const exhausted = new Set(); // "model|key"
+// Keys the provider rejected (401/403, expired): skipped for the rest of the run. When every key of a provider is
+// rejected, that provider is down (see extract) and the chain moves on to the other provider at once.
+const rejected = new Set(); // "provider|key"
+const providerKeys = p => (p === "aiu" ? list("AIU_KEYS") : [...list("TENIXE_KEYS"), ...list("TENIXE_NEMOTRON_KEYS")]);
 export const nemotronKeys = () => [...new Set(keysFor("nemotron-3-ultra"))].filter(k => !exhausted.has(`nemotron-3-ultra|${k}`));
 
 // Parallel workers for a batch job: a chain that starts with AIUnlimit gets AIU_CONCURRENCY workers (round-robin over
@@ -67,11 +71,11 @@ export const aiBusy = () => activeProviders().length > 0 && activeProviders().ev
 
 // billing is per provider: a billing error on AIUnlimit must not be reported as a Tenixe problem. billingText keeps the
 // first billing message (keys masked) so the status file shows what the provider actually said.
-const stats = { calls: 0, failed: 0, quota: new Set(), billing: { tenixe: false, aiu: false }, billingText: "",
+const stats = { calls: 0, failed: 0, quota: new Set(), billing: { tenixe: false, aiu: false }, billingText: "", errorSample: { tenixe: "", aiu: "" },
   by: { tenixe: { calls: 0, failed: 0 }, aiu: { calls: 0, failed: 0 } } };
 export const keyStats = () => ({ calls: stats.calls, failed: stats.failed, quota: [...stats.quota],
   billing: stats.billing.tenixe || stats.billing.aiu, billingBy: Object.keys(stats.billing).filter(p => stats.billing[p]),
-  billingText: stats.billingText,
+  billingText: stats.billingText, errorSample: { ...stats.errorSample },
   keys: new Set([...list("TENIXE_KEYS"), ...list("TENIXE_NEMOTRON_KEYS"), ...list("AIU_KEYS")]).size,
   providers: { tenixe: { ...stats.by.tenixe }, aiu: { ...stats.by.aiu } } });
 
@@ -147,7 +151,7 @@ export async function extract(messages, order = ORDERS.extract, preferKey = null
     const p = providerOf(model);
     if (!hasProviderKeys(p) || down[p] !== null || halted !== null) continue; // no keys or busy: next model in the chain
     const off = () => halted !== null || down[p] !== null;
-    const ks = keysFor(model).filter(k => !exhausted.has(`${model}|${k}`));
+    const ks = keysFor(model).filter(k => !exhausted.has(`${model}|${k}`) && !rejected.has(`${p}|${k}`));
     for (const key of preferKey && ks.includes(preferKey) ? [preferKey, ...ks.filter(k => k !== preferKey)] : ks) {
       if (off()) break;
       // A busy key (the other runner is using the same one-stream Nemotron key) is waited for, up to ~2 minutes,
@@ -165,12 +169,21 @@ export async function extract(messages, order = ORDERS.extract, preferKey = null
           last = e;
           stats.failed++; stats.by[p].failed++;
           const kind = errorKind(e.message);
+          const masked = e.message.split(key).join("***").slice(0, 200);
+          stats.errorSample[p] ||= masked.slice(0, 160);
           if (/quota/i.test(e.message)) stats.quota.add(key.slice(0, 8));
           if (kind === "billing") {
             stats.billing[p] = true;
-            const masked = e.message.split(key).join("***").slice(0, 200);
             stats.billingText ||= masked;
-            throw new BillingStop(`billing stop on key ${key.slice(0, 8)}: ${masked}`);
+            // Tenixe billing stops the run. AIUnlimit billing only takes that provider down, and Tenixe carries on.
+            if (p === "tenixe") throw new BillingStop(`billing stop on key ${key.slice(0, 8)}: ${masked}`);
+            down[p] ??= `billing: ${masked.slice(0, 80)}`;
+            break;
+          }
+          if (kind === "auth") {
+            rejected.add(`${p}|${key}`);
+            if (providerKeys(p).every(k => rejected.has(`${p}|${k}`))) down[p] ??= `every key rejected (expired or invalid): ${masked.slice(0, 80)}`;
+            break; // this key is done; the next key, or the next provider when all are rejected
           }
           if (/concurrent_streams_exceeded/i.test(e.message) && busy < 20) { busy++; attempt--; await sleep(6); continue; }
           if (kind === "rate" || kind === "quota") {

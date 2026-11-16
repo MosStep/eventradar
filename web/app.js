@@ -110,18 +110,53 @@ function nearestRegion(lat, lng) {
   for (const [k, [a, b]] of Object.entries(REGION_CENTRES)) { const d = (a - lat) ** 2 + (b - lng) ** 2; if (d < dist) { dist = d; best = k; } }
   return best;
 }
+// Home province ("จังหวัดของฉัน"): Nakhon Sawan and the provinces within reach of it. An event belongs to a province when
+// its city or venue names it. Centres are (lat, lng) of the provincial capital.
+const NEAR_KM = 150;
+const PROVINCES = {
+  nakhonsawan: { name: "นครสวรรค์", alias: ["ปากน้ำโพ"], region: "TH:north", center: [15.7047, 100.1372] },
+  uthaithani: { name: "อุทัยธานี", region: "TH:north", center: [15.3835, 100.0244] },
+  chainat: { name: "ชัยนาท", region: "TH:central", center: [15.1852, 100.1251] },
+  phichit: { name: "พิจิตร", region: "TH:north", center: [16.4419, 100.3488] },
+  kamphaengphet: { name: "กำแพงเพชร", region: "TH:north", center: [16.4827, 99.5227] },
+  phitsanulok: { name: "พิษณุโลก", region: "TH:north", center: [16.8211, 100.2659] },
+  sukhothai: { name: "สุโขทัย", region: "TH:north", center: [17.0056, 99.8264] },
+  tak: { name: "ตาก", region: "TH:north", center: [16.8839, 99.1258] },
+  phetchabun: { name: "เพชรบูรณ์", region: "TH:north", center: [16.4189, 101.1606] },
+  lopburi: { name: "ลพบุรี", region: "TH:central", center: [14.7995, 100.6534] },
+  singburi: { name: "สิงห์บุรี", region: "TH:central", center: [14.8936, 100.3967] },
+  angthong: { name: "อ่างทอง", region: "TH:central", center: [14.5896, 100.4551] },
+  suphanburi: { name: "สุพรรณบุรี", region: "TH:central", center: [14.4745, 100.1177] },
+};
+const homeProvince = () => (PROVINCES[prefs.homeProv] ? { key: prefs.homeProv, ...PROVINCES[prefs.homeProv] } : null);
+const provinceOf = e => {
+  const text = [e.city, e.venue].filter(Boolean).join(" ");
+  return Object.keys(PROVINCES).find(k => [PROVINCES[k].name, ...(PROVINCES[k].alias || [])].some(w => text.includes(w))) || null;
+};
+function distanceKm([lat1, lng1], [lat2, lng2]) { // great-circle distance (haversine)
+  const r = Math.PI / 180, h = Math.sin((lat2 - lat1) * r / 2) ** 2 + Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin((lng2 - lng1) * r / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(h));
+}
+const nearHome = e => {
+  const hp = homeProvince(), p = e.country === "TH" && hp ? provinceOf(e) : null;
+  return !!p && distanceKm(hp.center, PROVINCES[p].center) <= NEAR_KM;
+};
 const home = () => prefs.home || ""; // "TH:north"
 const followMatch = e => state.follows.find(w => [e.name, e.name_th, e.venue, e.city, e.summary_th, e.about_th]
   .some(t => t && t.toLowerCase().includes(w.toLowerCase())));
 
-function visible() {
-  const q = state.q.toLowerCase();
+function nearFilter(e) {
+  if (homeProvince()) return nearHome(e);
   const [hc, hr] = home().split(":");
+  return !hc || (e.country === hc && (!hr || e.region === hr));
+}
+function visible(skipNear = false) {
+  const q = state.q.toLowerCase();
   // placeSuspect: mentions another country and Haiku has not confirmed where it is yet; hidden: an announcement whose events are listed separately
   return state.events.filter(e => !e.placeSuspect && !e.hidden && !state.offCountries.has(e.country) && !(e.region && state.offRegions.has(`${e.country}:${e.region}`))
     && (state.format === "all" || (state.format === "online") === !!e.online)
     && e.tags.some(t => !state.offTags.has(t) && (!state.quick || TAGS[t]?.group === state.quick))
-    && (!state.near || !hc || (e.country === hc && (!hr || e.region === hr)))
+    && (skipNear || !state.near || nearFilter(e))
     && (!q || [e.name, e.name_th, e.venue, e.city, e.summary_th].some(s => s?.toLowerCase().includes(q))));
 }
 
@@ -163,7 +198,7 @@ function chips() {
   const n = filterCount();
   $("#quick").innerHTML = `<button class="chip filter ${n ? "on" : ""}" data-filters>${icon("sliders")} ตัวกรอง${n ? ` <b>${n}</b>` : ""}</button>` +
     countryChip() +
-    (home() ? `<button class="chip ${state.near ? "on" : ""}" data-near>📍 ใกล้ฉัน</button>` : "") +
+    (home() || homeProvince() ? `<button class="chip ${state.near ? "on" : ""}" data-near>📍 ใกล้ฉัน${homeProvince() ? ` · ${homeProvince().name}` : ""}</button>` : "") +
     `<button class="chip ${!state.quick ? "on" : ""}" data-quick="">ทั้งหมด</button>` +
     Object.entries(GROUPS).map(([g, x]) =>
       `<button class="chip ${state.quick === g ? "on" : ""}" style="--c:${x.color}" data-quick="${g}">${x.icon} ${x.name}</button>`).join("");
@@ -286,6 +321,15 @@ function stepCalendar(dir) {
 
 function renderHome() {
   const list = visible();
+  // Home province: upcoming events in that province and within NEAR_KM, shown whether or not "ใกล้ฉัน" is on.
+  const hp = homeProvince();
+  $("#localBlock").hidden = !hp;
+  if (hp) {
+    const local = visible(true).filter(nearHome).filter(e => !e.start || (e.end || e.start) >= TODAY)
+      .sort((a, b) => (a.start || "9999").localeCompare(b.start || "9999"));
+    $("#localBlock").innerHTML = `<div class="section-head local"><h2>📍 ใกล้ฉัน · ${esc(hp.name)}</h2><small>${local.length} งาน ภายใน ${NEAR_KM} กม.</small></div>` +
+      (local.length ? `<div class="cards">${local.slice(0, 8).map(card).join("")}</div>` : `<p class="empty">ยังไม่มีงานใกล้${esc(hp.name)}ตามตัวกรองนี้</p>`);
+  }
   const soon = list.filter(e => e.start && (e.end || e.start) >= TODAY && daysUntil(e.start) <= 30).slice(0, 12);
   $("#soonCount").textContent = soon.length ? `${soon.length} งานใน 30 วัน` : "";
   $("#soon").innerHTML = soon.length ? soon.map(e => `<button class="poster" style="--c:${color(e)}" data-open="${e.id}">
@@ -462,6 +506,10 @@ function renderSettings() {
       <select class="select" data-home>${["", ...Object.keys(REGION_CENTRES)].map(k =>
         `<option value="${k}" ${home() === k ? "selected" : ""}>${k ? `${COUNTRIES[k.split(":")[0]]} · ${REGIONS[k.split(":")[0]]?.[k.split(":")[1]] || ""}` : "ไม่ระบุ"}</option>`).join("")}</select>
       <button class="pill gps" data-gps>${icon("pin")} ใช้ตำแหน่งปัจจุบัน (GPS)</button></div>
+    <div class="setting"><h4>${icon("pin")} จังหวัดของฉัน</h4>
+      <p>แสดงงานในจังหวัดนี้และในรัศมี ${NEAR_KM} กม. เป็นหัวข้อ "ใกล้ฉัน" บนหน้าแรก</p>
+      <select class="select" data-homeprov>${["", ...Object.keys(PROVINCES)].map(k =>
+        `<option value="${k}" ${prefs.homeProv === k ? "selected" : ""}>${k ? PROVINCES[k].name : "ไม่ระบุ"}</option>`).join("")}</select></div>
     <div class="setting"><h4>${icon("star")} ข้อมูลของฉัน</h4>
       <p>งานที่ติดตามและการตั้งค่าเก็บไว้ในเครื่องนี้เท่านั้น ไม่ต้องสมัครสมาชิก ถ้าจะย้ายไปเครื่องใหม่ ให้กดสำรองแล้วเปิดลิงก์ในเครื่องใหม่</p>
       <button class="pill" data-backup>สำรอง / ย้ายเครื่อง</button>
@@ -700,8 +748,13 @@ document.addEventListener("click", ev => {
   if (b.dataset.gps !== undefined) {
     if (!navigator.geolocation) return toast("เครื่องนี้ใช้ GPS ไม่ได้");
     navigator.geolocation.getCurrentPosition(p => {
-      const k = nearestRegion(p.coords.latitude, p.coords.longitude);
-      setPref("home", k); state.near = true; store.set("near", true);
+      // A position within 80 km of a listed province (Nakhon Sawan is nearer to Chiang Mai's region centre than to its own)
+      // sets that province; elsewhere the nearest region centre is used.
+      const pos = [p.coords.latitude, p.coords.longitude];
+      const [pk, pd] = Object.keys(PROVINCES).map(k => [k, distanceKm(pos, PROVINCES[k].center)]).sort((x, y) => x[1] - y[1])[0];
+      if (pd <= 80) { setPref("homeProv", pk); setPref("home", PROVINCES[pk].region); state.near = true; store.set("near", true); toast(`ตั้งจังหวัดเป็น ${PROVINCES[pk].name}`); return render(); }
+      const k = nearestRegion(pos[0], pos[1]);
+      setPref("home", k); setPref("homeProv", ""); state.near = true; store.set("near", true);
       toast(`ตั้งตำแหน่งเป็น ${REGIONS[k.split(":")[0]]?.[k.split(":")[1]] || k}`); render();
     }, () => toast("ไม่ได้รับอนุญาตให้ใช้ตำแหน่ง"), { timeout: 10000 });
     return;
@@ -802,7 +855,15 @@ document.addEventListener("input", ev => {
   document.querySelectorAll(".cgroup").forEach(g => (g.hidden = q && ![...g.querySelectorAll("[data-country]")].some(b => !b.hidden)));
 });
 document.addEventListener("change", ev => {
+  if (ev.target.matches("[data-homeprov]")) {
+    const k = ev.target.value;
+    setPref("homeProv", k);
+    if (k) setPref("home", PROVINCES[k].region); else setPref("home", "");
+    if (!k) { state.near = false; store.set("near", false); }
+    return render();
+  }
   if (!ev.target.matches("[data-home]")) return;
+  setPref("homeProv", "");
   setPref("home", ev.target.value);
   if (!ev.target.value) { state.near = false; store.set("near", false); }
   render();
