@@ -1,29 +1,29 @@
 {
- "finishedAt": "2026-11-16T21:30:04.501Z",
+ "finishedAt": "2026-11-17T05:54:00.353Z",
  "runner": "github",
- "total": 12933,
- "upcoming": 6977,
- "added": 10,
- "pending": 20651,
+ "total": 13090,
+ "upcoming": 7019,
+ "added": 15,
+ "pending": 18392,
  "withDate": 52,
  "withImage": 86,
  "withPrice": 14,
  "ai": {
-  "calls": 102,
-  "failed": 46,
+  "calls": 94,
+  "failed": 38,
   "quota": [],
   "billing": false,
   "billingBy": [],
   "billingText": "",
   "errorSample": {
-   "tenixe": "terminated",
+   "tenixe": "{\"message\":\"Your plan's free models were still busy after this request waited 10 minutes in line. Retry when one of your requests finishes.\",\"type\":\"rate_limit_",
    "aiu": "403: {\"error\":{\"message\":\"This API key has no active plan. Purchase a plan to continue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"subscription_inacti"
   },
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 90,
-    "failed": 34
+    "calls": 82,
+    "failed": 26
    },
    "aiu": {
     "calls": 12,
