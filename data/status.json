@@ -1,45 +1,44 @@
 {
- "finishedAt": "2026-11-18T12:32:54.737Z",
+ "finishedAt": "2026-11-18T22:31:55.434Z",
  "runner": "github",
- "total": 13159,
- "upcoming": 7007,
- "added": 2,
- "pending": 21011,
+ "total": 13336,
+ "upcoming": 7173,
+ "added": 18,
+ "pending": 21292,
  "withDate": 52,
  "withImage": 86,
  "withPrice": 14,
  "ai": {
-  "calls": 244,
-  "failed": 242,
+  "calls": 137,
+  "failed": 71,
   "quota": [],
   "billing": false,
   "billingBy": [],
   "billingText": "",
   "errorSample": {
-   "tenixe": "429: {\"error\":{\"message\":\"You already have 20 requests waiting in line on your plan's free models. Retry when some of them have started.\",\"type\":\"rate_limit_err",
+   "tenixe": "{\"message\":\"Your plan's free models were still busy after this request waited 10 minutes in line. Retry when one of your requests finishes.\",\"type\":\"rate_limit_",
    "aiu": "403: {\"error\":{\"message\":\"This API key has no active plan. Purchase a plan to continue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"subscription_inacti"
   },
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 232,
-    "failed": 230
+    "calls": 125,
+    "failed": 59
    },
    "aiu": {
     "calls": 12,
     "failed": 12
    }
   },
-  "down": true,
-  "budget": false
+  "down": false,
+  "budget": true
  },
  "streak": {
-  "rate": 3,
-  "failed": 3,
+  "rate": 0,
+  "failed": 4,
   "billing": 0
  },
  "problems": [
-  "เรียก AI ล้มเหลว 242/244 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)",
-  "AI ผู้ให้บริการไม่ว่าง (rate limit) — ข้ามขั้น AI รอบนี้"
+  "เรียก AI ล้มเหลว 71/137 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
  ]
 }
