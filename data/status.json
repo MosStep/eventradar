@@ -1,16 +1,16 @@
 {
- "finishedAt": "2026-11-19T04:24:32.441Z",
+ "finishedAt": "2026-11-19T13:39:31.428Z",
  "runner": "github",
- "total": 13485,
- "upcoming": 7219,
- "added": 12,
- "pending": 19735,
+ "total": 13591,
+ "upcoming": 7324,
+ "added": 14,
+ "pending": 20763,
  "withDate": 52,
  "withImage": 86,
  "withPrice": 14,
  "ai": {
-  "calls": 100,
-  "failed": 36,
+  "calls": 104,
+  "failed": 52,
   "quota": [],
   "billing": false,
   "billingBy": [],
@@ -22,8 +22,8 @@
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 88,
-    "failed": 24
+    "calls": 92,
+    "failed": 40
    },
    "aiu": {
     "calls": 12,
