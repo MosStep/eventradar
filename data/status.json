@@ -1,29 +1,29 @@
 {
- "finishedAt": "2026-11-20T13:41:56.422Z",
+ "finishedAt": "2026-11-20T22:23:42.296Z",
  "runner": "github",
- "total": 13961,
- "upcoming": 7563,
- "added": 11,
- "pending": 20153,
- "withDate": 52,
+ "total": 14191,
+ "upcoming": 7790,
+ "added": 22,
+ "pending": 20649,
+ "withDate": 53,
  "withImage": 86,
  "withPrice": 14,
  "ai": {
-  "calls": 96,
-  "failed": 56,
+  "calls": 142,
+  "failed": 75,
   "quota": [],
   "billing": false,
   "billingBy": [],
   "billingText": "",
   "errorSample": {
-   "tenixe": "{\"message\":\"Your plan's free models were still busy after this request waited 10 minutes in line. Retry when one of your requests finishes.\",\"type\":\"rate_limit_",
+   "tenixe": "terminated",
    "aiu": "403: {\"error\":{\"message\":\"This API key has no active plan. Purchase a plan to continue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"subscription_inacti"
   },
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 84,
-    "failed": 44
+    "calls": 130,
+    "failed": 63
    },
    "aiu": {
     "calls": 12,
@@ -35,10 +35,10 @@
  },
  "streak": {
   "rate": 0,
-  "failed": 1,
+  "failed": 2,
   "billing": 0
  },
  "problems": [
-  "เรียก AI ล้มเหลว 56/96 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+  "เรียก AI ล้มเหลว 75/142 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
  ]
 }
