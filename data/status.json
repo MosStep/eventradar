@@ -1,29 +1,29 @@
 {
- "finishedAt": "2026-11-20T22:23:42.296Z",
+ "finishedAt": "2026-11-21T04:24:00.005Z",
  "runner": "github",
- "total": 14191,
- "upcoming": 7790,
- "added": 22,
- "pending": 20649,
- "withDate": 53,
+ "total": 14303,
+ "upcoming": 7679,
+ "added": 7,
+ "pending": 18625,
+ "withDate": 52,
  "withImage": 86,
  "withPrice": 14,
  "ai": {
-  "calls": 142,
-  "failed": 75,
+  "calls": 97,
+  "failed": 44,
   "quota": [],
   "billing": false,
   "billingBy": [],
   "billingText": "",
   "errorSample": {
-   "tenixe": "terminated",
+   "tenixe": "{\"message\":\"Your plan's free models were still busy after this request waited 10 minutes in line. Retry when one of your requests finishes.\",\"type\":\"rate_limit_",
    "aiu": "403: {\"error\":{\"message\":\"This API key has no active plan. Purchase a plan to continue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"subscription_inacti"
   },
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 130,
-    "failed": 63
+    "calls": 85,
+    "failed": 32
    },
    "aiu": {
     "calls": 12,
@@ -35,10 +35,8 @@
  },
  "streak": {
   "rate": 0,
-  "failed": 2,
+  "failed": 0,
   "billing": 0
  },
- "problems": [
-  "เรียก AI ล้มเหลว 75/142 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
- ]
+ "problems": []
 }
