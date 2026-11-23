@@ -1,13 +1,13 @@
 {
- "finishedAt": "2026-11-22T20:27:37.039Z",
+ "finishedAt": "2026-11-23T02:50:24.433Z",
  "runner": "github",
- "total": 15347,
- "upcoming": 8065,
+ "total": 15301,
+ "upcoming": 7619,
  "added": 0,
- "pending": 15365,
- "withDate": 53,
- "withImage": 87,
- "withPrice": 14,
+ "pending": 14034,
+ "withDate": 51,
+ "withImage": 86,
+ "withPrice": 13,
  "ai": {
   "calls": 65,
   "failed": 53,
@@ -39,8 +39,8 @@
  },
  "streak": {
   "rate": 0,
-  "failed": 1,
-  "billing": 2
+  "failed": 2,
+  "billing": 3
  },
  "problems": [
   "คีย์ Tenixe ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe",
