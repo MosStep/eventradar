@@ -1,16 +1,16 @@
 {
- "finishedAt": "2026-11-23T02:50:24.433Z",
+ "finishedAt": "2026-11-23T14:29:37.760Z",
  "runner": "github",
- "total": 15301,
- "upcoming": 7619,
- "added": 0,
- "pending": 14034,
- "withDate": 51,
+ "total": 15651,
+ "upcoming": 7922,
+ "added": 36,
+ "pending": 13863,
+ "withDate": 52,
  "withImage": 86,
  "withPrice": 13,
  "ai": {
-  "calls": 65,
-  "failed": 53,
+  "calls": 227,
+  "failed": 48,
   "quota": [
    "txc_345f"
   ],
@@ -18,16 +18,16 @@
   "billingBy": [
    "tenixe"
   ],
-  "billingText": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0.02 left until it resets. Turn on Use Credit to pay the rest from your wallet, wait f",
+  "billingText": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0 left until it resets. Turn on Use Credit to pay the rest from your wallet, wait for ",
   "errorSample": {
-   "tenixe": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0.02 left until it resets. Turn on Use Credit ",
+   "tenixe": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0 left until it resets. Turn on Use Credit to ",
    "aiu": "403: {\"error\":{\"message\":\"This API key has no active plan. Purchase a plan to continue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"subscription_inacti"
   },
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 53,
-    "failed": 41
+    "calls": 215,
+    "failed": 36
    },
    "aiu": {
     "calls": 12,
@@ -39,11 +39,10 @@
  },
  "streak": {
   "rate": 0,
-  "failed": 2,
-  "billing": 3
+  "failed": 0,
+  "billing": 4
  },
  "problems": [
-  "คีย์ Tenixe ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe",
-  "เรียก AI ล้มเหลว 53/65 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+  "คีย์ Tenixe ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe"
  ]
 }
