@@ -1,16 +1,16 @@
 {
- "finishedAt": "2026-11-23T14:29:37.760Z",
+ "finishedAt": "2026-11-24T03:01:47.640Z",
  "runner": "github",
- "total": 15651,
- "upcoming": 7922,
- "added": 36,
- "pending": 13863,
- "withDate": 52,
- "withImage": 86,
+ "total": 15647,
+ "upcoming": 7690,
+ "added": 0,
+ "pending": 13697,
+ "withDate": 51,
+ "withImage": 87,
  "withPrice": 13,
  "ai": {
-  "calls": 227,
-  "failed": 48,
+  "calls": 65,
+  "failed": 53,
   "quota": [
    "txc_345f"
   ],
@@ -18,16 +18,16 @@
   "billingBy": [
    "tenixe"
   ],
-  "billingText": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0 left until it resets. Turn on Use Credit to pay the rest from your wallet, wait for ",
+  "billingText": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0.02 left until it resets. Turn on Use Credit to pay the rest from your wallet, wait f",
   "errorSample": {
-   "tenixe": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0 left until it resets. Turn on Use Credit to ",
+   "tenixe": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0.02 left until it resets. Turn on Use Credit ",
    "aiu": "403: {\"error\":{\"message\":\"This API key has no active plan. Purchase a plan to continue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"subscription_inacti"
   },
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 215,
-    "failed": 36
+    "calls": 53,
+    "failed": 41
    },
    "aiu": {
     "calls": 12,
@@ -39,10 +39,11 @@
  },
  "streak": {
   "rate": 0,
-  "failed": 0,
-  "billing": 4
+  "failed": 1,
+  "billing": 5
  },
  "problems": [
-  "คีย์ Tenixe ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe"
+  "คีย์ Tenixe ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe",
+  "เรียก AI ล้มเหลว 53/65 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
  ]
 }
