@@ -130507,7 +130507,7 @@
    "movie"
   ],
   "summary_th": "รอบปฐมทัศน์หนังไทย คนเก็บผี พร้อมผู้กำกับแดนนี่-ออกไซด์ แปง ก่อนฉายจริง 5 พฤศจิกายน",
-  "image": "https://storage-wp.naewna.com/2026/09/IMG_3108.jpeg",
+  "image": "https://media.komchadluek.net/uploads/images/md/2026/09/JJP1tUkeFGkccLDomzbR.webp",
   "official": null,
   "sources": [
    {
@@ -130524,7 +130524,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.naewna.com/n/breaking/59382/",
-  "imageFrom": "https://www.naewna.com/n/breaking/59382/",
+  "imageFrom": "https://www.komchadluek.net/entertainment/movies/623089",
   "placeChecked": true,
   "imageHash": null,
   "regionTried": true,
@@ -170861,7 +170861,7 @@
    "edu"
   ],
   "summary_th": "สัมมนาเชื่อมเยาวชนกับบริษัทขนาดกลางและเล็กในเมืองควังมยอง",
-  "image": "https://wimg.heraldcorp.com/",
+  "image": "https://cdnimage.dailian.co.kr/news/202611/news_1793487752469_1709086_m_1.jpg",
   "official": null,
   "sources": [
    {
@@ -170876,7 +170876,7 @@
   "updated": "2026-11-01",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-05",
+  "imageTriedAt": "2026-11-25",
   "article": "https://biz.heraldcorp.com/article/237447",
   "placeChecked": true,
   "dateTried": true,
@@ -170885,7 +170885,7 @@
    "402e06c37889"
   ],
   "regionTried": true,
-  "imageFrom": "https://biz.heraldcorp.com/article/237447"
+  "imageFrom": "https://www.dailian.co.kr/news/view/1709086/%EA%B4%91%EB%AA%85%EC%8B%9C-%EC%B2%AD%EB%85%84%EA%B3%BC-%EC%A7%80%EC%97%AD-%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85-%EC%9E%87%EB%8A%94-%EC%9B%8C-2026"
  },
  {
   "id": "6450c549cb59",
@@ -172932,6 +172932,52 @@
   "article": "https://collabo-cafe.com/events/collabo/ojikawa-kiddyland-umeda-2026/",
   "imageFrom": "https://collabo-cafe.com/events/collabo/ojikawa-kiddyland-umeda-2026/",
   "placeChecked": true
+ },
+ {
+  "id": "2f33b8f20297",
+  "name": "2026 베트남 국제 방위산업 전시회 기념 불꽃놀이",
+  "name_th": "พลุฉลองงานนิทรรศการอุตสาหกรรมป้องกันประเทศเวียดนาม 2026",
+  "start": "2026-10-30",
+  "end": "2026-11-22",
+  "venue": null,
+  "city": null,
+  "country": "VN",
+  "region": "north",
+  "online": false,
+  "price_th": null,
+  "tags": [
+   "expo",
+   "lights"
+  ],
+  "summary_th": "การแสดงพลุฉลองการเปิดงานนิทรรศการอุตสาหกรรมป้องกันประเทศเวียดนาม 2026",
+  "image": null,
+  "official": null,
+  "sources": [
+   {
+    "title": "2026년 베트남 국제 방위산업 전시회 개막을 기념하여 불꽃놀이 행사가 열릴 예정입니다.",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUzllTGdfQThLanR2QkVjVHp2aGcxeVU2ZEV3bjhiaUlKYmZfREswZjNJQmVCVXJIZnJZMlMyZXFNNkprZ05WcmZUcS1WaVJvWEVLZFpDRnliMEJPQlRHY25ZY01LYjlXdFVlRFFVZHNtSHFYZVRRVTNRQ0F5MUNrMDY1SXpsWGp0RjJ3SnY4MWN4U3FydlJKWGQ5aklmZw?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-30",
+    "image": null
+   },
+   {
+    "title": "หน่วยรบพิเศษของเวียดนามจะแสดงแสนยานุภาพในงานนิทรรศการป้องกันประเทศนานาชาติปี 2026",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbWFjZXhjRnhaSW9aak9ySEUwSTZFNWxRbDdaV0Z1UFFkVTdwNzk2cEVMZUVQRmVaWi03dnZxY1RrTHY4TEowYVFOWUZVNTlCWnZsZlEweEc5NjlOeURvcXRaZXpVY2hRTVJCMnNHMm41SDhFMVBYa0ZWTUxzeW5IOXZXajE3VDdkWTQ5dVctR2ZRSWI4MjkweDFuWmZWeVFGUUlyUA?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-11-22",
+    "image": null
+   }
+  ],
+  "added": "2026-10-30",
+  "updated": "2026-11-22",
+  "dateTried": true,
+  "enriched": true,
+  "imageTried": true,
+  "imageTriedAt": "2026-11-22",
+  "article": null,
+  "placeChecked": true,
+  "regionTried": true,
+  "verified": true
  },
  {
   "id": "da04f7f5dab1",
@@ -232629,8 +232675,8 @@
    "anime"
   ],
   "summary_th": "ป๊อปอัปสโตร์เฮทาเรียที่โตเกียวและโอซาก้า 31 ต.ค.–13 ธ.ค. 2026",
-  "image": "https://collabo-cafe.com/wp-content/uploads/hetalia-ws-autumn-parade-popup-keyvisual.jpg",
-  "imageFrom": "https://collabo-cafe.com/events/collabo/hetalia-ws-autumn-parade-popup-tokyo-osaka-2026/",
+  "image": "https://prcdn.freetls.fastly.net/release_image/16756/8676/16756-8676-2c5ce8f9958367d61156e06499a4d602-3900x2758.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+  "imageFrom": "https://prtimes.jp/main/html/rd/p/000008676.000016756.html",
   "imageHash": null,
   "official": "https://shop.wakasa.jp/shop/pages/bbmarche-kyotoporta.aspx?utm_source=collabo_cafe_dot_com&utm_medium=collabo_cafe_dot_com&utm_campaign=collabo_cafe_dot_com&utm_id=collabo_cafe_dot_com",
   "sources": [
@@ -262697,7 +262743,7 @@
    "museum"
   ],
   "summary_th": "นิทรรศการ VR ฉลอง 140 ปีความสัมพันธ์เกาหลีใต้-ฝรั่งเศสที่โซล",
-  "image": "https://wimg.heraldcorp.com/",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -262712,9 +262758,9 @@
   "updated": "2026-11-02",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-02",
+  "imageTriedAt": "2026-11-25",
   "article": "https://www.koreaherald.com/article/1108093",
-  "imageFrom": "https://www.koreaherald.com/article/1108093",
+  "imageFrom": null,
   "placeChecked": true
  },
  {
@@ -380758,7 +380804,7 @@
    "concert"
   ],
   "summary_th": null,
-  "image": null,
+  "image": "https://p-u.popcdn.net/event_details/poster_squares/000/008/405/large/a24399486a3d1aeae6a1cb3aa0b65de4ed23640c.jpg?1583183466",
   "official": "https://www.eventpop.me/e/8405",
   "sources": [
    {
@@ -471854,7 +471900,7 @@
    "carlaunch"
   ],
   "summary_th": "มานิลา ออโต ซาล롱 2569 รวมรถพิเศษ รถบรรทุกปรับแต่ง และการแข่งขันรถยนต์",
-  "image": "http://www.bing.com/th?id=ONUT.tbDjXR3Js-QV14UxF_W6Gg&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.oe-5KNG3Ct1e27fDr8JuRA&pid=News",
   "official": null,
   "sources": [
    {
@@ -471869,11 +471915,11 @@
   "updated": "2026-11-20",
   "enriched": true,
   "imageRechecked": true,
-  "imageHash": "242f1d1e9ee44be0",
+  "imageHash": "be0e7b840fdc58af",
   "imageTried": true,
-  "imageTriedAt": "2026-11-20",
+  "imageTriedAt": "2026-11-25",
   "article": "https://www.autoindustriya.com/features/2026-manila-auto-salon-showcasing-the-best-of-philippine-car-culture.html",
-  "imageFrom": "https://www.autoindustriya.com/features/2026-manila-auto-salon-showcasing-the-best-of-philippine-car-culture.html",
+  "imageFrom": "https://www.topgear.com.ph/car-culture/manila-auto-salon-2026-recap-gallery-a4354-20261116",
   "placeChecked": true
  },
  {
@@ -488190,7 +488236,7 @@
    "museum"
   ],
   "summary_th": "นิทรรศการศิลปะสมัยใหม่ของศิลปินชื่อดัง 2 ท่านที่พิพิธภัณฑ์ศิลปะนครนิวไทเป",
-  "image": "http://www.bing.com/th?id=ONUT.hKQ0fFMm4IXSmk3s_z8nXQ&pid=News",
+  "image": "https://s.yimg.com/lo/mysterio/api/6151b52e0587482573253a1bf055a9f68644c3f0ff051dbe908c40ffe4e69992/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fca%2Fmirrormedia.mg%2F272127826d033a881cb1fc032ff147b4.jpg",
   "official": null,
   "sources": [
    {
@@ -488205,10 +488251,10 @@
   "updated": "2026-11-21",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-21",
+  "imageTriedAt": "2026-11-25",
   "article": "https://news.pchome.com.tw/public/ntpc/20261016/index-79210880033375127016.html",
-  "imageFrom": "https://news.pchome.com.tw/public/ntpc/20261016/index-79210880033375127016.html",
-  "imageHash": "7bdc34e2ab2cd1f6",
+  "imageFrom": "https://tw.news.yahoo.com/%E9%B6%AF%E6%AD%8C%E9%80%B1%E6%9C%AB%E5%B0%8F%E6%97%85%E8%A1%8C%E6%96%B0%E4%BA%AE%E9%BB%9E-%E6%96%B0%E5%8C%97%E5%B8%82%E7%BE%8E%E8%A1%93%E9%A4%A83-166%E6%A0%B9%E9%8A%80%E7%99%BD%E9%8B%81%E7%AE%A1%E8%B6%85%E5%90%B8%E7%9D%9B-%E6%9E%97%E5%85%8B%E6%81%AD-%E6%9D%8E%E6%A2%85%E6%A8%B9%E7%AD%89%E8%97%9D%E8%A1%93%E5%AE%B6%E9%9B%99%E5%B1%95%E7%99%BB%E5%A0%B4-005700953.html",
+  "imageHash": null,
   "placeChecked": true,
   "verified": true
  },
@@ -491958,7 +492004,7 @@
    "art"
   ],
   "summary_th": "พิพิธภัณฑ์ลูคัสจัดแสดงรถพอดเรเซอร์จาก Star Wars ที่ LA Auto Show จนวันที่ 29 พฤศจิกายน 2026",
-  "image": "https://s.yimg.com/lo/mysterio/api/ad4c59b85072ec2ffd0601e97f19c31090cb65c6375aa71466b605ce94fc98a7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdetroit-free-press%2F7742844b3629968cc2c20f86d219723c.jpg",
+  "image": "http://www.bing.com/th?id=ONUT.-0Qs8Oucvtr0qwqTBAIVVQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -491975,9 +492021,9 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.pbs.org/newshour/arts/must-see-exhibits-at-george-lucass-new-museum-of-narrative-art-in-la",
-  "imageFrom": "https://autos.yahoo.com/auto-shows/articles/la-auto-show-even-piece-223118990.html",
+  "imageFrom": "https://newatlas.com/automotive/2026-la-auto-show-pictures/",
   "placeChecked": true,
-  "imageHash": "d36029e576a9b97b",
+  "imageHash": "7fbee3aaa06dea6f",
   "priceTriedAt": "2026-11-24",
   "verified": true
  },
@@ -496142,7 +496188,8 @@
   "regionTried": true,
   "imageFrom": "https://www.pushsquare.com/guides/call-of-duty-black-ops-6-what-carries-over-from-modern-warfare-3",
   "imageHash": "0e8be7cd3bdba6e6",
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "9cd185ab6716",
@@ -496255,7 +496302,8 @@
   ],
   "imageFrom": "https://www.oricon.co.jp/pressrelease/3042430/",
   "imageHash": "2e7c6c210c1c337f",
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "f91ff52fcb52",
@@ -496723,7 +496771,8 @@
   "placeChecked": true,
   "imageFrom": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10655497",
   "imageHash": "3208f8a1deaaee47",
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "12c248ee8ef1",
@@ -498407,7 +498456,8 @@
   "imageHash": "9c975179e4a2c7e8",
   "placeChecked": true,
   "dateTried": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "b81e3c846d04",
@@ -498446,7 +498496,8 @@
    "0b3cb81c39cd",
    "9fd53c762db5"
   ],
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "9e4b365a942a",
@@ -498706,7 +498757,8 @@
    "b94a1afd0217",
    "d7137c9939f6"
   ],
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "4fe9aa296d5f",
@@ -498752,7 +498804,8 @@
    "33a7a4b0cd87",
    "eb37c84d3e99"
   ],
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "ed0d1427c923",
@@ -499577,7 +499630,8 @@
   "regionTried": true,
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000284.000026747.html",
   "imageHash": "b269d88a302ffdea",
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "3f4b791ddb59",
@@ -499758,7 +499812,8 @@
   "notDupWith": [
    "9fd53c762db5"
   ],
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "3cfb4a5c073e",
@@ -507641,7 +507696,7 @@
   "name": "Artisans d’Excellence 2026",
   "name_th": "อาร์ติซ็อง เดกเซลลองซ์ 2026",
   "start": "2026-11-21",
-  "end": null,
+  "end": "2026-11-23",
   "venue": null,
   "city": "Paris",
   "country": "FR",
@@ -507689,7 +507744,8 @@
   "imageFrom": "https://www.sortiraparis.com/arts-culture/exposition/articles/321025-artisans-d-excellence-2026-le-salon-des-metiers-des-arts-decoratifs-a-paris",
   "imageHash": "100042ed669d338a",
   "placeChecked": true,
-  "dateTried": true
+  "dateTried": true,
+  "verified": true
  },
  {
   "id": "80f4d27781cc",
@@ -510039,7 +510095,8 @@
   "imageFrom": "https://www.heraldscotland.com/news/25115393.ayr-host-field-heroes-exhibition-mark-ve-day-anniversary/",
   "dateTried": true,
   "regionTried": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "19e50093b03d",
@@ -510086,7 +510143,8 @@
   "imageFrom": "https://langngheviet.com.vn/thanh-hoa-khai-mac-hoi-cho-trien-lam-hang-cong-nghiep-nong-thon-tieu-bieu-nam-2026-37922.html",
   "imageHash": "fd2ff3d85ad3b5db",
   "placeChecked": true,
-  "dateTried": true
+  "dateTried": true,
+  "verified": true
  },
  {
   "id": "84bdb74ea3f8",
@@ -510266,7 +510324,8 @@
   "article": "https://carnewschina.com/2026/11/01/byds-fcb-crosses-600000-sales-as-gm-acknowledges-delivery-bottlenecks-ahead-of-ti-9-launch/",
   "imageFrom": "https://carnewschina.com/2026/11/01/byds-fcb-crosses-600000-sales-as-gm-acknowledges-delivery-bottlenecks-ahead-of-ti-9-launch/",
   "imageHash": "8a657079753a5d8f",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "e5513b84c08d",
@@ -510392,7 +510451,8 @@
   "imageTriedAt": "2026-11-22",
   "article": null,
   "placeChecked": true,
-  "dateTried": true
+  "dateTried": true,
+  "verified": true
  },
  {
   "id": "bcc437cd72b9",
@@ -510455,7 +510515,7 @@
   "name": "ONE ART Taipei 2027 藝術台北",
   "name_th": "งานนิทรรศการศิลปะ ONE ART Taipei 2027",
   "start": "2026-11-21",
-  "end": null,
+  "end": "2026-11-24",
   "venue": null,
   "city": "Taipei",
   "country": "TW",
@@ -510492,7 +510552,8 @@
   "article": "https://www.vogue.com.tw/special/onearttaipei2027",
   "imageFrom": "https://artouch.com/art-market/art-fair/content-272583.html",
   "imageHash": "fc78c48fbf0cfe86",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "3d387604a8c8",
@@ -510602,7 +510663,8 @@
   "article": "https://opungnews.com/rico-waas-ajak-masyarakat-bangkitkan-identitas-budaya-bangsa-lewat-pameran-pusaka-tradisi/",
   "imageFrom": "https://opungnews.com/rico-waas-ajak-masyarakat-bangkitkan-identitas-budaya-bangsa-lewat-pameran-pusaka-tradisi/",
   "imageHash": "7630327941a753a4",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "70c74d7928c5",
@@ -512571,7 +512633,8 @@
   "imageFrom": "https://www.65ymas.com/ocio/feriarte-2026-reune-cerca-80-galerias-anticuarios-con-obras-picasso-miro-dali_87740_102.html",
   "imageHash": "1628b871fad95667",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "4ed6fecb960e",
@@ -517189,7 +517252,8 @@
   "article": null,
   "placeChecked": true,
   "dateTried": true,
-  "regionTried": true
+  "regionTried": true,
+  "verified": true
  },
  {
   "id": "47761e7a85d7",
@@ -517818,7 +517882,8 @@
   "updated": "2026-11-21",
   "enriched": true,
   "imageHash": "f57281ce47852107",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "0709418e2905",
@@ -518061,7 +518126,8 @@
   "enriched": true,
   "imageHash": "bffe791fa5d5ea04",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "33f2f0547545",
@@ -519896,7 +519962,8 @@
   "imageFrom": "https://www.ettoday.net/news/20260829/3227990.htm",
   "placeChecked": true,
   "imageHash": "e91d5495e9085b60",
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "84df89c3535d",
@@ -520095,7 +520162,8 @@
   "imageFrom": "https://www.sohu.com/a/1103759700_161795",
   "imageHash": "118e356a58b7ccc1",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "4365deaa0692",
@@ -520134,7 +520202,8 @@
   "imageFrom": "https://www.sohu.com/a/1104632780_100129506",
   "imageHash": "47549061b2395c7a",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "1ce8e1f6be19",
@@ -520221,7 +520290,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-22",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "dc89c785379f",
@@ -520259,7 +520329,8 @@
   "imageFrom": "http://www.zj.xinhuanet.com/20261121/edfd58a905c5492ba5c05b33b56bd248/c.html",
   "imageHash": "f2a80d51a9a55bd9",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "a9cb94e581a0",
@@ -520469,7 +520540,8 @@
   "imageFrom": "https://kalbar.antaranews.com/berita/723803/festival-melayu-xiv-dorong-ekonomi-kreatif-kalbar",
   "imageHash": "60b409ed74e63f87",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "ab9fe4f65573",
@@ -520839,7 +520911,7 @@
   "name": "เทศกาลวัฒนธรรมหลากสีสันแห่งลาวกาย",
   "name_th": "เทศกาลวัฒนธรรมหลากสีสันแห่งลาวกาย",
   "start": "2026-11-21",
-  "end": null,
+  "end": "2026-11-23",
   "venue": null,
   "city": "Lao Cai",
   "country": "VN",
@@ -520879,14 +520951,15 @@
   "placeSuspect": false,
   "imageHash": "14447074d3749caf",
   "placeChecked": true,
-  "regionTried": false
+  "regionTried": false,
+  "verified": true
  },
  {
   "id": "55719682500a",
   "name": "Festival Dòng xanh An Giang",
   "name_th": "เทศกาล Dòng xanh อันจียง",
   "start": "2026-11-21",
-  "end": null,
+  "end": "2026-11-23",
   "venue": "An Giang",
   "city": "An Giang",
   "country": "VN",
@@ -520953,7 +521026,8 @@
   "article": "https://baochinhphu.vn/lan-dau-tien-an-giang-to-chuc-festival-dong-xanh-an-giang-voi-nhieu-hoat-dong-dac-sac-102261116190101088.htm",
   "imageFrom": "https://baochinhphu.vn/lan-dau-tien-an-giang-to-chuc-festival-dong-xanh-an-giang-voi-nhieu-hoat-dong-dac-sac-102261116190101088.htm",
   "imageHash": "5ffce6b5cc70253b",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "ae7532794099",
@@ -521023,7 +521097,8 @@
   "article": "https://saintswire.usatoday.com/story/business/autos/2026/11/20/here-are-the-best-vehicles-of-the-2026-la-auto-show/92874154007/",
   "imageFrom": "https://saintswire.usatoday.com/story/business/autos/2026/11/20/here-are-the-best-vehicles-of-the-2026-la-auto-show/92874154007/",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "506c1685587e",
@@ -521108,7 +521183,7 @@
  {
   "id": "5ac907b2816c",
   "name": "横跨美国超级问答",
-  "name_th": "Super Quiz ข้ามอเมริกา",
+  "name_th": "横跨美国超级问答",
   "start": "2026-11-21",
   "end": "2026-11-29",
   "venue": "羽田机场",
@@ -521141,7 +521216,8 @@
   "imageFrom": "https://finance.sina.com.cn/stock/usstock/c/2026-01-01/doc-inhevhtp5295784.shtml?r=0",
   "placeChecked": true,
   "imageHash": "9a907ad2122b19f4",
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "f016a790fd63",
@@ -522182,7 +522258,7 @@
   "name": "Pameran Internasional Seni Rupa Kaligrafi Islami “The Power of Qur’an #2: Resonansi Tanzil”",
   "name_th": "Pameran Kaligrafi Internasional Kota Batu",
   "start": "2026-11-21",
-  "end": null,
+  "end": "2026-12-31",
   "venue": "Kota Batu",
   "city": "Batu",
   "country": "ID",
@@ -522258,7 +522334,9 @@
   "updated": "2026-11-23",
   "enriched": true,
   "imageHash": "f9fecbb40a372634",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "d4108d16eb7a",
@@ -522376,41 +522454,6 @@
   "imageFrom": "https://www.thechurchnews.com/living-faith/2026/11/17/light-the-world-10th-anniversary-new-giving-machines-locations/",
   "imageHash": "fa9ee9addceda28d",
   "placeChecked": true
- },
- {
-  "id": "f27dba92d082",
-  "name": "Exposition consacrée au nanisme",
-  "name_th": "นิทรรศการเกี่ยวกับความเป็นคนแคระ",
-  "start": "2026-11-21",
-  "end": "2026-12-05",
-  "venue": "Médiathèque de Villeurbanne",
-  "city": "Villeurbanne",
-  "country": "FR",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "art",
-   "kids"
-  ],
-  "summary_th": "นิทรรศการที่ช่วยให้เด็กเข้าใจความแตกต่างและมุมมองต่อผู้อื่นผ่านหัวข้อโรคแคระ ที่ห้องสมุดมูนิสิพัลล์วิลลูร์บาน",
-  "image": "https://lyon.familycrunch.fr/wp-content/uploads/sites/8/2026/11/Que-faire-a-Lyon-ce-week-end.jpeg",
-  "official": null,
-  "sources": [
-   {
-    "title": "Que faire avec les enfants &#224; Lyon ce week-end ? Nos 10 id&#233;es de sorties (28 et 29 novembre 2026)",
-    "link": "https://lyon.familycrunch.fr/que-faire-avec-les-enfants-a-lyon-ce-week-end-nos-10-idees-de-sorties-28-et-29-novembre-2026/",
-    "source": "lyon.familycrunch",
-    "date": "2026-11-24",
-    "image": "http://www.bing.com/th?id=ONUT.p9fcjCyLkeyfO2EGaVepOg&pid=News"
-   }
-  ],
-  "added": "2026-11-25",
-  "updated": "2026-11-25",
-  "enriched": true,
-  "imageHash": "d769b16d38da3453",
-  "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "c40b2a076e03",
@@ -522855,7 +522898,7 @@
   "name": "My Chemical Romance Asia Tour 2026 - Jakarta",
   "name_th": "My Chemical Romance เอเชียทัวร์ 2026 - จาการ์ตา",
   "start": "2026-11-22",
-  "end": null,
+  "end": "2026-11-22",
   "venue": "Jakarta International Stadium (JIS)",
   "city": "Jakarta",
   "country": "ID",
@@ -522933,7 +522976,8 @@
    "32ff9f336bac",
    "34609c135c33",
    "fe03ca6a63e2"
-  ]
+  ],
+  "verified": true
  },
  {
   "id": "c9829fd59d2b",
@@ -523130,7 +523174,8 @@
    "01744c1c8f9f",
    "d0e658ab21f6"
   ],
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "b0c3d4f7f3df",
@@ -525920,7 +525965,8 @@
   "enriched": true,
   "imageHash": "29b9c28884783b4d",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "2000560b9171",
@@ -526770,7 +526816,8 @@
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261106prt00m200000690a.html",
   "imageHash": "24d2896235774081",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "998de72b492e",
@@ -526941,7 +526988,7 @@
   "name": "Festival Budaya Lombok Utara",
   "name_th": "เทศกาลวัฒนธรรม Lombok Utara",
   "start": "2026-11-22",
-  "end": null,
+  "end": "2026-11-25",
   "venue": "RTH Menggala, Kecamatan Pemenang (ยังอยู่ระหว่างหารือ)",
   "city": "Lombok Utara",
   "country": "ID",
@@ -527013,7 +527060,9 @@
   ],
   "hours": null,
   "described": true,
-  "datesRead": true
+  "datesRead": true,
+  "verified": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "fe8d3735fd68",
@@ -527166,7 +527215,8 @@
   "price_th": null,
   "tags": [
    "photo",
-   "art"
+   "art",
+   "wellness"
   ],
   "summary_th": "นิทรรศการภาพถ่ายที่จัดขึ้นในชุมชนผู้สูงอายุที่กรุงปักกิ่ง",
   "image": "https://n.sinaimg.cn/spider20251112/640/w863h577/20251112/5030-3300890955d333beba35709d47d5f436.jpg",
@@ -527196,14 +527246,15 @@
   "imageFrom": "https://finance.sina.com.cn/jjxw/2025-11-12/doc-infxcqhx1083064.shtml",
   "placeChecked": true,
   "imageHash": "27ed82c5b295b105",
-  "dateTried": true
+  "dateTried": true,
+  "verified": true
  },
  {
   "id": "c38dd5c0a10f",
   "name": "Xuan Huong - Coi Nguon - Turnamen Golf Da Lat 2026",
   "name_th": "การแข่งขันกอล์ฟดาลัด 2026",
   "start": "2026-11-22",
-  "end": null,
+  "end": "2026-11-29",
   "venue": null,
   "city": "Da Lat",
   "country": "VN",
@@ -527212,7 +527263,8 @@
   "price_th": null,
   "tags": [
    "match",
-   "outdoor"
+   "outdoor",
+   "local"
   ],
   "summary_th": "การแข่งขันกอล์ฟการกุศลที่เมืองดาลัด เชื่อมโยงชุมชนและกิจกรรมเพื่อสังคม",
   "image": null,
@@ -527242,52 +527294,9 @@
   "placeChecked": true,
   "dateTried": true,
   "imageFrom": "https://www.sggp.org.vn/144-golf-thu-du-giai-golf-xuan-huong-coi-nguon-da-lat-chao-mung-festival-hoa-post882965.html",
-  "imageHash": null
- },
- {
-  "id": "2f33b8f20297",
-  "name": "2026 베트남 국제 방위산업 전시회 기념 불꽃놀이",
-  "name_th": "พลุฉลองงานนิทรรศการอุตสาหกรรมป้องกันประเทศเวียดนาม 2026",
-  "start": "2026-11-22",
-  "end": null,
-  "venue": null,
-  "city": null,
-  "country": "VN",
-  "region": "north",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "expo",
-   "lights"
-  ],
-  "summary_th": "การแสดงพลุฉลองการเปิดงานนิทรรศการอุตสาหกรรมป้องกันประเทศเวียดนาม 2026",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "2026년 베트남 국제 방위산업 전시회 개막을 기념하여 불꽃놀이 행사가 열릴 예정입니다.",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUzllTGdfQThLanR2QkVjVHp2aGcxeVU2ZEV3bjhiaUlKYmZfREswZjNJQmVCVXJIZnJZMlMyZXFNNkprZ05WcmZUcS1WaVJvWEVLZFpDRnliMEJPQlRHY25ZY01LYjlXdFVlRFFVZHNtSHFYZVRRVTNRQ0F5MUNrMDY1SXpsWGp0RjJ3SnY4MWN4U3FydlJKWGQ5aklmZw?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-10-30",
-    "image": null
-   },
-   {
-    "title": "หน่วยรบพิเศษของเวียดนามจะแสดงแสนยานุภาพในงานนิทรรศการป้องกันประเทศนานาชาติปี 2026",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbWFjZXhjRnhaSW9aak9ySEUwSTZFNWxRbDdaV0Z1UFFkVTdwNzk2cEVMZUVQRmVaWi03dnZxY1RrTHY4TEowYVFOWUZVNTlCWnZsZlEweEc5NjlOeURvcXRaZXpVY2hRTVJCMnNHMm41SDhFMVBYa0ZWTUxzeW5IOXZXajE3VDdkWTQ5dVctR2ZRSWI4MjkweDFuWmZWeVFGUUlyUA?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-11-22",
-    "image": null
-   }
-  ],
-  "added": "2026-10-30",
-  "updated": "2026-11-22",
-  "dateTried": true,
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-22",
-  "article": null,
-  "placeChecked": true,
-  "regionTried": true
+  "imageHash": null,
+  "verified": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "371e2f17fa44",
@@ -527385,7 +527394,8 @@
   "article": null,
   "placeChecked": true,
   "dateTried": true,
-  "imageHash": "6a9014c5c36096e9"
+  "imageHash": "6a9014c5c36096e9",
+  "verified": true
  },
  {
   "id": "065d77b9e298",
@@ -527514,7 +527524,8 @@
   "imageFrom": "https://www.sortiraparis.com/loisirs/salon/articles/130656-les-puces-de-l-illu-le-festival-d-illustration-contemporaine-revient-au-campus-fonderie-de-l-image",
   "imageHash": "cdd16ff22b397e6c",
   "placeSuspect": false,
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "837ad3e1989b",
@@ -527663,7 +527674,7 @@
   "name": "เทศกาลเกมส์พื้นบ้านจังหวัดฮุงเยน",
   "name_th": "เทศกาลเกมส์พื้นบ้านจังหวัดฮุงเยน",
   "start": "2026-11-22",
-  "end": null,
+  "end": "2026-11-25",
   "venue": "Klaster Emulasi Vinh Nguyen",
   "city": "Hung Yen",
   "country": "VN",
@@ -527700,7 +527711,9 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-22",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "6e87fdfedbb5",
@@ -532012,7 +532025,8 @@
   "imageFrom": "https://www.ajunews.com/view/20261122091536282",
   "imageHash": "58a3a25588a4442f",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "4438223b01ca",
@@ -532390,52 +532404,6 @@
   "article": "https://www.krcom.co.kr/news/articleView.html?idxno=275145",
   "imageFrom": "https://www.krcom.co.kr/news/articleView.html?idxno=275145",
   "imageHash": "ac025c77db0c6a64",
-  "placeChecked": true
- },
- {
-  "id": "952ef42a154e",
-  "name": "Metallica Art Exhibition",
-  "name_th": "นิทรรศการศิลปะ Metallica",
-  "start": "2026-11-22",
-  "end": null,
-  "venue": null,
-  "city": "San Francisco",
-  "country": "US",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "art",
-   "festival"
-  ],
-  "summary_th": "นิทรรศการศิลปะของวง Metallica เปิดที่ซานฟรานซิสโกฤดูใบไม้ร่วงนี้",
-  "image": "http://www.bing.com/th?id=ONUT.LVwkeKXNvHZdEexxHD7CQQ&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "Metallica art exhibition to open in S.F. this fall",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSXN1ZU9jclRraTBVQUFJR1NuSmtRNzFDZ1h3c1BqQ3R1dTJSZ1dIaWt2ajZyQUpTV1lNeHBITUFGUVowMldqZWZZd2hQZmNSYlR6QmRFYmFSOGJzdHhxSzVLMElBYkFCUnJ5dlF2YzRaUk14UXI0RThiNDZPa29mN21yOS1YQUZhTDBHdzlNRlJBbVZrYnFNWkVpb185OXV5N0E?oc=5",
-    "source": "PressReader",
-    "date": "2026-11-01",
-    "image": null
-   },
-   {
-    "title": "New holiday art exhibition opens in downtown Shreveport",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQam1fSGRWRkdSTVdmTXE5X2pmTFFNeVVBVUxJbkM0YjFpNkhxeVc0UlNTVHZzaHhxbnIzSjhLaHVMQVp3eThyQm1oVVpCWnkwMUpBWnRpYXVESGo4aWxYQXAzY0F5N2tCZ1h6eFZ5UEFncHpYalBIZXNfQUNLa3AwTWhBSdIBiAFBVV95cUxObzVVZXd3WW96MVVrNC1FN2xTM2dTVmRmNjBXckpYbExZM0VzbC16WHpWYWMxM2VxZTJQaTYycVVIcEhWNlNBVEVfbFNMS0NDQzFVcHVkYmFvamJuOUhXZjVOdXZZbG9fNkZXR3M5dUtYM0xWSjU4b2NGUnFyYmtBaE9nMmxoNjlS?oc=5",
-    "source": "KTALnews.com",
-    "date": "2026-11-22",
-    "image": null
-   }
-  ],
-  "added": "2026-11-02",
-  "updated": "2026-11-23",
-  "dateTried": true,
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-02",
-  "article": "https://blabbermouth.net/news/here-is-the-first-look-at-the-art-of-metallica-exhibition-coming-to-haight-street-art-center-in-san-francisco",
-  "imageFrom": "https://blabbermouth.net/news/here-is-the-first-look-at-the-art-of-metallica-exhibition-coming-to-haight-street-art-center-in-san-francisco",
-  "imageHash": "7c7b191ce37500e9",
   "placeChecked": true
  },
  {
@@ -532852,7 +532820,8 @@
   "online": false,
   "price_th": "เข้าฟรี",
   "tags": [
-   "art"
+   "art",
+   "local"
   ],
   "summary_th": "นิทรรศการศิลปะกลุ่ม Complici di emozioni ที่ San Cristoforo เปิดฟรีจนถึง 29 พ.ย. 2569",
   "image": "https://cdn.luccaindiretta.it/photogallery_new/images/2026/11/mostra-complici-di-emozioni-san-cristoforo-511881.jpg",
@@ -532870,7 +532839,8 @@
   "updated": "2026-11-23",
   "enriched": true,
   "imageHash": "b5f0619f5ea5d590",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "455c5e0fc041",
@@ -533007,7 +532977,8 @@
   "online": false,
   "price_th": "เข้าฟรี",
   "tags": [
-   "art"
+   "art",
+   "local"
   ],
   "summary_th": "นิทรรศการภาพวาดผ้าไหมของโชว ミンハン ที่หอศิลป์อิงคอ จนถึง 14 ก.พ. 2570",
   "image": "http://www.bing.com/th?id=ONUT.90YHRRdPePJdRPrPwMqzog&pid=News",
@@ -533029,7 +533000,8 @@
   "article": "https://www.cna.com.tw/postwrite/chi/450326",
   "imageFrom": "https://www.cna.com.tw/postwrite/chi/450326",
   "imageHash": "c7aa9a0bd6be4147",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "df3c55333e9c",
@@ -533080,7 +533052,8 @@
   "online": false,
   "price_th": null,
   "tags": [
-   "art"
+   "art",
+   "local"
   ],
   "summary_th": "แสดงผลงานที่ได้รางวัลบิ엔налеศิลปะ基隆 จนถึง 20 ธ.ค.",
   "image": "http://www.bing.com/th?id=ONUT.h_UmWGpmy_QQZLlVposYUQ&pid=News",
@@ -533103,7 +533076,8 @@
   "imageFrom": "https://n.yam.com/Article/20261122309905",
   "imageHash": "348533cfe09ce824",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "f128abda23bc",
@@ -534168,7 +534142,8 @@
   "price_th": "¥1,000",
   "tags": [
    "wellness",
-   "local"
+   "local",
+   "travel"
   ],
   "summary_th": "นั่งสมาธิเซนเป็นภาษาอังกฤษสำหรับนักท่องเที่ยว จัดที่วัดในโยโกสุกะและอากิชิมะ",
   "image": "https://prcdn.freetls.fastly.net/release_image/182852/2/182852-2-53161cae5f5cd0fad179274343591055-768x768.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -534190,7 +534165,8 @@
   ],
   "enriched": true,
   "imageHash": "e05d6a7198ac864b",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "73d39707c380",
@@ -535128,7 +535104,7 @@
   "name": "遊☆戯☆王 デュエリストフェスティバル Tokyo 2026",
   "name_th": "Yu-Gi-Oh! Duelist Festival Tokyo 2026",
   "start": "2026-11-23",
-  "end": null,
+  "end": "2026-11-23",
   "venue": null,
   "city": "Tokyo",
   "country": "JP",
@@ -535136,7 +535112,9 @@
   "online": false,
   "price_th": null,
   "tags": [
-   "tcg"
+   "tcg",
+   "game",
+   "festival"
   ],
   "summary_th": "งานเทศกาลดูเอลลิสต์ที่จัดควบคู่กับรอบคัดเลือกโตเกียวของการ์ด Yu-Gi-Oh! OCG",
   "image": "https://www.konami.com/yugioh/duelistfestival/assets/images/og-image.jpg",
@@ -535164,7 +535142,8 @@
    "735720c2c18f",
    "503df5a78c98",
    "8348ecf8893a"
-  ]
+  ],
+  "verified": true
  },
  {
   "id": "33acb94bccb3",
@@ -536476,7 +536455,8 @@
   "imageFrom": "https://www.anteprima24.it/salerno/al-via-l80a-edizione-del-festival-internazionale-del-cinema-di-salerno/",
   "imageHash": "e3fc4e562303cb6d",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "5c7739130165",
@@ -536541,7 +536521,8 @@
   "tags": [
    "ai",
    "devconf",
-   "startup"
+   "startup",
+   "expo"
   ],
   "summary_th": "งานประชุมแข่งขันอัลกอริทึมระดับโลกจัดขึ้นที่ปาจอว วันที่ 23-25 พ.ย. 2569",
   "image": "http://www.bing.com/th?id=ONUT.LEKcRmzQVDwO0a83r565gg&pid=News",
@@ -536564,7 +536545,8 @@
   "imageFrom": "https://www.msn.cn/zh-cn/sports/%E9%80%9A%E7%94%A8/%E4%BA%BA%E6%89%8D%E5%B7%B2%E5%AF%BB%E8%8E%B7%E5%90%88%E4%BD%9C%E5%B7%B2%E6%95%B2%E5%AE%9A-%E7%90%B6%E6%B4%B2%E7%AE%97%E6%B3%95%E5%A4%A7%E8%B5%9B%E5%86%B3%E8%B5%9B%E6%9C%AA%E6%89%93%E5%AE%8C%E8%B5%9B%E6%9E%9C%E5%B7%B2%E8%90%BD%E5%9C%B0/ar-AA2gTJOB",
   "imageHash": "c7672b3d4b4f2ada",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "09869fb7ee76",
@@ -536855,7 +536837,8 @@
   "imageTriedAt": "2026-11-17",
   "article": "https://www.ntdtv.com.tw/b5/20261117/video/412322.html?%E5%B1%8F%E6%9D%B1%E9%A6%AC%E5%8D%A1%E9%81%93%E6%96%87%E5%8C%96%E7%A5%AD%20%E8%80%81%E5%9F%A4%E3%80%81%E5%8A%A0%E8%9A%8B%E5%9F%94%E5%8F%8A%E5%8A%A0%E5%8C%8F%E6%9C%973%E9%83%A8%E8%90%BD%E6%8E%A5%E5%8A%9B%E7%99%BB%E5%A0%B4",
   "imageFrom": "https://www.ntdtv.com.tw/b5/20261117/video/412322.html?%E5%B1%8F%E6%9D%B1%E9%A6%AC%E5%8D%A1%E9%81%93%E6%96%87%E5%8C%96%E7%A5%AD%20%E8%80%81%E5%9F%A4%E3%80%81%E5%8A%A0%E8%9A%8B%E5%9F%94%E5%8F%8A%E5%8A%A0%E5%8C%8F%E6%9C%973%E9%83%A8%E8%90%BD%E6%8E%A5%E5%8A%9B%E7%99%BB%E5%A0%B4",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "0ee6c6c31354",
@@ -537084,7 +537067,8 @@
   "imageFrom": "https://www.sohu.com/a/1104544471_122014422",
   "imageHash": "3b099bf8268ab6c2",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "0e6b430fb8fd",
@@ -537584,51 +537568,6 @@
   "described": true,
   "datesRead": true,
   "verified": true
- },
- {
-  "id": "739762408987",
-  "name": "บาสเกตบอลเยาวชนเมืองดงไน 2026",
-  "name_th": "บาสเกตบอลเยาวชนเมืองดงไน 2026",
-  "start": "2026-11-23",
-  "end": null,
-  "venue": null,
-  "city": "ดงไน",
-  "country": "VN",
-  "region": "south",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "match"
-  ],
-  "summary_th": "พิธีเปิดการแข่งขันบาสเกตบอลเยาวชนเมืองดงไน",
-  "image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/26/1790409738244_1_20260926133952.jpeg",
-  "official": null,
-  "sources": [
-   {
-    "title": "พิธีเปิดการแข่งขันบาสเกตบอลเยาวชนเมืองดงไน ปี 2026",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVzY2Y0pHUmpQWTlUVFJkU3BPX2tRVmszclM5d3ctMDRnbUFiMzF4QW5vbFE5blotU3dvSUhuSzlrNVE2TjJVaFQ2QmIxdlY3cS1ScGJ2M21QQzlPSjY2dUpIVl94TVZyeDlOMjF3LThVdUZmaUd3NFdMZzU4eXpVanc2YWV2U0JnbUlobnhjclU0SVRtQWc1SC1n?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-10-31",
-    "image": null
-   },
-   {
-    "title": "40 đội bóng tranh tài tại Ngày hội bóng rổ trẻ 3x3 Festival 2026",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORHJ2c1RfVW81STlTOVVZV0xDZDRWa3djYmdmc05TaERDdGRmaFhPampQY3RKZktGRWJBemVyVWJhbzJQcXNZR1dUX3NqeDlST3Z0X1h6X2xES3hVMlF6VzBLVjZxMnAxMVVsbDFhV0tLNWZiMTN6UHdaQ2hkN2pSZFZ6eklJb0x0MVd4NE9nZUE?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-11-23",
-    "image": null
-   }
-  ],
-  "added": "2026-10-31",
-  "updated": "2026-11-23",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-10-31",
-  "article": "https://www.vietnam.vn/th/hon-300-tay-vot-du-tranh-giai-pickleball-cac-nhom-tuoi-thanh-pho-dong-nai-nam-2026",
-  "imageFrom": "https://www.vietnam.vn/th/hon-300-tay-vot-du-tranh-giai-pickleball-cac-nhom-tuoi-thanh-pho-dong-nai-nam-2026",
-  "placeChecked": true,
-  "dateTried": true,
-  "imageHash": "d9fb94aed4d61b6c"
  },
  {
   "id": "91d16307750b",
@@ -538161,52 +538100,6 @@
   "placeChecked": true
  },
  {
-  "id": "47a5e2c5ea8e",
-  "name": "Krippen-Ausstellung im Isergebirgs-Museum Kaufbeuren",
-  "name_th": "นิทรรศการครีบที่พิพิธภัณฑ์อิสเซอร์เกบีร์ก เคาฟบอยเริน",
-  "start": "2026-11-23",
-  "end": "2027-02-02",
-  "venue": "Isergebirgs-Museum Kaufbeuren",
-  "city": "Kaufbeuren",
-  "country": "DE",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "museum",
-   "art"
-  ],
-  "summary_th": "นิทรรศการครีบ 4 ศตวรรษที่พิพิธภัณฑ์อิสเซอร์เกบีร์ก เคาฟบอยเริน เปิดวันนี้ ถึง 2 ก.พ. 2570",
-  "image": "http://www.bing.com/th?id=ONUT.7Xz2LtgYTYo421Nra6RK6w&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "Krippen-Ausstellung er&#246;ffnet im Isergebirgs-Museum Kaufbeuren",
-    "link": "https://www.msn.com/de-de/nachrichten/other/krippen-ausstellung-er%C3%B6ffnet-im-isergebirgs-museum-kaufbeuren/ar-AA2i2sJR",
-    "source": "Kreisbote via MSN",
-    "date": "2026-11-23",
-    "image": null
-   },
-   {
-    "title": "Krippen-Ausstellung eröffnet im Isergebirgs-Museum Kaufbeuren",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRjNoM3VoTHhFdEhjWjBYZVc3Vkk3ZjFhYTZIZ2pMVFU5Xzl6ZjJmMDl3UUswUDBXY3BBZV9Wd2J1TWJDNzFTcEY2S2x6d0VYSUM1RjFUcFpTdXUzWHAwZHZfYVpnRmZEVHQ3S0xiV2tMWDhjS1pzaWR5eGJIVGh4dVZSdEJ4ODlSRVY3enhXeUREcVo4OU8zSEJGTFBKcEhLWV9OVkZBUzRISlRNXzR0LU9jUkRRM0NkSHlfcVk2RFp5VkhjREhwWnRqbnZGMGZ0cG83NQ?oc=5",
-    "source": "Kreisbote",
-    "date": "2026-11-23",
-    "image": null
-   }
-  ],
-  "added": "2026-11-23",
-  "updated": "2026-11-23",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-23",
-  "article": "https://www.allgaeuer-zeitung.de/kaufbeuren/neue-ausstellung-im-isergebirgs-museum-in-kaufbeuren-neugablonz-krippen-aus-der-alten-und-der-neuen-heimat-115691458",
-  "imageFrom": "https://www.allgaeuer-zeitung.de/kaufbeuren/neue-ausstellung-im-isergebirgs-museum-in-kaufbeuren-neugablonz-krippen-aus-der-alten-und-der-neuen-heimat-115691458",
-  "imageHash": "822276c919faf338",
-  "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
- },
- {
   "id": "e5dce5896a88",
   "name": "Ausstellung „Zwischen zwei Welten“",
   "name_th": "นิทรรศการ 「ระหว่างสองโลก」",
@@ -538628,7 +538521,8 @@
   "article": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/xpeng-opens-two-fronts-at-once-g9l-sales-in-southeast-asia-and-ngp-test-drives-in-paris/70546843",
   "imageFrom": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/xpeng-opens-two-fronts-at-once-g9l-sales-in-southeast-asia-and-ngp-test-drives-in-paris/70546843",
   "imageHash": "5ba1f0318f6c9fbb",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "10b38889dc03",
@@ -538667,7 +538561,8 @@
   "imageFrom": "https://www.itinerarinellarte.it/it/mostre/sensing-the-future-extra-maxxi-18106",
   "imageHash": "0862ac6b3c576d3b",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "aafa31b13fd5",
@@ -538992,7 +538887,8 @@
   "imageFrom": "https://www.nippon.com/en/articles/-/16508",
   "placeChecked": true,
   "imageHash": "96a54838adc56a35",
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "b41865849108",
@@ -539177,7 +539073,8 @@
   "imageFrom": "https://www.ilgiornaleditalia.it/gallery/cultura/839797/fatima-tavecchio-la-nuova-mostra-il-tessitore-di-sogni-a-milano-tra-pittura-fotografia-e-ceramica-fino-a-febbraio-2027.html",
   "imageHash": "df5dca8ac38afa10",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "a990e13df65f",
@@ -539426,7 +539323,8 @@
   "enriched": true,
   "imageHash": "4aacf046e4335c72",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "607bd84fc27d",
@@ -540029,7 +539927,8 @@
   "imageFrom": "https://www.murcia.com/santomera/noticias/2026/11/23-la-exposicion-sintesis-de-jose-miguel-munoz-abre-sus-puertas-en-casa-grande-hasta-el-7-de-enero.asp",
   "imageHash": "c4fb0933c9b30aa2",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "e4d36b938e86",
@@ -541183,7 +541082,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-23",
   "article": "https://www.forbes.com/sites/carolrhmalasig/2025/06/13/faur-le-page-doesnt-identify-as-a-luxury-brand-why-that-matters/",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "315b7174da39",
@@ -543101,7 +543001,8 @@
   "imageTriedAt": "2026-11-24",
   "article": null,
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "2164132ab941",
@@ -543774,7 +543675,8 @@
   "imageFrom": "https://n.yam.com/Article/20261120336518",
   "imageHash": "ef5efa4ed01eb6a8",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "5a06013e75dd",
@@ -544304,7 +544206,7 @@
   "name": "IKEA Pop-Up at Hyundai Department Store Pangyo",
   "name_th": "ร้านป๊อปอัป IKEA ที่ฮยุนได ดีพาร์ทเมนท์ สโตร์ พังโย",
   "start": "2026-11-23",
-  "end": null,
+  "end": "2027-01-22",
   "venue": "Hyundai Department Store Pangyo",
   "city": "Pangyo",
   "country": "KR",
@@ -544341,7 +544243,9 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-24",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "453a239ef79b",
@@ -544924,7 +544828,7 @@
  {
   "id": "4175e406e73d",
   "name": "샤갈, 너머의 여정",
-  "name_th": "นิทรรศการ 'Chagall, การเดินทางที่เลยพ้น'",
+  "name_th": "샤갈, 너머의 여정",
   "start": "2026-11-24",
   "end": "2027-03-28",
   "venue": "퐁피두센터 한화",
@@ -544964,7 +544868,8 @@
    "7c276b3d4afa",
    "3d7e286a3142"
   ],
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "372a3e57214e",
@@ -545237,7 +545142,8 @@
    "497834bb8198",
    "f3ec381f5074"
   ],
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "9299ceb78f09",
@@ -545945,7 +545851,8 @@
   "imageFrom": "https://www.whatsonstage.com/london-theatre/news/matthew-bournes-cinderella-sadlers-well_45413.html/",
   "placeChecked": true,
   "imageHash": "ff30d2f6511e1d89",
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "de9e1d59b472",
@@ -546476,7 +546383,8 @@
   "imageFrom": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/salon-des-maires-et-des-collectivites-locales-2026-13-ministeres-presents-pour-parler-de",
   "imageHash": "124acee3f308f74f",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "98d46d34938b",
@@ -546966,7 +546874,8 @@
   "price_th": null,
   "tags": [
    "festival",
-   "workshop"
+   "workshop",
+   "design"
   ],
   "summary_th": "เทศกาลรีไซเคิลครั้งที่ 5 มีเวิร์กช็อปและนิทรรศการที่มิลาน 24-29 พ.ย. 2569",
   "image": "http://www.bing.com/th?id=ONUT.PM_AQajWsFDXZ5h3gPvlSA&pid=News",
@@ -546989,7 +546898,8 @@
   "imageFrom": "https://comune.livorno.it/it/news/tornari-life-quinto-festival-del-riuso",
   "imageHash": "f2cb5ea60064bc11",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "5f2a9b5dd0a7",
@@ -547030,7 +546940,8 @@
   "enriched": true,
   "imageHash": "44397f92b5525ba3",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "b6a25cd280ec",
@@ -547109,7 +547020,8 @@
   "updated": "2026-11-21",
   "enriched": true,
   "imageHash": "eb4a57ea3564dab0",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "aa0e0c5a51ac",
@@ -547770,7 +547682,8 @@
   "price_th": "เข้าฟรี",
   "tags": [
    "market",
-   "food"
+   "food",
+   "sale"
   ],
   "summary_th": "งานแสดงสินค้าญี่ปุ่นและอาหารที่新光三越高雄左營店 24 พ.ย. - 15 ธ.ค.",
   "image": "http://www.bing.com/th?id=ONUT.PWgCpBbux2tI4hdwOgQp6A&pid=News",
@@ -547806,7 +547719,8 @@
   "article": "https://n.yam.com/Article/20261123403019",
   "imageFrom": "https://n.yam.com/Article/20261123403019",
   "imageHash": "1a9649bc1a4cf810",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "d0a560bc329b",
@@ -547922,7 +547836,8 @@
   "imageFrom": "https://travail-emploi.gouv.fr/salon-des-maires-et-des-collectivites-locales-2026",
   "imageHash": "3c5ff9ca289c1039",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "07734214f7ca",
@@ -547998,7 +547913,7 @@
  {
   "id": "5fd17db46a47",
   "name": "VinFast Cup 2026",
-  "name_th": "วินแฟสต์ คัพ 2026",
+  "name_th": "การแข่งขันกอล์ฟชิงแชมป์แห่งชาติปี 2026 - VinFast Cup",
   "start": "2026-11-24",
   "end": null,
   "venue": null,
@@ -548008,7 +547923,9 @@
   "online": false,
   "price_th": null,
   "tags": [
-   "match"
+   "match",
+   "wellness",
+   "outdoor"
   ],
   "summary_th": "การแข่งขังกอล์ฟชิงแชมป์แห่งชาติ VinFast Cup 2026 ที่คูชิ เวียดนาม",
   "image": "http://www.bing.com/th?id=ONUT.LnAhuqZw9WljvD-_CqRFIA&pid=News",
@@ -548051,7 +547968,8 @@
   "article": "https://danviet.vn/giai-vo-dich-golf-quoc-gia-2026-buoc-chay-da-quan-trong-huong-toi-sea-games-2027-d1471951.html",
   "imageFrom": "https://danviet.vn/giai-vo-dich-golf-quoc-gia-2026-buoc-chay-da-quan-trong-huong-toi-sea-games-2027-d1471951.html",
   "imageHash": "a5906597e0bc0e02",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "42942a2bc059",
@@ -548418,7 +548336,7 @@
    "local"
   ],
   "summary_th": "งานลอยกระทงและประชันแสงสีเสียงที่บ้านบึง-บ้านโพธิ์ ชลบุรี",
-  "image": "http://www.bing.com/th?id=ONUT.GR9GLlr4juy6IHnjQNnfrg&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.-f600qP8kkKk0wQV6VH_Vg&pid=News",
   "official": null,
   "sources": [
    {
@@ -548434,10 +548352,10 @@
   "verified": true,
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-24",
+  "imageTriedAt": "2026-11-25",
   "article": "https://www.dailynews.co.th/news/4075261/",
-  "imageFrom": "https://www.dailynews.co.th/news/4075261/",
-  "imageHash": "d40d2bb2daa75440",
+  "imageFrom": "https://www.dailynews.co.th/news/6390596/",
+  "imageHash": "56dee30da7cbed9a",
   "placeChecked": true
  },
  {
@@ -549245,43 +549163,6 @@
   "priceTriedAt": "2026-11-24"
  },
  {
-  "id": "62b6bb1353d5",
-  "name": "พิธีรำลึกถึงรองนักวิชาการเหงียน ซิงห์ ซัค",
-  "name_th": "พิธีรำลึกถึงรองนักวิชาการเหงียน ซิงห์ ซัค",
-  "start": "2026-11-24",
-  "end": "2026-11-26",
-  "venue": null,
-  "city": "ดงทับ",
-  "country": "VN",
-  "region": "south",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "local",
-   "festival"
-  ],
-  "summary_th": "พิธีรำลึกถึงรองนักวิชาการเหงียน ซิงห์ ซัค จัดขึ้น 3 วันที่ดงทับ",
-  "image": null,
-  "official": null,
-  "sources": [
-   {
-    "title": "ดงทับ: พิธีรำลึกถึงรองนักวิชาการเหงียน ซิงห์ ซัค จัดขึ้นเป็นเวลา 3 วัน",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUVNRZFZyOElEMVJET2diY0xsVHFTczRtemoyanNjRHBFSTM0UmhrWnFyTDFYMU1nMFdTcUx3dzQyWGFvY2JZU0g5MFc5ZDlJMDR6TGJWbTNLdUR3c3ZZUHFtQmlHR2tjRnRURUxLLUU1dDZlbVhnLVp5R0Q1REN0ZVhJUEp3UzROV251ZzhzVTEzZE5qbkE?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-11-24",
-    "image": null
-   }
-  ],
-  "added": "2026-11-24",
-  "updated": "2026-11-24",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-24",
-  "article": null,
-  "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
- },
- {
   "id": "fee81b815504",
   "name": "Chicago Zoo Thanksgiving Special Meal",
   "name_th": "สวนสัตว์ชิคาโกจัดมื้อพิเศษฉลอง Thanksgiving",
@@ -550069,7 +549950,8 @@
   "price_th": null,
   "tags": [
    "art",
-   "museum"
+   "museum",
+   "design"
   ],
   "summary_th": "นิทรรศการศิลปะข้อมูลสภาพภูมิอากาศ Tempestry ที่ Rogers Center",
   "image": "http://www.bing.com/th?id=ONUT.EH6PYiO1n-2Po-9lMZKWVg&pid=News",
@@ -550091,7 +549973,8 @@
   "article": "https://www.romesentinel.com/ce/colgate-tempestry-climate-art-exhibition-rogers-center/article_46e24bde-7a29-4164-a83b-bfd08a63ed8b.html",
   "imageFrom": "https://www.romesentinel.com/ce/colgate-tempestry-climate-art-exhibition-rogers-center/article_46e24bde-7a29-4164-a83b-bfd08a63ed8b.html",
   "imageHash": "a9db4e31cf7578fa",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "e430724afdc3",
@@ -550457,10 +550340,9 @@
   "online": false,
   "price_th": null,
   "tags": [
-   "market",
-   "festival",
    "drink",
-   "nightmarket",
+   "festival",
+   "market",
    "cafe"
   ],
   "summary_th": "บาร์ป็อปอัปคริสต์มาส 40+ แห่งเปิดให้บริการที่ Northeast Ohio, สหรัฐอเมริกา",
@@ -550491,7 +550373,8 @@
   "imageFrom": "https://www.cleveland.com/entertainment/2026/11/40-christmas-pop-up-bars-bring-holiday-cheer-to-northeast-ohio.html",
   "imageHash": "4407cdb6469fa407",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "81a9c0355f0a",
@@ -550772,7 +550655,8 @@
   "enriched": true,
   "imageHash": "0bdc67b46a45d7de",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "8c704a42236e",
@@ -550808,7 +550692,8 @@
   "enriched": true,
   "imageHash": "20c3d01de0e14f46",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "261deec5e356",
@@ -551092,7 +550977,8 @@
   "imageTriedAt": "2026-11-24",
   "article": null,
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "670823918227",
@@ -551737,7 +551623,8 @@
   "imageFrom": "https://udn.com/news/story/7326/9891172",
   "imageHash": "4674dec950e87426",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "ae5838f78dce",
@@ -552171,7 +552058,8 @@
   "enriched": true,
   "imageHash": "ce1bcc50e46bc712",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "a4ad8d621a3a",
@@ -552823,7 +552711,8 @@
   "imageHash": "aea3933b49eebc8e",
   "placeChecked": true,
   "regionTried": true,
-  "dateTried": true
+  "dateTried": true,
+  "verified": true
  },
  {
   "id": "f7619e66166d",
@@ -553009,7 +552898,8 @@
   "enriched": true,
   "imageHash": "f04e1c81c25b2f23",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "2cf1cba67334",
@@ -553841,7 +553731,7 @@
  {
   "id": "262c264a8674",
   "name": "關子嶺美食節夜間燈飾展",
-  "name_th": "นิทรรศการแสงสีคืนเทศกาลอาหารกวนจীলิง",
+  "name_th": "โคมไฟยามค่ำคืนงานเทศกาลอาหารกวนจื่อหลิง",
   "start": "2026-11-24",
   "end": "2027-03-01",
   "venue": "關子嶺溫泉區",
@@ -553877,7 +553767,8 @@
   "updated": "2026-11-25",
   "enriched": true,
   "imageHash": "c4f936f6df156d04",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "46b54e0e11d4",
@@ -554024,7 +553915,8 @@
   "imageFrom": "https://notiziarte.com/2026/11/24/mimmo-rotella-torna-a-milano-una-grande-mostra-alla-fabbrica-del-vapore-a-ventanni-dalla-scomparsa/",
   "imageHash": "84c33c20bd851863",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "5682095614ff",
@@ -554063,7 +553955,8 @@
   "imageFrom": "https://www.olbia.it/olbia-natale-da-474mila-euro-ma-il-conto-finale-e-ancora-da-fare",
   "imageHash": "4d11f2ce3da9e228",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "0b46678369ca",
@@ -554102,7 +553995,8 @@
   "imageFrom": "https://www.espansionetv.it/2026/11/21/a-como-si-accende-la-magia-del-natale-aperti-i-mercatini-e-la-pista-di-pattinaggio/",
   "imageHash": "dcf2abef5c07d181",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "3d2d5dfd9166",
@@ -554254,7 +554148,8 @@
   "imageHash": "80ce43fdd950328a",
   "placeSuspect": false,
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "878284f6b37e",
@@ -554327,7 +554222,8 @@
   "enriched": true,
   "imageHash": "8a2bdf9c7c815ccc",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "54b5337eb074",
@@ -554457,7 +554353,8 @@
   "price_th": null,
   "tags": [
    "market",
-   "fashion"
+   "fashion",
+   "sale"
   ],
   "summary_th": "แบรนด์ Favorite Daughter เปิดร้านป๊อปอัปที่นอร์ทพาร์ค เซ็นเตอร์ ดัลลัส",
   "image": null,
@@ -554477,7 +554374,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "34842b5c64e8",
@@ -554725,7 +554623,8 @@
   "enriched": true,
   "imageHash": "b38348be59b96e2d",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "657b83dee7cb",
@@ -555274,7 +555173,8 @@
    "5a167d9687de",
    "740fd2278b10"
   ],
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "16a410e6b2bf",
@@ -555699,7 +555599,8 @@
    "22daa1128c9f",
    "251b7245c668"
   ],
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "07e5b991377a",
@@ -555786,7 +555687,8 @@
    "555bc34d6c55",
    "19307c403d40"
   ],
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "2ed2dc9782f6",
@@ -555873,7 +555775,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-01",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "852cd91bb0a9",
@@ -555960,44 +555863,6 @@
   "placeChecked": true,
   "imageHash": "3c24a747ae01c3bc",
   "priceTriedAt": "2026-11-25"
- },
- {
-  "id": "955f91bae031",
-  "name": "Concert Éric Serra à Toulouse",
-  "name_th": "คอนเสิร์ต เอริก แซรา ที่ตูลูส",
-  "start": "2026-11-25",
-  "end": "2026-11-25",
-  "venue": null,
-  "city": "Toulouse",
-  "country": "FR",
-  "region": null,
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "concert"
-  ],
-  "summary_th": "เอริก แซรา ยกเลิกทัวร์คอนเสิร์ตกะทันหัน รวมถึงรอบที่ตูลูสวันที่ 25 พฤศจิกายนนี้",
-  "image": "http://www.bing.com/th?id=ONUT.H-9VE9lbBLy5Qq7PxUUUFw&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "\"Je suis dégoûtée\", \"c'est irrespectueux\"... Éric Serra annule sa tournée au dernier moment, son concert prévu à Toulouse le 25 novembre n’aura pas lieu",
-    "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOOGZ4X3d4VUJuNTF1aGpsMXlveXoxWThMazdxX1NGZUZINmdDbFcxTlI5TUVBNjhjcUlHd1VqMEVOYk1xZ0VCbUlUUjlpTHFPLUJubXpYX1RtN2trTW0wMUhHSVpRdl9nSlNrZERabVozVEMzMC15LS1TNkliSnJpZUFQUjFacEtHa0ZTQUF6c1g3SmRBVWx3YzhOQ3pCTmlmTmo1eTg3ZGdBQVNVcjNBLXh1QTQ1ZnAweElGRFBGLWhNdGZ1ZDd5bFltcGNzSnBHdWU5NnNqYzVPaGprTUsxcjBBTG5CblRsR3VEaDRWbzliYTluY2JWeUp2d1hteE9BOTF1TVZSOVFfbml2YjVUbS13S0pqZU1VVlE?oc=5",
-    "source": "ladepeche.fr",
-    "date": "2026-11-02",
-    "image": null
-   }
-  ],
-  "added": "2026-11-02",
-  "updated": "2026-11-02",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-02",
-  "article": "https://www.ladepeche.fr/2026/11/02/je-suis-degoutee-cest-irrespectueux-eric-serra-annule-sa-tournee-au-dernier-moment-son-concert-prevu-a-toulouse-le-25-novembre-naura-pas-lieu-13632109.php",
-  "imageFrom": "https://www.ladepeche.fr/2026/11/02/je-suis-degoutee-cest-irrespectueux-eric-serra-annule-sa-tournee-au-dernier-moment-son-concert-prevu-a-toulouse-le-25-novembre-naura-pas-lieu-13632109.php",
-  "imageHash": "617a6caace3bd1f7",
-  "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
  },
  {
   "id": "f8fd7a22f6bd",
@@ -556194,7 +556059,8 @@
   "article": "https://www.sankei.com/pressrelease/prtimes/Q66GHI3PY5KM7GLAT6CQKE63KI/",
   "imageFrom": "https://www.sankei.com/pressrelease/prtimes/Q66GHI3PY5KM7GLAT6CQKE63KI/",
   "imageHash": "68235ed4ae206ef2",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "b48c4ed9ea46",
@@ -556411,7 +556277,8 @@
   "imageFrom": "https://www.bizwnews.com/news/articleView.html?idxno=151670",
   "imageHash": "e1afe10c2d3d1d82",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "9d799dc9a955",
@@ -556577,7 +556444,8 @@
   "imageFrom": "https://www.kmib.co.kr/article/20261117500741",
   "imageHash": "a69b94b005c9d81f",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "4a7d891292e0",
@@ -556617,7 +556485,8 @@
   "article": "https://mistar.id/news/hiburan/ding-yuxi-ke-jakarta-25-november-2026-ini-lokasi-fan-meeting-dan-profil-sang-aktor",
   "imageFrom": "https://mistar.id/news/hiburan/ding-yuxi-ke-jakarta-25-november-2026-ini-lokasi-fan-meeting-dan-profil-sang-aktor",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "cd05d37efc01",
@@ -556787,7 +556656,8 @@
   "imageFrom": "https://post.tv-asahi.co.jp/post-896548/",
   "imageHash": "4dcdb3d8c5c16b18",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "e21258096bbb",
@@ -556825,7 +556695,8 @@
   "imageTriedAt": "2026-11-24",
   "article": null,
   "placeChecked": true,
-  "priceTriedAt": "2026-11-24"
+  "priceTriedAt": "2026-11-24",
+  "verified": true
  },
  {
   "id": "d0eeccdd1b6f",
@@ -557061,7 +556932,8 @@
   "article": "https://www.kobe-np.co.jp/info/prtimes/202611/c174775_r9.shtml",
   "imageFrom": "https://news.dellows.jp/1301445/",
   "imageHash": "3c61641f84baa8ab",
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "2c1c8931cd83",
@@ -557219,7 +557091,8 @@
   "imageTriedAt": "2026-11-24",
   "article": "https://www.cleveland.com/community/2024/11/its-the-time-of-year-to-reflect-and-give-thanks-solon-mayor-says-at-winter-festival.html",
   "placeSuspect": false,
-  "placeChecked": true
+  "placeChecked": true,
+  "verified": true
  },
  {
   "id": "f02750272ba0",
@@ -557258,7 +557131,8 @@
   "imageFrom": "https://www.ansa.it/campania/notizie/2026/11/18/vico-equense-si-accende-per-le-feste-torna-incanto-del-natale_249ab66b-921a-46cb-8db2-763d310f813b.html",
   "imageHash": "65dad32b0aa46017",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "b33a027b9008",
@@ -557486,7 +557360,8 @@
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261118prt00m200000474a.html",
   "imageHash": "3fd9cf0420cae319",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "687d223749e0",
@@ -557565,7 +557440,8 @@
   "imageFrom": "https://www.fnn.jp/articles/-/1156670",
   "imageHash": "7fc47e03ea7b0316",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "d3c9fa116e19",
@@ -557603,7 +557479,8 @@
   "imageFrom": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4091167",
   "imageHash": "adb1666d8dd9f4ec",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "3411c97dc9d3",
@@ -557646,45 +557523,6 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-22",
   "article": null,
-  "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
- },
- {
-  "id": "c7fda1a26242",
-  "name": "서울 국제문화교류페스티벌",
-  "name_th": "งานเทศกาลแลกเปลี่ยนวัฒนธรรมระหว่างประเทศกรุงโซล",
-  "start": "2026-11-25",
-  "end": "2026-11-25",
-  "venue": null,
-  "city": "서울",
-  "country": "KR",
-  "region": "seoul",
-  "online": false,
-  "price_th": null,
-  "tags": [
-   "festival",
-   "concert"
-  ],
-  "summary_th": "เทศกาลแลกเปลี่ยนวัฒนธรรมระหว่างประเทศกรุงโซล เปิดตัว 25 พ.ย. โดยมี 100 세 테너 ฮง 운표 ร่วมแสดง",
-  "image": "http://www.bing.com/th?id=ONUT.weWW4Sb4mmggXd9qxPRNBA&pid=News",
-  "official": null,
-  "sources": [
-   {
-    "title": "용인시, 12월 20일 대입 정시대비 '1:1 진학컨설팅' 개최",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1acmJyMW02MExXTmpCTHdQdl9BWjBJV2YyYXhyUGhiVDd6UThUXzVMY2tSa0xCTW5NT05fU0FyS1hBUUpzZHVDNFdjenl1aU41TzJBYnN1TW1Kby00YW56Q9IBYEFVX3lxTE1acmJyMW02MExXTmpCTHdQdl9BWjBJV2YyYXhyUGhiVDd6UThUXzVMY2tSa0xCTW5NT05fU0FyS1hBUUpzZHVDNFdjenl1aU41TzJBYnN1TW1Kby00YW56Qw?oc=5",
-    "source": "연합뉴스",
-    "date": "2026-11-22",
-    "image": null
-   }
-  ],
-  "added": "2026-11-22",
-  "updated": "2026-11-22",
-  "enriched": true,
-  "imageTried": true,
-  "imageTriedAt": "2026-11-22",
-  "article": "https://kor.theasian.asia/archives/422021",
-  "imageFrom": "https://kor.theasian.asia/archives/422021",
-  "imageHash": "9624bc2aa54c96fb",
   "placeChecked": true,
   "priceTriedAt": "2026-11-25"
  },
@@ -557856,7 +557694,8 @@
   "imageTriedAt": "2026-11-23",
   "article": null,
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "verified": true
  },
  {
   "id": "32206bc52159",
@@ -558608,7 +558447,7 @@
    "game"
   ],
   "summary_th": "การแข่งขันอีสปอร์ต League of Legends รีฟต์บาวด์ โครีย เมเจอร์ จัดขึ้นในเกาหลีใต้",
-  "image": "http://www.bing.com/th?id=ONUT.985rblKplZJ5IvvQWWIB8Q&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.zzpA3NTpMbSPhh2NfAcPBg&pid=News",
   "official": null,
   "sources": [
    {
@@ -558625,8 +558464,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.sportsworldi.com/newsView/20261123505592",
-  "imageFrom": "https://www.sportsworldi.com/newsView/20261123505592",
-  "imageHash": "0f4c3fb0e977c15b",
+  "imageFrom": "https://game.mk.co.kr/news/it/12215894",
+  "imageHash": "5a40badf01eab8d7",
   "placeChecked": true,
   "priceTriedAt": "2026-11-25"
  },
@@ -559144,7 +558983,7 @@
    "local"
   ],
   "summary_th": "เด็กๆ ทุ่งคอกจัดงานลอยกระทงเที่ยงวันเพื่อลดเสี่ยงอันตรายกลางคืน",
-  "image": "http://www.bing.com/th?id=ONUT.GR9GLlr4juy6IHnjQNnfrg&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.lb2Gga1EmzbmfWGrOd96OA&pid=News",
   "official": null,
   "sources": [
    {
@@ -559162,8 +559001,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.dailynews.co.th/news/4075261/",
-  "imageFrom": "https://www.dailynews.co.th/news/4075261/",
-  "imageHash": "d40d2bb2daa75440",
+  "imageFrom": "https://www.thaipbs.or.th/now/content/572993",
+  "imageHash": "8cb4af28a73df293",
   "placeChecked": true,
   "priceTriedAt": "2026-11-25"
  },
@@ -559333,7 +559172,7 @@
    "ev"
   ],
   "summary_th": "มอเตอร์โชว์ มานิลา ออโต่ ซาลอน 2026 แสดงเทคโนโลยีแบตเตอรี่ของ AISIN",
-  "image": "http://www.bing.com/th?id=ONUT.tbDjXR3Js-QV14UxF_W6Gg&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.oe-5KNG3Ct1e27fDr8JuRA&pid=News",
   "official": null,
   "sources": [
    {
@@ -559350,8 +559189,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://manilastandard.net/spotlight/314822524/aisin-brings-its-expanding-automotive-aftermarket-portfolio-to-manila-auto-salon-2026.html",
-  "imageFrom": "https://www.autoindustriya.com/features/2026-manila-auto-salon-showcasing-the-best-of-philippine-car-culture.html",
-  "imageHash": "242f1d1e9ee44be0",
+  "imageFrom": "https://www.topgear.com.ph/car-culture/manila-auto-salon-2026-recap-gallery-a4354-20261116",
+  "imageHash": "be0e7b840fdc58af",
   "placeChecked": true,
   "priceTriedAt": "2026-11-25"
  },
@@ -559468,7 +559307,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.gqthailand.com/article/bangkok-concert-list-2026-part1",
   "imageFrom": "https://www.gqthailand.com/article/bangkok-concert-list-2026-part1",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "1d834d36b450f327"
  },
  {
   "id": "3ca18ba3d5ff",
@@ -559604,7 +559444,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตของเพลซีโบ่ที่ Accor Arena วันที่ 25 พฤศจิกายน 2026",
-  "image": "https://cdn.sortiraparis.com/images/80/1665/857053-accor-arena-salle-ambiance.jpg",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -559623,7 +559463,8 @@
   "article": "https://www.sortiraparis.com/scenes/concert-musique/articles/342714-placebo-a-paris-bercy-les-deux-premiers-albums-a-l-honneur",
   "imageFrom": "https://www.sortiraparis.com/scenes/concert-musique/articles/342714-placebo-a-paris-bercy-les-deux-premiers-albums-a-l-honneur",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "imageHash": null
  },
  {
   "id": "dbac1d411cbf",
@@ -559698,7 +559539,8 @@
   "article": "https://www.rfi.fr/fr/culture/20260926-expositions-paris-capitale-de-la-mode-au-del%C3%A0-des-podiums",
   "imageFrom": "https://madame.lefigaro.fr/style/de-la-blouse-de-klimt-aux-silhouettes-dandy-au-musee-bourdelle-une-exposition-rhabille-les-artistes-20260926",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "imageHash": "244fedd1a893067a"
  },
  {
   "id": "5bd88277186a",
@@ -559969,7 +559811,8 @@
   "article": "https://finance.sina.com.cn/jjxw/2026-10-13/doc-inivawnc8006248.shtml",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-10-13/doc-inivawnc8006248.shtml",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "imageHash": "8d72238052a18b22"
  },
  {
   "id": "b99d602d8fc3",
@@ -560786,7 +560629,8 @@
   "article": "https://www.sohu.com/a/1106073735_121956425",
   "imageFrom": "https://www.sohu.com/a/1106058683_120578424",
   "imageHash": "480805815e288d9d",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "e5e543bf030a",
@@ -560861,7 +560705,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "0acbecfa3a34",
@@ -560898,7 +560743,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "http://www.visionunion.com/articles/202607160003.html",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "23df85900b35",
@@ -560972,7 +560818,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "3ad3b3e82687",
@@ -561010,7 +560857,8 @@
   "article": "https://www.sohu.com/a/1105880609_121106875",
   "imageFrom": "https://www.sohu.com/a/1105880609_121106875",
   "imageHash": "6fe069c5e8094064",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "d919a3415bee",
@@ -561094,7 +560942,8 @@
   "article": "https://www.sggp.org.vn/trien-lam-quoc-te-ve-hoa-chat-quy-tu-hon-400-gian-hang-trong-va-ngoai-nuoc-post883530.html",
   "imageFrom": "https://www.sggp.org.vn/trien-lam-quoc-te-ve-hoa-chat-quy-tu-hon-400-gian-hang-trong-va-ngoai-nuoc-post883530.html",
   "imageHash": "75a82ecfd628cbdd",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "8ab308c83172",
@@ -561134,7 +560983,8 @@
   "imageHash": "ee0bf98c88b75dcf",
   "placeSuspect": false,
   "placeChecked": true,
-  "regionTried": false
+  "regionTried": false,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "34d6034d9bdd",
@@ -561171,7 +561021,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "1ee985e01491",
@@ -561210,7 +561061,8 @@
   "article": "https://finance.sina.com.cn/roll/2026-11-25/doc-inizxtsc9545824.shtml",
   "imageFrom": "https://finance.sina.com.cn/roll/2026-11-25/doc-inizxtsc9545824.shtml",
   "imageHash": "f73d76682d98d129",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "945c09e91585",
@@ -561295,7 +561147,8 @@
   "article": "https://kienthuc.net.vn/can-canh-dan-uav-hien-dai-tai-trien-lam-cong-nghe-o-phu-tho-post1648412.html",
   "imageFrom": "https://kienthuc.net.vn/can-canh-dan-uav-hien-dai-tai-trien-lam-cong-nghe-o-phu-tho-post1648412.html",
   "imageHash": "922f9f53edcc9922",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "cd77ab2dc1cb",
@@ -561332,7 +561185,8 @@
   "article": "https://vietnam.vnanet.vn/vietnamese/tin-van/khai-mac-trien-lam-quoc-te-ve-may-moc-thiet-bi-cong-nghe-va-san-pham-cong-nghiep-tai-tp-ho-chi-minh-478991.html",
   "imageFrom": "https://vietnam.vnanet.vn/vietnamese/tin-van/khai-mac-trien-lam-quoc-te-ve-may-moc-thiet-bi-cong-nghe-va-san-pham-cong-nghiep-tai-tp-ho-chi-minh-478991.html",
   "imageHash": "c0062134f86574f1",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "529433ca4957",
@@ -561430,7 +561284,8 @@
   "article": "https://kenh14.vn/check-in-rung-hoa-anh-dao-nhat-ban-dang-no-ro-o-dien-bien-215251229102750131.chn",
   "imageFrom": "https://kenh14.vn/check-in-rung-hoa-anh-dao-nhat-ban-dang-no-ro-o-dien-bien-215251229102750131.chn",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "imageHash": "b949616217bb7936"
  },
  {
   "id": "9e5dbe7608fe",
@@ -561506,7 +561361,8 @@
   "article": "https://www.kado.net/news/articleView.html?idxno=2087182",
   "imageFrom": "https://www.kado.net/news/articleView.html?idxno=2087182",
   "imageHash": "bf24d235f942599d",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "c24daa357bc1",
@@ -561550,7 +561406,8 @@
   "article": "https://www.fnnews.com/news/202611251824002387",
   "imageFrom": "https://www.seoul.co.kr/news/society/2026/11/24/20261124500349",
   "imageHash": "032bf0bd2960df40",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "1c21eb84dc01",
@@ -561595,7 +561452,8 @@
   "article": "https://kr.xinhuanet.com/20261125/d22bb9a713fd4235b93318f1ccffed4e/c.html",
   "imageFrom": "https://kr.xinhuanet.com/20261125/d22bb9a713fd4235b93318f1ccffed4e/c.html",
   "imageHash": "8b2d82c8cf0cb9b9",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "5ecc798c45c8",
@@ -561633,7 +561491,8 @@
   "article": "https://www.lawissue.co.kr/view.php?ud=202611242252019154f4ab64559d_12",
   "imageFrom": "https://www.lawissue.co.kr/view.php?ud=202611242252019154f4ab64559d_12",
   "imageHash": "b287eebab4e3f13e",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "848de81361de",
@@ -561694,7 +561553,8 @@
   "article": "https://www.vietnam.vn/techfest-hung-yen-2026-ket-noi-cong-nghe-voi-nhu-cau-thuc-tien-mo-rong-co-hoi-hop-tac-va-tang-truong",
   "imageFrom": "https://www.vietnam.vn/techfest-hung-yen-2026-ket-noi-cong-nghe-voi-nhu-cau-thuc-tien-mo-rong-co-hoi-hop-tac-va-tang-truong",
   "imageHash": "43a20ffee69d9d58",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "a7d221b25f7d",
@@ -561750,7 +561610,8 @@
   "updated": "2026-11-25",
   "enriched": true,
   "imageHash": "a6a6b035de155c94",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "5648153db474",
@@ -561788,7 +561649,8 @@
   "article": "https://ulis.vnu.edu.vn/thong-tin-ve-hoi-thao-quoc-te-icep-ulis-2026-xay-dung-moi-truong-giao-duc-tich-cuc-trong-thoi-dai-so-va-lien-van-hoa/",
   "imageFrom": "https://ulis.vnu.edu.vn/thong-tin-ve-hoi-thao-quoc-te-icep-ulis-2026-xay-dung-moi-truong-giao-duc-tich-cuc-trong-thoi-dai-so-va-lien-van-hoa/",
   "imageHash": "03e499fa571e29e6",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "dfcb79bb52b2",
@@ -561826,7 +561688,8 @@
   "article": "https://news.qq.com/rain/a/20261125A09PV400",
   "imageFrom": "https://news.qq.com/rain/a/20261125A09PV400",
   "imageHash": "7b8a0cce1653691b",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "2ab6215c59ae",
@@ -561864,7 +561727,8 @@
   "article": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismrfc1740249.shtml",
   "imageFrom": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismrfc1740249.shtml",
   "placeChecked": true,
-  "priceTriedAt": "2026-11-25"
+  "priceTriedAt": "2026-11-25",
+  "imageHash": "76166d2df36eb1b3"
  },
  {
   "id": "20f178070adb",
@@ -561901,7 +561765,8 @@
   "article": "https://www.fnnews.com/news/202611251403196857",
   "imageFrom": "https://www.fnnews.com/news/202611251403196857",
   "imageHash": "796222cbe1f3371d",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "cf5fd342dfae",
@@ -561939,7 +561804,8 @@
   "article": "https://www.vegannews.co.kr/news/article.html?no=410887",
   "imageFrom": "https://www.vegannews.co.kr/news/article.html?no=410887",
   "imageHash": "54c3e2b222068a83",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "8e122b7952fe",
@@ -562192,7 +562058,7 @@
    "7c707bcda6b2"
   ],
   "imageTriedAt": "2026-11-16",
-  "priceTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-11-25",
   "placeChecked": true,
   "imageFrom": "https://collabo-cafe.com/events/collabo/dr-stone-pop-up-store-tokyo-osaka-2026/",
   "imageHash": "052151b7ae643533"
@@ -562268,7 +562134,7 @@
   "article": "https://www.sankei.com/article/20261019-WQDA4P3X35IHPBF3VSAGDZ237E/?outputType=theme_oriconnews",
   "imageFrom": "https://www.sankei.com/article/20261019-WQDA4P3X35IHPBF3VSAGDZ237E/?outputType=theme_oriconnews",
   "dateTried": true,
-  "priceTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-11-25",
   "notDupWith": [
    "8155bdc92b52",
    "9f72aeae6bb5",
@@ -562405,7 +562271,7 @@
   "article": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10651679",
   "imageFrom": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10651679",
   "imageHash": "a3a60dbe5c1c13a7",
-  "priceTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-11-25",
   "placeChecked": true,
   "notDupWith": [
    "e397f6b0f4c1",
@@ -562449,7 +562315,8 @@
   "enriched": true,
   "imageHash": "f1f55004bcfd4e7e",
   "placeChecked": true,
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "bf00b60f0227",
@@ -562503,7 +562370,8 @@
   ],
   "enriched": true,
   "imageHash": "b7a547c3234804bf",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "06ebfafd14ff",
@@ -562781,7 +562649,8 @@
    "d4983daf7ad1",
    "ccadf22d8759"
   ],
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "71ab335d1759",
@@ -562854,7 +562723,8 @@
    "19307c403d40",
    "6a210a45d0a1"
   ],
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "cb4a64c4260a",
@@ -562954,7 +562824,8 @@
    "63b061969c66",
    "18522b4aa94d",
    "86270418d187"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "608ae6f9c38b",
@@ -563187,7 +563058,8 @@
    "1de7bdd53682",
    "41d9333ab98a"
   ],
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "c21af9689add",
@@ -563234,7 +563106,8 @@
    "9defbbd01099",
    "b66fca26e280",
    "852cd91bb0a9"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "08f66d13dbbc",
@@ -563283,7 +563156,8 @@
    "53dfb3b76231",
    "ce0c675a61e8",
    "b287a4925dac"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "2f448758f091",
@@ -563405,7 +563279,8 @@
    "503df5a78c98"
   ],
   "imageFrom": null,
-  "imageHash": "65d306cadf77d8a8"
+  "imageHash": "65d306cadf77d8a8",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "f5d01e999e79",
@@ -563458,7 +563333,8 @@
   "imageHash": "df5ebc706b7fb94f",
   "placeChecked": true,
   "regionTried": true,
-  "dateTried": true
+  "dateTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "7db5b345ea35",
@@ -563585,7 +563461,8 @@
    "4ed11b24bc86",
    "84cf6f08dfdf",
    "ca68b3f7eded"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "a20e414ac0e7",
@@ -563629,7 +563506,8 @@
    "1de7bdd53682",
    "41d9333ab98a",
    "7ddc96569bed"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "ffe38f124646",
@@ -563679,7 +563557,8 @@
    "2786bbd161cf",
    "d7306c343d60",
    "301e6c4a5510"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "839499b3182e",
@@ -563723,7 +563602,8 @@
    "ae9108daeded",
    "9a07015398ed"
   ],
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "0c6ff2eb5d87",
@@ -563795,7 +563675,8 @@
    "d7137c9939f6"
   ],
   "placeChecked": true,
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "9cb40d5f2ac4",
@@ -563908,7 +563789,8 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-10-31",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "4771fa98f946",
@@ -563950,7 +563832,8 @@
   "imageTriedAt": "2026-11-24",
   "article": "https://m.apparelnews.co.kr/news/news_view/?idx=228656?cat=CAT11F",
   "placeChecked": true,
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "274c9e49e387",
@@ -564064,7 +563947,8 @@
   "article": "https://www.kukinews.com/article/view/kuk202611090096",
   "imageFrom": "https://www.kukinews.com/article/view/kuk202611090096",
   "imageHash": "a52c9bf8df494dfc",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "02cdf057b582",
@@ -564323,7 +564207,8 @@
   "article": "https://www.oricon.co.jp/news/2480385/full/",
   "imageFrom": "https://www.oricon.co.jp/news/2480385/full/",
   "placeChecked": true,
-  "imageHash": "37b607aace143451"
+  "imageHash": "37b607aace143451",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "05e5b2bf5e30",
@@ -564400,7 +564285,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-23",
   "article": "https://bilyonaryo.com/smx-seaside-cebu-opens-its-doors-nov-26-with-two-major-trade-expos/",
-  "imageFrom": "https://insiderph.com/smx-seaside-cebu-boosts-capacity-for-major-trade-exhibitions"
+  "imageFrom": "https://insiderph.com/smx-seaside-cebu-boosts-capacity-for-major-trade-exhibitions",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "c783cdd2a60f",
@@ -564437,7 +564323,8 @@
   "article": "https://www.sunstar.com.ph/cebu/sm-hotels-and-conventions-corp-smhcc-introduces-smx-convention-center-seaside-cebu-with-major-trade-events",
   "imageFrom": "https://www.sunstar.com.ph/cebu/sm-hotels-and-conventions-corp-smhcc-introduces-smx-convention-center-seaside-cebu-with-major-trade-events",
   "imageHash": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "4727f6690867",
@@ -564481,7 +564368,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-24",
   "article": "https://cebudailynews.inquirer.net/786769/smx-convention-center-seaside-cebu-welcomes-landmark-mega-events-as-pioneer-exhibitions-for-grand-venue-opening",
-  "imageFrom": "https://cebudailynews.inquirer.net/786769/smx-convention-center-seaside-cebu-welcomes-landmark-mega-events-as-pioneer-exhibitions-for-grand-venue-opening"
+  "imageFrom": "https://cebudailynews.inquirer.net/786769/smx-convention-center-seaside-cebu-welcomes-landmark-mega-events-as-pioneer-exhibitions-for-grand-venue-opening",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "eedea40c65dc",
@@ -564525,7 +564413,8 @@
   "imageTriedAt": "2026-11-24",
   "article": null,
   "placeChecked": true,
-  "dateTried": true
+  "dateTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "35f976cdf98e",
@@ -564594,7 +564483,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-23",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "a75f58b69c28",
@@ -564631,7 +564521,8 @@
   "article": "https://manilastandard.net/lifestyle/314819179/smx-seaside-cebu-to-open-with-major-trade-exhibitions-in-november.html",
   "imageFrom": "https://tribune.net.ph/2026/11/10/smx-seaside-cebu-to-open-with-two-major-trade-expos",
   "imageHash": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "069671fe46de",
@@ -564666,7 +564557,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-24",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "64f056404794",
@@ -564704,7 +564596,8 @@
   "article": "https://mantan-web.jp/prtimes/article/20261121prt00m200000202a.html",
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261121prt00m200000202a.html",
   "imageHash": "b679bbb182d0ea83",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "007147050d75",
@@ -564783,7 +564676,8 @@
   "article": "https://www.msn.cn/zh-cn/money/other/%E7%AC%AC%E5%85%AD%E5%B1%8A%E6%B2%88%E9%98%B3%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6%E5%A4%A7%E4%BC%9A%E5%B0%86%E4%BA%8E11%E6%9C%8826%E6%97%A5%E4%B8%BE%E5%8A%9E/ar-AA2hTURj",
   "imageFrom": "https://www.msn.cn/zh-cn/money/other/%E7%AC%AC%E5%85%AD%E5%B1%8A%E6%B2%88%E9%98%B3%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6%E5%A4%A7%E4%BC%9A%E5%B0%86%E4%BA%8E11%E6%9C%8826%E6%97%A5%E4%B8%BE%E5%8A%9E/ar-AA2hTURj",
   "imageHash": "5b6becab3dee658b",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "0ff51da2c9b7",
@@ -564820,7 +564714,8 @@
   "article": "https://www.cj-ilbo.com/news/articleView.html?idxno=1187109",
   "imageFrom": "https://www.cj-ilbo.com/news/articleView.html?idxno=1187109",
   "imageHash": "d52d24f778c39d72",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "490b29be12c4",
@@ -564958,7 +564853,8 @@
   "imageFrom": "https://sumbar.antaranews.com/berita/791271/festival-5-danau-angkat-potensi-wisata-budaya-di-kabupaten-solok",
   "imageHash": "7b906482b54799ae",
   "placeSuspect": false,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "df7e372e53f9",
@@ -564993,7 +564889,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-23",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "6deb5a2decf5",
@@ -565046,7 +564943,8 @@
   "article": "https://www.msn.cn/zh-cn/news/other/2026-%E5%8D%8E%E4%B8%BA%E4%B9%BE%E5%B4%91%E7%94%9F%E6%80%81%E5%A4%A7%E4%BC%9A%E5%AE%9A%E6%A1%A3-11-%E6%9C%88-26-%E6%97%A5%E5%9C%A8%E5%B9%BF%E5%B7%9E%E5%9B%BD%E9%99%85%E8%BD%A6%E5%B1%95%E4%B8%BE%E8%A1%8C/ar-AA2i2pkO",
   "imageFrom": "https://www.msn.cn/zh-cn/news/other/2026-%E5%8D%8E%E4%B8%BA%E4%B9%BE%E5%B4%91%E7%94%9F%E6%80%81%E5%A4%A7%E4%BC%9A%E5%AE%9A%E6%A1%A3-11-%E6%9C%88-26-%E6%97%A5%E5%9C%A8%E5%B9%BF%E5%B7%9E%E5%9B%BD%E9%99%85%E8%BD%A6%E5%B1%95%E4%B8%BE%E8%A1%8C/ar-AA2i2pkO",
   "imageHash": "c8df04a50bf9e5ef",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "3a612a5e94a1",
@@ -565233,7 +565131,8 @@
   "article": "https://www.agenziagiornalisticaopinione.it/opinionews-tn-aa/fondazione-museo-storico-trentino-che-classe-fotografie-di-scuola-negli-archivi-trentini-mostra-dal-26-novembre-alle-gallerie/",
   "imageFrom": "https://www.agenziagiornalisticaopinione.it/opinionews-tn-aa/fondazione-museo-storico-trentino-che-classe-fotografie-di-scuola-negli-archivi-trentini-mostra-dal-26-novembre-alle-gallerie/",
   "imageHash": "8c572c6c327d2652",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "06f6b2fe66fd",
@@ -565289,7 +565188,8 @@
   "updated": "2026-11-24",
   "enriched": true,
   "imageHash": "d557b017f6b949d0",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "118bd13fe7f8",
@@ -565324,7 +565224,8 @@
   "updated": "2026-11-24",
   "enriched": true,
   "imageHash": "153ceec3310106af",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "eb857c6892a6",
@@ -565360,7 +565261,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-24",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "f551ec24e1a8",
@@ -565400,7 +565302,8 @@
   "article": "https://news.qq.com/rain/a/20261124A0E39K00",
   "imageFrom": "https://news.qq.com/rain/a/20261124A0E39K00",
   "imageHash": "9a67a38627377d91",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "7118417e16bf",
@@ -565438,7 +565341,8 @@
   "article": "https://hoodline.com/2026/11/sanding-ovations-opened-on-treasure-island-after-sculptors-raced-the-rain/",
   "imageFrom": "https://hoodline.com/2026/11/sanding-ovations-opened-on-treasure-island-after-sculptors-raced-the-rain/",
   "imageHash": "8d00650f17befe6c",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "6ac90ee2d697",
@@ -565474,7 +565378,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://trends.tribunnews.com/news/127541/event-di-yogyakarta-kamis-26-november-2026-ada-festival-kuliner-hingga-bazar-produk-kecantikan",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "25f88f68517c",
@@ -565511,7 +565416,8 @@
   "article": "https://style.udn.com/style/story/8065/9899492",
   "imageFrom": "https://style.udn.com/style/story/8065/9899492",
   "imageHash": "1933e11d6ec19f1b",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "9122242f815a",
@@ -565548,7 +565454,8 @@
   "article": "https://www.sedaily.com/article/20118541",
   "imageFrom": "https://www.sedaily.com/article/20118541",
   "imageHash": "2bc3926db7437d75",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "bb52220b578c",
@@ -565588,7 +565495,8 @@
   "article": "https://www.sohu.com/a/1105014521_121124364",
   "imageFrom": "https://www.sohu.com/a/1105014521_121124364",
   "imageHash": "3da49ca3db564d36",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "09fa221fbb3b",
@@ -565740,7 +565648,7 @@
   "imageTried": true,
   "article": "https://prtimes.jp/main/html/rd/p/000001052.000003436.html",
   "imageTriedAt": "2026-11-24",
-  "priceTriedAt": "2026-10-27",
+  "priceTriedAt": "2026-11-25",
   "placeChecked": true,
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000001052.000003436.html",
   "imageHash": "e5ab275931bf0200"
@@ -566025,7 +565933,8 @@
    "18522b4aa94d",
    "86270418d187"
   ],
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "73dc2a50fec2",
@@ -566090,7 +565999,8 @@
    "077d077f40e4",
    "e280d9450abb",
    "7c3c79032c2b"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "cedb51fad5a1",
@@ -566242,7 +566152,8 @@
    "7c2099057ecf",
    "daa0f7dad53e",
    "e4121d0bef25"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "d7a4825b3a7b",
@@ -566309,7 +566220,8 @@
    "d42eb70c671a",
    "ac5d46216c4b",
    "1507f1167f11"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "b47bc99657ef",
@@ -566704,7 +566616,8 @@
   "imageTriedAt": "2026-10-29",
   "article": "https://collabo-cafe.com/events/collabo/cho-kaguyahime-event-tokyo-dome-city-memorial-wonder-land-2026/",
   "imageFrom": "https://collabo-cafe.com/events/collabo/cho-kaguyahime-event-tokyo-dome-city-memorial-wonder-land-2026/",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "1de7bdd53682",
@@ -566760,7 +566673,8 @@
    "9defbbd01099",
    "e280d9450abb",
    "b287a4925dac"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "64a765aaf62b",
@@ -566819,7 +566733,8 @@
    "793b9c26b497",
    "08cbde5d779b",
    "120d398e39ba"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "a44efffd131c",
@@ -567160,7 +567075,8 @@
    "73e788df1570",
    "c30990961642",
    "214806b1de66"
-  ]
+  ],
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "41d9333ab98a",
@@ -567343,7 +567259,8 @@
   "imageFrom": "https://collabo-cafe.com/events/collabo/fullmetal-alchemist-event-oshitabi-jr-central-2026/",
   "imageHash": "8b77bdbbb2036a37",
   "placeChecked": true,
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "3e5132de572d",
@@ -567516,7 +567433,8 @@
   "article": "https://news.infoseek.co.jp/article/hochi_20261030-OHT1T51370/",
   "imageFrom": "https://news.infoseek.co.jp/article/hochi_20261030-OHT1T51370/",
   "imageHash": "70711a65f0da41a0",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "b8989f44a0c9",
@@ -567560,7 +567478,8 @@
   "imageFrom": "https://www.ad-hoc-news.de/unterhaltung/reisen/george-town-hosts-literary-festival-from-27-november/70439136",
   "imageHash": "eff41854c975699d",
   "placeChecked": true,
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "f3eff9dc84f8",
@@ -567598,7 +567517,8 @@
   "article": "https://mantan-web.jp/prtimes/article/20261026prt00m200000175a.html",
   "placeChecked": true,
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261026prt00m200000175a.html",
-  "imageHash": "9d084d3f1a52f7ae"
+  "imageHash": "9d084d3f1a52f7ae",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "21db82074ee6",
@@ -567702,7 +567622,8 @@
   "imageTriedAt": "2026-11-24",
   "article": null,
   "placeChecked": true,
-  "regionTried": true
+  "regionTried": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "132f7e1c6778",
@@ -567758,7 +567679,8 @@
   ],
   "imageTried": true,
   "imageTriedAt": "2026-11-07",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "3e67e82a7bc9",
@@ -567802,7 +567724,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-22",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "80b275d00624",
@@ -567839,7 +567762,8 @@
   "article": "https://www.wthr.com/article/entertainment/music/canadian-rock-band-triumph-adds-fishers-show-to-upcoming-tour-indiana-april-wine/531-29ee8c1c-66d1-4905-ac60-ef0abbf9339b",
   "imageFrom": "https://www.yahoo.com/entertainment/music/articles/canadian-rock-band-triumph-adds-142723716.html",
   "placeChecked": true,
-  "imageHash": "ea49fc82cbfeaed9"
+  "imageHash": "ea49fc82cbfeaed9",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "b2e24bf35358",
@@ -567932,7 +567856,8 @@
   "updated": "2026-11-02",
   "enriched": true,
   "imageHash": "8cbbccbba4b50f07",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "babc70d538ed",
@@ -568226,7 +568151,8 @@
   "article": "https://baomoi.com/le-hoi-van-hoa-am-thuc-quoc-te-o-ha-noi-quy-tu-mon-ngon-cua-5-chau-luc-c56446421.epi",
   "imageFrom": "https://baomoi.com/le-hoi-van-hoa-am-thuc-quoc-te-o-ha-noi-quy-tu-mon-ngon-cua-5-chau-luc-c56446421.epi",
   "imageHash": "ceead4fb3ded2867",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "78c91588d1f3",
@@ -568271,7 +568197,8 @@
   "article": "https://www.wheninmanila.com/takeover-fest-la-union-2026-returns-with-music-sustainability-and-community-advocacies/",
   "imageFrom": "https://www.wheninmanila.com/takeover-fest-la-union-2026-returns-with-music-sustainability-and-community-advocacies/",
   "placeChecked": true,
-  "imageHash": "6e4ba4ee667d571c"
+  "imageHash": "6e4ba4ee667d571c",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "7d6d87a841de",
@@ -568346,7 +568273,8 @@
   "article": "https://www.chartsinfrance.net/Florent-Pagny/news-136002.html",
   "imageFrom": "https://www.larep.fr/orleans-45000/actualites/un-retour-attendu-florent-pagny-affiche-complet-pour-trois-soirs-au-zenith-dorleans_15070297/",
   "imageHash": "f9d28626746a431e",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "c53e4a409974",
@@ -568384,7 +568312,8 @@
   "article": "https://collabo-cafe.com/events/collabo/inomata-mutsumi-kazeno-hanuman-exhibition-yurakucho-marui-2026/",
   "imageFrom": "https://collabo-cafe.com/events/collabo/inomata-mutsumi-kazeno-hanuman-exhibition-yurakucho-marui-2026/",
   "imageHash": "3c8479449c2c5eae",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "127d8a6949bb",
@@ -568455,7 +568384,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-24",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "90b5e58ec1e6",
@@ -568493,7 +568423,8 @@
   "article": "https://prtimes.jp/main/html/rd/p/000000295.000034930.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000295.000034930.html",
   "placeChecked": true,
-  "imageHash": "c48c4ba5aa08b132"
+  "imageHash": "c48c4ba5aa08b132",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "11145fe144ed",
@@ -568591,7 +568522,8 @@
   "article": "https://www.laregion.fr/Festival-Balkanica-un-voyage-balkanique-9e-edition",
   "imageFrom": "https://www.laregion.fr/Festival-Balkanica-un-voyage-balkanique-9e-edition",
   "placeChecked": true,
-  "imageHash": "60d06807e2db0b29"
+  "imageHash": "60d06807e2db0b29",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "6d6a00160fcd",
@@ -568675,7 +568607,8 @@
   "article": "https://www.sohu.com/a/1099485972_122770819",
   "imageFrom": "https://www.sohu.com/a/1099485972_122770819",
   "imageHash": "258d06e922a95c42",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "3fbf7bb00544",
@@ -568714,7 +568647,8 @@
   "article": "https://x.com/666_ch1/status/2114228158815948891",
   "imageFrom": "https://x.com/666_ch1/status/2114228158815948891",
   "placeChecked": true,
-  "imageHash": "55001397e8202aaf"
+  "imageHash": "55001397e8202aaf",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "e10fb1308d82",
@@ -568760,7 +568694,8 @@
   "article": "https://www.setn.com/news/1881954",
   "imageFrom": "https://www.setn.com/news/1881954",
   "placeChecked": true,
-  "imageHash": "685754c3fa044a73"
+  "imageHash": "685754c3fa044a73",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "d57c070ea9ea",
@@ -568801,7 +568736,8 @@
   "updated": "2026-11-17",
   "enriched": true,
   "imageHash": "dbfebf9091768bbf",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "92549cae3304",
@@ -568936,7 +568872,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-22",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "694122e95afc",
@@ -568973,7 +568910,8 @@
   "article": "https://www.sportsworldi.com/newsView/20261116518454",
   "imageFrom": "https://www.sportsworldi.com/newsView/20261116518454",
   "imageHash": "c1368c21a14100f0",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "22af01463b4e",
@@ -569177,7 +569115,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-23",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "239b96479a58",
@@ -569264,7 +569203,8 @@
   "article": "https://www.sankei.com/pressrelease/prtimes/QTCWVLST5ZOXPOF6UDFPAQH2NQ/",
   "imageFrom": "https://www.sankei.com/pressrelease/prtimes/QTCWVLST5ZOXPOF6UDFPAQH2NQ/",
   "imageHash": "a97ba1e9abf73dc8",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "4e1dba23264c",
@@ -569601,7 +569541,8 @@
   "article": "https://weekly.hankooki.com/news/articleView.html?idxno=7194900",
   "imageFrom": "https://weekly.hankooki.com/news/articleView.html?idxno=7194900",
   "imageHash": "ce21d748babe0779",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "5c9644340110",
@@ -569804,7 +569745,8 @@
   "article": "https://www.jungdoilbo.com/news/article.html?no=749748",
   "imageFrom": "https://www.jungdoilbo.com/news/article.html?no=749748",
   "imageHash": "12b9a6052df80407",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "0747eb10c2cb",
@@ -570065,7 +570007,8 @@
   "article": "https://www.jbnews.com/news/articleView.html?idxno=1516209",
   "imageFrom": "https://www.jbnews.com/news/articleView.html?idxno=1516209",
   "imageHash": "fedb7fd9ce43e4ff",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "173e67535710",
@@ -570145,7 +570088,8 @@
   "article": "https://collabo-cafe.com/zh-hant/events/collabo/chiikawa-shop-tieup-seven-eleven-2026/",
   "placeChecked": true,
   "imageFrom": "https://collabo-cafe.com/zh-hant/events/collabo/chiikawa-shop-tieup-seven-eleven-2026/",
-  "imageHash": "8479ad6836757523"
+  "imageHash": "8479ad6836757523",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "18905547c031",
@@ -570184,7 +570128,8 @@
   "article": "https://www.appbank.net/2026/11/21/game/3173923.php",
   "imageFrom": "https://www.appbank.net/2026/11/21/game/3173923.php",
   "imageHash": "83b316b93a0ec57f",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "dd32979f2139",
@@ -570472,7 +570417,8 @@
   "imageTriedAt": "2026-11-22",
   "article": "https://www.melomanodigital.com/ai-music-lab-2026-inteligencia-artificial-y-creacion-musical/",
   "imageFrom": "https://www.melomanodigital.com/ai-music-lab-2026-inteligencia-artificial-y-creacion-musical/",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "0fa91e515463",
@@ -570586,7 +570532,8 @@
   "article": "https://www.hansannews.com/news/articleView.html?idxno=108177",
   "imageFrom": "https://www.hansannews.com/news/articleView.html?idxno=108177",
   "imageHash": "ae4cdff995a61635",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "a4f4016a1ac1",
@@ -570833,7 +570780,8 @@
   "updated": "2026-11-24",
   "enriched": true,
   "imageHash": "f5974eb6353eb3b2",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "8eed323d9515",
@@ -570869,7 +570817,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-24",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "ad7d523046a8",
@@ -570915,7 +570864,8 @@
   "article": "https://pampanganewsnow.com/cifos-2-wheels-festival-sets-sights-on-breaking-gypsy-tour-record/",
   "imageFrom": "https://pampanganewsnow.com/cifos-2-wheels-festival-sets-sights-on-breaking-gypsy-tour-record/",
   "imageHash": "57ad691f3f217215",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "43a32ebb7c23",
@@ -570953,7 +570903,8 @@
   "article": "https://newsmaker.tribunnews.com/travel/188045/festival-kebudayaan-sumut-2026-digelar-27-november-di-medan-hadirkan-iyeth-bustami-parade-wastra",
   "imageFrom": "https://newsmaker.tribunnews.com/travel/188045/festival-kebudayaan-sumut-2026-digelar-27-november-di-medan-hadirkan-iyeth-bustami-parade-wastra",
   "imageHash": "68ddc9af7e179e0a",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "88fa1fe7a4e9",
@@ -570994,7 +570945,8 @@
   "updated": "2026-11-24",
   "enriched": true,
   "imageHash": "e3567ee18867704b",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "afa5fac9f92f",
@@ -571032,7 +570984,8 @@
   "article": null,
   "imageFrom": "https://uk.news.yahoo.com/isle-wight-choir-joins-rat-050000634.html",
   "placeChecked": true,
-  "imageHash": "e892fe0ed97a63c1"
+  "imageHash": "e892fe0ed97a63c1",
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "d0bed687ef0f",
@@ -571146,7 +571099,8 @@
   "article": "https://www.isnews.it/2026/11/24/i-presepi-nel-presepe-a-pesche-la-xxiii-edizione-dall11-dicembre-al-6-gennaio/",
   "imageFrom": "https://www.isnews.it/2026/11/24/i-presepi-nel-presepe-a-pesche-la-xxiii-edizione-dall11-dicembre-al-6-gennaio/",
   "imageHash": "bf75f5ad5448b51b",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "4feeaca42c26",
@@ -571183,7 +571137,8 @@
   "article": "https://www.ouest-france.fr/pays-de-la-loire/saint-nazaire-44600/pour-ce-concert-solidaire-a-saint-nazaire-on-paie-son-entree-en-apportant-un-cadeau-neuf-dune-valeur-de-10-euros-7f265eac-e4f9-11f1-afa7-9a0bb82a33d1",
   "imageFrom": "https://www.ouest-france.fr/pays-de-la-loire/saint-nazaire-44600/pour-ce-concert-solidaire-a-saint-nazaire-on-paie-son-entree-en-apportant-un-cadeau-neuf-dune-valeur-de-10-euros-7f265eac-e4f9-11f1-afa7-9a0bb82a33d1",
   "imageHash": "4cad12a5ee686efa",
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "15842a9ec8ed",
@@ -571218,7 +571173,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": null,
-  "placeChecked": true
+  "placeChecked": true,
+  "priceTriedAt": "2026-11-25"
  },
  {
   "id": "03addf273026",
@@ -571476,7 +571432,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.sheboyganpress.com/story/life/events/2025/11/30/sheboygan-a-visit-with-st-nicholas-is-dec-4-at-hshs-hospital/87380041007/",
   "imageFrom": "https://www.yahoo.com/lifestyle/articles/hshs-st-nicholas-hospitals-visit-180117522.html",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "6f8943d03a729415"
  },
  {
   "id": "d713871e25ca",
@@ -577391,7 +577348,7 @@
    }
   ],
   "added": "2026-11-06",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
@@ -581036,7 +580993,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://topics.smt.docomo.ne.jp/article/ats_sbs/region/ats_sbs-2102128",
   "imageFrom": "https://mantan-web.jp/prtimes/article/20261102prt00m200001098a.html",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "606f9a0f77950dd0"
  },
  {
   "id": "528f5c309ec4",
@@ -581481,7 +581439,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://topics.smt.docomo.ne.jp/article/ats_sbs/region/ats_sbs-2102066",
   "imageFrom": "https://www.jiji.com/jc/article?k=000000089.000124820&g=prt",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "9d57afc0a9966e01"
  },
  {
   "id": "dad94eed3615",
@@ -581639,7 +581598,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.coventrytelegraph.net/whats-on/leamington-christmas-tree-festival-return-27846664",
   "imageFrom": "https://www.coventrytelegraph.net/whats-on/leamington-christmas-tree-festival-return-27846664",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "f9e3076aa1fc945d"
  },
  {
   "id": "95f5d4fd18ac",
@@ -583788,7 +583748,7 @@
    }
   ],
   "added": "2026-11-09",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
@@ -583970,7 +583930,7 @@
    }
   ],
   "added": "2026-11-13",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
@@ -584309,7 +584269,7 @@
    }
   ],
   "added": "2026-11-19",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
@@ -586559,7 +586519,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.musicman.co.jp/business/753135",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000000095.000031501.html",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "7f8faea64e574fc1"
  },
  {
   "id": "6de14c21583b",
@@ -593409,7 +593370,8 @@
   "article": "https://prtimes.jp/main/html/rd/p/000003955.000013972.html",
   "imageFrom": "https://prtimes.jp/main/html/rd/p/000003955.000013972.html",
   "placeChecked": true,
-  "regionTried": false
+  "regionTried": false,
+  "imageHash": "b33a9081f7fe8eba"
  },
  {
   "id": "a69a5352d8fb",
@@ -593617,7 +593579,7 @@
    "vtuber"
   ],
   "summary_th": "กลุ่ม VTuber 2.5 มิติ ระบิปาเล!! จัดสตรีมออนไลน์ครั้งแรกเมื่อ 1 ธ.ค. 2569",
-  "image": "http://www.bing.com/th?id=ONUT.ZGJlirxOyMtAvbTtu6EqdA&pid=News",
+  "image": "https://prcdn.freetls.fastly.net/release_image/109030/201/109030-201-2f5eca535731adccbc3e9ee423dc0071-1920x1080.jpg",
   "official": null,
   "sources": [
    {
@@ -593635,7 +593597,7 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.jiji.com/jc/article?k=000000201.000109030&g=prt",
   "imageFrom": "https://www.jiji.com/jc/article?k=000000201.000109030&g=prt",
-  "imageHash": "41dc73b980528e18",
+  "imageHash": null,
   "placeChecked": true
  },
  {
@@ -601117,7 +601079,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.fnnews.com/news/202611250947397807",
   "imageFrom": "https://www.fnnews.com/news/202611250947397807",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "3cfc23c7724cfeff"
  },
  {
   "id": "3640592b4b3c",
@@ -605614,7 +605577,7 @@
    }
   ],
   "added": "2026-11-18",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
@@ -606937,7 +606900,7 @@
    "esports"
   ],
   "summary_th": "การแข่งขัน TCG ｢ลิฟต์บาวด์｣ ระดับเกาหลีใต้จัดที่ aT เซนเตอร์ เซาul วันที่ 5-6 ธันวาคม 2569",
-  "image": "http://www.bing.com/th?id=ONUT.985rblKplZJ5IvvQWWIB8Q&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.oPy2Q7cAvCL_KNCyZxl8ZQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -606980,10 +606943,10 @@
   "updated": "2026-11-23",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-23",
+  "imageTriedAt": "2026-11-25",
   "article": "https://www.sportsworldi.com/newsView/20261123505592",
-  "imageFrom": "https://www.sportsworldi.com/newsView/20261123505592",
-  "imageHash": "0f4c3fb0e977c15b",
+  "imageFrom": "https://www.gamemeca.com/view.php?gid=1783988",
+  "imageHash": "2d72e9971a7d42ea",
   "placeChecked": true
  },
  {
@@ -607707,6 +607670,42 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.hoy.es/prov-caceres/escombros-euforia-muestra-arte-contemporaneo-critico-valencia-20261124081648-nt.html",
   "imageFrom": "https://www.hoy.es/prov-caceres/escombros-euforia-muestra-arte-contemporaneo-critico-valencia-20261124081648-nt.html",
+  "placeChecked": true
+ },
+ {
+  "id": "377c7a305c36",
+  "name": "宜昌·二次元兔子体验馆",
+  "name_th": null,
+  "start": "2026-12-05",
+  "end": "2026-12-05",
+  "venue": "兰戈 RANGO SALOON",
+  "city": "宜昌市",
+  "country": "CN",
+  "region": null,
+  "online": false,
+  "price_th": "เริ่มต้น ¥68",
+  "tags": [
+   "anime",
+   "comic"
+  ],
+  "summary_th": null,
+  "image": "https://i0.hdslb.com/bfs/openplatform/202611/hmHWKGtg1795595343_1795595343228.png",
+  "official": "https://show.bilibili.com/platform/detail.html?id=1008251",
+  "sources": [
+   {
+    "title": "宜昌·二次元兔子体验馆",
+    "link": "https://show.bilibili.com/platform/detail.html?id=1008251",
+    "source": "bilibili会员购",
+    "date": "2026-11-25",
+    "image": "https://i0.hdslb.com/bfs/openplatform/202611/hmHWKGtg1795595343_1795595343228.png"
+   }
+  ],
+  "added": "2026-11-25",
+  "updated": "2026-11-25",
+  "imageOfficial": true,
+  "verified": true,
+  "enriched": true,
+  "imageHash": "e419ba0870fc8c51",
   "placeChecked": true
  },
  {
@@ -610380,7 +610379,7 @@
    "fanmeet"
   ],
   "summary_th": "ระบิปาเล!! จัดคอนเสิร์ตお披露目ライブ เมื่อ 6 ธ.ค. 2569",
-  "image": "http://www.bing.com/th?id=ONUT.ZGJlirxOyMtAvbTtu6EqdA&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.uFMFIMwAWzp7YN13HIo8LA&pid=News",
   "official": null,
   "sources": [
    {
@@ -610397,8 +610396,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.jiji.com/jc/article?k=000000201.000109030&g=prt",
-  "imageFrom": "https://www.jiji.com/jc/article?k=000000201.000109030&g=prt",
-  "imageHash": "41dc73b980528e18",
+  "imageFrom": "https://mantan-web.jp/prtimes/article/20261118prt00m200000911a.html",
+  "imageHash": "04e2de330ee04699",
   "placeChecked": true
  },
  {
@@ -614518,7 +614517,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.ytn.co.kr/_ln/0103_202609111451095060",
   "imageFrom": "https://www.ytn.co.kr/_ln/0103_202609111451095060",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "acf4ea44967ecb30"
  },
  {
   "id": "f079488f4609",
@@ -616630,7 +616630,7 @@
    "art"
   ],
   "summary_th": "งานเทศกาล青山王ประจำปีจัดแสดงศิลปะวัฒนธรรมที่สวนเมงจิอา วันที่ 11 ธ.ค. 2569",
-  "image": "http://www.bing.com/th?id=ONUT.hKQ0fFMm4IXSmk3s_z8nXQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.S1D1BgnO_Mf0BhXTTfQHig&pid=News",
   "official": null,
   "sources": [
    {
@@ -616647,8 +616647,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://news.pchome.com.tw/public/taipei/20261125/index-79558502058416126016.html",
-  "imageFrom": "https://news.pchome.com.tw/public/taipei/20261125/index-79558502058416126016.html",
-  "imageHash": "7bdc34e2ab2cd1f6",
+  "imageFrom": "https://news.ebc.net.tw/news/living/582206",
+  "imageHash": "eb9a10e06609a491",
   "placeChecked": true
  },
  {
@@ -616668,7 +616668,7 @@
    "stage"
   ],
   "summary_th": "โชว์แต่งหน้าผีสิงของยูนิเวอร์ซัลสตูดิโอสเปิดตัววัน 11 ธ.ค. พร้อมเนื้อหาจากบลัมเฮาส์",
-  "image": "https://r2-media.wdwnt.com/2026/11/Horror-Make-Up-Show-Rendering.jpg",
+  "image": "http://www.bing.com/th?id=ONUT.BfgNM1k4I-ecefZXx9xZEQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -616685,8 +616685,9 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://wdwnt.com/2026/11/breaking-reimagined-universal-horror-make-up-show-featuring-blumhouse-opens-next-month-includes-m3gan-five-nights-at-freddys-more/",
-  "imageFrom": "https://wdwnt.com/2026/11/breaking-reimagined-universal-horror-make-up-show-featuring-blumhouse-opens-next-month-includes-m3gan-five-nights-at-freddys-more/",
-  "placeChecked": true
+  "imageFrom": "https://www.orlandosentinel.com/2026/11/25/universal-horror-make-up-show-set-to-return-next-month-featuring-blumhouse/",
+  "placeChecked": true,
+  "imageHash": "5ed03fb28c7c29d8"
  },
  {
   "id": "201e07c26fb1",
@@ -620466,7 +620467,7 @@
    }
   ],
   "added": "2026-11-24",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "imageOfficial": true,
   "verified": true,
   "enriched": true,
@@ -628242,7 +628243,7 @@
    "idol"
   ],
   "summary_th": "แฟนมีตติ้งกลุ่ม NEXZ ครั้งที่ 2 'MERRY MERRY NEX2Y!' ที่คินเท็กซ์ โกยัง วันที่ 19-20 ธันวาคม 2569",
-  "image": "https://photo.newsen.com/news_photo/2026/11/12/202611121539402410_2.jpg",
+  "image": "https://cdn.nbnnews.co.kr/news/thumbnail/202611/1069872_1127345_4547_v150.jpg",
   "official": null,
   "sources": [
    {
@@ -628330,7 +628331,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.nbnnews.co.kr/news/articleView.html?idxno=1069872",
-  "imageFrom": "https://www.newsen.com/news_view.php?uid=202611121539402410",
+  "imageFrom": "https://www.nbnnews.co.kr/news/articleView.html?idxno=1069872",
   "placeChecked": true
  },
  {
@@ -645469,7 +645470,7 @@
    "festival"
   ],
   "summary_th": "เทศกาลอาหาร Foodees Fest กลับมาที่ชายหาดเดย์โทน่าในช่วงวันปีใหม่",
-  "image": "https://s.yimg.com/lo/mysterio/api/1308a93ce1c2f4d20adb257e0d87b1eb7542604e73866f1d956286460d4e9d89/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwftv_cox_articles_135%2F3b0c42a8a6b3578749d818dbe59b4f3c.png",
+  "image": "http://www.bing.com/th?id=ONUT.qS3w_jAA8sKCnNJe3Ybt2Q&pid=News",
   "official": null,
   "sources": [
    {
@@ -645486,9 +645487,9 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.tallahassee.com/story/entertainment/restaurants/2026/01/22/foodees-fest-brings-40-food-trucks-crafters-to-tallahassee/88299445007/",
-  "imageFrom": "https://www.yahoo.com/lifestyle/articles/foodees-fest-returning-daytona-beach-201639299.html",
+  "imageFrom": "https://www.theadvocate.com/baton_rouge/news/communities/ascension/foodees-fest-brings-tasty-flavors-to-tanger-outlets/article_477f70ff-0d60-43fc-945c-7991e1fd5968.html",
   "placeChecked": true,
-  "imageHash": "11a97899e857491b"
+  "imageHash": "200960346ef28208"
  },
  {
   "id": "d9a5de423cdb",
@@ -645507,7 +645508,7 @@
    "idol"
   ],
   "summary_th": "Stray Kids จัดคอนเสิร์ตพิเศษวันปีใหม่ที่ Gocheok Sky Dome กรุงโซล",
-  "image": "http://www.bing.com/th?id=ONUT.1BQPILoieMaYrwsfWMxedQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.u_CXs3fWS5EwSwPQBvUmjA&pid=News",
   "official": null,
   "sources": [
    {
@@ -645525,7 +645526,7 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.mk.co.kr/en/musics/12217724",
   "imageFrom": "https://www.mk.co.kr/en/musics/12217724",
-  "imageHash": "cec4ba15dbd97b0f",
+  "imageHash": "38bc1119b6bddee5",
   "placeChecked": true
  },
  {
@@ -645628,7 +645629,7 @@
    "idol"
   ],
   "summary_th": "คอนเสิร์ตพิเศษสตรей คิดส์ต้อนรับปีใหม่ 2027 ที่โคโชก สกาย ดูม โซล",
-  "image": "http://www.bing.com/th?id=ONUT.1BQPILoieMaYrwsfWMxedQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.rossXeOQkIZ6Yy5Z4fU07Q&pid=News",
   "official": null,
   "sources": [
    {
@@ -645645,8 +645646,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.mk.co.kr/en/musics/12217724",
-  "imageFrom": "https://www.mk.co.kr/en/musics/12217724",
-  "imageHash": "cec4ba15dbd97b0f",
+  "imageFrom": "https://www.koreaherald.com/article/10948695",
+  "imageHash": "5aba4b77a7771dc5",
   "placeChecked": true
  },
  {
@@ -650061,7 +650062,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตของจามิโรควออีที่ปารีส",
-  "image": "https://cdn.sortiraparis.com/images/80/1665/857053-accor-arena-salle-ambiance.jpg",
+  "image": "http://www.bing.com/th?id=ONUT.G74qJUw1vlNGBcdafaAviw&pid=News",
   "official": null,
   "sources": [
    {
@@ -650076,10 +650077,10 @@
   "updated": "2026-11-17",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-18",
+  "imageTriedAt": "2026-11-25",
   "article": "https://www.infoconcert.com/actualites/jamiroquai-en-concert-a-paris-deux-dates-a-laccor-arena-en-2027-23203",
-  "imageFrom": "https://www.sortiraparis.com/scenes/concert-musique/articles/321648-jamiroquai-en-concert-a-paris-bercy-en-juillet-2027",
-  "imageHash": "45adef6d9aa19483",
+  "imageFrom": "https://soundofbrit.fr/2026/11/12/une-double-date-parisienne-pour-jamiroquai/",
+  "imageHash": "9b5155769adbf64f",
   "placeChecked": true
  },
  {
@@ -652812,7 +652813,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://lamag.com/arts-and-entertainment/la-jazz-festival-collapse-investigation-november-2026-l/",
   "imageFrom": "https://lamag.com/arts-and-entertainment/la-jazz-festival-collapse-investigation-november-2026-l/",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "d1b979bf728ce920"
  },
  {
   "id": "25e02b12f33d",
@@ -652905,7 +652907,7 @@
    "idol"
   ],
   "summary_th": "ไอคอนจัดแฟนคอนเสิร์ตกลุ่มเต็มครั้งแรกใน 3 ปี ในเดือนมกราคม 2027",
-  "image": "http://www.bing.com/th?id=ONUT.XqLqHCLdgPoWdZV0jsQb3g&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT._ZB7FZ5V7p2ekBgKYDSGPw&pid=News",
   "official": null,
   "sources": [
    {
@@ -652929,8 +652931,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.mk.co.kr/en/hot-issues/12217779",
-  "imageFrom": "https://www.mk.co.kr/en/hot-issues/12217779",
-  "imageHash": "13cda181b0ea1015",
+  "imageFrom": "https://en.sportalkorea.com/news/articleView.html?idxno=49936",
+  "imageHash": "f4178feeb51027a3",
   "placeChecked": true
  },
  {
@@ -652967,6 +652969,42 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": null,
+  "placeChecked": true
+ },
+ {
+  "id": "ed361a102be0",
+  "name": "郑州·平行线动漫展",
+  "name_th": null,
+  "start": "2027-01-01",
+  "end": "2027-01-03",
+  "venue": "郑州中原国际会展中心",
+  "city": "郑州市",
+  "country": "CN",
+  "region": null,
+  "online": false,
+  "price_th": "เริ่มต้น ¥39",
+  "tags": [
+   "anime",
+   "comic"
+  ],
+  "summary_th": null,
+  "image": "https://i1.hdslb.com/bfs/openplatform/202611/KQ4OG6Xx1795420938_1795420938680.jpg",
+  "official": "https://show.bilibili.com/platform/detail.html?id=1007728",
+  "sources": [
+   {
+    "title": "郑州·平行线动漫展",
+    "link": "https://show.bilibili.com/platform/detail.html?id=1007728",
+    "source": "bilibili会员购",
+    "date": "2026-11-25",
+    "image": "https://i1.hdslb.com/bfs/openplatform/202611/KQ4OG6Xx1795420938_1795420938680.jpg"
+   }
+  ],
+  "added": "2026-11-25",
+  "updated": "2026-11-25",
+  "imageOfficial": true,
+  "verified": true,
+  "enriched": true,
+  "imageHash": "4b2017438b618485",
   "placeChecked": true
  },
  {
@@ -656717,7 +656755,7 @@
    "idol"
   ],
   "summary_th": "iKON จัดคอนเสิร์ตแฟนคลับ FOUREVER HOMECOMING วันที่ 9-10 มกราคม 2570 ที่เกาหลีใต้",
-  "image": "http://www.bing.com/th?id=ONUT.yT45wm3MifGobztPavNNwA&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.CFxCP8VaTiECFL7-kaYOKQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -656734,8 +656772,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.mk.co.kr/en/hot-issues/12217779",
-  "imageFrom": "https://www.mk.co.kr/en/hot-issues/12217779",
-  "imageHash": "13cda181b0ea1015",
+  "imageFrom": "https://www.etnews.com/20261125000366",
+  "imageHash": "e9bce645d0401fe5",
   "placeChecked": true
  },
  {
@@ -669713,7 +669751,7 @@
    "concert"
   ],
   "summary_th": "แฟนคอน SILENT CITY โดยไคและเซฮุนจาก EXO จัดขึ้นที่ กรุงจาการ์ตา วันที่ 30 มกราคม 2570",
-  "image": "http://www.bing.com/th?id=ONUT.763G-RFcthuPpnFmQjtObw&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.YaEiGlo4OnR3Y-BlsMBxEQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -669728,10 +669766,10 @@
   "updated": "2026-11-19",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-19",
+  "imageTriedAt": "2026-11-25",
   "article": "https://en.koreaportal.com/articles/54991/20261118/exo-kase-silent-city-tour-2027-dates-tickets-presale.htm",
-  "imageFrom": "https://en.koreaportal.com/articles/54991/20261118/exo-kase-silent-city-tour-2027-dates-tickets-presale.htm",
-  "imageHash": "46ebd31a0b49979e",
+  "imageFrom": "https://www.malaymail.com/news/showbiz/2026/11/23/exos-kai-and-sehun-to-bring-silent-city-fancon-tour-to-kuala-lumpur/244412",
+  "imageHash": "4ff7e6052dcaabc0",
   "placeChecked": true
  },
  {
@@ -669910,7 +669948,7 @@
    "idol"
   ],
   "summary_th": "IU จัดคอนเสิร์ตทัวร์โลก 2027 ที่ฟิลิปปินส์ 30-31 ม.ค. 2570",
-  "image": "https://0.soompi.io/wp-content/uploads/2026/11/23004619/IU.jpeg",
+  "image": "https://cdn.data.ibtimes.sg/en/full/93257/iu.jpg?w=1200&h=630?q=60",
   "official": null,
   "sources": [
    {
@@ -669981,10 +670019,10 @@
   "updated": "2026-11-23",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-24",
+  "imageTriedAt": "2026-11-25",
   "article": "https://www.soompi.com/article/1889538wpp/iu-announces-dates-and-cities-for-2027-world-tour",
-  "imageFrom": "https://www.soompi.com/article/1889538wpp/iu-announces-dates-and-cities-for-2027-world-tour",
-  "imageHash": "9cd1101b5635cf69",
+  "imageFrom": "https://www.ibtimes.sg/iu-announces-2027-world-tour-check-dates-cities-singer-makes-tokyo-dome-history-details-inside-96579",
+  "imageHash": null,
   "placeSuspect": false,
   "placeChecked": true
  },
@@ -670042,7 +670080,7 @@
    "idol"
   ],
   "summary_th": "คอนเสิร์ตยูนิต EXO-KASE (คายและเซฮุน) เรื่อง 'SILENT CITY' วันที่ 30 มกราคม 2027 ที่ Beach City International Stadium กรุงจักรตา",
-  "image": "http://www.bing.com/th?id=ONUT.763G-RFcthuPpnFmQjtObw&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.BUZakWD9o9rznbf9sfwtPw&pid=News",
   "official": null,
   "sources": [
    {
@@ -670056,12 +670094,12 @@
   "added": "2026-11-25",
   "updated": "2026-11-25",
   "enriched": true,
-  "imageHash": "46ebd31a0b49979e",
+  "imageHash": "85f3676a3cb24663",
   "imageRechecked": true,
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://en.koreaportal.com/articles/54991/20261118/exo-kase-silent-city-tour-2027-dates-tickets-presale.htm",
-  "imageFrom": "https://en.koreaportal.com/articles/54991/20261118/exo-kase-silent-city-tour-2027-dates-tickets-presale.htm",
+  "imageFrom": "https://www.liputan6.com/showbiz/read/8334602/exo-kase-gelar-fancon-tour-silent-city-kai-dan-sehun-bakal-mampir-jakarta",
   "placeChecked": true
  },
  {
@@ -683884,7 +683922,7 @@
    "concert"
   ],
   "summary_th": "TOMOO จัดทัวร์ใหม่ HERE RIVER HEAR หลังปล่อยมินิอัลบั้มฤดูใบไม้ผลิ 2027 รายละเอียดวันที่ยังไม่ระบุ",
-  "image": "http://www.bing.com/th?id=ONUT.N50EoJZj7i1_tIu8NGyytQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.TJ3uq0URJTGauUJmwi610w&pid=News",
   "official": null,
   "sources": [
    {
@@ -683899,10 +683937,10 @@
   "updated": "2026-11-24",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-24",
+  "imageTriedAt": "2026-11-25",
   "article": "https://www.sankei.com/article/20261124-QCNBQFXLWVIVFIR2XNCFLK5FGU/?outputType=theme_oriconnews",
-  "imageFrom": "https://www.sankei.com/article/20261124-QCNBQFXLWVIVFIR2XNCFLK5FGU/?outputType=theme_oriconnews",
-  "imageHash": "76049d66a86e5652",
+  "imageFrom": "https://natalie.mu/music/news/699262",
+  "imageHash": "078110ebfbace61d",
   "placeChecked": true
  },
  {
@@ -690816,7 +690854,7 @@
    "concert"
   ],
   "summary_th": "เทศกาลดนตรีประจำปีที่เซวานนา รัฐจอร์เจีย เปิดขายบัตรแล้วสำหรับเดือนเมษายน 2027",
-  "image": "https://s.yimg.com/lo/mysterio/api/81cb922862ef2093c36a2160e68d063b870a411cd302796c067b9a4224fa8f0c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsavannah-morning-news%2Fd5e0acb7208661cc906332052734ba68.jpg",
+  "image": "http://www.bing.com/th?id=ONUT.lC8LPp1a7nmCJAYX7jixUQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -690832,10 +690870,10 @@
   "enriched": true,
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
-  "article": null,
-  "imageFrom": "https://www.yahoo.com/entertainment/music/festivals/articles/savannah-music-festival-announces-2027-130119515.html",
+  "article": "https://www.bryancountynews.com/news/2027-savannah-music-festival-lineup-announced/",
+  "imageFrom": "https://www.bryancountynews.com/news/2027-savannah-music-festival-lineup-announced/",
   "placeChecked": true,
-  "imageHash": "c3aca3a92fea9d45"
+  "imageHash": "e6f87f2bcaf45455"
  },
  {
   "id": "4c87104ef344",
@@ -704876,7 +704914,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตของอาเลฮันโดร์ ซานส์ที่ลาลากูนา เทเนอริเฟ วันที่ 12 มิถุนายน 2570",
-  "image": "https://cdn.diariodeavisos.com/wp-content/uploads/2026/11/Alejandro-Sanz.jpeg",
+  "image": "https://estaticos-cdn.prensaiberica.es/clip/2f1cff39-87c0-4083-b27e-7c903c2568ce_16-9-discover-aspect-ratio_default_0_x605y233.jpg",
   "official": null,
   "sources": [
    {
@@ -704902,7 +704940,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://diariodeavisos.elespanol.com/2026/11/entradas-alejandro-sanz-tenerife-2027-venta/",
-  "imageFrom": "https://diariodeavisos.elespanol.com/2026/11/entradas-alejandro-sanz-tenerife-2027-venta/"
+  "imageFrom": "https://www.laprovincia.es/canarias/2026/11/21/alejandro-sanz-regresa-canarias-concierto-136689273.html"
  },
  {
   "id": "640f8ad746e8",
@@ -704920,7 +704958,7 @@
    "concert"
   ],
   "summary_th": "อาเลฮานโดร ซานซ์ เปิดทัวร์สเปน 2570 ที่สนามลา มานซานิยา เทเนอริเฟ วันที่ 12 มิถุนายน 2570",
-  "image": "https://cdn.diariodeavisos.com/wp-content/uploads/2026/11/Alejandro-Sanz.jpeg",
+  "image": "https://estaticos-cdn.prensaiberica.es/clip/2f1cff39-87c0-4083-b27e-7c903c2568ce_16-9-discover-aspect-ratio_default_0_x605y233.jpg",
   "official": "https://www.alejandrosanz.com/news/8070/alejandro-sanz-publica-y-ahora-que-su-trabajo-mas-ambicioso-hasta-la-fecha",
   "sources": [
    {
@@ -704952,7 +704990,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://diariodeavisos.elespanol.com/2026/11/alejandro-sanz-tenerife-2027-entradas-concierto/",
-  "imageFrom": "https://diariodeavisos.elespanol.com/2026/11/alejandro-sanz-tenerife-2027-entradas-concierto/",
+  "imageFrom": "https://www.laprovincia.es/canarias/2026/11/21/alejandro-sanz-regresa-canarias-concierto-136689273.html",
   "placeChecked": true
  },
  {
@@ -714170,7 +714208,7 @@
    "expo"
   ],
   "summary_th": "นิทรรศการเกมวิดีโอประจำปีของรัฐเซาท์ออสเตรเลียจัดขึ้นวันที่ 30-31 กรกฎาคม 2027 ที่เอเดลเทด",
-  "image": "http://www.bing.com/th?id=ONUT.tD5mrDYUQMceD6ipRbqs1g&pid=News",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -714184,7 +714222,7 @@
   "added": "2026-11-25",
   "updated": "2026-11-25",
   "enriched": true,
-  "imageHash": "5a6885a3d600193b",
+  "imageHash": null,
   "imageRechecked": true,
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
@@ -744181,7 +744219,7 @@
    "food"
   ],
   "summary_th": "งานแสดงสินค้าฝรั่งเศสครั้งใหญ่ เปิดให้เข้าชมฟรีที่ทำเนียบเอลิเซ่ช่วงสุดสัปดาห์",
-  "image": "https://www.asahi.com/and/ogp/ogp_and.png",
+  "image": "https://afpbb.ismcdn.jp/mwimgs/b/a/1000x/img_baff00fdbd85e4656c36749b8b4025c4274277.jpg",
   "official": null,
   "sources": [
    {
@@ -744196,12 +744234,12 @@
   "updated": "2026-10-28",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-24",
+  "imageTriedAt": "2026-11-25",
   "article": "https://japan.cnet.com/release/31222391/",
   "placeChecked": true,
   "regionTried": true,
   "dateTried": true,
-  "imageFrom": "https://www.asahi.com/and/pressrelease/17034072",
+  "imageFrom": "https://www.afpbb.com/articles/-/3661486",
   "imageHash": null
  },
  {
@@ -766424,8 +766462,8 @@
    "festival"
   ],
   "summary_th": "The Mage - คนเก็บผี เปิดตัวรอบปฐมทัศน์โลกที่เทศกาล Bucheon Fantastic Film Festival เกาหลีใต้ เมื่อเดือนที่ผ่านมา",
-  "image": "https://storage-wp.naewna.com/2026/09/IMG_3108.jpeg",
-  "imageFrom": "https://www.naewna.com/n/breaking/59382/",
+  "image": "https://media.komchadluek.net/uploads/images/md/2026/09/JJP1tUkeFGkccLDomzbR.webp",
+  "imageFrom": "https://www.komchadluek.net/entertainment/movies/623089",
   "imageHash": null,
   "official": null,
   "sources": [
@@ -785242,7 +785280,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตทัวร์ Stars Align ของ Freya Skye ที่เมืองคาร์ดิฟฟ์",
-  "image": "https://www.music-news.com/images/news/Freya-Sky.jpg",
+  "image": "https://images.bangpremier.com/articleimage/2026_11_11__bssimg_1794416270cropped2403x1562.jpg",
   "official": null,
   "sources": [
    {
@@ -785260,7 +785298,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.music-news.com/news/Tickets/187254/Freya-Skye-reveals-massive-Stars-Align-global-tour-expansion-buy-tickets",
-  "imageFrom": "https://www.music-news.com/news/Tickets/187254/Freya-Skye-reveals-massive-Stars-Align-global-tour-expansion-buy-tickets",
+  "imageFrom": "https://www.contactmusic.com/story/467/3643230/freya-skye-wraps-stars-align-tour-and-reveals-her-debut-album-is-almost-finished-",
   "placeChecked": true,
   "imageHash": null,
   "regionTried": true
@@ -791752,7 +791790,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ต Freya Skye ที่ O2 Academy Brixton ลอนดอน",
-  "image": "https://images.bangpremier.com/articleimage/2026_10_15__bssimg_1792077670cropped1830x1189.jpg",
+  "image": "https://images.bangpremier.com/articleimage/2026_11_11__bssimg_1794416270cropped2403x1562.jpg",
   "official": null,
   "sources": [
    {
@@ -791772,7 +791810,7 @@
   "article": "https://www.contactmusic.com/story/467/3627487/listen-christmas-has-come-early-for-freya-skye-britain-s-breakout-pop-star-of-2026",
   "placeChecked": true,
   "regionTried": true,
-  "imageFrom": "https://www.contactmusic.com/story/467/3627487/listen-christmas-has-come-early-for-freya-skye-britain-s-breakout-pop-star-of-2026",
+  "imageFrom": "https://www.contactmusic.com/story/467/3643230/freya-skye-wraps-stars-align-tour-and-reveals-her-debut-album-is-almost-finished-",
   "imageHash": null
  },
  {
@@ -798044,7 +798082,7 @@
    "themepark"
   ],
   "summary_th": "เครื่องเล่นนุ่มฟูสำหรับเด็กที่แคโรตต้า",
-  "image": "https://www.asahi.com/and/ogp/ogp_and.png",
+  "image": null,
   "imageFrom": "https://www.asahi.com/and/pressrelease/16305493",
   "imageHash": null,
   "official": null,
@@ -798105,7 +798143,7 @@
   "updated": "2026-11-01",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-24",
+  "imageTriedAt": "2026-11-25",
   "placeChecked": true,
   "dateTried": true
  },
@@ -806076,7 +806114,7 @@
   "added": "2026-11-02",
   "updated": "2026-11-02",
   "enriched": true,
-  "imageHash": null,
+  "imageHash": "6a6bad0c8d61b752",
   "placeChecked": true,
   "dateTried": true,
   "imageTried": true,
@@ -807481,7 +807519,7 @@
    "concert"
   ],
   "summary_th": "Zeds Dead เพิ่มรอบออตตาวาในทัวร์อเมริกาเหนือ 2026",
-  "image": "https://s.yimg.com/lo/mysterio/api/59ff4f22c1f66df5ab4ccd059ce4becd7076553ffebfac75bdf5d1f1d76de6ca/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fforbes_contributor_845%2Fd97fb5ad42b81215e089040d70efb9db.jpg",
+  "image": "https://assets.exclaim.ca/image/upload/v1772649436/zeds_dead_2025_live_nation_1548c83181.jpg",
   "official": null,
   "sources": [
    {
@@ -807498,7 +807536,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://exclaim.ca/music/article/zeds-dead-map-out-2026-north-american-tour",
-  "imageFrom": "https://ca.news.yahoo.com/zeds-dead-busy-2026-plans-112324957.html",
+  "imageFrom": "https://exclaim.ca/music/article/zeds-dead-map-out-2026-north-american-tour",
   "placeChecked": true,
   "dateTried": true,
   "imageHash": "4af0a3ed5df5c870"
@@ -811574,7 +811612,7 @@
    "lights"
   ],
   "summary_th": "ประเพณีออกพรรษาและแขวนโคมถวายพุทธบูชาที่เจ้าพ่อกู่ช้าง จ.ลำพูน",
-  "image": "https://77kaodedai.b-cdn.net/2026/01/07/news-20260107-132640-001-MRSUTTIPONGSETTARANGSRI.webp",
+  "image": "https://s359.thaicdn.net/r/1200/630/pagebuilder/25bea592-3c58-4186-a54f-00075a9e0153.jpg",
   "official": null,
   "sources": [
    {
@@ -811592,7 +811630,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://travel.kapook.com/view304179.html",
-  "imageFrom": "https://77kaoded.news/07/01/2026/travel/mr-suttipongsettarangsri/59433/",
+  "imageFrom": "https://travel.kapook.com/view304179.html",
   "placeChecked": true,
   "imageHash": null,
   "hidden": true,
@@ -811728,7 +811766,7 @@
    "concert"
   ],
   "summary_th": "เดอะ แจ็คสันส์ แสดงสดที่ O2 Apollo เมืองแมนเชสเตอร์",
-  "image": "https://www.nme.com/wp-content/uploads/2026/06/the_jacksons_live.jpg",
+  "image": "https://s.yimg.com/lo/mysterio/api/7349d222139713920e4f6d447cc3e421c535dd23830063e4e45e8bbfe32ba816/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcover_media_309%2Fa22acdfeafee988ae20a2521d69bff74",
   "official": null,
   "sources": [
    {
@@ -811746,7 +811784,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.nme.com/news/music/the-jacksons-featuring-original-jackson-5-members-announce-2026-uk-tour-3952253",
-  "imageFrom": "https://www.nme.com/news/music/the-jacksons-featuring-original-jackson-5-members-announce-2026-uk-tour-3952253",
+  "imageFrom": "https://uk.news.yahoo.com/jacksons-announce-2026-uk-tour-230239772.html",
   "placeChecked": true,
   "imageHash": null
  },
@@ -811805,7 +811843,7 @@
    "concert"
   ],
   "summary_th": "เดอะ แจ็คสันส์ ขึ้นคอนเสิร์ตที่เมืองวูล์ฟแฮมป์ตัน",
-  "image": "https://www.nme.com/wp-content/uploads/2026/06/the_jacksons_live.jpg",
+  "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3248/live/8d9c2a70-7412-11ef-9b8e-438941b54bff.jpg",
   "official": null,
   "sources": [
    {
@@ -811823,7 +811861,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.nme.com/news/music/the-jacksons-featuring-original-jackson-5-members-announce-2026-uk-tour-3952253",
-  "imageFrom": "https://www.nme.com/news/music/the-jacksons-featuring-original-jackson-5-members-announce-2026-uk-tour-3952253",
+  "imageFrom": "https://www.bbc.com/news/articles/cy433qdjnkdo",
   "placeChecked": true,
   "imageHash": null
  },
@@ -812148,7 +812186,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตโซลและฟังก์ของ The Jacksons ที่เมืองวูล์ฟแฮมป์ตัน",
-  "image": "https://www.nme.com/wp-content/uploads/2026/06/the_jacksons_live.jpg",
+  "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3248/live/8d9c2a70-7412-11ef-9b8e-438941b54bff.jpg",
   "official": null,
   "sources": [
    {
@@ -812165,7 +812203,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.nme.com/news/music/the-jacksons-featuring-original-jackson-5-members-announce-2026-uk-tour-3952253",
-  "imageFrom": "https://www.nme.com/news/music/the-jacksons-featuring-original-jackson-5-members-announce-2026-uk-tour-3952253",
+  "imageFrom": "https://www.bbc.com/news/articles/cy433qdjnkdo",
   "placeSuspect": false,
   "dateTried": true,
   "imageHash": null,
@@ -814892,7 +814930,7 @@
    "concert"
   ],
   "summary_th": "เดอะแจ็คสันส์จะแสดงคอนเสิร์ตที่วูล์ฟแฮมป์ตัน",
-  "image": "https://www.nme.com/wp-content/uploads/2026/06/the_jacksons_live.jpg",
+  "image": "https://s.yimg.com/lo/mysterio/api/7349d222139713920e4f6d447cc3e421c535dd23830063e4e45e8bbfe32ba816/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcover_media_309%2Fa22acdfeafee988ae20a2521d69bff74",
   "official": null,
   "sources": [
    {
@@ -814909,7 +814947,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.nme.com/news/music/the-jacksons-featuring-original-jackson-5-members-announce-2026-uk-tour-3952253",
-  "imageFrom": "https://www.nme.com/news/music/the-jacksons-featuring-original-jackson-5-members-announce-2026-uk-tour-3952253",
+  "imageFrom": "https://uk.news.yahoo.com/jacksons-announce-2026-uk-tour-230239772.html",
   "placeChecked": true,
   "imageHash": null,
   "dateTried": true
@@ -833931,7 +833969,7 @@
    "concert"
   ],
   "summary_th": "วงร็อกดังประกาศจัดโชว์ที่คาร์ดิฟฤดูร้อน 2027",
-  "image": "https://www.nme.com/wp-content/uploads/2026/11/muse@2000x1270.jpg",
+  "image": "https://i2-prod.walesonline.co.uk/article34578720.ece/ALTERNATES/s1200d/0_TK-MAXX-PRESENTS-DEPOT-LIVE-AT-CARDIFF-CASTLE-2026-1JPG.jpg",
   "official": null,
   "sources": [
    {
@@ -833948,7 +833986,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.walesonline.co.uk/whats-on/music-nightlife-news/huge-rock-band-announces-cardiff-34882798",
-  "imageFrom": "https://www.nme.com/news/music/muse-add-huge-cardiff-show-with-chvrches-to-summer-2027-uk-tour-plans-3975543",
+  "imageFrom": "https://www.walesonline.co.uk/whats-on/music-nightlife-news/cardiff-castles-first-huge-2027-34577321",
   "imageHash": null,
   "placeChecked": true,
   "dateTried": true
@@ -836074,7 +836112,7 @@
    "market"
   ],
   "summary_th": "การเปิดตลาดและนิทรรศการศิลปะที่ศูนย์วัฒนธรรมกไมเนอร์ในเยอรมนี",
-  "image": "https://s.yimg.com/lo/mysterio/api/8e6d9aa1abc876da55e64c31a7cecbcef5bb1fd9222174913dffed20d9075dbd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwetm_elmira_articles_487%2Fc24fb27feb8538aaf883e87b0b48a0fc",
+  "image": "https://s.yimg.com/lo/mysterio/api/faea09b6ac748c16c21f8a7c6176e44ab6d250ad0a5dfa0f9300719dec7f517d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwetm_elmira_articles_487%2Fdd11561ceb1f8b2751c2027ed07911da.png",
   "official": null,
   "sources": [
    {
@@ -836092,7 +836130,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": null,
-  "imageFrom": "https://www.yahoo.com/lifestyle/articles/gmeiner-west-end-gallery-collaborate-173814262.html",
+  "imageFrom": "https://www.yahoo.com/lifestyle/articles/gmeiner-art-cultural-center-open-001241626.html",
   "placeChecked": true,
   "imageHash": "2c728ffc2f394fee"
  },
@@ -837008,7 +837046,7 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.classicpopmag.com/events/heaven-17-announce-the-greatest-hits-live-with-orchestra-tour/",
   "imageFrom": "https://www.broadwayworld.com/bwwmusic/article/Photos-Heaven-17-to-Tour-UK-with-Orchestra-in-November-2027-Including-Edinburgh-Sheffield-and-London-20261109",
-  "imageHash": null,
+  "imageHash": "c9bc3cdec0c90be0",
   "placeChecked": true,
   "dateTried": true
  },
@@ -840485,7 +840523,7 @@
    "idol"
   ],
   "summary_th": "NEXZ จัดแฟนมีตติ์ครั้งที่ 2 อย่างเป็นทางการในเกาหลีในเดือนธันวาคม 2026",
-  "image": "https://photo.newsen.com/news_photo/2026/11/12/202611121539402410_2.jpg",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -843705,7 +843743,7 @@
    "festival"
   ],
   "summary_th": "College Football Playoff จัดคอนเสิร์ตดนตรีอิเล็กทรอนิกส์ฟรีที่ลาสเวกัส",
-  "image": "https://ewscripps.brightspotcdn.com/dims4/default/d43b916/2147483647/strip/true/crop/3900x2048+0+68/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2Fb2%2Fc3%2F12924941407685f36570ca9e3162%2Fdigital-las-vegas-welcome-sign-2027.jpg",
+  "image": "https://media.lasvegassun.com/media/img/photos/2026/05/19/Jamal_Eid_for_EDC_Las_Vegas1_3seoWhC_t1200.jpg?a58a258a4dac404905303588401680fdf3ee23e4",
   "official": null,
   "sources": [
    {
@@ -843722,7 +843760,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://lasvegassun.com/news/2026/nov/14/college-football-playoff-names-top-electronic-musi/",
-  "imageFrom": "https://www.ktnv.com/sports/las-vegas-gears-up-to-host-college-football-playoff-what-to-know-about-events-traffic-plans",
+  "imageFrom": "https://lasvegassun.com/news/2026/nov/14/college-football-playoff-names-top-electronic-musi/",
   "imageHash": null,
   "placeChecked": true
  },
@@ -848465,7 +848503,7 @@
    "concert"
   ],
   "summary_th": "Foo Fighters ประกาศคอนเสิร์ตที่มัทเรย์ฟิลด์ เอдинเบิร์ก ในปี 2027",
-  "image": "https://media.timeout.com/images/106468218/image.jpg",
+  "image": "https://s.yimg.com/lo/mysterio/api/be4dbaf5d2428f55e47e2a055159ee88394c126b36169409c5cbb174f59ff2e5/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_northern_echo_uk_642%2F73344507b0ca81840a91b122d101381f.jpg_up.jpg",
   "official": null,
   "sources": [
    {
@@ -848482,7 +848520,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://news.stv.tv/east-central/foo-fighters-announce-scottish-date-as-part-of-biggest-ever-tour",
-  "imageFrom": "https://www.timeout.com/uk/news/foo-fighters-uk-stadium-tour-2027-dates-presale-prices-111726",
+  "imageFrom": "https://uk.news.yahoo.com/foo-fighters-hint-hiatus-2027-132500516.html",
   "imageHash": "3404c31a2a84054d",
   "placeChecked": true
  },
@@ -848932,7 +848970,7 @@
    "concert"
   ],
   "summary_th": "ฟอล์์ เอาต์ บอย เพิ่มโชว์ครั้งที่สองที่ คูป ลีฟ มานเชสเตอร์ ช่วงฤดูร้อน 2027",
-  "image": "https://s.yimg.com/lo/mysterio/api/55649d4d61e58590446ef297c533d81dfe25882762a714dbc140bf33e750c5d8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftime_out_uk_111%2F26272c8b405d22d2bb7ac51e7bc10097.jpg",
+  "image": "https://i2-prod.manchestereveningnews.co.uk/article34887147.ece/ALTERNATES/s1200d/1_amr_men_091126_tp.jpg",
   "official": null,
   "sources": [
    {
@@ -848949,7 +848987,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.manchestereveningnews.co.uk/whats-on/music-nightlife-news/fall-out-boy-confirm-first-34887132",
-  "imageFrom": "https://uk.style.yahoo.com/fall-boy-2027-uk-tour-110418373.html",
+  "imageFrom": "https://www.manchestereveningnews.co.uk/whats-on/music-nightlife-news/fall-out-boy-confirm-first-34887132",
   "placeChecked": true,
   "imageHash": null
  },
@@ -849277,7 +849315,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ตทัวร์ 2027 ของ HANA ที่โอกินาวะ ซันโทรวี่ อารีน่า (รายละเอียดวันที่ยังไม่ประกาศ)",
-  "image": "https://prtimes.jp/img/132996/183/thumb/d132996-183-7d9010501ccedd7f8aad-0.jpg",
+  "image": "https://realsound.jp/wp-content/uploads/2026/11/20261101-hana-99.jpeg",
   "official": null,
   "sources": [
    {
@@ -849294,7 +849332,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://natalie.mu/music/news/696152",
-  "imageFrom": "https://www.oricon.co.jp/pressrelease/3076609/",
+  "imageFrom": "https://realsound.jp/2026/11/post-2571441.html",
   "imageHash": null,
   "placeChecked": true
  },
@@ -849347,7 +849385,7 @@
    "concert"
   ],
   "summary_th": "ฟู ไฟท์เฟอร์สประกาศทัวร์สเตเดียมยุโรป-อังกฤษ 2027 รวมเวมเบลลี่ แมร์ริฟิลด์ และดาร์ลิงตัน",
-  "image": "https://media.timeout.com/images/106468218/image.jpg",
+  "image": "https://images.radiox.co.uk/images/855605?width=1200&crop=16_9&signature=p8XgTWhL2EQtuR4-LOORw5so2-0=",
   "official": null,
   "sources": [
    {
@@ -849448,7 +849486,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.radiox.co.uk/artists/foo-fighters/2027-take-cover-uk-ire-stadium-tour-dates-tickets/",
-  "imageFrom": "https://www.timeout.com/uk/news/foo-fighters-uk-stadium-tour-2027-dates-presale-prices-111726",
+  "imageFrom": "https://www.radiox.co.uk/artists/foo-fighters/2027-take-cover-uk-ire-stadium-tour-dates-tickets/",
   "imageHash": null,
   "placeChecked": true
  },
@@ -851424,7 +851462,7 @@
    "festival"
   ],
   "summary_th": "เทศกาลดนตรีฟรีในงาน College Football Playoff ที่ลาสเวกัส มีดีเจดังเป็นหัวโปรแกรม",
-  "image": "https://news3lv.com/resources/media2/16x9/631/1320/0x41/90/c1c4c4dd-a667-4d04-a642-7c414c9ad4e8-CFPTROPHYPICALLEGIANT.jpg",
+  "image": "https://media.lasvegassun.com/media/img/photos/2026/05/19/Jamal_Eid_for_EDC_Las_Vegas1_3seoWhC_t1200.jpg?a58a258a4dac404905303588401680fdf3ee23e4",
   "official": null,
   "sources": [
    {
@@ -851441,7 +851479,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://lasvegassun.com/news/2026/nov/14/college-football-playoff-names-top-electronic-musi/",
-  "imageFrom": "https://news3lv.com/sports/content/cfp-announce-star-studded-college-football-playoff-music-festival-line-up-more",
+  "imageFrom": "https://lasvegassun.com/news/2026/nov/14/college-football-playoff-names-top-electronic-musi/",
   "imageHash": null,
   "placeChecked": true
  },
@@ -851884,7 +851922,8 @@
   "imageTriedAt": "2026-11-22",
   "article": null,
   "placeChecked": true,
-  "verified": true
+  "verified": true,
+  "dateTried": true
  },
  {
   "id": "5c64cab68cde",
@@ -854910,7 +854949,7 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://themusicuniverse.com/cattle-country-festival-reveals-2027-lineup/",
   "imageFrom": "https://www.yahoo.com/entertainment/music/articles/no-party-country-fest-draws-085836040.html",
-  "imageHash": null,
+  "imageHash": "d14c431a9b275c24",
   "placeChecked": true
  },
  {
@@ -855120,7 +855159,7 @@
    "concert"
   ],
   "summary_th": "Foo Fighters ประกาศทัวร์สเตเดียม UK 2027 พร้อม Queens of the Stone Age, Iggy Pop, Garbage และ The Hives",
-  "image": "https://media.timeout.com/images/106468218/image.jpg",
+  "image": "https://images.radiox.co.uk/images/855605?width=1200&crop=16_9&signature=p8XgTWhL2EQtuR4-LOORw5so2-0=",
   "official": null,
   "sources": [
    {
@@ -855144,7 +855183,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.radiox.co.uk/artists/foo-fighters/2027-take-cover-uk-ire-stadium-tour-dates-tickets/",
-  "imageFrom": "https://www.timeout.com/uk/news/foo-fighters-uk-stadium-tour-2027-dates-presale-prices-111726",
+  "imageFrom": "https://www.radiox.co.uk/artists/foo-fighters/2027-take-cover-uk-ire-stadium-tour-dates-tickets/",
   "imageHash": null,
   "placeChecked": true
  },
@@ -855917,7 +855956,7 @@
    "local"
   ],
   "summary_th": "เทศกาลไหมนานาชาติครั้งที่ 47 จัดขึ้น 12 วัน 12 คืนที่ขอนแก่น พร้อมขบวนหมอแคน 229 คน",
-  "image": "https://kkdata.khonkaenlink.info/wp-content/uploads/2026/11/cover-silk-festival-history-editorial.webp",
+  "image": "https://www.banmuang.co.th/uploads/news/img/l/498769_th.jpg",
   "official": null,
   "sources": [
    {
@@ -855934,7 +855973,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.khonkaenlink.info/read/912694/",
-  "imageFrom": "https://www.khonkaenlink.info/read/912694/",
+  "imageFrom": "https://www.banmuang.co.th/news/region/498769",
   "imageHash": null,
   "placeChecked": true,
   "verified": true
@@ -857538,7 +857577,7 @@
    "concert"
   ],
   "summary_th": "Foo Fighters ประกาศทัวร์สเตเดียมในปี 2027 ครอบคลุม UK และยุโรป",
-  "image": "https://media.timeout.com/images/106468218/image.jpg",
+  "image": "https://images.radiox.co.uk/images/855605?width=1200&crop=16_9&signature=p8XgTWhL2EQtuR4-LOORw5so2-0=",
   "official": null,
   "sources": [
    {
@@ -857555,7 +857594,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.timeout.com/uk/news/foo-fighters-uk-stadium-tour-2027-dates-presale-prices-111726",
-  "imageFrom": "https://www.timeout.com/uk/news/foo-fighters-uk-stadium-tour-2027-dates-presale-prices-111726",
+  "imageFrom": "https://www.radiox.co.uk/artists/foo-fighters/2027-take-cover-uk-ire-stadium-tour-dates-tickets/",
   "placeChecked": true,
   "imageHash": null
  },
@@ -857924,7 +857963,7 @@
    "concert"
   ],
   "summary_th": "เอชเอ็นเอ จัดคอนเสิร์ตที่โอกินาวะ แซนโตรี อารีนา ปี 2027",
-  "image": "https://prtimes.jp/img/132996/183/thumb/d132996-183-7d9010501ccedd7f8aad-0.jpg",
+  "image": "https://realsound.jp/wp-content/uploads/2026/11/20261101-hana-99.jpeg",
   "official": null,
   "sources": [
    {
@@ -857941,7 +857980,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://realsound.jp/2026/11/post-2571441.html",
-  "imageFrom": "https://www.oricon.co.jp/pressrelease/3076609/",
+  "imageFrom": "https://realsound.jp/2026/11/post-2571441.html",
   "imageHash": null,
   "placeChecked": true
  },
@@ -861211,7 +861250,7 @@
    "concert"
   ],
   "summary_th": "ทัวร์คอนเสิร์ตอารีนาเฉลิมฉลอง 30 ปีของ Steps พร้อมศิลปินร่วมทาง B*Witched, A1 และ Vengaboys ในปี 2027",
-  "image": "https://i2-prod.manchestereveningnews.co.uk/article34916743.ece/ALTERNATES/s1200d/1_STEPS-BLUE-CHIFFON-2.jpg",
+  "image": "https://s.yimg.com/lo/mysterio/api/69fdc012b3b9ac2e9fe6696ee84a986c3171a74553732510ce67d88c042bf7c4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_northern_echo_uk_642%2Fb4af02315391f089d68c4043266d65e0.jpg",
   "official": null,
   "sources": [
    {
@@ -861228,7 +861267,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.thesun.co.uk/tvandshowbiz/41033935/steps-comeback-tour-docuseries/",
-  "imageFrom": "https://www.manchestereveningnews.co.uk/whats-on/music-nightlife-news/steps-announce-30th-anniversary-2027-34916638",
+  "imageFrom": "https://uk.news.yahoo.com/steps-announce-north-east-arena-103518172.html",
   "imageHash": null,
   "placeChecked": true
  },
@@ -863261,7 +863300,7 @@
    "concert"
   ],
   "summary_th": "ซีเวิลด์ซานอันโตนิโอยืนยันซีรีย์คอนเสิร์ตปี 2027 พร้อมศิลปินชื่อดัง",
-  "image": "http://www.bing.com/th?id=ONUT.I8e3kxw1DUX5-2TeK3Lqqg&pid=News",
+  "image": "https://themusicuniverse.com/wp-content/uploads/2026/11/seaworld.jpg",
   "official": null,
   "sources": [
    {
@@ -863278,8 +863317,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://themusicuniverse.com/seaworld-reveals-2027-concert-lineup/",
-  "imageFrom": "https://www.thehypemagazine.com/2026/11/20/seaworld-2027-concert-lineup-rick-ross-lil-jon/",
-  "imageHash": "3a1ccc2628714057",
+  "imageFrom": "https://themusicuniverse.com/seaworld-reveals-2027-concert-lineup/",
+  "imageHash": null,
   "placeChecked": true
  },
  {
@@ -864191,7 +864230,7 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.el19digital.com/articulos/ver/184738-intur-anuncia-festival-gastronomico-y-tradiciones-navidenas-de-nuestros-pueblos",
   "imageFrom": "https://prensamercosur.org/2026/11/24/nueva-edicion-del-festival-gastronomico-y-tradiciones-navidenas-de-nicaragua/",
-  "imageHash": null,
+  "imageHash": "09154cb127881898",
   "placeChecked": true
  },
  {
@@ -872676,7 +872715,7 @@
    "idol"
   ],
   "summary_th": "IU จัดคอนเสิร์ต 2 คืนที่สนามกีฬาไคตัค ฮ่องกง ในเดือนเมษายน 2570",
-  "image": "https://0.soompi.io/wp-content/uploads/2026/11/23004619/IU.jpeg",
+  "image": "https://cdn.data.ibtimes.sg/en/full/93257/iu.jpg?w=1200&h=630?q=60",
   "official": null,
   "sources": [
    {
@@ -872700,7 +872739,7 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.soompi.com/article/1889538wpp/iu-announces-dates-and-cities-for-2027-world-tour",
-  "imageFrom": "https://www.soompi.com/article/1889538wpp/iu-announces-dates-and-cities-for-2027-world-tour",
+  "imageFrom": "https://www.ibtimes.sg/iu-announces-2027-world-tour-check-dates-cities-singer-makes-tokyo-dome-history-details-inside-96579",
   "imageHash": null,
   "placeChecked": true
  },
@@ -873510,7 +873549,7 @@
    "themepark"
   ],
   "summary_th": "SeaWorld Orlando จัดเทศกาลคอนเสิร์ต 29 รอบปี 2027 เข้าฟรีกับค่าเข้าสวนสนุก",
-  "image": "http://www.bing.com/th?id=ONUT.RX_lJ4aNEWjBhQPcZgDyxA&pid=News",
+  "image": "https://themusicuniverse.com/wp-content/uploads/2026/11/seaworld.jpg",
   "official": null,
   "sources": [
    {
@@ -873527,9 +873566,9 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://themusicuniverse.com/seaworld-reveals-2027-concert-lineup/",
-  "imageFrom": "https://hoodline.com/2026/11/seaworld-orlando-books-flo-rida-jojo-siwa-lil-jon-for-29-show-2027-concert-run/",
+  "imageFrom": "https://themusicuniverse.com/seaworld-reveals-2027-concert-lineup/",
   "placeChecked": true,
-  "imageHash": "8eeb12247c1f8ca1"
+  "imageHash": null
  },
  {
   "id": "5951a4f4e30d",
@@ -873703,7 +873742,7 @@
    "themepark"
   ],
   "summary_th": "SeaWorld Orlando จัดเทศกาลดนตรี 29 คอนเสิร์ตในปี 2027 เข้าร่วมได้ฟรีกับตั๋วเข้าสวน",
-  "image": "http://www.bing.com/th?id=ONUT.RX_lJ4aNEWjBhQPcZgDyxA&pid=News",
+  "image": "https://img.hoodline.com/2026/11/seaworld-orlando-books-flo-rida-jojo-siwa-lil-jon-for-29-show-2027-concert-run.webp",
   "official": null,
   "sources": [
    {
@@ -873718,10 +873757,10 @@
   "updated": "2026-11-23",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-23",
+  "imageTriedAt": "2026-11-25",
   "article": "https://themusicuniverse.com/seaworld-reveals-2027-concert-lineup/",
   "imageFrom": "https://hoodline.com/2026/11/seaworld-orlando-books-flo-rida-jojo-siwa-lil-jon-for-29-show-2027-concert-run/",
-  "imageHash": "8eeb12247c1f8ca1",
+  "imageHash": null,
   "placeChecked": true
  },
  {
@@ -876526,7 +876565,7 @@
    "concert"
   ],
   "summary_th": "วง Bros ประกาศทัวร์คอนเสิร์ตร่วมร้องกันใหม่ในปี 2027 รอบ UK รวมถึงเวมเบลลีย์",
-  "image": "http://www.bing.com/th?id=ONUT.1a6swb9K4uJ8Fhna_rWPSg&pid=News",
+  "image": "https://i2-prod.mirror.co.uk/article37911902.ece/ALTERNATES/s1200d/0_JBP_DXX_231126DMLUKEMATTGOSSBROSBRITT03JPG.jpg",
   "official": null,
   "sources": [
    {
@@ -876565,7 +876604,7 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.thesun.co.uk/tvandshowbiz/41124248/bros-tour-tickets-sale-2027-tour-dates-buy/",
   "imageFrom": "https://www.mirror.co.uk/3am/celebrity-news/bros-comeback-tour-2027-goss-37910294",
-  "imageHash": "445f806b9d7c376d",
+  "imageHash": null,
   "placeChecked": true
  },
  {
@@ -876602,7 +876641,7 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://nextmosh.com/quicksand-announce-2027-uk-and-european-tour/",
   "imageFrom": "https://nextmosh.com/quicksand-announce-2027-uk-and-european-tour/",
-  "imageHash": null,
+  "imageHash": "ae55b979fccdb4bb",
   "placeChecked": true
  },
  {
@@ -876929,7 +876968,7 @@
    "festival"
   ],
   "summary_th": "เทศกาลใหม่บนชายหาดแบล็คพูล ประกาศเฮดไลนเนอร์ระดับใหญ่",
-  "image": "http://www.bing.com/th?id=ONUT.5UFB1LJGJ8i-hdxKog7h-w&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.bRLpQpoogLY0FSSi926cmA&pid=News",
   "official": null,
   "sources": [
    {
@@ -876944,10 +876983,10 @@
   "updated": "2026-11-24",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-24",
+  "imageTriedAt": "2026-11-25",
   "article": "https://www.efestivals.co.uk/festivals/other2027/2027SeasideLove",
-  "imageFrom": "https://www.efestivals.co.uk/festivals/other2027/2027SeasideLove",
-  "imageHash": "07a949b68d93f4fe",
+  "imageFrom": "https://louderthanwar.com/gary-numan-to-headline-blackpool-boneyard-weekender-2027/",
+  "imageHash": "4cd442ff6ad158bd",
   "placeChecked": true
  },
  {
@@ -877669,7 +877708,7 @@
    "concert"
   ],
   "summary_th": "ซีเวิลด์ ประกาศไลน์อัพคอนเสิร์ต 2027 กว่า 50 รอบ",
-  "image": "http://www.bing.com/th?id=ONUT.I8e3kxw1DUX5-2TeK3Lqqg&pid=News",
+  "image": "https://themusicuniverse.com/wp-content/uploads/2026/11/seaworld.jpg",
   "official": null,
   "sources": [
    {
@@ -877686,8 +877725,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://themusicuniverse.com/seaworld-reveals-2027-concert-lineup/",
-  "imageFrom": "https://www.thehypemagazine.com/2026/11/20/seaworld-2027-concert-lineup-rick-ross-lil-jon/",
-  "imageHash": "3a1ccc2628714057",
+  "imageFrom": "https://themusicuniverse.com/seaworld-reveals-2027-concert-lineup/",
+  "imageHash": null,
   "placeChecked": true
  },
  {
@@ -878072,7 +878111,7 @@
    "concert"
   ],
   "summary_th": "บรอสประกาศทัวร์เวทีอารีนาในปี 2027 รวมถึงเวมเบลลี่ นิวคาสเซิล เซฟฟิลด์ และกลาสโกว์",
-  "image": "http://www.bing.com/th?id=ONUT.1a6swb9K4uJ8Fhna_rWPSg&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.S2x-hJQMgNq_yGBj1YQlsw&pid=News",
   "official": null,
   "sources": [
    {
@@ -878124,8 +878163,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.thesun.co.uk/tvandshowbiz/41124248/bros-tour-tickets-sale-2027-tour-dates-buy/",
-  "imageFrom": "https://www.mirror.co.uk/3am/celebrity-news/bros-comeback-tour-2027-goss-37910294",
-  "imageHash": "445f806b9d7c376d",
+  "imageFrom": "https://www.contactmusic.com/story/469/3649603/bros-announce-2027-tour",
+  "imageHash": "75615a6f7016c7f1",
   "placeChecked": true
  },
  {
@@ -878144,7 +878183,7 @@
    "concert"
   ],
   "summary_th": "ควิกแซนด์ประกาศทัวร์ยุโรปและสหราชอาณาจักรปี 2027 ภายใต้ชื่อ Bring On the Psychics",
-  "image": "http://www.bing.com/th?id=ONUT.Bq16TtvSFKxvnl5tIWnetQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.1jcfui6y-7w5rosBs204tg&pid=News",
   "official": null,
   "sources": [
    {
@@ -878168,8 +878207,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://nextmosh.com/quicksand-announce-2027-uk-and-european-tour/",
-  "imageFrom": "https://www.punknews.org/article/89570/tours-quicksand-announce-european-tour-dates",
-  "imageHash": "d37a73454e2a7838",
+  "imageFrom": "https://www.ticketnews.com/2026/11/quicksand-2027-european-tour-dates/",
+  "imageHash": "fdc0b334ae278858",
   "placeChecked": true
  },
  {
@@ -878557,7 +878596,7 @@
    "festival"
   ],
   "summary_th": "เทศกาลดนตรี Off Track 2027 จะมีการแสดงของ เรมา และ ทริแองเกล เดอ บียอร์มูดส์ ที่สนามแข่งม้าปารีสลองแชมป์ ในปี 2027",
-  "image": "https://s.yimg.com/lo/mysterio/api/8f073a72484d6e1033f548eb166b74bb054857510d36514d661378f81085403d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Ffr%2Farticle.bfmtv.com%2F4cfa68ee2b87034f8388457a25ace7b9",
+  "image": "https://cdn.sortiraparis.com/images/80/1665/1115768-public-ambiance-concert.jpg",
   "official": null,
   "sources": [
    {
@@ -878574,9 +878613,9 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.sortiraparis.com/scenes/concert-musique/articles/356466-off-track-2027-rema-et-triangle-des-bermudes-en-concert-a-l-hippodrome-parislongchamp",
-  "imageFrom": "https://fr.news.yahoo.com/lengouement-mondial-triangle-bermudes-trio-050100734.html",
+  "imageFrom": "https://www.sortiraparis.com/scenes/concert-musique/articles/356466-off-track-2027-rema-et-triangle-des-bermudes-en-concert-a-l-hippodrome-parislongchamp",
   "placeChecked": true,
-  "imageHash": null
+  "imageHash": "f3437e074d88be0c"
  },
  {
   "id": "8fe132b27274",
@@ -878749,7 +878788,7 @@
    "concert"
   ],
   "summary_th": "คอนเสิร์ต Garth Brooks 2 รอบที่รัพป์ อเรน่า ลีกซิงตัน",
-  "image": "http://www.bing.com/th?id=ONUT.Jocch_phGq44fwCNKcJ2Gw&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.KjoNsD-dGfOfole58uBftQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -878764,10 +878803,10 @@
   "updated": "2026-11-24",
   "enriched": true,
   "imageTried": true,
-  "imageTriedAt": "2026-11-24",
+  "imageTriedAt": "2026-11-25",
   "article": "https://www.aol.com/articles/garth-brooks-reveals-city-more-135854000.html",
-  "imageFrom": "https://www.aol.com/articles/garth-brooks-reveals-city-more-135854000.html",
-  "imageHash": "4b8c31d6c65b34b7",
+  "imageFrom": "https://www.miamiherald.com/news/nation-world/national/article318233604.html",
+  "imageHash": "4845d2e5c180002b",
   "placeChecked": true
  },
  {
@@ -879363,7 +879402,7 @@
    "festival"
   ],
   "summary_th": "เทศกาลดนตรีในรัฐเท็กซัสจัดขึ้นเพื่อร่วมฉลองการกลับมารวมกันของวง Cross Canadian Ragweed",
-  "image": "https://s.yimg.com/lo/mysterio/api/9db719a7fdcd00fd5958868430f63ebc37afc392e31d50ef464ca9d5c97f52e8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe-oklahoman%2F4a8826a57ac46da5f1a58fb37bf36627.jpg",
+  "image": "https://themusicuniverse.com/wp-content/uploads/2026/11/cattlecountryfest27.jpg",
   "official": null,
   "sources": [
    {
@@ -879380,8 +879419,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://themusicuniverse.com/cattle-country-festival-reveals-2027-lineup/",
-  "imageFrom": "https://www.yahoo.com/entertainment/music/articles/cross-canadian-ragweed-headline-choctaw-212147842.html",
-  "imageHash": null,
+  "imageFrom": "https://themusicuniverse.com/cattle-country-festival-reveals-2027-lineup/",
+  "imageHash": "08625abfb5b840a0",
   "placeChecked": true
  },
  {
@@ -879738,7 +879777,7 @@
    "expo"
   ],
   "summary_th": "งานแสดงสินค้า Sim Global Expo จัดที่ Excel London ลอนดอน ประจำเดือนกุมภาพันธ์ 2027",
-  "image": "https://www.nasdaq.com/sites/acquia.prod/files/2024/04/05/Nasdaq%20default%20share%20image.jpg?1348650013",
+  "image": "https://www.nasdaq.com/sites/acquia.prod/files/2024/04/05/Nasdaq%20default%20share%20image.jpg?212301374",
   "official": null,
   "sources": [
    {
@@ -880327,7 +880366,7 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.hospitalitymagazine.com.au/australias-longest-running-regional-food-festival-to-return-with-10-day-program/",
   "imageFrom": "https://www.broadsheet.com.au/sydney/food-and-drink/article/orange-food-week-australias-most-underrated-food-festival",
-  "imageHash": null,
+  "imageHash": "ed141c8535d74c3d",
   "placeChecked": true
  },
  {
@@ -881137,7 +881176,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.efestivals.co.uk/festivals/truck/2027",
   "imageFrom": "https://uk.news.yahoo.com/truck-festival-2027-sugababes-supergrass-110600366.html",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "804b9dbbf89b2335"
  },
  {
   "id": "e483b1d03411",
@@ -881443,7 +881483,7 @@
    "concert"
   ],
   "summary_th": "ควิกแซนด์ประกาศทัวร์ UK/ยุโรป",
-  "image": "http://www.bing.com/th?id=ONUT.Bq16TtvSFKxvnl5tIWnetQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.1jcfui6y-7w5rosBs204tg&pid=News",
   "official": null,
   "sources": [
    {
@@ -881460,8 +881500,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://nextmosh.com/quicksand-announce-2027-uk-and-european-tour/",
-  "imageFrom": "https://www.punknews.org/article/89570/tours-quicksand-announce-european-tour-dates",
-  "imageHash": "d37a73454e2a7838",
+  "imageFrom": "https://www.ticketnews.com/2026/11/quicksand-2027-european-tour-dates/",
+  "imageHash": "fdc0b334ae278858",
   "placeChecked": true
  },
  {
@@ -881673,7 +881713,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.businessinsider.com/kpop-seventeen-joshua-jeonghan-jxj-dreaming-tour-incheon-best-friends-2026-11",
   "imageFrom": "https://www.businessinsider.com/kpop-seventeen-joshua-jeonghan-jxj-dreaming-tour-incheon-best-friends-2026-11",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "1c7c69e48edaf309"
  },
  {
   "id": "b33ecbc68247",
@@ -881821,7 +881862,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.abc.net.au/news/2026-07-30/silent-discos-drawing-in-crowds-across-australia/106977764",
   "imageFrom": "https://www.abc.net.au/news/2026-07-30/silent-discos-drawing-in-crowds-across-australia/106977764",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "e82ee5cdc5370989"
  },
  {
   "id": "06e5573ccfbc",
@@ -881839,7 +881881,7 @@
    "festival"
   ],
   "summary_th": "เทศกาลใหม่จะจัดขึ้นที่ชายหาดแบล็คพูล พร้อมเฮดไลเนอร์ชื่อดัง",
-  "image": "http://www.bing.com/th?id=ONUT.5UFB1LJGJ8i-hdxKog7h-w&pid=News",
+  "image": "https://s.yimg.com/lo/mysterio/api/d7043d1ebbf970dc4ddfea3fd2c8a99bd392cad88b0434c9f488b71d494b80b0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Flancashire_telegraph_157%2Fe98995ec9577d20e72a786adc883090d.jpg_up.jpg",
   "official": null,
   "sources": [
    {
@@ -881856,8 +881898,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.efestivals.co.uk/festivals/other2027/2027SeasideLove",
-  "imageFrom": "https://www.efestivals.co.uk/festivals/other2027/2027SeasideLove",
-  "imageHash": "07a949b68d93f4fe",
+  "imageFrom": "https://uk.news.yahoo.com/blackpool-festival-announces-streets-two-180000665.html",
+  "imageHash": null,
   "placeChecked": true
  },
  {
@@ -881949,7 +881991,7 @@
    "expo"
   ],
   "summary_th": "งานแสดงสินค้าเกมวิดีโอขนาดใหญ่ที่สุดในอดิลเลด เปลี่ยนฤดูกาลจากฤดูร้อนเป็นฤดูหนาว",
-  "image": "http://www.bing.com/th?id=ONUT.tD5mrDYUQMceD6ipRbqs1g&pid=News",
+  "image": null,
   "official": null,
   "sources": [
    {
@@ -881967,7 +882009,7 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.screenhub.com.au/news/industry-news/adelaides-biggest-video-games-expo-is-swapping-summer-for-winter-2711102/",
   "imageFrom": "https://www.screenhub.com.au/news/industry-news/adelaides-biggest-video-games-expo-is-swapping-summer-for-winter-2711102/",
-  "imageHash": "5a6885a3d600193b",
+  "imageHash": null,
   "placeChecked": true
  },
  {
@@ -882044,7 +882086,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.abc.es/espana/comunidad-valenciana/centro-carmen-ofrece-actividades-exposiciones-disfrutar-familia-20231228120556-nt.html",
   "imageFrom": "https://www.abc.es/espana/comunidad-valenciana/centro-carmen-ofrece-actividades-exposiciones-disfrutar-familia-20231228120556-nt.html",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "f7e3ff9eb38afd28"
  },
  {
   "id": "a3b36fe4f451",
@@ -882157,7 +882200,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://medan.tribunnews.com/tribun-medan-wiki/1767772/profil-dan-biodata-nancy-ajram-diva-yang-duet-bareng-ayu-ting-ting-di-istora-senayan",
   "imageFrom": "https://www.kapanlagi.com/foto/berita-foto/indonesia/potret-tsania-marwa-nonton-konser-nancy-ajram-di-jakarta.html",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "7f4a642bd5a2972c"
  },
  {
   "id": "ff51b01f9363",
@@ -882547,7 +882591,7 @@
    "concert"
   ],
   "summary_th": "Garth Brooks จะแสดงคอนเสิร์ต 2 คืนที่ Birmingham ในปี 2027",
-  "image": "http://www.bing.com/th?id=ONUT.Jocch_phGq44fwCNKcJ2Gw&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.nL64aRir6CyjzEqY_R_w1Q&pid=News",
   "official": null,
   "sources": [
    {
@@ -882564,8 +882608,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.aol.com/articles/garth-brooks-reveals-city-more-135854000.html",
-  "imageFrom": "https://www.aol.com/articles/garth-brooks-reveals-city-more-135854000.html",
-  "imageHash": "4b8c31d6c65b34b7",
+  "imageFrom": "https://tasteofcountry.com/garth-brooks-2027-blame-it-all-on-my-roots-tour-dates-birmingham-alabama/",
+  "imageHash": "dcb79b6495fde58a",
   "placeChecked": true
  },
  {
@@ -882848,7 +882892,7 @@
    "food"
   ],
   "summary_th": "งานแสดงสินค้าและเทศกาลประจำปีที่ริเวอร์ไซด์ เคาน์ตี้ ประกาศเข้าชมฟรีสำหรับเด็กปี 2027",
-  "image": "http://www.bing.com/th?id=ONUT.lULwsXJiolNDDycVgMIcXQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.yyIuItoYtNmF6DBV6A3szQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -882865,8 +882909,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.sacbee.com/news/california/article318242550.html",
-  "imageFrom": "https://www.sacbee.com/news/california/article318242550.html",
-  "imageHash": "e5737bdd4b35cd91",
+  "imageFrom": "https://kesq.com/news/2026/11/24/riverside-county-fair-date-festival-offers-free-admission-to-children/",
+  "imageHash": "df1bca1244e6a558",
   "placeChecked": true
  },
  {
@@ -883070,7 +883114,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.skiddle.com/festivals/crossthetracks/?skcampaign=london-music-festivals-2027",
   "imageFrom": "https://uk.style.yahoo.com/loyle-carner-cross-tracks-2027-165002125.html",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "246831b76b33fc5d"
  },
  {
   "id": "178766fc6989",
@@ -883106,7 +883151,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.atpress.ne.jp/news/9591668",
   "imageFrom": "https://www.atpress.ne.jp/news/9591668",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "b8ab663b72a3d8eb"
  },
  {
   "id": "93d2bfad83ce",
@@ -883543,7 +883589,7 @@
    "concert"
   ],
   "summary_th": "นักร้อง TOMOO จัดทัวร์ร้องเล่นกีตาร์ทั่วประเทศ จบที่นิปปอน บูโดะคัง",
-  "image": "http://www.bing.com/th?id=ONUT.N50EoJZj7i1_tIu8NGyytQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.pp7mABmW-Hcc_vgefCY7mw&pid=News",
   "official": null,
   "sources": [
    {
@@ -883560,8 +883606,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.sankei.com/article/20261124-QCNBQFXLWVIVFIR2XNCFLK5FGU/?outputType=theme_oriconnews",
-  "imageFrom": "https://www.sankei.com/article/20261124-QCNBQFXLWVIVFIR2XNCFLK5FGU/?outputType=theme_oriconnews",
-  "imageHash": "76049d66a86e5652",
+  "imageFrom": "https://www.toonippo.co.jp/articles/-/2409625",
+  "imageHash": "8e6d3aa512719dff",
   "placeChecked": true
  },
  {
@@ -883582,7 +883628,7 @@
    "festival"
   ],
   "summary_th": "บรรทัดซัน เข้าร่วมงาน ANI-ROCK FES.2026 และประกาศจัดคอนเสิร์ตเดี่ยว ปี 2027",
-  "image": "http://www.bing.com/th?id=ONUT.XaWME2jmgz10I01XRTWgKw&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.PGyjG7QhQaoTZceOVmQYNA&pid=News",
   "official": null,
   "sources": [
    {
@@ -883599,8 +883645,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://news.livedoor.com/article/detail/32893208/",
-  "imageFrom": "https://news.livedoor.com/article/detail/32893208/",
-  "imageHash": "ea438c9874ddd32e",
+  "imageFrom": "https://skream.jp/news/2026/11/brian_the_sun_reparade.php",
+  "imageHash": "4fcea7e6edda7545",
   "placeChecked": true
  },
  {
@@ -883619,7 +883665,7 @@
    "concert"
   ],
   "summary_th": "บรรทัดซัน จัดคอนเสิร์ตเดี่ยวที่โตเกียวและออซาก้าในพฤษภาคม 2027",
-  "image": "http://www.bing.com/th?id=ONUT.XaWME2jmgz10I01XRTWgKw&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.y3Ful-DK_eNyaKXibsQhOQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -883636,8 +883682,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://news.livedoor.com/article/detail/32893208/",
-  "imageFrom": "https://news.livedoor.com/article/detail/32893208/",
-  "imageHash": "ea438c9874ddd32e",
+  "imageFrom": "https://www.fukuishimbun.co.jp/articles/-/2754212",
+  "imageHash": "e2192cb54c245351",
   "placeChecked": true
  },
  {
@@ -883771,7 +883817,7 @@
    "art"
   ],
   "summary_th": "นิทรรศการที่กิมเฮ่สำรวจประวัติศาสตร์คายะผ่านศิลปะร่วมสมัย",
-  "image": "https://wimg.heraldcorp.com/",
+  "image": "https://img.koreatimes.co.kr/upload/newsV2/images/201912/5413aec420af464096aa82195ed8f808.jpg",
   "official": null,
   "sources": [
    {
@@ -883788,8 +883834,9 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.koreaherald.com/article/2170651",
-  "imageFrom": "https://www.koreaherald.com/article/2170651",
-  "placeChecked": true
+  "imageFrom": "https://www.koreatimes.co.kr/www/art/2023/11/690_279654.html",
+  "placeChecked": true,
+  "imageHash": "7dd71afcfb14e105"
  },
  {
   "id": "7fc36a8ffd22",
@@ -883864,7 +883911,8 @@
   "imageTriedAt": "2026-11-25",
   "article": null,
   "imageFrom": "https://uk.news.yahoo.com/women-festival-launch-near-calne-050000892.html",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "8a5ac2252dad7927"
  },
  {
   "id": "6c349bb8be7f",
@@ -883901,7 +883949,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.nwemail.co.uk/news/26756207.ulverston-dickensian-festival-road-closures-event/",
   "imageFrom": "https://www.nwemail.co.uk/news/26756207.ulverston-dickensian-festival-road-closures-event/",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "744209ffcf4a26b8"
  },
  {
   "id": "b858cfc2c7ee",
@@ -884012,7 +884061,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.asiae.co.kr/en/article/2025040108420114993",
   "imageFrom": "https://www.asiae.co.kr/en/article/2025040108420114993",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "11735695e15fe6cb"
  },
  {
   "id": "819c496b4f47",
@@ -884049,7 +884099,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.hawaiinewsnow.com/2026/11/24/pua-party-fashion-showcase-celebrates-hawaiis-creative-community/",
   "imageFrom": "https://www.hawaiinewsnow.com/2026/11/24/pua-party-fashion-showcase-celebrates-hawaiis-creative-community/",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "8c670caaff31804b"
  },
  {
   "id": "5b747554091b",
@@ -884461,7 +884512,8 @@
   "imageTriedAt": "2026-11-25",
   "article": "https://www.miragenews.com/registration-opens-for-2027-premiers-gala-1782396/",
   "imageFrom": "https://www.miragenews.com/registration-opens-for-2027-premiers-gala-1782396/",
-  "placeChecked": true
+  "placeChecked": true,
+  "imageHash": "d6014656a55dde73"
  },
  {
   "id": "7f0663f2b055",
@@ -884518,7 +884570,7 @@
    "food"
   ],
   "summary_th": "งานแสดงจังหวัดริเวอร์ไซด์และเทศกาลเดตเสนอเข้าชมฟรีสำหรับเด็ก",
-  "image": "http://www.bing.com/th?id=ONUT.lULwsXJiolNDDycVgMIcXQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.yyIuItoYtNmF6DBV6A3szQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -884535,8 +884587,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.sacbee.com/news/california/article318242550.html",
-  "imageFrom": "https://www.sacbee.com/news/california/article318242550.html",
-  "imageHash": "e5737bdd4b35cd91",
+  "imageFrom": "https://kesq.com/news/2026/11/24/riverside-county-fair-date-festival-offers-free-admission-to-children/",
+  "imageHash": "df1bca1244e6a558",
   "placeChecked": true
  },
  {
@@ -884855,7 +884907,7 @@
    "kids"
   ],
   "summary_th": "งานแสดงสินค้าและเทศกาลวันที่ RivCo ให้เด็กเข้าชมฟรี",
-  "image": "http://www.bing.com/th?id=ONUT.lULwsXJiolNDDycVgMIcXQ&pid=News",
+  "image": "http://www.bing.com/th?id=ONUT.yyIuItoYtNmF6DBV6A3szQ&pid=News",
   "official": null,
   "sources": [
    {
@@ -884872,8 +884924,8 @@
   "imageTried": true,
   "imageTriedAt": "2026-11-25",
   "article": "https://www.sacbee.com/news/california/article318242550.html",
-  "imageFrom": "https://www.sacbee.com/news/california/article318242550.html",
-  "imageHash": "e5737bdd4b35cd91",
+  "imageFrom": "https://kesq.com/news/2026/11/24/riverside-county-fair-date-festival-offers-free-admission-to-children/",
+  "imageHash": "df1bca1244e6a558",
   "placeChecked": true
  },
  {
