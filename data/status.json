@@ -1,16 +1,16 @@
 {
- "finishedAt": "2026-11-27T02:28:25.656Z",
+ "finishedAt": "2026-11-27T14:18:06.434Z",
  "runner": "github",
- "total": 16766,
- "upcoming": 8179,
- "added": 0,
- "pending": 16145,
- "withDate": 50,
+ "total": 17126,
+ "upcoming": 8517,
+ "added": 51,
+ "pending": 16714,
+ "withDate": 51,
  "withImage": 86,
  "withPrice": 13,
  "ai": {
-  "calls": 66,
-  "failed": 53,
+  "calls": 221,
+  "failed": 46,
   "quota": [
    "txc_345f"
   ],
@@ -18,16 +18,16 @@
   "billingBy": [
    "tenixe"
   ],
-  "billingText": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0.02 left until it resets. Turn on Use Credit to pay the rest from your wallet, wait f",
+  "billingText": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0 left until it resets. Turn on Use Credit to pay the rest from your wallet, wait for ",
   "errorSample": {
-   "tenixe": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0.02 left until it resets. Turn on Use Credit ",
+   "tenixe": "empty completion (finish=stop)",
    "aiu": "403: {\"error\":{\"message\":\"This API key has no active plan. Purchase a plan to continue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"subscription_inacti"
   },
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 54,
-    "failed": 41
+    "calls": 209,
+    "failed": 34
    },
    "aiu": {
     "calls": 12,
@@ -35,15 +35,14 @@
    }
   },
   "down": false,
-  "budget": false
+  "budget": true
  },
  "streak": {
   "rate": 0,
-  "failed": 1,
-  "billing": 12
+  "failed": 0,
+  "billing": 13
  },
  "problems": [
-  "คีย์ Tenixe ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe",
-  "เรียก AI ล้มเหลว 53/66 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+  "คีย์ Tenixe ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe"
  ]
 }
