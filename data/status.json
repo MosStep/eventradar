@@ -1,49 +1,44 @@
 {
- "finishedAt": "2026-11-28T00:23:21.838Z",
+ "finishedAt": "2026-11-28T09:49:14.509Z",
  "runner": "github",
- "total": 17127,
- "upcoming": 8518,
- "added": 0,
- "pending": 17987,
- "withDate": 51,
- "withImage": 87,
+ "total": 17452,
+ "upcoming": 8633,
+ "added": 28,
+ "pending": 16123,
+ "withDate": 50,
+ "withImage": 86,
  "withPrice": 13,
  "ai": {
-  "calls": 66,
-  "failed": 53,
-  "quota": [
-   "txc_345f"
-  ],
-  "billing": true,
-  "billingBy": [
-   "tenixe"
-  ],
-  "billingText": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0.02 left until it resets. Turn on Use Credit to pay the rest from your wallet, wait f",
+  "calls": 914,
+  "failed": 785,
+  "quota": [],
+  "billing": false,
+  "billingBy": [],
+  "billingText": "",
   "errorSample": {
-   "tenixe": "402: {\"error\":{\"message\":\"Not enough plan credits for this request: it needs about 0.03 credits and your plan has 0.02 left until it resets. Turn on Use Credit ",
-   "aiu": "403: {\"error\":{\"message\":\"This API key has no active plan. Purchase a plan to continue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"subscription_inacti"
+   "tenixe": "empty completion (finish=stop)",
+   "aiu": "522: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <!"
   },
   "keys": 5,
   "providers": {
    "tenixe": {
-    "calls": 54,
-    "failed": 41
+    "calls": 130,
+    "failed": 1
    },
    "aiu": {
-    "calls": 12,
-    "failed": 12
+    "calls": 784,
+    "failed": 784
    }
   },
   "down": false,
-  "budget": false
+  "budget": true
  },
  "streak": {
   "rate": 0,
-  "failed": 1,
-  "billing": 14
+  "failed": 2,
+  "billing": 0
  },
  "problems": [
-  "คีย์ Tenixe ติดปัญหาค่าใช้จ่าย/ยอดค้างชำระ — ต้องเปลี่ยนคีย์หรือชำระที่ Tenixe",
-  "เรียก AI ล้มเหลว 53/66 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
+  "เรียก AI ล้มเหลว 785/914 ครั้ง (โควตาหมดหรือคีย์ใช้ไม่ได้)"
  ]
 }
